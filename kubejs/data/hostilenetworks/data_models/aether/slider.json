@@ -1,0 +1,45 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "entity": "aether:slider",
+    "variants": [],
+    "name_color": "#6F6F7A",
+    "display": {
+        "scale": 0.45
+    },
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:aether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.slider",
+    "fabricator_drops": [
+        {
+            "id": "aether:neptune_helmet",
+            "count": 1
+        },
+        {
+            "id": "aether:neptune_chestplate",
+            "count": 1
+        },
+        {
+            "id": "aether:neptune_leggings",
+            "count": 1
+        },
+        {
+            "id": "aether:neptune_boots",
+            "count": 1
+        },
+        {
+            "id": "aether:neptune_gloves",
+            "count": 1
+        }
+    ]
+}

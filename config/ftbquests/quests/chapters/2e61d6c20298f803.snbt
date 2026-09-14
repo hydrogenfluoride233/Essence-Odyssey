@@ -1,0 +1,21 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2e61d6c20298f803"
+	group: "76D01E7F0542ED7A"
+	id: "2E61D6C20298F803"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "35B0B8A07957E4FB"
+		tasks: [{
+			id: "6B2CB504C4FD109B"
+			item: { count: 1, id: "mekanism:steel_casing" }
+			type: "item"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+}

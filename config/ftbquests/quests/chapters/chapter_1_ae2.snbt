@@ -1,0 +1,406 @@
+{
+	autofocus_id: "06E134B2EEFB6EAF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1_ae2"
+	group: ""
+	icon: {
+		id: "kubejs:crystal_aqua"
+	}
+	id: "69D614063602F65E"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["17482BD4DB583890"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "06E134B2EEFB6EAF"
+			rewards: [{
+				id: "510268F905684FF4"
+				item: {
+					count: 1
+					id: "mekanism:cardboard_box"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1B7F5FC627746CDC"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DF94450C70D2259"]
+			id: "0DB2CD482BA01F58"
+			shape: "hexagon"
+			tasks: [{
+				id: "235441659EBA2D37"
+				item: { count: 1, id: "kubejs:crystal_aqua" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["031C571BBFFCE0B6"]
+			id: "1EA7CB9F4E022E6E"
+			shape: "hexagon"
+			tasks: [{
+				id: "2A0E15D07E30AC33"
+				item: { count: 1, id: "kubejs:crystal_ignis" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["217A0236C9312C68"]
+			id: "7F2312EB5A2653DB"
+			shape: "hexagon"
+			tasks: [{
+				id: "7C895DBC981F2800"
+				item: { count: 1, id: "kubejs:crystal_terra" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0258FA1C2F0406EA"]
+			id: "38F89B3C95DB51AC"
+			shape: "hexagon"
+			tasks: [{
+				id: "38C81099257A4DCD"
+				item: { count: 1, id: "kubejs:crystal_aer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E8041B1FBD6669F"]
+			id: "7F56175670CB6E0A"
+			shape: "hexagon"
+			tasks: [{
+				id: "16D5B8D82E457497"
+				item: { count: 1, id: "kubejs:crystal_perditio" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D1E3B2DB0CF6EB6"]
+			id: "05491F312D2EDBAB"
+			shape: "hexagon"
+			tasks: [{
+				id: "19491E791E4FC213"
+				item: { count: 1, id: "kubejs:crystal_ordo" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06E134B2EEFB6EAF"]
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "0DF94450C70D2259"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "4651A26FD444EE85"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06E134B2EEFB6EAF"]
+			icon: {
+				id: "minecraft:nether_wart"
+			}
+			id: "031C571BBFFCE0B6"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "2E539D4C6E7A1D6E"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06E134B2EEFB6EAF"]
+			icon: {
+				id: "twilightforest:canopy_sapling"
+			}
+			id: "217A0236C9312C68"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "0F6043F13D05B53E"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06E134B2EEFB6EAF"]
+			icon: {
+				id: "aether:golden_oak_sapling"
+			}
+			id: "0258FA1C2F0406EA"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "4B88945D7CE2D5C6"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06E134B2EEFB6EAF"]
+			icon: {
+				id: "minecraft:chorus_fruit"
+			}
+			id: "4E8041B1FBD6669F"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "3B6F4EFF81C353A2"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06E134B2EEFB6EAF"]
+			icon: {
+				id: "eternal_starlight:lunar_sapling"
+			}
+			id: "6D1E3B2DB0CF6EB6"
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "69D65706C3DB9D29"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DF94450C70D2259"]
+			id: "24015ACDFF37D790"
+			shape: "hexagon"
+			tasks: [{
+				id: "71C17A49F126561A"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["031C571BBFFCE0B6"]
+			id: "75A85A3EB42EA77D"
+			shape: "hexagon"
+			tasks: [{
+				id: "651FB38C228CFD87"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:nether" } }, count: 1, id: "naturesaura:aura_bottle" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["217A0236C9312C68"]
+			id: "5538B917632BBC54"
+			shape: "hexagon"
+			tasks: [{
+				id: "473C1F4A5E6AB513"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "kubejs:twilight_forest" } }, count: 1, id: "naturesaura:aura_bottle" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0258FA1C2F0406EA"]
+			id: "397C219C667CE90A"
+			shape: "hexagon"
+			tasks: [{
+				id: "11151372F2A11E3D"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "kubejs:aether" } }, count: 1, id: "naturesaura:aura_bottle" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E8041B1FBD6669F"]
+			id: "75CBBA83CDDDFB00"
+			shape: "hexagon"
+			tasks: [{
+				id: "18D94BC9408B53F3"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:end" } }, count: 1, id: "naturesaura:aura_bottle" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D1E3B2DB0CF6EB6"]
+			id: "0C176F5CCC18F301"
+			shape: "hexagon"
+			tasks: [{
+				id: "16AEAD9408DEDE00"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "kubejs:starlight" } }, count: 1, id: "naturesaura:aura_bottle" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24015ACDFF37D790"]
+			id: "0DE6FE73C42F8CA2"
+			tasks: [{
+				id: "6F8E835B2160D4F5"
+				item: { count: 1, id: "naturesaura:token_sorrow" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75A85A3EB42EA77D"]
+			id: "6BD5C4A261AF78A6"
+			tasks: [{
+				id: "1F75294F11E66DEF"
+				item: { count: 1, id: "naturesaura:token_anger" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DB2CD482BA01F58"]
+			id: "5860A88B6FA1AC51"
+			tasks: [{
+				id: "4AA12A4CA89AEDD3"
+				item: { count: 1, id: "kubejs:rune_aqua" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EA7CB9F4E022E6E"]
+			id: "23801395A0C28C71"
+			tasks: [{
+				id: "0FE17D66C05B26D4"
+				item: { count: 1, id: "kubejs:rune_ignis" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5538B917632BBC54"]
+			id: "40A0FF3C16F17A99"
+			tasks: [{
+				id: "21A9FC9E7DCAFEA5"
+				item: { count: 1, id: "naturesaura:token_fear" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["397C219C667CE90A"]
+			id: "5FC00933683D6F6B"
+			tasks: [{
+				id: "7C5537F10CA1DF2C"
+				item: { count: 1, id: "naturesaura:token_joy" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F2312EB5A2653DB"]
+			id: "3B39350B3C6A7D55"
+			tasks: [{
+				id: "0E81F4959A80FE75"
+				item: { count: 1, id: "kubejs:rune_terra" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38F89B3C95DB51AC"]
+			id: "57F8ADC74552877F"
+			tasks: [{
+				id: "1532DC874DD1B1E9"
+				item: { count: 1, id: "kubejs:rune_aer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F56175670CB6E0A"]
+			id: "01673A6CBCB91BDE"
+			tasks: [{
+				id: "7D44DDC15BA6BF41"
+				item: { count: 1, id: "kubejs:rune_perditio" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75CBBA83CDDDFB00"]
+			id: "140B027BBF9B47B2"
+			tasks: [{
+				id: "1914E33B51ED164F"
+				item: { count: 1, id: "kubejs:token_confusion" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C176F5CCC18F301"]
+			id: "5781F26291987E67"
+			tasks: [{
+				id: "149C1FE884B80FF3"
+				item: { count: 1, id: "kubejs:token_serenity" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05491F312D2EDBAB"]
+			id: "368C96B399AD1368"
+			tasks: [{
+				id: "3314EB3315963CA0"
+				item: { count: 1, id: "kubejs:rune_ordo" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+	]
+}

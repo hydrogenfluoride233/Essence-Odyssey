@@ -1,0 +1,51 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:the_gatekeeper",
+    "variants": [],
+    "name_color": "#D7E8FF",
+    "display": {},
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.the_gatekeeper",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:music_disc_optimized_option",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:orb_of_prophecy",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:book",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:glistering_sword",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:glistering_greatsword",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:glistering_morning_star",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:glistering_bow",
+            "count": 1
+        }
+    ]
+}

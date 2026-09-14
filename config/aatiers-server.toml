@@ -1,0 +1,42 @@
+#Per-tier display stand energy values. Changes take effect on world reload.
+[tiers]
+
+	[tiers.iron]
+		#Maximum energy buffer for the iron display stand (FE).
+		# Default: 400000
+		# Range: > 1
+		capacity = 400000
+		#Maximum energy input rate for the iron display stand (FE/tick).
+		# Default: 5000
+		# Range: > 1
+		maxInput = 5000
+
+	[tiers.gold]
+		#Maximum energy buffer for the gold display stand (FE).
+		# Default: 1000000
+		# Range: > 1
+		capacity = 1000000
+		#Maximum energy input rate for the gold display stand (FE/tick).
+		# Default: 15000
+		# Range: > 1
+		maxInput = 15000
+
+	[tiers.diamond]
+		#Maximum energy buffer for the diamond display stand (FE).
+		# Default: 4000000
+		# Range: > 1
+		capacity = 4000000
+		#Maximum energy input rate for the diamond display stand (FE/tick).
+		# Default: 40000
+		# Range: > 1
+		maxInput = 40000
+
+	[tiers.netherite]
+		#Maximum energy buffer for the netherite display stand (FE).
+		# Default: 8000000
+		# Range: > 1
+		capacity = 8000000
+		#Maximum energy input rate for the netherite display stand (FE/tick).
+		# Default: 100000
+		# Range: > 1
+		maxInput = 100000

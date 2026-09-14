@@ -1,0 +1,57 @@
+[general]
+	#Overclocker energy usage. (FE/t)
+	# Default: 100
+	# Range: 0 ~ 20000
+	overclocker_energy_usage = 100
+	#Stacker slot size multiplier.
+	# Default: 3
+	# Range: 2 ~ 10
+	stacker_multiplier = 3
+
+[hive]
+	#Tick interval for export hatch auto output.
+	# Default: 8
+	# Range: 1 ~ 1000
+	auto_output_interval = 8
+	#Tick interval for import hatch auto input.
+	# Default: 8
+	# Range: 1 ~ 1000
+	auto_input_interval = 8
+	#The base honey output amount for every bee.
+	# Default: 300
+	# Range: 0 ~ 1000
+	honey_base = 300
+	#The base dragon breath output amount for draconic bee.
+	# Default: 400
+	# Range: 0 ~ 1000
+	dragon_breath_base = 400
+
+[centrifuge]
+	#The wax amount centrifuge gearbox needs to run.
+	# Default: 40
+	# Range: 0 ~ 200
+	gearbox_wax = 40
+	#The boost centrifuge gearbox gives.
+	# Default: 1.5
+	# Range: 1.0 ~ 2.0
+	gearbox_boost = 1.5
+
+[machine]
+	#Bee extractor process time. (ticks)
+	# Default: 100
+	# Range: 1 ~ 1000
+	bee_extractor_time = 100
+	#Bee extractor energy usage. (FE/t)
+	# Default: 500
+	# Range: 1 ~ 10000
+	bee_extractor_energy_usage = 500
+
+[ae2]
+	#Tick interval for ME export hatch check network status
+	# Default: 20
+	# Range: 1 ~ 1000
+	me_output_interval = 20
+	#Tick interval for ME import hatch pull from network
+	# Default: 3
+	# Range: 1 ~ 1000
+	me_input_interval = 3

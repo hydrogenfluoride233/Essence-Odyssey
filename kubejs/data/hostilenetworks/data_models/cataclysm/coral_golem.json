@@ -1,0 +1,29 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:coral_golem",
+    "variants": [],
+    "name_color": "#F7A7B2",
+    "display": {
+        "scale": 0.5
+    },
+    "sim_cost": 2048,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.coral_golem",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:crystallized_coral_fragments",
+            "count": 8
+        }
+    ]
+}

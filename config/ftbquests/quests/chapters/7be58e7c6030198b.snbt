@@ -1,0 +1,60 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7be58e7c6030198b"
+	group: "3F4D8FC0357D0EBB"
+	icon: {
+		id: "mysticalagriculture:dye_seeds"
+	}
+	id: "7BE58E7C6030198B"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5043DF2690C1CFED"]
+			hide_until_deps_complete: true
+			id: "309A88B1C29136BA"
+			tasks: [{
+				id: "135E52F834DBE486"
+				item: { count: 1, id: "botanypots:terracotta_botany_pot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["309A88B1C29136BA"]
+			id: "792BE8FAEDA106D4"
+			tasks: [{
+				id: "1633A170BCFEEF07"
+				item: { count: 1, id: "botanypotstiers:elite_terracotta_botany_pot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["792BE8FAEDA106D4"]
+			id: "06A39A8F4765BAE9"
+			tasks: [{
+				id: "7B64E725E4D5DAA7"
+				item: { count: 1, id: "botanypotstiers:ultra_terracotta_botany_pot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06A39A8F4765BAE9"]
+			id: "3E138E3EDB6E96AA"
+			tasks: [{
+				id: "48D5D640A61003DC"
+				item: { count: 1, id: "botanypotstiers:mega_terracotta_botany_pot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+	]
+}

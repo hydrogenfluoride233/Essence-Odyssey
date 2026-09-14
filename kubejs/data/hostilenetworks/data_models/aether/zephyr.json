@@ -1,0 +1,40 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deep_aether"
+        }
+    ],
+    "entity": "aether:zephyr",
+    "variants": [
+        "deep_aether:baby_zephyr"
+    ],
+    "name_color": "#D7F4FF",
+    "display": {
+        "y_offset": 0.5,
+        "scale": 0.3
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:aether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.zephyr",
+    "fabricator_drops": [
+        {
+            "id": "aether:cold_aercloud",
+            "count": 32
+        },
+        {
+            "id": "minecraft:snowball",
+            "count": 32
+        }
+    ]
+}

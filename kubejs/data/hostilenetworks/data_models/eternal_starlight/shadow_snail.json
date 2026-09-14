@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:shadow_snail",
+    "variants": [],
+    "name_color": "#3C3148",
+    "display": {},
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.shadow_snail",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:shadow_snail_shell",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:shadow_snail_meat",
+            "count": 24
+        }
+    ]
+}

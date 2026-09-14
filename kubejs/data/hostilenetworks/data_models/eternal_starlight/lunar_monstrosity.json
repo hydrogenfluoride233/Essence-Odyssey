@@ -1,0 +1,69 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:lunar_monstrosity",
+    "variants": [],
+    "name_color": "#B78DDB",
+    "display": {
+        "scale": 0.45
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.lunar_monstrosity",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:moonring_bow",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:crescent_spear",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:wand_of_teleportation",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:tenacious_petal",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:tenacious_vine",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:soul_dew",
+            "count": 8
+        },
+        {
+            "id": "eternal_starlight:tangled_skull",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:twining_armor_trim_smithing_template",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:crescent_pendant",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:music_disc_moonlight",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:music_disc_fake_light",
+            "count": 1
+        }
+    ]
+}

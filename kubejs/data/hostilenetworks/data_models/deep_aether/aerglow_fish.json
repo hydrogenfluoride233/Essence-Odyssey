@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deep_aether"
+        }
+    ],
+    "entity": "deep_aether:aerglow_fish",
+    "variants": [],
+    "name_color": "#76D8FF",
+    "display": {
+        "y_offset": 0.35
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:aether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.aerglow_fish",
+    "fabricator_drops": [
+        {
+            "id": "deep_aether:raw_aerglow_fish",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone_meal",
+            "count": 2
+        }
+    ]
+}

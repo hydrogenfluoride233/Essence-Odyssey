@@ -1,0 +1,46 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2005a8abf505a870"
+	group: "3F4D8FC0357D0EBB"
+	icon: {
+		id: "tiab:time_in_a_bottle"
+	}
+	id: "2005A8ABF505A870"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3BDF422CB23EB76B"
+			tasks: [{
+				id: "7FCF60F601439F1F"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "57E3CCC839CDA402"
+			tasks: [{
+				id: "6AB6E9B6136AEF6A"
+				item: { count: 1, id: "justdirethings:time_wand" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "242542377899CEDB"
+			tasks: [{
+				id: "14724CAB87A79978"
+				item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+	]
+}

@@ -1,0 +1,3 @@
+[Core]
+	#是否注册全新添加的能量及流体物导管。
+	enableNewConduits = true

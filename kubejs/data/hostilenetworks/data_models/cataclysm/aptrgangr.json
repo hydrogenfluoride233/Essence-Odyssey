@@ -1,0 +1,53 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:aptrgangr",
+    "variants": [],
+    "name_color": "#596575",
+    "display": {
+        "scale": 0.35
+    },
+    "sim_cost": 2048,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.aptrgangr",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:black_steel_ingot",
+            "count": 4
+        },
+        {
+            "id": "cataclysm:black_steel_nugget",
+            "count": 16
+        },
+        {
+            "id": "minecraft:bone",
+            "count": 16
+        },
+        {
+            "id": "minecraft:rotten_flesh",
+            "count": 16
+        },
+        {
+            "id": "cataclysm:strange_key",
+            "count": 1
+        },
+        {
+            "id": "cataclysm:ring_of_grudged",
+            "count": 1
+        },
+        {
+            "id": "cataclysm:berserker_soul_amulet",
+            "count": 1
+        }
+    ]
+}

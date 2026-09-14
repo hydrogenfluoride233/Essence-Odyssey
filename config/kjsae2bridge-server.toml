@@ -1,0 +1,44 @@
+[server]
+	#I keep lifecycle and power/channel snapshots on the server side.
+	enableNetworkEvents = true
+	#I diff AE2 storage snapshots and emit throttled deltas.
+	enableStorageEvents = true
+	#I diff crafting CPUs and request queues and emit events.
+	enableCraftingEvents = true
+	#I emit terminal-open events from container opens when I can detect AE2 terminals.
+	enableTerminalEvents = true
+	#I emit milestone-style player hooks for AE2 progression.
+	enableProgressionHooks = true
+	#I register /ae2kjs debug and dump commands.
+	enableDebugCommands = true
+	#I allow script-driven craft planning and guarded submits via exposed APIs.
+	enableCraftRequestApi = false
+	#I set the grid scan cadence in ticks.
+	# Default: 40
+	# Range: 5 ~ 1200
+	scanIntervalTicks = 40
+	#I set the storage diff cadence in ticks.
+	# Default: 100
+	# Range: 10 ~ 6000
+	storageScanIntervalTicks = 100
+	#I cap emitted storage delta events each storage scan.
+	# Default: 128
+	# Range: 1 ~ 10000
+	maxStorageDeltaEventsPerScan = 128
+	#I cap grid snapshots processed in one scan pass.
+	# Default: 256
+	# Range: 1 ~ 10000
+	maxGridsScannedPerTick = 256
+	#I cap tracked host positions to protect memory if chunk hooks go wild.
+	# Default: 200000
+	# Range: 1000 ~ 5000000
+	maxTrackedHosts = 200000
+	#I emit optional stuck diagnostics after this many unchanged busy scans.
+	# Default: 12
+	# Range: 2 ~ 10000
+	stuckCraftingDetectScans = 12
+	#I allow only these dimensions when the list is non-empty.
+	dimensionAllowlist = []
+	#I control plugin logging detail.
+	#Allowed Values: QUIET, NORMAL, VERBOSE
+	logVerbosity = "NORMAL"

@@ -1,0 +1,42 @@
+#发电机相关设置
+[Generators]
+
+	[Generators.SimpleStirlingGenerator]
+		#基础发电速度 (RF/t)。
+		# Default: 30
+		# Range: 1 ~ 1000000
+		baseGeneration = 30
+		#燃料燃烧效率乘数 (默认 1.0 即 100%)。
+		# Default: 0.8
+		# Range: 0.1 ~ 10.0
+		fuelEfficiency = 0.8
+
+		[Generators.InfinityGenerator.basic_infinity_generator]
+			#该等阶基础发电速度 (RF/t)。
+			# Default: 20
+			# Range: > 1
+			baseGeneration = 20
+			#单颗燃料的总产出利用率倍数 (如 1.2 = 120%)。
+			# Default: 1.0
+			# Range: 0.1 ~ 100.0
+			tierBonus = 1.0
+
+		[Generators.InfinityGenerator.crystalline_infinity_generator]
+			#该等阶基础发电速度 (RF/t)。
+			# Default: 100
+			# Range: > 1
+			baseGeneration = 100
+			#单颗燃料的总产出利用率倍数 (如 1.2 = 120%)。
+			# Default: 1.2
+			# Range: 0.1 ~ 100.0
+			tierBonus = 1.2
+
+		[Generators.InfinityGenerator.stellar_infinity_generator]
+			#该等阶基础发电速度 (RF/t)。
+			# Default: 300
+			# Range: > 1
+			baseGeneration = 300
+			#单颗燃料的总产出利用率倍数 (如 1.2 = 120%)。
+			# Default: 1.5
+			# Range: 0.1 ~ 100.0
+			tierBonus = 1.5

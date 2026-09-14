@@ -1,0 +1,144 @@
+# =====================================================================
+#  Essence Odyssey - 版本管理忽略清单
+#  放在项目根目录：F:\.minecraft\versions\Essence Odyssey\.gitignore
+#
+#  原则：只跟踪我们"手写 / 手改"的内容，其余一概排除。
+#  要备份的是 kubejs（脚本+汉化）、config（模组配置）、defaultconfigs。
+# =====================================================================
+
+# ---------------------------------------------------------------------
+#  1. 游戏自动生成 / 可重新生成的东西
+# ---------------------------------------------------------------------
+# Minecraft 运行时产物
+logs/
+crash-reports/
+saves/
+screenshots/
+shaderpacks/
+moddata/
+netherlink/
+defaultconfigs_backup/
+
+# 游戏启动器的缓存与本地状态
+.hmcl/
+.mixin.out/
+PCL/
+PCL.ini
+.qmenu_opened.marker
+usercache.json
+usernamecache.json
+command_history.txt
+options.txt
+optionsof.txt
+realms_persistence.json
+servers.dat
+servers.dat_old
+launcher_profiles.json
+emi.json
+patchouli_data.json
+Essence Odyssey-natives/
+local/
+backups/
+downloads/
+mods/
+resourcepacks/
+patchouli_books/
+schematics/
+
+# 整合包本体 jar 与元数据（由构建流程生成，不入库）
+Essence Odyssey.jar
+Essence Odyssey.json
+Package.BakaCoreInfo
+.github/
+
+# ---------------------------------------------------------------------
+#  2. ProbeJS 转储（约 2800 个 .d.ts / 37 MB）
+#     它是"环境生成物"，任何人都能重新 dump 出来，不需要版本管理。
+#     但它对 agent 查注册名很有用，所以保留在本地即可。
+# ---------------------------------------------------------------------
+.probe/
+
+# ---------------------------------------------------------------------
+#  3. 模组自己产生的配置备份
+#     每次改配置，模组会留下 -1 / -2 编号的旧版本，越积越多。
+# ---------------------------------------------------------------------
+*-1.toml
+*-2.toml
+*-3.toml
+*-1.toml.bak
+*-2.toml.bak
+*-3.toml.bak
+*.toml.bak
+*.cfg.bak
+*.json.bak
+*.yml.bak
+*.yaml.bak
+*.snbt.bak
+*.bak
+*.tmp
+*.old
+*~
+
+# ---------------------------------------------------------------------
+#  4. 机器专属的本地数据（换电脑就不该带过去）
+# ---------------------------------------------------------------------
+# 小地图路点、探索记录
+config/xaero/
+config/xaerominimap/
+config/xaeroworldmap/
+xaero/
+XaeroWaypoints_BACKUP*/
+
+# 模组生成的缓存、索引、运行期状态
+config/ars_nouveau/search_index/
+config/jei/
+config/emi/
+config/entityculling/
+config/iris-excluded.json
+config/sodium-fingerprint.json
+config/journeymap/
+config/cache/
+config/.cache/
+config/*/cache/
+config/*/saved_data*.nbt
+config/*-saved_data.nbt
+
+# 玩家个人偏好（键位、音量、界面等），与整合包设计无关
+config/*-client.toml
+config/*-client.snbt
+config/*-client.json
+config/*-client.json5
+config/*-client.properties
+config/*-client.yaml
+config/sodium-options.json
+config/sodium-extra-options.json
+config/inventoryhud-client.toml
+config/ModernUI/
+config/configured-client.properties
+config/xaerohud.txt
+config/xaeropatreon.txt
+
+# ---------------------------------------------------------------------
+#  5. 环境与编辑器
+# ---------------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+.settings/
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+
+# 系统文件
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# 敏感信息（以防万一，任何时候都不要提交）
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+credentials.*

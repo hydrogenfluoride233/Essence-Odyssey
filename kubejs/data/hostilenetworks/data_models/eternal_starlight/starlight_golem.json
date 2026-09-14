@@ -1,0 +1,41 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:starlight_golem",
+    "variants": [],
+    "name_color": "#F5D98A",
+    "display": {
+        "scale": 0.75
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.starlight_golem",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:energy_sword",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:forge_armor_trim_smithing_template",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:oxidized_golem_steel_ingot",
+            "count": 8
+        },
+        {
+            "id": "eternal_starlight:music_disc_mechanical_fossil",
+            "count": 1
+        }
+    ]
+}

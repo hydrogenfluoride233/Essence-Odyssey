@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:thirst_walker",
+    "variants": [],
+    "name_color": "#A26E43",
+    "display": {},
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.thirst_walker",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:tooth_of_hunger",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:seeking_eye",
+            "count": 4
+        }
+    ]
+}

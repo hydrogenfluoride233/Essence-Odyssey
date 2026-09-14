@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:yeti",
+    "variants": [],
+    "name_color": "#E7F1F2",
+    "display": {},
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.yeti",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:string",
+            "count": 24
+        },
+        {
+            "id": "eternal_starlight:white_yeti_fur",
+            "count": 16
+        }
+    ]
+}

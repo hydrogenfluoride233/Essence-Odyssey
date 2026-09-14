@@ -1,0 +1,42 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deep_aether"
+        }
+    ],
+    "entity": "aether:golden_swet",
+    "variants": [],
+    "name_color": "#FFD85A",
+    "display": {
+        "y_offset": 0.25,
+        "scale": 1.1
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:aether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.golden_swet",
+    "fabricator_drops": [
+        {
+            "id": "deep_aether:golden_swet_ball",
+            "count": 32
+        },
+        {
+            "id": "aether:golden_aercloud",
+            "count": 32
+        },
+        {
+            "id": "aether:golden_gummy_swet",
+            "count": 8
+        }
+    ]
+}

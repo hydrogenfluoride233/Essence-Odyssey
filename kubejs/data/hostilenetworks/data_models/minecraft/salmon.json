@@ -1,0 +1,27 @@
+{
+    "entity": "minecraft:salmon",
+    "variants": [],
+    "name_color": "#D96B5F",
+    "display": {
+        "y_offset": 0.35
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.salmon",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:salmon",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone_meal",
+            "count": 2
+        }
+    ]
+}

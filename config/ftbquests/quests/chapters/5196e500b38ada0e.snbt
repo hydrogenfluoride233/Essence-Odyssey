@@ -1,0 +1,48 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5196e500b38ada0e"
+	group: "3F4D8FC0357D0EBB"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "5196E500B38ADA0E"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5AA560228973D274"]
+			hide_until_deps_complete: true
+			id: "5D16935DC546D2E1"
+			tasks: [{
+				id: "561A6FD773FAB67D"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "45DC4A5BA6320AC6"
+			tasks: [{
+				id: "6ABEEC9FF2AC143E"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "6CA3F10F03493CA3"
+			tasks: [{
+				id: "4B46783578983E95"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:maledictus",
+    "variants": [],
+    "name_color": "#4D385F",
+    "display": {
+        "scale": 0.45
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.maledictus",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:cursium_ingot",
+            "count": 8
+        },
+        {
+            "id": "cataclysm:music_disc_maledictus",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+[General]
+	#是否允许玩家自定义【物品导管】的抽取频率（1~200 tick）。
+	enableItemCustomFrequency = true
+	#是否允许玩家自定义【流体导管】的抽取频率（1~200 tick）。
+	enableFluidCustomFrequency = true
+	#是否允许玩家自定义【化学品导管】的抽取频率（1~200 tick）。
+	enableChemicalCustomFrequency = true
+
+[Optimization]
+	#物品导管在空/满时的最大休眠时间（tick）。
+	# Default: 40
+	# Range: 1 ~ 1200
+	itemMaxSleep = 40
+	#流体导管在空/满时的最大休眠时间（tick）。
+	# Default: 40
+	# Range: 1 ~ 1200
+	fluidMaxSleep = 40
+	#化学品导管在空/满时的最大休眠时间（tick）。
+	# Default: 40
+	# Range: 1 ~ 1200
+	chemicalMaxSleep = 40

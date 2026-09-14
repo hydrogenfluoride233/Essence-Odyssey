@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "quark"
+        }
+    ],
+    "entity": "quark:crab",
+    "variants": [],
+    "name_color": "#A62B1B",
+    "display": {
+        "y_offset": 0.3
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.nautilus",
+    "fabricator_drops": [
+        {
+            "id": "quark:crab_leg",
+            "count": 8
+        },
+        {
+            "id": "quark:crab_shell",
+            "count": 8
+        }
+    ]
+}

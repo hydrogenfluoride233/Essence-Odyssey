@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:crystallized_moth",
+    "variants": [],
+    "name_color": "#E9D6FF",
+    "display": {
+        "y_offset": 0.35
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.crystallized_moth",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:red_starlight_crystal_shard",
+            "count": 8
+        },
+        {
+            "id": "eternal_starlight:blue_starlight_crystal_shard",
+            "count": 8
+        },
+        {
+            "id": "eternal_starlight:shivering_gel",
+            "count": 4
+        }
+    ]
+}

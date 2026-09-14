@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:gleech",
+    "variants": [],
+    "name_color": "#D3F0EF",
+    "display": {
+        "y_offset": 0.35
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.gleech",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:gleech_egg",
+            "count": 32
+        }
+        
+    ]
+}

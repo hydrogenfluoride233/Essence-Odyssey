@@ -1,0 +1,45 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:cindaria",
+    "variants": [
+        "cataclysm:urchinkin",
+        "cataclysm:drowned_host",
+        "cataclysm:symbiocto",
+        "cataclysm:octohost"
+    ],
+    "name": {
+        "text": "卫城守卫"
+    },
+    "name_color": "#45B6D6",
+    "display": {
+        "scale": 0.75
+    },
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.cindaria",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:lacrima",
+            "count": 4
+        },
+        {
+            "id": "minecraft:ink_sac",
+            "count": 16
+        },
+        {
+            "id": "minecraft:rotten_flesh",
+            "count": 32
+        }
+    ]
+}

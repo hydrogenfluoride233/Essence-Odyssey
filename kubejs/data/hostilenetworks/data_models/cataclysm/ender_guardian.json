@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:ender_guardian",
+    "variants": [],
+    "name_color": "#5B2FA3",
+    "display": {
+        "scale": 0.45
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:end_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.ender_guardian",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:gauntlet_of_guard",
+            "count": 1
+        },
+        {
+            "id": "cataclysm:music_disc_ender_guardian",
+            "count": 1
+        }
+    ]
+}

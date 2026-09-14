@@ -1,0 +1,30 @@
+{
+    "entity": "minecraft:pufferfish",
+    "variants": [],
+    "name_color": "#E6D251",
+    "display": {
+        "y_offset": 0.35,
+        "nbt": {
+            "PuffState": 2
+        }
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.pufferfish",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:pufferfish",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone_meal",
+            "count": 2
+        }
+    ]
+}

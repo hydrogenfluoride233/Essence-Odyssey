@@ -1,0 +1,12 @@
+{
+	"slotIdRedirects": [
+		{
+			"trinketsId": "charm/spell_book",
+			"accessoriesId": "spellbook",
+			"additionalSlot": 1
+		}
+	],
+	"dumpDataWhenNullEntries": false,
+	"addPocketSlot": true,
+	"showPocketSlotInTooltip": false
+}

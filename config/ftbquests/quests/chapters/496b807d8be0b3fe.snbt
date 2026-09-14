@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "496b807d8be0b3fe"
+	group: "5D4B0C6183F5C265"
+	icon: {
+		id: "twilightforest:twilight_portal_miniature_structure"
+	}
+	id: "496B807D8BE0B3FE"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["17482BD4DB583890"]
+			hide_until_deps_complete: true
+			id: "2F074ADCF3BB9078"
+			tasks: [{
+				id: "5C2459D1C9B67C34"
+				item: { count: 1, id: "twilightforest:naga_trophy" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F074ADCF3BB9078"]
+			id: "526FED59584C6513"
+			tasks: [{
+				id: "5D8C46B62092FEFC"
+				item: { count: 1, id: "twilightforest:lich_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["526FED59584C6513"]
+			id: "1A64E09306C5EC80"
+			tasks: [{
+				id: "0A8F52B92BA50DFA"
+				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A64E09306C5EC80"]
+			id: "5E9797FB5209D7ED"
+			tasks: [{
+				id: "520A8C5E82E8CF8C"
+				item: { count: 1, id: "twilightforest:hydra_trophy" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["526FED59584C6513"]
+			id: "1553D272E3538E31"
+			tasks: [{
+				id: "249E7604D7BCB2F9"
+				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1553D272E3538E31"]
+			id: "7692932667CF698E"
+			tasks: [{
+				id: "29B0BEED37170919"
+				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["526FED59584C6513"]
+			id: "52E4D111AF7DFF20"
+			tasks: [{
+				id: "6BFF9940A902BD48"
+				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52E4D111AF7DFF20"]
+			id: "7D8BAE5F68C2DA25"
+			tasks: [{
+				id: "12B586014E78FACE"
+				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F074ADCF3BB9078"]
+			id: "26DCF8DA35F5CEA6"
+			tasks: [{
+				id: "3D349CE41D8528A1"
+				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7692932667CF698E"
+				"5E9797FB5209D7ED"
+				"7D8BAE5F68C2DA25"
+				"26DCF8DA35F5CEA6"
+			]
+			id: "13DA290A6AFCB1C4"
+			tasks: [{
+				id: "4738986842F5B6FD"
+				item: { count: 1, id: "kubejs:twilight_holy_grail" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13DA290A6AFCB1C4"]
+			id: "54766B34784DB721"
+			shape: "gear"
+			tasks: [{
+				id: "53EF37997AA1CBC1"
+				item: { count: 1, id: "kubejs:twilight_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "twilightforest"
+        }
+    ],
+    "entity": "twilightforest:knight_phantom",
+    "variants": [],
+    "name_color": "#6A6A8E",
+    "display": {
+        "scale": 0.85,
+        "nbt": {
+            "ArmorItems": [
+                {},
+                {},
+                {
+                    "id": "twilightforest:phantom_chestplate"
+                },
+                {
+                    "id": "twilightforest:phantom_helmet"
+                }
+            ]
+        }
+    },
+    "sim_cost": 2048,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:twilight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.knight_phantom",
+    "fabricator_drops": [
+        {
+            "id": "twilightforest:knight_phantom_trophy",
+            "count": 4
+        },
+        {
+            "id": "twilightforest:phantom_helmet",
+            "count": 1
+        },
+        {
+            "id": "twilightforest:phantom_chestplate",
+            "count": 1
+        },
+        {
+            "id": "twilightforest:knightmetal_sword",
+            "count": 1
+        },
+        {
+            "id": "twilightforest:knightmetal_pickaxe",
+            "count": 1
+        },
+        {
+            "id": "twilightforest:knightmetal_axe",
+            "count": 1
+        }
+    ]
+}

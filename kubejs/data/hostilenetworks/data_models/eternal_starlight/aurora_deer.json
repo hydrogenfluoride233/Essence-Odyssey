@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:aurora_deer",
+    "variants": [],
+    "name_color": "#F6C7D8",
+    "display": {},
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.aurora_deer",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:leather",
+            "count": 24
+        },
+        {
+            "id": "eternal_starlight:aurora_deer_steak",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:aurora_deer_antler",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "entity": "aether:moa",
+    "variants": [
+        "aether:cockatrice"
+    ],
+    "name_color": "#6FA8D8",
+    "display": {
+        "scale": 0.8
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:aether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.moa",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:chicken",
+            "count": 48
+        },
+        {
+            "id": "minecraft:feather",
+            "count": 48
+        },
+        {
+            "id": "aethersdelight:raw_moa",
+            "count": 24
+        }
+    ]
+}

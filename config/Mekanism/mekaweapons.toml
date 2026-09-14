@@ -1,0 +1,121 @@
+#MekaWeapons Settings. Joules to FE conversion: 2.5J = 1FE
+[weapons]
+	#Transfer energy rate of the Wireless Charger (Magnetizer), in Joules per tick.
+	# Default: 2500000
+	# Range: 0 ~ 9223372036854775807
+	wireless_charge_rate = 2500000
+
+	#Meka-Tana Settings
+	[weapons.meka_tana]
+		#Base damage of Meka-Tana
+		base_damage = 50
+		#Attack speed of Meka-Tana.
+		# Default: -2.4
+		# Range: -4.0 ~ 100.0
+		attack_speed = -2.4
+		#Cost in Joules of using Meka-Tana to deal damage.
+		# Default: 625000
+		# Range: 0 ~ 9223372036854775807
+		energy_usage = 625000
+		#Additional cost in Joules of using Meka-Tana to perform a sweeping attack.
+		# Default: 125000
+		# Range: 0 ~ 9223372036854775807
+		sweeping_attack_energy_usage = 125000
+		#Cost in Joules of using Meka-Tana to teleport 10 blocks.
+		# Default: 5000
+		# Range: 0 ~ 9223372036854775807
+		teleport_energy_usage = 5000
+		#Maximum distance a player can teleport with Meka-Tana.
+		# Default: 100
+		# Range: 3 ~ 1024
+		max_teleport_reach = 100
+		#Cost in Joules of using Meka-Tana to apply Looting effect to a mob.
+		# Default: 125000
+		# Range: 0 ~ 9223372036854775807
+		looting_energy_usage = 125000
+		#Base energy capacity of Meka-Tana.
+		# Default: 16000000
+		# Range: 0 ~ 9223372036854775807
+		base_energy_capacity = 16000000
+		#Base charge rate of Meka-Tana.
+		# Default: 350000
+		# Range: 0 ~ 9223372036854775807
+		base_charge_rate = 350000
+		#Whether Meka-Tana can be enchanted. False by default. Use at your own risk.
+		enchantments = false
+
+	#Meka-Bow Settings
+	[weapons.meka_bow]
+		#Attention: The final damage of Meka-Bow is based on how fast the arrow is going when it hits, multiply it with Attack Amplification Units.
+		base_damage = 50
+		#Cost in Joules of using Meka-Bow.
+		# Default: 625000
+		# Range: 0 ~ 9223372036854775807
+		energy_usage = 625000
+		#Cost in Joules of using Meka-Bow with Energy Arrow Unit active, per shot.
+		# Default: 625000
+		# Range: 0 ~ 9223372036854775807
+		energy_arrow_usage = 625000
+		#Cost in Joules of using Meka-Bow with Auto-Fire active, per shot.
+		# Default: 125000
+		# Range: 0 ~ 9223372036854775807
+		autofire_energy_usage = 125000
+		#Cost in Joules of using Meka-Bow with Draw Speed Unit active, multiplied by unit amount, per shot.
+		# Default: 125000
+		# Range: 0 ~ 9223372036854775807
+		draw_speed_usage = 125000
+		#Cost in Joules of using Meka-Bow with Gravity Dampener Unit active, per shot.
+		# Default: 125000
+		# Range: 0 ~ 9223372036854775807
+		gravity_dampener_usage = 125000
+		#Cost in Joules of using Meka-Bow to apply Looting effect to a mob.
+		# Default: 125000
+		# Range: 0 ~ 9223372036854775807
+		looting_energy_usage = 125000
+		#Base energy capacity of Meka-Bow.
+		# Default: 16000000
+		# Range: 0 ~ 9223372036854775807
+		base_energy_capacity = 16000000
+		#Base charge rate of Meka-Bow.
+		# Default: 350000
+		# Range: 0 ~ 9223372036854775807
+		base_charge_rate = 350000
+		#Whether Meka-Bow can be enchanted. False by default. Use at your own risk.
+		enchantments = false
+
+		#Meka-Gun Settings
+		[weapons.meka_bow.meka_gun]
+			#Base damage of Meka-Gun
+			base_damage = 50
+			#Cost in Joules of using Meka-Gun.
+			# Default: 250000
+			# Range: 0 ~ 9223372036854775807
+			energy_usage = 250000
+			#Base energy capacity of Meka-Gun.
+			# Default: 16000000
+			# Range: 0 ~ 9223372036854775807
+			base_energy_capacity = 16000000
+			#Base charge rate of Meka-Gun.
+			# Default: 350000
+			# Range: 0 ~ 9223372036854775807
+			base_charge_rate = 350000
+			#Laser beam length of Meka-Gun, in blocks.
+			# Default: 20
+			# Range: 1 ~ 1024
+			beam_length = 20
+			#Max heat percentage of Meka-Gun.
+			# Default: 100
+			# Range: 1 ~ 10000
+			max_heat = 100
+			#Heat percentage added to Meka-Gun per shot.
+			# Default: 10
+			# Range: 1 ~ 10000
+			heat_per_shot = 10
+			#Heat percentage lost by Meka-Gun per second.
+			# Default: 5
+			# Range: 1 ~ 10000
+			heat_loss_per_second = 5
+			#Ticks to wait before Meka-Gun starts cooling down.
+			# Default: 20
+			# Range: 1 ~ 10000
+			cooldown_delay_ticks = 20

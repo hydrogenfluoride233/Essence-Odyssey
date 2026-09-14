@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:ignis",
+    "variants": [],
+    "name_color": "#FF5A1F",
+    "display": {
+        "scale": 0.55
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.ignis",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:ignitium_ingot",
+            "count": 4
+        },
+        {
+            "id": "cataclysm:music_disc_ignis",
+            "count": 1
+        }
+    ]
+}

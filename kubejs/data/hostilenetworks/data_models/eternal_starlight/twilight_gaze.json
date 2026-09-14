@@ -1,0 +1,29 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:twilight_gaze",
+    "variants": [],
+    "name_color": "#A58CFF",
+    "display": {
+        "y_offset": 0.25
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.twilight_gaze",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:seeking_eye",
+            "count": 4
+        }
+    ]
+}

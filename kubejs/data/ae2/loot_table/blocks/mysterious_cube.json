@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ae2:mysterious_cube"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "ae2:blocks/mysterious_cube"
+}

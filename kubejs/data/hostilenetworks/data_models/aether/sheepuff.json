@@ -1,0 +1,100 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "entity": "aether:sheepuff",
+    "variants": [],
+    "name_color": "rainbow",
+    "display": {
+        "scale": 0.9,
+        "nbt": {
+            "CustomName": "{\"text\":\"jeb_\"}"
+        }
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:aether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.sheepuff",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:white_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:orange_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:magenta_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:light_blue_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:yellow_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:lime_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:pink_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:gray_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:light_gray_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:cyan_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:purple_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:blue_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:brown_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:green_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:red_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:black_wool",
+            "count": 48
+        },
+        {
+            "id": "minecraft:mutton",
+            "count": 48
+        },
+        {
+            "id": "minecraft:feather",
+            "count": 24
+        }
+    ]
+}

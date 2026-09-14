@@ -1,0 +1,172 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aquaculture"
+        }
+    ],
+    "entity": "aquaculture:atlantic_cod",
+    "variants": [
+        "aquaculture:blackfish",
+        "aquaculture:pacific_halibut",
+        "aquaculture:atlantic_halibut",
+        "aquaculture:atlantic_herring",
+        "aquaculture:pink_salmon",
+        "aquaculture:pollock",
+        "aquaculture:rainbow_trout",
+        "aquaculture:bayad",
+        "aquaculture:boulti",
+        "aquaculture:capitaine",
+        "aquaculture:synodontis",
+        "aquaculture:smallmouth_bass",
+        "aquaculture:bluegill",
+        "aquaculture:brown_trout",
+        "aquaculture:carp",
+        "aquaculture:catfish",
+        "aquaculture:gar",
+        "aquaculture:minnow",
+        "aquaculture:muskellunge",
+        "aquaculture:perch",
+        "aquaculture:arapaima",
+        "aquaculture:piranha",
+        "aquaculture:tambaqui",
+        "aquaculture:brown_shrooma",
+        "aquaculture:red_shrooma",
+        "aquaculture:red_grouper",
+        "aquaculture:tuna"
+    ],
+    "name": {
+        "text": "小型鱼类"
+    },
+    "name_color": "#74B9D6",
+    "display": {
+        "y_offset": 0.35
+    },
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.aquaculture_fish",
+    "fabricator_drops": [
+        {
+            "id": "aquaculture:atlantic_cod",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:blackfish",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:pacific_halibut",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:atlantic_halibut",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:atlantic_herring",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:pink_salmon",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:pollock",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:rainbow_trout",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:bayad",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:boulti",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:capitaine",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:synodontis",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:smallmouth_bass",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:bluegill",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:brown_trout",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:carp",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:catfish",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:gar",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:minnow",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:muskellunge",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:perch",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:arapaima",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:piranha",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:tambaqui",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:brown_shrooma",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:red_shrooma",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:red_grouper",
+            "count": 32
+        },
+        {
+            "id": "aquaculture:tuna",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone_meal",
+            "count": 2
+        }
+    ]
+}

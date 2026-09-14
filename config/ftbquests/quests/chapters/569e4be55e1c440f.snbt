@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "569e4be55e1c440f"
+	group: "5D4B0C6183F5C265"
+	icon: {
+		id: "aether:aether_portal_frame"
+	}
+	id: "569E4BE55E1C440F"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["17482BD4DB583890"]
+		hide_until_deps_complete: true
+		id: "0DFAA76C3EF9F0C3"
+		tasks: [{
+			id: "3A1E1319BB3AD7FB"
+			item: { count: 1, id: "aether:skyroot_log" }
+			type: "item"
+		}]
+		x: -1.5d
+		y: -0.5d
+	}]
+}

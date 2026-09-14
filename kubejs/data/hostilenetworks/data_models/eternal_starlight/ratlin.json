@@ -1,0 +1,41 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:ratlin",
+    "variants": [
+        "eternal_starlight:zombified_ratlin"
+    ],
+    "name_color": "#7D6B55",
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.ratlin",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:leather",
+            "count": 24
+        },
+        {
+            "id": "eternal_starlight:cave_moss",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:ratlin_meat",
+            "count": 24
+        },
+        {
+            "id": "minecraft:rotten_flesh",
+            "count": 16
+        }
+    ]
+}

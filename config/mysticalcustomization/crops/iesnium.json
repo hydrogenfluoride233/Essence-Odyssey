@@ -1,0 +1,18 @@
+{
+  "name": "艾瑟金属",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "occultism:iesnium_ingot"
+  },
+  "colors": {
+    "flower": "67a8d8",
+    "essence": "b8e0f5",
+    "seeds": "e6f4fc"
+  },
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot",
+    "seeds": "mysticalagriculture:item/mystical_seeds"
+  }
+}

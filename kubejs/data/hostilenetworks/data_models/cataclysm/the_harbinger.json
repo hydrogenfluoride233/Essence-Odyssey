@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:the_harbinger",
+    "variants": [],
+    "name_color": "#708090",
+    "display": {
+        "scale": 0.4
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.the_harbinger",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:witherite_block",
+            "count": 1
+        },
+        {
+            "id": "cataclysm:music_disc_the_harbinger",
+            "count": 1
+        }
+    ]
+}

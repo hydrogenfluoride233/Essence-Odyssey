@@ -1,0 +1,143 @@
+#机器升级插件相关设置
+[Upgrades]
+
+	[Upgrades.basic_batch_upgrade]
+		#加成数值 (如增加并行处理数量、增加槽位堆叠容量)。
+		# Default: 0.125
+		# Range: 0.0 ~ 10000.0
+		value = 0.125
+		#单台机器能放入的这种插件的最大数量。
+		# Default: 64
+		# Range: 1 ~ 512
+		maxLimit = 64
+		#每放入一个插件，机器增加的额外耗电比例 (如 0.05 代表增加 5% 耗电)。
+		# Default: 0.012500000186264515
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.012500000186264515
+
+	[Upgrades.crystalline_batch_upgrade]
+		#加成数值 (如增加并行处理数量、增加槽位堆叠容量)。
+		# Default: 0.25
+		# Range: 0.0 ~ 10000.0
+		value = 0.25
+		#单台机器能放入的这种插件的最大数量。
+		# Default: 64
+		# Range: 1 ~ 512
+		maxLimit = 64
+		#每放入一个插件，机器增加的额外耗电比例 (如 0.05 代表增加 5% 耗电)。
+		# Default: 0.012500000186264515
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.012500000186264515
+
+	[Upgrades.stellar_batch_upgrade]
+		#加成数值 (如增加并行处理数量、增加槽位堆叠容量)。
+		# Default: 1.5
+		# Range: 0.0 ~ 10000.0
+		value = 1.5
+		#单台机器能放入的这种插件的最大数量。
+		# Default: 32
+		# Range: 1 ~ 512
+		maxLimit = 32
+		#每放入一个插件，机器增加的额外耗电比例 (如 0.05 代表增加 5% 耗电)。
+		# Default: 0.02500000037252903
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.02500000037252903
+
+	[Upgrades.basic_stack_upgrade]
+		#加成数值 (如增加并行处理数量、增加槽位堆叠容量)。
+		# Default: 4.0
+		# Range: 0.0 ~ 10000.0
+		value = 4.0
+		#单台机器能放入的这种插件的最大数量。
+		# Default: 64
+		# Range: 1 ~ 512
+		maxLimit = 64
+		#每放入一个插件，机器增加的额外耗电比例 (如 0.05 代表增加 5% 耗电)。
+		# Default: 0.0031250000465661287
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.0031250000465661287
+
+	[Upgrades.crystalline_stack_upgrade]
+		#加成数值 (如增加并行处理数量、增加槽位堆叠容量)。
+		# Default: 8.0
+		# Range: 0.0 ~ 10000.0
+		value = 8.0
+		#单台机器能放入的这种插件的最大数量。
+		# Default: 64
+		# Range: 1 ~ 512
+		maxLimit = 64
+		#每放入一个插件，机器增加的额外耗电比例 (如 0.05 代表增加 5% 耗电)。
+		# Default: 0.0031250000465661287
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.0031250000465661287
+
+	[Upgrades.stellar_stack_upgrade]
+		#加成数值 (如增加并行处理数量、增加槽位堆叠容量)。
+		# Default: 32.0
+		# Range: 0.0 ~ 10000.0
+		value = 32.0
+		#单台机器能放入的这种插件的最大数量。
+		# Default: 32
+		# Range: 1 ~ 512
+		maxLimit = 32
+		#每放入一个插件，机器增加的额外耗电比例 (如 0.05 代表增加 5% 耗电)。
+		# Default: 0.0062500000931322575
+		# Range: 0.0 ~ 100.0
+		energyPenalty = 0.0062500000931322575
+
+#不同机器对插件效果的吸收效率 (1.0 代表 100%)。
+#举例如下：如果设为 0.5，则插件提供的能力和带来的额外耗电都会直接减半。
+[Utilization]
+
+	[Utilization.SAG_MILL]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0
+
+	[Utilization.ALLOY_SMELTER]
+		# Default: 3.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 3.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0
+
+	[Utilization.VAT]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.5
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.5
+
+	[Utilization.SPAWNER]
+		# Default: 0.125
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 0.125
+
+	[Utilization.DRAIN]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0
+
+	[Utilization.SOUL_BINDER]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0
+
+	[Utilization.SLICER]
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		stackUtilization = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		batchUtilization = 1.0

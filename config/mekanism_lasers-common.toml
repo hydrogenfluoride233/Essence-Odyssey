@@ -1,0 +1,75 @@
+["Mekanism Lasers Config"]
+	#Energy config for basic laser
+	# Default: 8000000
+	# Range: 0 ~ 9223372036854775807
+	basicLaserEnergyCap = 8000000
+	# Default: 30000
+	# Range: 0 ~ 9223372036854775807
+	basicLaserEnergyUse = 30000
+	#Energy config for advanced laser
+	# Default: 32000000
+	# Range: 0 ~ 9223372036854775807
+	advancedLaserEnergyCap = 32000000
+	# Default: 120000
+	# Range: 0 ~ 9223372036854775807
+	advancedLaserEnergyUse = 120000
+	#Energy config for elite laser
+	# Default: 128000000
+	# Range: 0 ~ 9223372036854775807
+	eliteLaserEnergyCap = 128000000
+	# Default: 480000
+	# Range: 0 ~ 9223372036854775807
+	eliteLaserEnergyUse = 480000
+	#Energy config for ultimate laser
+	# Default: 512000000
+	# Range: 0 ~ 9223372036854775807
+	ultimateLaserEnergyCap = 512000000
+	# Default: 1920000
+	# Range: 0 ~ 9223372036854775807
+	ultimateLaserEnergyUse = 1920000
+	#Ticks required for ODECM cycle
+	# Default: 200
+	# Range: > 0
+	ODECM_Progress = 200
+	#Progress per tick
+	# Default: 1
+	# Range: > 0
+	ODECM_ProgressPerTick = 1
+	#Energy cost of one tick for ODECM
+	# Default: 100000
+	# Range: 0 ~ 9223372036854775807
+	ODECM_TickCost = 100000
+	#How many ores should ODECM return after a cycle
+	# Default: 1
+	# Range: > 0
+	ODECM_OutputAmount = 1
+	#This determens how fast the ODECM consumes water, and outputs steam, using the formula (ODECM_TickCost * ODECM_Generator (version)) / X
+	# Default: 20
+	# Range: 0 ~ 9223372036854775807
+	ODECM_LiquidGasIO = 20
+	#Can the ODECM implode (suck in surrounding blocks and blast them back out) when it is starved of water/steam?
+	ODECM_CanExplode = true
+	#Radius (in blocks) of the ODECM implosion
+	# Default: 12
+	# Range: 1 ~ 9223372036854775807
+	ODECM_Explosion = 12
+	#[Depreciated] Cooldown of the ore generator (in seconds)
+	# Default: 4
+	# Range: > 0
+	oreGeneratorCooldown = 4
+	#[Depreciated] Energy cost of fabricating ore/ores
+	# Default: 16000000
+	# Range: 0 ~ 9223372036854775807
+	oreGeneratorFabricationCost = 16000000
+	#[Depreciated] How much ores do you get from one cycle
+	# Default: 1
+	# Range: > 1
+	oreGeneratorNumberOfOres = 1
+	#List of ores to blacklist from generation
+	blacklistedOres = ["justdirethings:raw_ferricore_ore", "justdirethings:raw_blazegold_ore", "justdirethings:raw_celestigem_ore", "justdirethings:raw_eclipsealloy_ore", "justdirethings:raw_coal_t1_ore", "justdirethings:raw_coal_t2_ore", "justdirethings:raw_coal_t3_ore", "justdirethings:raw_coal_t4_ore"]
+	#List should have amount of elements >= the amount of ODECM generator versions, each number tells the generator by how much will it improve
+	ODECM_Generator = [1, 2, 3, 6, 9, 25]
+	#Block IDs the ODECM implosion will NEVER pull in. Takes priority over the whitelist.
+	ODECM_ImplodeBlacklist = []
+	#Blocks with a block entity (tile entities) are excluded from the implosion by default; add block IDs here to allow those specific ones to be pulled in.
+	ODECM_ImplodeWhitelist = ["mekanism:structural_glass"]

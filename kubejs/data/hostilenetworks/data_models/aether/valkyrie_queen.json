@@ -1,0 +1,73 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "entity": "aether:valkyrie_queen",
+    "variants": [],
+    "name_color": "#F5F5C8",
+    "display": {
+        "scale": 0.85
+    },
+    "sim_cost": 2048,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:aether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.valkyrie_queen",
+    "fabricator_drops": [
+        {
+            "id": "aether:valkyrie_helmet",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_chestplate",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_leggings",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_boots",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_gloves",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_pickaxe",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_axe",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_shovel",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_hoe",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_cape",
+            "count": 1
+        },
+        {
+            "id": "aether:golden_feather",
+            "count": 1
+        },
+        {
+            "id": "aether:valkyrie_lance",
+            "count": 1
+        }
+    ]
+}

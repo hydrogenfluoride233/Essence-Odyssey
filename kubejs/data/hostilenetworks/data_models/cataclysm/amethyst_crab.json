@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:amethyst_crab",
+    "variants": [],
+    "name_color": "#A96CFF",
+    "display": {
+        "scale": 0.55
+    },
+    "sim_cost": 2048,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.amethyst_crab",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:amethyst_crab_meat",
+            "count": 16
+        },
+        {
+            "id": "cataclysm:amethyst_crab_shell",
+            "count": 8
+        }
+    ]
+}

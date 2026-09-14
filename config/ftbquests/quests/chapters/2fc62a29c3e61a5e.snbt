@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2fc62a29c3e61a5e"
+	group: "5D4B0C6183F5C265"
+	icon: {
+		id: "eternal_starlight:starlight_flower"
+	}
+	id: "2FC62A29C3E61A5E"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["17482BD4DB583890"]
+		hide_until_deps_complete: true
+		id: "1C2C86D965817F76"
+		tasks: [{
+			id: "24C7925DAC11F1A8"
+			item: { count: 1, id: "eternal_starlight:orb_of_prophecy" }
+			type: "item"
+		}]
+		x: -2.0d
+		y: -0.5d
+	}]
+}

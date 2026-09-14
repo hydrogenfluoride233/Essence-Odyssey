@@ -1,0 +1,30 @@
+#How much time in ticks should the virtual sacrificer wait before producing blood [100]
+# Default: 100
+# Range: > 1
+sacrificer_speed = 100
+#The energy capacity of the virtual sacrificer [1000000]
+# Default: 1000000
+# Range: > 1
+sacrificer_energy = 1000000
+#How much data to give to the model each iteration [1]
+#Set to 0 to disable
+# Default: 1
+# Range: > 0
+sacrificer_data = 1
+#Should data be given to faulty models? [true]
+faulty_data = true
+#Allow Extra HNN combined models in the Virtual Sacrificer. Disabling also stops already inserted combined models.
+extra_hnn_models_enabled = true
+#Enable the Suffering Incorporated multiblock and its I/O ports. Disabling preserves existing blocks and stored contents.
+suffering_enabled = true
+#Ticks per Suffering Incorporated model operation (HNN Data Center default: 300)
+# Default: 300
+# Range: > 1
+suffering_speed = 300
+# Default: 25000000
+# Range: > 1
+suffering_energy = 25000000
+#Essentia Vitae tank capacity in mB (1 mB = 1 EV)
+# Default: 4000000
+# Range: > 1
+suffering_tank = 4000000

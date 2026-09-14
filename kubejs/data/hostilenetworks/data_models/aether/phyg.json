@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "entity": "aether:phyg",
+    "variants": [],
+    "name_color": "#F2A7C5",
+    "display": {
+        "scale": 0.85
+    },
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:aether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.phyg",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:porkchop",
+            "count": 48
+        },
+        {
+            "id": "minecraft:feather",
+            "count": 24
+        },
+        {
+            "id": "aethersdelight:wing",
+            "count": 24
+        }
+    ]
+}

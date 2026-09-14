@@ -1,0 +1,41 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:ancient_remnant",
+    "variants": [],
+    "name_color": "#C0A16B",
+    "display": {
+        "scale": 0.40
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.ancient_remnant",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:ancient_metal_block",
+            "count": 2
+        },
+        {
+            "id": "cataclysm:remnant_skull",
+            "count": 1
+        },
+        {
+            "id": "cataclysm:sandstorm_in_a_bottle",
+            "count": 1
+        },
+        {
+            "id": "cataclysm:music_disc_ancient_remnant",
+            "count": 1
+        }
+    ]
+}

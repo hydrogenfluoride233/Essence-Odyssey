@@ -1,0 +1,32 @@
+ClientEvents.generateAssets("before_mods",event=>{
+    //世界交互
+    event.json("emi:recipe/actuallyadditions/crystallized_oil",{
+        type:"emi:world_interaction",
+        left:"item:actuallyadditions:crystallized_canola_seed",
+        right:{
+            type:"fluid",
+            id:"actuallyadditions:refined_canola_oil",
+            amount:1000
+        },
+        output:{
+            type:"fluid",
+            id:"actuallyadditions:crystallized_oil",
+            amount:1000
+        }
+    })
+
+    event.json("emi:recipe/actuallyadditions/empowered_oil",{
+        type:"emi:world_interaction",
+        left:"item:actuallyadditions:empowered_canola_seed",
+        right:{
+            type:"fluid",
+            id:"actuallyadditions:crystallized_oil",
+            amount:1000
+        },
+        output:{
+            type:"fluid",
+            id:"actuallyadditions:empowered_oil",
+            amount:1000
+        }
+    })
+})

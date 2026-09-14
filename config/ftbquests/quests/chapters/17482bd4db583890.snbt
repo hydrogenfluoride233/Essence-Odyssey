@@ -1,0 +1,148 @@
+{
+	autofocus_id: "01E75843E7AA2555"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "17482bd4db583890"
+	group: ""
+	icon: {
+		id: "minecraft:diamond_sword"
+	}
+	id: "17482BD4DB583890"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "01E75843E7AA2555"
+			rewards: [
+				{
+					id: "77494659C93354E8"
+					item: {
+						count: 1
+						id: "minecraft:iron_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "7E13204D9F6FCE83"
+					item: {
+						count: 1
+						id: "minecraft:iron_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "2C13F33014A69703"
+					item: {
+						count: 1
+						id: "minecraft:iron_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "4BF8E95BC0B58458"
+					item: {
+						count: 1
+						id: "minecraft:iron_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "7583C6719A3C482F"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "7EBB90E0899ACDEB"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "6EAC2AE323E58F12"
+					item: {
+						count: 1
+						id: "minecraft:iron_axe"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "66D156C18ED0A047"
+					item: {
+						count: 1
+						id: "upgrade_aquatic:mulberry_bread"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E73740C329181EE"
+					table_id: 2593493793654228620L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "75BFDE05DC02A082"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D0337DB8C14104E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "aether:life_shard"
+			}
+			id: "074A2E5B400DF699"
+			rewards: [{
+				id: "144C5E71A1CAAA78"
+				item: {
+					count: 1
+					id: "solcarrot:food_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26F5A19DA793B3CA"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D0337DB8C14104E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "ae2:mysterious_cube"
+			}
+			id: "0447158FB18F70D5"
+			tasks: [{
+				id: "73B7DE094D9C8EE8"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01E75843E7AA2555"]
+			hide_until_deps_complete: true
+			id: "6D0337DB8C14104E"
+			tasks: [{
+				id: "30303ED505A60181"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,138 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "35bd379c9ea94aea"
+	group: "76D01E7F0542ED7A"
+	icon: {
+		id: "kubejs:altar_1"
+	}
+	id: "35BD379C9EA94AEA"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28FA8A95CEE8A4FF"
+			tasks: [{
+				id: "73365E369632C11E"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "285EB6506FEA658A"
+			tasks: [{
+				id: "52936DBCCE3CD99B"
+				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "2153454C1A2A919F"
+			tasks: [{
+				id: "2149A2BDB70814E8"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "55D4ACCC513356B3"
+			tasks: [{
+				id: "25157DA6906523E6"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "7D408593DCB001FB"
+			shape: "gear"
+			tasks: [{
+				id: "453ECEEFE9E8D6AD"
+				item: { count: 1, id: "kubejs:altar_1" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "13A7FD8383CB4DD4"
+			tasks: [{
+				id: "775E588526073D1F"
+				item: { count: 1, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "0B5E4ACB7E34CCC5"
+			tasks: [{
+				id: "4EE56DE164B3A8F7"
+				item: { count: 1, id: "naturesaura:generator_limit_remover" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "258F3BBF92677C79"
+			tasks: [{
+				id: "395F35BEC9189521"
+				item: { count: 1, id: "pneumaticcraft:assembly_platform" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C6D54DFF33A30EE"]
+			id: "7ED687D24B1848B3"
+			tasks: [{
+				id: "6072A807A5B0E718"
+				item: { components: { "modonomicon:book_id": "neovitae:guide" }, count: 1, id: "neovitae:guide_book" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "52445941353FAD96"
+			tasks: [{
+				id: "75489E2B7769EC6A"
+				item: { count: 1, id: "naturesaura:offering_table" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "38AA7C733AD42EFB"
+			tasks: [{
+				id: "13B21842E0BB46BA"
+				item: { count: 1, id: "pneumaticcraft:fluid_mixer" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "1AD22CB51F979425"
+			tasks: [{
+				id: "5630D98633D5608F"
+				item: { count: 1, id: "occultism:fragile_soul_gem" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+}

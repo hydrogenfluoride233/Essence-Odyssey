@@ -1,0 +1,38 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "entity": "cataclysm:royal_draugr",
+    "variants": [
+        "cataclysm:elite_draugr",
+        "cataclysm:draugr"
+    ],
+    "name_color": "#6F7A89",
+    "display": {},
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.draugr",
+    "fabricator_drops": [
+        {
+            "id": "cataclysm:black_steel_nugget",
+            "count": 16
+        },
+        {
+            "id": "minecraft:bone",
+            "count": 32
+        },
+        {
+            "id": "minecraft:rotten_flesh",
+            "count": 32
+        }
+    ]
+}

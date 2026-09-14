@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "entity": "eternal_starlight:ent",
+    "variants": [],
+    "name_color": "#557642",
+    "display": {},
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:eternal_starlight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.ent",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:stick",
+            "count": 24
+        },
+        {
+            "id": "eternal_starlight:lunar_berries",
+            "count": 16
+        }
+    ]
+}

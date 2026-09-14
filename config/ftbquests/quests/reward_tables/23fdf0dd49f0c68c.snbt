@@ -1,0 +1,34 @@
+{
+	id: "23FDF0DD49F0C68C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "04D26E95620167F6", item: { count: 1, id: "animalhatmod:chicken_hat_helmet" } }
+		{ id: "2BB474FB4C33DA51", item: { count: 1, id: "animalhatmod:cow_hat_helmet" } }
+		{ id: "6D876B9DE24D23D6", item: { count: 1, id: "animalhatmod:pig_hat_helmet" } }
+		{ id: "4407AD70D929AD2F", item: { count: 1, id: "animalhatmod:sheep_hat_helmet" } }
+		{ id: "023742C42894D1B9", item: { count: 1, id: "animalhatmod:cat_hat_helmet" } }
+		{ id: "2F978740D2639229", item: { count: 1, id: "animalhatmod:ocelot_hat_helmet" } }
+		{ id: "59606FB655AA9438", item: { count: 1, id: "animalhatmod:fox_hat_helmet" } }
+		{ id: "7E14BF57B0CBCC57", item: { count: 1, id: "animalhatmod:wolf_hat_helmet" } }
+		{ id: "495BFABE0FD4A684", item: { count: 1, id: "animalhatmod:bat_hat_helmet" } }
+		{ id: "4D1A807515C78576", item: { count: 1, id: "animalhatmod:bunny_hat_helmet" } }
+		{ id: "5BD881488500E366", item: { count: 1, id: "animalhatmod:frog_hat_helmet" } }
+		{ id: "38B973C95EB1A1D1", item: { count: 1, id: "animalhatmod:dolphin_hat_helmet" } }
+		{ id: "420C330D50B2191F", item: { count: 1, id: "animalhatmod:axolotl_hat_helmet" } }
+		{ id: "2CBBF33304CBF9FF", item: { count: 1, id: "animalhatmod:bee_hat_helmet" } }
+		{ id: "5EA6BAE286063409", item: { count: 1, id: "animalhatmod:pufferfish_hat_helmet" } }
+		{ id: "710C4D2948692217", item: { count: 1, id: "animalhatmod:polar_bear_hat_helmet" } }
+		{ id: "71C869B4E2171A55", item: { count: 1, id: "animalhatmod:armadillo_hat_helmet" } }
+		{ id: "19FBD50149070DDD", item: { count: 1, id: "animalhatmod:camel_hat_helmet" } }
+		{ id: "0AA8DF3DCA63860C", item: { count: 1, id: "animalhatmod:donkey_hat_helmet" } }
+		{ id: "51336D5E7AF194E6", item: { count: 1, id: "animalhatmod:horse_hat_helmet" } }
+		{ id: "1610F2FF84CF866B", item: { count: 1, id: "animalhatmod:sniffer_hat_helmet" } }
+		{ id: "2A9B9083B6F4E417", item: { count: 1, id: "animalhatmod:squid_hat_helmet" } }
+		{ id: "493A73A4146AAF03", item: { count: 1, id: "animalhatmod:strider_hat_helmet" } }
+		{ id: "67BB20CF3454B433", item: { count: 1, id: "animalhatmod:turtle_hat_helmet" } }
+		{ id: "42724F70DBE3F736", item: { count: 1, id: "animalhatmod:goat_hat_helmet" } }
+		{ id: "7F950CFBD1E2D61F", item: { count: 1, id: "animalhatmod:panda_hat_helmet" } }
+		{ id: "480A5A432EAB6E84", item: { count: 1, id: "animalhatmod:llama_hat_helmet" } }
+	]
+}

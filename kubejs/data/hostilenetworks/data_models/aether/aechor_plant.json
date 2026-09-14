@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "entity": "aether:aechor_plant",
+    "variants": [],
+    "name_color": "#A56CFF",
+    "display": {
+        "y_offset": 0.15,
+        "scale": 0.9
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:aether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.aechor_plant",
+    "fabricator_drops": [
+        {
+            "id": "aether:aechor_petal",
+            "count": 32
+        },
+        {
+            "id": "aether:poison_dart",
+            "count": 16
+        }
+    ]
+}

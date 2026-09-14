@@ -1,0 +1,43 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0ba7c5b351ec2475"
+	group: "76D01E7F0542ED7A"
+	id: "0BA7C5B351EC2475"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6989BDAB285B74E9"
+			tasks: [{
+				id: "10A93A01AE5C3C40"
+				item: { count: 1, id: "kubejs:altar_2" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "4555A4602B58E052"
+			tasks: [{
+				id: "6609373B1A7B53A2"
+				item: { count: 1, id: "kubejs:altar_3" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "72DA2AC07ABE7254"
+			tasks: [{
+				id: "3CF1A46B2F68F9B9"
+				item: { count: 1, id: "kubejs:altar_nature" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+	]
+}
