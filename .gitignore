@@ -104,12 +104,13 @@ config/*/saved_data*.nbt
 config/*-saved_data.nbt
 
 # 玩家个人偏好（键位、音量、界面等），与整合包设计无关
-config/*-client.toml
-config/*-client.snbt
-config/*-client.json
-config/*-client.json5
-config/*-client.properties
-config/*-client.yaml
+# 注意用 **/ 前缀：'*' 不跨目录，写成 config/*-client.toml 会漏掉子目录里的
+**/*-client.toml
+**/*-client.snbt
+**/*-client.json
+**/*-client.json5
+**/*-client.properties
+**/*-client.yaml
 config/sodium-options.json
 config/sodium-extra-options.json
 config/inventoryhud-client.toml
