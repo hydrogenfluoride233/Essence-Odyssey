@@ -153,9 +153,7 @@
   "item.kubejs.token_equanimity":"安定印记",
 
   "item.kubejs.perditio_scribe_tool":"铭文工具：混沌",
-  "item.kubejs.perditio_scribe_tool.tooltip":"§7铭文已现......§r",
   "item.kubejs.ordo_scribe_tool":"铭文工具：秩序",
-  "item.kubejs.ordo_scribe_tool.tooltip":"§7铭文已现......§r",
 
   "chemical.kubejs.dirty_zinc":"污浊锌浆液",
   "chemical.kubejs.clean_zinc":"纯净锌浆液",
@@ -218,6 +216,19 @@
   "block.kubejs.altar_nature":"封装自然祭坛",
   "block.kubejs.star_ore":"星辉矿石",
 
+  "item.kubejs.ritual_rune":"仪式：符文祭坛",
+  "item.kubejs.ritual_rune.tooltip":"符文祭坛",
+  "item.kubejs.ritual_astral_1":"仪式：星辉祭坛",
+  "item.kubejs.ritual_astral_1.tooltip":"星辉祭坛",
+  "item.kubejs.ritual_astral_2":"仪式：天辉祭坛",
+  "item.kubejs.ritual_astral_2.tooltip":"天辉祭坛",
+  "item.kubejs.ritual_astral_3":"仪式：五彩祭坛",
+  "item.kubejs.ritual_astral_3.tooltip":"五彩祭坛",
+  "item.kubejs.ritual_tree":"仪式：封装森林仪式",
+  "item.kubejs.ritual_tree.tooltip":"封装森林仪式",
+  "item.kubejs.ritual_nature":"仪式：封装自然祭坛",
+  "item.kubejs.ritual_nature.tooltip":"封装自然祭坛",
+
   "item.naturesaura.aura_bottle.kubejs:aether":"瓶装曙光",
   "item.naturesaura.aura_bottle.kubejs:twilight_forest":"瓶装暮光",
   "item.naturesaura.aura_bottle.kubejs:starlight":"瓶装星光",
@@ -264,5 +275,26 @@
   "alias.kubejs.metallum_fluid_bucket":"金属流体桶",
   "alias.kubejs.vacuos_fluid_bucket":"虚空流体桶",
   "alias.kubejs.motus_fluid_bucket":"移动流体桶",
-  "alias.kubejs.permutatio_fluid_bucket":"变化流体桶"
+  "alias.kubejs.permutatio_fluid_bucket":"变化流体桶",
+
+  "alias.kubejs.ars_earth_essence":"地之精华",
+  "alias.kubejs.ars_air_essence":"风之精华",
+  "alias.kubejs.ars_rune_earth":"地元素",
+  "alias.kubejs.ars_rune_air":"风元素",
+  "alias.kubejs.ars_elemental_earth_focus":"地之核心",
+  "alias.kubejs.ars_elemental_air_focus":"风之核心",
+  "alias.kubejs.ars_elemental_lesser_earth_focus":"初等地之核心",
+  "alias.kubejs.ars_elemental_lesser_air_focus":"初等风之核心",
+  "alias.kubejs.ars_elemental_earth_bangle":"地之手环",
+  "alias.kubejs.ars_elemental_air_bangle":"风之手环",
+  "alias.kubejs.ars_elemental_earth_caster_tome":"地之施法者卷册",
+  "alias.kubejs.ars_elemental_air_caster_tome":"风之施法者卷册",
+  "alias.kubejs.ars_elemental_earth_turret":"地之灌注炮塔",
+  "alias.kubejs.ars_elemental_air_turret":"风之灌注炮塔",
+  "alias.kubejs.neovitae_earth_ritual_stone":"地之仪式石",
+  "alias.kubejs.neovitae_air_ritual_stone":"风之仪式石",
+  "alias.kubejs.neovitae_earth_scribe_tool":"铭文工具：地",
+  "alias.kubejs.neovitae_air_scribe_tool":"铭文工具：风",
+  "alias.kubejs.neovitae_reagent_air":"风之试剂",
+  "alias.kubejs.neovitae_sigil_air":"风之印记"
 }

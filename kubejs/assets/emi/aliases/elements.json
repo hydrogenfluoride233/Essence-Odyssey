@@ -1,0 +1,26 @@
+{
+  "aliases": [
+    { "stacks": "item:ars_nouveau:earth_essence",        "text": "alias.kubejs.ars_earth_essence" },
+    { "stacks": "item:ars_nouveau:air_essence",          "text": "alias.kubejs.ars_air_essence" },
+    { "stacks": "item:ars_nouveau:rune",                 "text": "alias.kubejs.ars_rune_earth" },
+    { "stacks": "item:ars_nouveau:rune",                 "text": "alias.kubejs.ars_rune_air" },
+
+    { "stacks": "item:ars_elemental:earth_focus",        "text": "alias.kubejs.ars_elemental_earth_focus" },
+    { "stacks": "item:ars_elemental:air_focus",          "text": "alias.kubejs.ars_elemental_air_focus" },
+    { "stacks": "item:ars_elemental:lesser_earth_focus", "text": "alias.kubejs.ars_elemental_lesser_earth_focus" },
+    { "stacks": "item:ars_elemental:lesser_air_focus",   "text": "alias.kubejs.ars_elemental_lesser_air_focus" },
+    { "stacks": "item:ars_elemental:earth_bangle",       "text": "alias.kubejs.ars_elemental_earth_bangle" },
+    { "stacks": "item:ars_elemental:air_bangle",         "text": "alias.kubejs.ars_elemental_air_bangle" },
+    { "stacks": "item:ars_elemental:earth_caster_tome",  "text": "alias.kubejs.ars_elemental_earth_caster_tome" },
+    { "stacks": "item:ars_elemental:air_caster_tome",    "text": "alias.kubejs.ars_elemental_air_caster_tome" },
+    { "stacks": "item:ars_elemental:earth_turret",       "text": "alias.kubejs.ars_elemental_earth_turret" },
+    { "stacks": "item:ars_elemental:air_turret",         "text": "alias.kubejs.ars_elemental_air_turret" },
+
+    { "stacks": "item:neovitae:earth_ritual_stone",      "text": "alias.kubejs.neovitae_earth_ritual_stone" },
+    { "stacks": "item:neovitae:air_ritual_stone",        "text": "alias.kubejs.neovitae_air_ritual_stone" },
+    { "stacks": "item:neovitae:earth_scribe_tool",       "text": "alias.kubejs.neovitae_earth_scribe_tool" },
+    { "stacks": "item:neovitae:air_scribe_tool",         "text": "alias.kubejs.neovitae_air_scribe_tool" },
+    { "stacks": "item:neovitae:reagent_air",             "text": "alias.kubejs.neovitae_reagent_air" },
+    { "stacks": "item:neovitae:sigil_air",               "text": "alias.kubejs.neovitae_sigil_air" }
+  ]
+}

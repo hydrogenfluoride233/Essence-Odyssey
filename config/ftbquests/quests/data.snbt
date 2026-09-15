@@ -12,6 +12,9 @@
 	fallback_locale: "en_us"
 	grid_scale: 0.5d
 	hide_excluded_quests: false
+	icon: {
+		id: "kubejs:twilight_ingot"
+	}
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

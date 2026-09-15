@@ -1,0 +1,96 @@
+#Stress impact for tiny input hatch with slow speed requirements
+# Default: 1
+# Range: > 1
+tiny_slow_speed_input_stress_impact = 1
+#Stress impact for tiny input hatch with medium speed requirements
+# Default: 1
+# Range: > 1
+tiny_medium_speed_input_stress_impact = 1
+#Stress impact for tiny input hatch with fast speed requirements
+# Default: 1
+# Range: > 1
+tiny_fast_speed_input_stress_impact = 1
+#Stress impact for small input hatch with slow speed requirements
+# Default: 2
+# Range: > 1
+small_slow_speed_input_stress_impact = 2
+#Stress impact for small input hatch with medium speed requirements
+# Default: 2
+# Range: > 1
+small_medium_speed_input_stress_impact = 2
+#Stress impact for small input hatch with fast speed requirements
+# Default: 2
+# Range: > 1
+small_fast_speed_input_stress_impact = 2
+#Stress impact for normal input hatch with slow speed requirements
+# Default: 4
+# Range: > 1
+normal_slow_speed_input_stress_impact = 4
+#Stress impact for normal input hatch with medium speed requirements
+# Default: 4
+# Range: > 1
+normal_medium_speed_input_stress_impact = 4
+#Stress impact for normal input hatch with fast speed requirements
+# Default: 4
+# Range: > 1
+normal_fast_speed_input_stress_impact = 4
+#Stress impact for reinforced input hatch with slow speed requirements
+# Default: 8
+# Range: > 1
+reinforced_slow_speed_input_stress_impact = 8
+#Stress impact for reinforced input hatch with medium speed requirements
+# Default: 8
+# Range: > 1
+reinforced_medium_speed_input_stress_impact = 8
+#Stress impact for reinforced input hatch with fast speed requirements
+# Default: 8
+# Range: > 1
+reinforced_fast_speed_input_stress_impact = 8
+#Stress impact for big input hatch with slow speed requirements
+# Default: 16
+# Range: > 1
+big_slow_speed_input_stress_impact = 16
+#Stress impact for big input hatch with medium speed requirements
+# Default: 16
+# Range: > 1
+big_medium_speed_input_stress_impact = 16
+#Stress impact for big input hatch with fast speed requirements
+# Default: 16
+# Range: > 1
+big_fast_speed_input_stress_impact = 16
+#Stress impact for huge input hatch with slow speed requirements
+# Default: 32
+# Range: > 1
+huge_slow_speed_input_stress_impact = 32
+#Stress impact for huge input hatch with medium speed requirements
+# Default: 32
+# Range: > 1
+huge_medium_speed_input_stress_impact = 32
+#Stress impact for huge input hatch with fast speed requirements
+# Default: 32
+# Range: > 1
+huge_fast_speed_input_stress_impact = 32
+#Stress impact for ludicrous input hatch with slow speed requirements
+# Default: 64
+# Range: > 1
+ludicrous_slow_speed_input_stress_impact = 64
+#Stress impact for ludicrous input hatch with medium speed requirements
+# Default: 64
+# Range: > 1
+ludicrous_medium_speed_input_stress_impact = 64
+#Stress impact for ludicrous input hatch with fast speed requirements
+# Default: 64
+# Range: > 1
+ludicrous_fast_speed_input_stress_impact = 64
+#Stress impact for vacuum input hatch with slow speed requirements
+# Default: 128
+# Range: > 1
+vacuum_slow_speed_input_stress_impact = 128
+#Stress impact for vacuum input hatch with medium speed requirements
+# Default: 128
+# Range: > 1
+vacuum_medium_speed_input_stress_impact = 128
+#Stress impact for vacuum input hatch with fast speed requirements
+# Default: 128
+# Range: > 1
+vacuum_fast_speed_input_stress_impact = 128

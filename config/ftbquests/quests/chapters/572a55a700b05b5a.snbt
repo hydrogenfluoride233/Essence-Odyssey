@@ -1,5 +1,5 @@
 {
-	autofocus_id: "35FE4723A2488CF4"
+	autofocus_id: "31208139567F93AE"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "572a55a700b05b5a"
@@ -81,7 +81,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["31208139567F93AE"]
@@ -92,7 +92,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3686997CB148E9BF"]
@@ -103,7 +103,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40501041AF4EBAA3"]
@@ -114,7 +114,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0734386F2C539298"]
@@ -125,7 +125,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["704148E137D62A82"]
@@ -136,7 +136,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["02B0BF4F271034FE"]
@@ -147,7 +147,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1FBA99E5D96BD893"]
@@ -158,7 +158,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3453F3AF03FF04C4"]
@@ -201,7 +201,7 @@
 				}
 			]
 			x: 11.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [

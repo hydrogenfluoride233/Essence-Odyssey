@@ -26,20 +26,12 @@ StartupEvents.registry("item",event=>{
         event.create(`kubejs:empowered_${crystal}_crystal_dust`)
     )
 
-    //仪式假人
-    const rune_rituals = [
-        ["rune","符文祭坛"],
-        ["astral_1","星辉祭坛"],
-        ["astral_2","天辉祭坛"],
-        ["astral_3","五彩祭坛"],
-        ["tree","封装森林仪式"],
-        ["nature","封装自然祭坛"]
-    ]
-    rune_rituals.forEach(([num,name])=>
+    //仪式假人（名称与提示走 lang 文件，见 assets/kubejs/lang）
+    const rune_rituals = ["rune","astral_1","astral_2","astral_3","tree","nature"]
+    rune_rituals.forEach(num=>
         event.create(`kubejs:ritual_${num}`,"occultism_kubejs:ritual_dummy")
              .pentacleType("craft")
-             .ritualTooltip(name)
-             .displayName(`仪式：${name}`)
+             .ritualTooltip(Text.translate(`item.kubejs.ritual_${num}.tooltip`))
     )
 
     //精华
@@ -75,8 +67,8 @@ StartupEvents.registry("item",event=>{
          .fluidType("minecraft:lava")
     event.create("kubejs:paradox_collapser").rarity("epic")
     event.create("kubejs:perditio_scribe_tool").maxStackSize(1)
-         .tooltip(Text.translate("item.kubejs.perditio_scribe_tool.tooltip"))
+         .tooltip(Text.translate("tooltip.neovitae.inscriber.desc"))  //提示直接引用 NeoVitae 原文，不自己维护副本
     event.create("kubejs:ordo_scribe_tool").maxStackSize(1)
-         .tooltip(Text.translate("item.kubejs.ordo_scribe_tool.tooltip"))
+         .tooltip(Text.translate("tooltip.neovitae.inscriber.desc"))
 
 })
