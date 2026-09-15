@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "18d6d677c375f38f"
+	filename: "chapter_1_elements"
 	group: "76D01E7F0542ED7A"
 	icon: {
 		id: "ars_nouveau:imbuement_chamber"

@@ -296,5 +296,7 @@
   "alias.kubejs.neovitae_earth_scribe_tool":"Inscription Tool: Earth",
   "alias.kubejs.neovitae_air_scribe_tool":"Inscription Tool: Air",
   "alias.kubejs.neovitae_reagent_air":"Reagent Air",
-  "alias.kubejs.neovitae_sigil_air":"Air Sigil"
+  "alias.kubejs.neovitae_sigil_air":"Air Sigil",
+
+  "alias.kubejs.thaumon_mutagen":"Salis Mundus"
 }

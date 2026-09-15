@@ -2,7 +2,7 @@
 	autofocus_id: "06E134B2EEFB6EAF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "chapter_1_ae2"
+	filename: "dimensions_and_aspects"
 	group: ""
 	icon: {
 		id: "kubejs:crystal_aqua"

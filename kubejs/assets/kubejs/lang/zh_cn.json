@@ -296,5 +296,7 @@
   "alias.kubejs.neovitae_earth_scribe_tool":"铭文工具：地",
   "alias.kubejs.neovitae_air_scribe_tool":"铭文工具：风",
   "alias.kubejs.neovitae_reagent_air":"风之试剂",
-  "alias.kubejs.neovitae_sigil_air":"风之印记"
+  "alias.kubejs.neovitae_sigil_air":"风之印记",
+
+  "alias.kubejs.thaumon_mutagen":"世界盐"
 }

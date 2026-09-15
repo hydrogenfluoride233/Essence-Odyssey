@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "569e4be55e1c440f"
+	filename: "the_aether"
 	group: "5D4B0C6183F5C265"
 	icon: {
 		id: "aether:aether_portal_frame"

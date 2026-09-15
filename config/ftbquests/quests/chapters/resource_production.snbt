@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "7be58e7c6030198b"
+	filename: "resource_production"
 	group: "3F4D8FC0357D0EBB"
 	icon: {
 		id: "mysticalagriculture:dye_seeds"

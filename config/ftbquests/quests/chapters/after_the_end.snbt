@@ -2,7 +2,7 @@
 	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "f3a9c21e7b4d5086"
+	filename: "after_the_end"
 	group: ""
 	icon: {
 		id: "minecraft:written_book"

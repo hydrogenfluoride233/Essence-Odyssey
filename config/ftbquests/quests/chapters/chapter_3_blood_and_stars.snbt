@@ -2,7 +2,7 @@
 	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "35bd379c9ea94aea"
+	filename: "chapter_3_blood_and_stars"
 	group: "76D01E7F0542ED7A"
 	icon: {
 		id: "kubejs:altar_1"
