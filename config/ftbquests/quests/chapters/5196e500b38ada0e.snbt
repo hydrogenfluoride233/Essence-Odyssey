@@ -3,13 +3,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "5196e500b38ada0e"
-	group: "3F4D8FC0357D0EBB"
+	group: "76D01E7F0542ED7A"
 	icon: {
 		id: "ae2:controller"
 	}
 	id: "5196E500B38ADA0E"
 	images: [ ]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

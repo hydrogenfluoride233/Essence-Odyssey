@@ -19,7 +19,7 @@
         "id": "hostilenetworks:end_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.ender_golem",
+    "trivia": "hostilenetworks.trivia.undeciphered",
     "fabricator_drops": [
         {
             "id": "cataclysm:void_core",

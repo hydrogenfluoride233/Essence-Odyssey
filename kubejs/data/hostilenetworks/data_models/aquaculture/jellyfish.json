@@ -19,7 +19,7 @@
         "id": "hostilenetworks:overworld_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.jellyfish",
+    "trivia": "hostilenetworks.trivia.undeciphered",
     "fabricator_drops": [
         {
             "id": "aquaculture:jellyfish",

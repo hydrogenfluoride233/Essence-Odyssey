@@ -31,7 +31,7 @@
         "id": "hostilenetworks:twilight_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.knight_phantom",
+    "trivia": "hostilenetworks.trivia.undeciphered",
     "fabricator_drops": [
         {
             "id": "twilightforest:knight_phantom_trophy",

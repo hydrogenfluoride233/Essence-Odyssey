@@ -7,15 +7,19 @@
 	enableChemicalCustomFrequency = true
 
 [Optimization]
-	#物品导管在空/满时的最大休眠时间（tick）。
+	#物品导管在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
 	# Default: 40
-	# Range: 1 ~ 1200
+	# Range: 0 ~ 1200
 	itemMaxSleep = 40
-	#流体导管在空/满时的最大休眠时间（tick）。
+	#流体导管在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
 	# Default: 40
-	# Range: 1 ~ 1200
+	# Range: 0 ~ 1200
 	fluidMaxSleep = 40
-	#化学品导管在空/满时的最大休眠时间（tick）。
+	#化学品导管在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
 	# Default: 40
-	# Range: 1 ~ 1200
+	# Range: 0 ~ 1200
 	chemicalMaxSleep = 40
+	#是否在管道 GUI 中显示【智能休眠】开关。 [true / false]
+	#关闭后，GUI 中的智能休眠开关完全消失，所有连接面默认开启智能休眠。
+	#注意：若某管道类型的最大休眠时间配置为 0，则该类型永远不进入休眠，与此项无关。
+	enableSmartSleepToggle = true

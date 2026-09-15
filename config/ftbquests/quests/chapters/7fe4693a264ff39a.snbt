@@ -1,0 +1,83 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7fe4693a264ff39a"
+	group: "76D01E7F0542ED7A"
+	id: "7FE4693A264FF39A"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2F6105DE01C142F4"
+			tasks: [{
+				id: "3C45648AD601F5E2"
+				item: { count: 1, id: "mekanism:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "491E49DEB8AFD6D8"
+			tasks: [{
+				id: "6152BA0BB1DA0B69"
+				item: { components: { "mekanism:side_config": { config: { energy: { side: { back: "input", bottom: "input", front: "input", left: "input", right: "input", top: "input" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "59B7A14ED1591C43"
+			tasks: [{
+				id: "53618D1C4AE57F96"
+				item: { components: { "mekanism:energy": { energy_containers: [L;9223372036854775807L] }, "mekanism:side_config": { config: { energy: { eject: 1b, side: { back: "output", bottom: "output", front: "output", left: "output", right: "output", top: "output" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "4EACF3613EF753C5"
+			tasks: [{
+				id: "59F2A26E4F53C7D7"
+				item: { count: 1, id: "mekanism:creative_chemical_tank" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "15FCD3B7E3797BF6"
+			tasks: [{
+				id: "24725F5A2390E5D2"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "441ABC70AD01CB2E"
+			tasks: [{
+				id: "68B6726D3A6E99D1"
+				item: { count: 1, id: "pneumaticcraft:creative_compressor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "0B5AD20BE5F136FF"
+			tasks: [{
+				id: "2CFFE246E7B65060"
+				item: { count: 1, id: "mysticalagradditions:creative_essence" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+}

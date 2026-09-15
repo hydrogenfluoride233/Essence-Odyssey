@@ -19,7 +19,7 @@
         "id": "hostilenetworks:nether_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.ignis",
+    "trivia": "hostilenetworks.trivia.undeciphered",
     "fabricator_drops": [
         {
             "id": "cataclysm:ignitium_ingot",

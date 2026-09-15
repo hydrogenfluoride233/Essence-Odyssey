@@ -1,0 +1,28 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "f3a9c21e7b4d5086"
+	group: ""
+	icon: {
+		id: "minecraft:written_book"
+	}
+	id: "09BEF93D202C45FF"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["7FE4693A264FF39A"]
+		hide_until_deps_complete: true
+		icon: {
+			id: "minecraft:written_book"
+		}
+		id: "3FA905A2EC803B78"
+		tasks: [{
+			id: "2ABE0757A5D9640F"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

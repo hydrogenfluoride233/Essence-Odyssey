@@ -1,0 +1,87 @@
+{
+  "aliases": [
+    { "stacks": "fluid:kubejs:aqua_essence",       "text": "alias.kubejs.aqua_fluid" },
+    { "stacks": "item:kubejs:aqua_essence",        "text": "alias.kubejs.aqua_fluid" },
+    { "stacks": "item:kubejs:aqua_essence_bucket", "text": "alias.kubejs.aqua_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:ignis_essence",       "text": "alias.kubejs.ignis_fluid" },
+    { "stacks": "item:kubejs:ignis_essence",        "text": "alias.kubejs.ignis_fluid" },
+    { "stacks": "item:kubejs:ignis_essence_bucket", "text": "alias.kubejs.ignis_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:terra_essence",       "text": "alias.kubejs.terra_fluid" },
+    { "stacks": "item:kubejs:terra_essence",        "text": "alias.kubejs.terra_fluid" },
+    { "stacks": "item:kubejs:terra_essence_bucket", "text": "alias.kubejs.terra_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:aer_essence",       "text": "alias.kubejs.aer_fluid" },
+    { "stacks": "item:kubejs:aer_essence",        "text": "alias.kubejs.aer_fluid" },
+    { "stacks": "item:kubejs:aer_essence_bucket", "text": "alias.kubejs.aer_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:perditio_essence",       "text": "alias.kubejs.perditio_fluid" },
+    { "stacks": "item:kubejs:perditio_essence",        "text": "alias.kubejs.perditio_fluid" },
+    { "stacks": "item:kubejs:perditio_essence_bucket", "text": "alias.kubejs.perditio_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:ordo_essence",       "text": "alias.kubejs.ordo_fluid" },
+    { "stacks": "item:kubejs:ordo_essence",        "text": "alias.kubejs.ordo_fluid" },
+    { "stacks": "item:kubejs:ordo_essence_bucket", "text": "alias.kubejs.ordo_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:vapor_essence",       "text": "alias.kubejs.vapor_fluid" },
+    { "stacks": "item:kubejs:vapor_essence",        "text": "alias.kubejs.vapor_fluid" },
+    { "stacks": "item:kubejs:vapor_essence_bucket", "text": "alias.kubejs.vapor_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:victus_essence",       "text": "alias.kubejs.victus_fluid" },
+    { "stacks": "item:kubejs:victus_essence",        "text": "alias.kubejs.victus_fluid" },
+    { "stacks": "item:kubejs:victus_essence_bucket", "text": "alias.kubejs.victus_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:tempestas_essence",       "text": "alias.kubejs.tempestas_fluid" },
+    { "stacks": "item:kubejs:tempestas_essence",        "text": "alias.kubejs.tempestas_fluid" },
+    { "stacks": "item:kubejs:tempestas_essence_bucket", "text": "alias.kubejs.tempestas_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:mortuus_essence",       "text": "alias.kubejs.mortuus_fluid" },
+    { "stacks": "item:kubejs:mortuus_essence",        "text": "alias.kubejs.mortuus_fluid" },
+    { "stacks": "item:kubejs:mortuus_essence_bucket", "text": "alias.kubejs.mortuus_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:auram_essence",       "text": "alias.kubejs.auram_fluid" },
+    { "stacks": "item:kubejs:auram_essence",        "text": "alias.kubejs.auram_fluid" },
+    { "stacks": "item:kubejs:auram_essence_bucket", "text": "alias.kubejs.auram_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:fervor_essence",       "text": "alias.kubejs.fervor_fluid" },
+    { "stacks": "item:kubejs:fervor_essence",        "text": "alias.kubejs.fervor_fluid" },
+    { "stacks": "item:kubejs:fervor_essence_bucket", "text": "alias.kubejs.fervor_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:lux_essence",       "text": "alias.kubejs.lux_fluid" },
+    { "stacks": "item:kubejs:lux_essence",        "text": "alias.kubejs.lux_fluid" },
+    { "stacks": "item:kubejs:lux_essence_bucket", "text": "alias.kubejs.lux_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:gelum_essence",       "text": "alias.kubejs.gelum_fluid" },
+    { "stacks": "item:kubejs:gelum_essence",        "text": "alias.kubejs.gelum_fluid" },
+    { "stacks": "item:kubejs:gelum_essence_bucket", "text": "alias.kubejs.gelum_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:potentia_essence",       "text": "alias.kubejs.potentia_fluid" },
+    { "stacks": "item:kubejs:potentia_essence",        "text": "alias.kubejs.potentia_fluid" },
+    { "stacks": "item:kubejs:potentia_essence_bucket", "text": "alias.kubejs.potentia_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:vitreus_essence",       "text": "alias.kubejs.vitreus_fluid" },
+    { "stacks": "item:kubejs:vitreus_essence",        "text": "alias.kubejs.vitreus_fluid" },
+    { "stacks": "item:kubejs:vitreus_essence_bucket", "text": "alias.kubejs.vitreus_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:vitium_essence",       "text": "alias.kubejs.vitium_fluid" },
+    { "stacks": "item:kubejs:vitium_essence",        "text": "alias.kubejs.vitium_fluid" },
+    { "stacks": "item:kubejs:vitium_essence_bucket", "text": "alias.kubejs.vitium_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:metallum_essence",       "text": "alias.kubejs.metallum_fluid" },
+    { "stacks": "item:kubejs:metallum_essence",        "text": "alias.kubejs.metallum_fluid" },
+    { "stacks": "item:kubejs:metallum_essence_bucket", "text": "alias.kubejs.metallum_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:vacuos_essence",       "text": "alias.kubejs.vacuos_fluid" },
+    { "stacks": "item:kubejs:vacuos_essence",        "text": "alias.kubejs.vacuos_fluid" },
+    { "stacks": "item:kubejs:vacuos_essence_bucket", "text": "alias.kubejs.vacuos_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:motus_essence",       "text": "alias.kubejs.motus_fluid" },
+    { "stacks": "item:kubejs:motus_essence",        "text": "alias.kubejs.motus_fluid" },
+    { "stacks": "item:kubejs:motus_essence_bucket", "text": "alias.kubejs.motus_fluid_bucket" },
+
+    { "stacks": "fluid:kubejs:permutatio_essence",       "text": "alias.kubejs.permutatio_fluid" },
+    { "stacks": "item:kubejs:permutatio_essence",        "text": "alias.kubejs.permutatio_fluid" },
+    { "stacks": "item:kubejs:permutatio_essence_bucket", "text": "alias.kubejs.permutatio_fluid_bucket" }
+  ]
+}

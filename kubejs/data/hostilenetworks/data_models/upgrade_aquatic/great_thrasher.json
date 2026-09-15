@@ -25,7 +25,7 @@
         "id": "hostilenetworks:overworld_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.great_thrasher",
+    "trivia": "hostilenetworks.trivia.undeciphered",
     "fabricator_drops": [
         {
             "id": "upgrade_aquatic:thrasher_tooth",

@@ -19,7 +19,7 @@
         "id": "hostilenetworks:end_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.ender_guardian",
+    "trivia": "hostilenetworks.trivia.undeciphered",
     "fabricator_drops": [
         {
             "id": "cataclysm:gauntlet_of_guard",

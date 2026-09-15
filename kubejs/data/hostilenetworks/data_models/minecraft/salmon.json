@@ -13,7 +13,7 @@
         "id": "hostilenetworks:overworld_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.salmon",
+    "trivia": "hostilenetworks.trivia.undeciphered",
     "fabricator_drops": [
         {
             "id": "minecraft:salmon",

@@ -26,7 +26,7 @@
         "id": "kubejs:aether_prediction",
         "count": 1
     },
-    "trivia": "hostilenetworks.trivia.zephyr",
+    "trivia": "hostilenetworks.trivia.undeciphered",
     "fabricator_drops": [
         {
             "id": "aether:cold_aercloud",
