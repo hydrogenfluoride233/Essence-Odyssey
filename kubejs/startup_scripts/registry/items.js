@@ -67,8 +67,8 @@ StartupEvents.registry("item",event=>{
          .fluidType("minecraft:lava")
     event.create("kubejs:paradox_collapser").rarity("epic")
     event.create("kubejs:perditio_scribe_tool").maxStackSize(1)
-         .tooltip(Text.translate("tooltip.neovitae.inscriber.desc"))  //提示直接引用 NeoVitae 原文，不自己维护副本
+         .tooltip(Text.translate("item.kubejs.perditio_scribe_tool.tooltip"))  //自有键，不引用 NeoVitae 的提示（那条是白的，风格也不统一）
     event.create("kubejs:ordo_scribe_tool").maxStackSize(1)
-         .tooltip(Text.translate("tooltip.neovitae.inscriber.desc"))
+         .tooltip(Text.translate("item.kubejs.ordo_scribe_tool.tooltip"))     //文案与混沌共用
 
 })

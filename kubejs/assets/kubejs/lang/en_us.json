@@ -298,5 +298,22 @@
   "alias.kubejs.neovitae_reagent_air":"Reagent Air",
   "alias.kubejs.neovitae_sigil_air":"Air Sigil",
 
-  "alias.kubejs.thaumon_mutagen":"Salis Mundus"
+  "alias.kubejs.thaumon_mutagen":"Salis Mundus",
+
+  "kubejs.info.aura_bottle_overworld":"Collect aura using a Bottle and Cork in the Overworld.",
+  "kubejs.info.aura_bottle_nether":"Collect aura using a Bottle and Cork in the Nether.",
+  "kubejs.info.aura_bottle_end":"Collect aura using a Bottle and Cork in the End.",
+  "kubejs.info.aura_bottle_aether":"Collect aura using a Bottle and Cork in the Aether.",
+  "kubejs.info.aura_bottle_twilight_forest":"Collect aura using a Bottle and Cork in the Twilight Forest.",
+  "kubejs.info.aura_bottle_starlight":"Collect aura using a Bottle and Cork in Eternal Starlight.",
+  "kubejs.info.aerogel":"Formed by placing lava in the Aether.",
+  "kubejs.info.aersmog":"Formed where water and poison meet.",
+  "kubejs.info.mysterious_cube":"You have found a mysterious structure within the meteorite. It does not seem to belong to any known technology.\nIt is neither ore nor machine; breaking it only leaves the block intact, while the knowledge sealed inside cannot be taken out.\nFind a way to decipher it — the answer is not to take it apart, but to read it first.",
+  "kubejs.info.starcore_light":"Right-click a Block of Blazing Starcore with any pickaxe to turn it into a brighter Starcore Light.",
+  "kubejs.info.blazing_starcore_block":"Place a Block of Starcore near lava (a fluid source) and it will turn into a Block of Blazing Starcore.",
+  "kubejs.info.blueprint_automatons":"Obtained from vaults in trial chambers.",
+  "kubejs.info.blueprint_special_bullet":"Traded with a Gunsmith villager, or found in chests in an Engineer's House.",
+
+  "item.kubejs.perditio_scribe_tool.tooltip":"§7The writing is on the wall...§r",
+  "item.kubejs.ordo_scribe_tool.tooltip":"§7The writing is on the wall...§r"
 }
