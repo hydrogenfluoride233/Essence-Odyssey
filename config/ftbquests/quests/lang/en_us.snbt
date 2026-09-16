@@ -19,8 +19,8 @@
 	chapter_group.76D01E7F0542ED7A.title: "Main Story"
 	file.0000000000000001.title: "Essence Odyssey"
 	quest.01789FF24DAB1731.quest_desc: [
-		"You have walked through six dimensions, gathered the crystals and aura they left behind, and watched water, fire, earth, air, chaos and order each reveal themselves in their own way. You learned to draw aura from nature, to refine aspects out of magic, and then — with the turning, the pressure and the heat of machines — to pin these fleeting, unstable forces down. When the first steel ingot emerged from furnace fire and magical source, you finally understood: magic, technology and adventure are not three separate roads, but three ways of reading one world."
-		"But the traces left by the six primary aspects still cannot explain those unfamiliar patterns in the meteor. They are not like ore, nor like any rune you know — more like some kind of record, deliberately preserved."
+		"You have walked through six dimensions, gathered the crystals and aura they left behind, and watched water, fire, earth, air, chaos and order each reveal themselves in their own way. You learned to draw aura from nature, to refine aspects out of magic, and then — with the turning, the pressure and the heat of machines — to pin these fleeting, unstable forces down.{@pagebreak} When the first steel ingot emerged from furnace fire and magical source, you finally understood: magic, technology and adventure are not three separate roads, but three ways of reading one world."
+		"{@pagebreak}But the traces left by the six primary aspects still cannot explain those unfamiliar patterns in the meteor. They are not like ore, nor like any rune you know — more like some kind of record, deliberately preserved."
 		"You have learned to write the world. Next, you will learn to read what it once wrote."
 	]
 	quest.01789FF24DAB1731.title: "A New Beginning"
@@ -42,7 +42,7 @@
 		"Water, fire, earth, air, chaos and order each shape the world in their own way; your task is not to conquer them, but to understand them. Gather the traces, verify the rules, connect the origins. This expedition begins with coming to know the world."
 		""
 		"To establish a link with this world, you first need to gather amethyst."
-		"Every dimension writes the world in its own hand; amethyst is there only to remember them."
+		"{@pagebreak}Every dimension writes the world in its own hand; amethyst is there only to remember them."
 	]
 	quest.06E134B2EEFB6EAF.title: "Amethyst Shard"
 	quest.0734386F2C539298.quest_desc: [
@@ -67,7 +67,7 @@
 		"The water that runs through the Overworld, the fire that burns in the Nether, the earth that sleeps beneath the Twilight Forest, the wind that echoes across the Aether, the unordered chaos of the End, and the constant order of Eternal Starlight —"
 		"Six primary aspects, writing the six dimensions each in their own posture, together making up the world beneath your feet."
 		""
-		"They are no distant legend."
+		"{@pagebreak}They are no distant legend."
 		"Your expedition is not a conquest of some world. You will gather the traces they left, record the rules they follow, and try to let forces that were sealed off from one another truly connect for the first time."
 		""
 		"The story begins with coming to know this world."
@@ -81,14 +81,14 @@
 	quest.248E7B09C3BA1B74.title: "Take the End Portal Home!"
 	quest.2740A375D6EBCB05.quest_desc: [
 		"Aspect crystals are too quiet — so quiet they hardly seem like aspects at all. Give them enough heat, then enough pressure, and they will speak again: returning the aspects they sealed away, in the form of a fluid."
-		"For that conversation to happen, you must first prepare liquid source. It is not a fuel so much as a medium: the source bears the heat and the pressure on the crystal's behalf, then guides the aspect smoothly out of the crystal so it does not re-condense halfway."
+		"{@pagebreak}For that conversation to happen, you must first prepare liquid source. It is not a fuel so much as a medium: the source bears the heat and the pressure on the crystal's behalf, then guides the aspect smoothly out of the crystal so it does not re-condense halfway."
 		"This is the first time you have set an aspect free from its solid form. From now on it can be piped, measured, and used by machines as a genuine resource."
 	]
 	quest.2740A375D6EBCB05.title: "Aspect Fluid Buckets"
 	quest.2A90934B95C717BC.quest_desc: [
 		"A sapling is not merely a tree that has yet to grow. It preserves a piece of land's memory of seasons, soil, light and the cycle of life, which makes it the ideal living anchor for a ritual's center."
-		"A forest ritual does not create things out of nothing. The wooden stands mark the ritual's boundary; the materials you offer describe the rule you wish to reproduce, transform or awaken; and aura, working through still-growing life, writes that description back into reality."
-		"Gold Leaves and Gold Powder are the key media in this process. They keep the activity of a leaf while gaining the stability of a metal, which lets a brief reaction of aura last until the ritual is complete."
+		"{@pagebreak}A forest ritual does not create things out of nothing. The wooden stands mark the ritual's boundary; the materials you offer describe the rule you wish to reproduce, transform or awaken; and aura, working through still-growing life, writes that description back into reality."
+		"{@pagebreak}Gold Leaves and Gold Powder are the key media in this process. They keep the activity of a leaf while gaining the stability of a metal, which lets a brief reaction of aura last until the ritual is complete."
 		"To perform a forest ritual you need Gold Powder. Your first batch comes from dropping an anvil onto Gold Leaves."
 		"You will also need wooden stands, obtained by right-clicking stripped oak logs with Brilliant Fiber on a Cutting Board."
 	]
@@ -96,19 +96,19 @@
 	quest.2CC22C2203005BFF.title: "Refinery"
 	quest.2D72B8B451B12DFB.quest_desc: [
 		"Dimension crystals hold the traces of the primary aspects, but those traces are still bound tightly to the environment that produced them: the water of the Overworld, the fire of the Nether, the earth of the Twilight Forest, the air of the Aether, and the chaos of the End and the order of Eternal Starlight. None can be used directly as a general-purpose material."
-		"The Imbuement Chamber uses magical source as its driving force, peeling away the crystal's jumbled environmental information layer by layer until only the aspect rules that can be repeatedly recognized and reliably invoked remain. It does not create aspects; it lets a silent crystal be read for the first time. Different metals provide different stabilizing frames for the refining process. They are not containers tossed in at random, but anchors that help an aspect fix its form in reality. When the rules inside a crystal are written onto a suitable carrier, what you obtain is a magical essence: an expression of an aspect that can take part in later rituals, enchantments and engineering."
+		"{@pagebreak}The Imbuement Chamber uses magical source as its driving force, peeling away the crystal's jumbled environmental information layer by layer until only the aspect rules that can be repeatedly recognized and reliably invoked remain. It does not create aspects; it lets a silent crystal be read for the first time. Different metals provide different stabilizing frames for the refining process.{@pagebreak} They are not containers tossed in at random, but anchors that help an aspect fix its form in reality. When the rules inside a crystal are written onto a suitable carrier, what you obtain is a magical essence: an expression of an aspect that can take part in later rituals, enchantments and engineering."
 	]
 	quest.31208139567F93AE.quest_desc: [
 		"You have now recorded six origins across six dimensions. But recording is not understanding, and it certainly does not set knowledge running on its own."
 		"At the center of the meteor structure lies a block that no existing craft can explain. It is not like ore, nor like a machine; breaking it leaves a whole block behind, yet yields none of the manufacturing knowledge stored inside."
-		"Perhaps the answer is not to take it apart, but to read it first."
+		"{@pagebreak}Perhaps the answer is not to take it apart, but to read it first."
 		"&7ps. This chapter's quest line runs two parallel branches; this one is the AE2 unlock branch&r"
 	]
 	quest.31208139567F93AE.title: "Mysterious Cube"
 	quest.3453F3AF03FF04C4.quest_desc: [
 		"The mainboard establishes the interface, the diode observes, the amplifier and the capacitor sustain the signal, the gel reconciles the aspects, and the wafer records the result. Once all six assemblies are connected at the same time, the patterns on the Mysterious Cube finally begin to make sense. It still comes from an unknown civilization, but at least it is no longer entirely silent."
 		""
-		"You did not create this knowledge. You only gave a record sleeping inside a fallen star the chance to be read again."
+		"{@pagebreak}You did not create this knowledge. You only gave a record sleeping inside a fallen star the chance to be read again."
 		"And that record already holds the method for building more complex devices."
 	]
 	quest.35FE4723A2488CF4.quest_desc: [
@@ -159,14 +159,14 @@
 	quest.481ECA1B87829938.title: "Crude Blast Furnace"
 	quest.48407C982D11D8DC.quest_desc: [
 		"A magical essence is not simply concentrated mana. It is the stable expression obtained after the Imbuement Chamber parses the six primary aspects. They let rules that could once only be observed inside a particular dimension be carried, stored and combined for the first time."
-		"The Water Essence records flow, containment and continuation; the Fire Essence records release, transformation and burning; the Earth Essence records deposition, boundary and growth; the Air Essence records change, propagation and freedom; the Chaos Essence records possibility not yet fixed and relations forever collapsing; and the Order Essence records structure, repetition, and the rules that hold all things together."
-		"To master essence means you are no longer merely collecting the materials the world leaves behind — you can begin to describe new things using its basic grammar."
+		"{@pagebreak}The Water Essence records flow, containment and continuation; the Fire Essence records release, transformation and burning; the Earth Essence records deposition, boundary and growth; the Air Essence records change, propagation and freedom; the Chaos Essence records possibility not yet fixed and relations forever collapsing; and the Order Essence records structure, repetition, and the rules that hold all things together."
+		"{@pagebreak}To master essence means you are no longer merely collecting the materials the world leaves behind — you can begin to describe new things using its basic grammar."
 	]
 	quest.48407C982D11D8DC.title: "Magical Essence"
 	quest.4E8041B1FBD6669F.title: "Visit the End"
 	quest.4F1594D45E71BD67.quest_desc: [
-		"A token records the response life leaves behind when it faces the world. It is not an emotion stuffed into a container, but a stable inclination condensed after a dimension's aura, its primary aspects and its local living environment shape one another. The flow of water becomes sorrow, the release of fire becomes anger, the boundary of earth becomes fear, the freedom of air becomes joy; possibility left unfixed sinks into confusion, and the rules that hold all things together settle into serenity."
-		"To collect these tokens is to begin to understand: the world is made not only of ore, energy and spells, but also of the response every environment and every living thing gives to the aspects. They will become irreplaceable media in later rituals and crafts."
+		"A token records the response life leaves behind when it faces the world. It is not an emotion stuffed into a container, but a stable inclination condensed after a dimension's aura, its primary aspects and its local living environment shape one another.{@pagebreak} The flow of water becomes sorrow, the release of fire becomes anger, the boundary of earth becomes fear, the freedom of air becomes joy; possibility left unfixed sinks into confusion, and the rules that hold all things together settle into serenity."
+		"{@pagebreak}To collect these tokens is to begin to understand: the world is made not only of ore, energy and spells, but also of the response every environment and every living thing gives to the aspects. They will become irreplaceable media in later rituals and crafts."
 	]
 	quest.4F1594D45E71BD67.title: "Tokens"
 	quest.54946257C2AB9DCF.title: "Brilliant Fiber"
@@ -175,22 +175,22 @@
 	quest.5AA560228973D274.quest_desc: [
 		"The fallen star never handed you a method of manufacture. All it left was a record sealed between ore, runes and broken structures."
 		"You corrected the aura with traces of six dimensions, caught the response with magical source, sustained the pulses with machines, and rearranged scattered materials, energies and rules — until at last the silent relic revealed a language that could be read."
-		"The Inscriber Presses are not the end. They prove that you can now take an accidental discovery apart into stable knowledge, and reassemble that knowledge into a structure that can be repeated, connected and extended."
-		"From this moment on, storage is no longer merely holding items, and a network is no longer merely passing signals. You begin to establish a new order for this world: letting the traces nature leaves behind be recorded, letting the rules magic reveals be invoked, letting machines complete processes that should by rights be brief, chaotic and irreproducible."
-		"The inscription of the fallen star has been read. And every component in your hands will be the first stroke in casting the world."
+		"{@pagebreak}The Inscriber Presses are not the end. They prove that you can now take an accidental discovery apart into stable knowledge, and reassemble that knowledge into a structure that can be repeated, connected and extended."
+		"{@pagebreak}From this moment on, storage is no longer merely holding items, and a network is no longer merely passing signals. You begin to establish a new order for this world: letting the traces nature leaves behind be recorded, letting the rules magic reveals be invoked, letting machines complete processes that should by rights be brief, chaotic and irreproducible."
+		"{@pagebreak}The inscription of the fallen star has been read. And every component in your hands will be the first stroke in casting the world."
 	]
 	quest.5AA560228973D274.title: "Reshaping Applied Energistics"
 	quest.5E4647B964AD82A1.quest_desc: [
 		"The Natural Altar can gather the aura of one stretch of land, but to cross the borders of worlds, the natural power of a single dimension is nowhere near enough."
 		"Mutagen is the sediment of all origins on the material plane; it can carry and reconcile the forces that conflict between dimensions."
-		"When the echoes of six worlds meet in the altar, the power of nature will no longer be confined to one patch of ground, but will become the root that runs through all realms and gives rise to every living thing."
+		"{@pagebreak}When the echoes of six worlds meet in the altar, the power of nature will no longer be confined to one patch of ground, but will become the root that runs through all realms and gives rise to every living thing."
 	]
 	quest.64DDBFEA863697E9.title: "Metal Press"
 	quest.6951B60D890910D1.title: "Aura Generation"
 	quest.6BA679217AD6DBB8.title: "Coke Oven"
 	quest.6D0337DB8C14104E.quest_desc: [
 		"In the world of Essence Odyssey, each of the six great dimensions is rich in one aspect: the Overworld in water, the Nether in fire, the Twilight Forest in earth, the Aether in air, the End in chaos, and Eternal Starlight in order. These six aspects are called the primary aspects, and they are the foundation of this world."
-		"Combining those primary aspects two by two yields a number of secondary aspects, which spread through heaven and earth and make up every part of this world."
+		"{@pagebreak}Combining those primary aspects two by two yields a number of secondary aspects, which spread through heaven and earth and make up every part of this world."
 		"And you, as this world's pioneer, are about to set out on an expedition named Exploration: to know, to explore, to connect and to interpret the origins of this world."
 	]
 	quest.6D0337DB8C14104E.title: "Coming to Know This World"
