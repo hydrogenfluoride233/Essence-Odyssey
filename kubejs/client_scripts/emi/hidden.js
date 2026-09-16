@@ -1,5 +1,7 @@
 //要隐藏的物品：连它的各种 NBT 变体一起隐藏
 //格式就是注册名，一行一个，加注释说明为什么
+//注意：判断"有没有某个组件"要写 != null——Rhino 不会把 Java 对象隐式当布尔，
+//写成 && stack.get("x") 会抛 Cannot convert ... to boolean，整条规则会静默失效（日志可见）
 const HiddenEntries = [
     "immersiveengineering:potion_bucket",   //药水桶：每一种药水各占一个条目
 ]
@@ -22,10 +24,10 @@ RecipeViewerEvents.removeEntries("item", event => {
         event.remove(id))
 
     //灵魂瓶：装了灵魂的变体各占一个条目，全藏；空瓶没有 enderio:soul 组件，所以保留
-    event.remove(stack => stack.id == "enderio:soul_vial" && stack.get("enderio:soul"))
+    event.remove(stack => stack.id == "enderio:soul_vial" && stack.get("enderio:soul") != null)
 
     //种子袋：装了种子的变体各占一个条目；空袋没有 quark:stored_item 组件，所以保留
-    event.remove(stack => stack.id == "quark:seed_pouch" && stack.get("quark:stored_item"))
+    event.remove(stack => stack.id == "quark:seed_pouch" && stack.get("quark:stored_item") != null)
 
     //盆栽：两个盆栽模组的变体全藏，白名单里的除外
     event.remove(stack => (stack.id.startsWith("botanypots:") || stack.id.startsWith("botanypotstiers:")) &&
