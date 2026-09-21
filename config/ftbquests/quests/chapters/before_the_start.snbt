@@ -2,7 +2,7 @@
 	autofocus_id: "01E75843E7AA2555"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "chapter_0_prologue"
+	filename: "before_the_start"
 	group: ""
 	icon: {
 		id: "minecraft:diamond_sword"

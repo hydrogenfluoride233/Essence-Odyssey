@@ -2,7 +2,7 @@
 	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "gadgets"
+	filename: "useful_gadgets"
 	group: "3F4D8FC0357D0EBB"
 	icon: {
 		id: "tiab:time_in_a_bottle"
