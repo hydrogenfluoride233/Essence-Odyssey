@@ -1,0 +1,10 @@
+{
+    "block.mbd2.imbuement_chamber":  "Industrial Imbuement Chamber",
+    "item.mbd2.imbuement_chamber":  "Industrial Imbuement Chamber",
+    "block.mbd2.imbuement_input":  "Industrial Imbuement Input Hatch",
+    "item.mbd2.imbuement_input":  "Industrial Imbuement Input Hatch",
+    "block.mbd2.imbuement_output":  "Industrial Imbuement Output Hatch",
+    "item.mbd2.imbuement_output":  "Industrial Imbuement Output Hatch",
+    "block.mbd2.imbuement_source":  "Industrial Imbuement Source Hatch",
+    "item.mbd2.imbuement_source":  "Industrial Imbuement Source Hatch"
+}

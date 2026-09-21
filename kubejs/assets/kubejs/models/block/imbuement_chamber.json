@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "kubejs:block/imbuement_chamber",
+    "down": "ars_nouveau:block/smooth_sourcestone_large_bricks",
+    "up": "ars_nouveau:block/smooth_sourcestone_large_bricks",
+    "north": "kubejs:block/imbuement_chamber",
+    "south": "kubejs:block/imbuement_chamber",
+    "east": "kubejs:block/imbuement_chamber",
+    "west": "kubejs:block/imbuement_chamber"
+  }
+}
