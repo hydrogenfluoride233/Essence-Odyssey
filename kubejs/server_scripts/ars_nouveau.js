@@ -27,73 +27,73 @@ ServerEvents.recipes(event=>{
     //格式:[输出,输入,魔源,基座材料]
     const ImbuementList = [
         [
-            "occultism:silver_ingot",
+            "kubejs:crystal_aqua",
             "ars_nouveau:water_essence",
             1000,
             [
                 "quark:blue_corundum_cluster",
                 "minecraft:blue_ice",
-                "kubejs:crystal_aqua"
+                "upgrade_aquatic:pickerelweed_block"
             ]
         ],//水之精华
 
         [
-            "minecraft:copper_ingot",
+            "kubejs:crystal_ignis",
             "ars_nouveau:fire_essence",
             1000,
             [
                 "quark:red_corundum_cluster",
                 "minecraft:fire_charge",
-                "kubejs:crystal_ignis"
+                "quark:blaze_lantern"
             ]
         ],//火之精华
 
         [
-            "minecraft:iron_ingot",
+            "kubejs:crystal_terra",
             "ars_nouveau:earth_essence",
             1000,
             [
                 "quark:green_corundum_cluster",
                 "minecraft:short_grass",
-                "kubejs:crystal_terra"
+                "twilightforest:mayapple"
             ]
         ],//土之精华
 
         [
-            "mekanism:ingot_tin",
+            "kubejs:crystal_aer",
             "ars_nouveau:air_essence",
             1000,
             [
                 "quark:yellow_corundum_cluster",
                 "minecraft:wind_charge",
-                "kubejs:crystal_aer"
+                "deep_aether:goldenleaf_berries"
             ]
         ],//气之精华
 
         [
-            "mekanism:ingot_lead",
+            "kubejs:crystal_perditio",
             "kubejs:perditio_essence",
             1000,
             [
                 "quark:black_corundum_cluster",
                 "minecraft:oxidized_copper_grate",
-                "kubejs:crystal_perditio"
+                "minecraft:end_crystal"
             ]
         ],//混沌精华
 
         [
-            "mekanism:ingot_osmium",
+            "kubejs:crystal_ordo",
             "kubejs:ordo_essence",
             1000,
             [
                 "quark:white_corundum_cluster",
                 "minecraft:chiseled_quartz_block",
-                "kubejs:crystal_ordo"
+                "eternal_starlight:starlight_flower"
             ]
         ],//秩序精华
 
         [
-            "mekanism:ingot_bronze",
+            "ars_nouveau:source_gem",
             "ars_nouveau:manipulation_essence",
             1000,
             [
@@ -104,7 +104,7 @@ ServerEvents.recipes(event=>{
         ],//操纵之精华
 
         [
-            "create:brass_ingot",
+            "ars_nouveau:source_gem",
             "ars_nouveau:conjuration_essence",
             1000,
             [
@@ -115,7 +115,7 @@ ServerEvents.recipes(event=>{
         ],//召唤之精华
 
         [
-            "immersiveengineering:ingot_electrum",
+            "ars_nouveau:source_gem",
             "ars_nouveau:abjuration_essence",
             1000,
             [
@@ -126,7 +126,7 @@ ServerEvents.recipes(event=>{
         ],//防护之精华
 
         [
-            "immersiveengineering:ingot_constantan",
+            "ars_nouveau:source_gem",
             "ars_elemental:anima_essence",
             1000,
             [

@@ -4,9 +4,12 @@
 	default_quest_shape: ""
 	filename: "chapter_6_stars"
 	group: "76D01E7F0542ED7A"
+	icon: {
+		id: "ae2:creative_storage_cell"
+	}
 	id: "7FE4693A264FF39A"
 	images: [ ]
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

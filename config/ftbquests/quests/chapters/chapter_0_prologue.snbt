@@ -117,7 +117,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6D0337DB8C14104E"]
@@ -131,7 +131,7 @@
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["01E75843E7AA2555"]

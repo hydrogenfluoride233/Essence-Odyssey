@@ -539,14 +539,14 @@ ServerEvents.recipes(event=>{
         [
             "neovitae:ara_vitae",
             [
+                "#twilightforest:fiery_vial",
                 "naturesaura:nature_altar",
-                "justdirethings:blazegold_block",
-                "#twilightforest:fiery_vial",
-                "#twilightforest:fiery_vial",
                 "kubejs:aqua_essence_bucket",
+                "kubejs:ignis_essence_bucket",
                 "kubejs:terra_essence_bucket",
-                "kubejs:aqua_essence_bucket",
-                "kubejs:terra_essence_bucket"
+                "kubejs:aer_essence_bucket",
+                "kubejs:perditio_essence_bucket",
+                "kubejs:ordo_essence_bucket"
             ],
             "deep_aether:roseroot_sapling",200
         ],//命血祭坛
@@ -554,14 +554,14 @@ ServerEvents.recipes(event=>{
         [
             "neovitae:ara_vitae",
             [
+                "#twilightforest:fiery_vial",
                 "naturesaura:nature_altar",
-                "justdirethings:blazegold_block",
-                "#twilightforest:fiery_vial",
-                "#twilightforest:fiery_vial",
                 "kubejs:aqua_essence_bucket",
+                "kubejs:ignis_essence_bucket",
                 "kubejs:terra_essence_bucket",
-                "kubejs:aqua_essence_bucket",
-                "kubejs:terra_essence_bucket"
+                "kubejs:aer_essence_bucket",
+                "kubejs:perditio_essence_bucket",
+                "kubejs:ordo_essence_bucket"
             ],
             "deep_aether:blue_roseroot_sapling",200
         ],//命血祭坛

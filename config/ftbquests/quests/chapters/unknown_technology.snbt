@@ -3,13 +3,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "unknown_technology"
-	group: "76D01E7F0542ED7A"
+	group: "3F4D8FC0357D0EBB"
 	icon: {
 		id: "ae2:controller"
 	}
 	id: "5196E500B38ADA0E"
 	images: [ ]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

@@ -349,7 +349,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["004E6D97A2226FB0"]
+			dependencies: ["2740A375D6EBCB05"]
 			id: "3C6D54DFF33A30EE"
 			shape: "gear"
 			tasks: [{
@@ -357,7 +357,7 @@
 				item: { count: 1, id: "neovitae:ara_vitae" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: 14.0d
 		}
 		{
@@ -557,8 +557,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier2" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 14.0d
+			x: 5.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["72207EFC62718B7D"]

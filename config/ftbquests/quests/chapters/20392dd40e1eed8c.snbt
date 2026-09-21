@@ -1,0 +1,12 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20392dd40e1eed8c"
+	group: "76D01E7F0542ED7A"
+	id: "20392DD40E1EED8C"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+}
