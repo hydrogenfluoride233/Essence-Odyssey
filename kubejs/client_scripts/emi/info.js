@@ -3,8 +3,7 @@ RecipeViewerEvents.registerSubtypes("item",event=>{
     event.useComponents("immersiveengineering:blueprint",["immersiveengineering:blueprint"])
 })
 
-RecipeViewerEvents.addInformation("item", event => {
-    //文本一律走本地化键 kubejs.info.*，中英各一份，见 kubejs\assets\kubejs\lang\
+RecipeViewerEvents.addInformation("item",event=>{
     event.add(Item.of("naturesaura:aura_bottle",{
         "naturesaura:aura_bottle_data":{
             aura_type:"naturesaura:overworld"
