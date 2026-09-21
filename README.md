@@ -4,7 +4,7 @@ Minecraft **1.21.1 / NeoForge** 整合包：以科技、魔法与冒险三条线
 
 本仓库只收录作者**手写 / 手改**的内容——KubeJS 脚本与补充汉化、模组配置、MBD2 多方块与配方定义、自制贴图与模型。**不包含任何模组本体**（`mods/` 已在 `.gitignore` 中排除），游玩请通过 CurseForge 获取整合包。
 
-> TODO: 补 CurseForge 项目页链接
+CurseForge 项目页 · CurseForge page：<https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
 ## 授权｜License
 
