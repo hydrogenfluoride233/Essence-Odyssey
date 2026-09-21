@@ -34,7 +34,6 @@
 | `kubejs/assets/kubejs/textures/item/rune_{spring,summer,autumn,winter}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 使用原图 |
 | `kubejs/assets/kubejs/textures/item/rune_{aqua,ignis,terra,aer,perditio,ordo}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 由 Botania 的 `rune_water/fire/earth/air/gluttony/sloth` 改名并改编 |
 | `kubejs/assets/kubejs/textures/item/{clump_*, dirty_dust_*, shard_*, dust_*}.png` | **通用机械 Mekanism** | MIT | 基于其基材质改编 |
-| `kubejs/assets/kubejs/textures/item/{tin_sheet, osmium_sheet, iesnium_sheet}.png` | **机械动力 Create**（素材 All Rights Reserved，代码 MIT） | Create 团队 | 改编自其板材贴图 |
 | 部分物品贴图 | **NeoVitae**、**敌对神经网络 Hostile Neural Networks**、**应用能源 AE2**、**模块化机械 Modular Machinery Reborn** | NeoVitae / HNN 为 **MIT**；AE2、Modular Machinery Reborn 为 **LGPL-3.0**，素材条款见各自项目页 | 参考与改编 |
 | 星辉魔法相关素材 | **星辉魔法 Astral Sorcery** | **All Rights Reserved** | **开发期临时占位；待星辉魔法发布 1.21.1 正式版后再行替换** |
 | `kubejs/assets/kubejs/textures/**` 其余贴图、模型、语言文件 | 本整合包作者自绘 | CC BY-NC-SA 4.0 | — |
@@ -44,7 +43,7 @@
 **建议署名文字**
 
 > 本整合包部分贴图使用或改编自以下作品，特此致谢：植物魔法 Botania（作者 Vazkii，
-> 符文贴图，部分经改名与改编）、机械动力 Create 团队、通用机械 Mekanism、NeoVitae、
+> 符文贴图，部分经改名与改编）、通用机械 Mekanism、NeoVitae、
 > 敌对神经网络 Hostile Neural Networks、应用能源 AE2、模块化机械 Modular Machinery Reborn。
 > 星辉魔法相关素材为开发期临时占位，待其 1.21.1 正式版发布后再行替换。
 
