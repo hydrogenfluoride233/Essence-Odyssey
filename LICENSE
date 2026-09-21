@@ -5,37 +5,53 @@ Copyright (c) 2026 hydrogenfluoride233
 All rights not expressly granted by this file are reserved.
 
 =====================================================================
-一、授权范围（分层）
+一、授权范围（按目录分域）
 =====================================================================
 
-1. 整合包本体与仓库其余内容 —— CC BY-NC-ND 4.0
-   适用于：本整合包本体，以及 config/、defaultconfigs/、data/、ldlib2/、
-   kubejs/ 下的配置、数据、资源与汉化文本。
+1. 整合包本体与仓库其余内容 —— CC BY-NC-SA 4.0
+   适用范围：本整合包本体，以及 config/、defaultconfigs/、data/、ldlib2/、
+   kubejs/（除第 2 条列明的脚本外）下的配置、数据、资源与汉化文本。
 
-   本作品采用「知识共享 署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)」许可协议。
-   协议摘要（中文）：https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans
-   协议正文（中文）：https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans
+   本作品采用「知识共享 署名-非商业性使用-相同方式共享 4.0 国际
+   (CC BY-NC-SA 4.0)」许可协议。
+   协议摘要（中文）：https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
+   协议正文（中文）：https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans
    本文件末尾附有协议正文（英文，权威版本）。
 
-   这意味着：
-   - 署名：转载、引用、再分发时必须注明
-     「Essence Odyssey / 本源远征 by hydrogenfluoride233」并给出协议链接，
-     同时标明是否作过修改（本许可下不得分发修改后的版本）。
-   - 非商业性使用：不得用于付费下载、以本整合包牟利的服务器推广等商业用途。
-   - 禁止演绎：不得分发经修改的版本。在自己电脑上任意修改、学习、改造均不受限制，
-     但修改后的成果不得对外分发。
-   - 原样转载整包不受本许可限制（CC 协议不禁止原样再分发），
-     但必须署名、非商业，且不得造成「官方版本」的混淆。
+   你可以自由地复制、分发、改编本作品，包括把其中的内容用于你自己的整合包。
+   但必须遵守以下三个条件：
+   - 署名：注明「Essence Odyssey / 本源远征 by hydrogenfluoride233」，
+     附上协议链接，并标明是否作过修改。
+   - 非商业性使用：不得用于付费下载、以之牟利的服务器推广等商业用途。
+   - 相同方式共享：你改编、重混后对外发布的作品，必须以相同协议
+     （CC BY-NC-SA 4.0 或兼容协议）发布，且不得追加额外限制。
+   你不得声称本作品为你原创，也不得对改编版施加比本协议更严的限制。
 
-2. kubejs/ 目录下由作者原创的脚本 —— MIT
-   适用于：kubejs/ 目录内由作者本人原创的 .js 脚本。
-   详见 kubejs/LICENSE。该 MIT 授权仅覆盖作者原创脚本，不含第三方代码与资源。
+2. kubejs/ 目录下作者原创的脚本 —— MIT
+   适用范围：kubejs/ 目录内由作者本人原创的 .js 脚本，详见 kubejs/LICENSE。
+   该 MIT 授权仅覆盖作者原创脚本，不含第三方代码与资源。
 
-3. 第三方内容 —— 各自原始许可
-   本仓库不包含任何模组本体（mods/ 已被 .gitignore 排除）。
-   仓库中涉及的各模组及其默认配置模板、社区汉化（例如 CFPA 汉化资源包）、
-   贴图与其他第三方素材，版权归各自作者所有，不属于本文件授权范围，
-   使用前请遵守其原始许可（社区汉化通常为 CC BY-NC-SA 4.0，需署名并以相同方式共享）。
+3. 第三方内容 —— 各自原始许可（不适用第 1、2 条）
+   本仓库不包含任何模组本体（mods/ 已被 .gitignore 排除）。仓库中涉及的第三方
+   作品，版权归各自作者所有，使用前请遵守其原始许可：
+
+   - 汉化译文：星野夢華 (Hoshino Yumeka)《All the Mods 10 汉化补丁 —— 绿油油版》
+     https://github.com/chiba233/atm10-zh-cn ，其中亦含 CFPA 社区翻译
+     (Minecraft-Mod-Language-Package) 的成分；该作品译文部分以 CC BY-NC-SA 4.0
+     授权。本整合包中源自该作品的语言文件亦以相同协议提供，并按本整合包口径
+     作过改动与补充。在此感谢原作者与汉化组的各位成员。
+
+   - 贴图素材（部分为改编，均已注明来源）：
+       · 植物魔法 Botania（作者 Vazkii）—— Botania License：要求署名、注明改动，
+         并要求使用方项目开源、允许再分发与修改、附带类似条款（本作品满足）。
+       · 通用机械 Mekanism、NeoVitae、敌对神经网络 Hostile Neural Networks、
+         模块化路由器 Modular Routers —— MIT：保留版权声明即可。
+       · 机械动力 Create —— 代码 MIT、素材 All Rights Reserved，本仓库中为改编素材。
+       · 应用能源 AE2 —— 代码 LGPL-3.0，素材条款见其官方仓库，本仓库中为改编素材。
+       · 星辉魔法 Astral Sorcery —— All Rights Reserved，仅作开发期临时占位，
+         将在正式版本中替换为自绘素材。
+
+   - 各模组自带的默认配置、字体与其他第三方素材，版权归各自作者。
 
 =====================================================================
 二、免责声明
@@ -49,19 +65,23 @@ All rights not expressly granted by this file are reserved.
 =====================================================================
 
 The Essence Odyssey modpack (everything in this repository except the original
-scripts under kubejs/) is licensed under CC BY-NC-ND 4.0: you may share it
-verbatim with attribution and for non-commercial purposes only, but you may NOT
-distribute modified versions, nor use it commercially. Original scripts written
-by the author under kubejs/ are additionally available under the MIT License
-(see kubejs/LICENSE). Third-party content (mods, community translations, assets)
-remains under its own license. No mod jars are distributed in this repository.
+scripts under kubejs/) is licensed under CC BY-NC-SA 4.0: you may copy,
+redistribute and adapt it for non-commercial purposes, provided that you give
+attribution to "Essence Odyssey by hydrogenfluoride233", link the license,
+state whether you made changes, and release your adaptation under the same
+license. Original scripts written by the author under kubejs/ are additionally
+available under the MIT License (see kubejs/LICENSE). Third-party content (mods,
+community translations, textures) remains under its own license and is credited
+above; some textures are adapted from Botania (Vazkii), Mekanism, Create, AE2 and
+others, and Astral Sorcery assets are development-time placeholders to be
+replaced. No mod jars are distributed in this repository.
 
 =====================================================================
-四、CC BY-NC-ND 4.0 官方法律文本（英文权威版本）
-    来源：https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.txt
+四、CC BY-NC-SA 4.0 官方法律文本（英文权威版本）
+    来源：https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt
 =====================================================================
 
-Attribution-NonCommercial-NoDerivatives 4.0 International
+Attribution-NonCommercial-ShareAlike 4.0 International
 
 =======================================================================
 
@@ -117,13 +137,13 @@ exhaustive, and do not form part of our licenses.
 
 =======================================================================
 
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
-International Public License
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+Public License
 
 By exercising the Licensed Rights (defined below), You accept and agree
 to be bound by the terms and conditions of this Creative Commons
-Attribution-NonCommercial-NoDerivatives 4.0 International Public
-License ("Public License"). To the extent this Public License may be
+Attribution-NonCommercial-ShareAlike 4.0 International Public License
+("Public License"). To the extent this Public License may be
 interpreted as a contract, You are granted the Licensed Rights in
 consideration of Your acceptance of these terms and conditions, and the
 Licensor grants You such rights in consideration of benefits the
@@ -143,7 +163,15 @@ Section 1 -- Definitions.
      Adapted Material is always produced where the Licensed Material is
      synched in timed relation with a moving image.
 
-  b. Copyright and Similar Rights means copyright and/or similar rights
+  b. Adapter's License means the license You apply to Your Copyright
+     and Similar Rights in Your contributions to Adapted Material in
+     accordance with the terms and conditions of this Public License.
+
+  c. BY-NC-SA Compatible License means a license listed at
+     creativecommons.org/compatiblelicenses, approved by Creative
+     Commons as essentially the equivalent of this Public License.
+
+  d. Copyright and Similar Rights means copyright and/or similar rights
      closely related to copyright including, without limitation,
      performance, broadcast, sound recording, and Sui Generis Database
      Rights, without regard to how the rights are labeled or
@@ -151,29 +179,33 @@ Section 1 -- Definitions.
      specified in Section 2(b)(1)-(2) are not Copyright and Similar
      Rights.
 
-  c. Effective Technological Measures means those measures that, in the
+  e. Effective Technological Measures means those measures that, in the
      absence of proper authority, may not be circumvented under laws
      fulfilling obligations under Article 11 of the WIPO Copyright
      Treaty adopted on December 20, 1996, and/or similar international
      agreements.
 
-  d. Exceptions and Limitations means fair use, fair dealing, and/or
+  f. Exceptions and Limitations means fair use, fair dealing, and/or
      any other exception or limitation to Copyright and Similar Rights
      that applies to Your use of the Licensed Material.
 
-  e. Licensed Material means the artistic or literary work, database,
+  g. License Elements means the license attributes listed in the name
+     of a Creative Commons Public License. The License Elements of this
+     Public License are Attribution, NonCommercial, and ShareAlike.
+
+  h. Licensed Material means the artistic or literary work, database,
      or other material to which the Licensor applied this Public
      License.
 
-  f. Licensed Rights means the rights granted to You subject to the
+  i. Licensed Rights means the rights granted to You subject to the
      terms and conditions of this Public License, which are limited to
      all Copyright and Similar Rights that apply to Your use of the
      Licensed Material and that the Licensor has authority to license.
 
-  g. Licensor means the individual(s) or entity(ies) granting rights
+  j. Licensor means the individual(s) or entity(ies) granting rights
      under this Public License.
 
-  h. NonCommercial means not primarily intended for or directed towards
+  k. NonCommercial means not primarily intended for or directed towards
      commercial advantage or monetary compensation. For purposes of
      this Public License, the exchange of the Licensed Material for
      other material subject to Copyright and Similar Rights by digital
@@ -181,7 +213,7 @@ Section 1 -- Definitions.
      no payment of monetary compensation in connection with the
      exchange.
 
-  i. Share means to provide material to the public by any means or
+  l. Share means to provide material to the public by any means or
      process that requires permission under the Licensed Rights, such
      as reproduction, public display, public performance, distribution,
      dissemination, communication, or importation, and to make material
@@ -189,13 +221,13 @@ Section 1 -- Definitions.
      public may access the material from a place and at a time
      individually chosen by them.
 
-  j. Sui Generis Database Rights means rights other than copyright
+  m. Sui Generis Database Rights means rights other than copyright
      resulting from Directive 96/9/EC of the European Parliament and of
      the Council of 11 March 1996 on the legal protection of databases,
      as amended and/or succeeded, as well as other essentially
      equivalent rights anywhere in the world.
 
-  k. You means the individual or entity exercising the Licensed Rights
+  n. You means the individual or entity exercising the Licensed Rights
      under this Public License. Your has a corresponding meaning.
 
 
@@ -211,8 +243,8 @@ Section 2 -- Scope.
             a. reproduce and Share the Licensed Material, in whole or
                in part, for NonCommercial purposes only; and
 
-            b. produce and reproduce, but not Share, Adapted Material
-               for NonCommercial purposes only.
+            b. produce, reproduce, and Share Adapted Material for
+               NonCommercial purposes only.
 
        2. Exceptions and Limitations. For the avoidance of doubt, where
           Exceptions and Limitations apply to Your use, this Public
@@ -242,7 +274,13 @@ Section 2 -- Scope.
                Licensed Rights under the terms and conditions of this
                Public License.
 
-            b. No downstream restrictions. You may not offer or impose
+            b. Additional offer from the Licensor -- Adapted Material.
+               Every recipient of Adapted Material from You
+               automatically receives an offer from the Licensor to
+               exercise the Licensed Rights in the Adapted Material
+               under the conditions of the Adapter's License You apply.
+
+            c. No downstream restrictions. You may not offer or impose
                any additional or different terms or conditions on, or
                apply any Effective Technological Measures to, the
                Licensed Material if doing so restricts exercise of the
@@ -286,7 +324,8 @@ following conditions.
 
   a. Attribution.
 
-       1. If You Share the Licensed Material, You must:
+       1. If You Share the Licensed Material (including in modified
+          form), You must:
 
             a. retain the following if it is supplied by the Licensor
                with the Licensed Material:
@@ -314,19 +353,34 @@ following conditions.
                Public License, and include the text of, or the URI or
                hyperlink to, this Public License.
 
-          For the avoidance of doubt, You do not have permission under
-          this Public License to Share Adapted Material.
-
        2. You may satisfy the conditions in Section 3(a)(1) in any
           reasonable manner based on the medium, means, and context in
           which You Share the Licensed Material. For example, it may be
           reasonable to satisfy the conditions by providing a URI or
           hyperlink to a resource that includes the required
           information.
-
        3. If requested by the Licensor, You must remove any of the
           information required by Section 3(a)(1)(A) to the extent
           reasonably practicable.
+
+  b. ShareAlike.
+
+     In addition to the conditions in Section 3(a), if You Share
+     Adapted Material You produce, the following conditions also apply.
+
+       1. The Adapter's License You apply must be a Creative Commons
+          license with the same License Elements, this version or
+          later, or a BY-NC-SA Compatible License.
+
+       2. You must include the text of, or the URI or hyperlink to, the
+          Adapter's License You apply. You may satisfy this condition
+          in any reasonable manner based on the medium, means, and
+          context in which You Share Adapted Material.
+
+       3. You may not offer or impose any additional or different terms
+          or conditions on, or apply any Effective Technological
+          Measures to, Adapted Material that restrict exercise of the
+          rights granted under the Adapter's License You apply.
 
 
 Section 4 -- Sui Generis Database Rights.
@@ -337,12 +391,13 @@ apply to Your use of the Licensed Material:
   a. for the avoidance of doubt, Section 2(a)(1) grants You the right
      to extract, reuse, reproduce, and Share all or a substantial
      portion of the contents of the database for NonCommercial purposes
-     only and provided You do not Share Adapted Material;
+     only;
 
   b. if You include all or a substantial portion of the database
      contents in a database in which You have Sui Generis Database
      Rights, then the database in which You have Sui Generis Database
-     Rights (but not its individual contents) is Adapted Material; and
+     Rights (but not its individual contents) is Adapted Material,
+     including for purposes of Section 3(b); and
 
   c. You must comply with the conditions in Section 3(a) if You Share
      all or a substantial portion of the contents of the database.

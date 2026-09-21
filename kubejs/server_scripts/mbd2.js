@@ -42,13 +42,13 @@ ServerEvents.recipes(event=>{
             "4x immersiveengineering:ingot_electrum",
             "4x ars_nouveau:abjuration_essence",
             4000,"abjuration"
-        ],//操纵之精华
+        ],//防护之精华
 
         [
             "4x immersiveengineering:ingot_constantan",
             "4x ars_nouveau:conjuration_essence",
             4000,"conjuration"
-        ],//防护之精华
+        ],//召唤之精华
 
         [
             "4x mekanism:ingot_bronze",

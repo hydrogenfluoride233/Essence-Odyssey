@@ -127,7 +127,7 @@ ServerEvents.recipes(event=>{
 
         [
             "eternal_starlight:soul_dew",
-            "ars_elemental:anima_essence",
+            "sauce:anima_essence",
             1000,
             [
                 "minecraft:nether_star",
