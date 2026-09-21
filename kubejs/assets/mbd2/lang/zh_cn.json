@@ -6,5 +6,7 @@
     "block.mbd2.imbuement_output":  "工业灌注室输出仓",
     "item.mbd2.imbuement_output":  "工业灌注室输出仓",
     "block.mbd2.imbuement_source":  "工业灌注室魔源仓",
-    "item.mbd2.imbuement_source":  "工业灌注室魔源仓"
+    "item.mbd2.imbuement_source":  "工业灌注室魔源仓",
+
+    "recipe_type.mbd2.industrial_imbuement":  "工业灌注室"
 }

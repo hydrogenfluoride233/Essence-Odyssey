@@ -93,7 +93,7 @@ ServerEvents.recipes(event=>{
         ],//秩序精华
 
         [
-            "ars_nouveau:source_gem",
+            "mekanism:ingot_bronze",
             "ars_nouveau:manipulation_essence",
             1000,
             [
@@ -104,7 +104,7 @@ ServerEvents.recipes(event=>{
         ],//操纵之精华
 
         [
-            "ars_nouveau:source_gem",
+            "immersiveengineering:ingot_constantan",
             "ars_nouveau:conjuration_essence",
             1000,
             [
@@ -115,7 +115,7 @@ ServerEvents.recipes(event=>{
         ],//召唤之精华
 
         [
-            "ars_nouveau:source_gem",
+            "immersiveengineering:ingot_electrum",
             "ars_nouveau:abjuration_essence",
             1000,
             [
@@ -126,7 +126,7 @@ ServerEvents.recipes(event=>{
         ],//防护之精华
 
         [
-            "ars_nouveau:source_gem",
+            "eternal_starlight:soul_dew",
             "ars_elemental:anima_essence",
             1000,
             [

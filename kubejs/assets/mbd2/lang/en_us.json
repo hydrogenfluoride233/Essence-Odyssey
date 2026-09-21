@@ -6,5 +6,7 @@
     "block.mbd2.imbuement_output":  "Industrial Imbuement Output Hatch",
     "item.mbd2.imbuement_output":  "Industrial Imbuement Output Hatch",
     "block.mbd2.imbuement_source":  "Industrial Imbuement Source Hatch",
-    "item.mbd2.imbuement_source":  "Industrial Imbuement Source Hatch"
+    "item.mbd2.imbuement_source":  "Industrial Imbuement Source Hatch",
+
+    "recipe_type.mbd2.industrial_imbuement":  "Industrial Imbuement Chamber"
 }
