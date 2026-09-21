@@ -1,0 +1,31 @@
+MIT License
+
+Copyright (c) 2026 hydrogenfluoride233
+
+适用范围：本许可仅适用于本目录（kubejs/）下由作者本人原创的脚本文件（.js）。
+本仓库其余内容（配置、数据、资源、汉化、整合包本体）采用 CC BY-NC-ND 4.0，
+见仓库根目录的 LICENSE。第三方内容（模组本体、社区汉化、他人代码与素材）
+不适用本许可，请遵守各自原始许可。
+
+Scope: this license applies only to the original scripts (.js) written by the
+author inside this kubejs/ directory. Everything else in the repository is
+licensed under CC BY-NC-ND 4.0 (see the LICENSE file in the repository root).
+Third-party content remains under its own license.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
