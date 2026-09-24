@@ -90,6 +90,7 @@
 					type: "choice"
 				}
 			]
+			shape: "gear"
 			tasks: [{
 				id: "75BFDE05DC02A082"
 				type: "checkmark"
@@ -184,6 +185,7 @@
 				id: "minecraft:writable_book"
 			}
 			id: "7D30D0CD5F0F151E"
+			shape: "gear"
 			tasks: [{
 				id: "17650FBCBA1450E9"
 				type: "checkmark"

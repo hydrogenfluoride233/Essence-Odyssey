@@ -79,7 +79,6 @@
 	quest.217A0236C9312C68.title: "Visit the Twilight Forest"
 	quest.22BBDE618BB134FE.title: "Industrial Fermenter"
 	quest.236B9D3A654D936D.title: "Power Generation and Use"
-	quest.248E7B09C3BA1B74.title: "Take the End Portal Home!"
 	quest.2740A375D6EBCB05.quest_desc: [
 		"Aspect crystals are too quiet — so quiet they hardly seem like aspects at all. Give them enough heat, then enough pressure, and they will speak again: returning the aspects they sealed away, in the form of a fluid."
 		"{@pagebreak}"
@@ -233,7 +232,6 @@
 	task.602D6817A35C870F.title: "Observe: Refinery"
 	task.61DE08540FEA7353.title: "Observe: Arc Furnace"
 	task.6634D131AE9072E3.title: "Observe: Industrial Fermenter"
-	task.693FF293577E2C2D.title: "Corundum"
 	task.6E927BFCDAC25C8F.title: "Observe: Metal Press"
 	task.7008DF5E949ABB24.title: "Observe: Crusher"
 	task.73B7DE094D9C8EE8.title: "AE2"

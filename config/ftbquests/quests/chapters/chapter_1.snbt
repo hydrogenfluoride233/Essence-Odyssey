@@ -13,7 +13,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["431A6B56EE43ADEE"]
+			dependencies: ["7C97F7759738AEA5"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -42,6 +42,14 @@
 		{
 			dependencies: ["54946257C2AB9DCF"]
 			id: "6CDE0F370C954563"
+			rewards: [{
+				id: "54D8C9054BE512EF"
+				item: {
+					count: 1
+					id: "minecraft:anvil"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B5C351C4C28F0CD"
 				item: { count: 1, id: "naturesaura:gold_leaf" }
@@ -83,7 +91,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["431A6B56EE43ADEE"]
+			dependencies: ["7C97F7759738AEA5"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "477C7D68B338367C"
@@ -97,12 +105,29 @@
 		}
 		{
 			dependencies: ["46B818618F767629"]
+			icon: {
+				id: "ars_nouveau:imbuement_chamber"
+			}
 			id: "2D72B8B451B12DFB"
-			tasks: [{
-				id: "2D0A66303C2EAF3B"
-				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D0A66303C2EAF3B"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					id: "3E1E5C6CC6CCA1E8"
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "403EF5C5955AB11B"
+					item: { count: 1, id: "ars_nouveau:arcane_platform" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -1.0d
 		}
@@ -114,7 +139,7 @@
 				item: { count: 1, id: "naturesaura:ancient_sapling" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
@@ -140,17 +165,18 @@
 		}
 		{
 			dependencies: ["2D72B8B451B12DFB"]
+			hide_dependency_lines: true
 			icon: {
-				id: "quark:red_corundum_cluster"
+				id: "quark:blue_corundum_cluster"
 			}
 			id: "3F64EB93903B0250"
 			tasks: [{
-				id: "693FF293577E2C2D"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(quark:corundum)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "76713F0146914A88"
+				item: { count: 1, id: "quark:blue_corundum" }
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["636F2AFB3BF2AC31"]
@@ -173,52 +199,28 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["3F64EB93903B0250"]
+			dependencies: [
+				"3F64EB93903B0250"
+				"2D72B8B451B12DFB"
+			]
 			icon: {
-				id: "ars_nouveau:fire_essence"
+				id: "ars_nouveau:water_essence"
 			}
 			id: "48407C982D11D8DC"
 			shape: "gear"
-			tasks: [
-				{
-					id: "60FDA32E80547160"
-					item: { count: 1, id: "ars_nouveau:water_essence" }
-					type: "item"
-				}
-				{
-					id: "19A41C7D9A6024F4"
-					item: { count: 1, id: "ars_nouveau:fire_essence" }
-					type: "item"
-				}
-				{
-					id: "41701F0EE541568B"
-					item: { count: 1, id: "ars_nouveau:earth_essence" }
-					type: "item"
-				}
-				{
-					id: "13779FB3A802BB61"
-					item: { count: 1, id: "ars_nouveau:air_essence" }
-					type: "item"
-				}
-				{
-					id: "2592881B2C87829A"
-					item: { count: 1, id: "kubejs:perditio_essence" }
-					type: "item"
-				}
-				{
-					id: "3F6158C4B19DCF9B"
-					item: { count: 1, id: "kubejs:ordo_essence" }
-					type: "item"
-				}
-			]
-			x: 3.5d
+			tasks: [{
+				id: "60FDA32E80547160"
+				item: { count: 1, id: "ars_nouveau:water_essence" }
+				type: "item"
+			}]
+			x: 1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["46B818618F767629"]
 			hide_dependent_lines: true
 			icon: {
-				id: "naturesaura:token_joy"
+				id: "naturesaura:token_sorrow"
 			}
 			id: "4F1594D45E71BD67"
 			shape: "gear"
@@ -227,8 +229,8 @@
 				item: { count: 1, id: "naturesaura:token_sorrow" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4363AE8363EC43A6"]
@@ -268,7 +270,7 @@
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
@@ -334,7 +336,7 @@
 				item: { count: 1, id: "createaddition:rolling_mill" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: 5.0d
 		}
 		{
@@ -359,7 +361,7 @@
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 5.0d
 		}
 		{
@@ -388,10 +390,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["17482BD4DB583890"]
+			dependencies: ["7D30D0CD5F0F151E"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:writable_book"
@@ -424,7 +426,7 @@
 				id: "079409CB98664CBD"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: 9.5d
 			y: 1.0d
 		}
 		{
@@ -435,7 +437,7 @@
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: 5.0d
 		}
 		{
@@ -466,7 +468,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -479,7 +481,7 @@
 				item: { count: 1, id: "kubejs:paradox_collapser" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 7.0d
 		}
 		{
@@ -492,7 +494,7 @@
 				item: { count: 1, id: "createmoremachines:brass_deployer" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: 7.0d
 		}
 		{
@@ -546,20 +548,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["48407C982D11D8DC"]
-			id: "248E7B09C3BA1B74"
-			optional: true
-			shape: "rsquare"
-			tasks: [{
-				id: "650B4C70E82B3D1D"
-				item: { count: 1, id: "minecraft:end_portal_frame" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -3.0d
-		}
-		{
 			dependencies: ["18DEB55F4DEDB7A3"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:amethyst_shard"
 			}
@@ -590,6 +580,7 @@
 		}
 		{
 			dependencies: ["54CC0D96675F33E8"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:writable_book"
 			}
@@ -603,6 +594,7 @@
 		}
 		{
 			dependencies: ["02CA2F9CD0E2AE8A"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:writable_book"
 			}
@@ -616,10 +608,12 @@
 		}
 		{
 			dependencies: ["4B699022B1FD8A00"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:crystal_aqua"
 			}
 			id: "30B6340921229929"
+			shape: "gear"
 			tasks: [{
 				id: "66FC1A09A651E3EF"
 				item: { count: 1, id: "kubejs:crystal_aqua" }
@@ -629,26 +623,53 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["30B6340921229929"]
+			dependencies: ["424A36FF905942D5"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:writable_book"
 			}
 			id: "431A6B56EE43ADEE"
-			shape: "gear"
 			tasks: [{
 				id: "08F0431A709F7E4D"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
+			dependencies: ["431A6B56EE43ADEE"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
 			id: "7C97F7759738AEA5"
 			tasks: [{
 				id: "38AE5723BB37D6C0"
 				type: "checkmark"
 			}]
-			x: 3.5d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "391ABFED1F5B7184"
+			tasks: [{
+				id: "57E90BB3C28B4A62"
+				item: { count: 1, id: "create:basin" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30B6340921229929"]
+			hide_until_deps_complete: true
+			id: "424A36FF905942D5"
+			shape: "gear"
+			tasks: [{
+				id: "6477275FE7F6E4B2"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+				type: "item"
+			}]
+			x: 1.5d
 			y: 1.0d
 		}
 	]

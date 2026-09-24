@@ -604,5 +604,16 @@
 			x: 9.5d
 			y: 12.0d
 		}
+		{
+			dependencies: ["75FB247B07C3BF7B"]
+			id: "7857194F19884AB3"
+			tasks: [{
+				id: "39753BBAA0333303"
+				item: { count: 1, id: "mbd2:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
 	]
 }
