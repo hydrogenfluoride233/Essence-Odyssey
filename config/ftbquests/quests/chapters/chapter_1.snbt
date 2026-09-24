@@ -1,4 +1,5 @@
 {
+	autofocus_id: "18DEB55F4DEDB7A3"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_1"
@@ -12,7 +13,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["18DEB55F4DEDB7A3"]
+			dependencies: ["431A6B56EE43ADEE"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: {
 				id: "naturesaura:gold_fiber"
 			}
@@ -33,7 +36,7 @@
 				item: { count: 1, id: "naturesaura:gold_fiber" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -8.5d
 			y: -1.0d
 		}
 		{
@@ -44,7 +47,7 @@
 				item: { count: 1, id: "naturesaura:gold_leaf" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -6.5d
 			y: -1.0d
 		}
 		{
@@ -76,18 +79,20 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["18DEB55F4DEDB7A3"]
+			dependencies: ["431A6B56EE43ADEE"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "477C7D68B338367C"
 			tasks: [{
 				id: "47EC02E58B3F11F3"
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -8.5d
 			y: 3.0d
 		}
 		{
@@ -98,7 +103,7 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -109,14 +114,11 @@
 				item: { count: 1, id: "naturesaura:ancient_sapling" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"2D72B8B451B12DFB"
-				"48407C982D11D8DC"
-			]
+			dependencies: ["48407C982D11D8DC"]
 			icon: {
 				id: "ars_nouveau:enchanting_apparatus"
 			}
@@ -133,7 +135,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -147,8 +149,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(quark:corundum)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["636F2AFB3BF2AC31"]
@@ -167,14 +169,11 @@
 				item: { count: 1, id: "naturesaura:nature_altar" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"3F64EB93903B0250"
-				"06E134B2EEFB6EAF"
-			]
+			dependencies: ["3F64EB93903B0250"]
 			icon: {
 				id: "ars_nouveau:fire_essence"
 			}
@@ -212,54 +211,24 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 1.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"46B818618F767629"
-				"06E134B2EEFB6EAF"
-			]
+			dependencies: ["46B818618F767629"]
 			hide_dependent_lines: true
 			icon: {
 				id: "naturesaura:token_joy"
 			}
 			id: "4F1594D45E71BD67"
 			shape: "gear"
-			tasks: [
-				{
-					id: "35ADFF19DD582B94"
-					item: { count: 1, id: "naturesaura:token_sorrow" }
-					type: "item"
-				}
-				{
-					id: "512937DEA870279C"
-					item: { count: 1, id: "naturesaura:token_anger" }
-					type: "item"
-				}
-				{
-					id: "68A1256C45B914A2"
-					item: { count: 1, id: "naturesaura:token_fear" }
-					type: "item"
-				}
-				{
-					id: "07A21F4D752DF941"
-					item: { count: 1, id: "naturesaura:token_joy" }
-					type: "item"
-				}
-				{
-					id: "6CE732095BE3F69C"
-					item: { count: 1, id: "kubejs:token_confusion" }
-					type: "item"
-				}
-				{
-					id: "7EF5896C41578949"
-					item: { count: 1, id: "kubejs:token_serenity" }
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: 1.0d
+			tasks: [{
+				id: "35ADFF19DD582B94"
+				item: { count: 1, id: "naturesaura:token_sorrow" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4363AE8363EC43A6"]
@@ -288,7 +257,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -299,7 +268,7 @@
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -320,7 +289,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -331,7 +300,7 @@
 				item: { count: 1, id: "create:andesite_casing" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -6.5d
 			y: 3.0d
 		}
 		{
@@ -342,7 +311,7 @@
 				item: { count: 1, id: "quark:ancient_sapling" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -353,7 +322,7 @@
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -4.5d
 			y: 3.0d
 		}
 		{
@@ -365,8 +334,8 @@
 				item: { count: 1, id: "createaddition:rolling_mill" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: -4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -379,7 +348,7 @@
 				item: { count: 1, id: "mekanism:ingot_steel" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: 1.0d
 		}
 		{
@@ -390,7 +359,7 @@
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 1.5d
 			y: 5.0d
 		}
 		{
@@ -404,7 +373,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:aura_generators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: -3.0d
 		}
 		{
@@ -418,14 +387,14 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:sourcelinks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["17482BD4DB583890"]
 			hide_until_deps_complete: true
 			icon: {
-				id: "minecraft:amethyst_shard"
+				id: "minecraft:writable_book"
 			}
 			id: "18DEB55F4DEDB7A3"
 			shape: "gear"
@@ -433,7 +402,7 @@
 				id: "4E664F0AFCBB4293"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -8.5d
 			y: 1.0d
 		}
 		{
@@ -455,7 +424,7 @@
 				id: "079409CB98664CBD"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -466,7 +435,7 @@
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: -0.5d
 			y: 5.0d
 		}
 		{
@@ -497,7 +466,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -510,18 +479,20 @@
 				item: { count: 1, id: "kubejs:paradox_collapser" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 1.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["485146C723E79D3B"]
 			id: "0171C96CB85AC0B5"
+			optional: true
+			shape: "rsquare"
 			tasks: [{
 				id: "0C2C841E73E4E41C"
 				item: { count: 1, id: "createmoremachines:brass_deployer" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: -0.5d
 			y: 7.0d
 		}
 		{
@@ -544,7 +515,7 @@
 				item: { count: 1, id: "eternal_starlight:chiseled_voidstone" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -6.5d
 			y: 5.0d
 		}
 		{
@@ -571,7 +542,7 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -8.5d
 			y: 5.0d
 		}
 		{
@@ -584,8 +555,101 @@
 				item: { count: 1, id: "minecraft:end_portal_frame" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 3.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["18DEB55F4DEDB7A3"]
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "54CC0D96675F33E8"
+			rewards: [{
+				id: "6F1D070A973D8B50"
+				item: {
+					count: 1
+					id: "mekanism:cardboard_box"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2BC6ACD2551A9E81"
+					item: { count: 1, id: "ars_nouveau:dowsing_rod" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E385FC6ECC04264"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54CC0D96675F33E8"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "02CA2F9CD0E2AE8A"
+			tasks: [{
+				id: "71C8B83C37C6DF3B"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02CA2F9CD0E2AE8A"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "4B699022B1FD8A00"
+			tasks: [{
+				id: "3CB8637FDDD6572D"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B699022B1FD8A00"]
+			icon: {
+				id: "kubejs:crystal_aqua"
+			}
+			id: "30B6340921229929"
+			tasks: [{
+				id: "66FC1A09A651E3EF"
+				item: { count: 1, id: "kubejs:crystal_aqua" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30B6340921229929"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "431A6B56EE43ADEE"
+			shape: "gear"
+			tasks: [{
+				id: "08F0431A709F7E4D"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "7C97F7759738AEA5"
+			tasks: [{
+				id: "38AE5723BB37D6C0"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.0d
 		}
 	]
 }

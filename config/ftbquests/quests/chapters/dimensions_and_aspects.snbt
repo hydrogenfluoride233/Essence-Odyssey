@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "dimensions_and_aspects"
 	group: ""
+	hide_quest_until_deps_complete: true
 	icon: {
 		id: "kubejs:crystal_aqua"
 	}
@@ -12,30 +13,6 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["17482BD4DB583890"]
-			hide_until_deps_complete: true
-			icon: {
-				id: "minecraft:amethyst_shard"
-			}
-			id: "06E134B2EEFB6EAF"
-			rewards: [{
-				id: "510268F905684FF4"
-				item: {
-					count: 1
-					id: "mekanism:cardboard_box"
-				}
-				type: "item"
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "1B7F5FC627746CDC"
-				item: { count: 1, id: "minecraft:amethyst_shard" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
 		{
 			dependencies: ["0DF94450C70D2259"]
 			id: "0DB2CD482BA01F58"
@@ -109,85 +86,79 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["06E134B2EEFB6EAF"]
+			dependencies: ["431A6B56EE43ADEE"]
 			icon: {
 				id: "minecraft:oak_sapling"
 			}
 			id: "0DF94450C70D2259"
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "4651A26FD444EE85"
-				type: "dimension"
+				id: "37D4E500A111FB20"
+				type: "checkmark"
 			}]
 			x: -2.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["06E134B2EEFB6EAF"]
+			dependencies: ["431A6B56EE43ADEE"]
 			icon: {
 				id: "minecraft:nether_wart"
 			}
 			id: "031C571BBFFCE0B6"
 			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "2E539D4C6E7A1D6E"
-				type: "dimension"
+				id: "652218963A103A1D"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: -0.5d
 		}
 		{
-			dependencies: ["06E134B2EEFB6EAF"]
+			dependencies: ["431A6B56EE43ADEE"]
 			icon: {
 				id: "twilightforest:canopy_sapling"
 			}
 			id: "217A0236C9312C68"
 			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "0F6043F13D05B53E"
-				type: "dimension"
+				id: "4949CEE6599F4ECE"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["06E134B2EEFB6EAF"]
+			dependencies: ["431A6B56EE43ADEE"]
 			icon: {
 				id: "aether:golden_oak_sapling"
 			}
 			id: "0258FA1C2F0406EA"
 			tasks: [{
-				dimension: "aether:the_aether"
-				id: "4B88945D7CE2D5C6"
-				type: "dimension"
+				id: "0C3BC7C3DCD4C737"
+				type: "checkmark"
 			}]
 			x: -2.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["06E134B2EEFB6EAF"]
+			dependencies: ["431A6B56EE43ADEE"]
 			icon: {
 				id: "minecraft:chorus_fruit"
 			}
 			id: "4E8041B1FBD6669F"
 			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "3B6F4EFF81C353A2"
-				type: "dimension"
+				id: "13DB2DD657514650"
+				type: "checkmark"
 			}]
 			x: -3.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["06E134B2EEFB6EAF"]
+			dependencies: ["431A6B56EE43ADEE"]
 			icon: {
 				id: "eternal_starlight:lunar_sapling"
 			}
 			id: "6D1E3B2DB0CF6EB6"
 			tasks: [{
-				dimension: "eternal_starlight:starlight"
-				id: "69D65706C3DB9D29"
-				type: "dimension"
+				id: "5FFB3987D788C033"
+				type: "checkmark"
 			}]
 			x: -3.0d
 			y: -0.5d

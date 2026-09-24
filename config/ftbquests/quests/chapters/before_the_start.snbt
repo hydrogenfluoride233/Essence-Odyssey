@@ -95,10 +95,11 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["6D0337DB8C14104E"]
+			dependencies: ["01E75843E7AA2555"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				id: "aether:life_shard"
@@ -117,10 +118,11 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["6D0337DB8C14104E"]
+			dependencies: ["01E75843E7AA2555"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				id: "ae2:mysterious_cube"
@@ -130,19 +132,64 @@
 				id: "73B7DE094D9C8EE8"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["01E75843E7AA2555"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
 			id: "6D0337DB8C14104E"
 			tasks: [{
 				id: "30303ED505A60181"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D0337DB8C14104E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "60362BA2A41B4033"
+			tasks: [{
+				id: "4C19EFA8BF153159"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["60362BA2A41B4033"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "11F05068792402E5"
+			tasks: [{
+				id: "24FE31B570989116"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11F05068792402E5"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "7D30D0CD5F0F151E"
+			tasks: [{
+				id: "17650FBCBA1450E9"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -4.0d
 		}
 	]
 }

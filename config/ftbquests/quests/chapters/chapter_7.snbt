@@ -8,5 +8,13 @@
 	images: [ ]
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "0DF52CD073E9984C"
+		tasks: [{
+			id: "33B29BD5AD78CAED"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
 }
