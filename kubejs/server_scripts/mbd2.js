@@ -66,7 +66,7 @@ ServerEvents.recipes(event=>{
     ImbuementList.forEach(([input,output,source,name])=>
         event.recipes.mbd2.industrial_imbuement()
             .id(`mbd2:industrial_imbuement/${name}`)
-            .duration(100)
+            .duration(50)
             .inputItems(input)
             .inputSource(source)
             .outputItems(output)
