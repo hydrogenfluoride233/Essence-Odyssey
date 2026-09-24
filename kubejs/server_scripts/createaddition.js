@@ -27,6 +27,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"createaddition:compat/immersiveengineering/item_application/kiln_brick"})         //窑砖
     event.remove({id:"createaddition:compat/immersiveengineering/rolling/steel_ingot"})                 //钢棒
     event.remove({id:/^createaddition:charging\/electrify_/})
+    event.remove({id:"createaddition:compat/immersiveengineering/crushing/steel_ingot"})
 
     //充能
     //格式:[输出,输入]

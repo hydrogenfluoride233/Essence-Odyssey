@@ -2,6 +2,7 @@ ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"mekanism:steel_casing"})                  //钢质机壳
     event.remove({id:"mekanismgenerators:turbine/blade"})       //涡轮叶片
+    event.replaceInput({id:"mekanism:structural_glass"},"#c:ingots/steel","mekanism:dust_steel")
 
 
     //工作台配方

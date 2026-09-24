@@ -179,8 +179,8 @@ ServerEvents.recipes(event=>{
             [
                 "ars_nouveau:sourcestone",
                 "ars_nouveau:sourcestone",
-                "ars_nouveau:source_gem",
-                "ars_nouveau:source_gem",
+                "kubejs:perditio_essence",
+                "kubejs:ordo_essence",
                 "createaddition:gold_rod",
                 "createaddition:gold_rod",
                 "createaddition:gold_rod",
