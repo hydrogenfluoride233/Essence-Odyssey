@@ -394,6 +394,23 @@ ServerEvents.recipes(event => {
                 },
             ]
         ],//ME驱动器
+
+        [
+            "sophisticatedbackpacks:crafting_upgrade",
+            [
+                "drop ae2:crafting_terminal",
+                {
+                    type:"execute",
+                    command:"particle minecraft:flame ~ ~ ~ 0.3 0.3 0.3 0.05 20",
+                    hide:true
+                },
+                {
+                    type:"execute",
+                    command:"particle minecraft:lava ~ ~ ~ 0.2 0.2 0.2 0.02 10",
+                    hide:true
+                },
+            ]
+        ],//ME合成终端
     ]
 
     itemExplodingRecipes.forEach(([item,action]) => 

@@ -16,7 +16,39 @@ ServerEvents.recipes(event=>{
     event.remove({id:"createmoremachines:mixing/netherite_alloy"})                  //下界合金
     event.remove({id:"createmoremachines:mixing/end_alloy"})                        //末地合金
     event.remove({id:"createmoremachines:mechanical_crafting/beyond_alloy"})        //超越合金
+    event.remove({id:"create:crafting/kinetics/empty_blaze_burner"})                //烈焰人燃烧室
+    event.remove({id:"create:crafting/kinetics/white_sail"})                        //风帆
+    event.remove({id:"starbunclemania:mixing/liquid_source_1000"})                  //液态魔源
+    event.remove({id:"create:pressing/compat/immersiveengineering/plate_steel"})    //钢板
 
+    //工作台配方
+    event.replaceInput(
+        {id:"create:crafting/kinetics/whisk"},
+        "#c:plates/iron",
+        "#c:wires/iron"
+    )//搅拌器
+
+    event.replaceInput(
+        {id:"create:crafting/kinetics/water_wheel"},
+        "create:shaft",
+        "create_connected:encased_chain_cogwheel"
+    )//水车
+
+    event.shaped(
+        "create:empty_blaze_burner",
+        ["ABA","BCB","ABA"],
+        {
+            A:"immersiveengineering:stick_iron",
+            B:"ars_nouveau:fire_essence",
+            C:"minecraft:netherrack"
+        }
+    )//烈焰人燃烧室
+
+    event.replaceInput(
+        {id:"create:crafting/kinetics/steam_engine"},
+        "#c:plates/gold",
+        "create:precision_mechanism"
+    )//蒸汽引擎
 
     //动力冲压机
     //格式:[输出,输入]
@@ -350,6 +382,25 @@ ServerEvents.recipes(event=>{
             "ae2:printed_silicon",1
         )
     )
+
+    //钢板：序列组装（工程师锤 + 动力冲压机，循环十次）
+    const PlateSteps = [
+        event.recipes.create.deploying(
+            "mekanism:ingot_steel",
+            ["mekanism:ingot_steel","immersiveengineering:hammer"]
+        ).keepHeldItem(),//工程师锤
+        event.recipes.create.pressing(
+            "mekanism:ingot_steel",
+            "mekanism:ingot_steel"
+        )//动力冲压机
+    ]
+
+    event.recipes.create.sequenced_assembly(
+        "immersiveengineering:plate_steel",
+        "mekanism:ingot_steel",
+        PlateSteps,
+        "mekanism:ingot_steel",10
+    )//钢板
 
     //动力合成
     event.recipes.create.mechanical_crafting(

@@ -43,6 +43,12 @@ ServerEvents.recipes(event=>{
         "actuallyadditions:enori_crystal"
     )//高压线圈
 
+    event.replaceInput(
+        {id:"immersiveengineering:crafting/hammer"},
+        "minecraft:iron_ingot",
+        "twilightforest:wrought_iron_bar"
+    )//工程师锤
+
     event.shaped(
         "8x immersiveengineering:fluid_pipe",
         ["AAA","ABA","AAA"],

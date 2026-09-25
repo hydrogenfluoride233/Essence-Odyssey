@@ -51,5 +51,5 @@ ServerEvents.recipes(event=>{
         {id:"extendedae:water_cell"},
         "minecraft:water_bucket",
         "cookingforblockheads:sink"
-    )//水槽    
+    )//无限水元件
 })

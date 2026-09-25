@@ -171,7 +171,7 @@ ServerEvents.recipes(event=>{
 
         [
             [
-                "minecraft:crafter",
+                "create:precision_mechanism",
                 "create:electron_tube",
                 "minecraft:crafter",
                 "create:electron_tube"
@@ -280,21 +280,6 @@ ServerEvents.recipes(event=>{
             "naturesaura:token_joy",
             "naturesaura:spring",0
         ],//永恒之泉
-
-        [
-            [
-                "craftingstation:crafting_station",
-                "craftingstation:crafting_station",
-                "craftingstation:crafting_station",
-                "craftingstation:crafting_station",
-                "craftingstation:crafting_station",
-                "craftingstation:crafting_station",
-                "craftingstation:crafting_station",
-                "craftingstation:crafting_station",
-            ],
-            "sophisticatedbackpacks:crafting_upgrade",
-            "ae2:crafting_terminal",0
-        ],//合成终端
 
         [
             [
