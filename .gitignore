@@ -143,3 +143,4 @@ $RECYCLE.BIN/
 *.pem
 secrets.*
 credentials.*
+config/iris.properties
