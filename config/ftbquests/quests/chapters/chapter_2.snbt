@@ -285,7 +285,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["481ECA1B87829938"]
+			dependencies: ["1BBF9A8F2131EAC6"]
 			icon: {
 				id: "immersiveengineering:metal_press"
 			}
@@ -614,6 +614,17 @@
 			}]
 			x: 4.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["481ECA1B87829938"]
+			id: "1BBF9A8F2131EAC6"
+			tasks: [{
+				id: "71AC53E24F2544B2"
+				item: { count: 1, id: "immersiveengineering:plate_steel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
 		}
 	]
 }

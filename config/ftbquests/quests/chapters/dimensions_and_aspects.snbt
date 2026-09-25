@@ -373,5 +373,53 @@
 			x: -5.0d
 			y: -1.0d
 		}
+		{
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "382FD077B4CB5BA6"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "42506AFDFDF15AD3"
+				item: {
+					count: 1
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "605F2539B1366C2D"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "77CCF6E3CA3E9F38"
+			optional: true
+			rewards: [{
+				id: "586FB9699E547F8E"
+				item: {
+					count: 1
+					id: "eternal_starlight:orb_of_prophecy"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "08AA88B3342ECDD4"
+				item: { count: 1, id: "eternal_starlight:chiseled_voidstone" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
 	]
 }
