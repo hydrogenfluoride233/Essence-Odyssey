@@ -14,7 +14,6 @@
 	quests: [
 		{
 			dependencies: ["7C97F7759738AEA5"]
-			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				id: "naturesaura:gold_fiber"
@@ -93,7 +92,6 @@
 		}
 		{
 			dependencies: ["7C97F7759738AEA5"]
-			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "477C7D68B338367C"
 			shape: "gear"
@@ -436,7 +434,7 @@
 				id: "4E664F0AFCBB4293"
 				type: "checkmark"
 			}]
-			x: -8.5d
+			x: -23.0d
 			y: 1.0d
 		}
 		{
@@ -549,7 +547,7 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
+			x: -21.0d
 			y: 1.0d
 		}
 		{
@@ -563,7 +561,7 @@
 				id: "71C8B83C37C6DF3B"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: -19.0d
 			y: 1.0d
 		}
 		{
@@ -577,7 +575,7 @@
 				id: "3CB8637FDDD6572D"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -17.0d
 			y: 1.0d
 		}
 		{
@@ -593,7 +591,7 @@
 				item: { count: 1, id: "kubejs:crystal_aqua" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -15.0d
 			y: 1.0d
 		}
 		{
@@ -607,7 +605,7 @@
 				id: "08F0431A709F7E4D"
 				type: "checkmark"
 			}]
-			x: 3.5d
+			x: -11.0d
 			y: 1.0d
 		}
 		{
@@ -620,7 +618,7 @@
 				id: "38AE5723BB37D6C0"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: -8.5d
 			y: 1.0d
 		}
 		{
@@ -633,7 +631,7 @@
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -13.0d
 			y: 1.0d
 		}
 		{
@@ -740,22 +738,53 @@
 			dependencies: ["3ADEEEDFEED6AFAA"]
 			id: "7BF7847A3ED73423"
 			tasks: [{
-				id: "4EF68C4D0C3388D6"
-				item: { count: 1, id: "ae2:drive" }
+				id: "637EFFF0BAC3A32E"
+				item: { count: 1, id: "kubejs:unknown_mixture" }
 				type: "item"
 			}]
 			x: -0.5d
-			y: 7.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["7C97F7759738AEA5"]
-			hide_dependent_lines: true
+			dependencies: ["7CA4F20BED9F78F7"]
+			icon: {
+				id: "ae2:sky_stone_block"
+			}
+			id: "0C963B7BCA20460B"
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "ae2:sky_stone_block"
+				}
+				id: "2305198079015D3A"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C963B7BCA20460B"]
 			icon: {
 				id: "minecraft:writable_book"
 			}
-			id: "0C963B7BCA20460B"
+			id: "3ADEEEDFEED6AFAA"
+			tasks: [{
+				id: "522CD557B868AC9D"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C97F7759738AEA5"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "7CA4F20BED9F78F7"
 			rewards: [{
-				id: "2D93DDA8DBA9589C"
+				id: "641CEA082196B071"
 				item: {
 					count: 1
 					id: "ae2:meteorite_compass"
@@ -763,25 +792,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "799B8C7690680DA2"
+				id: "3E0363DC50992287"
 				type: "checkmark"
 			}]
-			x: 7.5d
+			x: -6.5d
 			y: 1.0d
-		}
-		{
-			dependencies: [
-				"3582A8AFBE363D4B"
-				"0C963B7BCA20460B"
-			]
-			id: "3ADEEEDFEED6AFAA"
-			tasks: [{
-				id: "077A45401B4A3583"
-				item: { count: 1, id: "kubejs:unknown_mixture" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 5.0d
 		}
 	]
 }

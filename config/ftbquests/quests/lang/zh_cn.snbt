@@ -69,6 +69,7 @@
 	quest.09A2129D419DDC49.quest_subtitle: "河动力"
 	quest.09A2129D419DDC49.title: "应力生产（其二）"
 	quest.0C176F5CCC18F301.quest_desc: ["灵气在永恒星光的存在形式。"]
+	quest.0C963B7BCA20460B.title: "发现陨石"
 	quest.0D7152948770AE7F.quest_desc: [
 		"凝胶向对应的矿石蔓延可以获得对应的晶簇。"
 		"暂时先这么获取吧。"
@@ -191,8 +192,14 @@
 		"你并未创造这段知识。你只是让一份沉睡于陨星中的记录，重新拥有了被读取的可能。"
 		"而记录之中，已经留下了制造更复杂装置的方法。"
 	]
-	quest.3582A8AFBE363D4B.quest_desc: ["炼药锅是这个世界给你的第一只容器，撒上一把世界盐，它就成了一只能搅动万物的容器。"]
-	quest.3582A8AFBE363D4B.title: "动力搅拌器"
+	quest.3582A8AFBE363D4B.quest_desc: [
+		"炼药锅是这个世界给你的第一只容器。撒上一把世界盐，它就成了一只能容纳万物的容器。"
+		""
+		"动力搅拌器把搅拌从一个动作变成一道工序，转速决定搅得多快。"
+		""
+		"烈焰燃烧室也是一项必不可少的设备，有些东西只有在足够的热里，才肯彼此接纳。"
+	]
+	quest.3582A8AFBE363D4B.title: "混合搅拌"
 	quest.35FE4723A2488CF4.quest_desc: [
 		"没错，这玩意儿现在要用钢做。"
 		"&m虽然你可以在地牢的箱子里发现一点&r"
@@ -209,7 +216,8 @@
 	quest.382FD077B4CB5BA6.title: "以防你打不过烈焰人（和/或）末影人"
 	quest.38F89B3C95DB51AC.quest_desc: ["在天境中，将紫水晶碎片丢入金黄境云中获取。"]
 	quest.397C219C667CE90A.quest_desc: ["灵气在天境的存在形式。"]
-	quest.3ADEEEDFEED6AFAA.title: "未知混合物"
+	quest.3ADEEEDFEED6AFAA.quest_desc: ["将世界盐和陨石粉、赛特斯石英粉在工作盆中混合，加入熔岩，并用动力冲压机塑形，会得到什么？"]
+	quest.3ADEEEDFEED6AFAA.title: "陨星启示"
 	quest.3F64EB93903B0250.quest_desc: [
 		"刚玉可以在地下找到一大片，并且通常为两种颜色一起生成。在灌注室中可以转化为不同的颜色。"
 		""
@@ -422,7 +430,8 @@
 	quest.77CCF6E3CA3E9F38.quest_desc: ["......真拿你没办法"]
 	quest.77CCF6E3CA3E9F38.title: "以防你打不过守门人（和/或）末影龙"
 	quest.796BB04761A96F35.title: "电弧炉"
-	quest.7BF7847A3ED73423.title: "未知科技"
+	quest.7BF7847A3ED73423.quest_desc: ["&o&7你按照笔记中的记叙，把四样互不相干的东西倒进盆里。等它冷却下来，你手里多了一件说不上名字的东西。&r"]
+	quest.7BF7847A3ED73423.title: "未知混合物"
 	quest.7C97F7759738AEA5.quest_desc: [
 		"在这场远征之中，科技、魔法与冒险，从来不是孤立的三条路。"
 		""
@@ -447,6 +456,7 @@
 	task.0C3BC7C3DCD4C737.title: "天境"
 	task.13DB2DD657514650.title: "末地"
 	task.17650FBCBA1450E9.title: "远征"
+	task.2305198079015D3A.title: "发现一颗陨石"
 	task.24FE31B570989116.title: "异变"
 	task.26F5A19DA793B3CA.title: "关于生命上限"
 	task.2C0E687C81089841.title: "灵气生产"
@@ -454,11 +464,13 @@
 	task.37D4E500A111FB20.title: "主世界"
 	task.38AE5723BB37D6C0.title: "科技、魔法与冒险"
 	task.3CB8637FDDD6572D.title: "回应世界"
+	task.3E0363DC50992287.title: "天外来物"
 	task.3E4FC7B25118CFC6.title: "观察：工业挤压机"
 	task.4949CEE6599F4ECE.title: "暮色森林"
 	task.4C19EFA8BF153159.title: "认识这个世界"
 	task.4E664F0AFCBB4293.title: "开端"
 	task.4FF759267D5261E9.title: "魔源通道"
+	task.522CD557B868AC9D.title: "未知混合物"
 	task.5E4A7D672CE7EB31.title: "观察：灌装机"
 	task.5FFB3987D788C033.title: "永恒星光"
 	task.602D6817A35C870F.title: "观察：精炼厂"
@@ -471,5 +483,4 @@
 	task.73B7DE094D9C8EE8.title: "AE2"
 	task.75BFDE05DC02A082.title: "初始套装"
 	task.75C08446667D55EF.title: "线轴"
-	task.799B8C7690680DA2.title: "天外来物"
 }
