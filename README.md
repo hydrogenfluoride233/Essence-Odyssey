@@ -36,7 +36,7 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 **2. 要素形态贯穿全程**
 
-从固态结晶到液态流体，再到气态精粹，中间穿插*自然灵气（Nature's Aura）*印记、*新生魔艺（Ars Nouveau）*魔法精华、*命血术（Neo Vitae）*铭文工具等衍生物。各种形态各有获取方式与用途，层层递进，而非一次性开放。
+从固态结晶到液态流体，再到气态精粹，中间穿插<em>自然灵气（Nature's Aura）</em>印记、<em>新生魔艺（Ars Nouveau）</em>魔法精华、<em>命血术（Neo Vitae）</em>铭文工具等衍生物。各种形态各有获取方式与用途，层层递进，而非一次性开放。
 
 **3. 二级要素合成体系**
 
