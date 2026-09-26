@@ -169,6 +169,7 @@ ServerEvents.recipes(event=>{
             [
                 "thaumon:mutagen",
                 "ae2:sky_dust",
+                "ae2:certus_quartz_dust",
                 "1000x minecraft:lava"
             ]
         ],//未知混合物
