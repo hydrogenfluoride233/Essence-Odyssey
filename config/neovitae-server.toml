@@ -169,3 +169,8 @@ evolution_upgrade_points = 300
 	# Default: 5
 	# Range: 1 ~ 64
 	vertical_range = 5
+
+[lanterns]
+	#Allow Blood and Demon Lanterns to suppress non-monster spawns.
+	#Disable to bypass lantern indexing and spawn suppression. Demon Lantern hostile spawning is unaffected.
+	spawn_suppression = true

@@ -186,8 +186,7 @@
   "item.kubejs.osmium_sheet":"Osmium Sheet",
   "item.kubejs.tin_sheet":"Tin Sheet",
 
-  "item.kubejs.essence_enzyme":"Arcane Catalyst",
-  "item.kubejs.essence_coenzyme":"Arcane Co-catalyst",
+  "item.kubejs.unknown_mixture":"Unknown Mixture",
   "item.kubejs.sky_stone_mainboard":"Sky Stone Mainboard",
   "item.kubejs.arcane_wafer":"Arcane Wafer",
   "item.kubejs.aura_diode":"Aura Diode",
@@ -214,7 +213,7 @@
   "block.kubejs.altar_2":"Celestial Altar",
   "block.kubejs.altar_3":"Iridescent Altar",
   "block.kubejs.altar_nature":"Packaged Nature Altar",
-  "block.kubejs.star_ore":"Starmetal Ore",
+  "block.kubejs.sky_stone_starmetal_ore":"Sky Stone Starmetal Ore",
 
   "item.kubejs.ritual_rune":"Ritual: Runic Altar",
   "item.kubejs.ritual_rune.tooltip":"Runic Altar",

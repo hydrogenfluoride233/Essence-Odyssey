@@ -26,7 +26,7 @@ StartupEvents.registry("item",event=>{
         event.create(`kubejs:empowered_${crystal}_crystal_dust`)
     )
 
-    //仪式假人（名称与提示走 lang 文件，见 assets/kubejs/lang）
+    //仪式假人
     const rune_rituals = ["rune","astral_1","astral_2","astral_3","tree","nature"]
     rune_rituals.forEach(num=>
         event.create(`kubejs:ritual_${num}`,"occultism_kubejs:ritual_dummy")
@@ -46,16 +46,21 @@ StartupEvents.registry("item",event=>{
     event.create("kubejs:token_delirium")
     event.create("kubejs:token_equanimity")
 
+    //铭文工具
+    event.create("kubejs:perditio_scribe_tool").maxStackSize(1)
+         .tooltip(Text.translate("item.kubejs.perditio_scribe_tool.tooltip"))
+    event.create("kubejs:ordo_scribe_tool").maxStackSize(1)
+         .tooltip(Text.translate("item.kubejs.ordo_scribe_tool.tooltip"))
+
     //其他
-    event.create("kubejs:essence_coenzyme").rarity("uncommon")
-    event.create("kubejs:essence_enzyme").rarity("epic").glow(true)
+    event.create("kubejs:unknown_mixture").rarity("uncommon")
     event.create("kubejs:crushed_raw_iesnium")
-    event.create("kubejs:sky_stone_mainboard")
-    event.create("kubejs:arcane_wafer")
-    event.create("kubejs:aura_diode")
-    event.create("kubejs:source_amplifier")
-    event.create("kubejs:energy_capacitor")
-    event.create("kubejs:calibration_gel")
+    event.create("kubejs:sky_stone_mainboard").rarity("uncommon")
+    event.create("kubejs:arcane_wafer").rarity("uncommon")
+    event.create("kubejs:aura_diode").rarity("uncommon")
+    event.create("kubejs:source_amplifier").rarity("uncommon")
+    event.create("kubejs:energy_capacitor").rarity("uncommon")
+    event.create("kubejs:calibration_gel").rarity("uncommon")
     event.create("kubejs:star_dust").rarity("rare")
     event.create("kubejs:star_ingot").rarity("rare")
     event.create("kubejs:twilight_holy_grail").rarity("epic").glow(true)
@@ -66,9 +71,6 @@ StartupEvents.registry("item",event=>{
     event.create("kubejs:infinity_lava_cell","extendedae:custom_infinity_cell")
          .fluidType("minecraft:lava")
     event.create("kubejs:paradox_collapser").rarity("epic")
-    event.create("kubejs:perditio_scribe_tool").maxStackSize(1)
-         .tooltip(Text.translate("item.kubejs.perditio_scribe_tool.tooltip"))  //自有键，不引用 NeoVitae 的提示（那条是白的，风格也不统一）
-    event.create("kubejs:ordo_scribe_tool").maxStackSize(1)
-         .tooltip(Text.translate("item.kubejs.ordo_scribe_tool.tooltip"))     //文案与混沌共用
+    
 
 })

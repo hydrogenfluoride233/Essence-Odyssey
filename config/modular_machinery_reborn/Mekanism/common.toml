@@ -1,3 +1,0 @@
-[general]
-	#Determined if the Chemical Hatch should emit radiation if contains a radioactive chemical or not
-	emitRadiation = true

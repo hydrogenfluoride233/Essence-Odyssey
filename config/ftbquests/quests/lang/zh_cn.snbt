@@ -65,6 +65,7 @@
 	]
 	quest.074A2E5B400DF699.title: "生命上限说明"
 	quest.096875F870AB8F0B.title: "工业挤压机"
+	quest.09A2129D419DDC49.quest_desc: ["&o&m河电，轻而易举啊！&r"]
 	quest.09A2129D419DDC49.quest_subtitle: "河动力"
 	quest.09A2129D419DDC49.title: "应力生产（其二）"
 	quest.0C176F5CCC18F301.quest_desc: ["灵气在永恒星光的存在形式。"]
@@ -134,8 +135,11 @@
 	quest.217A0236C9312C68.title: "暮色森林"
 	quest.22BBDE618BB134FE.title: "工业发酵机"
 	quest.236B9D3A654D936D.quest_desc: [
-		"！？十万伏特？！"
-		"&m不得不说这个发电量还算可以&r"
+		"交流发电机把旋转力变成电，电线把电送到远处，电动机再把电变回旋转力。"
+		""
+		"电也能直接改变材料：特斯拉线圈可以给物品充能，比如灌注铁锭通上电会变成钢锭；也可以把电放出去。"
+		""
+		"从此动力不必再由传动轴一节一节接过去。"
 	]
 	quest.236B9D3A654D936D.title: "电力时代"
 	quest.24015ACDFF37D790.quest_desc: ["灵气在主世界的存在形式。"]
@@ -198,12 +202,14 @@
 		"破译过程不能依赖持续而粗暴的供能。遗物内部的结构更像一台精密仪器：它需要在恰当的时刻得到恰当的一次能量脉冲。"
 		"聚能电容会储存并释放这份能量，让每一次校准都不至于被失控的波动毁掉。"
 	]
+	quest.380E92E17E92D38B.quest_desc: ["&o&m想要多少应力自己拿（？）&r"]
 	quest.380E92E17E92D38B.quest_subtitle: "蒸汽时代"
 	quest.380E92E17E92D38B.title: "应力生产（其三）"
 	quest.382FD077B4CB5BA6.quest_desc: ["应该不能吧......"]
 	quest.382FD077B4CB5BA6.title: "以防你打不过烈焰人（和/或）末影人"
 	quest.38F89B3C95DB51AC.quest_desc: ["在天境中，将紫水晶碎片丢入金黄境云中获取。"]
 	quest.397C219C667CE90A.quest_desc: ["灵气在天境的存在形式。"]
+	quest.3ADEEEDFEED6AFAA.title: "未知混合物"
 	quest.3F64EB93903B0250.quest_desc: [
 		"刚玉可以在地下找到一大片，并且通常为两种颜色一起生成。在灌注室中可以转化为不同的颜色。"
 		""
@@ -238,6 +244,11 @@
 		"最后，感谢你游玩我做的整合包。"
 	]
 	quest.3FA905A2EC803B78.title: "世界之外"
+	quest.400F9EA8BED6E390.quest_desc: [
+		"风帆需要使用坚韧布料制作。"
+		""
+		"&o&m或者你也可以竖一个羊毛坨子，如果你想的话。&r"
+	]
 	quest.400F9EA8BED6E390.quest_subtitle: "大风车"
 	quest.400F9EA8BED6E390.title: "应力生产（其一）"
 	quest.40501041AF4EBAA3.quest_desc: [
@@ -258,7 +269,7 @@
 		"&o注：本章任务线仅围绕主世界的&#3EDCFF水&r&o展开，另有「维度，要素和这个世界」一章单列所有元始要素的相关内容。&r"
 	]
 	quest.431A6B56EE43ADEE.title: "六重要素"
-	quest.4363AE8363EC43A6.quest_desc: ["可以进行一些高级合成配方的制作。"]
+	quest.4363AE8363EC43A6.quest_desc: ["有些配方只能在动力合成器上做，工作台做不出来。"]
 	quest.4363AE8363EC43A6.title: "动力合成器"
 	quest.46B818618F767629.quest_desc: [
 		"远古树苗是优良的灵气载体，是进行各类森林仪式重要的树种。"
@@ -327,7 +338,7 @@
 	]
 	quest.54CC0D96675F33E8.title: "紫水晶碎片"
 	quest.5538B917632BBC54.quest_desc: ["灵气在暮色森林的存在形式。"]
-	quest.57E4DA3C7780AAAD.quest_desc: ["用于制作一些合金。"]
+	quest.57E4DA3C7780AAAD.quest_desc: ["合金窑用于把两种材料熔在一起，制作一些合金。"]
 	quest.57E4DA3C7780AAAD.title: "合金窑"
 	quest.5971AA7E8234AA79.quest_desc: ["搭建一个压力室以安全地进行压缩合成。"]
 	quest.5971AA7E8234AA79.title: "压力室"
@@ -358,7 +369,9 @@
 	quest.6256F04D11B48E39.quest_desc: [
 		"动力冲压机用于把金属锭压成板状。"
 		""
-		"板是很多机件的中间形态，一些不容易加工的金属也要先过它一遍。"
+		"板是很多机件的中间形态。"
+		""
+		"注意它处理不来钢锭，需要其他的办法。"
 	]
 	quest.6256F04D11B48E39.title: "动力冲压机"
 	quest.636F2AFB3BF2AC31.quest_desc: [
@@ -394,7 +407,7 @@
 	quest.6E879124E9249E36.quest_desc: [
 		"轧机把金属进一步轧成棒与线。"
 		""
-		"注意它处理不来钢锭，需要其他的办法。"
+		"注意它也处理不来钢锭。"
 	]
 	quest.6E879124E9249E36.title: "轧机"
 	quest.704148E137D62A82.quest_desc: [
@@ -409,6 +422,7 @@
 	quest.77CCF6E3CA3E9F38.quest_desc: ["......真拿你没办法"]
 	quest.77CCF6E3CA3E9F38.title: "以防你打不过守门人（和/或）末影龙"
 	quest.796BB04761A96F35.title: "电弧炉"
+	quest.7BF7847A3ED73423.title: "未知科技"
 	quest.7C97F7759738AEA5.quest_desc: [
 		"在这场远征之中，科技、魔法与冒险，从来不是孤立的三条路。"
 		""
@@ -456,4 +470,6 @@
 	task.71C8B83C37C6DF3B.title: "异“梦”"
 	task.73B7DE094D9C8EE8.title: "AE2"
 	task.75BFDE05DC02A082.title: "初始套装"
+	task.75C08446667D55EF.title: "线轴"
+	task.799B8C7690680DA2.title: "天外来物"
 }

@@ -161,6 +161,22 @@ ServerEvents.recipes(event=>{
         }
     })
 
+    //塑形
+    //格式:[输出,输入]
+    const CompactList = [
+        [
+            "kubejs:unknown_mixture",
+            [
+                "thaumon:mutagen",
+                "ae2:sky_dust",
+                "1000x minecraft:lava"
+            ]
+        ],//未知混合物
+    ]
+
+    CompactList.forEach(([output,input])=>
+        event.recipes.create.compacting(output,input))
+
     //手动物品使用
     //格式:[输出,[输入方块,输入物品]]
     const ApplicationList = [
@@ -315,7 +331,8 @@ ServerEvents.recipes(event=>{
                 "ae2:smooth_sky_stone_block"
             )
         ],
-        "ae2:smooth_sky_stone_block",1)//陨星主板
+        "ae2:smooth_sky_stone_block",1
+    )//陨星主板
 
     event.recipes.create.sequenced_assembly(
         "4x ae2:not_so_mysterious_cube",
@@ -346,7 +363,24 @@ ServerEvents.recipes(event=>{
                 "kubejs:sky_stone_mainboard"
             )
         ],
-        "kubejs:sky_stone_mainboard",4)//没那么神秘的方块
+        "kubejs:sky_stone_mainboard",4
+    )//没那么神秘的方块
+
+    event.recipes.create.sequenced_assembly(
+        "immersiveengineering:plate_steel",
+        "mekanism:ingot_steel",
+        [
+            event.recipes.create.deploying(
+                "mekanism:ingot_steel",
+                ["mekanism:ingot_steel","immersiveengineering:hammer"]
+            ).keepHeldItem(),
+            event.recipes.create.pressing(
+                "mekanism:ingot_steel",
+                "mekanism:ingot_steel"
+            )
+        ],
+        "mekanism:ingot_steel",10
+    )//钢板
 
     //处理器序列组装
     const ProcessorAssemblyList = [
@@ -382,25 +416,6 @@ ServerEvents.recipes(event=>{
             "ae2:printed_silicon",1
         )
     )
-
-    //钢板：序列组装（工程师锤 + 动力冲压机，循环十次）
-    const PlateSteps = [
-        event.recipes.create.deploying(
-            "mekanism:ingot_steel",
-            ["mekanism:ingot_steel","immersiveengineering:hammer"]
-        ).keepHeldItem(),//工程师锤
-        event.recipes.create.pressing(
-            "mekanism:ingot_steel",
-            "mekanism:ingot_steel"
-        )//动力冲压机
-    ]
-
-    event.recipes.create.sequenced_assembly(
-        "immersiveengineering:plate_steel",
-        "mekanism:ingot_steel",
-        PlateSteps,
-        "mekanism:ingot_steel",10
-    )//钢板
 
     //动力合成
     event.recipes.create.mechanical_crafting(

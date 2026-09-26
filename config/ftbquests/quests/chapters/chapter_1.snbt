@@ -163,6 +163,18 @@
 					item: { count: 1, id: "ars_nouveau:arcane_core" }
 					type: "item"
 				}
+				{
+					id: "0147759383E446FD"
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6863D903C92F6B8A"
+					item: { count: 1, id: "ars_nouveau:arcane_platform" }
+					optional_task: true
+					type: "item"
+				}
 			]
 			x: 9.5d
 			y: -1.0d
@@ -238,23 +250,40 @@
 			id: "236B9D3A654D936D"
 			rewards: [{
 				count: 8
-				id: "7BF6E459E9D43B21"
+				id: "62FA5C0DAF203648"
 				item: {
 					count: 1
-					id: "immersiveengineering:ingot_electrum"
+					id: "createaddition:modular_accumulator"
 				}
 				type: "item"
 			}]
 			shape: "gear"
 			tasks: [
 				{
+					id: "746191D4F7F47C7F"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
 					id: "3ACC034C53CA5397"
 					item: { count: 1, id: "createaddition:tesla_coil" }
 					type: "item"
 				}
 				{
-					id: "746191D4F7F47C7F"
-					item: { count: 1, id: "createaddition:alternator" }
+					id: "50848DDA637CFD15"
+					item: { count: 1, id: "createaddition:connector" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5802FD0F6921FBB0"
+					item: { count: 1, id: "createaddition:large_connector" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75C08446667D55EF"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(createaddition:spools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -416,14 +445,6 @@
 				id: "kubejs:crystal_terra"
 			}
 			id: "01789FF24DAB1731"
-			rewards: [{
-				id: "25D008B638D8966B"
-				item: {
-					count: 1
-					id: "ae2:meteorite_compass"
-				}
-				type: "item"
-			}]
 			shape: "gear"
 			tasks: [{
 				id: "079409CB98664CBD"
@@ -716,14 +737,51 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["3ADEEEDFEED6AFAA"]
 			id: "7BF7847A3ED73423"
 			tasks: [{
 				id: "4EF68C4D0C3388D6"
 				item: { count: 1, id: "ae2:drive" }
 				type: "item"
 			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C97F7759738AEA5"]
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "0C963B7BCA20460B"
+			rewards: [{
+				id: "2D93DDA8DBA9589C"
+				item: {
+					count: 1
+					id: "ae2:meteorite_compass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "799B8C7690680DA2"
+				type: "checkmark"
+			}]
 			x: 7.5d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3582A8AFBE363D4B"
+				"0C963B7BCA20460B"
+			]
+			id: "3ADEEEDFEED6AFAA"
+			tasks: [{
+				id: "077A45401B4A3583"
+				item: { count: 1, id: "kubejs:unknown_mixture" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
 		}
 	]
 }

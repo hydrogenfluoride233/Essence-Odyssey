@@ -186,8 +186,7 @@
   "item.kubejs.osmium_sheet":"锇板",
   "item.kubejs.tin_sheet":"锡板",
 
-  "item.kubejs.essence_enzyme":"奥术触媒",
-  "item.kubejs.essence_coenzyme":"奥术辅媒",
+  "item.kubejs.unknown_mixture":"未知混合物",
   "item.kubejs.sky_stone_mainboard":"陨星主板",
   "item.kubejs.arcane_wafer":"魔导晶圆",
   "item.kubejs.aura_diode":"灵气二极管",
@@ -214,7 +213,7 @@
   "block.kubejs.altar_2":"天辉祭坛",
   "block.kubejs.altar_3":"五彩祭坛",
   "block.kubejs.altar_nature":"封装自然祭坛",
-  "block.kubejs.star_ore":"星辉矿石",
+  "block.kubejs.sky_stone_starmetal_ore":"陨石星辉金属矿石",
 
   "item.kubejs.ritual_rune":"仪式：符文祭坛",
   "item.kubejs.ritual_rune.tooltip":"符文祭坛",
