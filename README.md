@@ -1,10 +1,69 @@
 # Essence Odyssey · 本源远征
 
-Minecraft **1.21.1 / NeoForge** 整合包：以科技、魔法与冒险三条线，围绕六大元始要素展开的跨模组进度。目前处于早期开发阶段（进度：第二章）。
+[![版本](https://img.shields.io/badge/版本-0.2.2-blue.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
+[![NeoForge](https://img.shields.io/badge/NeoForge-21.1-EA6E1E.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
+[![下载](https://img.shields.io/badge/CurseForge-下载-F16436.svg?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
+[![许可](https://img.shields.io/badge/许可-CC_BY--NC--SA_4.0-lightgrey.svg)](LICENSE)
 
-本仓库只收录作者**手写 / 手改**的内容——KubeJS 脚本与补充汉化、模组配置、MBD2 多方块与配方定义、自制贴图与模型。**不包含任何模组本体**（`mods/` 已在 `.gitignore` 中排除），游玩请通过 CurseForge 获取整合包。
+这是一个围绕科技、魔法与冒险构建的整合包。探索六大维度，解析六大元始要素，建立跨模组生产线，并通过仪式与自动化逐步迈向终局。踏上这场跨越世界的远征，寻找世界的本源。
 
-CurseForge 项目页 · CurseForge page：<https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
+CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
+
+## 故事线
+
+你是方块世界的一个普通人。某天，世界开始回应你，紫水晶开始对某些东西有了反应。你不知道为什么，但你想知道为什么。你顺着这份回应一路走下去。
+
+你走过六个维度，收集六种元始要素。你发现了一颗陨石，里面藏着一段不属于任何已知文明的记录。你破译了它，学会了用要素书写世界的方式。
+
+后来你开始把要素转化为不同形态，量产要素，组合元始要素为二级要素，一步步接近那个你最初无法理解的问题——世界为什么在回应你。
+
+你的旅程没有指引。只有一份笔记，和一条你自己走出来的路。
+
+## 核心玩法
+
+**1. 六大维度，六种元始要素**
+
+主世界 = 水 ｜ 下界 = 火 ｜ 暮色森林 = 地 ｜ 天境 = 风 ｜ 末地 = 混沌 ｜ 永恒星光 = 秩序
+
+每个维度都有独特的要素获取方式。用紫水晶碎片与维度互动，即可获得对应的要素结晶。
+
+**2. 要素形态贯穿全程**
+
+从固态结晶到液态流体，再到气态精粹，中间穿插*自然灵气（Nature's Aura）*印记、*新生魔艺（Ars Nouveau）*魔法精华、*命血术（Neo Vitae）*铭文工具等衍生物。各种形态各有获取方式与用途，层层递进，而非一次性开放。
+
+**3. 二级要素合成体系**
+
+15 种组合，多种生产路线，你可以根据自己的科技线选择不同的生产方式（尚未完成）。
+
+**4. AE2**
+
+AE2 从游戏早期就融入进度，而非后期解锁。
+
+**5. 三条线交织**
+
+科技、魔法、冒险三条线并行，彼此交织，而非各自独立。
+
+## 截图
+
+> TODO: 任务书界面 / 要素结晶 / 工业灌注室 / AE 生产线各一张
+
+## 上手
+
+1. 通过 [CurseForge 项目页](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) 安装，版本 Minecraft 1.21.1 + NeoForge
+2. 建议分配内存：`TODO`
+
+## 开发状态
+
+本整合包目前处于早期开发阶段，开发进度在第二章，主线任务和终局内容尚未完成。你可能会遇到占位内容或"刻意的游戏设计"。
+
+由于作者目前的开发与本地化限制，本整合包在开发期间仅提供完整的中文游戏内容与基本的英文内容**（自 0.2.2 起）**。当主要内容与系统基本完成后，会逐步完善英文翻译与本地化。
+
+如果游玩过程中发现了问题，欢迎通过 [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues) 或 CurseForge 项目页反馈。
+
+## 仓库内容
+
+只收录作者**手写 / 手改**的内容——KubeJS 脚本与补充汉化、模组配置、MBD2 多方块与配方定义、自制贴图与模型。**不包含任何模组本体**（`mods/` 已在 `.gitignore` 中排除），游玩请通过 CurseForge 获取整合包。
 
 ## 授权｜License
 
@@ -16,4 +75,59 @@ CurseForge 项目页 · CurseForge page：<https://www.curseforge.com/minecraft/
 
 转载或改编请注明「Essence Odyssey / 本源远征 by hydrogenfluoride233」并附协议链接、标明是否改动；禁止商业使用；改编后的作品需以相同协议发布。协议全文见 [LICENSE](LICENSE)。
 
-> Third-party content (mods, community translations, adapted textures) is **not** covered by the license above and remains under its own license — see [THIRD-PARTY.md](THIRD-PARTY.md). No mod jars are distributed in this repository.
+<details>
+<summary><strong>English</strong></summary>
+
+This is a modpack built around technology, magic, and adventure. Explore six dimensions, unravel the six primary aspects, establish cross-mod production lines, and progress toward the endgame through rituals and automation. Embark on an odyssey across worlds, and seek the origin of the world.
+
+### Story
+
+You are an ordinary person in the world of Minecraft. One day, the world begins to respond to you — amethyst shards start reacting to something. You don't know why. But you want to know why. You follow that response and keep walking.
+
+You walk through six dimensions and gather six primary aspects. You find a meteorite. Hidden inside it is a record that belongs to no civilization you know of. You decipher it, and learn to write the world with aspects.
+
+Later you begin turning aspects into other forms, mass-producing them, and combining primary aspects into secondary ones — step by step closing in on the question you could not answer at first: why is the world responding to you?
+
+Your journey has no guidance. Only a note, and a path you walked for yourself.
+
+### Core Gameplay
+
+**1. Six dimensions, six primary aspects**
+
+Overworld = Water ｜ Nether = Fire ｜ Twilight Forest = Earth ｜ The Aether = Air ｜ The End = Chaos ｜ Eternal Starlight = Order
+
+Each dimension has its own way of obtaining aspects. Interact with a dimension using amethyst shards to obtain the matching aspect crystals.
+
+**2. Aspect forms run through the entire progression**
+
+From solid crystals to liquid fluids, and on to gaseous quintessence — with *Nature's Aura* tokens, *Ars Nouveau* essences, and *Neo Vitae* inscription tools appearing in between. Each form has its own way of being obtained and its own uses, opening up layer by layer rather than all at once.
+
+**3. Secondary aspect crafting**
+
+15 combinations, multiple production routes — you can choose a different production method depending on your tech line (not yet complete).
+
+**4. AE2**
+
+AE2 is part of the progression from early on, rather than something unlocked later.
+
+**5. Three threads, interwoven**
+
+Technology, magic, and adventure run in parallel and interweave, rather than standing apart.
+
+### Development Status
+
+This modpack is in early development. Progress currently stands at Chapter 2; the main questline and the endgame are not finished yet. You may run into placeholder content — or the occasional "Intentional Game Design".
+
+Because of the author's current development and localization constraints, during development this pack ships complete Chinese content and only basic English content **(introduced in version 0.2.2)**. English translation and localization will be filled in gradually once the main content and systems are largely complete.
+
+### License
+
+| Scope | License |
+|---|---|
+| The modpack and everything under `config/`, `defaultconfigs/`, `data/`, `ldlib2/`, `kubejs/` | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| Original `.js` scripts under `kubejs/` | [MIT](kubejs/LICENSE) |
+| Third-party content (mods, community translations, adapted textures) | Their own licenses — see [THIRD-PARTY.md](THIRD-PARTY.md) |
+
+No mod jars are distributed in this repository.
+
+</details>
