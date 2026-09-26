@@ -1,5 +1,11 @@
 # Essence Odyssey · 本源远征
 
+<div align="right">
+
+**中文** · [English](README_EN.md)
+
+</div>
+
 [![版本](https://img.shields.io/badge/版本-0.2.2-blue.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
 [![NeoForge](https://img.shields.io/badge/NeoForge-21.1-EA6E1E.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
@@ -74,60 +80,3 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 | 第三方内容（各模组、社区汉化、他人素材） | 各自原始许可，见 [THIRD-PARTY.md](THIRD-PARTY.md) |
 
 转载或改编请注明「Essence Odyssey / 本源远征 by hydrogenfluoride233」并附协议链接、标明是否改动；禁止商业使用；改编后的作品需以相同协议发布。协议全文见 [LICENSE](LICENSE)。
-
-<details>
-<summary><strong>English</strong></summary>
-
-This is a modpack built around technology, magic, and adventure. Explore six dimensions, unravel the six primary aspects, establish cross-mod production lines, and progress toward the endgame through rituals and automation. Embark on an odyssey across worlds, and seek the origin of the world.
-
-### Story
-
-You are an ordinary person in the world of Minecraft. One day, the world begins to respond to you — amethyst shards start reacting to something. You don't know why. But you want to know why. You follow that response and keep walking.
-
-You walk through six dimensions and gather six primary aspects. You find a meteorite. Hidden inside it is a record that belongs to no civilization you know of. You decipher it, and learn to write the world with aspects.
-
-Later you begin turning aspects into other forms, mass-producing them, and combining primary aspects into secondary ones — step by step closing in on the question you could not answer at first: why is the world responding to you?
-
-Your journey has no guidance. Only a note, and a path you walked for yourself.
-
-### Core Gameplay
-
-**1. Six dimensions, six primary aspects**
-
-Overworld = Water ｜ Nether = Fire ｜ Twilight Forest = Earth ｜ The Aether = Air ｜ The End = Chaos ｜ Eternal Starlight = Order
-
-Each dimension has its own way of obtaining aspects. Interact with a dimension using amethyst shards to obtain the matching aspect crystals.
-
-**2. Aspect forms run through the entire progression**
-
-From solid crystals to liquid fluids, and on to gaseous quintessence — with *Nature's Aura* tokens, *Ars Nouveau* essences, and *Neo Vitae* inscription tools appearing in between. Each form has its own way of being obtained and its own uses, opening up layer by layer rather than all at once.
-
-**3. Secondary aspect crafting**
-
-15 combinations, multiple production routes — you can choose a different production method depending on your tech line (not yet complete).
-
-**4. AE2**
-
-AE2 is part of the progression from early on, rather than something unlocked later.
-
-**5. Three threads, interwoven**
-
-Technology, magic, and adventure run in parallel and interweave, rather than standing apart.
-
-### Development Status
-
-This modpack is in early development. Progress currently stands at Chapter 2; the main questline and the endgame are not finished yet. You may run into placeholder content — or the occasional "Intentional Game Design".
-
-Because of the author's current development and localization constraints, during development this pack ships complete Chinese content and only basic English content **(introduced in version 0.2.2)**. English translation and localization will be filled in gradually once the main content and systems are largely complete.
-
-### License
-
-| Scope | License |
-|---|---|
-| The modpack and everything under `config/`, `defaultconfigs/`, `data/`, `ldlib2/`, `kubejs/` | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
-| Original `.js` scripts under `kubejs/` | [MIT](kubejs/LICENSE) |
-| Third-party content (mods, community translations, adapted textures) | Their own licenses — see [THIRD-PARTY.md](THIRD-PARTY.md) |
-
-No mod jars are distributed in this repository.
-
-</details>
