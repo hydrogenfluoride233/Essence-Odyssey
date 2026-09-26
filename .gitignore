@@ -119,6 +119,10 @@ config/configured-client.properties
 config/xaerohud.txt
 config/xaeropatreon.txt
 
+# MBD2 编辑器窗口布局、Jade 面板排序（本地状态，每次开游戏都会变）
+ldlib2/editor_layouts/
+config/jade/sort-order.json
+
 # ---------------------------------------------------------------------
 #  5. 环境与编辑器
 # ---------------------------------------------------------------------
