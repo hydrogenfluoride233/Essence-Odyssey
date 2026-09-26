@@ -63,14 +63,14 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 ## 上手
 
 1. 通过 [CurseForge 项目页](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) 安装，版本 Minecraft 1.21.1 + NeoForge
-2. 建议分配内存：`TODO`
+2. 建议分配内存：6–8 GB
 
 ## 开发状态
 
 <!-- INTRO:STATUS:BEGIN -->
 本整合包目前处于早期开发阶段，目前开发进度在第二章，主线任务和终局内容尚未完成。你可能会遇到占位内容或“刻意的游戏设计”。
 
-由于作者目前的开发与本地化限制，本整合包在开发期间仅提供完整的中文游戏内容与基本的英文内容**（自 0.2.2 版本起）**。当主要内容与系统基本完成后，会逐步完善英文翻译与本地化。
+由于作者目前的开发与本地化限制，本整合包在开发期间仅提供完整的中文游戏内容与基本的英文内容<strong>（自 0.2.2 版本起）</strong>。当主要内容与系统基本完成后，会逐步完善英文翻译与本地化。
 <!-- INTRO:STATUS:END -->
 
 如果游玩过程中发现了问题，欢迎通过 [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues) 或 CurseForge 项目页反馈。

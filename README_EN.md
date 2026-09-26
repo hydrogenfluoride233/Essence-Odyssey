@@ -63,7 +63,7 @@ Technology, magic, and adventure run in parallel and interweave, rather than sta
 ## Getting Started
 
 1. Install from the [CurseForge page](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) — Minecraft 1.21.1 + NeoForge
-2. Recommended memory allocation: `TODO`
+2. Recommended memory allocation: 6–8 GB
 
 ## Development Status
 
