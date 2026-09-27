@@ -307,7 +307,7 @@
   "kubejs.info.aura_bottle_starlight":"Collect aura using a Bottle and Cork in Eternal Starlight.",
   "kubejs.info.aerogel":"Formed by placing lava in the Aether.",
   "kubejs.info.aersmog":"Formed where water and poison meet.",
-  "kubejs.info.mysterious_cube":"You have found a mysterious structure within the meteorite. It does not seem to belong to any known technology.\nIt is neither ore nor machine; breaking it only leaves the block intact, while the knowledge sealed inside cannot be taken out.\nFind a way to decipher it — the answer is not to take it apart, but to read it first.",
+  "kubejs.info.mysterious_cube":"You have found a mysterious structure within the meteorite. It does not seem to belong to any known technology.\nIt is neither ore nor machine: no pick can pry it open, and no explosion leaves a mark.\nThe knowledge sealed inside cannot be taken out — the answer is not to take it apart, but to read it first.",
   "kubejs.info.starcore_light":"Right-click a Block of Blazing Starcore with any pickaxe to turn it into a brighter Starcore Light.",
   "kubejs.info.blazing_starcore_block":"Place a Block of Starcore near lava (a fluid source) and it will turn into a Block of Blazing Starcore.",
   "kubejs.info.blueprint_automatons":"Obtained from vaults in trial chambers.",
