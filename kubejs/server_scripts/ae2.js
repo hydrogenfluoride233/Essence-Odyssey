@@ -58,7 +58,7 @@ ServerEvents.recipes(event=>{
     const ExplosionList = [
         ["minecraft:raw_iron_block","ae2:item_storage_cell_1k"],            //1k物品存储元件
         ["minecraft:raw_copper_block","ae2:fluid_storage_cell_1k"],         //1k流体存储元件
-        ["ae2:fluix_crystal","ae2:fluix_glass_cable"],                      //线缆
+        ["ae2:quartz_fiber","ae2:white_glass_cable"],                       //线缆
         ["sophisticatedstorage:diamond_chest","ae2:drive"],                 //ME驱动器
         ["sophisticatedbackpacks:crafting_upgrade","ae2:crafting_terminal"] //ME合成终端
     ]
