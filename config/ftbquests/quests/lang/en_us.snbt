@@ -24,13 +24,23 @@
 	chapter_group.5D4B0C6183F5C265.title: "Journeys of Exploration"
 	chapter_group.76D01E7F0542ED7A.title: "Main Story"
 	file.0000000000000001.title: "Essence Odyssey"
+	quest.00402EA6B1870ECF.quest_desc: [
+		"Copper and zinc become a Brass Ingot in the Alloy Kiln."
+		""
+		"Compared with Andesite Alloy, brass performs better: it can be made into more precise equipment and take on more complex crafting tasks."
+		""
+		"&o&7You smelted your first Brass Ingot.&r"
+	]
+	quest.00402EA6B1870ECF.title: "The Brass Age"
+	quest.0171C96CB85AC0B5.quest_desc: ["Forget those slow, plodding production lines — you can now upgrade your Mechanical Press, Mechanical Mixer, Deployer and Spout!"]
 	quest.01789FF24DAB1731.quest_desc: [
-		"You have walked through six dimensions, gathered the crystals and aura they left behind, and watched water, fire, earth, air, chaos and order each reveal themselves in their own way. You learned to draw aura from nature, to refine aspects out of magic, and then — with the turning, the pressure and the heat of machines — to pin these fleeting, unstable forces down."
+		"You have walked through six dimensions and brought their traces back one by one: crystals, essences, tokens, devices — and a production line that turns on its own."
+		""
+		"When the first Steel Ingot came out of the furnace, you understood it all the more clearly: magic, technology and adventure were never three separate roads, but three ways of reading one and the same world."
 		"{@pagebreak}"
-		"When the first steel ingot emerged from furnace fire and magical source, you finally understood: magic, technology and adventure are not three separate roads, but three ways of reading one world."
-		"{@pagebreak}"
-		"But the traces left by the six primary aspects still cannot explain those unfamiliar patterns in the meteor. They are not like ore, nor like any rune you know — more like some kind of record, deliberately preserved."
-		"You have learned to write the world. Next, you will learn to read what it once wrote."
+		"The block at the center of the meteor is still lying there. You cannot break it and you cannot read it; all you can do is grind its shell into powder and copy what it does, making one thing after another whose principles you cannot explain, yet which genuinely works."
+		""
+		"&lNext, it is time to learn to read it.&r"
 	]
 	quest.01789FF24DAB1731.title: "A New Beginning"
 	quest.01E75843E7AA2555.quest_desc: ["Welcome to the modpack!"]
@@ -40,9 +50,15 @@
 		"The meteor structure answers outside energy with a faint response, but the answer is far too brief to record. An amplifier driven by magical source can widen that echo, until a signal hidden deep inside the blocks becomes discernible for the first time."
 		"What you need is not a stronger spell, but a precise enough way of listening."
 	]
+	quest.02CA2F9CD0E2AE8A.quest_desc: [
+		"&oYour fingers tingle strangely as you handle the amethyst shard. What does that mean?&r"
+		""
+		"&oYou notice a faint glow rising from the amethyst shard, as if it were pointing you somewhere.&r"
+	]
+	quest.02CA2F9CD0E2AE8A.title: "Strange \"Dreams\""
 	quest.031C571BBFFCE0B6.title: "Visit the Nether"
 	quest.0447158FB18F70D5.quest_desc: [
-		"Breaking a Mysterious Cube no longer drops the four Inscriber Presses; they now come from blocks that are rather less mysterious."
+		"The Inscriber Press can no longer come from the Mysterious Cube — &myou cannot even break the Mysterious Cube.&r"
 		"The channel count in this modpack is twice the default."
 	]
 	quest.0447158FB18F70D5.title: "AE2 Notes"
@@ -52,33 +68,104 @@
 	]
 	quest.074A2E5B400DF699.quest_desc: [
 		"You begin with only six hearts. Do not worry too much, though: every 10 different foods you eat grant you 2 more hearts (five foods at first), and by eating a wide enough variety you can reach 40 hearts in total."
-		"On top of that, Life Shards from the Aether grant you 10 extra hearts."
+		"On top of that, Life Shards from the Aether dimension grant you 10 extra hearts."
 	]
 	quest.074A2E5B400DF699.title: "Max Health Notes"
 	quest.096875F870AB8F0B.title: "Industrial Squeezer"
+	quest.09A2129D419DDC49.quest_desc: ["&o&mRiver power, easy as that!&r"]
+	quest.09A2129D419DDC49.title: "Stress Production (2)"
+	quest.0AD91A5126496988.quest_desc: [
+		"&o&7You still cannot say what these things in your hands are. You only followed the notebook and did it once.&r"
+		""
+		"&oYet they work. The notebook does not explain.&r"
+	]
+	quest.0C963B7BCA20460B.quest_desc: [
+		"&o&7The compass brings you to a crater.&r"
+		""
+		"&oThe crater is bigger than you expected. Nothing grows along its rim; the soil has burned black, and a ring of shapeless gravel and rubble spreads outward from it. At its very center lies a huge mass of sky stone — not any stone of this world, and harder than iron.&r"
+		"{@pagebreak}"
+		"&oA Mysterious Cube is set into the middle of it. In all that black, it alone is bright — impossibly bright: blue light flows across its surface, as if something inside has not stopped moving.&r"
+		""
+		"&oThe sky stone also wraps a number of crystals that give off a faint blue glow. They seem to still be growing, sprouting clusters of clear crystal.&r"
+		"{@pagebreak}"
+		"&o&7You cannot tell what this great mass and the things inside it are good for.&r"
+	]
+	quest.0C963B7BCA20460B.title: "Discover the Meteor"
 	quest.0DF94450C70D2259.title: "Visit the Overworld"
+	quest.11F05068792402E5.quest_desc: [
+		"&o&7You open the notebook.&r&r"
+		""
+		"&lYou found me.&r"
+		""
+		"You have probably noticed by now that the world has changed — let us call it &l\"the change\"&r."
+		""
+		"The cause of the change is unknown, but its main effects are these:"
+		"{@pagebreak}"
+		"(1) The passages between the six isolated dimensions have been opened completely. Portals that could once exchange only items now &n&lallow living things to cross&r into the dimension on the other side."
+		""
+		"(2) Aspects that once sat quietly inside the aura field now &l&nspill over&r into the physical world in certain places. They seem able to &l&nresonate&r with certain materials and condense into a &n&lmaterial form&r."
+		""
+		"(3) The primary aspects have been observed to grow active; by different means, the corresponding &n&lderivatives&r can be obtained."
+		""
+		"(4) &kThe primary aspects no longer exist in isolation; they can combine two by two to yield a number of &l&nsecondary aspects&r."
+		"&o&7There seems to be more, but for now you do not know what it means.&r"
+	]
+	quest.1307B2956D04D7A2.quest_desc: [
+		"The Deployer is more precise than a player's block-hands: it can carry out exact sequential assembly."
+		""
+		"With a Gold Sheet as the base and each component fitted in turn, you obtain a Precision Mechanism."
+		"{@pagebreak}"
+		"Yet even something as precise as a Deployer can slip. Assembly does not always succeed."
+		""
+		"Perhaps there will be a better way to produce Precision Mechanisms later?"
+	]
+	quest.1307B2956D04D7A2.title: "Precision Mechanism"
 	quest.1553D272E3538E31.quest_desc: [
 		"Spawns inside loot chests once every Knight Phantom has been defeated."
 		"ps. Do not use an Ars Nouveau Containment Jar on a Knight Phantom...... (otherwise its health bar will stay on your screen forever)"
 	]
+	quest.163B8AE539C58E2B.quest_desc: ["So it is not a singularity after all..."]
 	quest.163B8AE539C58E2B.title: "Well, It Works"
+	quest.1655971899AF0256.quest_desc: ["Different sourcelinks produce source in different ways."]
 	quest.1655971899AF0256.title: "Source Production"
+	quest.177F832B5872D164.quest_desc: [
+		"&o&7You retreat to a safe distance and light the fuse.&r"
+		""
+		"&oWhen the dust settles, there are no scattered remains on the ground — only a few items, perfectly intact.&r"
+		""
+		"&o&7You open the notebook again. It says:&r"
+		"{@pagebreak}"
+		"That is how you obtained the ME Drive and the ME Storage Cell."
+		""
+		"They are not things of this world; they can hold matter in something smaller than a chest."
+		""
+		"This pinch of powder seems able to do more than that."
+	]
+	quest.177F832B5872D164.title: "Starting Point"
 	quest.18DEB55F4DEDB7A3.quest_desc: [
 		"The world was never built by any single force alone."
-		"The water that runs through the Overworld, the fire that burns in the Nether, the earth that sleeps beneath the Twilight Forest, the wind that echoes across the Aether, the unordered chaos of the End, and the constant order of Eternal Starlight —"
-		"Six primary aspects, writing the six dimensions each in their own posture, together making up the world beneath your feet."
-		"{@pagebreak}"
-		"They are no distant legend."
-		"Your expedition is not a conquest of some world. You will gather the traces they left, record the rules they follow, and try to let forces that were sealed off from one another truly connect for the first time."
 		""
-		"The story begins with coming to know this world."
+		"The six primary aspects write the six dimensions, each in its own posture, together making up the world beneath your feet."
+		""
+		"This expedition is not a conquest of some world, but a gathering of traces and a record of rules — and the first true connection between forces that were once sealed off from one another."
 	]
 	quest.18DEB55F4DEDB7A3.title: "The Beginning"
 	quest.1A72CFCDBF3ABF73.title: "Bottling Machine"
 	quest.1FBA99E5D96BD893.quest_desc: ["An ordinary circuit can carry energy, but it cannot preserve the traces left behind by aura, source and resonating aspects. The Arcane Wafer combines the stability of minerals, the activity of nature and the perception of magic into a medium capable of recording anomalous signals."]
 	quest.217A0236C9312C68.title: "Visit the Twilight Forest"
 	quest.22BBDE618BB134FE.title: "Industrial Fermenter"
+	quest.236B9D3A654D936D.quest_desc: [
+		"An Alternator turns rotation into electricity, wires carry that electricity a long way, and an Electric Motor turns it back into rotation."
+		""
+		"Electricity can change materials directly as well: a Tesla Coil can charge items — feed an Infused Iron electricity and it becomes a Steel Ingot — or discharge into the world."
+		""
+		"From now on, power no longer has to be handed along shaft by shaft."
+	]
 	quest.236B9D3A654D936D.title: "Power Generation and Use"
+	quest.26C4569F0CA4E7D7.quest_desc: [
+		"?! A Crushing Wheel crushing a Crushing Wheel?!"
+		"Crush a Crushing Wheel with a Crushing Wheel — will the Crushing Wheel be crushed by the Crushing Wheel?"
+	]
 	quest.2740A375D6EBCB05.quest_desc: [
 		"Aspect crystals are too quiet — so quiet they hardly seem like aspects at all. Give them enough heat, then enough pressure, and they will speak again: returning the aspects they sealed away, in the form of a fluid."
 		"{@pagebreak}"
@@ -87,23 +174,28 @@
 	]
 	quest.2740A375D6EBCB05.title: "Aspect Fluid Buckets"
 	quest.2A90934B95C717BC.quest_desc: [
-		"A sapling is not merely a tree that has yet to grow. It preserves a piece of land's memory of seasons, soil, light and the cycle of life, which makes it the ideal living anchor for a ritual's center."
-		"{@pagebreak}"
-		"A forest ritual does not create things out of nothing. The wooden stands mark the ritual's boundary; the materials you offer describe the rule you wish to reproduce, transform or awaken; and aura, working through still-growing life, writes that description back into reality."
-		"{@pagebreak}"
-		"Gold Leaves and Gold Powder are the key media in this process. They keep the activity of a leaf while gaining the stability of a metal, which lets a brief reaction of aura last until the ritual is complete."
-		"To perform a forest ritual you need Gold Powder. Your first batch comes from dropping an anvil onto Gold Leaves."
-		"You will also need wooden stands, obtained by right-clicking stripped oak logs with Brilliant Fiber on a Cutting Board."
+		"A forest ritual uses the properties of gold to imbue a living, growing sapling with the strength of its ingredients. The materials you offer \"describe\" to the sapling the rule you wish to reproduce or transform, and Gold Powder uses that still-growing life to write the description back into reality."
+		""
+		"To perform a forest ritual you need Gold Powder. Your first batch comes from dropping an Anvil onto Gold Leaf. You will also need Wooden Stands, obtained by right-clicking a stripped Oak Log with Brilliant Fiber on a Cutting Board."
 	]
 	quest.2A90934B95C717BC.title: "Ritual of the Forest"
 	quest.2CC22C2203005BFF.title: "Refinery"
 	quest.2D72B8B451B12DFB.quest_desc: [
-		"Dimension crystals hold the traces of the primary aspects, but those traces are still bound tightly to the environment that produced them: the water of the Overworld, the fire of the Nether, the earth of the Twilight Forest, the air of the Aether, and the chaos of the End and the order of Eternal Starlight. None can be used directly as a general-purpose material."
-		"{@pagebreak}"
-		"The Imbuement Chamber uses magical source as its driving force, peeling away the crystal's jumbled environmental information layer by layer until only the aspect rules that can be repeatedly recognized and reliably invoked remain. It does not create aspects; it lets a silent crystal be read for the first time. Different metals provide different stabilizing frames for the refining process."
-		"{@pagebreak}"
-		"They are not containers tossed in at random, but anchors that help an aspect fix its form in reality. When the rules inside a crystal are written onto a suitable carrier, what you obtain is a magical essence: an expression of an aspect that can take part in later rituals, enchantments and engineering."
+		"The Imbuement Chamber injects source into an item in order to craft it."
+		""
+		"During the process, if there are items on the pedestals around the Imbuement Chamber, their information is injected along with it."
 	]
+	quest.2D72B8B451B12DFB.title: "Imbuement Chamber"
+	quest.2E5D92132F9FA3DC.quest_desc: [
+		"Iron is no longer enough. Presses, drivetrain, casings — the further you go, the more you need a harder, steadier material."
+		""
+		"With the Natural Altar and a Tesla Coil, you smelt your first Steel Ingot. From this ingot on, machine parts can truly be called precision work."
+		""
+		"&o&mHonestly, I have no idea how I came up with a recipe this arcane either&r"
+	]
+	quest.2E5D92132F9FA3DC.title: "Steel Ingot"
+	quest.30B6340921229929.quest_desc: ["&o&7The amethyst leads you to a cauldron full of water.&r"]
+	quest.30B6340921229929.title: "Water Crystal"
 	quest.31208139567F93AE.quest_desc: [
 		"You have now recorded six origins across six dimensions. But recording is not understanding, and it certainly does not set knowledge running on its own."
 		"At the center of the meteor structure lies a block that no existing craft can explain. It is not like ore, nor like a machine; breaking it leaves a whole block behind, yet yields none of the manufacturing knowledge stored inside."
@@ -119,6 +211,14 @@
 		"You did not create this knowledge. You only gave a record sleeping inside a fallen star the chance to be read again."
 		"And that record already holds the method for building more complex devices."
 	]
+	quest.3582A8AFBE363D4B.quest_desc: [
+		"The Cauldron is the first container this world gave you. Sprinkle in a handful of salis mundus, and it becomes a container that can hold anything."
+		""
+		"The Mechanical Mixer turns mixing from an action into a process; its rotation speed decides how fast it goes."
+		""
+		"A Blaze Burner is indispensable as well — some things will only accept one another in enough heat."
+	]
+	quest.3582A8AFBE363D4B.title: "Mixing"
 	quest.35FE4723A2488CF4.quest_desc: [
 		"That is right, this thing is made of steel now."
 		"&mEven though you can find a little of it in dungeon chests&r"
@@ -128,7 +228,24 @@
 		"The deciphering process cannot rely on a steady, brutal supply of power. The structure inside the relic is more like a precision instrument: it needs the right single pulse of energy at the right moment."
 		"The Energy Capacitor stores and releases that energy, so that no calibration is ruined by an uncontrolled surge."
 	]
+	quest.380E92E17E92D38B.quest_desc: ["&o&mTake as much stress as you like (?).&r"]
+	quest.380E92E17E92D38B.title: "Stress Production (3)"
 	quest.382FD077B4CB5BA6.title: "In Case You Can't Beat a Blaze (and/or) an Enderman"
+	quest.3ADEEEDFEED6AFAA.quest_desc: [
+		"&o&7You try to pry the Mysterious Cube out of the sky stone, and find that nothing you have can break it. You decide to look at the notebook again.&r"
+		""
+		"&oOne of the loose pages tucked inside carries a line of small writing:&r"
+		"{@pagebreak}"
+		"The outer shell of the sky stone and the certus quartz wrapped inside it seem to give this world a special response. Grind each of them into dust, then mix them with salis mundus in a Basin, add lava, and press them into shape. What you get is a kind of unknown powder."
+		""
+		"&oDo as it says for now, and see what comes out."
+	]
+	quest.3ADEEEDFEED6AFAA.title: "Revelation of the Fallen Star"
+	quest.3F64EB93903B0250.quest_desc: [
+		"Corundum can be found underground in large patches, and usually generates as two colors together. It can be converted into other colors in an Imbuement Chamber."
+		""
+		"When placed low underground, corundum slowly grows upward (not all that slowly, actually?) and comes with a few corundum clusters."
+	]
 	quest.3F64EB93903B0250.title: "Corundum"
 	quest.3FA905A2EC803B78.quest_desc: [
 		"Beyond the world of Essence Odyssey, the author of this modpack — that is me — is just an ordinary university student, an ordinary Minecraft modded player."
@@ -159,30 +276,88 @@
 		"Finally, thank you for playing the modpack I made."
 	]
 	quest.3FA905A2EC803B78.title: "Beyond This World"
+	quest.400F9EA8BED6E390.quest_desc: [
+		"Windmill Sails are made with Tough Fabric."
+		""
+		"&o&mOr you could just stack up a lump of wool, if you like.&r"
+	]
+	quest.400F9EA8BED6E390.title: "Stress Production (1)"
 	quest.40501041AF4EBAA3.quest_desc: [
 		"The aura of the six dimensions follows different rules, and when they come near one another they usually only interfere. The Aura Diode splits them apart, corrects them, and guides them into a single stable observation line."
 		"Now, at last, you can let aura from different worlds take part in the same experiment at the same time."
 	]
+	quest.424A36FF905942D5.quest_desc: [
+		"The amethyst has revealed the &#3EDCFFwater&r held in the Overworld's aura field, and you have received its response."
+		""
+		"Next, try collecting aura from the Overworld with a Bottle and Cork, and see what happens."
+	]
+	quest.424A36FF905942D5.title: "Bottled Sunlight"
+	quest.431A6B56EE43ADEE.quest_desc: [
+		"You have collected aura from the Overworld, together with the &l&nenvironmental information&r and &l&naspect information&r it carries."
+		""
+		"Now continue the expedition: set foot in the other dimensions, and answer the calls that come from them."
+		""
+		"&oNote: the quest line of this chapter revolves around the &#3EDCFFwater&r&o of the Overworld only. Another chapter, &l\"Dimensions, Aspects, and This World\"&r&o, collects the related content of every primary aspect.&r"
+	]
+	quest.431A6B56EE43ADEE.title: "The Six Primary Aspects"
+	quest.4363AE8363EC43A6.quest_desc: ["Some recipes can only be made on a Mechanical Crafter; a crafting table cannot handle them."]
+	quest.4363AE8363EC43A6.title: "Mechanical Crafter"
+	quest.46B818618F767629.quest_desc: [
+		"The Ashen Sapling is an excellent carrier of aura, and an important tree for performing forest rituals of every kind."
+		""
+		"Ashen Saplings can be dug up by a Sniffer, or made with a forest ritual."
+	]
+	quest.46B818618F767629.title: "Ashen Sapling"
+	quest.477C7D68B338367C.quest_desc: [
+		"Andesite Alloy is made from andesite and an Iron Ingot or a Zinc Ingot on a Cutting Board. It is lighter than iron, yet it carries rotation steadily."
+		""
+		"&o&7You put together your first Andesite Alloy.&r"
+	]
 	quest.477C7D68B338367C.title: "Andesite Alloy"
 	quest.481ECA1B87829938.title: "Crude Blast Furnace"
 	quest.48407C982D11D8DC.quest_desc: [
-		"A magical essence is not simply concentrated mana. It is the stable expression obtained after the Imbuement Chamber parses the six primary aspects. They let rules that could once only be observed inside a particular dimension be carried, stored and combined for the first time."
-		"{@pagebreak}"
-		"The Water Essence records flow, containment and continuation; the Fire Essence records release, transformation and burning; the Earth Essence records deposition, boundary and growth; the Air Essence records change, propagation and freedom; the Chaos Essence records possibility not yet fixed and relations forever collapsing; and the Order Essence records structure, repetition, and the rules that hold all things together."
-		"{@pagebreak}"
-		"To master essence means you are no longer merely collecting the materials the world leaves behind — you can begin to describe new things using its basic grammar."
+		"Corundum is an excellent magical material: it can absorb environmental information."
+		""
+		"Place corundum on a pedestal and use source as the driving force. The environmental information in the items around it is caught by the corundum, and the environmental information inside aspect crystals is absorbed as well; only the &l&npure aspect information&r is left, and once it is injected into an aspect crystal you obtain essence."
 	]
-	quest.48407C982D11D8DC.title: "Magical Essence"
+	quest.48407C982D11D8DC.title: "Essence"
+	quest.485146C723E79D3B.quest_desc: [
+		"The Deployer is a perfect copy of your own block-hands: it can imitate the interactions you perform."
+		""
+		"Set it a program, and it will repeat it over and over."
+	]
+	quest.485146C723E79D3B.title: "Deployer"
+	quest.4A540375BBDC6D05.quest_desc: [
+		"To obtain casings of every kind, you first need to grow Ancient Trees."
+		""
+		"A casing's frame cannot be just any block of wood: it has to hold its shape inside aura for a long time, and only the Ancient Tree can do that."
+	]
+	quest.4A540375BBDC6D05.title: "Andesite Casing"
+	quest.4B699022B1FD8A00.quest_desc: [
+		"It seems you have noticed something strange about the amethyst shard."
+		""
+		"Under the influence of the change, amethyst shards &l&nresonate&r&r with the aspects in the aura field."
+		""
+		"Follow where the shard leads and seek out a &l&nresponse object&r&r. Let the amethyst touch an aspect that has spilled over, and you may well get what you are after."
+	]
 	quest.4E8041B1FBD6669F.title: "Visit the End"
-	quest.4F1594D45E71BD67.quest_desc: [
-		"A token records the response life leaves behind when it faces the world. It is not an emotion stuffed into a container, but a stable inclination condensed after a dimension's aura, its primary aspects and its local living environment shape one another."
-		"{@pagebreak}"
-		"The flow of water becomes sorrow, the release of fire becomes anger, the boundary of earth becomes fear, the freedom of air becomes joy; possibility left unfixed sinks into confusion, and the rules that hold all things together settle into serenity."
-		"{@pagebreak}"
-		"To collect these tokens is to begin to understand: the world is made not only of ore, energy and spells, but also of the response every environment and every living thing gives to the aspects. They will become irreplaceable media in later rituals and crafts."
-	]
+	quest.4F1594D45E71BD67.quest_desc: ["The aspect information and environmental information held in the materials are imbued into an Ashen Sapling together. The forest ritual records the emotion that life leaves behind when it faces the world, and gives it form as a wooden statue — a token."]
 	quest.4F1594D45E71BD67.title: "Tokens"
+	quest.54946257C2AB9DCF.quest_desc: [
+		"To make use of aspect crystals, you need to prepare a few things first."
+		""
+		"Gold is an excellent conductor: it can guide the flow of aspects, and in a forest ritual it serves as the medium between people and nature. Your first step is to turn it into Brilliant Fiber and put that to use."
+		""
+		"Your first Brilliant Fiber comes from holding a Gold Ingot in your main hand and String in your off hand, then right-clicking a hedge in the Twilight Forest. The drop rate is rather low, and the thorns will hurt you."
+	]
 	quest.54946257C2AB9DCF.title: "Brilliant Fiber"
+	quest.54CC0D96675F33E8.quest_desc: [
+		"To establish a connection with this world, you first need to gather Amethyst Shards."
+		""
+		"Perhaps a Dowsing Rod would help you find an amethyst geode."
+	]
+	quest.54CC0D96675F33E8.title: "Amethyst Shard"
+	quest.57E4DA3C7780AAAD.quest_desc: ["The Alloy Kiln melts two materials together to make certain alloys."]
 	quest.57E4DA3C7780AAAD.title: "Alloy Kiln"
 	quest.5971AA7E8234AA79.title: "Pressure Chamber"
 	quest.5AA560228973D274.quest_desc: [
@@ -197,43 +372,133 @@
 	]
 	quest.5AA560228973D274.title: "Reshaping Applied Energistics"
 	quest.5E4647B964AD82A1.quest_desc: [
-		"The Natural Altar can gather the aura of one stretch of land, but to cross the borders of worlds, the natural power of a single dimension is nowhere near enough."
-		"Mutagen is the sediment of all origins on the material plane; it can carry and reconcile the forces that conflict between dimensions."
-		"{@pagebreak}"
-		"When the echoes of six worlds meet in the altar, the power of nature will no longer be confined to one patch of ground, but will become the root that runs through all realms and gives rise to every living thing."
+		"The Natural Altar is crafted in the Enchanting Apparatus from six kinds of tokens — life's six responses to the world."
+		""
+		"It gathers the aura of a stretch of land and imbues it into items. The power of nature will no longer be confined to one patch of ground, but will become the root that runs through all realms and gives rise to every living thing."
 	]
+	quest.5E4647B964AD82A1.title: "Natural Altar"
+	quest.60362BA2A41B4033.quest_desc: [
+		"&oBefore we begin, let us take a look at the world you live in.&r"
+		""
+		"&oThis world is made of six great dimensions. Each of the six is rich in one &l&nprimary aspect&r&o — the &#3EDCFFwater&r&o running through the Overworld, the &#FF5A01fire&r&o burning in the Nether, the &#56C000earth&r&o sleeping beneath the Twilight Forest, the &#FFFF7Eair&r&o echoing across the Aether, the &#626262chaos&r&o unordered in the End, and the &#D8D7F0order&r&o constant in Eternal Starlight.&r"
+		"{@pagebreak}"
+		"&oThese aspects &l&nhave no physical form&r&o; they simply fill the &l&naura field&r&o of their own dimension, quietly and steadily.&r"
+		""
+		"&oDimensions do not connect with or affect one another. Portals between them do exist, but that connection is far too unstable — it can barely carry items through.&r"
+		""
+		"&oThe six primary aspects write the six dimensions, each in its own posture, reaching through heaven and earth and making up every part of this world.&r"
+	]
+	quest.6256F04D11B48E39.quest_desc: [
+		"The Mechanical Press presses metal ingots into sheets."
+		""
+		"Sheets are the intermediate form of many machine parts."
+		""
+		"Note that it cannot handle Steel Ingots; you will need another way."
+	]
+	quest.6256F04D11B48E39.title: "Mechanical Press"
+	quest.636F2AFB3BF2AC31.quest_desc: [
+		"The Enchanting Apparatus is crafted from six kinds of essence in a forest ritual."
+		""
+		"It combines the materials on the pedestals with the item at its center — a bridge that connects all things: magic and technology, source and aura, living things and the world."
+		""
+		"&o&mIt is basically a forest ritual with more particle effects (?)&r&r"
+	]
+	quest.636F2AFB3BF2AC31.title: "Enchanting Apparatus"
 	quest.64DDBFEA863697E9.title: "Metal Press"
+	quest.6951B60D890910D1.quest_desc: ["Aura can be produced in many different ways and released into the aura field."]
 	quest.6951B60D890910D1.title: "Aura Generation"
 	quest.6BA679217AD6DBB8.title: "Coke Oven"
+	quest.6CDE0F370C954563.quest_desc: ["Right-click leaves with Brilliant Fiber to turn them into Golden Leaves. Golden Leaves spread to the leaves around them; harvest them after a while and you will have Gold Leaf in quantity."]
+	quest.6CDE0F370C954563.title: "Gold Leaf"
 	quest.6D0337DB8C14104E.quest_desc: [
-		"In the world of Essence Odyssey, each of the six great dimensions is rich in one aspect: the Overworld in water, the Nether in fire, the Twilight Forest in earth, the Aether in air, the End in chaos, and Eternal Starlight in order. These six aspects are called the primary aspects, and they are the foundation of this world."
+		"This is just an ordinary blocky world, and you are an ordinary person in it."
+		""
+		"You thought life would go on as ordinary as ever — until, from some day you cannot pin down, the world quietly became different."
+		""
+		"You cannot say how it is different, but you found a notebook: the quest book in your hands."
 		"{@pagebreak}"
-		"Combining those primary aspects two by two yields a number of secondary aspects, which spread through heaven and earth and make up every part of this world."
-		"And you are about to set out on an expedition: to know, to explore, to connect and to interpret the origins of this world."
+		"&oNote: from here on, &rtext in regular type&o marks what the notebook records, while italic text is narration. &7Pale gray text&r&o usually describes what the player did or what happened in the story.&r"
+		""
+		"&oWhen a piece of this modpack's worldbuilding appears for the first time, it is marked in &l&nbold and underlined&r&o, or with &l\"…\"&r&o.&r"
+		""
+		"&oGear-shaped quests are key nodes; rounded-square quests are optional or hidden quests.&r"
 	]
-	quest.6D0337DB8C14104E.title: "Coming to Know This World"
+	quest.6D0337DB8C14104E.title: "Introduction"
 	quest.6D1E3B2DB0CF6EB6.title: "Visit Eternal Starlight"
+	quest.6E879124E9249E36.quest_desc: [
+		"The Rolling Mill rolls metal further into rods and wires."
+		""
+		"Note that it cannot handle Steel Ingots either."
+	]
+	quest.6E879124E9249E36.title: "Rolling Mill"
 	quest.704148E137D62A82.quest_desc: [
 		"The outer layer of the Mysterious Cube is not ordinary meteor rock, but a sealed protective structure. Stable capacitors and controlled machining can strip away its useless shell step by step while preserving the circuitry inside that has not yet been destroyed."
 		"This mainboard still cannot read any information, but it has provided the first operable interface for the deciphering to come."
 	]
 	quest.72207EFC62718B7D.title: "Refinery"
+	quest.72B021AA3E3944F3.quest_desc: ["Ancient Leaves hold a rich store of aura, releasing it slowly to top up the aura field around them whenever its concentration drops."]
+	quest.72B021AA3E3944F3.title: "Ancient Sapling"
 	quest.75FB247B07C3BF7B.title: "Crusher"
 	quest.77CCF6E3CA3E9F38.title: "In Case You Can't Beat the Gatekeeper (and/or) the Ender Dragon"
 	quest.796BB04761A96F35.title: "Arc Furnace"
+	quest.7BF7847A3ED73423.quest_desc: [
+		"&o&7Following what the notebook describes, you tip several things into the Basin. When it cools, you are holding something you cannot put a name to.&r"
+		""
+		"&oIt is neither ore nor a finished product, and it gives off a faint yellow shimmer. The notebook does not say what it is; it only says what to do next:&r"
+		""
+		"Throw it in with a diamond chest, and set off an &lexplosion&r. Then come the blocks of raw iron and raw copper."
+	]
+	quest.7BF7847A3ED73423.title: "Unknown Mixture"
+	quest.7C97F7759738AEA5.quest_desc: [
+		"On this expedition, technology, magic and adventure were never three separate roads."
+		""
+		"Explore the world, and gather the traces the six great dimensions left behind;"
+		"Use magic to turn those traces into materials you can work with;"
+		"Develop technology, and build production lines that turn out every kind of material at scale."
+	]
+	quest.7CA4F20BED9F78F7.quest_desc: [
+		"A meteor once crossed this night sky. Out there, at the edge of the world, something fell."
+		""
+		"It is not a thing of this world. It was hot as it fell, and moments later it was harder than anything around it. Its outer layer burned black."
+		""
+		"&lGo and find one.&r"
+		""
+		"&oSince it does not belong here, perhaps something can point out where it landed.&r"
+	]
+	quest.7D30D0CD5F0F151E.quest_desc: [
+		"&oYou do not know why it all changed, but you want to know why.&r"
+		""
+		"&oFollowing the notebook's guidance, you set out on an expedition called &l\"Seeking the Origin of This World\"&r&o.&r"
+		""
+		"&oAnd so the story begins here.&r"
+	]
+	quest.7D30D0CD5F0F151E.title: "Seeking the Origin of This World"
 	reward_table.23FDF0DD49F0C68C.title: "Animal Hats"
 	task.079409CB98664CBD.title: "A New Beginning"
+	task.08F0431A709F7E4D.title: "The Six Primary Aspects"
+	task.17650FBCBA1450E9.title: "Expedition"
+	task.2305198079015D3A.title: "Find a Meteor"
+	task.24FE31B570989116.title: "The Change"
 	task.26F5A19DA793B3CA.title: "About Max Health"
 	task.2C0E687C81089841.title: "Aura Production"
+	task.30303ED505A60181.title: "Introduction"
+	task.38AE5723BB37D6C0.title: "Technology, Magic and Adventure"
+	task.3CB8637FDDD6572D.title: "Answering the World"
+	task.3E0363DC50992287.title: "Something from Beyond"
 	task.3E4FC7B25118CFC6.title: "Observe: Industrial Squeezer"
+	task.4C19EFA8BF153159.title: "Getting to Know This World"
 	task.4E664F0AFCBB4293.title: "The Beginning"
 	task.4FF759267D5261E9.title: "Sourcelink"
+	task.522CD557B868AC9D.title: "Unknown Mixture"
 	task.5E4A7D672CE7EB31.title: "Observe: Bottling Machine"
 	task.602D6817A35C870F.title: "Observe: Refinery"
+	task.61D450BF8318F2E6.title: "An Unsolved Mystery"
 	task.61DE08540FEA7353.title: "Observe: Arc Furnace"
 	task.6634D131AE9072E3.title: "Observe: Industrial Fermenter"
 	task.6E927BFCDAC25C8F.title: "Observe: Metal Press"
 	task.7008DF5E949ABB24.title: "Observe: Crusher"
+	task.71C8B83C37C6DF3B.title: "Strange \"Dreams\""
 	task.73B7DE094D9C8EE8.title: "AE2"
 	task.75BFDE05DC02A082.title: "Starting Kit"
+	task.75C08446667D55EF.title: "Spool"
 }

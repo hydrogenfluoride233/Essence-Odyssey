@@ -91,6 +91,7 @@
 				}
 			]
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "75BFDE05DC02A082"
 				type: "checkmark"
@@ -118,7 +119,7 @@
 				id: "26F5A19DA793B3CA"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -134,7 +135,7 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["01E75843E7AA2555"]
@@ -186,6 +187,7 @@
 			}
 			id: "7D30D0CD5F0F151E"
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "17650FBCBA1450E9"
 				type: "checkmark"

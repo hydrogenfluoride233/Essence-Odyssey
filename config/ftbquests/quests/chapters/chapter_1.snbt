@@ -374,6 +374,7 @@
 				"5E4647B964AD82A1"
 				"236B9D3A654D936D"
 			]
+			hide_until_deps_complete: true
 			id: "2E5D92132F9FA3DC"
 			tasks: [{
 				id: "0D96B993EC6ED6BE"
@@ -430,6 +431,7 @@
 			}
 			id: "18DEB55F4DEDB7A3"
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "4E664F0AFCBB4293"
 				type: "checkmark"
@@ -438,17 +440,22 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2E5D92132F9FA3DC"]
+			dependencies: [
+				"2E5D92132F9FA3DC"
+				"0AD91A5126496988"
+			]
+			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:crystal_terra"
 			}
 			id: "01789FF24DAB1731"
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "079409CB98664CBD"
 				type: "checkmark"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: 1.0d
 		}
 		{
@@ -610,10 +617,12 @@
 		}
 		{
 			dependencies: ["431A6B56EE43ADEE"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:writable_book"
 			}
 			id: "7C97F7759738AEA5"
+			size: 1.25d
 			tasks: [{
 				id: "38AE5723BB37D6C0"
 				type: "checkmark"
@@ -736,35 +745,38 @@
 		}
 		{
 			dependencies: ["3ADEEEDFEED6AFAA"]
+			hide_until_deps_complete: true
 			id: "7BF7847A3ED73423"
 			tasks: [{
 				id: "637EFFF0BAC3A32E"
 				item: { count: 1, id: "kubejs:unknown_mixture" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7CA4F20BED9F78F7"]
+			hide_until_deps_complete: true
 			icon: {
-				id: "ae2:sky_stone_block"
+				id: "ae2:mysterious_cube"
 			}
 			id: "0C963B7BCA20460B"
 			shape: "gear"
 			tasks: [{
 				icon: {
-					id: "ae2:sky_stone_block"
+					id: "ae2:mysterious_cube"
 				}
 				id: "2305198079015D3A"
 				structure: "ae2:meteorite"
 				type: "structure"
 			}]
-			x: -4.5d
+			x: -3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["0C963B7BCA20460B"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:writable_book"
 			}
@@ -773,7 +785,7 @@
 				id: "522CD557B868AC9D"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -795,7 +807,56 @@
 				id: "3E0363DC50992287"
 				type: "checkmark"
 			}]
-			x: -6.5d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BF7847A3ED73423"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "ae2:drive"
+			}
+			id: "177F832B5872D164"
+			rewards: [{
+				id: "318113BC33D3C783"
+				item: {
+					count: 1
+					id: "ae2:crystal_resonance_generator"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26489DD334BD98E6"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					id: "093E1B95FA7108DD"
+					item: { count: 1, id: "ae2:item_storage_cell_1k" }
+					type: "item"
+				}
+				{
+					id: "4EB8192E5755F53F"
+					item: { count: 1, id: "ae2:fluid_storage_cell_1k" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["177F832B5872D164"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "0AD91A5126496988"
+			tasks: [{
+				id: "61D450BF8318F2E6"
+				type: "checkmark"
+			}]
+			x: 6.5d
 			y: 1.0d
 		}
 	]
