@@ -323,4 +323,32 @@ ServerEvents.recipes(event => {
             item_in:item,
             post:action
         }))
+
+    //神秘方块
+    event.custom({
+        type:"lychee:block_interacting",
+        item_in:"kubejs:unknown_mixture",
+        block_in:"ae2:mysterious_cube",
+        hide_in_viewer:true,
+        post:
+        [
+            "drop ae2:mysterious_cube",
+            "place minecraft:air",
+            {
+                type:"execute",
+                command:"playsound minecraft:block.beacon.power_select block @a ~ ~ ~ 0.6 1.2",
+                hide:true
+            },
+            {
+                type:"execute",
+                command:"particle minecraft:end_rod ~ ~1 ~ 0.3 0.3 0.3 0.05 20",
+                hide:true
+            },
+            {
+                type:"execute",
+                command:"particle minecraft:electric_spark ~ ~0.5 ~ 0.2 0.2 0.2 0.02 15",
+                hide:true
+            }
+        ]
+    })
 })
