@@ -14,7 +14,7 @@
 |---|---|---|
 | `kubejs/assets/{accessories, apothic_attributes, apothic_enchanting, buildinggadgets2, ftbchunks, ftbfiltersystem, ftblibrary, ftbquests, ftbteams, ftbultimine, functionalstorage, justdirethings, naturesaura, neovitae, pylons, rechiseled, rechiseledcreate}/lang/zh_cn.json` | 星野夢華 (Hoshino Yumeka)《All the Mods 10 汉化补丁 —— 绿油油版》<https://github.com/chiba233/atm10-zh-cn>；该作品译文部分亦含 **CFPA 社区翻译**（Minecraft-Mod-Language-Package）的成分 | **CC BY-NC-SA 4.0**（署名—非商业性使用—相同方式共享） |
 
-- 2026-09-26 逐键比对复核（上游 `main` @ `a7c75a8`）：上列 17 个文件与上游逐字相同或高度重合——其中 10 个字节完全一致（buildinggadgets2、ftbchunks、ftbfiltersystem、ftblibrary、ftbultimine、functionalstorage、justdirethings、naturesaura、pylons、rechiseledcreate），`rechiseled` 3655/3656 键一致（仅 `rechiseled.tooltip.connecting` 改写），`neovitae` 112/116，其余为键集合一致、仅缩进或空白差异。比对明细见 `docs\脚本与手册\汉化来源比对.md`。
+- 2026-09-26 逐键比对复核（上游 `main` @ `a7c75a8`）：上列 17 个文件与上游逐字相同或高度重合——其中 10 个字节完全一致（buildinggadgets2、ftbchunks、ftbfiltersystem、ftblibrary、ftbultimine、functionalstorage、justdirethings、naturesaura、pylons、rechiseledcreate），`rechiseled` 3655/3656 键一致（仅 `rechiseled.tooltip.connecting` 改写），`neovitae` 112/116，其余为键集合一致、仅缩进或空白差异。比对明细见 `docs\脚本\汉化来源比对.md`。
 - 未列入上表的其余语言文件：或上游无对应文件（`deep_aether`、`jeimultiblocks`、`mbd2`、`rechiseledae2`、`sanguine_networks` 等），或仅有极少共同键（`ae2`、`hostilenetworks`、`kubejs`、`occultism` 的 `zh_cn` 属本整合包自定义键的少量覆盖），或部分重合（`modularrouters` 139/369）。上游不含 `en_us`，本仓库各 `en_us.json` 均无对应来源。
 - 按 CC BY-NC-SA 4.0 的要求，使用这些文件时需：**署名原作者与 CFPA、附协议链接、标明是否修改**，并以相同协议发布改编版。
 
