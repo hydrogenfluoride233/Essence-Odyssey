@@ -79,6 +79,11 @@
 		""
 		"&oYet they work. The notebook does not explain.&r"
 	]
+	quest.0B5E4ACB7E34CCC5.quest_desc: [
+		"In most cases, aura-generating devices cannot push the amount of aura in an area past a certain value. The Creational Catalyst removes that limit with ease — you only need to place it under an aura-generating device."
+		""
+		"But to make one, you first have to drain most of the aura out of an area, enough to collect a Bottled Vacuum."
+	]
 	quest.0C963B7BCA20460B.quest_desc: [
 		"&o&7The compass brings you to a crater.&r"
 		""
@@ -405,7 +410,13 @@
 	]
 	quest.636F2AFB3BF2AC31.title: "Enchanting Apparatus"
 	quest.64DDBFEA863697E9.title: "Metal Press"
-	quest.6951B60D890910D1.quest_desc: ["Aura can be produced in many different ways and released into the aura field."]
+	quest.6951B60D890910D1.quest_desc: [
+		"Aura in the aura field does not come back on its own once it has been drawn out."
+		""
+		"But do not worry — this is not a problem. You can produce aura in several different ways."
+		""
+		"The one thing to keep in mind is this: by default, there is a limit to how much aura a single area can hold."
+	]
 	quest.6951B60D890910D1.title: "Aura Generation"
 	quest.6BA679217AD6DBB8.title: "Coke Oven"
 	quest.6CDE0F370C954563.quest_desc: ["Right-click leaves with Brilliant Fiber to turn them into Golden Leaves. Golden Leaves spread to the leaves around them; harvest them after a while and you will have Gold Leaf in quantity."]

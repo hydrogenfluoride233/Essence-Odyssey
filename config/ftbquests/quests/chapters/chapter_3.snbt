@@ -74,16 +74,6 @@
 			y: 1.0d
 		}
 		{
-			id: "0B5E4ACB7E34CCC5"
-			tasks: [{
-				id: "4EE56DE164B3A8F7"
-				item: { count: 1, id: "naturesaura:generator_limit_remover" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
 			id: "258F3BBF92677C79"
 			tasks: [{
 				id: "395F35BEC9189521"
@@ -111,7 +101,7 @@
 				item: { count: 1, id: "naturesaura:offering_table" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -129,6 +119,16 @@
 			tasks: [{
 				id: "5630D98633D5608F"
 				item: { count: 1, id: "occultism:fragile_soul_gem" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "7116F643452751A8"
+			tasks: [{
+				id: "491BE9530297F940"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
 				type: "item"
 			}]
 			x: 3.0d

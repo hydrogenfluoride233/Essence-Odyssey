@@ -859,5 +859,16 @@
 			x: 6.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["6951B60D890910D1"]
+			id: "0B5E4ACB7E34CCC5"
+			tasks: [{
+				id: "4EE56DE164B3A8F7"
+				item: { count: 1, id: "naturesaura:generator_limit_remover" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
 	]
 }
