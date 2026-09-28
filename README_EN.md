@@ -6,7 +6,7 @@
 
 </div>
 
-[![Version](https://img.shields.io/badge/version-0.2.2-blue.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
+[![Version](https://img.shields.io/badge/version-0.2.3-blue.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
 [![NeoForge](https://img.shields.io/badge/NeoForge-21.1-EA6E1E.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
 [![Download](https://img.shields.io/badge/CurseForge-download-F16436.svg?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
@@ -58,7 +58,7 @@ Technology, magic, and adventure run in parallel and interweave, rather than sta
 
 ## Screenshots
 
-> TODO: quest book / aspect crystals / industrial imbuement chamber / AE production line
+> TODO
 
 ## Getting Started
 
