@@ -102,9 +102,9 @@
 		""
 		"&lYou found me.&r"
 		""
-		"You have probably noticed by now that the world has changed — let us call it &l\"the change\"&r."
+		"You have probably noticed by now that the world has changed — let us call it &l\"The Change\"&r."
 		""
-		"The cause of the change is unknown, but its main effects are these:"
+		"Its cause is unknown, but its main effects are these:"
 		"{@pagebreak}"
 		"(1) The passages between the six isolated dimensions have been opened completely. Portals that could once exchange only items now &n&lallow living things to cross&r into the dimension on the other side."
 		""
@@ -131,7 +131,13 @@
 	]
 	quest.163B8AE539C58E2B.quest_desc: ["So it is not a singularity after all..."]
 	quest.163B8AE539C58E2B.title: "Well, It Works"
-	quest.1655971899AF0256.quest_desc: ["Different sourcelinks produce source in different ways."]
+	quest.1655971899AF0256.quest_desc: [
+		"Source is the driving force behind devices and rituals — much of your work depends on it."
+		""
+		"An Imbuement Chamber can still gather source from its surroundings by itself, but if you feed it source that is already at hand, its crafting becomes much faster."
+		""
+		"There are many different ways to obtain source — you can collect it with the various Sourcelinks. Perhaps there are other methods?"
+	]
 	quest.1655971899AF0256.title: "Source Production"
 	quest.177F832B5872D164.quest_desc: [
 		"&o&7You retreat to a safe distance and light the fuse.&r"
@@ -333,15 +339,15 @@
 	]
 	quest.485146C723E79D3B.title: "Deployer"
 	quest.4A540375BBDC6D05.quest_desc: [
-		"To obtain casings of every kind, you first need to grow Ancient Trees."
+		"To obtain casings of every kind, you first need to grow Ashen Trees."
 		""
-		"A casing's frame cannot be just any block of wood: it has to hold its shape inside aura for a long time, and only the Ancient Tree can do that."
+		"A casing's frame cannot be just any block of wood: it has to hold its shape inside aura for a long time, and only the Ashen Tree can do that."
 	]
 	quest.4A540375BBDC6D05.title: "Andesite Casing"
 	quest.4B699022B1FD8A00.quest_desc: [
 		"It seems you have noticed something strange about the amethyst shard."
 		""
-		"Under the influence of the change, amethyst shards &l&nresonate&r&r with the aspects in the aura field."
+		"Under the influence of The Change, amethyst shards &l&nresonate&r&r with the aspects in the aura field."
 		""
 		"Follow where the shard leads and seek out a &l&nresponse object&r&r. Let the amethyst touch an aspect that has spilled over, and you may well get what you are after."
 	]
