@@ -1,26 +1,26 @@
 {
 	chapter.09BEF93D202C45FF.title: "After the End"
-	chapter.0BA7C5B351EC2475.subtitle: "Secondary Aspects, Connecting the World"
+	chapter.0BA7C5B351EC2475.subtitle: "Secondary Aspects, Linking the World"
 	chapter.0BA7C5B351EC2475.title: "Chapter 4"
 	chapter.17482BD4DB583890.title: "Before the Beginning"
-	chapter.18D6D677C375F38F.subtitle: "Six Primary Aspects, Writing the World"
+	chapter.18D6D677C375F38F.subtitle: "The Six Primary Aspects, Writing the World"
 	chapter.18D6D677C375F38F.title: "Chapter 1"
 	chapter.2005A8ABF505A870.title: "Nifty Gadgets"
-	chapter.20392DD40E1EED8C.subtitle: ["&kA stretch of garbled text&r"]
+	chapter.20392DD40E1EED8C.subtitle: "&kA stretch of garbled text&r"
 	chapter.20392DD40E1EED8C.title: "Chapter 7"
-	chapter.2E61D6C20298F803.subtitle: "Paired and Combined, Remaking the World"
+	chapter.2E61D6C20298F803.subtitle: "Pairing and Combining, Reshaping the World"
 	chapter.2E61D6C20298F803.title: "Chapter 5"
 	chapter.2FC62A29C3E61A5E.title: "Eternal Starlight"
-	chapter.35BD379C9EA94AEA.subtitle: "Blood Pacts and Star Guidance, Weaving the World"
+	chapter.35BD379C9EA94AEA.subtitle: "Blood Pact and Star Guidance, Weaving the World"
 	chapter.35BD379C9EA94AEA.title: "Chapter 3"
 	chapter.496B807D8BE0B3FE.title: "Twilight Forest"
 	chapter.5196E500B38ADA0E.title: "Unknown Technology"
 	chapter.569E4BE55E1C440F.title: "The Aether"
-	chapter.572A55A700B05B5A.subtitle: "Inscribed by a Fallen Star, Casting the World"
+	chapter.572A55A700B05B5A.subtitle: "Meteor Engraving, Forging the World"
 	chapter.572A55A700B05B5A.title: "Chapter 2"
 	chapter.69D614063602F65E.title: "Dimensions, Aspects, and This World"
 	chapter.7BE58E7C6030198B.title: "Resource Production"
-	chapter.7FE4693A264FF39A.subtitle: "The Stars Are Not the End"
+	chapter.7FE4693A264FF39A.subtitle: "Even the Stars Are Not the End"
 	chapter.7FE4693A264FF39A.title: "Chapter 6"
 	chapter_group.3F4D8FC0357D0EBB.title: "Additional Chapters"
 	chapter_group.5D4B0C6183F5C265.title: "Journeys of Exploration"
@@ -112,6 +112,7 @@
 	quest.08C5BA5D71D244AF.title: "Fire Essence"
 	quest.096875F870AB8F0B.title: "Industrial Squeezer"
 	quest.09A2129D419DDC49.quest_desc: ["&o&mRiver power, easy as that!&r"]
+	quest.09A2129D419DDC49.quest_subtitle: ["River Power"]
 	quest.09A2129D419DDC49.title: "Stress Production (2)"
 	quest.0AD91A5126496988.quest_desc: [
 		"&o&7You still cannot say what these things in your hands are. You only followed the notebook and did it once.&r"
@@ -168,6 +169,7 @@
 		"(4) &kThe primary aspects no longer exist in isolation; they can combine two by two to yield a number of &l&nsecondary aspects&r."
 		"&o&7There seems to be more, but for now you do not know what it means.&r"
 	]
+	quest.11F05068792402E5.quest_subtitle: ["The Change"]
 	quest.1307B2956D04D7A2.quest_desc: [
 		"The Deployer is more precise than a player's block-hands: it can carry out exact sequential assembly."
 		""
@@ -333,6 +335,7 @@
 	quest.37F411FC6258C723.quest_desc: ["Now you can see what lies on the other side of the glowstone gate."]
 	quest.37F411FC6258C723.title: "In Case You Can't Find Glowstone"
 	quest.380E92E17E92D38B.quest_desc: ["&o&mTake as much stress as you like (?).&r"]
+	quest.380E92E17E92D38B.quest_subtitle: ["The Steam Age"]
 	quest.380E92E17E92D38B.title: "Stress Production (3)"
 	quest.3811626F7A0570C2.quest_desc: [
 		"&oDrop the Earth Crystal into the Imbuement Chamber — the source will soak through it first.&r"
@@ -388,8 +391,7 @@
 		"{@pagebreak}"
 		"I do not want to torment players with nesting doll after nesting doll of complicated recipes, because I do not enjoy that myself. I only want to give players a modpack whose parts interlock, that has a sense of narrative, that tells a story. Or rather — as a player, or as an author, I am simply doing something that makes me happy. And if, along the way, I can hand you a modpack 'with traces left in it by someone', I will be more than satisfied."
 		"{@pagebreak}"
-		"Also, the text of this pack hides a few memes and homages; I will leave those for you to discover. If you find one of these easter eggs and it"
-		"makes you smile, that makes me happy too."
+		"Also, the text of this pack hides a few memes and homages; I will leave those for you to discover. If you find one of these easter eggs and it makes you smile, that makes me happy too."
 		""
 		"Also, if you want to discuss the worldbuilding with me in depth, or offer suggestions about the art, or simply get to know each other, you are welcome to contact me."
 		"{@pagebreak}"
@@ -401,6 +403,7 @@
 		""
 		"&o&mOr you could just stack up a lump of wool, if you like.&r"
 	]
+	quest.400F9EA8BED6E390.quest_subtitle: ["Windmill"]
 	quest.400F9EA8BED6E390.title: "Stress Production (1)"
 	quest.40501041AF4EBAA3.quest_desc: [
 		"The aura of the six dimensions follows different rules, and when they come near one another they usually only interfere. The Aura Diode splits them apart, corrects them, and guides them into a single stable observation line."
