@@ -11,7 +11,7 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
-		dependencies: ["17482BD4DB583890"]
+		dependencies: ["0258FA1C2F0406EA"]
 		hide_until_deps_complete: true
 		id: "0DFAA76C3EF9F0C3"
 		tasks: [{

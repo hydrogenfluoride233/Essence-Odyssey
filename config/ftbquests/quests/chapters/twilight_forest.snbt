@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["17482BD4DB583890"]
+			dependencies: ["217A0236C9312C68"]
 			hide_until_deps_complete: true
 			id: "2F074ADCF3BB9078"
 			tasks: [{
