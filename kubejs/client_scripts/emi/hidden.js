@@ -9,7 +9,7 @@ const KeptPots = [
     "botanypotstiers:mega_terracotta_hopper_botany_pot",
 ]
 
-RecipeViewerEvents.removeEntries("item", event => {
+RecipeViewerEvents.removeEntries("item",event=>{
         event.remove("immersiveengineering:potion_bucket")
 
     //灵魂瓶

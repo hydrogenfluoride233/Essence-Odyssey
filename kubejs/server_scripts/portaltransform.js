@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes(event=>{
     event.recipes.portaltransform.item_transform(
         "minecraft:amethyst_shard",
         "kubejs:crystal_perditio"

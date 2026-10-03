@@ -336,7 +336,7 @@ ServerEvents.generateData("after_mods",event=>{
     console.log(`[Occultism] 已生成 ${pentacles.length} 个自定义仪式！`)
 })
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(event=>{
     //符文祭坛
     const BasicRuneList = [
         ["aqua","minecraft:sugar_cane","minecraft:bone_meal","minecraft:fishing_rod","ars_nouveau:water_essence","1"],

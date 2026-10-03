@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes(event=>{
     const inDimension = dimension => ({
         type:"location",
         predicate:{dimension:dimension}

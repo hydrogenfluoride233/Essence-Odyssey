@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes(event=>{
     //石英硫母岩
     event.custom({
         type: "ars_nouveau:budding_conversion",
