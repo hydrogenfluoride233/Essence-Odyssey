@@ -82,7 +82,7 @@
 	 * Whether to use the batched render system. Batching is faster, but may have
 	 * incompatibilities with shaders or other mods.
 	 */
-	use-batched-renderer: true;
+	use-batched-renderer: false;
 
 	/**
 	 * Whether to have the search bar in the center of the screen, instead of to the
@@ -126,7 +126,7 @@
 	/**
 	 * The amount of vertical margin to give in the recipe screen.
 	 */
-	vertical-margin: 20;
+	vertical-margin: 0;
 
 	/**
 	 * Where to show workstations in the recipe screen
@@ -468,7 +468,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
 
 	/**
 	 * Whether to display additional widgets added to recipes from other mods.

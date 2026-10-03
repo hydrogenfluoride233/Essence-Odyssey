@@ -71,8 +71,8 @@
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
 	quantumArmorFailureChance = 0.1
-	#Percentage of the total durability the BeeBee will leave remaining on each piece of armor after dealing damage. Below 50% the armor will always break if not disabled. -1 to disable completely
-	# Default: 5
+	#Percentage of the total durability the BeeBee will leave remaining on each piece of armor after dealing damage. A piece already worn past that point is left alone. -1 to leave armor undamaged
+	# Default: -1
 	# Range: -1 ~ 100
 	beeBeeArmorDurabilityPercentageRemainder = 5
 

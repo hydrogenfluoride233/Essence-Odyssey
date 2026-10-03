@@ -148,7 +148,7 @@ ServerEvents.recipes(event=>{
                 "item":{"item":`kubejs:crystal_${ess}`}
             },
             "outputs":{
-                "fluid_output":{"amount":250,"id":`kubejs:${ess}_essence`}
+                "fluid_output":{"amount":250,"id":`kubejs:${ess}_fluid`}
             },
             "temperature":{"min":473},
             "pressure":2.0,
@@ -161,7 +161,7 @@ ServerEvents.recipes(event=>{
                 "item":{"item":`kubejs:block_${ess}`}
             },
             "outputs":{
-                "fluid_output":{"amount":1000,"id":`kubejs:${ess}_essence`}
+                "fluid_output":{"amount":1000,"id":`kubejs:${ess}_fluid`}
             },
             "temperature":{"min":573},
             "pressure":3.0,
@@ -170,13 +170,13 @@ ServerEvents.recipes(event=>{
         event.recipes.immersiveengineering.bottling_machine(
             TagOutputJS.ofItemStack(`kubejs:crystal_${ess}`),
             IngredientWithSizeJS.ofItemStack("minecraft:amethyst_shard"),
-            Fluid.of(`kubejs:${ess}_essence`,250)
+            Fluid.of(`kubejs:${ess}_fluid`,250)
         )//灌装机：液=>固
 
         event.recipes.immersiveengineering.bottling_machine(
             TagOutputJS.ofItemStack(`kubejs:block_${ess}`),
             IngredientWithSizeJS.ofItemStack("minecraft:amethyst_block"),
-            Fluid.of(`kubejs:${ess}_essence`,1000)
+            Fluid.of(`kubejs:${ess}_fluid`,1000)
         )//灌装机：液=>固
 
         event.custom({
@@ -212,24 +212,24 @@ ServerEvents.recipes(event=>{
 
     EssenceList.forEach(ess=>{
         event.recipes.mekanism.rotary(
-            `1x kubejs:${ess}_essence`,
-            `1x kubejs:${ess}_essence`,
-            `1x kubejs:${ess}_essence`,
-            `1x kubejs:${ess}_essence`
+            `1x kubejs:${ess}_chemical`,
+            `1x kubejs:${ess}_fluid`,
+            `1x kubejs:${ess}_chemical`,
+            `1x kubejs:${ess}_fluid`
         )//回旋机：气<=>液
 
         event.recipes.mekanism.crystallizing(
             `kubejs:crystal_${ess}`,
-            `250x kubejs:${ess}_essence`
+            `250x kubejs:${ess}_chemical`
         )//化学结晶器：气=>固
         
         event.recipes.mekanism.oxidizing(
-            `250x kubejs:${ess}_essence`,
+            `250x kubejs:${ess}_chemical`,
             `kubejs:crystal_${ess}`
         )//化学氧化机：固=>气
         
         event.recipes.mekanism.oxidizing(
-            `1000x kubejs:${ess}_essence`,
+            `1000x kubejs:${ess}_chemical`,
             `kubejs:block_${ess}`
         )//化学氧化机：固=>气
 
@@ -249,25 +249,25 @@ ServerEvents.recipes(event=>{
 
     SecondaryEssenceRecipes.forEach(([left,right,result])=>{
         event.recipes.mekanism.chemical_infusing(
-            `2x kubejs:${result}_essence`,
-            `1x kubejs:${left}_essence`,
-            `1x kubejs:${right}_essence`
+            `2x kubejs:${result}_chemical`,
+            `1x kubejs:${left}_chemical`,
+            `1x kubejs:${right}_chemical`
         )//化学灌注器
 
         event.custom({
             "type":"pneumaticcraft:fluid_mixer",
-            "fluid_output":{"amount":500,"id":`kubejs:${result}_essence`},
+            "fluid_output":{"amount":500,"id":`kubejs:${result}_fluid`},
             "item_output":{},
-            "input1":{"amount":250,"fluid":`kubejs:${left}_essence`},
-            "input2":{"amount":250,"fluid":`kubejs:${right}_essence`},
+            "input1":{"amount":250,"fluid":`kubejs:${left}_fluid`},
+            "input2":{"amount":250,"fluid":`kubejs:${right}_fluid`},
             "pressure":3,
             "time":100
         })//流体混合器
 
         event.recipes.mekanism.separating(
-            `1x kubejs:${left}_essence`,
-            `1x kubejs:${right}_essence`,
-            `2x kubejs:${result}_essence`
+            `1x kubejs:${left}_chemical`,
+            `1x kubejs:${right}_chemical`,
+            `2x kubejs:${result}_fluid`
         )//电解分离器
     })
 })

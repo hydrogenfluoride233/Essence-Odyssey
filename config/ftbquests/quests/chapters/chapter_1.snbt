@@ -496,6 +496,18 @@
 					item: { count: 1, id: "immersiveengineering:hammer" }
 					type: "item"
 				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4F45886C24B2B9F2"
+					item: { count: 1, id: "immersiveengineering:alloy_smelter" }
+					optional_task: true
+					type: "item"
+				}
 			]
 			x: 1.5d
 			y: 3.0d

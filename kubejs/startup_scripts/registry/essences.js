@@ -24,13 +24,13 @@
 
 StartupEvents.registry("mekanism:chemical",event=>{
     EssenceList.forEach(([essence,color])=>
-        event.create(`kubejs:${essence}_essence`).tint(color))
+        event.create(`kubejs:${essence}_chemical`).tint(color))
 })
 
 
 StartupEvents.registry("fluid",event=>{
     EssenceList.forEach(([essence,color])=>
-        event.create(`kubejs:${essence}_essence`,"kubejs:thin").tint(color))
+        event.create(`kubejs:${essence}_fluid`,"kubejs:thin").tint(color))
 })
 
 

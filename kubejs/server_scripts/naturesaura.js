@@ -512,9 +512,9 @@ ServerEvents.recipes(event=>{
                 "naturesaura:spring",
                 "starbunclemania:glyph_place_fluid",
                 "starbunclemania:glyph_pickup_fluid",
-                "kubejs:aqua_essence_bucket",
+                "kubejs:aqua_fluid_bucket",
                 "ars_nouveau:water_essence",
-                "kubejs:aqua_essence_bucket",
+                "kubejs:aqua_fluid_bucket",
                 "ars_nouveau:water_essence",
             ],
             "eternal_starlight:scarlet_sapling",100
@@ -525,9 +525,9 @@ ServerEvents.recipes(event=>{
             "justdirethings:gooblock_tier2",
             [
                 "justdirethings:gooblock_tier1",
-                "kubejs:ignis_essence_bucket",
-                "kubejs:ignis_essence_bucket",
-                "kubejs:ignis_essence_bucket",
+                "kubejs:ignis_fluid_bucket",
+                "kubejs:ignis_fluid_bucket",
+                "kubejs:ignis_fluid_bucket",
                 "minecraft:blaze_powder",
                 "minecraft:blaze_powder",
                 "minecraft:nether_wart",
@@ -541,12 +541,12 @@ ServerEvents.recipes(event=>{
             [
                 "#twilightforest:fiery_vial",
                 "naturesaura:nature_altar",
-                "kubejs:aqua_essence_bucket",
-                "kubejs:ignis_essence_bucket",
-                "kubejs:terra_essence_bucket",
-                "kubejs:aer_essence_bucket",
-                "kubejs:perditio_essence_bucket",
-                "kubejs:ordo_essence_bucket"
+                "kubejs:aqua_fluid_bucket",
+                "kubejs:ignis_fluid_bucket",
+                "kubejs:terra_fluid_bucket",
+                "kubejs:aer_fluid_bucket",
+                "kubejs:perditio_fluid_bucket",
+                "kubejs:ordo_fluid_bucket"
             ],
             "deep_aether:roseroot_sapling",200
         ],//命血祭坛
@@ -556,12 +556,12 @@ ServerEvents.recipes(event=>{
             [
                 "#twilightforest:fiery_vial",
                 "naturesaura:nature_altar",
-                "kubejs:aqua_essence_bucket",
-                "kubejs:ignis_essence_bucket",
-                "kubejs:terra_essence_bucket",
-                "kubejs:aer_essence_bucket",
-                "kubejs:perditio_essence_bucket",
-                "kubejs:ordo_essence_bucket"
+                "kubejs:aqua_fluid_bucket",
+                "kubejs:ignis_fluid_bucket",
+                "kubejs:terra_fluid_bucket",
+                "kubejs:aer_fluid_bucket",
+                "kubejs:perditio_fluid_bucket",
+                "kubejs:ordo_fluid_bucket"
             ],
             "deep_aether:blue_roseroot_sapling",200
         ],//命血祭坛

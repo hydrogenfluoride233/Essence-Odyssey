@@ -264,12 +264,26 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				count: 27L
-				id: "3FAA3B409A335158"
-				item: { count: 1, id: "immersiveengineering:blastbrick" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 27L
+					id: "3FAA3B409A335158"
+					item: { count: 1, id: "immersiveengineering:blastbrick" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4957F257EAD47780"
+					item: { count: 1, id: "immersiveengineering:blast_furnace" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 7.0d
 		}
@@ -290,18 +304,32 @@
 				id: "immersiveengineering:metal_press"
 			}
 			id: "64DDBFEA863697E9"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:metal_press"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:metal_press"
+					}
+					id: "6E927BFCDAC25C8F"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:metal_press"
+					type: "observation"
 				}
-				id: "6E927BFCDAC25C8F"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:metal_press"
-				type: "observation"
-			}]
-			x: 3.5d
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7364963D50029ACA"
+					item: { count: 1, id: "immersiveengineering:metal_press" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
 			y: 7.0d
 		}
 		{
@@ -378,51 +406,99 @@
 				id: "immersiveengineering:fermenter"
 			}
 			id: "22BBDE618BB134FE"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:fermenter"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:fermenter"
+					}
+					id: "6634D131AE9072E3"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:fermenter"
+					type: "observation"
 				}
-				id: "6634D131AE9072E3"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:fermenter"
-				type: "observation"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "79A3CE6CA5DB4E9A"
+					item: { count: 1, id: "immersiveengineering:fermenter" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["22BBDE618BB134FE"]
+			icon: {
+				id: "immersiveengineering:refinery"
+			}
 			id: "2CC22C2203005BFF"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:refinery"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:refinery"
+					}
+					id: "602D6817A35C870F"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:refinery"
+					type: "observation"
 				}
-				id: "602D6817A35C870F"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:refinery"
-				type: "observation"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5140F85B109430DF"
+					item: { count: 1, id: "immersiveengineering:refinery" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["2CC22C2203005BFF"]
+			icon: {
+				id: "immersiveengineering:bottling_machine"
+			}
 			id: "1A72CFCDBF3ABF73"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:bottling_machine"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:bottling_machine"
+					}
+					id: "5E4A7D672CE7EB31"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:bottling_machine"
+					type: "observation"
 				}
-				id: "5E4A7D672CE7EB31"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:bottling_machine"
-				type: "observation"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "3E5813B97646AAA7"
+					item: { count: 1, id: "immersiveengineering:bottling_machine" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 8.0d
 		}
@@ -441,8 +517,8 @@
 			dependencies: ["2B008EB17CABF755"]
 			id: "2740A375D6EBCB05"
 			tasks: [{
-				id: "4A99ED513A812214"
-				item: { count: 1, id: "kubejs:aer_essence_bucket" }
+				id: "397EE4B2D30C65D0"
+				item: { count: 1, id: "kubejs:aer_fluid_bucket" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -450,35 +526,69 @@
 		}
 		{
 			dependencies: ["64DDBFEA863697E9"]
+			icon: {
+				id: "immersiveengineering:crusher"
+			}
 			id: "75FB247B07C3BF7B"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:crusher"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:crusher"
+					}
+					id: "7008DF5E949ABB24"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:crusher"
+					type: "observation"
 				}
-				id: "7008DF5E949ABB24"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:crusher"
-				type: "observation"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "28F99E7393821F8D"
+					item: { count: 1, id: "immersiveengineering:crusher" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["75FB247B07C3BF7B"]
+			icon: {
+				id: "immersiveengineering:squeezer"
+			}
 			id: "096875F870AB8F0B"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:squeezer"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:squeezer"
+					}
+					id: "3E4FC7B25118CFC6"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:squeezer"
+					type: "observation"
 				}
-				id: "3E4FC7B25118CFC6"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:squeezer"
-				type: "observation"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "34B7BAC412F11B4E"
+					item: { count: 1, id: "immersiveengineering:squeezer" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 6.0d
 		}
@@ -544,6 +654,18 @@
 					timer: 0L
 					to_observe: "immersiveengineering:arc_furnance"
 					type: "observation"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "42FC38BAB37B938E"
+					item: { count: 1, id: "immersiveengineering:arc_furnace" }
+					optional_task: true
+					type: "item"
 				}
 			]
 			x: 11.5d
@@ -623,8 +745,51 @@
 				item: { count: 1, id: "immersiveengineering:plate_steel" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 7.0d
+		}
+		{
+			icon: {
+				id: "immersiveengineering:mixer"
+			}
+			id: "0EAD190E24BC4DAD"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:mixer"
+					}
+					id: "65587729DFF5CEC4"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:mixer"
+					type: "observation"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2AEC8E8240A9E4C3"
+					item: { count: 1, id: "immersiveengineering:mixer" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "5EDF156392CA0C8F"
+			tasks: [{
+				id: "179E12E8569AEC46"
+				item: { count: 1, id: "immersiveengineering:redstone_acid_bucket" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
 		}
 	]
 }

@@ -217,7 +217,7 @@ ServerEvents.recipes(event=>{
         [
             "actuallyadditions:advanced_coil",
             "actuallyadditions:basic_coil",
-            {fluid:"kubejs:ordo_essence", amount:500},
+            {fluid:"kubejs:ordo_fluid", amount:500},
             473
         ],//高级线圈
     ]

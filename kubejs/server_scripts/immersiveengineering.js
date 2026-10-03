@@ -17,6 +17,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:/^immersiveengineering:crafting\/wire_/})
     event.remove({id: /^immersiveengineering:crafting\/stick_(?!treated$)/})
     event.remove({id:/^create:cutting\/compat\/immersiveengineering\//})
+    event.remove({id:"immersiveengineering:crafting/redstone_acid"})                //红石酸
 
     //工作台配方
     event.replaceInput(
@@ -200,7 +201,7 @@ ServerEvents.recipes(event=>{
             [
                 "actuallyadditions:basic_coil"
             ],
-            "kubejs:ordo_essence",
+            "kubejs:ordo_fluid",
             500
         ],//高级线圈
     ]
