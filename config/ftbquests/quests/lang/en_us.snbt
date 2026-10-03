@@ -458,7 +458,7 @@
 	quest.48407C982D11D8DC.quest_desc: [
 		"Corundum is an excellent magical material: it can absorb environmental information."
 		""
-		"Place corundum on a pedestal and use source as the driving force. The environmental information in the items around it is caught by the corundum, and the environmental information inside aspect crystals is absorbed as well; only the &l&npure aspect information&r is left, and once it is injected into an aspect crystal you obtain essence."
+		"Place corundum on a pedestal and use source as the driving force. The environmental information in the items around it is caught by the corundum, and the environmental information inside aspect crystals is absorbed as well; only the &l&npure aspect information&r is left. The crystal is soaked through, taken apart, and rearranged — what condenses out is magical essence."
 	]
 	quest.48407C982D11D8DC.title: "Essence"
 	quest.485146C723E79D3B.quest_desc: [
