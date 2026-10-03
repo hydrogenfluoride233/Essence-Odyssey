@@ -24,7 +24,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"starbunclemania:source_condenser"})           //魔源凝聚器
     
     //灌注室
-    //格式:[输出,输入,魔源,基座材料]
+    //格式:[输入,输出,魔源,基座材料]
     const ImbuementList = [
         [
             "kubejs:crystal_aqua",
