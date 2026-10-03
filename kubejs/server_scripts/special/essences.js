@@ -203,7 +203,7 @@ ServerEvents.recipes(event=>{
         
         event.recipes.neovitae.ara_vitae_recipe(
             `${data.scribe}:${data.name}_scribe_tool`,
-            `kubejs:crystal_${ess}`,
+            `${data.imbuement}:${data.name}_essence`,
             2,10000,25,50
         )//铭文工具
     })
