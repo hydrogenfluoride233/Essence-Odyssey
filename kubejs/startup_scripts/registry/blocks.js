@@ -19,7 +19,6 @@ StartupEvents.registry("block",event=>{
         ["altar_1","pickaxe","stone","stone",3,3],
         ["altar_2","pickaxe","stone","stone",3,3],
         ["altar_3","pickaxe","stone","stone",3,3],
-        ["altar_nature","pickaxe","stone","stone",3,3],
         ["sky_stone_starmetal_ore","pickaxe","diamond","stone",5,5]
     ]
     block.forEach(([id,type,level,sound,hardness,resistance])=>

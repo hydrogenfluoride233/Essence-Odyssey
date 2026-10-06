@@ -643,50 +643,6 @@ ServerEvents.recipes(event=>{
 
     AltarList.forEach(([output,input,aura,time])=>{
         event.recipes.naturesaura.altar(output,input,aura,time)
-
-        const crystalCount = Math.min(12,Math.max(1,Math.ceil(aura / 7500)))
-
-        event.recipes.occultism.ritual(
-            output,
-            Array.from({length:crystalCount},()=>"kubejs:crystal_auram"),
-            input,
-            "occultism:ritual_nature",
-            30
-        ).ritualDummy("kubejs:ritual_nature")
-    })
-
-    //封装自然祭坛
-    event.forEachRecipe({type:"naturesaura:altar"},recipe=>{
-        const source = JSON.parse(recipe.json)
-        const output = source.output
-        const input = source.input
-        const aura = source.aura
-        if(!output || !input || !aura) return
-
-        let activationItem = input.items || input.item || (input.tag ? `#${input.tag}` : input)
-        const components = input.components || {}
-        if(input.items === "naturesaura:aura_bottle" && components["naturesaura:aura_bottle_data"]){
-            var auraType = components["naturesaura:aura_bottle_data"].aura_type
-            activationItem = `naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"${auraType}"}]`
-        }
-        if(input.items === "productivebees:spawn_egg_configurable_bee" && components["minecraft:entity_data"]){
-            var entityData = components["minecraft:entity_data"]
-            activationItem = `productivebees:spawn_egg_configurable_bee[entity_data={id:"${entityData.id}",type:"${entityData.type}"}]`
-        }
-
-        const crystalCount = Math.min(12,Math.max(1,Math.ceil(aura / 7500)))
-        const ingredients = Array.from(
-            {length:crystalCount},
-            ()=>"kubejs:crystal_auram"
-        )
-
-        event.recipes.occultism.ritual(
-            output,
-            ingredients,
-            activationItem,
-            "occultism:ritual_nature",
-            30
-        ).ritualDummy("kubejs:ritual_nature")
     })
 
     //祭祀台

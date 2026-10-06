@@ -82,7 +82,6 @@ ServerEvents.tags("block",event=>{
             "kubejs:altar_1",
             "kubejs:altar_2",
             "kubejs:altar_3",
-            "kubejs:altar_nature"
         ])
     })
 
@@ -109,7 +108,6 @@ ServerEvents.tags("item",event=>{
             "kubejs:altar_1",
             "kubejs:altar_2",
             "kubejs:altar_3",
-            "kubejs:altar_nature"
         ])
     })
 
@@ -277,40 +275,6 @@ ServerEvents.generateData("after_mods",event=>{
                 }
             ]
         },//封装森林仪式
-
-        {
-            name: "ritual_nature",
-            icon: "naturesaura:nature_altar",
-            mapping: {
-                "0": $.mid,
-                "1":{type:"modonomicon:block",block:"kubejs:altar_nature"},
-                "a":{type:"modonomicon:block",block:"mekanism:steel_casing"},
-                "b":{type:"modonomicon:block",block:"mekanism:structural_glass"},
-                "c":{type:"modonomicon:block",block:"create:brass_casing"},
-                "d":{type:"modonomicon:block",block:"minecraft:oak_planks"},
-                "e":{type:"modonomicon:block",block:"minecraft:stone_bricks"},
-                "f":{type:"modonomicon:block",block:"minecraft:chiseled_stone_bricks"},
-                "g":{type:"modonomicon:block",block:"naturesaura:gold_brick"},
-            },
-            pattern:[
-                ["ccccccccccc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","ccccccccccc"],
-                ["cbbbbbbbbbc","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","cbbbbbbbbbc"],
-                ["cbbbbbbbbbc","b____g____b","b_________b","b_________b","b_________b","bg_______gb","b_________b","b_________b","b_________b","b____g____b","cbbbbbbbbbc"],
-                ["cbbbbbbbbbc","b____e____b","b_________b","b_________b","b_________b","be___0___eb","b_________b","b_________b","b_________b","b____e____b","cbbbbbbbbbc"],
-                ["cbbbbbbbbbc","b____e____b","b_________b","b__g___g__b","b_________b","be___1___eb","b_________b","b__g___g__b","b_________b","b____e____b","cbbbbbbbbbc"],
-                ["ccccccccccc","caaaaaaaaac","caaadedaaac","caaadedaaac","caddfdfddac","caeedddeeac","caddfdfddac","caaadedaaac","caaadedaaac","caaaaaaaaac","ccccccccccc"]
-            ],
-            x_placement: -8,
-            y_placement: -8,
-            parents: [
-                {
-                    draw_arrow: false,
-                    entry: "pentacles/pentacle_overview",
-                    line_enabled: false,
-                    line_reversed: false
-                }
-            ]
-        },//封装自然祭坛
     ]
 
     pentacles.forEach((pentacle) => {
@@ -449,26 +413,5 @@ ServerEvents.recipes(event=>{
         "eternal_starlight:starcore_light",
         "occultism:ritual_astral_3",
         30
-    ).ritualDummy("kubejs:ritual_astral_3")
-
-    event.recipes.occultism.ritual(
-        "kubejs:altar_nature",
-        [
-            "kubejs:star_ingot",
-            "kubejs:star_ingot",
-            "kubejs:star_ingot",
-            "kubejs:star_ingot",
-            "naturesaura:conversion_catalyst",
-            "naturesaura:crushing_catalyst",
-            "naturesaura:generator_limit_remover",
-            "naturesaura:lower_limiter",
-            "naturesaura:infused_iron",
-            "naturesaura:tainted_gold",
-            "naturesaura:sky_ingot",
-            "naturesaura:depth_ingot"
-        ],
-        "naturesaura:nature_altar",
-        "occultism:ritual_astral_3",
-        300
     ).ritualDummy("kubejs:ritual_astral_3")
 })

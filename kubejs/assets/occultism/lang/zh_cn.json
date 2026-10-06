@@ -18,9 +18,5 @@
     "book.occultism.dictionary_of_spirits.pentacles.ritual_tree.name": "封装森林仪式",
     "book.occultism.dictionary_of_spirits.pentacles.ritual_tree.intro.title": "封装森林仪式",
     "book.occultism.dictionary_of_spirits.pentacles.ritual_tree.intro.text": "111",
-    "multiblock.occultism.ritual_tree": "封装森林仪式",
-    "book.occultism.dictionary_of_spirits.pentacles.ritual_nature.name": "封装自然祭坛",
-    "book.occultism.dictionary_of_spirits.pentacles.ritual_nature.intro.title": "封装自然祭坛",
-    "book.occultism.dictionary_of_spirits.pentacles.ritual_nature.intro.text": "111",
-    "multiblock.occultism.ritual_nature": "封装自然祭坛"
+    "multiblock.occultism.ritual_tree": "封装森林仪式"
 }

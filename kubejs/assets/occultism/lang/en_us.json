@@ -18,9 +18,5 @@
     "book.occultism.dictionary_of_spirits.pentacles.ritual_tree.name": "Packaged Forest Ritual",
     "book.occultism.dictionary_of_spirits.pentacles.ritual_tree.intro.title": "Packaged Forest Ritual",
     "book.occultism.dictionary_of_spirits.pentacles.ritual_tree.intro.text": "111",
-    "multiblock.occultism.ritual_tree": "Packaged Forest Ritual",
-    "book.occultism.dictionary_of_spirits.pentacles.ritual_nature.name": "Packaged Nature Altar",
-    "book.occultism.dictionary_of_spirits.pentacles.ritual_nature.intro.title": "Packaged Nature Altar",
-    "book.occultism.dictionary_of_spirits.pentacles.ritual_nature.intro.text": "111",
-    "multiblock.occultism.ritual_nature": "Packaged Nature Altar"
+    "multiblock.occultism.ritual_tree": "Packaged Forest Ritual"
 }
