@@ -12,7 +12,7 @@
         "victus"    ,//生命
         "tempestas" ,//气候
         "mortuus"   ,//死亡
-        "auram"     ,//灵气
+        "aestus"    ,//潮汐
         "fervor"    ,//熔岩
         "lux"       ,//光明
         "gelum"     ,//寒霜
@@ -102,7 +102,7 @@
         "victus"    ,//生命 = 水+地
         "tempestas" ,//气候 = 水+风
         "mortuus"   ,//死亡 = 水+混沌
-        "auram"     ,//灵气 = 水+秩序
+        "aestus"    ,//潮汐 = 水+秩序
         "fervor"    ,//熔岩 = 火+地
         "lux"       ,//光明 = 火+风
         "gelum"     ,//寒霜 = 火+混沌
@@ -121,7 +121,7 @@
         ["aqua"    ,"terra"   ,"victus"    ],
         ["aqua"    ,"aer"     ,"tempestas" ],
         ["aqua"    ,"perditio","mortuus"   ],
-        ["aqua"    ,"ordo"    ,"auram"     ],
+        ["aqua"    ,"ordo"    ,"aestus"    ],
         ["ignis"   ,"terra"   ,"fervor"    ],
         ["ignis"   ,"aer"     ,"lux"       ],
         ["ignis"   ,"perditio","gelum"     ],

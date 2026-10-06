@@ -40,9 +40,9 @@
     { "stacks": "item:kubejs:mortuus_fluid",        "text": "alias.kubejs.mortuus_fluid" },
     { "stacks": "item:kubejs:mortuus_fluid_bucket", "text": "alias.kubejs.mortuus_fluid_bucket" },
 
-    { "stacks": "fluid:kubejs:auram_fluid",       "text": "alias.kubejs.auram_fluid" },
-    { "stacks": "item:kubejs:auram_fluid",        "text": "alias.kubejs.auram_fluid" },
-    { "stacks": "item:kubejs:auram_fluid_bucket", "text": "alias.kubejs.auram_fluid_bucket" },
+    { "stacks": "fluid:kubejs:aestus_fluid",       "text": "alias.kubejs.aestus_fluid" },
+    { "stacks": "item:kubejs:aestus_fluid",        "text": "alias.kubejs.aestus_fluid" },
+    { "stacks": "item:kubejs:aestus_fluid_bucket", "text": "alias.kubejs.aestus_fluid_bucket" },
 
     { "stacks": "fluid:kubejs:fervor_fluid",       "text": "alias.kubejs.fervor_fluid" },
     { "stacks": "item:kubejs:fervor_fluid",        "text": "alias.kubejs.fervor_fluid" },
