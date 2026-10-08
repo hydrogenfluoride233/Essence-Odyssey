@@ -32,15 +32,5 @@
 			x: 4.0d
 			y: -1.5d
 		}
-		{
-			id: "72DA2AC07ABE7254"
-			tasks: [{
-				id: "3CF1A46B2F68F9B9"
-				item: { components: { "ftbquests:missing_item": "kubejs:altar_nature" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.5d
-		}
 	]
 }
