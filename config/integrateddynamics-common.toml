@@ -127,6 +127,12 @@
 		maxDirectionalConnectorOffset = 512
 		#The distance from which part offsets should be shown.
 		partOffsetRenderDistance = 16
+		#If encoded values may be decoded, by the Decode Value element of the Logic Programmer and by the Decode operator.
+		valueDecodingEnabled = true
+		#The maximum length of an uncompressed encoded value, both when encoding and when decoding.
+		valueEncodingMaxLength = 65536
+		#The maximum nesting depth of an encoded value, both when encoding and when decoding.
+		valueEncodingMaxDepth = 512
 
 	[machine.coal_generator]
 		#The energy production rate (in RF/t) of the coal generator.
