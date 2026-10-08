@@ -21,13 +21,13 @@ CurseForge page: <https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 ## Story
 
 <!-- INTRO:STORY:BEGIN -->
-You are an ordinary person in the world of Minecraft. One day, the world begins to respond to you — amethyst shards start reacting to something. You don't know why. But you want to know why. You follow that response and keep walking.
+You are an ordinary person in the world of Minecraft. One day you find a note — the world it describes is not quite the one you know: amethyst shards react to something, and the world seems to be responding. You don't know why. But you want to know why. You follow that note and keep walking.
 
-You walk through six dimensions and gather six primary aspects. You find a meteorite. Hidden inside it is a record that belongs to no civilization you know of. You decipher it, and learn to write the world with aspects.
+You walk through six dimensions and gather six primary aspects. You find a meteorite. Hidden inside it is a record that belongs to no civilization you know of. You decipher it, and for the first time see how this world works.
 
-Later you begin turning aspects into other forms, mass-producing them, and combining primary aspects into secondary ones — step by step closing in on the question you could not answer at first: why is the world responding to you?
+Later you begin using technology and magic to turn aspects into other forms, mass-producing them, and combining primary aspects into secondary ones — step by step closing in on the question you could not answer at first: why is the world responding to you?
 
-Your journey has no guidance. Only a note, and a path you walked for yourself.
+No one tells you where to go. You have only a note, and a path you walked for yourself.
 <!-- INTRO:STORY:END -->
 
 ## Core Gameplay
