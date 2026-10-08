@@ -124,7 +124,7 @@
 		""
 		"But to make one, you first have to drain most of the aura out of an area, enough to collect a Bottled Vacuum."
 	]
-	quest.0C176F5CCC18F301.quest_desc: ["The form aura takes in Eternal Starlight."]
+	quest.0C176F5CCC18F301.quest_desc: ["Collected with a Bottle and Cork from the aura field of Eternal Starlight."]
 	quest.0C963B7BCA20460B.quest_desc: [
 		"&o&7The compass brings you to a crater.&r"
 		""
@@ -141,7 +141,7 @@
 	quest.0DE6FE73C42F8CA2.quest_desc: [
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
 		""
-		"In the &#3EDCFFwater&r token is sorrow — it teaches life about change and loss."
+		"In the &#3EDCFFwater&r token is sorrow — it teaches life about flow and loss."
 	]
 	quest.0DF94450C70D2259.quest_desc: [
 		"The Overworld's aspect is &#3EDCFFwater&r. It &#3EDCFFflows&r and &#3EDCFFholds&r, and &#3EDCFFcarries on&r all life."
@@ -225,7 +225,7 @@
 	quest.1B4EBBF517C2C707.quest_desc: [
 		"Fear takes root in the dark and grows into terror."
 		""
-		"&#56C000Earth&r makes life face the unknown — terror gives the unknown a shape, standing just beyond the border."
+		"&#56C000Earth&r makes life face the unknown — terror gives the unknown a border."
 	]
 	quest.1EA7CB9F4E022E6E.quest_desc: ["In the Nether, drop an Amethyst Shard into fire."]
 	quest.1FBA99E5D96BD893.quest_desc: ["An ordinary circuit can carry energy, but it cannot preserve the traces left behind by aura, source and resonating aspects. The Arcane Wafer combines the stability of minerals, the activity of nature and the perception of magic into a medium capable of recording anomalous signals."]
@@ -251,7 +251,7 @@
 		""
 		"Three materials and the Fire Essence carve this one stroke: from now on, &#FF5A01burning&r itself can be called up by ritual."
 	]
-	quest.24015ACDFF37D790.quest_desc: ["The form aura takes in the Overworld."]
+	quest.24015ACDFF37D790.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Overworld."]
 	quest.26C4569F0CA4E7D7.quest_desc: [
 		"?! A Crushing Wheel crushing a Crushing Wheel?!"
 		"Crush a Crushing Wheel with a Crushing Wheel — will the Crushing Wheel be crushed by the Crushing Wheel?"
@@ -348,7 +348,7 @@
 	quest.382FD077B4CB5BA6.quest_desc: ["That shouldn't work... right?"]
 	quest.382FD077B4CB5BA6.title: "In Case You Can't Beat a Blaze and an Enderman"
 	quest.38F89B3C95DB51AC.quest_desc: ["In the Aether, drop an Amethyst Shard into the Golden Aercloud."]
-	quest.397C219C667CE90A.quest_desc: ["The form aura takes in the Aether."]
+	quest.397C219C667CE90A.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Aether."]
 	quest.3ADEEEDFEED6AFAA.quest_desc: [
 		"&o&7You try to pry the Mysterious Cube out of the sky stone, and find that nothing you have can break it. You decide to look at the notebook again.&r"
 		""
@@ -504,11 +504,11 @@
 		"Perhaps a Dowsing Rod would help you find an amethyst geode."
 	]
 	quest.54CC0D96675F33E8.title: "Amethyst Shard"
-	quest.5538B917632BBC54.quest_desc: ["The form aura takes in the Twilight Forest."]
+	quest.5538B917632BBC54.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Twilight Forest."]
 	quest.5781F26291987E67.quest_desc: [
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
 		""
-		"In the &#D8D7F0order&r token is serenity — it settles life into structure and cycle."
+		"In the &#D8D7F0order&r token is serenity — it settles life into structure and constancy."
 	]
 	quest.57E4DA3C7780AAAD.quest_desc: ["The Alloy Kiln melts two materials together to make certain alloys."]
 	quest.57E4DA3C7780AAAD.title: "Alloy Kiln"
@@ -613,7 +613,7 @@
 	]
 	quest.6D0337DB8C14104E.title: "Introduction"
 	quest.6D1E3B2DB0CF6EB6.quest_desc: [
-		"Eternal Starlight's aspect is &#D8D7F0order&r. It emphasizes &#D8D7F0structure&r, &#D8D7F0repetition&r, and the &#D8D7F0rules that hold everything together&r."
+		"Eternal Starlight's aspect is &#D8D7F0order&r. It emphasizes &#D8D7F0structure&r, &#D8D7F0repetition&r, and &#D8D7F0constancy&r."
 		""
 		"Its response objects here are blooming Starlit Lily Pads and seeded Blocks of Thioquartz."
 		""
@@ -651,8 +651,8 @@
 	quest.724CFEFED2FB7209.title: "Order Essence"
 	quest.72B021AA3E3944F3.quest_desc: ["Ancient Leaves hold a rich store of aura, releasing it slowly to top up the aura field around them whenever its concentration drops."]
 	quest.72B021AA3E3944F3.title: "Ancient Sapling"
-	quest.75A85A3EB42EA77D.quest_desc: ["The form aura takes in the Nether."]
-	quest.75CBBA83CDDDFB00.quest_desc: ["The form aura takes in the End."]
+	quest.75A85A3EB42EA77D.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Nether."]
+	quest.75CBBA83CDDDFB00.quest_desc: ["Collected with a Bottle and Cork from the aura field of the End."]
 	quest.75FB247B07C3BF7B.title: "Crusher"
 	quest.77CCF6E3CA3E9F38.quest_desc: ["...Fine, have it your way."]
 	quest.77CCF6E3CA3E9F38.title: "In Case You Can't Beat the Gatekeeper or the Ender Dragon"
