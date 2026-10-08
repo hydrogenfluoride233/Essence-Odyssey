@@ -691,6 +691,9 @@
 		}
 		{
 			dependencies: ["477C7D68B338367C"]
+			icon: {
+				id: "create:white_sail"
+			}
 			id: "400F9EA8BED6E390"
 			optional: true
 			rewards: [{
@@ -703,12 +706,19 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [{
-				count: 2L
-				id: "41A64B9BA9A4E2E1"
-				item: { count: 1, id: "create:white_sail" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "41A64B9BA9A4E2E1"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					id: "3112F31D9A1530F4"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+			]
 			x: -8.5d
 			y: 5.0d
 		}

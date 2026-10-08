@@ -15,7 +15,6 @@
 	quests: [
 		{
 			dependencies: ["0DF94450C70D2259"]
-			hide_dependency_lines: true
 			id: "0DB2CD482BA01F58"
 			shape: "hexagon"
 			tasks: [{
@@ -28,7 +27,6 @@
 		}
 		{
 			dependencies: ["031C571BBFFCE0B6"]
-			hide_dependency_lines: true
 			id: "1EA7CB9F4E022E6E"
 			shape: "hexagon"
 			tasks: [{
@@ -41,7 +39,6 @@
 		}
 		{
 			dependencies: ["217A0236C9312C68"]
-			hide_dependency_lines: true
 			id: "7F2312EB5A2653DB"
 			shape: "hexagon"
 			tasks: [{
@@ -54,7 +51,6 @@
 		}
 		{
 			dependencies: ["0258FA1C2F0406EA"]
-			hide_dependency_lines: true
 			id: "38F89B3C95DB51AC"
 			shape: "hexagon"
 			tasks: [{
@@ -67,7 +63,6 @@
 		}
 		{
 			dependencies: ["4E8041B1FBD6669F"]
-			hide_dependency_lines: true
 			id: "7F56175670CB6E0A"
 			shape: "hexagon"
 			tasks: [{
@@ -80,7 +75,6 @@
 		}
 		{
 			dependencies: ["6D1E3B2DB0CF6EB6"]
-			hide_dependency_lines: true
 			id: "05491F312D2EDBAB"
 			shape: "hexagon"
 			tasks: [{
@@ -183,7 +177,6 @@
 		}
 		{
 			dependencies: ["0DF94450C70D2259"]
-			hide_dependency_lines: true
 			id: "24015ACDFF37D790"
 			shape: "hexagon"
 			tasks: [{
@@ -197,7 +190,6 @@
 		}
 		{
 			dependencies: ["031C571BBFFCE0B6"]
-			hide_dependency_lines: true
 			id: "75A85A3EB42EA77D"
 			shape: "hexagon"
 			tasks: [{
@@ -211,7 +203,6 @@
 		}
 		{
 			dependencies: ["217A0236C9312C68"]
-			hide_dependency_lines: true
 			id: "5538B917632BBC54"
 			shape: "hexagon"
 			tasks: [{
@@ -225,7 +216,6 @@
 		}
 		{
 			dependencies: ["0258FA1C2F0406EA"]
-			hide_dependency_lines: true
 			id: "397C219C667CE90A"
 			shape: "hexagon"
 			tasks: [{
@@ -239,7 +229,6 @@
 		}
 		{
 			dependencies: ["4E8041B1FBD6669F"]
-			hide_dependency_lines: true
 			id: "75CBBA83CDDDFB00"
 			shape: "hexagon"
 			tasks: [{
@@ -253,7 +242,6 @@
 		}
 		{
 			dependencies: ["6D1E3B2DB0CF6EB6"]
-			hide_dependency_lines: true
 			id: "0C176F5CCC18F301"
 			shape: "hexagon"
 			tasks: [{
