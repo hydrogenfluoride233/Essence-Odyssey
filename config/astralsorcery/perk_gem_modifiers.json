@@ -1,0 +1,62 @@
+[
+  {
+    "attribute": "astralsorcery:max_health",
+    "weight": 2
+  },
+  {
+    "attribute": "astralsorcery:movement_speed",
+    "weight": 8
+  },
+  {
+    "attribute": "astralsorcery:armor",
+    "weight": 8
+  },
+  {
+    "attribute": "astralsorcery:block_reach",
+    "weight": 4
+  },
+  {
+    "attribute": "astralsorcery:attack_speed",
+    "weight": 2
+  },
+  {
+    "attribute": "astralsorcery:attack_damage",
+    "weight": 8
+  },
+  {
+    "attribute": "astralsorcery:scale",
+    "weight": 2
+  },
+  {
+    "attribute": "astralsorcery:projectile_damage",
+    "weight": 8
+  },
+  {
+    "attribute": "astralsorcery:block_break_speed",
+    "weight": 2
+  },
+  {
+    "attribute": "astralsorcery:critical_hit_chance",
+    "weight": 4
+  },
+  {
+    "attribute": "astralsorcery:critical_hit_damage",
+    "weight": 4
+  },
+  {
+    "attribute": "astralsorcery:elemental_resistance",
+    "weight": 2
+  },
+  {
+    "attribute": "astralsorcery:block_chance",
+    "weight": 2
+  },
+  {
+    "attribute": "astralsorcery:life_recovery",
+    "weight": 2
+  },
+  {
+    "attribute": "astralsorcery:perk_experience",
+    "weight": 1
+  }
+]

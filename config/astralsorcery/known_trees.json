@@ -1,0 +1,96 @@
+[
+  {
+    "logBlocks": [],
+    "logTags": [
+      "minecraft:oak_logs"
+    ],
+    "leafBlocks": [
+      "minecraft:oak_leaves"
+    ],
+    "leafTags": []
+  },
+  {
+    "logBlocks": [],
+    "logTags": [
+      "minecraft:dark_oak_logs"
+    ],
+    "leafBlocks": [
+      "minecraft:dark_oak_leaves"
+    ],
+    "leafTags": []
+  },
+  {
+    "logBlocks": [],
+    "logTags": [
+      "minecraft:birch_logs"
+    ],
+    "leafBlocks": [
+      "minecraft:birch_leaves"
+    ],
+    "leafTags": []
+  },
+  {
+    "logBlocks": [],
+    "logTags": [
+      "minecraft:acacia_logs"
+    ],
+    "leafBlocks": [
+      "minecraft:acacia_leaves"
+    ],
+    "leafTags": []
+  },
+  {
+    "logBlocks": [],
+    "logTags": [
+      "minecraft:cherry_logs"
+    ],
+    "leafBlocks": [
+      "minecraft:cherry_leaves"
+    ],
+    "leafTags": []
+  },
+  {
+    "logBlocks": [],
+    "logTags": [
+      "minecraft:jungle_logs"
+    ],
+    "leafBlocks": [
+      "minecraft:jungle_leaves"
+    ],
+    "leafTags": []
+  },
+  {
+    "logBlocks": [],
+    "logTags": [
+      "minecraft:spruce_logs"
+    ],
+    "leafBlocks": [
+      "minecraft:spruce_leaves"
+    ],
+    "leafTags": []
+  },
+  {
+    "logBlocks": [
+      "minecraft:mangrove_roots",
+      "minecraft:muddy_mangrove_roots"
+    ],
+    "logTags": [
+      "minecraft:mangrove_logs"
+    ],
+    "leafBlocks": [
+      "minecraft:mangrove_leaves"
+    ],
+    "leafTags": []
+  },
+  {
+    "logBlocks": [],
+    "logTags": [
+      "minecraft:oak_logs"
+    ],
+    "leafBlocks": [
+      "minecraft:azalea_leaves",
+      "minecraft:flowering_azalea_leaves"
+    ],
+    "leafTags": []
+  }
+]

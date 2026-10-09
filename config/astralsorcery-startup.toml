@@ -1,0 +1,5 @@
+[loot]
+	#Loot tables that get constellation paper added to them on load
+	constellationPaperLootTables = ["minecraft:chests/stronghold_library", "minecraft:chests/stronghold_corridor", "minecraft:chests/desert_pyramid", "minecraft:chests/jungle_temple", "minecraft:chests/woodland_mansion", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/buried_treasure", "minecraft:chests/shipwreck_map", "minecraft:chests/end_city_treasure", "minecraft:chests/simple_dungeon"]
+	#Loot tables that the artifact shard loot table item can generate. Temporary use until a proper feature is added
+	artifactShardLootTables = ["minecraft:chests/desert_pyramid", "minecraft:chests/jungle_temple", "minecraft:chests/woodland_mansion", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/buried_treasure", "minecraft:chests/shipwreck_supply"]

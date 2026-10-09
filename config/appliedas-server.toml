@@ -1,0 +1,35 @@
+#Machine processing times in ticks (20 ticks = 1 second).
+[processing]
+	#Automatic Starmetal Chisel duration, for both inventory and dropped items.
+	# Default: 40
+	# Range: > 1
+	autoChiselTicks = 40
+	#Transmutation duration with unfocused focal-point starlight, directly or through P2P.
+	# Default: 1200
+	# Range: > 1
+	transmutationFocalTicks = 1200
+	#Transmutation duration with focused crystal or lens starlight, including through P2P.
+	#Matching focused starlight takes priority over unfocused focal-point starlight.
+	# Default: 200
+	# Range: > 1
+	transmutationStarlightTicks = 200
+	#Transmutation duration after paying the lumen overclock cost.
+	# Default: 20
+	# Range: > 1
+	transmutationOverclockTicks = 20
+	#Constellation Relay attunement duration; native attunement takes 500 ticks.
+	# Default: 500
+	# Range: > 1
+	attunementTicks = 500
+
+#Lumen consumed per completed operation.
+[lumenConsumption]
+	#Evorsio lumen per completed Automatic Starmetal Chisel operation, for both inventory and dropped items.
+	# Default: 25
+	# Range: 1 ~ 2000
+	autoChiselLumenPerCraft = 25
+	#Prismatic lumen per completed attunement that bypassed constellation or sky requirements.
+	#Requires the full amount to progress; consumes it once after the product is successfully emitted.
+	# Default: 50
+	# Range: 1 ~ 16000
+	attunementLumenPerCraft = 50
