@@ -72,12 +72,3 @@ ServerEvents.tags("item",event=>{
     event.add("neovitae:tools/scribe","kubejs:ordo_scribe_tool")
 })
 
-
-ServerEvents.tags("chemical",event=>{
-    const oreList = ["zinc","iesnium","nickel","aluminum"]
-    oreList.forEach(ore=>{
-        event.add("mekanism:dirty",`kubejs:dirty_${ore}`)
-        event.add("mekanism:clean",`kubejs:clean_${ore}`)
-    })
-})
-
