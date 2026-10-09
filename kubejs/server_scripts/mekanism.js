@@ -1,11 +1,12 @@
 ServerEvents.recipes(event=>{
     //配方移除
-    event.remove({id:"mekanism:steel_casing"})                  //钢质机壳
-    event.remove({id:"mekanismgenerators:turbine/blade"})       //涡轮叶片
-    event.replaceInput({id:"mekanism:structural_glass"},"#c:ingots/steel","mekanism:dust_steel")
+    event.remove({id:"mekanism:steel_casing"})                      //钢质机壳
+    event.remove({id:"mekanismgenerators:turbine/blade"})           //涡轮叶片
+    event.remove({id:"mekanism:rotary/steam"})                      //液态蒸汽
 
 
     //工作台配方
+    event.replaceInput({id:"mekanism:structural_glass"},"#c:ingots/steel","mekanism:dust_steel")
     event.replaceInput({id:"mekanism:robit"},"#c:ingots/steel","immersiveengineering:robot_wolf")
 
     event.shaped(
@@ -98,4 +99,13 @@ ServerEvents.recipes(event=>{
 
     RollingMillList.forEach(([output,input])=>
         event.recipes.mekmm.rolling_mill(output,input))
+
+    //水蒸气统一
+    event.remove({id:"mekanism:rotary/water_vapor"})
+    event.remove({id:"mekanism:chemical_infusing/sulfuric_acid"})
+
+    event.recipes.mekanism.rotary("1x mekanism:steam","1x minecraft:water","1x mekanism:steam","1x minecraft:water")
+    event.recipes.mekanism.chemical_infusing("1x mekanism:sulfuric_acid","mekanism:sulfur_trioxide","1x mekanism:steam")
 })
+
+

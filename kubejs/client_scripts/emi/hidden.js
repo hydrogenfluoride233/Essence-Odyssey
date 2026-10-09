@@ -12,6 +12,9 @@ const KeptPots = [
 RecipeViewerEvents.removeEntries("item",event=>{
         event.remove("immersiveengineering:potion_bucket")
 
+    //蒸汽桶
+    event.remove("mekanism:steam_bucket")
+
     //灵魂瓶
     event.remove(stack => stack.id == "enderio:soul_vial" && stack.get("enderio:soul") != null)
 
@@ -26,4 +29,10 @@ RecipeViewerEvents.removeEntries("item",event=>{
     //生长锄
     event.remove(stack => stack.id.endsWith("_hoe") &&
         String(stack.get("minecraft:attribute_modifiers")).includes("botanypots:"))
+})
+
+RecipeViewerEvents.removeEntries("fluid",event=>{
+
+    //蒸汽流体
+    event.remove("mekanism:steam")
 })
