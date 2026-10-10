@@ -233,6 +233,14 @@
   "ifeu": {
     "machine_tile": true
   },
+  "mmcr": {
+    "ae2_input_interface_grid": true,
+    "source_port": true,
+    "machine_controller": true,
+    "parallel_controller": true,
+    "recipe_output": true,
+    "air_port": true
+  },
   "mysticalagriculture": {
     "infused_farmland": true,
     "crop": true,
