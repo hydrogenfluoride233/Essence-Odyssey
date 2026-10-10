@@ -727,17 +727,6 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["75FB247B07C3BF7B"]
-			id: "7857194F19884AB3"
-			tasks: [{
-				id: "39753BBAA0333303"
-				item: { count: 1, id: "mbd2:imbuement_chamber" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 5.0d
-		}
-		{
 			dependencies: ["481ECA1B87829938"]
 			id: "1BBF9A8F2131EAC6"
 			tasks: [{
@@ -790,6 +779,16 @@
 			}]
 			x: 11.5d
 			y: 4.0d
+		}
+		{
+			id: "3276C4FA6F80293A"
+			tasks: [{
+				id: "4886451BC00CBD7D"
+				item: { count: 1, id: "mmcr:industrial_imbuement_controller" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
 		}
 	]
 }
