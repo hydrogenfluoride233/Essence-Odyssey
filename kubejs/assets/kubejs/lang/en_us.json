@@ -311,5 +311,7 @@
   "kubejs.info.blueprint_special_bullet":"Traded with a Gunsmith villager, or found in chests in an Engineer's House.",
 
   "item.kubejs.perditio_scribe_tool.tooltip":"§7The writing is on the wall...§r",
-  "item.kubejs.ordo_scribe_tool.tooltip":"§7The writing is on the wall...§r"
+  "item.kubejs.ordo_scribe_tool.tooltip":"§7The writing is on the wall...§r",
+
+  "machine.mmcr.industrial_imbuement":"Industrial Imbuement Chamber"
 }

@@ -311,5 +311,10 @@
   "kubejs.info.blueprint_special_bullet":"与军械工人村民交易，或在工程师小屋箱子中获得。",
 
   "item.kubejs.perditio_scribe_tool.tooltip":"§7铭文已现……§r",
-  "item.kubejs.ordo_scribe_tool.tooltip":"§7铭文已现……§r"
+  "item.kubejs.ordo_scribe_tool.tooltip":"§7铭文已现……§r",
+
+  "machine.mmcr.industrial_imbuement":"工业灌注室",
+  "recipe_pool.mmcr.industrial_imbuement":"工业灌注室",
+  "item.mmcr.industrial_imbuement_controller":"工业灌注室控制器",
+  "block.mmcr.industrial_imbuement_controller":"工业灌注室控制器"
 }
