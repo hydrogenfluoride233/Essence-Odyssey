@@ -1,0 +1,32 @@
+#Pattern encoding policy for dedicated servers / singleplayer host.
+#If true, reject JEI / mod encode packets unless a pattern-encoding ME screen is open (blocks wireless-from-inventory).
+#Does not remove the client-side option; this rule is stricter when enabled.
+requireOpenPatternEncodingMenuForJei = false
+#If true, reject encode packets tagged as «full JEI category (all pages)» batch encoding.
+#Does not affect current-page batch or single-recipe encode. Pair with hiding the button on clients for convenience.
+blockJeiFullCategoryBatchEncode = false
+#Upper bound per bulk session (-1 disables the cap). For a positive limit use 8–16384.
+#When limited, extras are skipped; see per-packet path for streamed single sends.
+# Default: 1024
+# Range: -1 ~ 16384
+jeiBulkEncodeMaxPatternsPerSession = 1024
+#NBT tear card safety blacklist.
+#If true, the NBT Tear Card will never match Productive Bees configurable bee spawn eggs by item id only.
+#These spawn eggs store the bee type in item data, so different display names can still share the same item id.
+enableNbtTearProductiveBeesSpawnEggBlacklist = true
+#If true, the NBT Tear Card will never fuzzy-match Draconic Evolution fusion crafting injectors.
+#Covers: basic, wyvern, awakened/draconic and chaotic crafting injectors.
+enableNbtTearDraconicEvolutionFusionInjectorBlacklist = true
+#Additional item ids that the NBT Tear Card must never match by item-id-only.
+#Built-in groups above are controlled by their own switches.
+#Examples: ["productivebees:spawn_egg_configurable_bee", "draconicevolution:basic_crafting_injector"]
+nbtTearCardItemBlacklist = []
+#ME Quick Transfer Tool energy costs.
+#Fixed AE energy cost for a normal right-click transfer.
+# Default: 100.0
+# Range: 0.0 ~ 1.7976931348623157E308
+meQuickTransferGroupEnergy = 100.0
+#Fixed AE energy cost for a sneak right-click transfer of all available contents.
+# Default: 1000.0
+# Range: 0.0 ~ 1.7976931348623157E308
+meQuickTransferAllEnergy = 1000.0
