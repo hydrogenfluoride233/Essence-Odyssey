@@ -174,3 +174,10 @@ evolution_upgrade_points = 300
 	#Allow Blood and Demon Lanterns to suppress non-monster spawns.
 	#Disable to bypass lantern indexing and spawn suppression. Demon Lantern hostile spawning is unaffected.
 	spawn_suppression = true
+
+#Athanor Configuration
+[athanor]
+	#EV drawn from the bound player's network each time a Deus tool completes an Athanor or Tabula Vitae operation
+	# Default: 50
+	# Range: 0 ~ 1000000
+	deus_tool_ev_per_use = 50
