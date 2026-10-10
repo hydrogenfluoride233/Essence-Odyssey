@@ -148,3 +148,4 @@ $RECYCLE.BIN/
 secrets.*
 credentials.*
 config/iris.properties
+config/mmcr-machine-appearance.properties
