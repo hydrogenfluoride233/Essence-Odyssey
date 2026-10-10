@@ -745,7 +745,7 @@
 				item: { count: 1, id: "immersiveengineering:plate_steel" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 7.0d
 		}
 		{
