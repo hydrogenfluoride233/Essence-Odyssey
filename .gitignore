@@ -18,6 +18,8 @@ shaderpacks/
 moddata/
 netherlink/
 defaultconfigs_backup/
+debug/
+mmcr_structure_export/
 
 # 游戏启动器的缓存与本地状态
 .hmcl/

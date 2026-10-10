@@ -1,3 +1,25 @@
+const parseImbuementInput = ingredient=>{                       //"4x 物品id" / "4x #标签" → MMCR 的 Ingredient 形状
+    if(typeof ingredient!=="string") return ingredient
+
+    const match=ingredient.match(/^(\d+)x\s+(.+)$/)
+    const count=match ? parseInt(match[1]) : 1
+    const id=match ? match[2] : ingredient
+
+    return id.startsWith("#") ?
+        {"count":count,"item":{"tag":id.substring(1)}} :
+        {"count":count,"item":{"item":id}}
+}
+
+const parseImbuementOutput = result=>{                          //"4x 物品id" → {id,count}（走 ItemStack 编码器）
+    if(typeof result!=="string") return result
+
+    const match=result.match(/^(\d+)x\s+(.+)$/)
+    return {
+        "count":match ? parseInt(match[1]) : 1,
+        "id":match ? match[2] : result
+    }
+}
+
 ServerEvents.recipes(event=>{
     //工业灌注室（MMCR）
     //格式:[输入,输出,魔源,配方名]
@@ -63,34 +85,31 @@ ServerEvents.recipes(event=>{
         ],//灵魂之精华
     ]
 
-    //把 "4x 物品id" 拆成 {id,count}：输出走 ItemStack 编码器，不认 KubeJS 的 4x 简写
-    const stack = s=>{
-        const m = /^(\d+)x (.+)$/.exec(s)
-        return m ? { id: m[2], count: +m[1] } : { id: s, count: 1 }
-    }
-
     ImbuementList.forEach(([input,output,source,name])=>
         event.custom({
-            type: "mmcr:machine_recipe",
-            recipe_pool: "mmcr:industrial_imbuement",
-            tick_time: 40,
-            requirements: [
+            "type":"mmcr:machine_recipe",
+            "recipe_pool":"mmcr:industrial_imbuement",
+            "tick_time":40,
+            "parallelized":true,
+            "requirements":[
+                Object.assign(
+                    {
+                        "type":"minecraft:item",
+                        "io":"input"
+                    },
+                    parseImbuementInput(input)          //{count, item:{item|tag}}
+                ),
                 {
-                    type: "minecraft:item",
-                    io: "input",
-                    item: input
+                    "type":"ars_nouveau:source",
+                    "io":"input",
+                    "amount":source
                 },
                 {
-                    type: "ars_nouveau:source",
-                    io: "input",
-                    amount: source
-                },
-                {
-                    type: "minecraft:item",
-                    io: "output",
-                    stack: stack(output)
+                    "type":"minecraft:item",
+                    "io":"output",
+                    "stack":parseImbuementOutput(output)
                 }
             ]
         }).id(`mmcr:industrial_imbuement/${name}`)
-    )
+    )//灌注
 })
