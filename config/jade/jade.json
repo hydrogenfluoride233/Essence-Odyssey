@@ -1,6 +1,6 @@
 {
   "general": {
-    "itemModNameTooltip": false,
+    "itemModNameTooltip": true,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true,
     "hideFromTabList": true,
