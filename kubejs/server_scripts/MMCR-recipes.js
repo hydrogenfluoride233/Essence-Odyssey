@@ -113,3 +113,10 @@ ServerEvents.recipes(event=>{
         }).id(`mmcr:industrial_imbuement/${name}`)
     )//灌注
 })
+
+ItemEvents.modifyTooltips(event=>{
+    event.add("mmcr:industrial_imbuement_controller", [
+        Text.translatable("kubejs.info.mmcr_imbuement_ports"),
+        Text.translatable("kubejs.info.mmcr_imbuement_parallel")
+    ])//控制器：告诉玩家哪些位置可换
+})
