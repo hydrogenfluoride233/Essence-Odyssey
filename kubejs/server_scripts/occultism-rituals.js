@@ -398,20 +398,4 @@ ServerEvents.recipes(event=>{
     )
 
     //五彩祭坛
-    event.recipes.occultism.ritual(
-        "kubejs:star_ingot",
-        [
-            "kubejs:rune_spring",
-            "kubejs:rune_summer",
-            "kubejs:rune_autumn",
-            "kubejs:rune_winter",
-            "kubejs:star_dust",
-            "kubejs:star_dust",
-            "eternal_starlight:blooming_red_starlight_crystal_cluster",
-            "eternal_starlight:blooming_blue_starlight_crystal_cluster",
-        ],
-        "eternal_starlight:starcore_light",
-        "occultism:ritual_astral_3",
-        30
-    ).ritualDummy("kubejs:ritual_astral_3")
 })
