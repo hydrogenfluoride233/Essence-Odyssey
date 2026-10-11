@@ -44,5 +44,6 @@ StartupEvents.registry("block",event=>{
         event.create(`kubejs:block_${essence}`)
              .soundType("amethyst")
              .tagBlock("minecraft:mineable/pickaxe")
-             .tagBlock("minecraft:needs_stone_tool"))
+             .tagBlock("minecraft:needs_stone_tool")
+             .requiresTool(true))
 })

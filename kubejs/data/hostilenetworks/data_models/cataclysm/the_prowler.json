@@ -6,7 +6,9 @@
         }
     ],
     "entity": "cataclysm:the_prowler",
-    "variants": [],
+    "variants": [
+        "cataclysm:the_watcher"
+    ],
     "name_color": "#708090",
     "display": {
         "scale": 0.7

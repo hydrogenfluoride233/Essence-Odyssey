@@ -61,8 +61,6 @@ StartupEvents.registry("item",event=>{
     event.create("kubejs:source_amplifier").rarity("uncommon")
     event.create("kubejs:energy_capacitor").rarity("uncommon")
     event.create("kubejs:calibration_gel").rarity("uncommon")
-    event.create("kubejs:star_dust").rarity("rare")
-    event.create("kubejs:star_ingot").rarity("rare")
     event.create("kubejs:twilight_holy_grail").rarity("epic").glow(true)
          .tooltip(Text.translate("item.kubejs.twilight_holy_grail.tooltip"))
     event.create("kubejs:twilight_ingot").rarity("uncommon").glow(true)
