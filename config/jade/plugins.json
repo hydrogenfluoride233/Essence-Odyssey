@@ -140,6 +140,9 @@
   "quark": {
     "oretoise_eating_cooldown": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "gravestone": {
     "grave": true
   },

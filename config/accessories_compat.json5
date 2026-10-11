@@ -7,6 +7,6 @@
 		}
 	],
 	"dumpDataWhenNullEntries": false,
-	"addPocketSlot": true,
+	"addPocketSlot": false,
 	"showPocketSlotInTooltip": false
 }
