@@ -263,6 +263,12 @@
 					type: "item"
 				}
 				{
+					id: "329F5CB4FF1CBF83"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					optional_task: true
+					type: "item"
+				}
+				{
 					id: "3ACC034C53CA5397"
 					item: { count: 1, id: "createaddition:tesla_coil" }
 					type: "item"

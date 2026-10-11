@@ -124,15 +124,5 @@
 			x: 3.0d
 			y: -1.0d
 		}
-		{
-			id: "7116F643452751A8"
-			tasks: [{
-				id: "491BE9530297F940"
-				item: { count: 1, id: "cataclysm:cursed_eye" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.0d
-		}
 	]
 }

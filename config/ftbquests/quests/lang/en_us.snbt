@@ -1,5 +1,5 @@
 {
-	chapter.09BEF93D202C45FF.title: "After the End"
+	chapter.07790A767C847C57.title: "Cataclysm"
 	chapter.0BA7C5B351EC2475.subtitle: "Secondary Aspects, Linking the World"
 	chapter.0BA7C5B351EC2475.title: "Chapter 4"
 	chapter.17482BD4DB583890.title: "Before the Beginning"
@@ -27,25 +27,33 @@
 	chapter_group.76D01E7F0542ED7A.title: "Main Story"
 	file.0000000000000001.title: "Essence Odyssey"
 	quest.00402EA6B1870ECF.quest_desc: [
-		"Copper and zinc become a Brass Ingot in the Alloy Kiln."
+		"&aCopper and zinc&r become a Brass Ingot in the Alloy Kiln."
 		""
 		"Compared with Andesite Alloy, brass performs better: it can be made into more precise equipment and take on more complex crafting tasks."
-		""
-		"&o&7You smelted your first Brass Ingot.&r"
 	]
 	quest.00402EA6B1870ECF.title: "The Brass Age"
+	quest.0109DF2D0978C413.quest_desc: ["The Maledictus wields these weapons depending on the skill it uses — and now you can craft them &afor your own use&r."]
+	quest.0109DF2D0978C413.title: "Cursium Weapons"
+	quest.011DB0FFB4E95919.quest_desc: [
+		"Jail of Cold generates in the frozen tundra of the &aOverworld&r — a castle guarded by Draugr."
+		""
+		"This is where the &aMaledictus&r is sealed away."
+		""
+		"This structure can be found with the &aEye of Curse&r."
+	]
+	quest.011DB0FFB4E95919.title: "Jail of Cold"
 	quest.01673A6CBCB91BDE.quest_desc: [
 		"&oThe rune altar writes the aspect down — not into a bottle, but into a rule you can carry and call upon.&r"
 		""
 		"Three materials and the Chaos Essence carve this one stroke: from now on, &#626262breaking down&r can be called up by ritual."
 	]
-	quest.0171C96CB85AC0B5.quest_desc: ["Forget those slow, plodding production lines — you can now upgrade your Mechanical Press, Mechanical Mixer, Deployer and Spout!"]
+	quest.0171C96CB85AC0B5.quest_desc: ["Forget those slow, plodding production lines — you can now &aupgrade&r your Mechanical Press, Mechanical Mixer, Deployer and Spout!"]
 	quest.01789FF24DAB1731.quest_desc: [
 		"You have walked through six dimensions and brought their traces back one by one: crystals, essences, tokens, devices — and a production line that turns on its own."
 		""
-		"When the first Steel Ingot came out of the furnace, you understood it all the more clearly: magic, technology and adventure were never three separate roads, but three ways of reading one and the same world."
+		"When the first &aSteel Ingot&r came out of the furnace, you understood it all the more clearly: magic, technology and adventure were never three separate roads, but three ways of reading one and the same world."
 		"{@pagebreak}"
-		"The block at the center of the meteor is still lying there. You cannot break it and you cannot read it; all you can do is grind its shell into powder and copy what it does, making one thing after another whose principles you cannot explain, yet which genuinely works."
+		"&aThe block at the center of the meteor&r is still lying there. You cannot break it and you cannot read it; all you can do is grind its shell into powder and copy what it does, making one thing after another whose principles you cannot explain, yet which genuinely works."
 		""
 		"&lNext, it is time to learn to read it.&r"
 	]
@@ -120,9 +128,9 @@
 		"&oYet they work. The notebook does not explain.&r"
 	]
 	quest.0B5E4ACB7E34CCC5.quest_desc: [
-		"In most cases, aura-generating devices cannot push the amount of aura in an area past a certain value. The Creational Catalyst removes that limit with ease — you only need to place it under an aura-generating device."
+		"In most cases, aura-generating devices cannot push the amount of aura in an area past a certain value. The &aCreational Catalyst&r removes that limit with ease — you only need to place it under an &aaura-generating device&r."
 		""
-		"But to make one, you first have to drain most of the aura out of an area, enough to collect a Bottled Vacuum."
+		"But to make one, you first have to &adrain&r most of the aura out of an area, enough to collect a Bottled Vacuum."
 	]
 	quest.0C176F5CCC18F301.quest_desc: ["Collected with a Bottle and Cork from the aura field of Eternal Starlight."]
 	quest.0C963B7BCA20460B.quest_desc: [
@@ -151,6 +159,13 @@
 		"Here, a Bottle and Cork collects Bottled Sunlight."
 	]
 	quest.0DF94450C70D2259.title: "Visit the Overworld"
+	quest.0FF0A4AD565E2758.quest_desc: [
+		"&aEnder Golems&r sleep on the first and second floors of the Ruined Citadel, standing guard. The moment intruders appear, they wake and fight."
+		""
+		"Killing an Ender Golem yields a &aVoid Core&r."
+		""
+		"And do be careful of the &atraps&r all over the Ruined Citadel!"
+	]
 	quest.11F05068792402E5.quest_desc: [
 		"&o&7You open the notebook.&r&r"
 		""
@@ -170,14 +185,24 @@
 		"&o&7There seems to be more, but for now you do not know what it means.&r"
 	]
 	quest.11F05068792402E5.quest_subtitle: ["The Change"]
+	quest.1217950B47119C27.quest_desc: [
+		"&6&oCataclysm (L_Ender's Cataclysm)&r&o is a mod that adds many difficult dungeons, challenging bosses and powerful equipment.&r"
+		""
+		"&oExplore its structures, defeat its bosses to prove yourself, and take their equipment to press on!&r"
+		"{@pagebreak}"
+		"&o&aNote: the eyes Cataclysm adds for locating structures are not consumed — a copy flies out of your hand when you use one. But an eye can only be used in the dimension of the structure it locates.&r"
+		""
+		"&o&aThe order in which the bosses are laid out in this chapter does not reflect their difficulty.&r"
+	]
+	quest.1217950B47119C27.title: "Before You Set Out"
 	quest.1307B2956D04D7A2.quest_desc: [
 		"The Deployer is more precise than a player's block-hands: it can carry out exact sequential assembly."
 		""
-		"With a Gold Sheet as the base and each component fitted in turn, you obtain a Precision Mechanism."
+		"With a Gold Sheet as the base and each component fitted in turn, you obtain a &aPrecision Mechanism&r."
 		"{@pagebreak}"
-		"Yet even something as precise as a Deployer can slip. Assembly does not always succeed."
+		"Yet even something as precise as a Deployer can slip. Assembly &adoes not always succeed&r."
 		""
-		"Perhaps there will be a better way to produce Precision Mechanisms later?"
+		"Perhaps there will be a &abetter way&r to produce Precision Mechanisms later?"
 	]
 	quest.1307B2956D04D7A2.title: "Precision Mechanism"
 	quest.140B027BBF9B47B2.quest_desc: [
@@ -189,6 +214,12 @@
 		"Spawns inside loot chests once every Knight Phantom has been defeated."
 		"ps. Do not use an Ars Nouveau Containment Jar on a Knight Phantom...... (otherwise its health bar will stay on your screen forever)"
 	]
+	quest.15A06B3385469BF5.quest_desc: [
+		"&o&6The Maledictus — once a legendary warrior of the frozen land, later a tyrant commander, now a cursed undead.&r"
+		""
+		"Pass through the Door of Seal to enter its arena; right-click the &aCursed Tombstone&r to summon the Maledictus."
+	]
+	quest.15A06B3385469BF5.title: "Trial of the Maledictus"
 	quest.163B8AE539C58E2B.quest_desc: ["So it is not a singularity after all..."]
 	quest.163B8AE539C58E2B.title: "Well, It Works"
 	quest.1655971899AF0256.quest_desc: [
@@ -196,7 +227,7 @@
 		""
 		"An Imbuement Chamber can still gather source from its surroundings by itself, but if you feed it source that is already at hand, its crafting becomes much faster."
 		""
-		"There are many different ways to obtain source — you can collect it with the various Sourcelinks. Perhaps there are other methods?"
+		"There are many different ways to obtain source — you can collect it with the various &aSourcelinks&r. Perhaps there are other methods?"
 	]
 	quest.1655971899AF0256.title: "Source Production"
 	quest.177F832B5872D164.quest_desc: [
@@ -208,9 +239,9 @@
 		"{@pagebreak}"
 		"That is how you obtained the ME Drive and the ME Storage Cell."
 		""
-		"They are not things of this world; they can hold matter in something smaller than a chest."
+		"They &aare not things of this world&r; they can hold matter in something smaller than a chest."
 		""
-		"This pinch of powder seems able to do more than that."
+		"This pinch of powder seems &aable to do more than that&r."
 	]
 	quest.177F832B5872D164.title: "Starting Point"
 	quest.18DEB55F4DEDB7A3.quest_desc: [
@@ -229,6 +260,12 @@
 	]
 	quest.1EA7CB9F4E022E6E.quest_desc: ["In the Nether, drop an Amethyst Shard into fire."]
 	quest.1FBA99E5D96BD893.quest_desc: ["An ordinary circuit can carry energy, but it cannot preserve the traces left behind by aura, source and resonating aspects. The Arcane Wafer combines the stability of minerals, the activity of nature and the perception of magic into a medium capable of recording anomalous signals."]
+	quest.203DC11C3D09AFA2.quest_desc: [
+		"&o&6A machine left behind by an ancient civilisation, armed with missile launchers and a circular saw — a powerful guard at the heart of the Ancient Factory.&r"
+		""
+		"Make good use of the &aEMP&r in the Ancient Factory: give it a redstone signal to &aactivate&r it. Once active it can &astun&r The Harbinger and The Prowler within a certain range, and &akill&r nearby Watchers."
+	]
+	quest.203DC11C3D09AFA2.title: "Kill The Prowler"
 	quest.217A0236C9312C68.quest_desc: [
 		"The Twilight Forest's aspect is &#56C000earth&r. It &#56C000settles&r, draws &#56C000boundaries&r, and &#56C000grows&r upon them."
 		""
@@ -239,9 +276,9 @@
 	quest.217A0236C9312C68.title: "Visit the Twilight Forest"
 	quest.22BBDE618BB134FE.title: "Industrial Fermenter"
 	quest.236B9D3A654D936D.quest_desc: [
-		"An Alternator turns rotation into electricity, wires carry that electricity a long way, and an Electric Motor turns it back into rotation."
+		"&aAn Alternator&r turns rotation into electricity, &awires&r carry that electricity a long way, and an &aElectric Motor&r turns it back into rotation."
 		""
-		"Electricity can change materials directly as well: a Tesla Coil can charge items — feed an Infused Iron electricity and it becomes a Steel Ingot — or discharge into the world."
+		"Electricity can change materials directly as well: a &aTesla Coil&r can charge items — feed an Infused Iron electricity and it becomes a Steel Ingot — or discharge into the world."
 		""
 		"From now on, power no longer has to be handed along shaft by shaft."
 	]
@@ -257,6 +294,7 @@
 		"Crush a Crushing Wheel with a Crushing Wheel — will the Crushing Wheel be crushed by the Crushing Wheel?"
 	]
 	quest.26C4569F0CA4E7D7.title: "Crushing Wheels"
+	quest.27219131E0E42F88.quest_desc: ["Feeding a Baby Leviathan with a &aTropical Fish&r tames it; it will then fight for you with its unripe abyssal power."]
 	quest.2740A375D6EBCB05.quest_desc: [
 		"Aspect crystals are too quiet — so quiet they hardly seem like aspects at all. Give them enough heat, then enough pressure, and they will speak again: returning the aspects they sealed away, in the form of a fluid."
 		"{@pagebreak}"
@@ -264,10 +302,15 @@
 		"This is the first time you have set an aspect free from its solid form. From now on it can be piped, measured, and used by machines as a genuine resource."
 	]
 	quest.2740A375D6EBCB05.title: "Aspect Fluid Buckets"
-	quest.2A0D63839EC06CB6.quest_desc: [
-		"&oLast night the dream came again: three different aspect crystals, redstone, crushed together with flint, and kept in a bowl.&r"
+	quest.27F647FAFC46B251.quest_desc: [
+		"The &aAbyssal Sacrifice&r is used to summon the Leviathan."
 		""
-		"&oWhen I woke up, there was a pinch of faintly glowing powder in my hand.&r"
+		"Every material for it except the Heart of the Sea can be found in Sunken in the Sea; a &aBuried Treasure Map&r in its treasure room can help you obtain a Heart of the Sea."
+	]
+	quest.2A0D63839EC06CB6.quest_desc: [
+		"&o&7Last night the dream came again: three different aspect crystals, redstone, crushed together with flint, and kept in a bowl.&r"
+		""
+		"&o&7When I woke up I tried to reproduce the recipe, and so I got a pinch of faintly glowing powder.&r"
 		""
 		"Salis Mundus — Thaumaturge's Salt, as it is more commonly known — is not any one aspect; it is their reconciler: like salt in the mundane world, it has no taste of its own, yet it lets the most distant aspects share the same thing."
 	]
@@ -275,34 +318,70 @@
 	quest.2A90934B95C717BC.quest_desc: [
 		"A forest ritual uses the properties of gold to imbue a living, growing sapling with the strength of its ingredients. The materials you offer \"describe\" to the sapling the rule you wish to reproduce or transform, and Gold Powder uses that still-growing life to write the description back into reality."
 		""
-		"To perform a forest ritual you need Gold Powder. Your first batch comes from dropping an Anvil onto Gold Leaf. You will also need Wooden Stands, obtained by right-clicking a stripped Oak Log with Brilliant Fiber on a Cutting Board."
+		"To perform a forest ritual you need Gold Powder. Your first batch comes from a &afalling Anvil&r striking Gold Leaf. You will also need Wooden Stands, obtained by right-clicking a stripped Oak Log with Brilliant Fiber on a &aCutting Board&r."
 	]
 	quest.2A90934B95C717BC.title: "Ritual of the Forest"
 	quest.2CC22C2203005BFF.title: "Refinery"
 	quest.2D72B8B451B12DFB.quest_desc: [
-		"The Imbuement Chamber injects source into an item in order to craft it."
+		"The &aImbuement Chamber&r injects source into an item in order to craft it."
 		""
 		"During the process, if there are items on the pedestals around the Imbuement Chamber, their information is injected along with it."
 	]
 	quest.2D72B8B451B12DFB.title: "Imbuement Chamber"
-	quest.2E5D92132F9FA3DC.quest_desc: [
-		"Iron is no longer enough. Presses, drivetrain, casings — the further you go, the more you need a harder, steadier material."
+	quest.2D9A7BCB69358AFC.quest_desc: [
+		"&o&6The Netherite Monstrosity guards a forge much as its \"relative\" the Redstone Monstrosity (from Minecraft Dungeons) does — and though this forge is far smaller than the Blazing Forge, the beast is no less mighty.&r"
 		""
-		"With the Natural Altar and a Tesla Coil, you smelt your first Steel Ingot. From this ingot on, machine parts can truly be called precision work."
+		"Walk to the centre of the &aplatform the Monstrosity rests on&r, and it will wake from its sleep."
+	]
+	quest.2D9A7BCB69358AFC.title: "Trial of the Netherite Monstrosity"
+	quest.2E5D92132F9FA3DC.quest_desc: [
+		"&oIron is no longer enough. Presses, drivetrain, casings — the further you go, the more you need a harder, steadier material.&r"
+		""
+		"&oWith the &aNatural Altar&r&o and a &aTesla Coil&r&o, you smelt your first Steel Ingot. From this ingot on, machine parts can truly be called precision work.&r"
 		""
 		"&o&mHonestly, I have no idea how I came up with a recipe this arcane either&r"
 	]
 	quest.2E5D92132F9FA3DC.title: "Steel Ingot"
-	quest.30B6340921229929.quest_desc: ["&o&7The amethyst leads you to a cauldron full of water.&r"]
+	quest.2EC65ED47EDA8740.quest_desc: ["The Lightning Spear it fires pierces Ignis's shield and deals damage."]
+	quest.2F4141AE42BB5E86.quest_desc: [
+		"The Soul Forge was raised in the &aNether&r by the piglins, to build terrible machines of war."
+		""
+		"A dreadful &aNetherite Monstrosity&r sleeps inside it."
+		""
+		"This structure can be found with the &aEye of Monstrous&r."
+	]
+	quest.2F4141AE42BB5E86.title: "The Soul Forge"
+	quest.2F80A4788FDBB0B5.quest_desc: [
+		"This is an advanced workstation; it &afuses&r equipment and materials together into stronger gear."
+		""
+		"Unlike an anvil, it &adoes not fall&r when there is nothing under it, and using it &adoes not damage it or cost experience&r."
+	]
+	quest.30B6340921229929.quest_desc: ["&o&7The amethyst leads you to &r&o&aa cauldron full of water&r&o&7.&r"]
 	quest.30B6340921229929.title: "Water Crystal"
 	quest.31208139567F93AE.quest_desc: [
-		"You have now recorded six origins across six dimensions. But recording is not understanding, and it certainly does not set knowledge running on its own."
-		"At the center of the meteor structure lies a block that no existing craft can explain. It is not like ore, nor like a machine; breaking it leaves a whole block behind, yet yields none of the manufacturing knowledge stored inside."
-		"{@pagebreak}"
-		"Perhaps the answer is not to take it apart, but to read it first."
-		"&7ps. This chapter's quest line runs two parallel branches; this one is the AE2 unlock branch&r"
+		"No tool you have can break the mysterious block in the meteorite — no pick pries it loose, no explosion leaves a mark."
+		""
+		"&7&oThe notebook mentioned a &a&lmixture of unclear composition&r&7&o, and maybe it is worth a try? What would happen if you sprinkled it onto the mysterious block?&r"
 	]
 	quest.31208139567F93AE.title: "Mysterious Cube"
+	quest.3122552A78D4DDA5.quest_desc: [
+		"The Ancient Factory lies deep under the &aOverworld&r; no one has come here for many years."
+		""
+		"In its core rests &aThe Harbinger&r, a creation of the ancient civilisation."
+		""
+		"This structure can be found with the &aEye of Mech&r."
+	]
+	quest.3122552A78D4DDA5.title: "Ancient Factory"
+	quest.34164812034BC9A0.quest_desc: [
+		"&o&6The Ender Guardian lurks in the deepest part of the Ruined Citadel, punishing intruders with the power of Ender and Void.&r"
+		""
+		"Approach the &aAltar of Void&r at the centre of the Citadel's third floor and the Ender Guardian will spawn."
+		""
+		"&o&mDoes the Ender Guardian not get enough respect? One gauntlet is all it drops? And I have to dig my own way into the boss room???&r"
+	]
+	quest.34164812034BC9A0.title: "Trial of the Ender Guardian"
+	quest.34172736AC658A51.quest_desc: ["Upgrade your matching &aNetherite armor&r with a &aSmithing Template (Cursium Upgrade)&r and a Cursium Ingot at a smithing table."]
+	quest.34172736AC658A51.title: "Cursium Set"
 	quest.3453F3AF03FF04C4.quest_desc: [
 		"The mainboard establishes the interface, the diode observes, the amplifier and the capacitor sustain the signal, the gel reconciles the aspects, and the wafer records the result. Once all six assemblies are connected at the same time, the patterns on the Mysterious Cube finally begin to make sense. It still comes from an unknown civilization, but at least it is no longer entirely silent."
 		""
@@ -310,18 +389,35 @@
 		"You did not create this knowledge. You only gave a record sleeping inside a fallen star the chance to be read again."
 		"And that record already holds the method for building more complex devices."
 	]
+	quest.348FD640D0B99AE2.quest_desc: [
+		"&o&6A senior guard of the acropolis — a giant crayfish with a great axe, and strength without equal.&r"
+		""
+		"&o&mBoth the weakest and the strongest mini-boss are in the acropolis, as it happens.&r"
+	]
+	quest.348FD640D0B99AE2.title: "Kill the Clawdian"
 	quest.3582A8AFBE363D4B.quest_desc: [
-		"The Cauldron is the first container this world gave you. Sprinkle in a handful of salis mundus, and it becomes a container that can hold anything."
+		"The Cauldron is the first container this world gave you. Sprinkle in a handful of &asalis mundus&r, and it becomes a container that can hold anything."
 		""
-		"The Mechanical Mixer turns mixing from an action into a process; its rotation speed decides how fast it goes."
+		"The Mechanical Mixer turns mixing from an action into a process; its &arotation speed&r decides how fast it goes."
 		""
-		"A Blaze Burner is indispensable as well — some things will only accept one another in enough heat."
+		"A Blaze Burner is indispensable as well — some things will only accept one another in enough &aheat&r."
 	]
 	quest.3582A8AFBE363D4B.title: "Mixing"
+	quest.35CE21DCABAAF10A.quest_desc: [
+		"&o&6The Harbinger — a mechanical wither built by the ancients, with devastating power.&r"
+		""
+		"Hold a &aNether Star&r and right-click the sleeping Harbinger in the Ancient Factory to wake it."
+	]
+	quest.35CE21DCABAAF10A.title: "Trial of The Harbinger"
 	quest.35FE4723A2488CF4.quest_desc: [
 		"That is right, this thing is made of steel now."
 		"&mEven though you can find a little of it in dungeon chests&r"
 		"&7ps. This chapter's quest line runs two parallel branches; this one is the main branch&r"
+	]
+	quest.3676A11CC0AC3510.quest_desc: [
+		"The inside of Desert Pyramid Revamped is a maze holding countless treasures. But as you explore, beware the skeletal jackal-headed guards and the traps that are everywhere."
+		""
+		"Brushing the &aSuspicious Sand&r inside the pyramid may yield the Necklace of the Desert, which can wake the Ancient Remnant."
 	]
 	quest.3686997CB148E9BF.quest_desc: [
 		"The deciphering process cannot rely on a steady, brutal supply of power. The structure inside the relic is more like a precision instrument: it needs the right single pulse of energy at the right moment."
@@ -354,7 +450,7 @@
 		""
 		"&oOne of the loose pages tucked inside carries a line of small writing:&r"
 		"{@pagebreak}"
-		"The outer shell of the sky stone and the certus quartz wrapped inside it seem to give this world a special response. Grind each of them into dust, then mix them with salis mundus in a Basin, add lava, and press them into shape. What you get is a kind of unknown powder."
+		"&aThe outer shell of the sky stone&r and the &acertus quartz&r wrapped inside it seem to give this world a special response. Grind each of them into dust, then mix them with &asalis mundus&r in a Basin, add &alava&r, and &apress them into shape&r. What you get is a kind of &l&aunknown powder&r."
 		""
 		"&oDo as it says for now, and see what comes out."
 	]
@@ -364,40 +460,22 @@
 		""
 		"Three materials and the Earth Essence carve this one stroke: from now on, &#56C000settling&r and &#56C000growing&r can be called up by ritual."
 	]
+	quest.3BBB6BA364026473.quest_desc: ["There seems to be a &a&lhidden room&r in the Soul Forge. Go and look?"]
+	quest.3E2DFA7DE032E3E8.quest_desc: [
+		"The Burning Arena stands in the &aNether&r. It has been abandoned for years, but the fire inside it has never gone out."
+		""
+		"It is where &aIgnis&r makes its home."
+		""
+		"This structure can be found with the &aEye of Flame&r."
+	]
+	quest.3E2DFA7DE032E3E8.title: "Burning Arena"
 	quest.3F64EB93903B0250.quest_desc: [
-		"Corundum can be found underground in large patches, and usually generates as two colors together. It can be converted into other colors in an Imbuement Chamber."
+		"Corundum can be found underground in large patches, and usually generates as two colors together. It can be &aconverted&r into other colors in an Imbuement Chamber."
 		""
 		"When placed low underground, corundum slowly grows upward (not all that slowly, actually?) and comes with a few corundum clusters."
 	]
 	quest.3F64EB93903B0250.title: "Corundum"
-	quest.3FA905A2EC803B78.quest_desc: [
-		"Beyond the world of Essence Odyssey, the author of this modpack — that is me — is just an ordinary university student, an ordinary Minecraft modded player."
-		"{@pagebreak}"
-		"I do not know much in the way of programming languages; many of the scripts behind these changes were written with AI assistance. I wrapped most of my recipe changes into list calls, so that when I look at them again a week or two later I still know how to write them: just fill in the format &o[input, output, ...]&r and you are done."
-		""
-		"I am not much of an artist either. Most of the custom items and blocks are reskins of things that already exist in mods or in vanilla. Some of them may look decent; others I hardly know how to draw."
-		"{@pagebreak}"
-		"I am not good at organizing prose either. Some of the item descriptions and text were also AI-assisted. The chapter titles, for instance — no matter how I look at them, I keep wondering whether they are too flowery."
-		""
-		"My English is not good either; I can only talk about it on paper. Translating the content, the narrative and the prose of this pack into English is something I do not really know how to do."
-		""
-		"Some of the mods I put in the pack I have not even played through systematically......"
-		"{@pagebreak}"
-		"By any measure, I could not write a 'perfect modpack'."
-		"{@pagebreak}"
-		"But that does not matter."
-		""
-		"Developing a modpack can take a very long time, but I think this is something worth doing."
-		"{@pagebreak}"
-		"I do not want to torment players with nesting doll after nesting doll of complicated recipes, because I do not enjoy that myself. I only want to give players a modpack whose parts interlock, that has a sense of narrative, that tells a story. Or rather — as a player, or as an author, I am simply doing something that makes me happy. And if, along the way, I can hand you a modpack 'with traces left in it by someone', I will be more than satisfied."
-		"{@pagebreak}"
-		"Also, the text of this pack hides a few memes and homages; I will leave those for you to discover. If you find one of these easter eggs and it makes you smile, that makes me happy too."
-		""
-		"Also, if you want to discuss the worldbuilding with me in depth, or offer suggestions about the art, or simply get to know each other, you are welcome to contact me."
-		"{@pagebreak}"
-		"Finally, thank you for playing the modpack I made."
-	]
-	quest.3FA905A2EC803B78.title: "Beyond This World"
+	quest.3F8681ECC0F4EC99.quest_desc: ["The Burning Arena is guarded by &aIgnited Revenants&r. Kill one of them and you will earn the right to wake Ignis — a &aBurning Ashes&r."]
 	quest.400F9EA8BED6E390.quest_desc: [
 		"Windmill Sails are made with Tough Fabric."
 		""
@@ -417,7 +495,7 @@
 	quest.424A36FF905942D5.quest_desc: [
 		"The amethyst has revealed the &#3EDCFFwater&r held in the Overworld's aura field, and you have received its response."
 		""
-		"Next, try collecting aura from the Overworld with a Bottle and Cork, and see what happens."
+		"Next, try collecting aura from the Overworld with a &aBottle and Cork&r, and see what happens."
 	]
 	quest.424A36FF905942D5.title: "Bottled Sunlight"
 	quest.431A6B56EE43ADEE.quest_desc: [
@@ -428,12 +506,13 @@
 		"&oNote: the quest line of this chapter revolves around the &#3EDCFFwater&r&o of the Overworld only. Another chapter, &l\"Dimensions, Aspects, and This World\"&r&o, collects the related content of every primary aspect.&r"
 	]
 	quest.431A6B56EE43ADEE.title: "The Six Primary Aspects"
-	quest.4363AE8363EC43A6.quest_desc: ["Some recipes can only be made on a Mechanical Crafter; a crafting table cannot handle them."]
+	quest.4363AE8363EC43A6.quest_desc: ["Some recipes can only be made on a &aMechanical Crafter&r; a crafting table cannot handle them."]
 	quest.4363AE8363EC43A6.title: "Mechanical Crafter"
+	quest.460FC1911724CF88.quest_desc: ["&oTo be honest, it really is just a fancy pickaxe — but it &ais really cool&r&o, is it not?&r"]
 	quest.46B818618F767629.quest_desc: [
 		"The Ashen Sapling is an excellent carrier of aura, and an important tree for performing forest rituals of every kind."
 		""
-		"Ashen Saplings can be dug up by a Sniffer, or made with a forest ritual."
+		"Ashen Saplings can be &adug up by a Sniffer&r, or &amade with a forest ritual&r."
 	]
 	quest.46B818618F767629.title: "Ashen Sapling"
 	quest.4732C23C21EA0CCE.quest_desc: [
@@ -449,26 +528,34 @@
 		"&#FFFF7EAir&r lets life feel light — euphoria is light enough to forget that it still has to land."
 	]
 	quest.477C7D68B338367C.quest_desc: [
-		"Andesite Alloy is made from andesite and an Iron Ingot or a Zinc Ingot on a Cutting Board. It is lighter than iron, yet it carries rotation steadily."
+		"Andesite Alloy is made from andesite and an Iron Ingot or a Zinc Ingot on a &aCutting Board&r. It is lighter than iron, yet it carries rotation steadily."
 		""
 		"&o&7You put together your first Andesite Alloy.&r"
+		""
+		"&o&mBut why a cutting board?!&r"
 	]
 	quest.477C7D68B338367C.title: "Andesite Alloy"
 	quest.481ECA1B87829938.title: "Crude Blast Furnace"
 	quest.48407C982D11D8DC.quest_desc: [
 		"Corundum is an excellent magical material: it can absorb environmental information."
 		""
-		"Place corundum on a pedestal and use source as the driving force. The environmental information in the items around it is caught by the corundum, and the environmental information inside aspect crystals is absorbed as well; only the &l&npure aspect information&r is left. The crystal is soaked through, taken apart, and rearranged — what condenses out is magical essence."
+		"Place corundum on a pedestal and use source as the driving force. The environmental information in the items around it is caught by the corundum, and the environmental information inside aspect crystals is absorbed as well; only the &l&npure aspect information&r is left. The crystal is soaked through, taken apart, and rearranged — what condenses out is &amagical essence&r."
 	]
 	quest.48407C982D11D8DC.title: "Essence"
 	quest.485146C723E79D3B.quest_desc: [
-		"The Deployer is a perfect copy of your own block-hands: it can imitate the interactions you perform."
+		"The Deployer is a perfect copy of your own block-hands: it can &aimitate the interactions you perform&r."
 		""
 		"Set it a program, and it will repeat it over and over."
 	]
 	quest.485146C723E79D3B.title: "Deployer"
+	quest.4882FCF67676C010.quest_desc: [
+		"&o&6Ignis — lord of flame, god of war exalted.&r"
+		""
+		"Right-click the &aAltar of Fire&r at the centre of the Burning Arena's top floor with a &aBurning Ashes&r to summon Ignis."
+	]
+	quest.4882FCF67676C010.title: "Trial of Ignis"
 	quest.4A540375BBDC6D05.quest_desc: [
-		"To obtain casings of every kind, you first need to grow Ashen Trees."
+		"To obtain casings of every kind, you first need to grow &aAshen Trees&r."
 		""
 		"A casing's frame cannot be just any block of wood: it has to hold its shape inside aura for a long time, and only the Ashen Tree can do that."
 	]
@@ -480,6 +567,15 @@
 		""
 		"Follow where the shard leads and seek out a &l&nresponse object&r&r. Let the amethyst touch an aspect that has spilled over, and you may well get what you are after."
 	]
+	quest.4BB8027A2703FC28.quest_desc: ["&o&mAnd here I thought, in proper Cataclysm fashion, this anchor would turn out to be a pickaxe?&r"]
+	quest.4D69672AA9A6CB0D.quest_desc: [
+		"Sunken in the Sea rises from the deep &aOverworld&r ocean — an ancient ruin of masterful craft."
+		""
+		"Here, an old ritual can summon the &aLeviathan&r."
+		""
+		"This structure can be found with the &aEye of Abyss&r."
+	]
+	quest.4D69672AA9A6CB0D.title: "Sunken in the Sea"
 	quest.4E8041B1FBD6669F.quest_desc: [
 		"The End's aspect is &#626262chaos&r. It &#626262breaks down&r what exists, pushes everything into the &#626262unknown&r, and leaves behind only &#626262possibilities not yet fixed&r."
 		""
@@ -488,29 +584,49 @@
 		"Here, a Bottle and Cork collects Bottled Darkness."
 	]
 	quest.4E8041B1FBD6669F.title: "Visit the End"
-	quest.4F1594D45E71BD67.quest_desc: ["The aspect information and environmental information held in the materials are imbued into an Ashen Sapling together. The forest ritual records the emotion that life leaves behind when it faces the world, and gives it form as a wooden statue — a token."]
+	quest.4F1594D45E71BD67.quest_desc: ["The aspect information and environmental information held in the materials are imbued into an Ashen Sapling together. The forest ritual records the emotion that life leaves behind when it faces the world, and gives it form as a wooden statue — a &atoken&r."]
 	quest.4F1594D45E71BD67.title: "Tokens"
+	quest.505D9FE85D283F43.quest_desc: [
+		"The Acropolis generates in the warm ocean biomes of the &aOverworld&r — a grand complex of buildings."
+		""
+		"It is the holy ground where &aScylla&r, queen of the storm, dwells with her followers."
+		""
+		"This structure can be found with the &aEye of Storm&r."
+	]
+	quest.505D9FE85D283F43.title: "The Acropolis"
+	quest.516C33B1C8134654.quest_desc: [
+		"&o&6Scylla — the name of a female sea monster in ancient Greek legend; and the thing you face atop the acropolis, stirring the storm, may well be the queen of the storm itself — also Scylla.&r"
+		""
+		"Climb to the top of the acropolis and you reach the building where the boss waits. When you are ready, &aright-click the anchor at its very centre&r to call Scylla and begin the fight."
+	]
+	quest.516C33B1C8134654.title: "Trial of Scylla"
 	quest.54946257C2AB9DCF.quest_desc: [
 		"To make use of aspect crystals, you need to prepare a few things first."
 		""
 		"Gold is an excellent conductor: it can guide the flow of aspects, and in a forest ritual it serves as the medium between people and nature. Your first step is to turn it into Brilliant Fiber and put that to use."
 		""
-		"Your first Brilliant Fiber comes from holding a Gold Ingot in your main hand and String in your off hand, then right-clicking a hedge in the Twilight Forest. The drop rate is rather low, and the thorns will hurt you."
+		"Your first Brilliant Fiber comes from holding a Gold Ingot in your main hand and String in your off hand, then right-clicking a &ahedge&r in the Twilight Forest. The drop rate is rather low, and the thorns will &ahurt you&r."
 	]
 	quest.54946257C2AB9DCF.title: "Brilliant Fiber"
 	quest.54CC0D96675F33E8.quest_desc: [
-		"To establish a connection with this world, you first need to gather Amethyst Shards."
+		"To establish a connection with this world, you first need to gather &aAmethyst Shards&r."
 		""
 		"Perhaps a Dowsing Rod would help you find an amethyst geode."
 	]
 	quest.54CC0D96675F33E8.title: "Amethyst Shard"
 	quest.5538B917632BBC54.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Twilight Forest."]
+	quest.56952889BA57C65D.quest_desc: [
+		"&o&6The Ancient Remnant — a giant spinosaurus skeleton, sleeping in the deepest part of the cursed pyramid, waiting for a challenger.&r"
+		""
+		"Hang the &aNecklace of the Desert&r around the Ancient Remnant's neck to wake it."
+	]
+	quest.56952889BA57C65D.title: "Trial of the Ancient Remnant"
 	quest.5781F26291987E67.quest_desc: [
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
 		""
 		"In the &#D8D7F0order&r token is serenity — it settles life into structure and constancy."
 	]
-	quest.57E4DA3C7780AAAD.quest_desc: ["The Alloy Kiln melts two materials together to make certain alloys."]
+	quest.57E4DA3C7780AAAD.quest_desc: ["The Alloy Kiln melts two materials together to make certain &aalloys&r."]
 	quest.57E4DA3C7780AAAD.title: "Alloy Kiln"
 	quest.57F8ADC74552877F.quest_desc: [
 		"&oThe rune altar writes the aspect down — not into a bottle, but into a rule you can carry and call upon.&r"
@@ -535,7 +651,7 @@
 	]
 	quest.5AA560228973D274.title: "Reshaping Applied Energistics"
 	quest.5E4647B964AD82A1.quest_desc: [
-		"The Natural Altar is crafted in the Enchanting Apparatus from six kinds of tokens — life's six responses to the world."
+		"&aThe Natural Altar&r is crafted in the Enchanting Apparatus from six kinds of tokens — life's six responses to the world."
 		""
 		"It gathers the aura of a stretch of land and imbues it into items. The power of nature will no longer be confined to one patch of ground, but will become the root that runs through all realms and gives rise to every living thing."
 	]
@@ -563,16 +679,17 @@
 		""
 		"&oThe six primary aspects write the six dimensions, each in its own posture, reaching through heaven and earth and making up every part of this world.&r"
 	]
+	quest.6133B55F3B880EC1.quest_desc: ["Inside the Quartz Temple stands a mysterious &aAltar of Amethyst&r. It turns Amethyst Crab Meat into Blessed Amethyst Crab Meat, which will help you in the fight against the Leviathan."]
 	quest.6256F04D11B48E39.quest_desc: [
-		"The Mechanical Press presses metal ingots into sheets."
+		"The Mechanical Press presses metal ingots into &asheets&r."
 		""
 		"Sheets are the intermediate form of many machine parts."
 		""
-		"Note that it cannot handle Steel Ingots; you will need another way."
+		"Note that it cannot handle &aSteel Ingots&r; you will need another way."
 	]
 	quest.6256F04D11B48E39.title: "Mechanical Press"
 	quest.636F2AFB3BF2AC31.quest_desc: [
-		"The Enchanting Apparatus is crafted from six kinds of essence in a forest ritual."
+		"&aThe Enchanting Apparatus&r is crafted from six kinds of essence in a forest ritual."
 		""
 		"It combines the materials on the pedestals with the item at its center — a bridge that connects all things: magic and technology, source and aura, living things and the world."
 		""
@@ -582,12 +699,23 @@
 	quest.64DDBFEA863697E9.title: "Metal Press"
 	quest.656B7D59A1F6492F.quest_desc: ["That is impossible."]
 	quest.656B7D59A1F6492F.title: "In Case You Don't Know What the Overworld Is"
+	quest.6576FFF207EECE9E.quest_desc: [
+		"&o&6A senior guard of the acropolis — a seahorse with a trident, a fine warrior with strong close-quarters skill and ability.&r"
+		""
+		"&o&mThis is honestly the mini-boss that feels the most like a common mob in Cataclysm.&r"
+	]
+	quest.6576FFF207EECE9E.title: "Kill the Hippocamtus"
+	quest.6916611959D6968A.quest_desc: [
+		"A Modern Remnant can be summoned with a &aRemnant's Skull&r and tamed with a &aSniffer Egg&r."
+		""
+		"Once tamed, it will attack whatever you attack, or whatever is attacking you."
+	]
 	quest.6951B60D890910D1.quest_desc: [
 		"Aura in the aura field does not come back on its own once it has been drawn out."
 		""
-		"But do not worry — this is not a problem. You can produce aura in several different ways."
+		"But do not worry — this is not a problem. You can produce aura in &aseveral different ways&r."
 		""
-		"The one thing to keep in mind is this: by default, there is a limit to how much aura a single area can hold."
+		"The one thing to keep in mind is this: by default, there is a &alimit&r to how much aura a single area can hold."
 	]
 	quest.6951B60D890910D1.title: "Aura Generation"
 	quest.6BA679217AD6DBB8.title: "Coke Oven"
@@ -596,7 +724,7 @@
 		""
 		"In the &#FF5A01fire&r token is anger — it teaches life to release and to flare."
 	]
-	quest.6CDE0F370C954563.quest_desc: ["Right-click leaves with Brilliant Fiber to turn them into Golden Leaves. Golden Leaves spread to the leaves around them; harvest them after a while and you will have Gold Leaf in quantity."]
+	quest.6CDE0F370C954563.quest_desc: ["Right-click leaves with Brilliant Fiber to turn them into &aGolden Leaves&r. Golden Leaves spread to the leaves around them; harvest them after a while and you will have Gold Leaf in quantity."]
 	quest.6CDE0F370C954563.title: "Gold Leaf"
 	quest.6D0337DB8C14104E.quest_desc: [
 		"This is just an ordinary blocky world, and you are an ordinary person in it."
@@ -605,7 +733,7 @@
 		""
 		"You cannot say how it is different, but you found a notebook titled \"Essence Odyssey\" — the quest book in your hands."
 		"{@pagebreak}"
-		"&oNote: from here on, &rtext in regular type&o marks what the notebook records, while italic text is narration. &7Pale gray italic text&r&o usually describes what the player did or what happened in the story.&r"
+		"&oNote: from here on, &rtext in regular type&o marks what the notebook records, while italic text is narration. &aGreen text&r&o usually marks hints and guidance, and &7pale gray text&r&o usually describes what the player did or what happened in the story.&r"
 		""
 		"&oWhen a piece of this modpack's worldbuilding appears for the first time, it is marked in &l&nbold and underlined&r&o, or with &l\"…\"&r&o.&r"
 		""
@@ -625,10 +753,15 @@
 		"— Yes, I am the weak one."
 	]
 	quest.6DDF94B179429870.title: "In Case You Can't Find Obsidian"
-	quest.6E879124E9249E36.quest_desc: [
-		"The Rolling Mill rolls metal further into rods and wires."
+	quest.6DE914EC13E3D516.quest_desc: [
+		"&6&oThe Abyss gazes into you.&r"
 		""
-		"Note that it cannot handle Steel Ingots either."
+		"Once you have slain the Leviathan, &aCoral Golems&r, &aDeepling Priests&r and &aDeepling Warlocks&r begin to spawn rarely in any ocean biome."
+	]
+	quest.6E879124E9249E36.quest_desc: [
+		"The Rolling Mill rolls metal further into &arods&r and &awires&r."
+		""
+		"Note that it cannot handle &aSteel Ingots&r either."
 	]
 	quest.6E879124E9249E36.title: "Rolling Mill"
 	quest.6EC80EDEED6DBEE5.quest_desc: [
@@ -649,13 +782,41 @@
 		"What remains is the Order Essence: it no longer remembers what it arranged, only &#D8D7F0structure&r and &#D8D7F0repetition&r."
 	]
 	quest.724CFEFED2FB7209.title: "Order Essence"
-	quest.72B021AA3E3944F3.quest_desc: ["Ancient Leaves hold a rich store of aura, releasing it slowly to top up the aura field around them whenever its concentration drops."]
+	quest.72B021AA3E3944F3.quest_desc: ["Ancient Leaves hold a rich store of aura, &areleasing it slowly&r to top up the aura field around them whenever its concentration drops."]
 	quest.72B021AA3E3944F3.title: "Ancient Sapling"
+	quest.746F388E40C7B518.quest_desc: [
+		"Desert Pyramid Revamped stands in the wide deserts of the &aOverworld&r — a relic of an ancient civilisation."
+		""
+		"The &aAncient Remnant&r sleeps here."
+		""
+		"This structure can be found with the &aEye of Desert&r."
+	]
+	quest.746F388E40C7B518.title: "Desert Pyramid Revamped"
+	quest.747DC66590F1BF6C.quest_desc: [
+		"&o&6The Leviathan — master of the abyssal power, a dreadful predator that can tear even time and space apart.&r"
+		""
+		"At the bottom of the water in the centre of Sunken in the Sea, right-click the &aAltar of Abyss&r with an &aAbyssal Sacrifice&r to summon the Leviathan."
+	]
+	quest.747DC66590F1BF6C.title: "Trial of the Leviathan"
 	quest.75A85A3EB42EA77D.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Nether."]
 	quest.75CBBA83CDDDFB00.quest_desc: ["Collected with a Bottle and Cork from the aura field of the End."]
 	quest.75FB247B07C3BF7B.title: "Crusher"
 	quest.77CCF6E3CA3E9F38.quest_desc: ["...Fine, have it your way."]
 	quest.77CCF6E3CA3E9F38.title: "In Case You Can't Beat the Gatekeeper or the Ender Dragon"
+	quest.780012BD80D8EF84.quest_desc: [
+		"&o&6You have slain every boss of Cataclysm, and stood upon its peak.&r"
+		""
+		"&oIf you happen to lose this record somewhere along the expedition, it does not matter — you can always come back here. The road is still long; if you are tired, stop for a while and rest.&r"
+	]
+	quest.780012BD80D8EF84.title: "Peak of Cataclysm"
+	quest.78F4FA00C33D561F.quest_desc: [
+		"The Ruined Citadel generates on the outer islands of the &aEnd&r."
+		""
+		"This is the maze-fortress of the &aEnder Guardian&r."
+		""
+		"This structure can be found with the &aEye of Void&r."
+	]
+	quest.78F4FA00C33D561F.title: "Ruined Citadel"
 	quest.796BB04761A96F35.title: "Arc Furnace"
 	quest.7BF679E3CD97A80C.quest_desc: [
 		"Sorrow settling down becomes grief."
@@ -667,7 +828,7 @@
 		""
 		"&oIt is neither ore nor a finished product, and it gives off a faint yellow shimmer. The notebook does not say what it is; it only says what to do next:&r"
 		""
-		"Throw it in with a diamond chest, and set off an &lexplosion&r. Then come the blocks of raw iron and raw copper."
+		"Throw it in with a diamond chest, and set off an &l&aexplosion&r. Then come the blocks of raw iron and raw copper."
 	]
 	quest.7BF7847A3ED73423.title: "Unknown Mixture"
 	quest.7C42E5E0147F4013.quest_desc: [
@@ -687,7 +848,7 @@
 		""
 		"It is not a thing of this world. It was hot as it fell, and moments later it was harder than anything around it. Its outer layer burned black."
 		""
-		"&lGo and find one.&r"
+		"&l&aGo and find one.&r"
 		""
 		"&oSince it does not belong here, perhaps something can point out where it landed.&r"
 	]
@@ -700,6 +861,7 @@
 	]
 	quest.7D30D0CD5F0F151E.quest_subtitle: "The Expedition"
 	quest.7D30D0CD5F0F151E.title: "Seeking the Origin of This World"
+	quest.7D4F28E1F908597D.quest_desc: ["The &aStrange Key&r drops from an &aAptrgangr&r. Hold it and right-click the &aDoor of Seal&r to break the seal; after a short animation, the gate opens."]
 	quest.7F2312EB5A2653DB.quest_desc: ["In the Twilight Forest, right-click the Liveroot or a similar block with an Amethyst Shard."]
 	quest.7F56175670CB6E0A.quest_desc: ["Drop an Amethyst Shard into the End portal."]
 	quest.7F834AEA20EF6E4F.quest_desc: [
@@ -707,21 +869,32 @@
 		""
 		"&#D8D7F0Order&r settles life into structure — equanimity needs no reason, and no way out."
 	]
+	quest.7FAF4ACD7D385BEC.quest_desc: [
+		"&6&oWithin the Nether Fortresses, Ignited Berserkers have awakened...&r"
+		""
+		"Once you have defeated Ignis for the first time, &aIgnited Berserkers&r begin to spawn in Nether fortresses. Killing one yields a &aDying Ember&r, which can be crafted into a &aBurning Ashes&r to summon Ignis again."
+	]
 	quest.BEC9B10D4BC8FB72.title: "Water Essence"
 	quest.E3081B1CF9A2FD87.title: "Chaos Essence"
 	quest.EA63CC9F0513EEF5.title: "Air Essence"
 	reward.6676EAE9C3E8A7D9.title: "&dCreative ME Storage Cell"
 	reward_table.23FDF0DD49F0C68C.title: "Animal Hats"
+	task.017094576C18CECC.title: "Ancient Factory"
+	task.0390B733337F5E49.title: "Sorry, I never fought it — I skipped that lesson."
 	task.079409CB98664CBD.title: "A New Beginning"
 	task.08F0431A709F7E4D.title: "The Six Primary Aspects"
 	task.0C3BC7C3DCD4C737.title: "The Aether"
+	task.120E8C85FA885441.title: "The Soul Forge"
 	task.13DB2DD657514650.title: "The End"
+	task.163F9DDC61A2D8AC.title: "The Acropolis"
 	task.17650FBCBA1450E9.title: "Expedition"
+	task.203A163FC71A00FC.title: "Desert Pyramid Revamped"
 	task.2305198079015D3A.title: "Find a Meteor"
 	task.24FE31B570989116.title: "The Change"
 	task.26F5A19DA793B3CA.title: "About Max Health"
 	task.2C0E687C81089841.title: "Aura Production"
 	task.30303ED505A60181.title: "Introduction"
+	task.36D154543D52C43C.title: "Before You Set Out"
 	task.37D4E500A111FB20.title: "The Overworld"
 	task.38AE5723BB37D6C0.title: "Technology, Magic and Adventure"
 	task.3CB8637FDDD6572D.title: "Answering the World"
@@ -729,22 +902,31 @@
 	task.3E4FC7B25118CFC6.title: "Observe: Industrial Squeezer"
 	task.4949CEE6599F4ECE.title: "The Twilight Forest"
 	task.4C19EFA8BF153159.title: "Getting to Know This World"
+	task.4C3D832DFA013D0A.title: "Jail of Cold"
 	task.4E664F0AFCBB4293.title: "The Beginning"
+	task.4F2A964E7E3DFD96.title: "Sunken in the Sea"
 	task.4F45886C24B2B9F2.title: "Building Tip"
 	task.4FF759267D5261E9.title: "Sourcelink"
 	task.522CD557B868AC9D.title: "Unknown Mixture"
+	task.52F7FD6FA9E4B929.title: "Claim a Music Disc"
+	task.53413AAB9034897F.title: "Sorry, I never used this one — I fear nothing."
+	task.5BFC72D203F93BB1.title: "Sorry, I never fought it — I skipped that lesson."
 	task.5E4A7D672CE7EB31.title: "Observe: Bottling Machine"
 	task.5FFB3987D788C033.title: "Eternal Starlight"
 	task.602D6817A35C870F.title: "Observe: Refinery"
 	task.61D450BF8318F2E6.title: "An Unsolved Mystery"
 	task.61DE08540FEA7353.title: "Observe: Arc Furnace"
+	task.63B2FB528FF866BD.title: "Sorry, I never fought it — I skipped that lesson."
 	task.652218963A103A1D.title: "The Nether"
 	task.6634D131AE9072E3.title: "Observe: Industrial Fermenter"
 	task.6E927BFCDAC25C8F.title: "Observe: Metal Press"
 	task.7008DF5E949ABB24.title: "Observe: Crusher"
 	task.71C8B83C37C6DF3B.title: "Strange \"Dreams\""
 	task.73B7DE094D9C8EE8.title: "AE2"
+	task.74A6BFF77446A183.title: "Burning Arena"
 	task.75BFDE05DC02A082.title: "Starting Kit"
 	task.75C08446667D55EF.title: "Spool"
+	task.7D2F04B3382958EC.title: "Sorry, I never fought it — I skipped that lesson."
 	task.7E6F682B99D230E1.title: "Any Log"
+	task.7F97A016ABC3B040.title: "Ruined Citadel"
 }

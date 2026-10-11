@@ -1,0 +1,743 @@
+{
+	autofocus_id: "1217950B47119C27"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "5D4B0C6183F5C265"
+	icon: {
+		id: "cataclysm:void_core"
+	}
+	id: "07790A767C847C57"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1217950B47119C27"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "3122552A78D4DDA5"
+			rewards: [{
+				id: "08267CF4CD07E924"
+				item: {
+					count: 1
+					id: "cataclysm:mech_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "017094576C18CECC"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1217950B47119C27"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:flame_eye"
+			}
+			id: "3E2DFA7DE032E3E8"
+			rewards: [{
+				id: "7F50944932B4F717"
+				item: {
+					count: 1
+					id: "cataclysm:flame_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A6BFF77446A183"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1217950B47119C27"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:void_eye"
+			}
+			id: "78F4FA00C33D561F"
+			rewards: [{
+				id: "660687279DF20607"
+				item: {
+					count: 1
+					id: "cataclysm:void_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F97A016ABC3B040"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1217950B47119C27"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "2F4141AE42BB5E86"
+			rewards: [{
+				id: "6956838C4F318107"
+				item: {
+					count: 1
+					id: "cataclysm:monstrous_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "120E8C85FA885441"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1217950B47119C27"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "4D69672AA9A6CB0D"
+			rewards: [{
+				id: "2E997672429D5562"
+				item: {
+					count: 1
+					id: "cataclysm:abyss_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F2A964E7E3DFD96"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1217950B47119C27"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:desert_eye"
+			}
+			id: "746F388E40C7B518"
+			rewards: [{
+				id: "2B3E9139456F3982"
+				item: {
+					count: 1
+					id: "cataclysm:desert_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "203A163FC71A00FC"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1217950B47119C27"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:cursed_eye"
+			}
+			id: "011DB0FFB4E95919"
+			rewards: [{
+				id: "181FC93FF86D4D17"
+				item: {
+					count: 1
+					id: "cataclysm:cursed_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C3D832DFA013D0A"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1217950B47119C27"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:storm_eye"
+			}
+			id: "505D9FE85D283F43"
+			rewards: [{
+				id: "5E1289DB7ACA81F8"
+				item: {
+					count: 1
+					id: "cataclysm:storm_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "163F9DDC61A2D8AC"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D30D0CD5F0F151E"]
+			hide_dependent_lines: true
+			id: "1217950B47119C27"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "36D154543D52C43C"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E2DFA7DE032E3E8"]
+			id: "3F8681ECC0F4EC99"
+			tasks: [{
+				id: "6EB0836DBACBA12C"
+				item: { count: 1, id: "cataclysm:burning_ashes" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F8681ECC0F4EC99"]
+			icon: {
+				id: "cataclysm:music_disc_ignis"
+			}
+			id: "4882FCF67676C010"
+			shape: "gear"
+			tasks: [{
+				id: "7F8DE0B46B0BD1EF"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4882FCF67676C010"]
+			hide_until_deps_complete: true
+			id: "7FAF4ACD7D385BEC"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "4CEEF2567E53A52E"
+				item: { count: 1, id: "cataclysm:dying_ember" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F4141AE42BB5E86"]
+			icon: {
+				id: "cataclysm:music_disc_netherite_monstrosity"
+			}
+			id: "2D9A7BCB69358AFC"
+			shape: "gear"
+			tasks: [
+				{
+					id: "2D5746B61FF58B1D"
+					item: { count: 1, id: "cataclysm:monstrous_horn" }
+					type: "item"
+				}
+				{
+					id: "63704B8AA4D7A384"
+					item: { count: 1, id: "cataclysm:infernal_forge" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D9A7BCB69358AFC"]
+			hide_until_deps_complete: true
+			id: "3BBB6BA364026473"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "756208B29877A11A"
+				item: { count: 1, id: "cataclysm:netherite_ministrosity_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FF0A4AD565E2758"]
+			icon: {
+				id: "cataclysm:music_disc_ender_guardian"
+			}
+			id: "34164812034BC9A0"
+			shape: "gear"
+			tasks: [{
+				id: "167D968E141B670C"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["78F4FA00C33D561F"]
+			icon: {
+				id: "cataclysm:void_core"
+			}
+			id: "0FF0A4AD565E2758"
+			tasks: [
+				{
+					id: "59F6539CD6D68675"
+					item: { count: 1, id: "cataclysm:void_core" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D2F04B3382958EC"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34164812034BC9A0"]
+			hide_until_deps_complete: true
+			id: "460FC1911724CF88"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "0FA4279982C04D91"
+				item: { count: 1, id: "cataclysm:void_forge" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["505D9FE85D283F43"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:cataclysm/hippocamtus"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "6576FFF207EECE9E"
+			tasks: [
+				{
+					entity: "cataclysm:hippocamtus"
+					icon: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:cataclysm/hippocamtus"
+						}
+						id: "hostilenetworks:data_model"
+					}
+					id: "25734C5A525BA01B"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "63B2FB528FF866BD"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["505D9FE85D283F43"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:cataclysm/clawdian"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "348FD640D0B99AE2"
+			tasks: [
+				{
+					entity: "cataclysm:clawdian"
+					icon: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:cataclysm/clawdian"
+						}
+						id: "hostilenetworks:data_model"
+					}
+					id: "62308248FD4C803C"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5BFC72D203F93BB1"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6576FFF207EECE9E"
+				"348FD640D0B99AE2"
+			]
+			icon: {
+				id: "cataclysm:music_disc_scylla"
+			}
+			id: "516C33B1C8134654"
+			shape: "gear"
+			tasks: [{
+				id: "7F0B4EF85403AFE0"
+				item: { count: 1, id: "cataclysm:essence_of_the_storm" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["516C33B1C8134654"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:ceraunus"
+			}
+			id: "4BB8027A2703FC28"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "50DE88075E9F7375"
+				item: { count: 1, id: "cataclysm:ceraunus" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D69672AA9A6CB0D"]
+			icon: {
+				id: "cataclysm:blessed_amethyst_crab_meat"
+			}
+			id: "6133B55F3B880EC1"
+			tasks: [
+				{
+					id: "13BDC7DF24854971"
+					item: { count: 1, id: "cataclysm:blessed_amethyst_crab_meat" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53413AAB9034897F"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D69672AA9A6CB0D"]
+			id: "27F647FAFC46B251"
+			tasks: [{
+				id: "00FF9FF2CF122262"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6133B55F3B880EC1"
+				"27F647FAFC46B251"
+			]
+			icon: {
+				id: "cataclysm:music_disc_the_leviathan"
+			}
+			id: "747DC66590F1BF6C"
+			shape: "gear"
+			tasks: [{
+				id: "772B6E1F953E0E2A"
+				item: { count: 1, id: "cataclysm:tidal_claws" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["516C33B1C8134654"]
+			hide_until_deps_complete: true
+			id: "2EC65ED47EDA8740"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "6D5E6597505F40E5"
+				item: { count: 1, id: "cataclysm:astrape" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["747DC66590F1BF6C"]
+			hide_until_deps_complete: true
+			id: "6DE914EC13E3D516"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "16C7694E3AF0F4E4"
+				item: { count: 1, id: "cataclysm:athame" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["747DC66590F1BF6C"]
+			hide_until_deps_complete: true
+			id: "27219131E0E42F88"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "0B15EFBD9DA68A87"
+				item: { count: 1, id: "cataclysm:the_baby_leviathan_bucket" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["746F388E40C7B518"]
+			id: "3676A11CC0AC3510"
+			tasks: [{
+				id: "4D1C0A43BFC59C11"
+				item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3676A11CC0AC3510"]
+			icon: {
+				id: "cataclysm:music_disc_ancient_remnant"
+			}
+			id: "56952889BA57C65D"
+			shape: "gear"
+			tasks: [{
+				id: "2A7FB62B07B42846"
+				item: { count: 1, id: "cataclysm:sandstorm_in_a_bottle" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56952889BA57C65D"]
+			hide_until_deps_complete: true
+			id: "6916611959D6968A"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "1E2A99C486333211"
+				item: { count: 1, id: "cataclysm:modern_remnant_bucket" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D4F28E1F908597D"]
+			icon: {
+				id: "cataclysm:music_disc_maledictus"
+			}
+			id: "15A06B3385469BF5"
+			shape: "gear"
+			tasks: [{
+				id: "3E16943F7147D5D8"
+				item: { count: 1, id: "cataclysm:cursium_ingot" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["011DB0FFB4E95919"]
+			id: "7D4F28E1F908597D"
+			tasks: [{
+				id: "6CAEC391A51F1A2C"
+				item: { count: 1, id: "cataclysm:strange_key" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15A06B3385469BF5"]
+			hide_until_deps_complete: true
+			id: "34172736AC658A51"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "41B97B102D675232"
+					item: { count: 1, id: "cataclysm:cursium_helmet" }
+					type: "item"
+				}
+				{
+					id: "4D0A6B8E12B9EBA5"
+					item: { count: 1, id: "cataclysm:cursium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "1BEADA2AA4235642"
+					item: { count: 1, id: "cataclysm:cursium_leggings" }
+					type: "item"
+				}
+				{
+					id: "11336F012A6DCA1C"
+					item: { count: 1, id: "cataclysm:cursium_boots" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15A06B3385469BF5"]
+			hide_until_deps_complete: true
+			id: "0109DF2D0978C413"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "33132FA3163EFD98"
+					item: { count: 1, id: "cataclysm:cursed_bow" }
+					type: "item"
+				}
+				{
+					id: "63643111449D403E"
+					item: { count: 1, id: "cataclysm:the_annihilator" }
+					type: "item"
+				}
+				{
+					id: "0C22FECD1CD5B2A8"
+					item: { count: 1, id: "cataclysm:soul_render" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3122552A78D4DDA5"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:cataclysm/the_prowler"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "203DC11C3D09AFA2"
+			tasks: [
+				{
+					entity: "cataclysm:the_prowler"
+					icon: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:cataclysm/the_prowler"
+						}
+						id: "hostilenetworks:data_model"
+					}
+					id: "58A1323265A65F3B"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0390B733337F5E49"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["203DC11C3D09AFA2"]
+			icon: {
+				id: "cataclysm:music_disc_the_harbinger"
+			}
+			id: "35CE21DCABAAF10A"
+			shape: "gear"
+			tasks: [{
+				id: "32CC25DD5EE3308E"
+				item: { count: 1, id: "cataclysm:witherite_block" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35CE21DCABAAF10A"]
+			hide_until_deps_complete: true
+			id: "2F80A4788FDBB0B5"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "6D2B86CB4B927E7A"
+				item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1217950B47119C27"]
+			icon: {
+				id: "cataclysm:music_disc_the_cataclysmfarer"
+			}
+			id: "780012BD80D8EF84"
+			invisible: true
+			invisible_until_tasks: 1
+			optional: true
+			rewards: [{
+				id: "4D7780AFA9D50EDA"
+				item: {
+					count: 1
+					id: "cataclysm:music_disc_the_cataclysmfarer"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "cataclysm:kill_all_bosses"
+					criterion: ""
+					disable_toast: true
+					id: "6D89DDA4247D8FCD"
+					type: "advancement"
+				}
+				{
+					id: "52F7FD6FA9E4B929"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 2.0d
+		}
+	]
+}
