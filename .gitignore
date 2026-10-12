@@ -32,6 +32,8 @@ usernamecache.json
 command_history.txt
 options.txt
 optionsof.txt
+# FancyMenu 的窗口标题、modpack_mode 等设置存在这里，属于整合包内容 → 破例跟踪
+!config/fancymenu/options.txt
 realms_persistence.json
 servers.dat
 servers.dat_old
@@ -104,6 +106,9 @@ config/.cache/
 config/*/cache/
 config/*/saved_data*.nbt
 config/*-saved_data.nbt
+
+# FancyMenu 的运行期状态（上次世界、视频缩略图、临时文件），布局定义在 config/fancymenu/ 里
+fancymenu_data/
 
 # 玩家个人偏好（键位、音量、界面等），与整合包设计无关
 # 注意用 **/ 前缀：'*' 不跨目录，写成 config/*-client.toml 会漏掉子目录里的
