@@ -1,0 +1,12 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "kubejs.tips.test_a"
+  },
+  "title": {
+    "bold": true,
+    "color": "yellow",
+    "translate": "tipsmod.title.default",
+    "underlined": true
+  }
+}
