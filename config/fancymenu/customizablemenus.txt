@@ -96,9 +96,9 @@ net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 net.minecraft.client.gui.screens.achievement.StatsScreen {
 }
 
-betteradvancements.common.gui.BetterAdvancementsScreen {
+net.minecraft.client.gui.screens.ShareToLanScreen {
 }
 
-net.minecraft.client.gui.screens.ShareToLanScreen {
+betteradvancements.common.gui.BetterAdvancementsScreen {
 }
 
