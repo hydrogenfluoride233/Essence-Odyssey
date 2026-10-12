@@ -119,7 +119,4 @@ ItemEvents.modifyTooltips(event=>{
         Text.translatable("kubejs.info.mmcr_imbuement_ports"),
         Text.translatable("kubejs.info.mmcr_imbuement_parallel")
     ])//控制器：告诉玩家哪些位置可换
-    event.add("immersiveengineering:storage_steel", [
-        Text.translatable("kubejs.info.ie_steel_block")
-    ])//沉浸钢块：多方块结构里可以换成通用机械的钢块
 })

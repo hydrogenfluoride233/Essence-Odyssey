@@ -316,4 +316,5 @@
   "kubejs.info.mmcr_imbuement_ports":"In the multiblock structure, the rim of both the top and bottom faces can be replaced with an Item Input/Output Bus or a Source Input Interface.",
   "kubejs.info.mmcr_imbuement_parallel":"The block below the Arcane Core can be replaced with a Parallel Controller."
   ,"kubejs.info.ie_steel_block":"JEI only shows the Immersive Engineering steel block, but Mekanism's Block of Steel works too."
+  ,"kubejs.info.ie_steel_block_detail":"When building Immersive Engineering multiblocks, JEI only lists the IE steel block - but Mekanism's Block of Steel works too. Both belong to the same material tag, so they are interchangeable."
 }

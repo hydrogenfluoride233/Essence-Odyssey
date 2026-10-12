@@ -83,4 +83,7 @@ RecipeViewerEvents.addInformation("item",event=>{
     }),[
         Text.translate("kubejs.info.blueprint_special_bullet")
     ])//特种子弹蓝图
+    event.add("immersiveengineering:storage_steel", [
+        Text.translate("kubejs.info.ie_steel_block_detail")
+    ])//沉浸钢块：多方块里两种钢块都能用
 })
