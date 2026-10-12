@@ -11,7 +11,7 @@ RecipeViewerEvents.addInformation("item",event=>{
             aura_type:"naturesaura:overworld"
         }
     }),[
-        Text.translate("essenceodyssey.info.aura_bottle_overworld")
+        Text.translate("kubejs.info.aura_bottle_overworld")
     ])//瓶装阳光
 
     event.add(Item.of("naturesaura:aura_bottle",{
@@ -19,7 +19,7 @@ RecipeViewerEvents.addInformation("item",event=>{
             aura_type:"naturesaura:nether"
         }
     }),[
-        Text.translate("essenceodyssey.info.aura_bottle_nether")
+        Text.translate("kubejs.info.aura_bottle_nether")
     ])//瓶装鬼魂
 
     event.add(Item.of("naturesaura:aura_bottle",{
@@ -27,7 +27,7 @@ RecipeViewerEvents.addInformation("item",event=>{
             aura_type:"naturesaura:end"
         }
     }),[
-        Text.translate("essenceodyssey.info.aura_bottle_end")
+        Text.translate("kubejs.info.aura_bottle_end")
     ])//瓶装黑暗
 
     event.add(Item.of("naturesaura:aura_bottle",{
@@ -35,7 +35,7 @@ RecipeViewerEvents.addInformation("item",event=>{
             aura_type:"kubejs:aether"
         }
     }),[
-        Text.translate("essenceodyssey.info.aura_bottle_aether")
+        Text.translate("kubejs.info.aura_bottle_aether")
     ])//瓶装曙光
 
     event.add(Item.of("naturesaura:aura_bottle",{
@@ -43,7 +43,7 @@ RecipeViewerEvents.addInformation("item",event=>{
             aura_type:"kubejs:twilight_forest"
         }
     }),[
-        Text.translate("essenceodyssey.info.aura_bottle_twilight_forest")
+        Text.translate("kubejs.info.aura_bottle_twilight_forest")
     ])//瓶装暮光
 
     event.add(Item.of("naturesaura:aura_bottle",{
@@ -51,18 +51,18 @@ RecipeViewerEvents.addInformation("item",event=>{
             aura_type:"kubejs:starlight"
         }
     }),[
-        Text.translate("essenceodyssey.info.aura_bottle_starlight")
+        Text.translate("kubejs.info.aura_bottle_starlight")
     ])//瓶装星光
 
     event.add(Item.of("immersiveengineering:blueprint",{
         "immersiveengineering:blueprint":"automatons"
     }),[
-        Text.translate("essenceodyssey.info.blueprint_automatons")
+        Text.translate("kubejs.info.blueprint_automatons")
     ])//自动机狼蓝图
     
     event.add(Item.of("immersiveengineering:blueprint",{
         "immersiveengineering:blueprint":"specialBullet"
     }),[
-        Text.translate("essenceodyssey.info.blueprint_special_bullet")
+        Text.translate("kubejs.info.blueprint_special_bullet")
     ])//特种子弹蓝图
 })

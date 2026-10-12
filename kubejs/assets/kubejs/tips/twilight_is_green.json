@@ -2,6 +2,6 @@
   "type": "tipsmod:simple",
   "text": {
     "color": "green",
-    "translate": "essenceodyssey.tips.twilight_is_green"
+    "translate": "kubejs.tips.twilight_is_green"
   }
 }

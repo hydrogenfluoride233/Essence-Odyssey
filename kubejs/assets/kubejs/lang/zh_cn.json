@@ -293,7 +293,20 @@
 
 
   "item.kubejs.perditio_scribe_tool.tooltip":"§7铭文已现……§r",
-  "item.kubejs.ordo_scribe_tool.tooltip":"§7铭文已现……§r"
+  "item.kubejs.ordo_scribe_tool.tooltip":"§7铭文已现……§r",
 
 
+  "kubejs.tips.aether_is_yellow":"§e来自天境的提示是黄色的！",
+  "kubejs.tips.twilight_is_green":"§a来自暮色森林的提示是绿色的！",
+  "kubejs.tips.zz_test_a":"【测试A】这条来自 kubejs 命名空间 —— 谁能读到我？",
+  "kubejs.info.aura_bottle_overworld":"用瓶与塞收集主世界的灵气。",
+  "kubejs.info.aura_bottle_nether":"用瓶与塞收集下界的灵气。",
+  "kubejs.info.aura_bottle_end":"用瓶与塞收集末地的灵气。",
+  "kubejs.info.aura_bottle_aether":"用瓶与塞收集天境的灵气。",
+  "kubejs.info.aura_bottle_twilight_forest":"用瓶与塞收集暮色森林的灵气。",
+  "kubejs.info.aura_bottle_starlight":"用瓶与塞收集永恒星光的灵气。",
+  "kubejs.info.blueprint_automatons":"从试炼密室宝库中获得。",
+  "kubejs.info.blueprint_special_bullet":"与军械工人村民交易，或在工程师小屋箱子中获得。",
+  "kubejs.info.mmcr_imbuement_ports":"在多方块结构中，上下两个面的边框可以换成物品输入/输出总线或魔源输入接口。",
+  "kubejs.info.mmcr_imbuement_parallel":"奥术核心下方的那一格可以换成并行器。"
 }
