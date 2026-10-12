@@ -223,9 +223,6 @@
   "item.kubejs.ritual_tree":"仪式：封装森林仪式",
   "item.kubejs.ritual_tree.tooltip":"封装森林仪式",
 
-  "item.naturesaura.aura_bottle.kubejs:aether":"瓶装曙光",
-  "item.naturesaura.aura_bottle.kubejs:twilight_forest":"瓶装暮光",
-  "item.naturesaura.aura_bottle.kubejs:starlight":"瓶装星光",
 
   "alias.kubejs.aqua_fluid":"水之流体",
   "alias.kubejs.ignis_fluid":"火之流体",
@@ -296,11 +293,7 @@
 
 
   "item.kubejs.perditio_scribe_tool.tooltip":"§7铭文已现……§r",
-  "item.kubejs.ordo_scribe_tool.tooltip":"§7铭文已现……§r",
+  "item.kubejs.ordo_scribe_tool.tooltip":"§7铭文已现……§r"
 
-  "machine.mmcr.industrial_imbuement":"工业灌注室",
-  "recipe_pool.mmcr.industrial_imbuement":"工业灌注室",
-  "item.mmcr.industrial_imbuement_controller":"工业灌注室控制器",
-  "block.mmcr.industrial_imbuement_controller":"工业灌注室控制器"
 
 }
