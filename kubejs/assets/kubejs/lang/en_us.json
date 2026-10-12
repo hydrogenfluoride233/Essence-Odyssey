@@ -314,4 +314,5 @@
   "machine.mmcr.industrial_imbuement":"Industrial Imbuement Chamber",
 
   "kubejs.info.mmcr_imbuement_ports":"In the multiblock structure, the rim of both the top and bottom faces can be replaced with an Item Input/Output Bus or a Source Input Interface.",
-  "kubejs.info.mmcr_imbuement_parallel":"The block below the Arcane Core can be replaced with a Parallel Controller.",
+  "kubejs.info.mmcr_imbuement_parallel":"The block below the Arcane Core can be replaced with a Parallel Controller."
+}
