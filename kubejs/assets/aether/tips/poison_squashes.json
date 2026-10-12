@@ -3,11 +3,5 @@
   "text": {
     "color": "yellow",
     "translate": "aether.pro_tips.line.deep_aether.poison_squashes"
-  },
-  "title": {
-    "bold": true,
-    "color": "yellow",
-    "translate": "tipsmod.title.default",
-    "underlined": true
   }
 }

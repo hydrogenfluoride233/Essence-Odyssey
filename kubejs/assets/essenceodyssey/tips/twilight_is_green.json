@@ -3,11 +3,5 @@
   "text": {
     "color": "green",
     "translate": "essenceodyssey.tips.twilight_is_green"
-  },
-  "title": {
-    "bold": true,
-    "color": "yellow",
-    "translate": "tipsmod.title.default",
-    "underlined": true
   }
 }

@@ -3,11 +3,5 @@
   "text": {
     "color": "gold",
     "translate": "essenceodyssey.tips.bee_fbi"
-  },
-  "title": {
-    "bold": true,
-    "color": "yellow",
-    "translate": "tipsmod.title.default",
-    "underlined": true
   }
 }

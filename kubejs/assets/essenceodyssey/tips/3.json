@@ -3,11 +3,5 @@
   "text": {
     "color": "aqua",
     "translate": "essenceodyssey.tips.3"
-  },
-  "title": {
-    "bold": true,
-    "color": "yellow",
-    "translate": "tipsmod.title.default",
-    "underlined": true
   }
 }

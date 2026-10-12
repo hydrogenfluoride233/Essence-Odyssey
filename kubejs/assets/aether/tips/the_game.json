@@ -3,11 +3,5 @@
   "text": {
     "color": "yellow",
     "translate": "aether.pro_tips.line.aether.the_game"
-  },
-  "title": {
-    "bold": true,
-    "color": "yellow",
-    "translate": "tipsmod.title.default",
-    "underlined": true
   }
 }

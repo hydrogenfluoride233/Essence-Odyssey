@@ -1,3 +1,6 @@
 {
   "machine.mmcr.industrial_imbuement":"Industrial Imbuement Chamber"
+  ,"recipe_pool.mmcr.industrial_imbuement":"Industrial Imbuement Chamber"
+  ,"item.mmcr.industrial_imbuement_controller":"Industrial Imbuement Chamber Controller"
+  ,"block.mmcr.industrial_imbuement_controller":"Industrial Imbuement Chamber Controller"
 }

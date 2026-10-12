@@ -3,11 +3,5 @@
   "text": {
     "color": "yellow",
     "translate": "essenceodyssey.tips.aether_is_yellow"
-  },
-  "title": {
-    "bold": true,
-    "color": "yellow",
-    "translate": "tipsmod.title.default",
-    "underlined": true
   }
 }
