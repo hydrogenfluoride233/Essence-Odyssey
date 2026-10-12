@@ -325,7 +325,7 @@
   ,"kubejs.tips.jei_bookmark":"对某个原料按 A 可以将其加入书签。"
   ,"kubejs.tips.jei_search_mod":"使用 @ 作为前缀可以按模组搜索物品。"
   ,"kubejs.tips.jei_search_tag":"使用 # 作为前缀可以按标签搜索物品，但要注意剔除命名空间。"
-  ,"kubejs.tips.ponder_w":"押[W]则格物。"
+  ,"kubejs.tips.ponder_w":"押[W]以格物。"
   ,"kubejs.tips.nuclear_easy":"核电，轻而易举啊！"
   ,"kubejs.tips.bee_fbi":"蜜蜂也有未成年保护法！试图在繁殖箱中繁殖幼年蜜蜂时会生成 F. Bee I.！"
 }
