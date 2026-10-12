@@ -2,7 +2,7 @@
   "type": "tipsmod:simple",
   "text": {
     "color": "gold",
-    "translate": "kubejs.tips.author_gold"
+    "translate": "essenceodyssey.tips.author_gold"
   },
   "title": {
     "bold": true,

@@ -1,8 +1,7 @@
 {
   "type": "tipsmod:simple",
   "text": {
-    "color": "gold",
-    "translate": "kubejs.tips.bee_fbi"
+    "translate": "essenceodyssey.tips.test_a"
   },
   "title": {
     "bold": true,

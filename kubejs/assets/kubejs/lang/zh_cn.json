@@ -318,14 +318,4 @@
 
   "kubejs.info.mmcr_imbuement_ports":"在多方块结构中，上下两个面的边框可以换成物品输入/输出总线或魔源输入接口。",
   "kubejs.info.mmcr_imbuement_parallel":"奥术核心下方的那一格可以换成并行器。"
-  ,"kubejs.tips.twilight_is_green":"§a来自暮色森林的提示是绿色的！"
-  ,"kubejs.tips.aether_is_yellow":"§e来自天境的提示是黄色的！"
-  ,"kubejs.tips.test_a":"【测试A】这条来自 kubejs 命名空间 —— 谁能读到我？"
-  ,"kubejs.tips.author_gold":"来自作者的提示是金色的！"
-  ,"kubejs.tips.jei_bookmark":"对某个原料按 A 可以将其加入书签。"
-  ,"kubejs.tips.jei_search_mod":"使用 @ 作为前缀可以按模组搜索物品。"
-  ,"kubejs.tips.jei_search_tag":"使用 # 作为前缀可以按标签搜索物品，但要注意剔除命名空间。"
-  ,"kubejs.tips.ponder_w":"押[W]以格物。"
-  ,"kubejs.tips.nuclear_easy":"核电，轻而易举啊！"
-  ,"kubejs.tips.bee_fbi":"蜜蜂也有未成年保护法！试图在繁殖箱中繁殖幼年蜜蜂时会生成 F. Bee I.！"
 }

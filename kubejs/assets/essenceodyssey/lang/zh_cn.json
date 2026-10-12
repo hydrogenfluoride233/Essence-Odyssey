@@ -1,0 +1,12 @@
+{
+  "essenceodyssey.tips.twilight_is_green":"§a来自暮色森林的提示是绿色的！",
+  "essenceodyssey.tips.aether_is_yellow":"§e来自天境的提示是黄色的！",
+  "essenceodyssey.tips.test_a":"【测试A】这条来自 kubejs 命名空间 —— 谁能读到我？",
+  "essenceodyssey.tips.author_gold":"来自作者的提示是金色的！",
+  "essenceodyssey.tips.jei_bookmark":"对某个原料按 A 可以将其加入书签。",
+  "essenceodyssey.tips.jei_search_mod":"使用 @ 作为前缀可以按模组搜索物品。",
+  "essenceodyssey.tips.jei_search_tag":"使用 # 作为前缀可以按标签搜索物品，但要注意剔除命名空间。",
+  "essenceodyssey.tips.ponder_w":"押[W]以格物。",
+  "essenceodyssey.tips.nuclear_easy":"核电，轻而易举啊！",
+  "essenceodyssey.tips.bee_fbi":"蜜蜂也有未成年保护法！试图在繁殖箱中繁殖幼年蜜蜂时会生成 F. Bee I.！"
+}

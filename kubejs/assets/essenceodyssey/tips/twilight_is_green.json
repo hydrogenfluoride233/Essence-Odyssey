@@ -1,8 +1,8 @@
 {
   "type": "tipsmod:simple",
   "text": {
-    "color": "gold",
-    "translate": "kubejs.tips.ponder_w"
+    "color": "green",
+    "translate": "essenceodyssey.tips.twilight_is_green"
   },
   "title": {
     "bold": true,

@@ -1,8 +1,8 @@
 {
   "type": "tipsmod:simple",
   "text": {
-    "color": "gold",
-    "translate": "kubejs.tips.jei_search_tag"
+    "color": "yellow",
+    "translate": "essenceodyssey.tips.aether_is_yellow"
   },
   "title": {
     "bold": true,
