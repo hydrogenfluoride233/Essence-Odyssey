@@ -318,4 +318,5 @@
 
   "kubejs.info.mmcr_imbuement_ports":"在多方块结构中，上下两个面的边框可以换成物品输入/输出总线或魔源输入接口。",
   "kubejs.info.mmcr_imbuement_parallel":"奥术核心下方的那一格可以换成并行器。"
+  ,"kubejs.info.ie_steel_block":"搭建多方块结构时，可以替换为通用机械的钢块。"
 }
