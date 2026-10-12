@@ -19,4 +19,6 @@
   ,"essenceodyssey.tips.lilypad":"Bonemeal a Starlit Lily Pad to bring it back into bloom."
   ,"essenceodyssey.tips.ancient_sapling":"Sniffers can sometimes dig up an Ashen Sapling."
   ,"essenceodyssey.tips.8":"Gugu, gaga! — Feibi Jiubi"
+  ,"essenceodyssey.info.steel_block":"JEI only shows the Immersive Engineering steel block, but Mekanism's Block of Steel works too."
+  ,"essenceodyssey.info.steel_block.detail":"When building Immersive Engineering multiblocks, JEI only lists the IE steel block - but Mekanism's Block of Steel works too. Both belong to the same material tag, so they are interchangeable."
 }

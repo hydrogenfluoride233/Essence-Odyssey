@@ -19,4 +19,6 @@
   ,"essenceodyssey.tips.lilypad":"可以使用骨粉催生星照睡莲，让它再度盛开！"
   ,"essenceodyssey.tips.ancient_sapling":"嗅探兽有时可以刨挖出苍灰树苗。"
   ,"essenceodyssey.tips.8":"咕咕嘎嘎！——菲比啾比"
+  ,"essenceodyssey.info.steel_block":"JEI 里只显示沉浸的钢块，但也可以用通用机械的钢块。"
+  ,"essenceodyssey.info.steel_block.detail":"搭建沉浸工程的多方块结构时，JEI 里只显示沉浸的钢块，但也可以用通用机械的钢块。两种钢块属于同一种材料（同一个标签），所以能互换。"
 }
