@@ -7,34 +7,34 @@
   "essenceodyssey.tips.jei_search_tag":"Prefix a search with # to search items by tag - but remember to drop the namespace.",
   "essenceodyssey.tips.ponder_w":"By [W] doth one ponder.",
   "essenceodyssey.tips.nuclear_easy":"This one is a Chinese joke — sorry, it doesn't survive translation.",
-  "essenceodyssey.tips.bee_fbi":"Bees have child-protection laws too! Try breeding two baby bees in a breeding chamber and you'll summon the F. Bee I.!"
-  ,"essenceodyssey.tips.2":"You can add a spacer to the cogwheel by right-clicking the cogwheel with the andesite_casing — XiaoY"
-  ,"essenceodyssey.tips.3":"The Touhou litle maid can do a lot of things for you, like... shake the hand_crank! — XiaoY"
-  ,"essenceodyssey.tips.4":"The author's tip is golden. — lvhuana"
-  ,"essenceodyssey.tips.test":"Test case (please delete) — luwyaaaaaa"
-  ,"essenceodyssey.tips.5":"To get some rice at the user! — Cobalt Blue"
-  ,"essenceodyssey.tips.6":"Who wouldn't want a silly winefox that eats for free? — XiaoY"
-  ,"essenceodyssey.tips.7":"I've checked in today. I'm waiting for you~ [This message type is not supported yet. Please view it on mobile QQ.] — cabbage_of_67"
-  ,"essenceodyssey.tips.lilypad":"Bonemeal a Starlit Lily Pad to bring it back into bloom."
-  ,"essenceodyssey.tips.ancient_sapling":"Sniffers can sometimes dig up an Ashen Sapling."
-  ,"essenceodyssey.tips.8":"Gugu, gaga! — Feibi Jiubi"
-  ,"essenceodyssey.info.steel_block":"JEI only shows the Immersive Engineering steel block, but Mekanism's Block of Steel works too."
-  ,"essenceodyssey.info.steel_block.detail":"When building Immersive Engineering multiblocks, JEI only lists the IE steel block - but Mekanism's Block of Steel works too. Both belong to the same material tag, so they are interchangeable."
-  ,"essenceodyssey.tips.lock":"Items not yet complemented in the Eternal Starlight will have an additional lock icon rendered in the upper left corner of their respective inventory slots."
-  ,"essenceodyssey.tips.zz_test_a":"[Test A] from the kubejs namespace — who can read me?"
-  ,"essenceodyssey.info.aerogel.detail":"Formed by placing lava in the Aether."
-  ,"essenceodyssey.info.aersmog.detail":"Formed where water and poison meet."
-  ,"essenceodyssey.info.mysterious_cube.detail":"No tool you have can break the mysterious block in the meteorite — no pick pries it loose, no explosion leaves a mark."
-  ,"essenceodyssey.info.starcore_light.detail":"Right-click a Block of Blazing Starcore with any pickaxe to turn it into a brighter Starcore Light."
-  ,"essenceodyssey.info.blazing_starcore_block.detail":"Place a Block of Starcore near lava (a fluid source) and it will turn into a Block of Blazing Starcore."
-  ,"essenceodyssey.info.mmcr_imbuement_ports":"In the multiblock structure, the rim of both the top and bottom faces can be replaced with an Item Input/Output Bus or a Source Input Interface."
-  ,"essenceodyssey.info.mmcr_imbuement_parallel":"The block below the Arcane Core can be replaced with a Parallel Controller."
-  ,"essenceodyssey.info.aura_bottle_overworld":"Collect aura using a Bottle and Cork in the Overworld."
-  ,"essenceodyssey.info.aura_bottle_nether":"Collect aura using a Bottle and Cork in the Nether."
-  ,"essenceodyssey.info.aura_bottle_end":"Collect aura using a Bottle and Cork in the End."
-  ,"essenceodyssey.info.aura_bottle_aether":"Collect aura using a Bottle and Cork in the Aether."
-  ,"essenceodyssey.info.aura_bottle_twilight_forest":"Collect aura using a Bottle and Cork in the Twilight Forest."
-  ,"essenceodyssey.info.aura_bottle_starlight":"Collect aura using a Bottle and Cork in Eternal Starlight."
-  ,"essenceodyssey.info.blueprint_automatons":"Obtained from vaults in trial chambers."
-  ,"essenceodyssey.info.blueprint_special_bullet":"Traded with a Gunsmith villager, or found in chests in an Engineer's House."
+  "essenceodyssey.tips.bee_fbi":"Bees have child-protection laws too! Try breeding two baby bees in a breeding chamber and you'll summon the F. Bee I.!",
+  "essenceodyssey.tips.2":"You can add a spacer to the cogwheel by right-clicking the cogwheel with the andesite_casing — XiaoY",
+  "essenceodyssey.tips.3":"The Touhou litle maid can do a lot of things for you, like... shake the hand_crank! — XiaoY",
+  "essenceodyssey.tips.4":"The author's tip is golden. — lvhuana",
+  "essenceodyssey.tips.test":"Test case (please delete) — luwyaaaaaa",
+  "essenceodyssey.tips.5":"To get some rice at the user! — Cobalt Blue",
+  "essenceodyssey.tips.6":"Who wouldn't want a silly winefox that eats for free? — XiaoY",
+  "essenceodyssey.tips.7":"I've checked in today. I'm waiting for you~ [This message type is not supported yet. Please view it on mobile QQ.] — cabbage_of_67",
+  "essenceodyssey.tips.lilypad":"Bonemeal a Starlit Lily Pad to bring it back into bloom.",
+  "essenceodyssey.tips.ancient_sapling":"Sniffers can sometimes dig up an Ashen Sapling.",
+  "essenceodyssey.tips.8":"Gugu, gaga! — Feibi Jiubi",
+  "essenceodyssey.info.steel_block":"JEI only shows the Immersive Engineering steel block, but Mekanism's Block of Steel works too.",
+  "essenceodyssey.info.steel_block.detail":"When building Immersive Engineering multiblocks, JEI only lists the IE steel block - but Mekanism's Block of Steel works too. Both belong to the same material tag, so they are interchangeable.",
+  "essenceodyssey.tips.lock":"Items not yet complemented in the Eternal Starlight will have an additional lock icon rendered in the upper left corner of their respective inventory slots.",
+  "essenceodyssey.tips.zz_test_a":"[Test A] from the kubejs namespace — who can read me?",
+  "essenceodyssey.info.aerogel.detail":"Formed by placing lava in the Aether.",
+  "essenceodyssey.info.aersmog.detail":"Formed where water and poison meet.",
+  "essenceodyssey.info.mysterious_cube.detail":"No tool you have can break the mysterious block in the meteorite — no pick pries it loose, no explosion leaves a mark.",
+  "essenceodyssey.info.starcore_light.detail":"Right-click a Block of Blazing Starcore with any pickaxe to turn it into a brighter Starcore Light.",
+  "essenceodyssey.info.blazing_starcore_block.detail":"Place a Block of Starcore near lava (a fluid source) and it will turn into a Block of Blazing Starcore.",
+  "essenceodyssey.info.mmcr_imbuement_ports":"In the multiblock structure, the rim of both the top and bottom faces can be replaced with an Item Input/Output Bus or a Source Input Interface.",
+  "essenceodyssey.info.mmcr_imbuement_parallel":"The block below the Arcane Core can be replaced with a Parallel Controller.",
+  "essenceodyssey.info.aura_bottle_overworld":"Collect aura using a Bottle and Cork in the Overworld.",
+  "essenceodyssey.info.aura_bottle_nether":"Collect aura using a Bottle and Cork in the Nether.",
+  "essenceodyssey.info.aura_bottle_end":"Collect aura using a Bottle and Cork in the End.",
+  "essenceodyssey.info.aura_bottle_aether":"Collect aura using a Bottle and Cork in the Aether.",
+  "essenceodyssey.info.aura_bottle_twilight_forest":"Collect aura using a Bottle and Cork in the Twilight Forest.",
+  "essenceodyssey.info.aura_bottle_starlight":"Collect aura using a Bottle and Cork in Eternal Starlight.",
+  "essenceodyssey.info.blueprint_automatons":"Obtained from vaults in trial chambers.",
+  "essenceodyssey.info.blueprint_special_bullet":"Traded with a Gunsmith villager, or found in chests in an Engineer's House."
 }
