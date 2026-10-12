@@ -447,6 +447,7 @@
 		}
 		{
 			dependencies: ["4E8041B1FBD6669F"]
+			hide_until_deps_complete: false
 			icon: {
 				id: "minecraft:end_portal_frame"
 			}
@@ -475,6 +476,7 @@
 		}
 		{
 			dependencies: ["6D1E3B2DB0CF6EB6"]
+			hide_until_deps_complete: false
 			id: "77CCF6E3CA3E9F38"
 			optional: true
 			rewards: [{
@@ -615,6 +617,7 @@
 		}
 		{
 			dependencies: ["0DF94450C70D2259"]
+			hide_until_deps_complete: false
 			icon: {
 				id: "minecraft:crafting_table"
 			}
@@ -642,6 +645,7 @@
 		}
 		{
 			dependencies: ["031C571BBFFCE0B6"]
+			hide_until_deps_complete: false
 			icon: {
 				id: "minecraft:netherrack"
 			}
@@ -669,6 +673,7 @@
 		}
 		{
 			dependencies: ["217A0236C9312C68"]
+			hide_until_deps_complete: false
 			icon: {
 				id: "twilightdelight:twilight_cake"
 			}
@@ -695,6 +700,7 @@
 		}
 		{
 			dependencies: ["0258FA1C2F0406EA"]
+			hide_until_deps_complete: false
 			icon: {
 				id: "aether:aether_portal_frame"
 			}

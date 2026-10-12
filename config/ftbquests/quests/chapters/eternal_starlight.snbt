@@ -10,16 +10,31 @@
 	images: [ ]
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["7D30D0CD5F0F151E"]
-		hide_until_deps_complete: true
-		id: "1C2C86D965817F76"
-		tasks: [{
-			id: "24C7925DAC11F1A8"
-			item: { count: 1, id: "eternal_starlight:orb_of_prophecy" }
-			type: "item"
-		}]
-		x: -2.0d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["0A739937D1D185C7"]
+			hide_until_deps_complete: true
+			id: "1C2C86D965817F76"
+			tasks: [{
+				id: "24C7925DAC11F1A8"
+				item: { count: 1, id: "eternal_starlight:orb_of_prophecy" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D30D0CD5F0F151E"]
+			icon: {
+				id: "eternal_starlight:chiseled_voidstone"
+			}
+			id: "0A739937D1D185C7"
+			tasks: [{
+				id: "1A8BEDAAA27F7163"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+	]
 }
