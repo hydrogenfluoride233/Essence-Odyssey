@@ -1,0 +1,13 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "color": "white",
+    "translate": "essenceodyssey.tips.test"
+  },
+  "title": {
+    "bold": true,
+    "color": "yellow",
+    "translate": "tipsmod.title.default",
+    "underlined": true
+  }
+}
