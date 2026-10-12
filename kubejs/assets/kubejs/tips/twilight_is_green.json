@@ -1,0 +1,13 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "color": "green",
+    "translate": "kubejs.tips.twilight_is_green"
+  },
+  "title": {
+    "bold": true,
+    "color": "yellow",
+    "translate": "tipsmod.title.default",
+    "underlined": true
+  }
+}

@@ -318,4 +318,6 @@
 
   "kubejs.info.mmcr_imbuement_ports":"在多方块结构中，上下两个面的边框可以换成物品输入/输出总线或魔源输入接口。",
   "kubejs.info.mmcr_imbuement_parallel":"奥术核心下方的那一格可以换成并行器。"
+  ,"kubejs.tips.twilight_is_green":"§a来自暮色森林的提示是绿色的！"
+  ,"kubejs.tips.aether_is_yellow":"§e来自天境的提示是黄色的！"
 }
