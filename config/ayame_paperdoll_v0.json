@@ -1,0 +1,45 @@
+{
+  "ayame_paperdoll:general": {
+    "ayame_paperdoll:display_paperdoll": true,
+    "ayame_paperdoll:rotation_mode": "LOCK",
+    "ayame_paperdoll:offset_x": 0.08,
+    "ayame_paperdoll:offset_y": 0.23,
+    "ayame_paperdoll:rotation_x": -4.96,
+    "ayame_paperdoll:rotation_y": -4.96,
+    "ayame_paperdoll:rotation_z": 0.0,
+    "ayame_paperdoll:size": 0.1,
+    "ayame_paperdoll:mirrored": true
+  },
+  "ayame_paperdoll:rotations": {
+    "ayame_paperdoll:pitch": 0.0,
+    "ayame_paperdoll:pitch_range": 20.0,
+    "ayame_paperdoll:head_yaw": -7.5,
+    "ayame_paperdoll:head_yaw_range": 0.0,
+    "ayame_paperdoll:body_yaw": 0.0,
+    "ayame_paperdoll:body_yaw_range": 0.0
+  },
+  "ayame_paperdoll:postures": {
+    "ayame_paperdoll:pose_offset_method": "AUTO",
+    "ayame_paperdoll:sneak_offset_y": -0.35,
+    "ayame_paperdoll:swim_crawl_offset_y": -1.22,
+    "ayame_paperdoll:elytra_offset_y": -1.22
+  },
+  "ayame_paperdoll:details": {
+    "ayame_paperdoll:hurt_flash": true,
+    "ayame_paperdoll:swing_hands": true,
+    "ayame_paperdoll:light_degree": 0.0,
+    "ayame_paperdoll:use_world_light": true,
+    "ayame_paperdoll:world_light_min": 2,
+    "ayame_paperdoll:render_vehicle": true,
+    "ayame_paperdoll:pause_game_on_config_screen": true,
+    "ayame_paperdoll:disable_config_screen_blur": true,
+    "ayame_paperdoll:visible_during_activity": true,
+    "ayame_paperdoll:hide_under_debug": true,
+    "ayame_paperdoll:hide_on_screen_open": false,
+    "ayame_paperdoll:spectator_auto_switch": true,
+    "ayame_paperdoll:player_name": ""
+  },
+  "ayame_paperdoll:hidden": {
+    "ayame_paperdoll:last_config_tab_idx": 3
+  }
+}
