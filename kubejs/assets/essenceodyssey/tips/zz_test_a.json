@@ -1,7 +1,8 @@
 {
   "type": "tipsmod:simple",
   "text": {
-    "translate": "essenceodyssey.tips.test_a"
+    "color": "white",
+    "translate": "essenceodyssey.tips.zz_test_a"
   },
   "title": {
     "bold": true,

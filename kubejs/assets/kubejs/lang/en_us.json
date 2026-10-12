@@ -294,25 +294,10 @@
 
   "alias.kubejs.thaumon_mutagen":"Salis Mundus",
 
-  "kubejs.info.aura_bottle_overworld":"Collect aura using a Bottle and Cork in the Overworld.",
-  "kubejs.info.aura_bottle_nether":"Collect aura using a Bottle and Cork in the Nether.",
-  "kubejs.info.aura_bottle_end":"Collect aura using a Bottle and Cork in the End.",
-  "kubejs.info.aura_bottle_aether":"Collect aura using a Bottle and Cork in the Aether.",
-  "kubejs.info.aura_bottle_twilight_forest":"Collect aura using a Bottle and Cork in the Twilight Forest.",
-  "kubejs.info.aura_bottle_starlight":"Collect aura using a Bottle and Cork in Eternal Starlight.",
-  "kubejs.info.aerogel":"Formed by placing lava in the Aether.",
-  "kubejs.info.aersmog":"Formed where water and poison meet.",
-  "kubejs.info.mysterious_cube":"No tool you have can break the mysterious block in the meteorite — no pick pries it loose, no explosion leaves a mark.",
-  "kubejs.info.starcore_light":"Right-click a Block of Blazing Starcore with any pickaxe to turn it into a brighter Starcore Light.",
-  "kubejs.info.blazing_starcore_block":"Place a Block of Starcore near lava (a fluid source) and it will turn into a Block of Blazing Starcore.",
-  "kubejs.info.blueprint_automatons":"Obtained from vaults in trial chambers.",
-  "kubejs.info.blueprint_special_bullet":"Traded with a Gunsmith villager, or found in chests in an Engineer's House.",
 
   "item.kubejs.perditio_scribe_tool.tooltip":"§7The writing is on the wall...§r",
   "item.kubejs.ordo_scribe_tool.tooltip":"§7The writing is on the wall...§r",
 
-  "machine.mmcr.industrial_imbuement":"Industrial Imbuement Chamber",
+  "machine.mmcr.industrial_imbuement":"Industrial Imbuement Chamber"
 
-  "kubejs.info.mmcr_imbuement_ports":"In the multiblock structure, the rim of both the top and bottom faces can be replaced with an Item Input/Output Bus or a Source Input Interface.",
-  "kubejs.info.mmcr_imbuement_parallel":"The block below the Arcane Core can be replaced with a Parallel Controller."
 }

@@ -21,7 +21,7 @@ const parseImbuementOutput = result=>{                          //"4x 物品id" 
 }
 
 ServerEvents.recipes(event=>{
-    //工业灌注室（MMCR）
+    //工业灌注室
     //格式:[输入,输出,魔源,配方名]
     const ImbuementList = [
         [
@@ -111,12 +111,6 @@ ServerEvents.recipes(event=>{
                 }
             ]
         }).id(`mmcr:industrial_imbuement/${name}`)
-    )//灌注
+    )
 })
 
-ItemEvents.modifyTooltips(event=>{
-    event.add("mmcr:industrial_imbuement_controller", [
-        Text.translatable("kubejs.info.mmcr_imbuement_ports"),
-        Text.translatable("kubejs.info.mmcr_imbuement_parallel")
-    ])//控制器：告诉玩家哪些位置可换
-})
