@@ -221,7 +221,8 @@
   "item.kubejs.ritual_astral_3":"Ritual: Iridescent Altar",
   "item.kubejs.ritual_astral_3.tooltip":"Iridescent Altar",
   "item.kubejs.ritual_tree":"Ritual: Packaged Forest Ritual",
-  "item.kubejs.ritual_tree.tooltip":"Packaged Forest Ritual",,,,
+  "item.kubejs.ritual_tree.tooltip":"Packaged Forest Ritual",
+
 
   "alias.kubejs.aqua_fluid":"Water Aspect Fluid",
   "alias.kubejs.ignis_fluid":"Fire Aspect Fluid",
@@ -293,5 +294,6 @@
 
   "item.kubejs.perditio_scribe_tool.tooltip":"§7The writing is on the wall...§r",
   "item.kubejs.ordo_scribe_tool.tooltip":"§7The writing is on the wall...§r"
+
 
 }

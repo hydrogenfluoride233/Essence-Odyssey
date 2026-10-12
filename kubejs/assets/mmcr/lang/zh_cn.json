@@ -1,6 +1,6 @@
 {
-  ,"machine.mmcr.industrial_imbuement":"工业灌注室"
-  ,"recipe_pool.mmcr.industrial_imbuement":"工业灌注室"
-  ,"item.mmcr.industrial_imbuement_controller":"工业灌注室控制器"
-  ,"block.mmcr.industrial_imbuement_controller":"工业灌注室控制器"
+  "machine.mmcr.industrial_imbuement":"工业灌注室",
+  "recipe_pool.mmcr.industrial_imbuement":"工业灌注室",
+  "item.mmcr.industrial_imbuement_controller":"工业灌注室控制器",
+  "block.mmcr.industrial_imbuement_controller":"工业灌注室控制器"
 }
