@@ -13,6 +13,7 @@ RecipeViewerEvents.addInformation("item",event=>{
     }),[
         Text.translate("essenceodyssey.info.aura_bottle_overworld")
     ])//瓶装阳光
+
     event.add(Item.of("naturesaura:aura_bottle",{
         "naturesaura:aura_bottle_data":{
             aura_type:"naturesaura:nether"
@@ -20,6 +21,7 @@ RecipeViewerEvents.addInformation("item",event=>{
     }),[
         Text.translate("essenceodyssey.info.aura_bottle_nether")
     ])//瓶装鬼魂
+
     event.add(Item.of("naturesaura:aura_bottle",{
         "naturesaura:aura_bottle_data":{
             aura_type:"naturesaura:end"
@@ -27,6 +29,7 @@ RecipeViewerEvents.addInformation("item",event=>{
     }),[
         Text.translate("essenceodyssey.info.aura_bottle_end")
     ])//瓶装黑暗
+
     event.add(Item.of("naturesaura:aura_bottle",{
         "naturesaura:aura_bottle_data":{
             aura_type:"kubejs:aether"
@@ -34,6 +37,7 @@ RecipeViewerEvents.addInformation("item",event=>{
     }),[
         Text.translate("essenceodyssey.info.aura_bottle_aether")
     ])//瓶装曙光
+
     event.add(Item.of("naturesaura:aura_bottle",{
         "naturesaura:aura_bottle_data":{
             aura_type:"kubejs:twilight_forest"
@@ -41,6 +45,7 @@ RecipeViewerEvents.addInformation("item",event=>{
     }),[
         Text.translate("essenceodyssey.info.aura_bottle_twilight_forest")
     ])//瓶装暮光
+
     event.add(Item.of("naturesaura:aura_bottle",{
         "naturesaura:aura_bottle_data":{
             aura_type:"kubejs:starlight"
@@ -48,11 +53,13 @@ RecipeViewerEvents.addInformation("item",event=>{
     }),[
         Text.translate("essenceodyssey.info.aura_bottle_starlight")
     ])//瓶装星光
+
     event.add(Item.of("immersiveengineering:blueprint",{
         "immersiveengineering:blueprint":"automatons"
     }),[
         Text.translate("essenceodyssey.info.blueprint_automatons")
     ])//自动机狼蓝图
+    
     event.add(Item.of("immersiveengineering:blueprint",{
         "immersiveengineering:blueprint":"specialBullet"
     }),[
