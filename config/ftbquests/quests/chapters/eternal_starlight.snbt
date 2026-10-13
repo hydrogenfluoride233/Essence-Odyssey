@@ -15,6 +15,7 @@
 			dependencies: ["0A739937D1D185C7"]
 			hide_until_deps_complete: true
 			id: "1C2C86D965817F76"
+			shape: "gear"
 			tasks: [{
 				id: "24C7925DAC11F1A8"
 				item: { count: 1, id: "eternal_starlight:orb_of_prophecy" }
@@ -35,6 +36,51 @@
 			}]
 			x: -4.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["1C2C86D965817F76"]
+			id: "741E600F39DCCE9F"
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				icon: {
+					id: "eternal_starlight:lunar_sapling"
+				}
+				id: "4187313DDDBF9184"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "13CD116177901DE8"
+			tasks: [{
+				id: "4B1FD57FBA7D8BBE"
+				item: { count: 1, id: "eternal_starlight:dusted_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["791B7C1CD2D53F4E"]
+			id: "186D50D15BDE751E"
+			tasks: [{
+				id: "6E99795716873490"
+				item: { count: 1, id: "eternal_starlight:flowglaze" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "791B7C1CD2D53F4E"
+			tasks: [{
+				id: "5B3117DA64BEDEB1"
+				item: { count: 1, id: "eternal_starlight:starfire" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
 		}
 	]
 }

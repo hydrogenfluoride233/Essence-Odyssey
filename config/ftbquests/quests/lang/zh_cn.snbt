@@ -84,7 +84,7 @@
 		"整合包中的频道数是默认的两倍。"
 	]
 	quest.0447158FB18F70D5.title: "AE2说明"
-	quest.04AE1E7E0CAA5837.quest_desc: ["钻石不是必需品，只是大多数人以为它是。"]
+	quest.04AE1E7E0CAA5837.quest_desc: ["&o钻石不是必需品，只是大多数人以为它是。&r"]
 	quest.04AE1E7E0CAA5837.title: "以防你挖不到钻石"
 	quest.04C5D1E537383AFD.quest_desc: [
 		"&o把混沌结晶放进灌注室，魔源会先把它浸透。&r"
@@ -212,6 +212,7 @@
 		"或许以后会有&a更好的方法&r生产精密构件？"
 	]
 	quest.1307B2956D04D7A2.title: "精密构件"
+	quest.13CD116177901DE8.quest_desc: ["破坏蒙尘沙砾后有一定概率掉落。"]
 	quest.13DA290A6AFCB1C4.quest_desc: ["用于合成暮色锭的催化剂。同时也是你完全征服了暮色森林的证明。"]
 	quest.140B027BBF9B47B2.quest_desc: [
 		"&o森林仪式记下了生命面对这个维度时留下的情绪。&r"
@@ -253,6 +254,13 @@
 		"这撮粉末似乎&a不只能做到这些&r。"
 	]
 	quest.177F832B5872D164.title: "起点"
+	quest.186D50D15BDE751E.quest_desc: [
+		"将&a星火&r向暮光沙（或沙子、红沙）投掷后，被命中的方块会转化为粗流璃。"
+		""
+		"粗流璃烧制以后可以获得&a流璃&r。"
+		""
+		"即使不使用带有精准采集附魔的工具破坏流璃，它也能以物品形式正常掉落；它也可以将永冻石装备升级成更强的流璃装备，需要&a锻造模板（流璃升级）&r。"
+	]
 	quest.18DEB55F4DEDB7A3.quest_desc: [
 		"世界并非由某一种力量独自构成。"
 		""
@@ -284,8 +292,8 @@
 		"若你成功击败守门人，他便会掉落&a战利品袋&r，其中包含用于开启星光传送门的&a先知球体&r，以及本模组的指南书&a漠光石板&r；"
 		""
 		"若你在与守门人战斗前已经击败过&a末影龙&r，那么无需战斗他便会直接给予你一个战利品袋。"
-		""
-		"[ \"什么？你说守门人和末影龙你都打不过？!那看看\", { \"text\": \"这张任务卡\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"77CCF6E3CA3E9F38\" } }, \"吧。\" ]"
+		"{@pagebreak}"
+		"[ { \"text\": \"什么？你说守门人和末影龙你都打不过？!那看看\", \"italic\": true }, { \"text\": \"这张任务卡\", \"italic\": true, \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"77CCF6E3CA3E9F38\" } }, { \"text\": \"吧。\", \"italic\": true } ]"
 	]
 	quest.1EA7CB9F4E022E6E.quest_desc: ["在下界中，将紫水晶碎片丢入火焰中。"]
 	quest.1ECEECDD3F1DBB34.quest_desc: ["主要用于为水晶赋能。"]
@@ -466,7 +474,7 @@
 		""
 		"用三样材料与秩序之精华在祭坛上刻下这一笔：从此，&#D8D7F0约束&r与&#D8D7F0重复&r可以被仪式唤起。"
 	]
-	quest.37F411FC6258C723.quest_desc: ["现在你可以知道荧石之门的另一边是什么了。"]
+	quest.37F411FC6258C723.quest_desc: ["&o现在你可以知道荧石之门的另一边是什么了。&r"]
 	quest.37F411FC6258C723.title: "以防你挖不到荧石"
 	quest.380E92E17E92D38B.quest_desc: ["&o&m想要多少应力自己拿（？）&r"]
 	quest.380E92E17E92D38B.quest_subtitle: "蒸汽时代"
@@ -479,7 +487,7 @@
 		"于是你得到土之精华：它不再记得自己压着哪一段年轮，只记得&#56C000沉积&r、&#56C000边界&r、&#56C000生长&r。"
 	]
 	quest.3811626F7A0570C2.title: "土之精华"
-	quest.382FD077B4CB5BA6.quest_desc: ["应该不能吧......"]
+	quest.382FD077B4CB5BA6.quest_desc: ["&o应该不能吧......&r"]
 	quest.382FD077B4CB5BA6.title: "以防你打不过烈焰人和末影人"
 	quest.38F89B3C95DB51AC.quest_desc: ["在天境中，将紫水晶碎片丢入金黄境云中获取。"]
 	quest.397C219C667CE90A.quest_desc: ["用瓶与塞从天境的灵气场里收集来的。"]
@@ -746,7 +754,7 @@
 	quest.636F2AFB3BF2AC31.title: "附魔装置"
 	quest.64DDBFEA863697E9.quest_desc: ["沉浸的机器均得到增强：耗电量减少，处理速度加快。"]
 	quest.64DDBFEA863697E9.title: "金属冲压机"
-	quest.656B7D59A1F6492F.quest_desc: ["这不可能。"]
+	quest.656B7D59A1F6492F.quest_desc: ["&o这不可能。&r"]
 	quest.656B7D59A1F6492F.title: "以防你不知道主世界是什么"
 	quest.6576FFF207EECE9E.quest_desc: [
 		"&o&6卫城的高级守卫，手持三叉戟的海马，拥有强大近身作战技巧与能力的优秀战士。&r"
@@ -796,13 +804,11 @@
 		"这里的回应物是盛开的星照睡莲、结种的石英硫块。"
 		""
 		"在这里，用瓶与塞可以收集到瓶装星光。"
-		""
-		"[ { \"text\": \"这里\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A739937D1D185C7\" } }, \"是永恒星光维度的探索指导\" ]"
 	]
 	quest.6D1E3B2DB0CF6EB6.title: "永恒星光"
 	quest.6DDF94B179429870.quest_desc: [
-		"-弱者才需要这个。"
-		"-是的我就是弱者。"
+		"&o-弱者才需要这个。&r"
+		"&o-是的我就是弱者。&r"
 	]
 	quest.6DDF94B179429870.title: "以防你挖不到黑曜石"
 	quest.6DE914EC13E3D516.quest_desc: [
@@ -836,6 +842,11 @@
 	quest.724CFEFED2FB7209.title: "秩序之精华"
 	quest.72B021AA3E3944F3.quest_desc: ["远古树叶中承载着丰富的灵气，可以在周围灵气场灵气浓度降低时&a缓慢释放&r以补充。"]
 	quest.72B021AA3E3944F3.title: "远古树苗"
+	quest.741E600F39DCCE9F.quest_desc: [
+		"欢迎来到这个神秘莫测的星光维度！这里的一切都在等待着你的到来。"
+		""
+		"&o&a漠光石板&r&o和&a进度系统&r&o会随着你探索的深入来提供相关的索引，当然看&a任务书&r&o和&aMC 百科&r&o也可以。&r"
+	]
 	quest.746F388E40C7B518.quest_desc: [
 		"被诅咒的金字塔矗立于&a主世界&r广阔的大沙漠中，这是古文明的遗迹。"
 		""
@@ -853,7 +864,7 @@
 	quest.75A85A3EB42EA77D.quest_desc: ["用瓶与塞从下界的灵气场里收集来的。"]
 	quest.75CBBA83CDDDFB00.quest_desc: ["用瓶与塞从末地的灵气场里收集来的。"]
 	quest.75FB247B07C3BF7B.title: "粉碎机"
-	quest.77CCF6E3CA3E9F38.quest_desc: ["真拿你没办法。"]
+	quest.77CCF6E3CA3E9F38.quest_desc: ["&o真拿你没办法。&r"]
 	quest.77CCF6E3CA3E9F38.title: "以防你打不过守门人或末影龙"
 	quest.780012BD80D8EF84.quest_desc: [
 		"&o&6你已击杀过灾变的全部boss，登临灾变之巅。&r"
@@ -869,6 +880,12 @@
 		"这个结构可用&a虚空之眼&r寻找。"
 	]
 	quest.78F4FA00C33D561F.title: "废弃堡垒"
+	quest.791B7C1CD2D53F4E.quest_desc: [
+		"居住在星光森林中的&a星火鸟&r长着或红或蓝的羽毛，它们能制造一种独特的物质——&a星火&r。"
+		""
+		"向它们的巢穴中放入&a种子&r赠予它们，它们会接受你的礼物，并给予你回礼，其中便包含此种珍贵的材料。"
+	]
+	quest.791B7C1CD2D53F4E.title: "星火鸟的礼物"
 	quest.796BB04761A96F35.title: "电弧炉"
 	quest.7BF679E3CD97A80C.quest_desc: [
 		"忧伤沉下去，就成了悲痛。"
@@ -956,6 +973,7 @@
 	task.3E0363DC50992287.title: "天外来物"
 	task.3E4FC7B25118CFC6.title: "观察：工业挤压机"
 	task.3E5813B97646AAA7.title: "搭建提示"
+	task.4187313DDDBF9184.title: "造访永恒星光维度"
 	task.42FC38BAB37B938E.title: "搭建提示"
 	task.4949CEE6599F4ECE.title: "暮色森林"
 	task.4957F257EAD47780.title: "搭建提示"
