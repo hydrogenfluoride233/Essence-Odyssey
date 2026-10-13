@@ -5228,7 +5228,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "fcf4eab9e2895654ad9f2cb83da267fb5a9b70ff6e3d00c58a3d456c8ea0baa5"
+hash = "fb27410100b73d2e170246f84342e95d7c029088a441e9d1cc928f5bb36e534a"
 metafile = true
 
 [[files]]
@@ -5493,7 +5493,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "697a3a466e9954bf4cf62bdc39204c2d0aa2879d536c3628669c31fdd7dd9e10"
+hash = "8b40a946e889b44feb2fa3b3f4876ca30f7e276e420b8b8b8b1f2051180c0418"
 metafile = true
 
 [[files]]
@@ -5508,7 +5508,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "0797733f175b563c6f9a579c16a595e7b2a60665b433ef51a5aa933df52e73f6"
+hash = "c41879c4fe337606b212ecc623e9bec2f8a59905a4ecc9b973ebb0fcc22860fd"
 metafile = true
 
 [[files]]
