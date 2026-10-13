@@ -163,3 +163,7 @@ config/iris.properties
 config/mmcr-machine-appearance.properties
 # 车万女仆首次启动自动解出的默认模型包（玩家自己会有一份）
 tlm_custom_pack/
+
+# PCL 把仓库当版本目录时，版本自己的元数据（<名字>.jar / <名字>.json）不该入库
+/*.jar
+/*.json
