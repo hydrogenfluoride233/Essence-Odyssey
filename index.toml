@@ -5646,6 +5646,10 @@ file = "options.txt"
 hash = "e2576cb7df0e63f326730fb95b949c13ed75b63c84844c92fd82ed2a4bf56b2d"
 
 [[files]]
+file = "pwsh"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
 hash = "c151e61ff8cd64c0b03e0fefce0d94af85fbb1b4185846479c2101f145e010a8"
 
