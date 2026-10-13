@@ -18,6 +18,18 @@
 
 CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
+## 开发版本 / 参与开发
+
+这个仓库是整合包的**开发实例** —— 开发中的内容会直接出现在这里。**稳定版请到 CurseForge 下载**（上面的勋章就是入口）。
+
+想跑最新的开发构建版、或想参与开发：
+
+1. 把本仓库 fork（或直接 clone）到本地，建议就放在你的游戏实例目录里
+2. 实例用 Minecraft `1.21.1` ＋ NeoForge（版本见 `pack.toml` 的 `[versions]`），然后双击仓库里的 `sync-and-play.bat` —— 它按模组清单从 CurseForge 补齐模组与配置（首次约 795 MB）
+3. 改动请开分支发 PR；`mods\*.jar` 不在仓库里，也不需要提交
+
+开发构建版是**未发布**的内容：可能有 bug，也不保证存档兼容。详细说明见仓库里的 `同步说明.txt`。
+
 ## 故事线
 
 <!-- INTRO:STORY:BEGIN -->
