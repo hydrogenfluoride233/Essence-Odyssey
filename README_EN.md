@@ -20,16 +20,9 @@ CurseForge page: <https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
 ## Development builds / Contributing
 
-This repository is the pack's **development instance** — work in progress lands here directly. **For the stable release, use CurseForge** (see the badge above).
+This repository is the pack's **development instance** — work in progress lands here directly; **for the stable release, use CurseForge** (badge above).
 
-To run the latest development build or to contribute:
-
-1. Fork (or just clone) this repository — cloning it straight into your game instance folder works fine
-2. Use Minecraft `1.21.1` + NeoForge (see `[versions]` in `pack.toml`), then run `sync-and-play.bat`: it reads the mod list and fetches every mod and config file from CurseForge (about 795 MB on the first run)
-3. For changes, open a pull request from a branch; `mods\*.jar` are not tracked and must not be committed
-
-Development builds are **unreleased** content: they may break, and save compatibility is not guaranteed. See `同步说明.md` in the repository for the Chinese walkthrough.
-
+To run the latest development build or to contribute, see **[`同步说明.md`](同步说明.md)** (Chinese walkthrough): clone the repo, then run `sync-and-play.bat` to fetch every mod and config file. Development builds are **unreleased** content: they may break, and save compatibility is not guaranteed.
 ## Story
 
 <!-- INTRO:STORY:BEGIN -->

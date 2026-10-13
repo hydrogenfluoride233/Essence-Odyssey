@@ -1,20 +1,10 @@
 @echo off
 setlocal EnableDelayedExpansion
 rem ============================================================
-rem  Essence Odyssey - sync this client from the mod list
-rem  (launcher independent: it only needs to know the game folder)
-rem
-rem  Just double-click this file and wait until it says:
-rem      [ok] Sync finished - you can start the game now.
-rem  Then start the game with whatever launcher you use.
-rem
-rem  Optional, only if your game folder is NOT this folder:
-rem    - put its path on one line in  game-path.txt  next to this file, or
-rem    - run:  sync-and-play.bat "" "D:\your\instance"
-rem
-rem  If Java cannot be found: drag java.exe onto this file once.
-rem ============================================================
-set "PACK=%~dp0"
+rem  Essence Odyssey - sync this client from the pack manifest.
+rem  Double-click it, or call it from a launcher and pass java.exe.
+rem  Guide (Chinese): see the sync guide file in the repo root.
+rem ============================================================set "PACK=%~dp0"
 set "PACKDIR=%PACK:~0,-1%"
 set "UPSTREAM=https://github.com/hydrogenfluoride233/Essence-Odyssey.git"
 set "JAVAFILE=%PACKDIR%\java-path.txt"
