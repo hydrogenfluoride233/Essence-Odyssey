@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# packwiz 包要求"存什么就是什么" —— 关掉行尾自动转换，
+# 否则 index.toml 里的 sha256 在别人机器上对不上（实测新 clone 713/1339 对不上）。
+# diff 属性保留文本对比，别让它当二进制。
+* -text diff
