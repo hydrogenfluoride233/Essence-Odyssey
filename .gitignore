@@ -167,3 +167,7 @@ tlm_custom_pack/
 # PCL 把仓库当版本目录时，版本自己的元数据（<名字>.jar / <名字>.json）不该入库
 /*.jar
 /*.json
+
+# 同步脚本记住的成员本地路径
+java-path.txt
+game-path.txt

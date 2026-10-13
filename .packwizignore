@@ -173,11 +173,15 @@ tlm_custom_pack/
 /*.jar
 /*.json
 
+# 同步脚本记住的成员本地路径
+java-path.txt
+game-path.txt
+
 # 来自 config/almostunified/.gitignore
 config/almostunified/debug.json
 
 # ---------------------------------------------------------------------
-# pack 专用补充：仓库元文件与成员脚本不进包（clone 里有就行）
+# pack 专用补充：仓库元文件与成员用的脚本/说明不进包（clone 里有就行）
 # ---------------------------------------------------------------------
 .gitattributes
 .gitignore
@@ -189,4 +193,5 @@ LICENSE
 THIRD-PARTY.md
 data/
 sync-and-play.bat
+同步说明.txt
 packwiz-installer-bootstrap.jar
