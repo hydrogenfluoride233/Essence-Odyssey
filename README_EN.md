@@ -28,7 +28,7 @@ To run the latest development build or to contribute:
 2. Use Minecraft `1.21.1` + NeoForge (see `[versions]` in `pack.toml`), then run `sync-and-play.bat`: it reads the mod list and fetches every mod and config file from CurseForge (about 795 MB on the first run)
 3. For changes, open a pull request from a branch; `mods\*.jar` are not tracked and must not be committed
 
-Development builds are **unreleased** content: they may break, and save compatibility is not guaranteed. See `同步说明.txt` in the repository for the Chinese walkthrough.
+Development builds are **unreleased** content: they may break, and save compatibility is not guaranteed. See `同步说明.md` in the repository for the Chinese walkthrough.
 
 ## Story
 

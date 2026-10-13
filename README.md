@@ -28,7 +28,7 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 2. 实例用 Minecraft `1.21.1` ＋ NeoForge（版本见 `pack.toml` 的 `[versions]`），然后双击仓库里的 `sync-and-play.bat` —— 它按模组清单从 CurseForge 补齐模组与配置（首次约 795 MB）
 3. 改动请开分支发 PR；`mods\*.jar` 不在仓库里，也不需要提交
 
-开发构建版是**未发布**的内容：可能有 bug，也不保证存档兼容。详细说明见仓库里的 `同步说明.txt`。
+开发构建版是**未发布**的内容：可能有 bug，也不保证存档兼容。详细说明见仓库里的 `同步说明.md`。
 
 ## 故事线
 
