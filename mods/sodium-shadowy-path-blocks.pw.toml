@@ -1,0 +1,13 @@
+name = "Sodium Shadowy Path Blocks (SSPB)"
+filename = "sodium-shadowy-path-blocks-neoforge-4.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "315891dcf8459a53fe263d985073bef619c360d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8146231
+project-id = 556408

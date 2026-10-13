@@ -1,0 +1,13 @@
+name = "KubeJS Industrial Foregoing (Neoforge)"
+filename = "kubejsindustrialforegoing-1.21.1-1.0.0-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9e4b261d06a0f9758950b4dec70eab672177209e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8672693
+project-id = 1657257

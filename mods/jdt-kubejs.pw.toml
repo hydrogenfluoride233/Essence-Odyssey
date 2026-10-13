@@ -1,0 +1,13 @@
+name = "JDT KubeJS"
+filename = "jdtkubejs-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6ce2930b003a40935f40828d53c4f82a93eb7b92"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8356728
+project-id = 1595276

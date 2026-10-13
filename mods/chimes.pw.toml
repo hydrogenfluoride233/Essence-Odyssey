@@ -1,0 +1,13 @@
+name = "Chimes"
+filename = "Chimes-v2.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "991e81741231b73b2cd3cbe9ab41e73cbe99d7be"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7573270
+project-id = 350464

@@ -1,0 +1,13 @@
+name = "MaidUseHandCrank"
+filename = "MaidUseHandCrank_1.6.2-neoforge_21.1.219-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6105222645e2946bb93186d133e8e03baa61e88"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8226845
+project-id = 1347168

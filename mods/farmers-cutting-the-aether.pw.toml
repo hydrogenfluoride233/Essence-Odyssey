@@ -1,0 +1,13 @@
+name = "Farmer's Cutting: The Aether"
+filename = "farmers-cutting-the-aether-1.21.1-1.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5121fe23daf2378632d0f023a404a7bc275bce81"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5944231
+project-id = 1149270

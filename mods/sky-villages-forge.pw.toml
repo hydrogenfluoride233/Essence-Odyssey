@@ -1,0 +1,13 @@
+name = "Sky Villages [Forge]"
+filename = "SkyVillages-1.0.6-1.21.x-neoforge-release.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "645eb49d4019e5550afd4055f380c26edd126611"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5647988
+project-id = 545467

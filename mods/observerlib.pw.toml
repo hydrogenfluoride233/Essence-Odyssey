@@ -1,0 +1,13 @@
+name = "ObserverLib"
+filename = "observerlib-1.10.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f8b357513c22b62f0cdbe0259305620541a45fa2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8726128
+project-id = 316833

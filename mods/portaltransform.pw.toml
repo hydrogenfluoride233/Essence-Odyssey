@@ -1,0 +1,13 @@
+name = "PortalTransform"
+filename = "portaltransform-0.7.2+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ad9904eef159049e552d7ba734083ef8d1ec09a0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7429541
+project-id = 1271140

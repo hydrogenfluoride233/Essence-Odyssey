@@ -1,0 +1,13 @@
+name = "Extra Hostile Neural Networks"
+filename = "extrahnn-1.21.1-2.2.5-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a61c7b696b778ae5460ad483e28bf0deed5f690"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8531861
+project-id = 1162278

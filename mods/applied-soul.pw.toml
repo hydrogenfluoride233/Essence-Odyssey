@@ -1,0 +1,13 @@
+name = "Applied Soul"
+filename = "appliedsoul-1.21.1-2.1.0-hotfix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "85c112b0029384db308ff84a74900364c90199bc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8711537
+project-id = 1337114

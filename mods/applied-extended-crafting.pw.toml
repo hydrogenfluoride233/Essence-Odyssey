@@ -1,0 +1,13 @@
+name = "Applied Extended Crafting"
+filename = "applied_extended_crafting-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0aa11d9bc5df36024d48cea11a3990ead2db6d20"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8697824
+project-id = 1484112

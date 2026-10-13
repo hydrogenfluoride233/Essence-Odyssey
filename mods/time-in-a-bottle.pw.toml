@@ -1,0 +1,13 @@
+name = "Time in a Bottle"
+filename = "tiab-neoforge-6.5.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e6beaac5dbc48627263fee0a864db16eda53529"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7555622
+project-id = 895919

@@ -1,0 +1,13 @@
+name = "Repurposed Structures - PneumaticCraft: Repressurized Compat Mod"
+filename = "repurposed_structures_pneumaticcraft_repressurized_compat_v6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d9e18dff75f7eae62ab9c600a86490665101f6d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5609901
+project-id = 1080446

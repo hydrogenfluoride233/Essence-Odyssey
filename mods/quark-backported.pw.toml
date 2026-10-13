@@ -1,0 +1,13 @@
+name = "Quark Backported"
+filename = "quark_backported-1.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd6c12bdb5664f6a8c67b8dde57fdf7a196b9143"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8193969
+project-id = 1564218

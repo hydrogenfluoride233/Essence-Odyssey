@@ -1,0 +1,13 @@
+name = "Immersive structures"
+filename = "[neoforge]imst-2.2.1c.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9f281293eb19d0c7155147cd86d4f3d2c0807b37"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7747226
+project-id = 637201

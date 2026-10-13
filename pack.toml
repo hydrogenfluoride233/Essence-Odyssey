@@ -1,0 +1,13 @@
+name = "Essence Odyssey"
+author = "hydrogenfluoride233"
+version = "0.2.4.1-dev261012"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a9690e3965962a7e0008ef0e3e4c72926b8261b335f755fad1f31ba2320c9792"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.256"

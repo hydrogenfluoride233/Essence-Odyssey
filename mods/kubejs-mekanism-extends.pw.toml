@@ -1,0 +1,13 @@
+name = "KubeJS Mekanism Extends"
+filename = "kubejs_mekanism_extends-2101.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "24bba058ea8ced67af4476466e62406e972b8041"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7938584
+project-id = 1516364

@@ -1,0 +1,13 @@
+name = "Polymorph"
+filename = "polymorph-neoforge-1.2.0+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fa6c5fa8a21229c85d564b47c73df7160b3bd4df"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8849478
+project-id = 388800

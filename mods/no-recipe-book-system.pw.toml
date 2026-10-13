@@ -1,0 +1,13 @@
+name = "No Recipe Book System"
+filename = "norecipebooksystem-universal-1.21.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5b6bd5990b7e951d3232202341b9273493297d87"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8284843
+project-id = 1548750

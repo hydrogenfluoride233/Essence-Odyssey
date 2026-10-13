@@ -1,0 +1,13 @@
+name = "Just Enough Repair Materials (JERM)"
+filename = "jerm-1.21.1-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5b3db6f78fbd55b25caa89eedb1b5d21abff9a22"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8706349
+project-id = 1241244

@@ -1,0 +1,13 @@
+name = "Mekanism: Ponders"
+filename = "mekanism_ponders-1.0.4-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a622c8dda325336333e6c23441426bab1d3bc6bb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9110064
+project-id = 1448575

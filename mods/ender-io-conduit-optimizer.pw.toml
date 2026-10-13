@@ -1,0 +1,13 @@
+name = "Ender IO: Conduit Optimizer"
+filename = "enderio_conduit_opt-1.1.6-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8425dc8913599764370e43792482b9ae830f06d7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8877336
+project-id = 1575307

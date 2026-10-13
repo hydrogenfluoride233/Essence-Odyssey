@@ -1,0 +1,13 @@
+name = "Farmer's Cutting: Quark"
+filename = "farmers-cutting-quark-1.21.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "412df5e8095a0b30526d0f06cdce993f5a25f4f2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7643073
+project-id = 1076015

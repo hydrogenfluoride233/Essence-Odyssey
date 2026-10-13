@@ -1,0 +1,13 @@
+name = "KubeJS AstralSorcery"
+filename = "AstralSorceryKJS-2101.1.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5da7a72df45aca15ba7f6dce05290772f86440b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9116046
+project-id = 1714080

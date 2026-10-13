@@ -1,0 +1,13 @@
+name = "Create More Machines"
+filename = "createmoremachines-1.21.1-2.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7c2c76f08dc454a34ccdc10c462914dfffd9412"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8163651
+project-id = 1478956

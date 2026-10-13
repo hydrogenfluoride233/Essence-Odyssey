@@ -1,0 +1,13 @@
+name = "Applied Experienced"
+filename = "applied-experienced-1.21.1-1.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "751aceaca3309b5618e7ee435a133ec245180ea3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7705498
+project-id = 1157608

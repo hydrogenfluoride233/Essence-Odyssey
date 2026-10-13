@@ -1,0 +1,13 @@
+name = "Natures Aura Altered"
+filename = "Natures Aura Altered v1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8aaa2ee87e920d6240eb06f67901c0226818aa30"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6525882
+project-id = 1264941

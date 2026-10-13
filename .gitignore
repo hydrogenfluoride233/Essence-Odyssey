@@ -30,7 +30,7 @@ PCL.ini
 usercache.json
 usernamecache.json
 command_history.txt
-options.txt
+# options.txt 属于整合包内容（决定默认启用哪些材质包）→ 跟踪
 optionsof.txt
 # FancyMenu 的窗口标题、modpack_mode 等设置存在这里，属于整合包内容 → 破例跟踪
 !config/fancymenu/options.txt
@@ -44,8 +44,11 @@ Essence Odyssey-natives/
 local/
 backups/
 downloads/
-mods/
-resourcepacks/
+mods/*.jar
+!mods/aethersdelight-0.1.4.2-1.21.1.jar
+resourcepacks/*.zip
+!resourcepacks/BDcraft Sound Pack MC121.zip
+!resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
 patchouli_books/
 schematics/
 
@@ -53,6 +56,8 @@ schematics/
 Essence Odyssey.jar
 Essence Odyssey.json
 Package.BakaCoreInfo
+Essence Odyssey-*.zip
+packwiz.json
 .github/
 
 # ---------------------------------------------------------------------
@@ -112,12 +117,12 @@ fancymenu_data/
 
 # 玩家个人偏好（键位、音量、界面等），与整合包设计无关
 # 注意用 **/ 前缀：'*' 不跨目录，写成 config/*-client.toml 会漏掉子目录里的
-**/*-client.toml
-**/*-client.snbt
-**/*-client.json
-**/*-client.json5
-**/*-client.properties
-**/*-client.yaml
+**/*-[Cc]lient.toml
+**/*-[Cc]lient.snbt
+**/*-[Cc]lient.json
+**/*-[Cc]lient.json5
+**/*-[Cc]lient.properties
+**/*-[Cc]lient.yaml
 config/sodium-options.json
 config/sodium-extra-options.json
 config/inventoryhud-client.toml

@@ -1,0 +1,13 @@
+name = "Ayame PaperDoll"
+filename = "ayame-paperdoll-neoforge-4.4.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a0de4a4232deacb5e24152e6042f14864568dd6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6089792
+project-id = 1133652

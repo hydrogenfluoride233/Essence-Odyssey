@@ -1,0 +1,13 @@
+name = "Immersive Energistics"
+filename = "Immersive-Energistics-1.1.0-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "05aac40c5c9570946db540fabbb702898ca294d4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6131911
+project-id = 992377

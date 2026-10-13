@@ -1,0 +1,13 @@
+name = "Applied KubeJS"
+filename = "applied_kjs-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0405e5ff2e3e575f192e944f881222781bfaf747"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7667362
+project-id = 1469724
