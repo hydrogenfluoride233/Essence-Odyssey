@@ -75,14 +75,14 @@ Technology, magic, and adventure run in parallel and interweave, rather than sta
 <!-- INTRO:STATUS:BEGIN -->
 This modpack is in early development. Progress currently stands at Chapter 2; the main questline and the endgame are not finished yet. You may run into placeholder content — or the occasional "Intentional Game Design".
 
-Because of the author's current development and localization constraints, during development this pack ships complete Chinese content and only basic English content **(introduced in version 0.2.2)**. English translation and localization will be filled in gradually once the main content and systems are largely complete.
+During development, the pack ships complete Chinese content and basic English content (English support began with version 0.2.2 and is being expanded over time). English translation and localization will be filled in more thoroughly once the main content and systems are largely complete.
 <!-- INTRO:STATUS:END -->
 
-If you run into problems while playing, feedback is welcome via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues) or the CurseForge page.
+If you run into problems while playing, feedback is welcome via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues), the CurseForge page, or the official QQ group (1077071243).
 
 ## Repository Contents
 
-Only hand-written / hand-edited content is tracked here — KubeJS scripts and supplementary localization, mod configs, MBD2 multiblock and recipe definitions, original textures and models. **No mod jars are distributed in this repository** (`mods/` is excluded via `.gitignore`); please install the pack through CurseForge.
+Only hand-written / hand-edited content is tracked here — KubeJS scripts and supplementary localization, mod configs, multiblock structure definitions and rendering assets, original textures and models. **No mod jars are distributed in this repository** (`mods/` is excluded via `.gitignore`); please install the pack through CurseForge.
 
 ## License
 
