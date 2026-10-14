@@ -10,25 +10,29 @@ const KeptPots = [
 ]
 
 RecipeViewerEvents.removeEntries("item",event=>{
-        event.remove("immersiveengineering:potion_bucket")
+    event.remove("immersiveengineering:potion_bucket")
 
     //蒸汽桶
     event.remove("mekanism:steam_bucket")
 
-    //灵魂瓶
-    event.remove(stack => stack.id == "enderio:soul_vial" && stack.get("enderio:soul") != null)
+    //合并动态过滤：每个条目只跨一次脚本边界，只读取一次物品 ID
+    event.remove(stack=>{
+        const id = stack.id
 
-    //种子袋
-    event.remove(stack => stack.id == "quark:seed_pouch" && stack.get("quark:stored_item") != null)
+        //灵魂瓶
+        if (id == "enderio:soul_vial") return stack.get("enderio:soul") != null
 
-    //盆栽
-    event.remove(stack => (stack.id.startsWith("botanypots:") || stack.id.startsWith("botanypotstiers:")) &&
-        stack.id.endsWith("_botany_pot") &&
-        !KeptPots.includes(stack.id))
+        //种子袋
+        if (id == "quark:seed_pouch") return stack.get("quark:stored_item") != null
 
-    //生长锄
-    event.remove(stack => stack.id.endsWith("_hoe") &&
-        String(stack.get("minecraft:attribute_modifiers")).includes("botanypots:"))
+        //盆栽
+        if ((id.startsWith("botanypots:") || id.startsWith("botanypotstiers:")) &&
+            id.endsWith("_botany_pot")) return !KeptPots.includes(id)
+
+        //生长锄：普通物品不读取或序列化组件
+        return id.endsWith("_hoe") &&
+            String(stack.get("minecraft:attribute_modifiers")).includes("botanypots:")
+    })
 })
 
 RecipeViewerEvents.removeEntries("fluid",event=>{
