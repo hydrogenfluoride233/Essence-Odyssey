@@ -1681,12 +1681,20 @@ file = "config/cristellib/ars_nouveau/structure_toggle_config.json5"
 hash = "34894d2167232fe987c9baa4dc86aa6521d7f5966de8b89c47b6f7c339c4469e"
 
 [[files]]
-file = "config/cristellib/astralsorcery/structure_placement_config.json5"
+file = "config/cristellib/astralsorcery/structure_placement_config-had-error.json5"
 hash = "0bca39feb3cace66878a2bbaa2ee220f2fc72ee328e2f05507572518986a2de8"
 
 [[files]]
-file = "config/cristellib/astralsorcery/structure_toggle_config.json5"
+file = "config/cristellib/astralsorcery/structure_placement_config.json5"
+hash = "c28a41decd2cb8fd896904d24cb506089d7daeccaa9ecf76e16c352ed8d1af51"
+
+[[files]]
+file = "config/cristellib/astralsorcery/structure_toggle_config-had-error.json5"
 hash = "89e419be4529dd89ec4780aeb4c9f54f17581196eafe7df69a83263417a23108"
+
+[[files]]
+file = "config/cristellib/astralsorcery/structure_toggle_config.json5"
+hash = "5d2758033a579467ab0368046fdfed52f5d1b34ef4ef1432ef54e26f2e84a7b9"
 
 [[files]]
 file = "config/cristellib/auto_config_settings.json5"
@@ -1978,7 +1986,7 @@ hash = "bf4386b3e0cf04dea6d411d831d38b5ea37c59230258ab16048d9cf46d0b6605"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "c42e9e2b1374ade7ad4aeaa768c234c945c265ad8279a8243f06d92a40862737"
+hash = "5bde6dd42875cdd0d82125d66e00f7728d3d00a55550690387b53a22d21c2c34"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
@@ -3114,15 +3122,47 @@ hash = "957b73a67c3fee884505a4ad762284aa1046a39a2974f126ccefe5fb6ce1304d"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/en_us.json"
-hash = "7cafa6dde931500dbec85530ec0b721ff34500a64e79cbe56f756332ee917ea1"
+hash = "cc3399e46efc3361dded15d0f38df1469ef4baf1a8503a4ac96add5383fa45e7"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/zh_cn.json"
-hash = "99680dc7cb98109f7cab1ec50ecfc28c447905c55128387579c7fd1e68b901f0"
+hash = "25f36446182d87cc7754b770b28969d2e7c92920eda5420c9c6dc8df7d9ae05e"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/1.json"
+hash = "79d80eff3be99029cc7baed886533b911e28eb8d47a3116677e090d047fb5454"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/10.json"
+hash = "ac6c95166d708da2be831571c04cb4de8ff07f1e711dac2b1ffeea2e0f36b68b"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/11.json"
+hash = "5f8cceba1444e5d93adb50491ff703276e4c07856b53b4379a2ca5153480076d"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/12.json"
+hash = "a11e3a370c0457f5e24e0238a1180b04e9bceb71111457f1373d69435d039fce"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/13.json"
+hash = "f30b3080b8e5609164096f495750547ae45ca00ee6d2d8a1650075032c7823b5"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/14.json"
+hash = "b8ba865fbcfcfb1aaecc1ee706495d495d44b25e1c0602d3e42a7967ecec2b05"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/15.json"
+hash = "9858916fd999c6d513125926989ed59fa12ca6aaaf09f0cb057cc7aa37cd0f68"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/2.json"
 hash = "38acbc386b9cdb3b08bf286eec8892ad67ccef037fc102b193bc047df1cf0c12"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/26.json"
+hash = "d9d39fc960a4bf9c4db61ca0673d07cb402a52c4fd797b7848af6df5334ef8d9"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/3.json"
@@ -3149,6 +3189,14 @@ file = "kubejs/assets/essenceodyssey/tips/8.json"
 hash = "18a7130fa39e127d425c62cba7f362675e8d7e84b0416de4c86b8da00b997ed3"
 
 [[files]]
+file = "kubejs/assets/essenceodyssey/tips/9.json"
+hash = "a69d2a671b3141d296b1ae6ebe1ae3cd0062d6d08ce9b2ff569091942fe5e80f"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/alt_and_f4.json"
+hash = "a5126c59483fab3d5cfa516bb857b17c5208095df50fee468e1fb666cda23b1c"
+
+[[files]]
 file = "kubejs/assets/essenceodyssey/tips/ancient_sapling.json"
 hash = "2946632929938aab47a6bce2eb0a6c54aeb86d11e45571d853a17266a2f9bdd0"
 
@@ -3159,6 +3207,22 @@ hash = "433c6d3984c7fc43664287859c4b37eeb55f922d1373755e0f1f0c98ee800936"
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/bee_fbi.json"
 hash = "fb4fee8c0d3f3e0fa95d435e2a33ac2ace5782b32d8c3e66661c7077316326d8"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/cimtb.json"
+hash = "963ecc640cb9b6b9c06c8ba760bf0271b52d086c61b6efa0355e81dd7f7cbc56"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/create_aeronautics.json"
+hash = "b5d34784e2d2cade065983656be1d5e027d5f15fcacfd21679c88249a5da97ff"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/fusion_reactor.json"
+hash = "63cc5ca4b5da6676b871d3c9e2de0df901fad3b0c4a9c5fab5a1452ee6fff6ba"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/immersive_technology.json"
+hash = "3c8605e98e9b25b23ec31ebb1fefd8c74e5773781b2df9c9eefc7636670ed088"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/jei_bookmark.json"
@@ -3181,6 +3245,14 @@ file = "kubejs/assets/essenceodyssey/tips/lock.json"
 hash = "2beb2fe69dc8bdc75d0dc9af9aaf00ff6fce5aec2e4d46de4fd0f8f36ddd01e0"
 
 [[files]]
+file = "kubejs/assets/essenceodyssey/tips/luck.json"
+hash = "a248c98af39dea63fa586d16583d1ec3fe7f0019d9ee0e87f0b731b46f48be27"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/member_colorful.json"
+hash = "9466c7c0144591c81f4a2294089f045078a5a0a81b668f6550abe3dbbcab5274"
+
+[[files]]
 file = "kubejs/assets/essenceodyssey/tips/nuclear_easy.json"
 hash = "d4387754000d8cb233e54735700155ce85b5f0c65ab36e888059cdd5e16f1d80"
 
@@ -3189,8 +3261,20 @@ file = "kubejs/assets/essenceodyssey/tips/ponder_w.json"
 hash = "e2fdd20a25057bc954e75cbc33ea72f71066e0e41b3fea138d016d65dea121e8"
 
 [[files]]
+file = "kubejs/assets/essenceodyssey/tips/team_quest.json"
+hash = "42f9d223fe925375afa033bb899f886ca400aa12952ad0b805ea5fe01224a82c"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/tertiary_aspect.json"
+hash = "fd22297f8ec04b47a5f3ac117dea4bcffaad554d9785472bb03b370fbcad57e1"
+
+[[files]]
 file = "kubejs/assets/essenceodyssey/tips/test.json"
 hash = "a4f412963791553ba88c27f0c4242226f183eea4b11bc6a61e6ab6738a143669"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/wthit.json"
+hash = "4627ffe75307bf4ceb21aa76088b97dec15ef1820fc19d1eca7b0b5072609e51"
 
 [[files]]
 file = "kubejs/assets/hostilenetworks/lang/en_us.json"
@@ -3206,23 +3290,11 @@ hash = "9856f463e68d1a4ad54f8d288a16f3b1f1b89f0e06edffbcdaf1be51947369ff"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "c7308bd15e15064cc3513657cefb3d6fa34e3c4b969f6d1b975c19ffe496bc23"
+hash = "bd157cc4b9fbd2c46e36d68df7a1a080396a88a7d99b783fe8c74f90e55aadfd"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "d7a48adf965ea42fb48e14b69f49dacdffc4f0e9ee2997f5d091dbd3addb4e9e"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/altar_1.json"
-hash = "e72b8dca248b30d675ef6ca3bae1bd64e8d75455f019f0beb9e9961b756771e1"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/altar_2.json"
-hash = "b0fcbc96d523be511fbb45cb2fb3a7cb3b33027e66604fb31681e4be52278dee"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/altar_3.json"
-hash = "25313ddec85905a07a6961c88e1815469e3cac401e4e994db514041e53146661"
+hash = "73bd1f95434dcfbba9ae64db089f3356c61dca4f8a14bf279afb0d0638a52e63"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/imbuement_chamber.json"
@@ -3239,50 +3311,6 @@ hash = "8fc04990dfc55cf01aae85a7b80ca42ec187ff3534105654d9caac2bc8b1853a"
 [[files]]
 file = "kubejs/assets/kubejs/models/block/imbuement_source.json"
 hash = "0bf4964795d61f03694d7e2099648dc33cf1d0ea6292f0ea2396e80979cdf11a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_1_bottom.png"
-hash = "03c340cc2f3286e0c529e8a53f7bd14114a17e7efc9ca03861e0a499b1227087"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_bottom.png"
-hash = "df39de8e4c4ec4e4458bff04060d03e5da0761b7a87b962b91c19252a574ac1d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_side.png"
-hash = "dd31d51c92e7dc73c955d83ba9ef3866afa21190c62b3eca0bbc7eb99d769522"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_top.png"
-hash = "ef1dbb8be92b1d9ebc2528d1d69dd744a568e26fe1882441a7bc2c45409ce1d0"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_bottom.png"
-hash = "853a549ac6d457f68527d9cdea915966da19b2639cf25b871e86817e48a3d466"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_side.png"
-hash = "0f11335de64ad7a64b8cd045b8f6b939f1dabdb2912ffc7cff1386a117977295"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_top.png"
-hash = "ad0e1f61afb0b9b5fdb746e05b97385c112b060e622c87c163dd37c7ce3c2d43"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_4_bottom.png"
-hash = "53425b9c05e7763df76fe4c39e8c155ce632a0af83841836fdb5ff557aee7e6a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_4_side.png"
-hash = "a52601f912a4c18f932f16ff9b6db769517dd3988d023005f7c1ce25750e1dce"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_4_top.png"
-hash = "fe93da1f23308dfe5f127411ae9132cada14e12e85f2e42a6cf52fb75c844241"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_hovering.png"
-hash = "dbe760eb38e65c17af315df0f4e6b91be7ab9b76cc42e4337cdb7c8ac6e6b497"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_aer.png"
@@ -3383,18 +3411,6 @@ hash = "927621268398bf349c5237c951397818b1c4c26120996fa1365debe28a53c477"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/imbuement_source.png"
 hash = "0c0155bb7d519a59e2753f4934e679b2e2f3ec1c06877deb2cbef1fd86a242d3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/marble.png"
-hash = "7bdf5744d636d5a88bdbcc5a7f9994cc441b932f7a44c15c6baefa72507d3ef8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/sky_stone_starmetal_ore.png"
-hash = "8467bbcb9228e7f9c0c821b2a05fd9e3e330ea933ac5e24b101fd41187f519ae"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/sky_stone_starmetal_ore.png.mcmeta"
-hash = "662c1e851ec4b2822f746fdbfee683eeede5a85e0787e5afef10abbaf49f90a6"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aether_prediction.png"
@@ -3794,11 +3810,11 @@ hash = "fb0b74aa587512207bacd7ac5dc70d7ab0b73688dc22ecefef99f6238b7620af"
 
 [[files]]
 file = "kubejs/assets/occultism/lang/en_us.json"
-hash = "2ac368822c4b666ffa76944298e5dc7e0dffbb57e87c724fb843812f0dc5846d"
+hash = "1761cd91492672d1fe4574989590c70c4a6c699694a0e3249f74c3e622c8fca6"
 
 [[files]]
 file = "kubejs/assets/occultism/lang/zh_cn.json"
-hash = "988dec55f45f70b2e1f47da9dc82d3e4984aa88b56e330ad455e9e3647e16388"
+hash = "84e2db5cb87d0564ba1703226b9fb935a2ab7a04f7c52937ef913b30e963b2e1"
 
 [[files]]
 file = "kubejs/client_scripts/essenceodyssey/info.js"
@@ -3942,7 +3958,7 @@ hash = "1d81c9c12bebfcc7a2d6bc98565ffeee62c33e41862104c0b8dd6e48f71954a4"
 
 [[files]]
 file = "kubejs/server_scripts/occultism-rituals.js"
-hash = "06b28a23d2efb4f8e7c5ec461bcda96b87a24fea5828047608d3d9b9699b83b5"
+hash = "1be1f2e4578db0746a9db3ddfee0d02c3c2c09be33fdc6ceae06c8d8b39da22e"
 
 [[files]]
 file = "kubejs/server_scripts/pneumaticcraft.js"
@@ -3998,7 +4014,7 @@ hash = "2f0f6f4aa71cbbf953d0b5059483e632401e36a81ea098fb59095883ea5fb655"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/blocks.js"
-hash = "1836f5aaffade73ee48a71a192dfe6efc0d370ad0bd74a90db360e2d96eb482e"
+hash = "40ae05aa54b1535fae115e8acef6cef85a2e98d6bcfc1bf50d9a9de57b246f1d"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/chemicals.js"
@@ -4010,7 +4026,7 @@ hash = "0c719ccf6f421088fb635d84674e338fea4b13aa4ab0e9a43ebd8bdfe416e0fe"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/items.js"
-hash = "9762dc3d28da4bf31f5139e54437216da5f2d02aa83551a5ba60961f90db5ec0"
+hash = "4212f46533dcd6dc4df7d2b65f06485e311c650008e9004761c2f0b95ff58082"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/naturesaura.js"
@@ -5643,7 +5659,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "e2576cb7df0e63f326730fb95b949c13ed75b63c84844c92fd82ed2a4bf56b2d"
+hash = "3f6b7c524540da36dc0b149dc83780f6c9dfc55f005fab03da462bb155bc0406"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
@@ -5651,7 +5667,7 @@ hash = "c151e61ff8cd64c0b03e0fefce0d94af85fbb1b4185846479c2101f145e010a8"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"
-hash = "a39b3657fb3fac1a47321eac2f59e273e1ea8d56e8e4a290c98a48529f7cedbf"
+hash = "6ba975b66b95c01ee05815e1fbced762641461e59fd4b2fa024af06eb55c879d"
 
 [[files]]
 file = "resourcepacks/ie-reimmersed.pw.toml"
