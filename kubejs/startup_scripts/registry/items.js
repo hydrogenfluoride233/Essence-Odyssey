@@ -7,6 +7,8 @@ StartupEvents.registry("item",event=>{
             event.create(`kubejs:${f}_${m}`))
     })
 
+     event.create("kubejs:crushed_raw_iesnium")
+
     //板材
     const sheets = ["osmium","tin","iesnium"]
     sheets.forEach(i=>
@@ -34,7 +36,7 @@ StartupEvents.registry("item",event=>{
              .ritualTooltip(Text.translate(`item.kubejs.ritual_${num}.tooltip`))
     )
 
-    //精华
+    //魔法精华
     event.create("kubejs:perditio_essence")
          .tooltip(Text.translate("item.kubejs.perditio_essence.tooltip"))
     event.create("kubejs:ordo_essence")
@@ -52,9 +54,16 @@ StartupEvents.registry("item",event=>{
     event.create("kubejs:ordo_scribe_tool").maxStackSize(1)
          .tooltip(Text.translate("item.kubejs.ordo_scribe_tool.tooltip"))
 
+     //无限元件
+     event.create("kubejs:infinity_lava_cell","extendedae:custom_infinity_cell")
+         .fluidType("minecraft:lava")
+
+     //预测产物
+     event.create("kubejs:aether_prediction")
+     event.create("kubejs:eternal_starlight_prediction") 
+
     //其他
     event.create("kubejs:unknown_mixture").rarity("uncommon")
-    event.create("kubejs:crushed_raw_iesnium")
     event.create("kubejs:sky_stone_mainboard").rarity("uncommon")
     event.create("kubejs:arcane_wafer").rarity("uncommon")
     event.create("kubejs:aura_diode").rarity("uncommon")
@@ -64,11 +73,5 @@ StartupEvents.registry("item",event=>{
     event.create("kubejs:twilight_holy_grail").rarity("epic").glow(true)
          .tooltip(Text.translate("item.kubejs.twilight_holy_grail.tooltip"))
     event.create("kubejs:twilight_ingot").rarity("uncommon").glow(true)
-    event.create("kubejs:aether_prediction")
-    event.create("kubejs:eternal_starlight_prediction") 
-    event.create("kubejs:infinity_lava_cell","extendedae:custom_infinity_cell")
-         .fluidType("minecraft:lava")
     event.create("kubejs:paradox_collapser").rarity("epic")
-    
-
 })
