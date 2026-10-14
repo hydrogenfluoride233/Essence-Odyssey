@@ -16,10 +16,11 @@ StartupEvents.registry("block",event=>{
     }
 
     let block = [
-        ["altar_1","pickaxe","stone","stone",3,3],
-        ["altar_2","pickaxe","stone","stone",3,3],
-        ["altar_3","pickaxe","stone","stone",3,3],
-        ["sky_stone_starmetal_ore","pickaxe","diamond","stone",5,5]
+        //星辉魔法占位方块（altar_1/2/3、sky_stone_starmetal_ore）随正式版加入移除，要复用就整段放开
+        // ["altar_1","pickaxe","stone","stone",3,3],
+        // ["altar_2","pickaxe","stone","stone",3,3],
+        // ["altar_3","pickaxe","stone","stone",3,3],
+        // ["sky_stone_starmetal_ore","pickaxe","diamond","stone",5,5]
     ]
     block.forEach(([id,type,level,sound,hardness,resistance])=>
         event.create(id)

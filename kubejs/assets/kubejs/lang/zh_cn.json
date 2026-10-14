@@ -207,19 +207,8 @@
   "item.kubejs.empowered_enori_crystal_dust":"充能铁晶粉",
   "item.kubejs.empowered_emeradic_crystal_dust":"充能绿宝石水晶粉",
 
-  "block.kubejs.altar_1":"星辉祭坛",
-  "block.kubejs.altar_2":"天辉祭坛",
-  "block.kubejs.altar_3":"五彩祭坛",
-  "block.kubejs.sky_stone_starmetal_ore":"陨石星辉金属矿石",
-
   "item.kubejs.ritual_rune":"仪式：符文祭坛",
   "item.kubejs.ritual_rune.tooltip":"符文祭坛",
-  "item.kubejs.ritual_astral_1":"仪式：星辉祭坛",
-  "item.kubejs.ritual_astral_1.tooltip":"星辉祭坛",
-  "item.kubejs.ritual_astral_2":"仪式：天辉祭坛",
-  "item.kubejs.ritual_astral_2.tooltip":"天辉祭坛",
-  "item.kubejs.ritual_astral_3":"仪式：五彩祭坛",
-  "item.kubejs.ritual_astral_3.tooltip":"五彩祭坛",
   "item.kubejs.ritual_tree":"仪式：封装森林仪式",
   "item.kubejs.ritual_tree.tooltip":"封装森林仪式",
 

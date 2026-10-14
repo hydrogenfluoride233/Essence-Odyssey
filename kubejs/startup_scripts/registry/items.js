@@ -29,7 +29,11 @@ StartupEvents.registry("item",event=>{
     )
 
     //仪式假人
-    const rune_rituals = ["rune","astral_1","astral_2","astral_3","tree"]
+    const rune_rituals = [
+        "rune",
+        //"astral_1","astral_2","astral_3",             //星辉魔法占位祭坛：随正式版加入移除
+        "tree"
+    ]
     rune_rituals.forEach(num=>
         event.create(`kubejs:ritual_${num}`,"occultism_kubejs:ritual_dummy")
              .pentacleType("craft")

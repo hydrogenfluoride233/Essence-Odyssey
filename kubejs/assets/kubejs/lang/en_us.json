@@ -207,19 +207,8 @@
   "item.kubejs.empowered_enori_crystal_dust":"Empowered Enori Crystal Dust",
   "item.kubejs.empowered_emeradic_crystal_dust":"Empowered Emeradic Crystal Dust",
 
-  "block.kubejs.altar_1":"Starlight Crafting Altar",
-  "block.kubejs.altar_2":"Celestial Altar",
-  "block.kubejs.altar_3":"Iridescent Altar",
-  "block.kubejs.sky_stone_starmetal_ore":"Sky Stone Starmetal Ore",
-
   "item.kubejs.ritual_rune":"Ritual: Runic Altar",
   "item.kubejs.ritual_rune.tooltip":"Runic Altar",
-  "item.kubejs.ritual_astral_1":"Ritual: Starlight Crafting Altar",
-  "item.kubejs.ritual_astral_1.tooltip":"Starlight Crafting Altar",
-  "item.kubejs.ritual_astral_2":"Ritual: Celestial Altar",
-  "item.kubejs.ritual_astral_2.tooltip":"Celestial Altar",
-  "item.kubejs.ritual_astral_3":"Ritual: Iridescent Altar",
-  "item.kubejs.ritual_astral_3.tooltip":"Iridescent Altar",
   "item.kubejs.ritual_tree":"Ritual: Packaged Forest Ritual",
   "item.kubejs.ritual_tree.tooltip":"Packaged Forest Ritual",
 
