@@ -58,7 +58,10 @@ Essence Odyssey.json
 Package.BakaCoreInfo
 Essence Odyssey-*.zip
 packwiz.json
-.github/
+.github/*
+!.github/workflows/
+.github/workflows/*
+!.github/workflows/validate.yml
 
 # ---------------------------------------------------------------------
 #  2. ProbeJS 转储（约 2800 个 .d.ts / 37 MB）
@@ -148,6 +151,8 @@ config/jade/sort-order.json
 node_modules/
 pnpm-lock.yaml
 package-lock.json
+__pycache__/
+*.py[cod]
 
 # 系统文件
 Thumbs.db

@@ -1,0 +1,34 @@
+name: Validate pack
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-checks:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate pack metadata and hashes
+        run: python -I tools/check_pack.py
+      - name: Test validation and synchronization tools
+        run: python -I -m unittest discover -s tests -p "test_*.py" -v
+      - name: Test KubeJS scripts and content coverage
+        run: node --test

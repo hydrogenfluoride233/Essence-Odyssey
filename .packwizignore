@@ -194,7 +194,11 @@ README.md
 README_EN.md
 LICENSE
 THIRD-PARTY.md
-data/
+# 只排除根目录的运行期 data，不能吞掉 kubejs/data 数据包
+/data/
+# 开发检查工具不随游戏分发
+/tools/
+/tests/
 sync-and-play.bat
 sync-and-play.command
 同步说明.md
