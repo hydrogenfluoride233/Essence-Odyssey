@@ -1,114 +1,37 @@
 {
-	"__comment": "Designed by Wiiv with Cubik Studio - https://cubik.studio",
-	"ambientocclusion": true,
-	"parent": "block/block",
-	"textures": {
-		"particle": "kubejs:block/marble",
-		"table_tex_top": "kubejs:block/altar_2_top",
-		"table_tex_side": "kubejs:block/altar_2_side",
-		"table_tex_bottom": "kubejs:block/altar_1_bottom",
-		"hovering": "kubejs:block/altar_hovering",
-		"base": "kubejs:block/altar_2_bottom"
-	},
-	"display": {
-		"gui": {
-			"rotation":  [ 30, 225, 0 ],
-			"translation":  [ 0, -1, 0 ],
-			"scale":  [ 0.375, 0.375, 0.375 ]
-		},
-		"fixed": {
-			"scale":  [ 0.5, 0.5, 0.5 ]
-		}
-	},
-	"elements": [
-		{
-			"__comment": "base",
-			"from": [ 0, 0, 0 ],
-			"to": [ 16, 2, 16 ],
-			"faces": {
-				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#base" },
-				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#base" },
-				"north": { "uv": [ 0, 14, 16, 16 ], "texture": "#table_tex_side" },
-				"south": { "uv": [ 0, 14, 16, 16 ], "texture": "#table_tex_side" },
-				"west": { "uv": [ 0, 14, 16, 16 ], "texture": "#table_tex_side" },
-				"east": { "uv": [ 0, 14, 16, 16 ], "texture": "#table_tex_side" }
-			}
-		}, 	 
-		{
-			"__comment": "pillar",
-			"from": [ 4, 2, 4 ],
-			"to": [ 12, 10, 12 ],
-			"faces": {
-				"north": { "uv": [ 4, 6, 12, 14 ], "texture": "#table_tex_side" },
-				"south": { "uv": [ 4, 6, 12, 14 ], "texture": "#table_tex_side" },
-				"west": { "uv": [ 4, 6, 12, 14 ], "texture": "#table_tex_side" },
-				"east": { "uv": [ 4, 6, 12, 14 ], "texture": "#table_tex_side" }
-			}
-		},
-		{
-			"__comment": "top",
-			"from": [ 0, 10, 0 ],
-			"to": [ 16, 16, 16 ],
-			"faces": {
-				"down": { "uv": [ 0, 0, 16, 15.5 ], "texture": "#table_tex_bottom" },
-				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#table_tex_top" },
-				"north": { "uv": [ 0, 0, 16, 6 ], "texture": "#table_tex_side" },
-				"south": { "uv": [ 0, 0, 16, 6 ], "texture": "#table_tex_side" },
-				"west": { "uv": [ 0, 0, 16, 6 ], "texture": "#table_tex_side" },
-				"east": { "uv": [ 0, 0, 16, 6 ], "texture": "#table_tex_side" }
-			}
-		},
-		{
-			"__comment": "hovering_1",
-			"from": [ -5, 12, 17 ],
-			"to": [ -1, 18, 21 ],
-			"faces": {
-				"down": { "uv": [ 0, 10, 4, 14 ], "texture": "#hovering" },
-				"up": { "uv": [ 0, 0, 4, 4 ], "texture": "#hovering" },
-				"north": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"south": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"west": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"east": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" }
-			}
-		},
-		{
-			"__comment": "hovering_2",
-			"from": [ 17, 12, 17 ],
-			"to": [ 21, 18, 21 ],
-			"faces": {
-				"down": { "uv": [ 0, 10, 4, 14 ], "texture": "#hovering" },
-				"up": { "uv": [ 0, 0, 4, 4 ], "texture": "#hovering" },
-				"north": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"south": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"west": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"east": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" }
-			}
-		},
-		{
-			"__comment": "hovering_3",
-			"from": [ 17, 12, -5 ],
-			"to": [ 21, 18, -1 ],
-			"faces": {
-				"down": { "uv": [ 0, 10, 4, 14 ], "texture": "#hovering" },
-				"up": { "uv": [ 0, 0, 4, 4 ], "texture": "#hovering" },
-				"north": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"south": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"west": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"east": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" }
-			}
-		},
-		{
-			"__comment": "hovering_4",
-			"from": [ -5, 12, -5 ],
-			"to": [ -1, 18, -1 ],
-			"faces": {
-				"down": { "uv": [ 0, 10, 4, 14 ], "texture": "#hovering" },
-				"up": { "uv": [ 0, 0, 4, 4 ], "texture": "#hovering" },
-				"north": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"south": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"west": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" },
-				"east": { "uv": [ 0, 4, 4, 10 ], "texture": "#hovering" }
-			}
-		}
-	]
+  "__comment": "Essence Odyssey original altar model (generated)",
+  "parent": "block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "kubejs:block/altar_limestone",
+    "side": "kubejs:block/altar_1_side",
+    "top": "kubejs:block/altar_1_top",
+    "stone": "kubejs:block/altar_scorchia",
+    "lime": "kubejs:block/altar_limestone",
+    "shard": "kubejs:block/altar_shard_1"
+  },
+  "display": {
+    "gui": {"rotation": [30, 225, 0], "translation": [0, -0.5, 0], "scale": [0.46, 0.46, 0.46]},
+    "fixed": {"scale": [0.5, 0.5, 0.5]},
+    "ground": {"translation": [0, 3, 0], "scale": [0.22, 0.22, 0.22]}
+  },
+  "elements": [
+    {"from": [1, 0, 1], "to": [15, 3, 15], "faces": {"north": {"texture": "#side"}, "south": {"texture": "#side"}, "east": {"texture": "#side"}, "west": {"texture": "#side"}, "up": {"texture": "#stone"}, "down": {"texture": "#stone", "cullface": "down"}}},
+    {"from": [2, 3, 2], "to": [14, 4, 14], "faces": {"north": {"texture": "#side"}, "south": {"texture": "#side"}, "east": {"texture": "#side"}, "west": {"texture": "#side"}, "up": {"texture": "#lime"}, "down": {"texture": "#lime"}}},
+    {"from": [4, 4, 4], "to": [12, 11, 12], "faces": {"north": {"texture": "#side"}, "south": {"texture": "#side"}, "east": {"texture": "#side"}, "west": {"texture": "#side"}}},
+    {"from": [2, 11, 2], "to": [14, 12, 14], "faces": {"north": {"texture": "#side"}, "south": {"texture": "#side"}, "east": {"texture": "#side"}, "west": {"texture": "#side"}, "up": {"texture": "#lime"}, "down": {"texture": "#lime"}}},
+    {"from": [0, 12, 0], "to": [16, 16, 16], "faces": {"north": {"texture": "#side", "cullface": "north"}, "south": {"texture": "#side", "cullface": "south"}, "east": {"texture": "#side", "cullface": "east"}, "west": {"texture": "#side", "cullface": "west"}, "up": {"texture": "#top", "cullface": "up"}, "down": {"texture": "#lime"}}},
+    {"from": [-3.0, 12.5, -3.0], "to": [-1.0, 16.5, -1.0], "rotation": {"origin": [-2, 14.5, -2], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "south": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "east": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "west": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "up": {"texture": "#shard", "uv": [7, 7, 9, 9]}, "down": {"texture": "#shard", "uv": [7, 7, 9, 9]}}},
+    {"from": [-2.5, 16.5, -2.5], "to": [-1.5, 18.0, -1.5], "rotation": {"origin": [-2, 14.5, -2], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "south": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "east": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "west": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "up": {"texture": "#shard", "uv": [7, 1, 8, 2]}, "down": {"texture": "#shard", "uv": [7, 1, 8, 2]}}},
+    {"from": [-2.5, 11.0, -2.5], "to": [-1.5, 12.5, -1.5], "rotation": {"origin": [-2, 14.5, -2], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "south": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "east": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "west": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "up": {"texture": "#shard", "uv": [8, 13, 9, 14]}, "down": {"texture": "#shard", "uv": [8, 13, 9, 14]}}},
+    {"from": [17.0, 12.5, -3.0], "to": [19.0, 16.5, -1.0], "rotation": {"origin": [18, 14.5, -2], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "south": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "east": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "west": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "up": {"texture": "#shard", "uv": [7, 7, 9, 9]}, "down": {"texture": "#shard", "uv": [7, 7, 9, 9]}}},
+    {"from": [17.5, 16.5, -2.5], "to": [18.5, 18.0, -1.5], "rotation": {"origin": [18, 14.5, -2], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "south": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "east": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "west": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "up": {"texture": "#shard", "uv": [7, 1, 8, 2]}, "down": {"texture": "#shard", "uv": [7, 1, 8, 2]}}},
+    {"from": [17.5, 11.0, -2.5], "to": [18.5, 12.5, -1.5], "rotation": {"origin": [18, 14.5, -2], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "south": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "east": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "west": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "up": {"texture": "#shard", "uv": [8, 13, 9, 14]}, "down": {"texture": "#shard", "uv": [8, 13, 9, 14]}}},
+    {"from": [-3.0, 12.5, 17.0], "to": [-1.0, 16.5, 19.0], "rotation": {"origin": [-2, 14.5, 18], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "south": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "east": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "west": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "up": {"texture": "#shard", "uv": [7, 7, 9, 9]}, "down": {"texture": "#shard", "uv": [7, 7, 9, 9]}}},
+    {"from": [-2.5, 16.5, 17.5], "to": [-1.5, 18.0, 18.5], "rotation": {"origin": [-2, 14.5, 18], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "south": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "east": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "west": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "up": {"texture": "#shard", "uv": [7, 1, 8, 2]}, "down": {"texture": "#shard", "uv": [7, 1, 8, 2]}}},
+    {"from": [-2.5, 11.0, 17.5], "to": [-1.5, 12.5, 18.5], "rotation": {"origin": [-2, 14.5, 18], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "south": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "east": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "west": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "up": {"texture": "#shard", "uv": [8, 13, 9, 14]}, "down": {"texture": "#shard", "uv": [8, 13, 9, 14]}}},
+    {"from": [17.0, 12.5, 17.0], "to": [19.0, 16.5, 19.0], "rotation": {"origin": [18, 14.5, 18], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "south": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "east": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "west": {"texture": "#shard", "uv": [7, 4, 9, 8.0]}, "up": {"texture": "#shard", "uv": [7, 7, 9, 9]}, "down": {"texture": "#shard", "uv": [7, 7, 9, 9]}}},
+    {"from": [17.5, 16.5, 17.5], "to": [18.5, 18.0, 18.5], "rotation": {"origin": [18, 14.5, 18], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "south": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "east": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "west": {"texture": "#shard", "uv": [7, 1, 8, 3]}, "up": {"texture": "#shard", "uv": [7, 1, 8, 2]}, "down": {"texture": "#shard", "uv": [7, 1, 8, 2]}}},
+    {"from": [17.5, 11.0, 17.5], "to": [18.5, 12.5, 18.5], "rotation": {"origin": [18, 14.5, 18], "axis": "y", "angle": 45}, "neoforge_data": {"block_light": 15, "sky_light": 15}, "faces": {"north": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "south": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "east": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "west": {"texture": "#shard", "uv": [8, 12, 9, 14]}, "up": {"texture": "#shard", "uv": [8, 13, 9, 14]}, "down": {"texture": "#shard", "uv": [8, 13, 9, 14]}}}
+  ]
 }
