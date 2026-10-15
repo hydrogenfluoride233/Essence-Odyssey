@@ -20,9 +20,10 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 ## 开发版本 / 参与开发
 
-这个仓库是整合包的**开发实例** —— 开发中的内容会直接出现在这里；**稳定版请到 CurseForge 下载**（上面的勋章就是入口）。
+这个仓库是整合包的**开发实例**：开发中的内容直接出现在这里；**稳定版去 CurseForge**（上面的勋章）。
 
-想跑最新的开发构建版、或想参与开发，看 **[`同步说明.md`](同步说明.md)**：clone 到本地 → 双击 `sync-and-play.bat` 自动补齐模组与配置。dev 版是**未发布**内容：可能有 bug，也不保证存档兼容。
+想跑最新 dev 构建或参与开发，看 [`同步说明.md`](同步说明.md)：clone 到本地 → 双击 `sync-and-play.bat` 补齐模组与配置。dev 版是**未发布**内容，可能有 bug，也不保证存档兼容。
+
 ## 故事线
 
 <!-- INTRO:STORY:BEGIN -->
@@ -67,8 +68,8 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 
 ## 上手
 
-1. 通过 [CurseForge 项目页](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) 安装，版本 Minecraft 1.21.1 + NeoForge
-2. 建议分配内存：6–8 GB
+1. 通过 [CurseForge 项目页](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) 安装（Minecraft 1.21.1 ＋ NeoForge）
+2. 建议分配内存 6–8 GB
 
 ## 开发状态
 
@@ -78,11 +79,11 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 由于作者目前的开发与本地化限制，本整合包在开发期间仅提供完整的中文游戏内容与基本的英文内容（英文内容自 0.2.2 版本起提供，并在后续版本中持续补充）。当主要内容与系统基本完成后，会逐步完善英文翻译与本地化。
 <!-- INTRO:STATUS:END -->
 
-如果游玩过程中发现了问题，欢迎通过 [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues)、CurseForge 项目页或官方 QQ 群（1077071243）反馈。
+遇到问题：[Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues)、CurseForge 项目页或官方 QQ 群（1077071243）。
 
 ## 仓库内容
 
-只收录作者**手写 / 手改**的内容——KubeJS 脚本与补充汉化、模组配置、多方块结构定义与渲染资源、自制贴图与模型。**不包含任何模组本体**（`mods/` 已在 `.gitignore` 中排除），游玩请通过 CurseForge 获取整合包。
+只收录作者**手写 / 手改**的内容：KubeJS 脚本与补充汉化、模组配置、多方块结构定义与渲染资源、自制贴图与模型。**不含模组本体**（`mods/` 已在 `.gitignore` 中排除），游玩请走 CurseForge。
 
 ## 授权｜License
 
@@ -92,4 +93,4 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 | `kubejs/` 目录下作者原创的 `.js` 脚本 | [MIT](kubejs/LICENSE) |
 | 第三方内容（各模组、社区汉化、他人素材） | 各自原始许可，见 [THIRD-PARTY.md](THIRD-PARTY.md) |
 
-转载或改编请注明「Essence Odyssey / 本源远征 by hydrogenfluoride233」并附协议链接、标明是否改动；禁止商业使用；改编后的作品需以相同协议发布。协议全文见 [LICENSE](LICENSE)。
+转载或改编请注明「Essence Odyssey / 本源远征 by hydrogenfluoride233」、附协议链接并标明是否改动；禁止商业使用；改编作品需以相同协议发布。协议全文见 [LICENSE](LICENSE)。
