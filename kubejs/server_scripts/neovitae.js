@@ -11,7 +11,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"neovitae:meteor/nether"})
     event.remove({id:"neovitae:meteor/nether_star"})
     event.remove({id:"neovitae:meteor/iron"})
-    //event.remove({id:"neovitae:ritual_diviner_deus"})   //仪式占卜杖
+    event.remove({id:"neovitae:ritual_diviner_deus"})   //仪式占卜杖
 
     //命血祭坛
     //格式:[输出,输入,祭坛等级,EV]
