@@ -24,6 +24,10 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 想跑最新 dev 构建或参与开发，看 [`同步说明.md`](同步说明.md)：clone 到本地 → 双击 `sync-and-play.bat` 补齐模组与配置。dev 版是**未发布**内容，可能有 bug，也不保证存档兼容。
 
+<!-- INTRO:CONTRIB:BEGIN -->
+提 PR 之前先看 [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md)：提交格式、PR 说明怎么写、哪些文件不收改动。
+<!-- INTRO:CONTRIB:END -->
+
 ## 故事线
 
 <!-- INTRO:STORY:BEGIN -->
