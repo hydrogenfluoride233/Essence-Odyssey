@@ -4469,7 +4469,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "d31432b52be0a51900d7249d048968173616bab905c1810e8000b40489e68dd4"
+hash = "eaecaac2e504c8aa5e04ea5bc4719aa3e630a11092447237730c8ca1078abbc6"
 metafile = true
 
 [[files]]
@@ -4944,7 +4944,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "f45960e78cdfe0d4ffe832cc289f81221b1e453dc47dfaee72502bda84cded26"
+hash = "e210898d76f87a16e80fa5835152fadccf4e4ec7e386e077e6ed78d503064011"
 metafile = true
 
 [[files]]
@@ -4964,7 +4964,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "7c82ad6964d49a13b024ef3551f30f1869df10ac051079cde7fdb29f8206ad17"
+hash = "958101f29147119a423df602445679a0e76fbd70e442383d28babeef419b5469"
 metafile = true
 
 [[files]]
@@ -5294,7 +5294,7 @@ metafile = true
 
 [[files]]
 file = "mods/neovitae.pw.toml"
-hash = "eced03a273645fc5f1a94684dcb164a971f221884f7d41d93c65392ef3796596"
+hash = "384f6f6dc2cd912e514058f908bd7fa45ff9bb1fa5af1b3d0d1299c0bfccf2eb"
 metafile = true
 
 [[files]]
@@ -5514,7 +5514,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "45f0fb2e73626538dc58855d88a04c3c6f67a8d3ef04af33a6019a82fe91a508"
+hash = "d7c5f80d93574bb42131a4715f7b57d3d4a1882222ff76add9b72e60e48fb34a"
 metafile = true
 
 [[files]]
@@ -5524,7 +5524,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "c41879c4fe337606b212ecc623e9bec2f8a59905a4ecc9b973ebb0fcc22860fd"
+hash = "88aab0b58353833de8aee74abeda3c13077a89823c4dc41dbc8db3bd4afe59f7"
 metafile = true
 
 [[files]]
