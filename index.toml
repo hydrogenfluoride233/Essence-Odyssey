@@ -3282,11 +3282,27 @@ hash = "bc39dcfb81a43b171910ade1cf1d5298dcb77a1f23d8571bb0e86bc98c95c038"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "20f711cd4f14c9dfe6004726d55b3fa7fecbdd2362d39cb23f75821564552008"
+hash = "b96012831083f98d571ec0e26d6e25d19261b31df36b3fd03c709e28932a4a85"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "5d9ce758549c377714a31e467d2dc3016d66d50b6730207aaae19ccfd5144182"
+hash = "1a636f91bf770e5b04156fe6095732fb32507be2dbfab330c9b8ce9175d4a5e1"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/altar_1.json"
+hash = "2c09468014fd2a3f0b8ae94f363b9d32d05aedb31e43c5bd568aee5c3acb1bc6"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/altar_2.json"
+hash = "cf60d9e7d1ee5c8a7e269a0889beed7a3d6ef61cb64f47b4cad15513d83f2209"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/altar_3.json"
+hash = "ef4115f4a6b6f0086cd326fdfdbc9c1a56b6967f5a5cf4b68d442d7d659f6048"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/golden_bowl.json"
+hash = "8945b197cca6645db4f4750526218b5aa2527cd5ab380834526adb2ed74faf06"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/imbuement_chamber.json"
@@ -3303,6 +3319,142 @@ hash = "8fc04990dfc55cf01aae85a7b80ca42ec187ff3534105654d9caac2bc8b1853a"
 [[files]]
 file = "kubejs/assets/kubejs/models/block/imbuement_source.json"
 hash = "0bf4964795d61f03694d7e2099648dc33cf1d0ea6292f0ea2396e80979cdf11a"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/sky_stone_starmetal_ore.json"
+hash = "a672a844363aae9f568bbe4541eab95e9bad723c24466cfdadffd22f03b11277"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_1_ledge.png"
+hash = "0bab705779b69608c1f96a6040e0a054cf8a8abe3f91ad8b605087e01f90af34"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_1_ring_0.png"
+hash = "fa4a069c41574d2c88b0c18641fb7e0df5da1abdd83558313e92f5170cd7ad05"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_1_ring_0.png.mcmeta"
+hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_1_side.png"
+hash = "a7d6f2743c04f480f9a1d7ae10b59e21b8c5152ea9d1286d2f47aa54f9517c49"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_1_side_glow.png"
+hash = "0f6da1bbd2a7cd39c7f7afc5b22b0376ef20e7cd646ed542dac48128d14725a9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_1_side_glow.png.mcmeta"
+hash = "4e4dc7d973bb284c1558d6d2bca26a36699b9b11954e12085c632cc3e4ae97f1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_1_top.png"
+hash = "d8642f14f107485513a64efbe56283e8bf8703642038b041e0db6bd2bb3642f3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_1_top_glow.png"
+hash = "dbf0f650bec9f59d602e3359dc9e93ed00d5fbecf0fe94af3371d831f8c95161"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_1_top_glow.png.mcmeta"
+hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_ledge.png"
+hash = "d130166e989d52357af39507e45cf8cbd2976b24a1dac3e5863ef501a7b12e3c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_ring_0.png"
+hash = "809bd0ec3b3caf0a9e3bb06945100d92570d7e51b02822125fa4431a96ebac54"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_ring_0.png.mcmeta"
+hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_ring_1.png"
+hash = "f6bde57947783411191d0c7298fea47669ab9e5c31dd93e3a31521086a8455be"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_ring_1.png.mcmeta"
+hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_side.png"
+hash = "2220c6600662fbe4aa7c6ac05479354a24bdd0cdcb76baf66613e97606548584"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_side_glow.png"
+hash = "43b07867ac61b52e27ad509dd47c4fbd76713484461f4458e39823e709d76c2d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_side_glow.png.mcmeta"
+hash = "4e4dc7d973bb284c1558d6d2bca26a36699b9b11954e12085c632cc3e4ae97f1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_top.png"
+hash = "fcdb8bfac5ca16cf712f8a7663699d476a4c3bd8e476f28f7f3221c6a6c150b3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_top_glow.png"
+hash = "077a2b887b4870baa967471ed80ad0fa2d6868646139087a1bf96faf55a86c5a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_2_top_glow.png.mcmeta"
+hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_ledge.png"
+hash = "c63f88ba1545c83f6ba41b914655f3eec7c8f30316e36dd0a4060962b841fcea"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_ring_0.png"
+hash = "1ff4ec8741559383569457b7d8dabc4b6adaf9f09c57d64bef18e8346837a2a0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_ring_0.png.mcmeta"
+hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_ring_1.png"
+hash = "be5fc0c58ade83662dd406733f9301f1eb41b82fe5d94ad2e26562067051a395"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_ring_1.png.mcmeta"
+hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_ring_2.png"
+hash = "21df620d7281e81fc8df1226e11a3047d737ef5afe6a12ac3009680a164f10de"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_ring_2.png.mcmeta"
+hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_side.png"
+hash = "4f35e91ed952cb790880bb02112a535447ec40770d893ac5d815360a82189359"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_side_glow.png"
+hash = "dbf9d2ab2c794120ea8f8e7f45bef55c7bd5b49c2b52c279168581b3812e675c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_side_glow.png.mcmeta"
+hash = "4e4dc7d973bb284c1558d6d2bca26a36699b9b11954e12085c632cc3e4ae97f1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_top.png"
+hash = "26bc45b9307a361bacc9ce173c7b6b5b0a73a63c2dada829694646bf03a3c229"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_top_glow.png"
+hash = "896aa4d17c2d68cfcaa13b3c37bb64252f955e0d1d5e3d6980722ae0cb81b73d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/altar_3_top_glow.png.mcmeta"
+hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_aer.png"
@@ -3473,6 +3625,18 @@ file = "kubejs/assets/kubejs/textures/block/block_vitreus.png.mcmeta"
 hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/golden_bowl_glow.png"
+hash = "fcde9ea57bf72055301c72c084f5576b26e90d4c809783be6fb7d0c3f94d66fa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/golden_bowl_side.png"
+hash = "a365b8f5506d50f89130107b3021fb206865729a466424818664c417d3c05851"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/golden_bowl_top.png"
+hash = "57a36ca292e677c51981e708f72cd5b069471a1e5f3463943f88b6bd6da94fcc"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/imbuement_chamber.png"
 hash = "1ea382104ed3a68bd500557d710170f857957b557a981c325fb03075cbac7dd2"
 
@@ -3487,6 +3651,14 @@ hash = "927621268398bf349c5237c951397818b1c4c26120996fa1365debe28a53c477"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/imbuement_source.png"
 hash = "0c0155bb7d519a59e2753f4934e679b2e2f3ec1c06877deb2cbef1fd86a242d3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/sky_stone_starmetal_ore.png"
+hash = "51a0f635271534805f1f5b86e79630f0438a477d663e65aad60debda2ffa7ba9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/sky_stone_starmetal_ore.png.mcmeta"
+hash = "491ea51d46bc1f0c0ff11ed9293461cc67de293c7672abbc45f67563f8fe1f1a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aether_prediction.png"
@@ -4178,7 +4350,7 @@ hash = "2f0f6f4aa71cbbf953d0b5059483e632401e36a81ea098fb59095883ea5fb655"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/blocks.js"
-hash = "40ae05aa54b1535fae115e8acef6cef85a2e98d6bcfc1bf50d9a9de57b246f1d"
+hash = "b0f0003b7efc16b510bcea904963e21a308757be1d6e7dea49caa3f24922df76"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/chemicals.js"
