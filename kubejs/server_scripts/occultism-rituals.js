@@ -56,11 +56,10 @@ function generatePentacleEntry(ritual_name, x_placement, y_placement, parents, i
 }
 
 ServerEvents.tags("block",event=>{
-    //星辉系祭坛的标签：随星辉魔法正式加入移除，要复用就放开
-    // event.add("kubejs:altar_1",["kubejs:altar_1","kubejs:altar_2","kubejs:altar_3"])
-    // event.add("kubejs:altar_2",["kubejs:altar_2","kubejs:altar_3"])
-    // event.add("kubejs:altar_3",["kubejs:altar_3"])
-    // event.add("kubejs:altar_base",["create:cut_limestone_bricks","create:polished_cut_scorchia"])
+    event.add("kubejs:altar_1",["kubejs:altar_1","kubejs:altar_2","kubejs:altar_3"])
+    event.add("kubejs:altar_2",["kubejs:altar_2","kubejs:altar_3"])
+    event.add("kubejs:altar_3",["kubejs:altar_3"])
+    event.add("kubejs:altar_base",["create:cut_limestone_bricks","create:polished_cut_scorchia"])
     event.add("occultism:pentacle_materials",
         [
             "minecraft:obsidian",
@@ -80,9 +79,9 @@ ServerEvents.tags("block",event=>{
             "create:brass_casing",
             "naturesaura:wood_stand",
             "naturesaura:gold_powder",
-            // "kubejs:altar_1",       //星辉魔法占位祭坛：随正式版加入移除
-            // "kubejs:altar_2",
-            // "kubejs:altar_3",
+            "kubejs:altar_1",
+            "kubejs:altar_2",
+            "kubejs:altar_3",
         ])
     })
 
@@ -106,9 +105,9 @@ ServerEvents.tags("item",event=>{
             "create:brass_casing",
             "naturesaura:wood_stand",
             "naturesaura:gold_powder",
-            // "kubejs:altar_1",       //星辉魔法占位祭坛：随正式版加入移除
-            // "kubejs:altar_2",
-            // "kubejs:altar_3",
+            "kubejs:altar_1",
+            "kubejs:altar_2",
+            "kubejs:altar_3",
         ])
     })
 
@@ -146,7 +145,6 @@ ServerEvents.generateData("after_mods",event=>{
             ]
         },//符文祭坛
 
-        /*星辉系三座祭坛：随星辉魔法正式加入移除，要复用就整段放开
         {
             name: "ritual_astral_1",
             icon: "kubejs:altar_1",
@@ -245,7 +243,6 @@ ServerEvents.generateData("after_mods",event=>{
                 }
             ]
         },//五彩祭坛
-        */
 
         {
             name: "ritual_tree",
@@ -341,7 +338,7 @@ ServerEvents.recipes(event=>{
         ).ritualDummy("kubejs:ritual_rune")
     })
 
-    //永恒星光水晶：原星辉祭坛的配方，暂挂在符文祭坛下
+    //星辉祭坛
     const CrystalList = ["red","blue"]
 
     CrystalList.forEach(i=>
@@ -354,12 +351,11 @@ ServerEvents.recipes(event=>{
                 `eternal_starlight:${i}_starlight_crystal_shard`,
             ],
             "minecraft:amethyst_cluster",
-            "occultism:ritual_rune",
+            "occultism:ritual_astral_1",
             20
-        ).ritualDummy("kubejs:ritual_rune")
+        ).ritualDummy("kubejs:ritual_astral_1")
     )
 
-    //魔晶碎片：原星辉祭坛的配方，暂挂在符文祭坛下
     const ShardList = Ingredient.of("#ars_nouveau:magic_shards").itemIds
 
     ShardList.forEach(i=>
@@ -380,12 +376,12 @@ ServerEvents.recipes(event=>{
                 "ars_technica:gargantuan_experience_gem"
             ],
             i,
-            "occultism:ritual_rune",
+            "occultism:ritual_astral_1",
             30
-        ).ritualDummy("kubejs:ritual_rune")
+        ).ritualDummy("kubejs:ritual_astral_1")
     )
 
-    //绽放水晶：原天辉祭坛的配方，暂挂在符文祭坛下
+    //天辉祭坛
     CrystalList.forEach(i=>
         event.recipes.occultism.ritual(
             `2x eternal_starlight:blooming_${i}_starlight_crystal_cluster`,
@@ -396,10 +392,10 @@ ServerEvents.recipes(event=>{
                 `eternal_starlight:${i}_starlight_crystal_cluster`
             ],
             "eternal_starlight:shivering_gel",
-            "occultism:ritual_rune",
+            "occultism:ritual_astral_2",
             20
-        ).ritualDummy("kubejs:ritual_rune")
+        ).ritualDummy("kubejs:ritual_astral_2")
     )
 
-    //五彩祭坛：占位祭坛已随星辉魔法正式版移除
+    //五彩祭坛
 })
