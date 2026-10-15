@@ -115,6 +115,25 @@
         "permutatio" //变化 = 混沌+秩序
     ]
 
+    //元始要素的陨星层
+    //格式:[半径,填充方块,外壳方块,加权方块]；填充与外壳按需留空字符串
+    //神圣陨星仪式只取加权方块，故 FILL_ONLY_EXCLUDES 里的方块会被滤掉
+    const MeteorLayers = ess=>[
+        [
+            5,"minecraft:amethyst_block","minecraft:calcite",
+            [
+                {"entry":`kubejs:block_${ess}`,"weight":300},
+                {"entry":"minecraft:amethyst_block","weight":700}
+            ]
+        ],
+        [
+            6,"minecraft:smooth_basalt","",
+            []
+        ]
+    ]
+
+    const FILL_ONLY_EXCLUDES = ["minecraft:smooth_basalt","minecraft:calcite"]
+
     //二级要素合成表
     const SecondaryEssenceRecipes = [
         ["aqua"    ,"ignis"   ,"vapor"     ],
@@ -179,28 +198,41 @@ ServerEvents.recipes(event=>{
             Fluid.of(`kubejs:${ess}_fluid`,1000)
         )//灌装机：液=>固
 
-        event.custom({
-            "type":"neovitae:meteor",
-            "input":{"item":`${data.scribe}:${data.name}_scribe_tool`},
-            "syphon":2000000,
-            "explosion":8,
-            "layers":[
-                {
-                    "radius":5,
-                    "fill":"minecraft:amethyst_block",
-                    "shell":"minecraft:calcite",
-                    "weighted":[
-                        {"entry":`kubejs:block_${ess}`,"weight":300},
-                        {"entry":"minecraft:amethyst_block","weight":700}
-                    ]
-                },
-                {
-                    "radius":6,
-                    "fill":"minecraft:smooth_basalt"
+        //陨星仪式：普通版整体结构与原先一致
+        const MeteorJson = (block,layerList)=>(
+            {
+                "type":block?`neovitae:${block}`:"neovitae:meteor",
+                "input":{"item":`${data.scribe}:${data.name}_scribe_tool`},
+                "syphon":2000000,
+                "explosion":8,
+                "layers":layerList
+            }
+        )
+
+        const layers = MeteorLayers(ess)
+
+        //神圣陨星：只留加权矿石层，平滑玄武岩与方解石一并去掉
+        const DeusLayers = layers
+            .filter(([radius,fill,shell,weighted])=>
+                weighted.length>0||!FILL_ONLY_EXCLUDES.includes(fill))
+            .map(([radius,fill,shell,weighted])=>{
+                const layer = {"radius":radius,"fill":fill}
+
+                if(shell!==""&&!FILL_ONLY_EXCLUDES.includes(shell)){
+                    layer.shell = shell
                 }
-            ]
-        })//陨星仪式
-        
+                if(weighted.length>0){
+                    layer.weighted = weighted
+                }
+                return layer
+            })
+
+        event.custom(MeteorJson("",layers))
+            .id(`kubejs:meteor/${ess}`)
+
+        event.custom(MeteorJson("deus_meteor",DeusLayers))
+            .id(`kubejs:deus_meteor/${ess}`)
+
         event.recipes.neovitae.ara_vitae_recipe(
             `${data.scribe}:${data.name}_scribe_tool`,
             `${data.imbuement}:${data.name}_essence`,
