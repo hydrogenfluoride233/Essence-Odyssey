@@ -1,0 +1,104 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "C": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:celestial_gateway"
+        }
+      },
+      "D": {
+        "type": "item",
+        "ingredient": {
+          "item": "appliedas:astral_processor"
+        }
+      },
+      "E": {
+        "type": "item",
+        "ingredient": {
+          "item": "ae2:spatial_cell_component_128"
+        }
+      },
+      "G": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:ingots/gold"
+        }
+      },
+      "L": {
+        "type": "item",
+        "ingredient": {
+          "item": "ae2:fluix_block"
+        }
+      },
+      "N": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:nocturnal_powder"
+        }
+      },
+      "R": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:marble_runed"
+        }
+      }
+    },
+    "pattern": [
+      " E ",
+      "LCL",
+      "RRR"
+    ],
+    "relay_pattern": [
+      "D   D",
+      " NNN ",
+      " N N ",
+      "G   G",
+      "DG GD"
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "count": 1,
+      "id": "appliedas:me_celestial_gateway"
+    }
+  ],
+  "required_additional_inputs": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "appliedas:astral_processor"
+      }
+    }
+  ],
+  "required_fluid": [
+    {
+      "amount": 1000,
+      "id": "astralsorcery:liquid_starlight"
+    },
+    {
+      "amount": 1000,
+      "id": "astralsorcery:liquid_starlight"
+    }
+  ],
+  "required_lumen": [
+    {
+      "lumen": "astralsorcery:vicio",
+      "amount": 200
+    }
+  ],
+  "required_starlight": [],
+  "required_type": "resonance"
+}

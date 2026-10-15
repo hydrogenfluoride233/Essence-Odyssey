@@ -1,0 +1,83 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "G": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:ingots/gold"
+        }
+      },
+      "L": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:glass_lens"
+        }
+      },
+      "W": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:infused_wood_planks"
+        }
+      },
+      "F": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:focus_relay"
+        }
+      },
+      "S": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:sooty_marble_runed"
+        }
+      },
+      "P": {
+        "type": "item",
+        "ingredient": {
+          "item": "appliedas:astral_processor"
+        }
+      },
+      "Q": {
+        "type": "item",
+        "ingredient": {
+          "item": "appliedas:astral_fluix_crystal"
+        }
+      }
+    },
+    "pattern": [
+      "GLG",
+      "WFW",
+      "SPS"
+    ],
+    "relay_pattern": [
+      "  Q  ",
+      "     ",
+      "Q   Q",
+      "     ",
+      "  Q  "
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "id": "appliedas:constellation_relay",
+      "count": 1
+    }
+  ],
+  "required_additional_inputs": [],
+  "required_fluid": [],
+  "required_lumen": [],
+  "required_starlight": [],
+  "required_type": "resonance"
+}

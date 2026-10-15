@@ -1,0 +1,33 @@
+{
+  "type": "astralsorcery:liquid_starlight",
+  "color": -6312705,
+  "consumes_inputs": false,
+  "consumes_liquid": false,
+  "duration": 80,
+  "random_additional_duration": 40,
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "astralsorcery:stardust"
+    }
+  },
+  "other_inputs": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "ae2:singularity"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "ae2:fluix_crystal"
+      }
+    }
+  ],
+  "output_modifiers": [
+    {
+      "type": "appliedas:form_astral_fluix_cluster"
+    }
+  ]
+}
