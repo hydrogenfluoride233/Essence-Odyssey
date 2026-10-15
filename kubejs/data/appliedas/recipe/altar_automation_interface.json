@@ -1,0 +1,104 @@
+{
+  "type": "astralsorcery:altar_crafting",
+  "base_focus_shatter_chance": 0.0,
+  "duration": 100,
+  "effects": [
+    "astralsorcery:default_central_beam",
+    "astralsorcery:default_altar_sparkle",
+    "astralsorcery:default_lumen_input",
+    "astralsorcery:default_relay_input"
+  ],
+  "grid": {
+    "key": {
+      "G": {
+        "type": "item",
+        "ingredient": {
+          "tag": "c:ingots/gold"
+        }
+      },
+      "P": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:illumination_powder"
+        }
+      },
+      "R": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:resonating_gem"
+        }
+      },
+      "A": {
+        "type": "item",
+        "ingredient": {
+          "item": "appliedas:astral_processor"
+        }
+      },
+      "S": {
+        "type": "item",
+        "ingredient": {
+          "item": "astralsorcery:stardust"
+        }
+      },
+      "F": {
+        "type": "item",
+        "ingredient": {
+          "item": "ae2:fluix_crystal"
+        }
+      },
+      "X": {
+        "type": "item",
+        "ingredient": {
+          "item": "appliedas:constellation_core"
+        }
+      }
+    },
+    "pattern": [
+      "FSF",
+      "SXS",
+      "FSF"
+    ],
+    "relay_pattern": [
+      "GGPGG",
+      "GRARG",
+      "PA AP",
+      "GRARG",
+      "GGPGG"
+    ]
+  },
+  "may_chain": false,
+  "only_night": true,
+  "output_modifiers": [],
+  "outputs": [
+    {
+      "id": "appliedas:altar_automation_interface",
+      "count": 1
+    }
+  ],
+  "required_additional_inputs": [
+    {
+      "ingredient": {
+        "type": "astralsorcery:is_stable_artifact"
+      },
+      "count": 1
+    }
+  ],
+  "required_fluid": [
+    {
+      "id": "astralsorcery:liquid_starlight",
+      "amount": 1000
+    },
+    {
+      "id": "astralsorcery:liquid_starlight",
+      "amount": 1000
+    }
+  ],
+  "required_lumen": [
+    {
+      "lumen": "astralsorcery:prismatic",
+      "amount": 600
+    }
+  ],
+  "required_starlight": [],
+  "required_type": "radiance"
+}
