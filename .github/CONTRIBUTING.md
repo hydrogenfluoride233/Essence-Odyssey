@@ -19,7 +19,7 @@
 | `config/ftbquests/quests/lang/en_us.snbt` | 由英文草稿脚本生成，手改会被覆盖 |
 | `.packwizignore` | 由 `.gitignore` 派生，手改会被覆盖；要排除文件就改 `.gitignore` |
 | `kubejs/server_scripts/essenceodyssey/tooltips.js`、`kubejs/client_scripts/essenceodyssey/info.js` | 由物品提示表整份生成（文件头写着） |
-| `README.md`、`README_EN.md` 里 `<!-- INTRO:*:BEGIN/END -->` 之间的块 | 由简介母版导出 |
+| `README.md`、`README_EN.md`、`同步说明.md` | 由作者在文档库维护，README 由脚本从简介母版生成；要改就开 issue |
 | `.gitattributes` | 它关掉了行尾转换；改了，`index.toml` 里的哈希会对不上 |
 
 ## 名字
@@ -42,7 +42,7 @@
 <正文，可选>
 ```
 
-- 范围用 `kubejs`、`材质`、`任务书`、`配置`、`README`、`THIRD-PARTY`、`CONTRIBUTING`。冒号用全角「：」；可选的改动写成 `材质（可选）：…`。
+- 范围用 `kubejs`、`材质`、`任务书`、`配置`、`THIRD-PARTY`、`CONTRIBUTING`。冒号用全角「：」；可选的改动写成 `材质（可选）：…`。
 - 标题一句话，写改了什么，不写日期。改名字要写出改了哪些、依据哪条真源。
 - 正文写标题装不下的：为什么改、依据（文件与键）、没验证的部分。没有就不写。
 - 不加署名行（`Co-Authored-By`、`Generated with …` 之类）。
