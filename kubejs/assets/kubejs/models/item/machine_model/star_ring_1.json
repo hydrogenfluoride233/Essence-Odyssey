@@ -1,0 +1,14 @@
+{
+  "__comment": "Machine model part: the ring0 star-track ring of altar_1, centred for an item display; full-bright",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "kubejs:block/altar_1_ring_0",
+    "ring": "kubejs:block/altar_1_ring_0"
+  },
+  "elements": [
+    {"from": [0.5, 7.5, 0.5], "to": [14.5, 8.5, 1.5], "shade": false, "neoforge_data": {"block_light": 15, "sky_light": 15, "ambient_occlusion": false}, "faces": {"north": {"texture": "#ring", "uv": [14, 1, 0, 2]}, "south": {"texture": "#ring", "uv": [0, 1, 14, 2]}, "up": {"texture": "#ring", "uv": [0, 0, 14, 1]}, "down": {"texture": "#ring", "uv": [0, 0, 14, 1]}, "west": {"texture": "#ring", "uv": [0, 6, 1, 7]}}},
+    {"from": [14.5, 7.5, 0.5], "to": [15.5, 8.5, 14.5], "shade": false, "neoforge_data": {"block_light": 15, "sky_light": 15, "ambient_occlusion": false}, "faces": {"east": {"texture": "#ring", "uv": [14, 4, 0, 5]}, "west": {"texture": "#ring", "uv": [0, 4, 14, 5]}, "up": {"texture": "#ring", "uv": [14, 0, 15, 14]}, "down": {"texture": "#ring", "uv": [14, 14, 15, 0]}, "north": {"texture": "#ring", "uv": [1, 6, 2, 7]}}},
+    {"from": [1.5, 7.5, 14.5], "to": [15.5, 8.5, 15.5], "shade": false, "neoforge_data": {"block_light": 15, "sky_light": 15, "ambient_occlusion": false}, "faces": {"south": {"texture": "#ring", "uv": [0, 3, 14, 4]}, "north": {"texture": "#ring", "uv": [14, 3, 0, 4]}, "up": {"texture": "#ring", "uv": [0, 2, 14, 3]}, "down": {"texture": "#ring", "uv": [0, 2, 14, 3]}, "east": {"texture": "#ring", "uv": [2, 6, 3, 7]}}},
+    {"from": [0.5, 7.5, 1.5], "to": [1.5, 8.5, 15.5], "shade": false, "neoforge_data": {"block_light": 15, "sky_light": 15, "ambient_occlusion": false}, "faces": {"west": {"texture": "#ring", "uv": [0, 5, 14, 6]}, "east": {"texture": "#ring", "uv": [14, 5, 0, 6]}, "up": {"texture": "#ring", "uv": [15, 0, 16, 14]}, "down": {"texture": "#ring", "uv": [15, 14, 16, 0]}, "south": {"texture": "#ring", "uv": [3, 6, 4, 7]}}}
+  ]
+}

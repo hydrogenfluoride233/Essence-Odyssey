@@ -15,6 +15,9 @@ RecipeViewerEvents.removeEntries("item",event=>{
     //蒸汽桶
     event.remove("mekanism:steam_bucket")
 
+    //机器模型部件（动态模型的载体，只给展示实体用）
+    event.remove("kubejs:machine_model")
+
     //合并动态过滤：每个条目只跨一次脚本边界，只读取一次物品 ID
     event.remove(stack=>{
         const id = stack.id
