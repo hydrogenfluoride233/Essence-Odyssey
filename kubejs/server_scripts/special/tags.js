@@ -11,8 +11,6 @@ ServerEvents.tags("item",event=>{
     oreList.forEach(oreTag)
     
     event.add("create:crushed_raw_materials","kubejs:crushed_raw_iesnium")
-    event.add("c:dusts/zinc","kubejs:dust_zinc")
-    event.add("c:dusts", "kubejs:dust_zinc")
 
     //板材
     const plateList = ["iesnium","osmium","tin"]
