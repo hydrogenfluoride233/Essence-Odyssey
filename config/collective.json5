@@ -18,7 +18,7 @@
 	// Marks the resource pack as required, so an accidental decline only kicks the player and asks again next join instead of being remembered for good. Turn off to make it optional.
 	"requireTranslationResourcePack": true,
 	// The language Serilum mod text shows in for players without Collective who aren't sent the resource pack. Uses locale codes like en_us or de_de.
-	"serverLanguage": "en_us",
+	"serverLanguage": "zh_cn",
 	// How custom item names show for players without Collective when the resource pack is off. 'auto' copies the first player to join and remembers it; 'server' always uses the server language; 'client' uses each player's own language, but those without Collective then see raw keys.
 	"itemNameTranslationMode": "auto",
 	// Used in my local development flow. Has no effect in production, only when ran from an IDE with Collective installed.
