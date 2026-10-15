@@ -200,7 +200,7 @@ ServerEvents.recipes(event=>{
             Fluid.of(`kubejs:${ess}_fluid`,1000)
         )//灌装机：液=>固
 
-        //陨星仪式：普通版整体结构与原先一致
+        //陨星仪式：普通版层内容与原先一致，只是改成对象写法
         const MeteorJson = (block,layerList)=>(
             {
                 "type":block?`neovitae:${block}`:"neovitae:meteor",
