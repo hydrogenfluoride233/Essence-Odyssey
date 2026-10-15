@@ -117,6 +117,9 @@ config/*/cache/
 config/*/saved_data*.nbt
 config/*-saved_data.nbt
 
+# CristelLib 加载失败时另存的旧配置残片（换电脑会自己再生）
+**/*-had-error.json5
+
 # FancyMenu 的运行期状态（上次世界、视频缩略图、临时文件），布局定义在 config/fancymenu/ 里
 fancymenu_data/
 

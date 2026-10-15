@@ -1518,7 +1518,7 @@ hash = "3535071fa5cce6de6d899a9de90c5532241b51091efe99c4f48a32e6d2a92689"
 
 [[files]]
 file = "config/collective.json5"
-hash = "92809d098b5efeca95c37ec4fef9184bd169160d18efecf81f395c4030c0f83f"
+hash = "26a3ba7a8caf3fba2538e0726bbb358ada39044105455380be3d3884c44cd704"
 
 [[files]]
 file = "config/colorfulhearts.toml"
@@ -1681,16 +1681,8 @@ file = "config/cristellib/ars_nouveau/structure_toggle_config.json5"
 hash = "34894d2167232fe987c9baa4dc86aa6521d7f5966de8b89c47b6f7c339c4469e"
 
 [[files]]
-file = "config/cristellib/astralsorcery/structure_placement_config-had-error.json5"
-hash = "0bca39feb3cace66878a2bbaa2ee220f2fc72ee328e2f05507572518986a2de8"
-
-[[files]]
 file = "config/cristellib/astralsorcery/structure_placement_config.json5"
 hash = "c28a41decd2cb8fd896904d24cb506089d7daeccaa9ecf76e16c352ed8d1af51"
-
-[[files]]
-file = "config/cristellib/astralsorcery/structure_toggle_config-had-error.json5"
-hash = "89e419be4529dd89ec4780aeb4c9f54f17581196eafe7df69a83263417a23108"
 
 [[files]]
 file = "config/cristellib/astralsorcery/structure_toggle_config.json5"
@@ -2110,11 +2102,11 @@ hash = "3cfea1c0e982f1366938dc6f7869e59bb10523c010a60bcd05754276683a6ce1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
-hash = "d794a3e715ae40fd890cf9057bdd368107788c4626f7678776be0607adb8362d"
+hash = "cbb108a82d78f1713621b7bd30bd3498e55ed715043408f959dcfe9a228fd069"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_4.snbt"
-hash = "c84357f2609d97e7624d054a959550be241beecb0e26d79e8162fcc8ab3a0837"
+hash = "c9b953876256c4edcb283d5fc87268fb028116508ef57452d0b72a70807f7587"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_5.snbt"
@@ -5659,7 +5651,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "3f6b7c524540da36dc0b149dc83780f6c9dfc55f005fab03da462bb155bc0406"
+hash = "eb6f3a12e069f66e5752e5f4f4de4a41abce446432bff8bbc9bca5ae12591fd6"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
@@ -5667,7 +5659,7 @@ hash = "c151e61ff8cd64c0b03e0fefce0d94af85fbb1b4185846479c2101f145e010a8"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"
-hash = "6ba975b66b95c01ee05815e1fbced762641461e59fd4b2fa024af06eb55c879d"
+hash = "d2e177e7516829ebf395df9acb1f818451239abc2bc330fed90952866b19ec25"
 
 [[files]]
 file = "resourcepacks/ie-reimmersed.pw.toml"
