@@ -62,7 +62,8 @@ Essence Odyssey.json
 Package.BakaCoreInfo
 Essence Odyssey-*.zip
 packwiz.json
-.github/
+.github/*
+!.github/CONTRIBUTING.md
 
 # ---------------------------------------------------------------------
 #  2. ProbeJS 转储（约 2800 个 .d.ts / 37 MB）
@@ -193,7 +194,7 @@ README.md
 README_EN.md
 LICENSE
 THIRD-PARTY.md
-data/
+/data/
 sync-and-play.bat
 sync-and-play.command
 同步说明.md

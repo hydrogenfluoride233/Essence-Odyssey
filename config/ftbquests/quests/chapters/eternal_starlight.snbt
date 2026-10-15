@@ -82,5 +82,365 @@
 			x: 1.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["741E600F39DCCE9F"]
+			id: "30888D82985D06FE"
+			tasks: [{
+				id: "0D9DA8EFF4879CC4"
+				item: { count: 1, id: "eternal_starlight:seeking_eye" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "78EFDBD65E2AFE06"
+			tasks: [{
+				entity: "eternal_starlight:lunar_monstrosity"
+				id: "00FA207B0810DE07"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "4CF8C2A8077F34B8"
+			tasks: [{
+				entity: "eternal_starlight:starlight_golem"
+				id: "514A9D77605013CA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "6C49ACF7A8AF9DB9"
+			tasks: [{
+				id: "07F6477AAEFF18C9"
+				item: { count: 1, id: "eternal_starlight:unrealium_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "6EC64940158FA55F"
+			tasks: [{
+				id: "04575AF9B99184C5"
+				item: { count: 1, id: "eternal_starlight:drying_rack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "167A8641C151C28A"
+			tasks: [
+				{
+					id: "71955D6CD2E2D814"
+					item: { count: 1, id: "eternal_starlight:tenacious_petal" }
+					type: "item"
+				}
+				{
+					id: "5CD867D1C731D7D1"
+					item: { count: 1, id: "eternal_starlight:tenacious_vine" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "5550C1B990412AF1"
+			tasks: [{
+				id: "19790826C43A8162"
+				item: { count: 1, id: "eternal_starlight:thioquartz_shard" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "00D52A4B60E3BCAB"
+			tasks: [{
+				id: "5A01ED55DE1CFD3F"
+				item: { count: 1, id: "eternal_starlight:amaramber_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "76C12AED65BC46C7"
+			tasks: [{
+				id: "610DFE3A1DCB0024"
+				item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "7F79E84CB0CE05C8"
+			tasks: [{
+				id: "073FA688CCD185A8"
+				item: { count: 1, id: "eternal_starlight:thermal_springstone_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "0C9748B433F2D6F3"
+			tasks: [{
+				id: "5612404093BCAA9E"
+				item: { count: 1, id: "eternal_starlight:glacite_shard" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "6193BCB6C904037D"
+			tasks: [{
+				id: "49F4400CF29AE680"
+				item: { count: 1, id: "eternal_starlight:starlit_diamond" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			id: "07CEA0C5F54A99B6"
+			tasks: [{
+				id: "053A59CD55111B58"
+				item: { count: 1, id: "eternal_starlight:deepsilver_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "76A7175423DDAE65"
+			tasks: [{
+				id: "7BABECAC84711493"
+				item: { count: 1, id: "eternal_starlight:malarite" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			id: "3B031C44C9ACA605"
+			tasks: [{
+				id: "49DD4EFA03DBB0B0"
+				item: { count: 1, id: "eternal_starlight:red_starlight_crystal_shard" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "5E0AABBD9CC06117"
+			tasks: [{
+				id: "3AC93CFD64C2FA17"
+				item: { count: 1, id: "eternal_starlight:starcore" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "71F2C2CF724481F9"
+			tasks: [{
+				id: "0B63BF5C3BBD2C84"
+				item: { count: 1, id: "eternal_starlight:alloy_furnace" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "5CF86A7637F67C8A"
+			tasks: [{
+				id: "18B3F3D1B92F9251"
+				item: { count: 1, id: "eternal_starlight:pungency_fruit_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "3AE1C8ECED6C8215"
+			tasks: [{
+				id: "1B53A8E3D5B84AA3"
+				item: { count: 1, id: "eternal_starlight:starfire_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "26B0595CA8F4A828"
+			tasks: [{
+				id: "345DB789CB3AD3E9"
+				item: { count: 1, id: "eternal_starlight:flowglaze_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "4EEF05AA163C7FAB"
+			tasks: [{
+				id: "6F85526FEDE4ECF1"
+				item: { count: 1, id: "eternal_starlight:keeper_armor_trim_smithing_template" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			id: "5DD626B3294B3FF0"
+			tasks: [{
+				id: "78A33A0625878F40"
+				item: { count: 1, id: "eternal_starlight:forge_armor_trim_smithing_template" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "6942BAB042E3F809"
+			tasks: [{
+				id: "2AE5FF8234D0691A"
+				item: { count: 1, id: "eternal_starlight:blooming_armor_trim_smithing_template" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "1F0CAA1BB08F89FB"
+			tasks: [{
+				id: "3CB5CF35C3CE5F0D"
+				item: { count: 1, id: "eternal_starlight:twining_armor_trim_smithing_template" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "5B38F56025143CA3"
+			tasks: [{
+				id: "6E18F4C13E457449"
+				item: { count: 1, id: "occultism:ritual_dummy/misc_wild_trim" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "1F0816DE43CDDFD8"
+			tasks: [{
+				id: "4101BAEF1382CC67"
+				item: { count: 1, id: "kubejs:eternal_starlight_prediction" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "10F3F27DF973B64F"
+			tasks: [{
+				id: "5215F67433953D8C"
+				item: { count: 1, id: "eternal_starlight:saltpeter_powder" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "353766298B959114"
+			tasks: [{
+				id: "73EC65E789C2479D"
+				item: { count: 1, id: "eternal_starlight:shivering_gel" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			id: "020283940C1ECF6D"
+			tasks: [{
+				id: "69737CF33432758D"
+				item: { count: 1, id: "eternal_starlight:aetherstrike_rocket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "0728FFAFE3DF93E2"
+			tasks: [{
+				id: "4C6DFFE711F1487C"
+				item: { count: 1, id: "eternal_starlight:soul_dew" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "793424F70BF0353E"
+			tasks: [{
+				id: "0945F226B9451DDB"
+				item: { count: 1, id: "eternal_starlight:golem_steel_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "33D2C3432AAFB772"
+			tasks: [{
+				id: "1E983524FD33C41D"
+				item: { count: 1, id: "eternal_starlight:shadow_snail_shell_powder" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			id: "4FACE8CE91D6DCEB"
+			tasks: [{
+				id: "75FFAA0CC968CF5E"
+				item: { count: 1, id: "eternal_starlight:cinder_brick" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "47D0C7FCECDF4BBB"
+			tasks: [{
+				id: "4DA1F170D4CF4DC3"
+				item: { count: 1, id: "eternal_starlight:starlight_flower" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "2FF464F708A68767"
+			tasks: [{
+				id: "05C5DCF2C87CC8E1"
+				item: { count: 1, id: "eternal_starlight:starlight_torchflower" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
 	]
 }

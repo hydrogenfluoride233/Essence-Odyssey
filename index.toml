@@ -238,7 +238,7 @@ hash = "336a1dcfde783fb49e7f5ae3f5905179e2e7800c0cd41cee8fc6bd210edb2e06"
 
 [[files]]
 file = "config/apotheosis/apothic_enchanting.cfg"
-hash = "2150a9e5f1bf77a33843d3a9d290efad799e7aaf338b1f6d0bedfae190864aa8"
+hash = "a3bee57a52654b40ba20f3dd1128377ce044df863f03deb507dd5ff6eb39311f"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
@@ -2066,7 +2066,7 @@ hash = "598f3bdb74d030f2f5b50c38ae9436610302f3b3e08165b1fcdbec3397ca763a"
 
 [[files]]
 file = "config/fml.toml"
-hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
+hash = "07c546de707ca14a8e3e0f3ae2de289ba0e52f486af6f627d098ceb044b72173"
 
 [[files]]
 file = "config/ftbbackups2.json"
@@ -2126,7 +2126,7 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
-hash = "15eadf912b152b348c8540f459f3b69629e08ce39c3fb3f7cf269347766cf537"
+hash = "0f311fe16ae052dfdc9aed494b5ef43298315c7dba0f29cf7efc10411ea18e6c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
@@ -2158,7 +2158,7 @@ hash = "41a01d61454b3e23c0f0d071bd401771b381bd1622cbbe243523be86fb8963fd"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "3967a2c27abc6d4ea2096652413f186225c0aa77c2dcc2dc274a5d8ed8ebb7d4"
+hash = "9d9015ea87038e33466f37139ec56e538720998c1b38a761c540ebbc3f3367c0"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -4181,6 +4181,390 @@ file = "kubejs/config/web_server.json"
 hash = "c221e2b56e9c4bc8a5e8ddc5992e99b92a316d0534029eb08ebe4bb8d2454418"
 
 [[files]]
+file = "kubejs/data/ae2/loot_table/blocks/mysterious_cube.json"
+hash = "f83f20befbb02e7c71dd9a450679f317989c8a2383557964fc4ec8709b746b3a"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/altar_automation_interface.json"
+hash = "b753b734ce82171682ca3b4f169d79e95120d5377c64fbe6b0345a610c9b8274"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/auto_starmetal_chisel.json"
+hash = "0770e2d83b6dbdc8fe39ecdfbde2d5fa99a3d833cf51e64863e22bb21870b31d"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/constellation_core.json"
+hash = "28a23599c754dcc8260c1fdd7989a77f0628111d02d9b61ee02207d2389d6682"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/constellation_relay.json"
+hash = "cd2f49f1ab7b96e54a2b29c23301e55bb79a4fca7b0e83d3c4eb61814d3699b5"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/iridescent_attunement_altar.json"
+hash = "e445714a4b4f61d1827eb8afc870709d8bed50b54654f5f472e3c9e3d36faf1a"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/liquid_starlight/form_astral_fluix_cluster.json"
+hash = "d638adb85973caaaa14c0d7553e2c81f67ebf5fa0f6384d1ca5936e36f8876f5"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/liquid_starlight/grow_astral_fluix_crystal.json"
+hash = "5d29a39a18bde120dfe3b8706abdf6bcd07803599e1eba1d6bce9bf65058a75a"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/liquid_starlight/merge_astral_fluix_crystals.json"
+hash = "c8324e2204899907fec9004266ba433c0410d707e5b5d46cd8364066d5604dc5"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/lumen_storage_cell_256k_artifact_enhance.json"
+hash = "d013329f34ec489c712d77704e7467706c4e0e1067d03b844c49ad05789203c0"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/lumen_storage_component_1k.json"
+hash = "11340cd6ddb5dff27d09e98bde105c156ab4a6751d0d3955aef1187133573bb6"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/me_celestial_gateway.json"
+hash = "b528c960fb103ee420d513c7fd34ecca346863df4127b1ea3152c61045b14314"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/me_chalice.json"
+hash = "9260db253aafb393978899b2f0d790c9512e03b031d3bd345fcc69fc6a9ab458"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/me_lumen_alchemy_array.json"
+hash = "b8d313b5cc32a2eabb55e555fb4e6c364c4f0ed29fc7cbe69e2113a3fb324267"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/me_lumen_array.json"
+hash = "c46fe2ef06d236d7c188e923d50209451625aa13a777d04afe4c829397b89c21"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/me_lumen_crystallizer.json"
+hash = "b20471e8fba0e9f9147f062e8281f0ba036d6482ed5000bd15dca0c0d8648856"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/me_lumen_filament.json"
+hash = "65cca68e116803e8caa6fa8f67c13a676b97d9ddbdebdbed65174ad253b054b2"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/me_starlight_infuser.json"
+hash = "d7f7aae42f7d1032312fc60f83e02c69ed205bd7782806f0d786ee9a09c77a1b"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/me_tree_beacon.json"
+hash = "b3919ae3780922bb4a4dd34ce7f0e374e3652483e1b9419e14b6c5aa956d4106"
+
+[[files]]
+file = "kubejs/data/appliedas/recipe/starlight_transmutation_chamber.json"
+hash = "623dd4efb15f6b1823364a1484bae4be993ecc94314a001473f4ffde01471c21"
+
+[[files]]
+file = "kubejs/data/createdeco/recipe/placard.json"
+hash = "ddc3d0dd56b604d914bedbf2f985a2f0b5f7374eac79aad668a8a2cfd7cc154c"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/aechor_plant.json"
+hash = "c2a0e88ba90c2563c28987dea8a211f925acf8faa7544e66b579a0040dbac9fb"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/aerbunny.json"
+hash = "dcc0ea8348d0fe5e7ab9c333d01a05139da7959a32128e31bdec12e495c257f5"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/blue_swet.json"
+hash = "1afcdbf4261c997d7dc50635d3e001a9a0483563e821c3fca0b5d7080a0a51df"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/flying_cow.json"
+hash = "6951b267327e58d68ef0a6ffa5f5c2c7ee069b7d71accda64f4a59c4f59bf664"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/golden_swet.json"
+hash = "362f59a122cdbcc3a8338dce722bc803f053ff487c0e3710650a4a5fff7d12f8"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/moa.json"
+hash = "74b2845f6651c7b22fcfb234036e0823308c58e4fec05e443a6578ba4fba1948"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/phyg.json"
+hash = "4cb082b6a7e53cc14ea04314df694380aba676363cfbfbd3954afd519f3cd780"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/sheepuff.json"
+hash = "7b0ab9da87b8fb22b83272a9d8942b3b47ddcaab2da234db02fa4105f51085a2"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/slider.json"
+hash = "04a6be75e70af1f780af45cffc618e95ecb6658208b7c6ce589cdba19201350f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/sun_spirit.json"
+hash = "3001e976f59d96fe397bd02367085b64556b68c4cf043c9555ca2aecebc4ec14"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/valkyrie_queen.json"
+hash = "8aca09d06ec9a10d6f26a503431bcc81a6c7357e8919750cfb6829f66417edf1"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aether/zephyr.json"
+hash = "09c10e5f32ca391be8765ee1b5edc31bcc7e20300ad8d9d6f6190e6647fd216b"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquaculture/fish.json"
+hash = "9aebdc8110f0a89f71ffc6c2b6a6b18829045c116da8c318190a8fcb60e521aa"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquaculture/jellyfish.json"
+hash = "97ebf68049439229e3ca442dda3faa08fbaed1e04c61c9596ec40694b6f02f9d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquaculture/turtle.json"
+hash = "8ec48e38fe53ca1925d2f88c95b91b6c67045f2103fbd615d97a73b1ea7de46e"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/acropolis_mobs.json"
+hash = "65b73ca3c35cc6479bd8f4a09fdad191838cc36b1cb36b0a9ef84445132c5ce1"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/amethyst_crab.json"
+hash = "09b757f67f447c3f465c30a68e3b11cbde7f64d48289bc2d679c05dae9776ad7"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/ancient_remnant.json"
+hash = "ac2764206476a74dbbae6c1f35d379b1d61cb8b24547989c0380a5c01cf1ed57"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/aptrgangr.json"
+hash = "5558f451462d66e917882badf0b6f841779d99f9b6426f9ee7fbae1b896fd331"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/clawdian.json"
+hash = "59fa70cbd04e860fa98c4d41c698c60f3a90f09801b5efc27de8a4b17f15351f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/coral_golem.json"
+hash = "1efc2b43afcad5cddc82cb64437113c3f5c042dd831a9bcd52fd9a5046a77d0f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/coralssus.json"
+hash = "1caea54bd79938cf4f0b8f56a910eae15732076f525e515da4f75536bf12c839"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/deeplings.json"
+hash = "ef2b9f3dc4159cff69d3b58195bb3a60a74a5047a2ce062e78ae8ffaa1174389"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/draugr.json"
+hash = "d0bfa62be280cbece10642fb3ff367b91a9c370c0a1649bbbb8668063011cdbe"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/ender_golem.json"
+hash = "73f973d659deb7755ad403c14dce966a3d7116a107638c85c0aa26b737d0c6cb"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/ender_guardian.json"
+hash = "936a5b0edcfe39db39288a5665a7873e18cdafae38c6ebb40dae83a1b1ac500c"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/endermaptera.json"
+hash = "6650da21aa1ed82f40aa6345bf331611b1e2220a75f8502e05b30af1abdd8ecc"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/hippocamtus.json"
+hash = "e7810009dd74fc04f4ff61c08369b51c13dc2d73d99cbcc6eb77188efe39b86c"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/ignis.json"
+hash = "38f843d15cad318183f422894da28b202421d91e9c86d8a81e380bd63192e57d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/ignited_revenants.json"
+hash = "8d31d63edff151633f915b34ebe5ccaf39817d861e8d96bb49e86d5cc7a2f579"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/kobolediator.json"
+hash = "c5e44023c9529cdbfc1f7aad7d4b43fc57a75c7a46a3e902dbcab171d5795175"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/koboleton.json"
+hash = "60dfc358c595dd7397b0fcc1d33d9df2ac0e1242d65852c05e9087509115c077"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/lionfish.json"
+hash = "8dd7995e74a8f52f4f7ebc50ed65468231112f7644eb0e6003447b38fd5bb879"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/maledictus.json"
+hash = "bcfa279d818d33fc65623c525962ceab04bc686342b0a664237d70c4d3c11a86"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/netherite_monstrosity.json"
+hash = "7b4372a159f8b081824fc3594ccfa7edeb93fb64deb4988cd5295979145ab1f0"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/scylla.json"
+hash = "b3dbebb2ed1c17e6634f656ee9acd773210293a66330fdeeef9aee9978923cd9"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/the_harbinger.json"
+hash = "a07e8a36ea85ba32c4d2f21d5bc362f265164e007c957f3dc9ee0bda0ae26853"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/the_leviathan.json"
+hash = "8009dde5b584e08b257c2e51055f2c2b475f342d0f8dac2cb2f1ea4d0fd67376"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/the_prowler.json"
+hash = "22bb3ed8ae19a7a2177d6922fe07367e751c34f7df31b042a43f2f84efb07dda"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/wadjet.json"
+hash = "c9b3776bc6bdbe8547dee07cde9025e0d0844fc0998f37a272fbade6d8f2656c"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/deep_aether/aerglow_fish.json"
+hash = "317da9018292133f1eff721a450e06661dcf669f7c27a51551b20dce98b94688"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/deep_aether/eots_controller.json"
+hash = "e1155dac3fab4729ed4384742cd7d74acaa28e85dcec7f0815cda4abe894a517"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/deep_aether/quail.json"
+hash = "ff93d3d5643e62e51489b39f6873ad78ce01d6bccd05131fdf8ef5052bbaba26"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/aurora_deer.json"
+hash = "932ff52708df9efaeab620317cff563571541e453af22417f08c021450a8bfff"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/creteor.json"
+hash = "bcde588196266732f825b6daae633450b74e4a626965cdfc308eda9af86ae737"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/crystallized_moth.json"
+hash = "83fe68bda1b69296011bdcd133dfb23118b4730870f3c879aa32282ec406451a"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/ent.json"
+hash = "33e08f5a1ba9bc6e11996a8a4b6325abba28188b080d144f73baba8bd327201d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/freeze.json"
+hash = "a2f85716a8c69ed409ced7b6bc9a0960874a3ccaeafb4ecb952c2545aaa80658"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/gleech.json"
+hash = "8c5463cecac303cea80fa57f495a6c0f1a187b73721d0b0a768b6bc89509c272"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/lonestar_skeleton.json"
+hash = "d9e280ce9bac2974eb7ba570493be32503cac63a648570bd62cb1c3d52e33f8f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/luminaris.json"
+hash = "997d8974647797e08d8acde9e630776670e5dbbb1875a1d9e8514724176b7d2f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/luminofish.json"
+hash = "4e0fd9ebd59c841bc9201990613c945afcffcbfd66a8e3d44e56cb4fbf10f224"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/lunar_monstrosity.json"
+hash = "f293c89f40f2ca19519d2f676cd86e9ecd836ad610f46f30b2f48ad958198136"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/nightfall_spider.json"
+hash = "ec78f79e41311355508bdc48ad4120c7ffa55a1397990239593e8503dbdf465f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/permafrost.json"
+hash = "34d56464c8645e5714eea3197af11aba2a4453593ac32d86b4e6a0bfd20e3bc4"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/ratlin.json"
+hash = "a155097705dfa285f7ef1050dddf80ecd3fb660210f1dae7eefb2d2a683f589b"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/rookfish.json"
+hash = "2032012ed1c6a64abbb6d093df9b724e5b77584fca50343e1842bc67f1a1f55f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/seeker.json"
+hash = "6132171c5d4124c2b0d0813418c4ca001e2f36569e3dbd56a128e2da02251b4c"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/shadow_snail.json"
+hash = "6c7b1766c9fde07424788efc9dfca5b2a6302c27ec144469e76bc508e9bb2d0d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/starlight_golem.json"
+hash = "ef48f90ab976b401c2ce5e9dd3be2632063cdcf12b2719e159307a545043f087"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/stranghoul.json"
+hash = "dbe4e5fb39ea920ce8b16ccaac627032a61bffda97d1790547c8ba8075a1c088"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/tangled.json"
+hash = "08b3bf42e2bfeedd185e951166e76e003bab32abb0beb1f7e646669b69525ad7"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/the_gatekeeper.json"
+hash = "6ec5cefc441082b77d0493a385df6f1667e4392fbc00e6f7621bb8e0a5ca1a8a"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/thirst_walker.json"
+hash = "7b90c291f0923867b20d5156899bd292686c843a6687fc6b997b601f56ec1297"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/twilight_gaze.json"
+hash = "2604e9ef6bb1478f450de2b5a26bf6be641cc5d9610ef0aa5288c855311e7ae8"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/eternal_starlight/yeti.json"
+hash = "30995fab6e8293492653d51737f92f4261bacdfb9bc9f7c7eeeeef2dc74d2767"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/minecraft/pufferfish.json"
+hash = "6f37b51dfe12b1cb00841cb1c5aa2d227399eee017bd99b217345b102bae505f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/minecraft/salmon.json"
+hash = "148e809f9bd75988e4496d882b67f17e7ece41de450deaae55a05e929bf39973"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/minecraft/tropical_fish.json"
+hash = "e6e5680b42d1d4e4173613563d765f23c2895671d1543d501d58194fdb9414ca"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/quark/crab.json"
+hash = "9f3b9e185a9657a8fa75f178048bb5f2cdcf244200b0480c15e2988db2bdc25c"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/twilightforest/knight_phantom.json"
+hash = "13ddd26325962bf46677af39b208047763e33c551f90966895c0328547b37a80"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/upgrade_aquatic/fish.json"
+hash = "1a4cd3a15cbec3e213be60bdb58eb87020280ea7b8a356ad1b54f89dbeccffbb"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/upgrade_aquatic/great_thrasher.json"
+hash = "8a7fb3c65fb0aa0aba24a5cdbe3551fa9bf38106c7e1c7887444439d63d09a0a"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/upgrade_aquatic/nautilus.json"
+hash = "ad43f7eb47bf20d1137c02fc09454e231a326b7fca05eca312671c8686071494"
+
+[[files]]
+file = "kubejs/data/mekaweapons/recipe/bow_limb.json"
+hash = "c969cfd1ceacd9484986f193405bf16ada986090abaec769d01abfbf07e5852d"
+
+[[files]]
 file = "kubejs/package.json"
 hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
@@ -4218,7 +4602,7 @@ hash = "99409882ed13dcb10a8623608589fee9e842d9b1418a7ef5bb5bde1575b561c7"
 
 [[files]]
 file = "kubejs/server_scripts/botany_pots.js"
-hash = "1521fae5e8d001ce1d518e99dfe4fb04f9f4e2fd71772886f0c2555fc41576a9"
+hash = "5d7b01ce23ffa2700854ecbaf65d1edadfe9dbbb83804b78fbb3d7dd8f1b14e7"
 
 [[files]]
 file = "kubejs/server_scripts/cataclysm.js"
@@ -4242,7 +4626,7 @@ hash = "e77cad50d552f73559cf1e98cfbd3beb76de479ea6c3b8fa49ac71c32e7e5dfa"
 
 [[files]]
 file = "kubejs/server_scripts/eternal_starlight.js"
-hash = "8af16281e809f53c211f8b8e4a10700aaa245a5eb60475d428fd68b6a9876afc"
+hash = "96601bb078d54ba1e5e43ff2e2b765357de4bc3e935c29bfbd5e4995f34672e1"
 
 [[files]]
 file = "kubejs/server_scripts/extendedcrafting.js"
@@ -6000,7 +6384,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "aabcc46170268ba6d7ec0ed723733e6b0241f96ae3b64de54c4217ac2619d439"
+hash = "fed1691d554686e0a24577a2697ab63c263202b2e41d11392165ac4690118840"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"

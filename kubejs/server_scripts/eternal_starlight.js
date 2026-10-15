@@ -29,6 +29,7 @@ ServerEvents.recipes(event=>{
         ["minecraft:sand", "eternal_starlight:twilight_sand"],
         ["minecraft:deepslate", "eternal_starlight:voidstone"],
         ["minecraft:cobbled_deepslate", "eternal_starlight:cobbled_voidstone"],
+        ["minecraft:gravel", "eternal_starlight:dusted_gravel"],
     ]
 
     eternalStarlightConversions.forEach(([input, output]) => {
