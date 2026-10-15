@@ -122,6 +122,13 @@
 	quest.09A2129D419DDC49.quest_desc: ["&o&mRiver power, easy as that!&r"]
 	quest.09A2129D419DDC49.quest_subtitle: ["River Power"]
 	quest.09A2129D419DDC49.title: "Stress Production (2)"
+	quest.0A739937D1D185C7.quest_desc: [
+		"Portal Ruins are structures that generate in the &aOverworld&r."
+		""
+		"Each biome they generate in has its own variant, but every variant holds a Gatekeeper and a Chiseled Voidstone frame."
+		""
+		"&a&lGo and find one&r — it will reveal a &adimension lit by starlight&r."
+	]
 	quest.0AD91A5126496988.quest_desc: [
 		"&o&7You still cannot say what these things in your hands are. You only followed the notebook and did it once.&r"
 		""
@@ -145,12 +152,18 @@
 		"&o&7You cannot tell what this great mass and the things inside it are good for.&r"
 	]
 	quest.0C963B7BCA20460B.title: "Discover the Meteor"
+	quest.0D7152948770AE7F.quest_desc: [
+		"Goo spreading into the matching ore turns it into the matching crystal cluster."
+		"That will have to do for now."
+		"(Don't forget you can get Silk Touch from the Enchanting Apparatus.)"
+	]
 	quest.0DB2CD482BA01F58.quest_desc: ["In the Overworld, drop an Amethyst Shard into a cauldron filled with water."]
 	quest.0DE6FE73C42F8CA2.quest_desc: [
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
 		""
 		"In the &#3EDCFFwater&r token is sorrow — it teaches life about flow and loss."
 	]
+	quest.0DF52CD073E9984C.quest_desc: ["&lYou found me.&r"]
 	quest.0DF94450C70D2259.quest_desc: [
 		"The Overworld's aspect is &#3EDCFFwater&r. It &#3EDCFFflows&r and &#3EDCFFholds&r, and &#3EDCFFcarries on&r all life."
 		""
@@ -159,6 +172,7 @@
 		"Here, a Bottle and Cork collects Bottled Sunlight."
 	]
 	quest.0DF94450C70D2259.title: "Visit the Overworld"
+	quest.0EAD190E24BC4DAD.title: "Mixer"
 	quest.0FF0A4AD565E2758.quest_desc: [
 		"&aEnder Golems&r sleep on the first and second floors of the Ruined Citadel, standing guard. The moment intruders appear, they wake and fight."
 		""
@@ -205,11 +219,14 @@
 		"Perhaps there will be a &abetter way&r to produce Precision Mechanisms later?"
 	]
 	quest.1307B2956D04D7A2.title: "Precision Mechanism"
+	quest.13CD116177901DE8.quest_desc: ["Has a chance to drop when Dusted Gravel is broken."]
+	quest.13DA290A6AFCB1C4.quest_desc: ["The catalyst for crafting Twilight Ingots, and proof that you have fully conquered the Twilight Forest."]
 	quest.140B027BBF9B47B2.quest_desc: [
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
 		""
 		"In the &#626262chaos&r token is confusion — it takes away certainty and direction."
 	]
+	quest.1529F9460D2A49FE.quest_desc: ["For making a few gadgets."]
 	quest.1553D272E3538E31.quest_desc: [
 		"Spawns inside loot chests once every Knight Phantom has been defeated."
 		"ps. Do not use an Ars Nouveau Containment Jar on a Knight Phantom...... (otherwise its health bar will stay on your screen forever)"
@@ -244,6 +261,13 @@
 		"This pinch of powder seems &aable to do more than that&r."
 	]
 	quest.177F832B5872D164.title: "Starting Point"
+	quest.186D50D15BDE751E.quest_desc: [
+		"Throw &aStarfire&r at Twilight Sand (or Sand, or Red Sand) and the block it hits turns into Raw Flowglaze."
+		""
+		"Smelt Raw Flowglaze to get &aFlowglaze&r."
+		""
+		"Flowglaze drops as an item even when broken without Silk Touch. It can also upgrade Glacite gear into stronger Flowglaze gear with a &aSmithing Template (Flowglaze Upgrade)&r."
+	]
 	quest.18DEB55F4DEDB7A3.quest_desc: [
 		"The world was never built by any single force alone."
 		""
@@ -252,20 +276,41 @@
 		"This expedition is not a conquest of some world, but a gathering of traces and a record of rules — and the first true connection between forces that were once sealed off from one another."
 	]
 	quest.18DEB55F4DEDB7A3.title: "The Beginning"
+	quest.1A4D3224BF39EFA7.quest_desc: [
+		"This thing is a pain to use, but you'll need it to crush these empowered crystals."
+		""
+		"&m&oI couldn't even be bothered to give it recipe compat. Better throw it away soon.&r"
+	]
+	quest.1A64E09306C5EC80.quest_desc: ["\"...If I had to sum up the Minoshroom's place in the ecosystem: it's Silver Chariot in JoJo, the Basic Zombie in Plants vs. Zombies, the most tender chunk of meat in the stew. Pick a fight with it and you're punching a pillow; anger it by accident and you've angered one of the four easiest creatures in the whole swamp (there are four Minoshrooms in the swamp). It'll win you a fortune at the cricket-fighting casino: drag it in, let it fight anything, bet against it, and the money rolls in! It tastes great too: mushroom aroma with a steak, toss it in a salad and it's delicious!\""]
 	quest.1A72CFCDBF3ABF73.title: "Bottling Machine"
 	quest.1B4EBBF517C2C707.quest_desc: [
 		"Fear takes root in the dark and grows into terror."
 		""
 		"&#56C000Earth&r makes life face the unknown — terror gives the unknown a border."
 	]
+	quest.1BBF9A8F2131EAC6.quest_desc: ["Note that the Engineer's Hammer is also a wrench, so you can't hand it to a Deployer directly; feed it in with a Hopper or similar."]
+	quest.1C2C86D965817F76.quest_desc: [
+		"&o&6As members of this ancient and mysterious order, we come from all walks of life, yet we share one ancient and sacred duty: to guard the gate to the Starlight dimension and make sure only the brave and the strong may enter.&r"
+		""
+		"The Gatekeeper guards the gate to the Starlight dimension."
+		""
+		"Right-click the Gatekeeper to talk to him, then click Challenge to fight him."
+		"{@pagebreak}"
+		"If you defeat the Gatekeeper, he drops a &aLoot Bag&r holding the &aOrb of Prophecy&r, which opens the Starlight Portal, and the mod's guidebook, the &aGlimmering Tablet&r."
+		""
+		"If you have already beaten the &aEnder Dragon&r before fighting the Gatekeeper, he hands you a Loot Bag without a fight."
+		"{@pagebreak}"
+		"[ { \"text\": \"What? You can't beat the Gatekeeper or the Ender Dragon?! Then take a look at \", \"italic\": true }, { \"text\": \"this quest\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"77CCF6E3CA3E9F38\"} }, { \"text\": \".\", \"italic\": true } ]"
+	]
 	quest.1EA7CB9F4E022E6E.quest_desc: ["In the Nether, drop an Amethyst Shard into fire."]
+	quest.1ECEECDD3F1DBB34.quest_desc: ["Mainly used to empower crystals."]
 	quest.1FBA99E5D96BD893.quest_desc: ["An ordinary circuit can carry energy, but it cannot preserve the traces left behind by aura, source and resonating aspects. The Arcane Wafer combines the stability of minerals, the activity of nature and the perception of magic into a medium capable of recording anomalous signals."]
 	quest.203DC11C3D09AFA2.quest_desc: [
 		"&o&6A machine left behind by an ancient civilisation, armed with missile launchers and a circular saw — a powerful guard at the heart of the Ancient Factory.&r"
 		""
 		"Make good use of the &aEMP&r in the Ancient Factory: give it a redstone signal to &aactivate&r it. Once active it can &astun&r The Harbinger and The Prowler within a certain range, and &akill&r nearby Watchers."
 	]
-	quest.203DC11C3D09AFA2.title: "Kill The Prowler"
+	quest.203DC11C3D09AFA2.title: "Kill the Prowler"
 	quest.217A0236C9312C68.quest_desc: [
 		"The Twilight Forest's aspect is &#56C000earth&r. It &#56C000settles&r, draws &#56C000boundaries&r, and &#56C000grows&r upon them."
 		""
@@ -294,6 +339,11 @@
 		"Crush a Crushing Wheel with a Crushing Wheel — will the Crushing Wheel be crushed by the Crushing Wheel?"
 	]
 	quest.26C4569F0CA4E7D7.title: "Crushing Wheels"
+	quest.26DCF8DA35F5CEA6.quest_desc: [
+		"The Questing Ram spawns naturally in a Quest Grove in the Enchanted Forest. Each Quest Grove holds only one Questing Ram, and it is much bigger than an ordinary sheep."
+		"It follows you while you hold wool. Right-click to hand it wool of different colors, or drop the wool for it to pick up. For every new color it gets, its body grows longer, it gives off particles in that color, and wool of that color appears on its body."
+		"Once it has all sixteen vanilla wool colors, it gives off particles in every color it was given and drops a bundle; what's inside is your reward."
+	]
 	quest.27219131E0E42F88.quest_desc: ["Feeding a Baby Leviathan with a &aTropical Fish&r tames it; it will then fight for you with its unripe abyssal power."]
 	quest.2740A375D6EBCB05.quest_desc: [
 		"Aspect crystals are too quiet — so quiet they hardly seem like aspects at all. Give them enough heat, then enough pressure, and they will speak again: returning the aspects they sealed away, in the form of a fluid."
@@ -321,6 +371,7 @@
 		"To perform a forest ritual you need Gold Powder. Your first batch comes from a &afalling Anvil&r striking Gold Leaf. You will also need Wooden Stands, obtained by right-clicking a stripped Oak Log with Brilliant Fiber on a &aCutting Board&r."
 	]
 	quest.2A90934B95C717BC.title: "Ritual of the Forest"
+	quest.2B008EB17CABF755.quest_desc: ["So why are there so many kinds of plastic?"]
 	quest.2CC22C2203005BFF.title: "Refinery"
 	quest.2D72B8B451B12DFB.quest_desc: [
 		"The &aImbuement Chamber&r injects source into an item in order to craft it."
@@ -343,6 +394,10 @@
 	]
 	quest.2E5D92132F9FA3DC.title: "Steel Ingot"
 	quest.2EC65ED47EDA8740.quest_desc: ["The Lightning Spear it fires pierces Ignis's shield and deals damage."]
+	quest.2F074ADCF3BB9078.quest_desc: [
+		"Have you ever tried putting Bread on a Drying Rack and waiting five minutes?"
+		"Have you ever seen the death message for being killed by Stale Bread?"
+	]
 	quest.2F4141AE42BB5E86.quest_desc: [
 		"The Soul Forge was raised in the &aNether&r by the piglins, to build terrible machines of war."
 		""
@@ -535,6 +590,10 @@
 		"&o&mBut why a cutting board?!&r"
 	]
 	quest.477C7D68B338367C.title: "Andesite Alloy"
+	quest.481ECA1B87829938.quest_desc: [
+		"A better way to get steel. &mOf course, this isn't its final form&r"
+		"Besides that, it can handle a few other jobs too."
+	]
 	quest.481ECA1B87829938.title: "Crude Blast Furnace"
 	quest.48407C982D11D8DC.quest_desc: [
 		"Corundum is an excellent magical material: it can absorb environmental information."
@@ -600,6 +659,14 @@
 		"Climb to the top of the acropolis and you reach the building where the boss waits. When you are ready, &aright-click the anchor at its very centre&r to call Scylla and begin the fight."
 	]
 	quest.516C33B1C8134654.title: "Trial of Scylla"
+	quest.526FED59584C6513.quest_desc: [
+		"P.S. While a player wears the Mystic Crown, the scepters get a boost:"
+		"Scepter of Twilight: 5% chance not to use durability."
+		"Scepter of Life Draining: 5% chance not to use durability."
+		"Zombie Scepter: 10% chance to summon a loyal baby zombie."
+		"Scepter of Fortification: shields last 50% longer."
+	]
+	quest.54766B34784DB721.quest_desc: ["With the power of this mysterious metal you can easily draw each boss's soul (except the Knight Phantoms') out of its trophy and into a Containment Jar. It is also an important crafting material; later on you'll need to find a way to mass-produce it."]
 	quest.54946257C2AB9DCF.quest_desc: [
 		"To make use of aspect crystals, you need to prepare a few things first."
 		""
@@ -638,6 +705,7 @@
 		""
 		"Three materials and the Water Essence carve this one stroke: from now on, &#3EDCFFflowing&r itself can be called up by ritual."
 	]
+	quest.5971AA7E8234AA79.quest_desc: ["Build a Pressure Chamber to do pressurized crafting safely."]
 	quest.5971AA7E8234AA79.title: "Pressure Chamber"
 	quest.5AA560228973D274.quest_desc: [
 		"The fallen star never handed you a method of manufacture. All it left was a record sealed between ore, runes and broken structures."
@@ -696,6 +764,7 @@
 		"&o&mIt is basically a forest ritual with more particle effects (?)&r&r"
 	]
 	quest.636F2AFB3BF2AC31.title: "Enchanting Apparatus"
+	quest.64DDBFEA863697E9.quest_desc: ["All Immersive Engineering machines get a boost: lower power use and faster processing."]
 	quest.64DDBFEA863697E9.title: "Metal Press"
 	quest.656B7D59A1F6492F.quest_desc: ["That is impossible."]
 	quest.656B7D59A1F6492F.title: "In Case You Don't Know What the Overworld Is"
@@ -718,6 +787,7 @@
 		"The one thing to keep in mind is this: by default, there is a &alimit&r to how much aura a single area can hold."
 	]
 	quest.6951B60D890910D1.title: "Aura Generation"
+	quest.6BA679217AD6DBB8.quest_desc: ["Build a Coke Oven to get Coal Coke and Creosote Oil."]
 	quest.6BA679217AD6DBB8.title: "Coke Oven"
 	quest.6BD5C4A261AF78A6.quest_desc: [
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
@@ -784,6 +854,11 @@
 	quest.724CFEFED2FB7209.title: "Order Essence"
 	quest.72B021AA3E3944F3.quest_desc: ["Ancient Leaves hold a rich store of aura, &areleasing it slowly&r to top up the aura field around them whenever its concentration drops."]
 	quest.72B021AA3E3944F3.title: "Ancient Sapling"
+	quest.741E600F39DCCE9F.quest_desc: [
+		"Welcome to the mysterious Starlight dimension! Everything here has been waiting for you."
+		""
+		"&o&aThe Glimmering Tablet&r&o and the &aadvancements&r&o will point the way as you explore further. Of course, the &aquest book&r&o and &aMC百科 (mcmod.cn)&r&o work too.&r"
+	]
 	quest.746F388E40C7B518.quest_desc: [
 		"Desert Pyramid Revamped stands in the wide deserts of the &aOverworld&r — a relic of an ancient civilisation."
 		""
@@ -817,6 +892,12 @@
 		"This structure can be found with the &aEye of Void&r."
 	]
 	quest.78F4FA00C33D561F.title: "Ruined Citadel"
+	quest.791B7C1CD2D53F4E.quest_desc: [
+		"&aStarfire Birds&r live in the Starlight Forest, with feathers of red or blue, and they make a unique substance: &aStarfire&r."
+		""
+		"Put &aSeeds&r in their nests as a gift. They will accept it and give you something in return, including this precious material."
+	]
+	quest.791B7C1CD2D53F4E.title: "Gift of the Starfire Birds"
 	quest.796BB04761A96F35.title: "Arc Furnace"
 	quest.7BF679E3CD97A80C.quest_desc: [
 		"Sorrow settling down becomes grief."
@@ -888,25 +969,33 @@
 	task.13DB2DD657514650.title: "The End"
 	task.163F9DDC61A2D8AC.title: "The Acropolis"
 	task.17650FBCBA1450E9.title: "Expedition"
+	task.1A8BEDAAA27F7163.title: "Portal Ruins"
 	task.203A163FC71A00FC.title: "Desert Pyramid Revamped"
 	task.2305198079015D3A.title: "Find a Meteor"
 	task.24FE31B570989116.title: "The Change"
 	task.26F5A19DA793B3CA.title: "About Max Health"
+	task.28F99E7393821F8D.title: "Building Tip"
 	task.2C0E687C81089841.title: "Aura Production"
 	task.30303ED505A60181.title: "Introduction"
+	task.34B7BAC412F11B4E.title: "Building Tip"
 	task.36D154543D52C43C.title: "Before You Set Out"
 	task.37D4E500A111FB20.title: "The Overworld"
 	task.38AE5723BB37D6C0.title: "Technology, Magic and Adventure"
 	task.3CB8637FDDD6572D.title: "Answering the World"
 	task.3E0363DC50992287.title: "Something from Beyond"
 	task.3E4FC7B25118CFC6.title: "Observe: Industrial Squeezer"
+	task.3E5813B97646AAA7.title: "Building Tip"
+	task.4187313DDDBF9184.title: "Visit Eternal Starlight"
+	task.42FC38BAB37B938E.title: "Building Tip"
 	task.4949CEE6599F4ECE.title: "The Twilight Forest"
+	task.4957F257EAD47780.title: "Building Tip"
 	task.4C19EFA8BF153159.title: "Getting to Know This World"
 	task.4C3D832DFA013D0A.title: "Jail of Cold"
 	task.4E664F0AFCBB4293.title: "The Beginning"
 	task.4F2A964E7E3DFD96.title: "Sunken in the Sea"
 	task.4F45886C24B2B9F2.title: "Building Tip"
 	task.4FF759267D5261E9.title: "Sourcelink"
+	task.5140F85B109430DF.title: "Building Tip"
 	task.522CD557B868AC9D.title: "Unknown Mixture"
 	task.52F7FD6FA9E4B929.title: "Claim a Music Disc"
 	task.53413AAB9034897F.title: "Sorry, I never used this one — I fear nothing."
@@ -918,14 +1007,17 @@
 	task.61DE08540FEA7353.title: "Observe: Arc Furnace"
 	task.63B2FB528FF866BD.title: "Sorry, I never fought it — I skipped that lesson."
 	task.652218963A103A1D.title: "The Nether"
+	task.65587729DFF5CEC4.title: "Observe: Mixer"
 	task.6634D131AE9072E3.title: "Observe: Industrial Fermenter"
 	task.6E927BFCDAC25C8F.title: "Observe: Metal Press"
 	task.7008DF5E949ABB24.title: "Observe: Crusher"
 	task.71C8B83C37C6DF3B.title: "Strange \"Dreams\""
+	task.7364963D50029ACA.title: "Building Tip"
 	task.73B7DE094D9C8EE8.title: "AE2"
 	task.74A6BFF77446A183.title: "Burning Arena"
 	task.75BFDE05DC02A082.title: "Starting Kit"
 	task.75C08446667D55EF.title: "Spool"
+	task.79A3CE6CA5DB4E9A.title: "Building Tip"
 	task.7D2F04B3382958EC.title: "Sorry, I never fought it — I skipped that lesson."
 	task.7E6F682B99D230E1.title: "Any Log"
 	task.7F97A016ABC3B040.title: "Ruined Citadel"

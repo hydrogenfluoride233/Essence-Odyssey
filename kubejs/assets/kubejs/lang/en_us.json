@@ -193,11 +193,11 @@
   "item.kubejs.energy_capacitor":"Energy Capacitor",
   "item.kubejs.calibration_gel":"Calibration Gel",
   "item.kubejs.twilight_holy_grail":"Twilight Grail",
-  "item.kubejs.twilight_holy_grail.tooltip":"Not consumed when crafting",
+  "item.kubejs.twilight_holy_grail.tooltip":"Not consumed in crafting.",
   "item.kubejs.twilight_ingot":"Twilight Ingot",
   "item.kubejs.aether_prediction":"Generalized Aether Prediction",
   "item.kubejs.eternal_starlight_prediction":"Generalized Eternal Starlight Prediction",
-  "item.kubejs.infinity_lava_cell":"Infinite Lava Cell",
+  "item.kubejs.infinity_lava_cell":"Infinity Lava Cell",
   "item.kubejs.paradox_collapser":"Paradox Collapser",
   "item.kubejs.empowered_restonia_crystal_dust":"Empowered Restonia Crystal Dust",
   "item.kubejs.empowered_palis_crystal_dust":"Empowered Palis Crystal Dust",
@@ -211,15 +211,8 @@
   "item.kubejs.ritual_tree":"Ritual: Packaged Forest Ritual",
   "item.kubejs.ritual_tree.tooltip":"Packaged Forest Ritual",
 
-
-
-
-
-
-
   "item.kubejs.perditio_scribe_tool.tooltip":"§7The writing is on the wall...§r",
   "item.kubejs.ordo_scribe_tool.tooltip":"§7The writing is on the wall...§r",
-
 
   "kubejs.tips.aether_is_yellow":"Tips from the Aether are yellow!",
   "kubejs.tips.twilight_is_green":"Tips from the Twilight Forest are green!",
@@ -230,7 +223,7 @@
   "kubejs.info.aura_bottle_aether":"Collect aura using a Bottle and Cork in the Aether.",
   "kubejs.info.aura_bottle_twilight_forest":"Collect aura using a Bottle and Cork in the Twilight Forest.",
   "kubejs.info.aura_bottle_starlight":"Collect aura using a Bottle and Cork in Eternal Starlight.",
-  "kubejs.info.blueprint_automatons":"Obtained from vaults in trial chambers.",
+  "kubejs.info.blueprint_automatons":"Found in Vaults in Trial Chambers.",
   "kubejs.info.blueprint_special_bullet":"Traded with a Gunsmith villager, or found in chests in an Engineer's House.",
   "kubejs.info.mmcr_imbuement_ports":"In the multiblock structure, the rim of both the top and bottom faces can be replaced with an Item Input/Output Bus or a Source Input Interface.",
   "kubejs.info.mmcr_imbuement_parallel":"The block below the Arcane Core can be replaced with a Parallel Controller."
