@@ -40,6 +40,13 @@ StartupEvents.registry("block",event=>{
             builder.notSolid().opaque(false).fullBlock(false).viewBlocking(false).suffocating(false).redstoneConductor(false)
             shapes[id].forEach(([x0,y0,z0,x1,y1,z1])=>builder.box(x0,y0,z0,x1,y1,z1))
         }
-        if (glow[id]) builder.lightLevel(glow[id])
+        if (glow[id]) {
+            builder.lightLevel(glow[id])
+            //只在客户端每 2 tick 跑一次，用来放祭坛粒子特效（client_scripts/essenceodyssey/altar_fx.js）
+            builder.blockEntity(be => {
+                be.clientTicking()
+                be.tickFrequency(2)
+            })
+        }
     })
 })
