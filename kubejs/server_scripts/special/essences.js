@@ -115,27 +115,6 @@
         "permutatio" //变化 = 混沌+秩序
     ]
 
-    //元始要素的陨星层
-    //每层是对象：radius 与 fill 必填，shell 与 weighted 按需；weighted 为 [{entry,weight}]
-    //神圣陨星仪式只取 weighted，故 FILL_ONLY_EXCLUDES 里的方块会被滤掉
-    const MeteorLayers = ess=>[
-        {
-            "radius":5,
-            "fill":"minecraft:amethyst_block",
-            "shell":"minecraft:calcite",
-            "weighted":[
-                {"entry":`kubejs:block_${ess}`,"weight":300},
-                {"entry":"minecraft:amethyst_block","weight":700}
-            ]
-        },
-        {
-            "radius":6,
-            "fill":"minecraft:smooth_basalt"
-        }
-    ]
-
-    const FILL_ONLY_EXCLUDES = ["minecraft:smooth_basalt","minecraft:calcite"]
-
     //二级要素合成表
     const SecondaryEssenceRecipes = [
         ["aqua"    ,"ignis"   ,"vapor"     ],
@@ -200,27 +179,8 @@ ServerEvents.recipes(event=>{
             Fluid.of(`kubejs:${ess}_fluid`,1000)
         )//灌装机：液=>固
 
-        const layers = MeteorLayers(ess)
-
-        //神圣陨星：只留加权矿石层，平滑玄武岩与方解石一并去掉
-        const DeusLayers = layers
-            .filter(layer=>
-                layer.weighted||!FILL_ONLY_EXCLUDES.includes(layer.fill))
-            .map(layer=>{
-                const out = {"radius":layer.radius,"fill":layer.fill}
-
-                if(layer.shell&&!FILL_ONLY_EXCLUDES.includes(layer.shell)){
-                    out.shell = layer.shell
-                }
-                if(layer.weighted){
-                    out.weighted = layer.weighted
-                }
-                return out
-            })
-
-        //普通陨星：层数据用 JSON 字面量直写，与改动前逐字段一致
-        //神圣陨星：同一份层数据去掉平滑玄武岩与方解石
-        //两条都用 neovitae:meteor（deus_meteor 是仪式名，不是配方类型）
+        //陨星仪式：普通与神圣共用这一条配方
+        //普通读 fill / shell / weighted，神圣只读 weighted（候选方块须在 neovitae:quarry_blocks 里）
         event.custom({
             "type":"neovitae:meteor",
             "input":{"item":`${data.scribe}:${data.name}_scribe_tool`},
@@ -241,18 +201,8 @@ ServerEvents.recipes(event=>{
                     "fill":"minecraft:smooth_basalt"
                 }
             ]
-        })
-            .id(`kubejs:meteor/${ess}`)
-
-        event.custom({
-            "type":"neovitae:meteor",
-            "input":{"item":`${data.scribe}:${data.name}_scribe_tool`},
-            "syphon":2000000,
-            "explosion":8,
-            "layers":DeusLayers
-        })
-            .id(`kubejs:deus_meteor/${ess}`)
-
+        })//陨星仪式
+        
         event.recipes.neovitae.ara_vitae_recipe(
             `${data.scribe}:${data.name}_scribe_tool`,
             `${data.imbuement}:${data.name}_essence`,
