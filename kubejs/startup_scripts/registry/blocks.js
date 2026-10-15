@@ -16,11 +16,11 @@ StartupEvents.registry("block",event=>{
     }
 
     let block = [
-        //星辉魔法占位方块（altar_1/2/3、sky_stone_starmetal_ore）随正式版加入移除，要复用就整段放开
+        //星辉魔法占位祭坛（altar_1/2/3）随正式版加入移除，要复用就放开这三行
         // ["altar_1","pickaxe","stone","stone",3,3],
         // ["altar_2","pickaxe","stone","stone",3,3],
         // ["altar_3","pickaxe","stone","stone",3,3],
-        // ["sky_stone_starmetal_ore","pickaxe","diamond","stone",5,5]
+        ["sky_stone_starmetal_ore","pickaxe","diamond","stone",5,5]//陨石星辉金属矿石（占位，后续进陨星仪式）
     ]
     block.forEach(([id,type,level,sound,hardness,resistance])=>
         event.create(id)
