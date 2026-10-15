@@ -72,3 +72,19 @@ ServerEvents.tags("item",event=>{
     event.add("neovitae:tools/scribe","kubejs:ordo_scribe_tool")
 })
 
+ServerEvents.tags("block",event=>{
+    //神圣陨星只落 neovitae:quarry_blocks 里的方块（不在标签里的加权项会被丢掉）
+    const QuarryBlockList = [
+        "aqua"      ,//水
+        "ignis"     ,//火
+        "terra"     ,//地
+        "aer"       ,//风
+        "perditio"  ,//混沌
+        "ordo"      ,//秩序
+    ]
+    QuarryBlockList.forEach(essence=>
+        event.add("neovitae:quarry_blocks",`kubejs:block_${essence}`))
+
+    event.add("neovitae:quarry_blocks","minecraft:amethyst_block")  //紫水晶块
+})
+
