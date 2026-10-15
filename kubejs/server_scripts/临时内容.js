@@ -21,5 +21,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"neovitae:hellfire_forge"})
     event.remove({id:"ars_ocultas:altar"})
     event.remove({id:"neovitae:ara_vitae/weak_blood_orb"})
+    event.remove({id:"astralsorcery:astrolabe"})
+    event.remove({output:"astralsorcery:altar_illumination"})
     
 })
