@@ -53,17 +53,6 @@
 			y: -1.0d
 		}
 		{
-			id: "7D408593DCB001FB"
-			shape: "gear"
-			tasks: [{
-				id: "453ECEEFE9E8D6AD"
-				item: { count: 1, id: "kubejs:altar_1" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.0d
-		}
-		{
 			id: "13A7FD8383CB4DD4"
 			tasks: [{
 				id: "775E588526073D1F"
@@ -123,6 +112,16 @@
 			}]
 			x: 3.0d
 			y: -1.0d
+		}
+		{
+			id: "477958E4569C3D6B"
+			tasks: [{
+				id: "4F3AD035C3B6110C"
+				item: { count: 1, id: "astralsorcery:altar_illumination" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
 		}
 	]
 }
