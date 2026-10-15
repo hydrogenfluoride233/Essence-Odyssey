@@ -53,7 +53,6 @@ mods/*.jar
 !mods/aethersdelight-0.1.4.2-1.21.1.jar
 resourcepacks/*.zip
 !resourcepacks/BDcraft Sound Pack MC121.zip
-!resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
 patchouli_books/
 schematics/
 

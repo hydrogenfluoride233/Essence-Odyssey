@@ -3306,87 +3306,171 @@ hash = "0bf4964795d61f03694d7e2099648dc33cf1d0ea6292f0ea2396e80979cdf11a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_aer.png"
-hash = "547685f913e5229af8e6af7768e4eea202f9f210710707d7286eb5b652f20ba3"
+hash = "7e90396927d53a19371d3dd1c6f3748213fb040ab6237433993bdffb937fdf21"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_aer.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_aestus.png"
-hash = "ebb7aa36c02f4ab63e81c8f20ca15d8d6270f7e0e5a2265e2b80e8991a0a1bcc"
+hash = "69f6f366486afdbf4e308cd94c53f00c4f0386e54720d100fe16ae13e859ff9f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_aestus.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_aqua.png"
-hash = "2fbd6e71678cd29aca7fe06bd62b7a3dcb53569be2ade3d2d56ae949b45d1943"
+hash = "729102acca023e7d057591e8fa1dcf04c294b1480608f4c8a738ada86c91d8e5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_aqua.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_fervor.png"
-hash = "93e8ef35ea193c61f1c2cbc4974996b0babc0eefecbedb14e086c7e7ecf6177b"
+hash = "4e16e455abc17349641a0e265ac46229a31a0a6ba4ef693bba4508227f74b091"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_fervor.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_gelum.png"
-hash = "b90101a252560ea14a9debb281a4a5b4b555bbc81f3b0af14c667d6dcee217ba"
+hash = "5a5250b60d332239bb62e7a76ac906664c0a0cef2ec1acc7cb5aaea37cbd4cce"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_gelum.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_ignis.png"
-hash = "65bac632d3e15bef313bf939a9062822cfe518de2080418a2373f06950708781"
+hash = "8dc3760db34eb599d07e22b31f929f4de7d68c03828b486ed14b9091bf3517e8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_ignis.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_lux.png"
-hash = "2db8515be07be90b5bf9627b9c1bb9ba96a53e1f4f3a06b509da413dcce57bde"
+hash = "feca2ff3e3c090b514311c9a5dead8327851c5a18c565730f0b05f6cec36da19"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_lux.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_metallum.png"
-hash = "d0a525a8057b0846613c0998707c4e6b242fac9e0c8c9e60b53e6f01b037a1ee"
+hash = "7da96dc9f4da0bcdab34d87f12cd1c85a9773906f5b1944cca03481065b97260"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_metallum.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_mortuus.png"
-hash = "4e4f295dea937a841d544c25a163e3abe0fb688c7012cc255a5a4cefaf3ec7a9"
+hash = "5bbafce14516385eda3e79543e9f3356a04e117a7069e2d7c7b4c30ec8a2a867"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_mortuus.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_motus.png"
-hash = "0f90ae9fc2626a095d1e6f9fb0ef5dd751ab16f26914b14a3f5acbeaac9dae56"
+hash = "8bc864aa4ac31effd6d4dfa38b65c621d20dfbdead688c91f0bb223154561e8d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_motus.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_ordo.png"
-hash = "0d5d95f5ae3c7a8b0873aa3c1f80ec3592d3d56aab45ad9fe8deb536a0501054"
+hash = "2a67af696bba55fb7a62b6148329b17d7f46207d66bce3962f4e6d8e097ba920"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_ordo.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_perditio.png"
-hash = "f4603345e7b67e6f627d74a1bad30ee8b5163d448a077c47b53c7f71e716fdd2"
+hash = "d52a502bee2dda7b38b1f863abd87bddc8a913fe63417e099a5efd8d31ac12c8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_perditio.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_permutatio.png"
-hash = "085faa56d3a6e51407c1aa56040c6f632678addca231309a7fad7c009a4ab1f5"
+hash = "581ba5fbf5be5c4aada111525b3d7d8eadbab4c5c58a0ce6b9717c9aae5bd21f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_permutatio.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_potentia.png"
-hash = "a4028d85d832c131e328745b68f7c97b0c5bc5b14f56fcfaac80c5d84bca9ec1"
+hash = "baf9e1feca9d27003d3076e4a548bb5e3ed874fe375d72d2dde2f8e4eb1831f9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_potentia.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_tempestas.png"
-hash = "3bc9b1f6d1064a1404f6074a2f788b9f24062c96b2b2f6f34d7e476cab58cd29"
+hash = "18f4a35238a333d71685f3afcd696fb41b5d97e32450bb84c1061228ebf90475"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_tempestas.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_terra.png"
-hash = "fae71745870fe6cc5a07d29cdead37146a0690651b9b04406a98e5aeb2bd1c7f"
+hash = "9310655a1c8cd82271b52fbcd92e60c11238696dd822cf16173a44e198f56482"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_terra.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_vacuos.png"
-hash = "f099b769c6fd93aaa630395a2a164575018a55aea4ae88b6ddfc47f1308870a1"
+hash = "0adf270c191340cc09039969bb78bd539af09784d9fd54a9388e97814e606c7e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_vacuos.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_vapor.png"
-hash = "5d11c4957899b23ae6b6d0a068fe53f52887d10278edcc209eb8c340f1b1fe7a"
+hash = "fecd06eccfe3289742713d90d094346de2e461f0388ca9b1049d3e2b66afc363"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_vapor.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_victus.png"
-hash = "f41d05443a27730487d22a9c979ed6dddf4ab5871a944b8c625f9991e489f396"
+hash = "dcebb82286dce57c744345f0dd1b4f84ecf19703488b5b3fc43b0a05c7c7d06e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_victus.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_vitium.png"
-hash = "39b7a615f08f905a0e046ca0026b9c23c3a5ef50f4d9e55c0a0c4a0f3a2a090f"
+hash = "d2f05d2ab08767de13462f190027889c2639990a4e117f8f9c81900916857dde"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_vitium.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/block_vitreus.png"
-hash = "5628a5d4552b570c1b020b4efda2315262afb9e9f6d94b9e51ec0aea6fd17922"
+hash = "d0270d3a82121369c950acaa76061ff824475ad52b2dbe816c799640ce9161b3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/block_vitreus.png.mcmeta"
+hash = "8fd1f15a8cc05f3edc83c9c6c5d080dbec723226e971e8f6809495615b5147fb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/imbuement_chamber.png"
@@ -3406,15 +3490,19 @@ hash = "0c0155bb7d519a59e2753f4934e679b2e2f3ec1c06877deb2cbef1fd86a242d3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aether_prediction.png"
-hash = "89e28c872c720b2d54ebb91fddea41e5ce97a555f1b427e6a84409885dda220c"
+hash = "ad8aab63e275c442b5cf353b8dccb525956fc7e9299e9607dd2c6668f7a329b8"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/arcane_wafer.png"
-hash = "03ed591d8ca149d9390df33686efd7d42ecc35901b7b94b35f0a4bbe78ebcbb8"
+hash = "788cf304cc9d0eecd60c9a915a6b6e29cdc91ec2c57ceb154529d06a0424acfc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/arcane_wafer.png.mcmeta"
+hash = "0476a5c396e06e18f6268c70cad7b2dd46d1cafa946d33590da7b5562d0ffda7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aura_diode.png"
-hash = "8120aba005f87d08259d39ac7647cb314e13dac5c5c7976190534aa52c912cf5"
+hash = "6902458cf9bcb51383319faa911534f7c6589726f62f6074d6bda2a5be99bd34"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/calibration_gel.png"
@@ -3422,39 +3510,51 @@ hash = "ef39d4dd359a660fe6193c5d27096f0d38b1c3f71c0ed33696f9bc3407201a55"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/clump_aluminum.png"
-hash = "c638b7e7fcb299832f602f169e91ce3145da53eb88ae9127534fcd5fef387b3a"
+hash = "7c6046240d218617c7bec9317e4a1bb6ec0252f7da1eb933a145539a2b82268b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/clump_iesnium.png"
-hash = "ba4a96328449162ce43ae070a29a3310bad41264759a8911f2b12fda10645031"
+hash = "c6d4fe7a0d94033088da89c0eb23db63b598b0a00dccf4135629b2ee4affd639"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/clump_nickel.png"
-hash = "bb3ca4d9666250b3797fc5ce4abfef8e1cd80acf6fc9969fb43a0a45e139119a"
+hash = "d3705a37fc4ce120cf1884f49e29660124f714a48c9b8d488d47f1d953f1ffa4"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/clump_zinc.png"
-hash = "3400a4e46496a98cf4074fc541c04ebb7a52006b2781913168214fb112029dec"
+hash = "fdfb3cb5246bd68897467e26a320be87ec238f9f1131566b0649f6bdf6ba746a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crushed_raw_iesnium.png"
-hash = "c0ee39cf344a6a447654496819b03be2b68370632d49ed85f6185fc01601c7a2"
+hash = "5c3a17fca40b5492408817748993c0e90600ca4567cc38de204fdb23ac66bfbe"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_aer.png"
-hash = "6fab97f83775241358c1828a4c22167006145d7bf0ba137ff5a5108595d082cc"
+hash = "ee98ec0ef8c7c26ece0d698fdaac434b34d122fd2b25285e2546546afc334df5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_aer.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_aestus.png"
-hash = "33e2a26209cf9b38c597cf01f161f0eb770c759fd9da407b3837801966b13caa"
+hash = "a5243f146e1531a3fd9848ab62ed4243a32689dbfea9f209f695d972e0ad8b8a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_aestus.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_aluminum.png"
-hash = "5a4bb2f153ec921a41db760ad0398ef0d2f977873fc07c3cc52e44eda9ce1d84"
+hash = "fd5ab076f4a9de42d00b838d8ad1429e25549cb63f7208375d375bb7911d9541"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_aqua.png"
-hash = "ac5406cd5e6831aa9b2ebd43928f758e6cdebe22dcfbc24c3b5cfa1c55d339b2"
+hash = "eda3b20b935151f9659381d0065bc2dafa63dfc8be77ebc9d2398d7931936588"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_aqua.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_base.png"
@@ -3462,163 +3562,235 @@ hash = "7a3e436e9805b1864534747373ea9554e652b68b641818c155c21858efc13cff"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_fervor.png"
-hash = "95f43f89fce47dd3eb819ebc71dd6432df0345be9a62b690c5f74558edaba68d"
+hash = "66c150f665dc41ded01acb30cf2c9dac5ee0c692ca4d1a2182ceaf56cde04e78"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_fervor.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_gelum.png"
-hash = "788540ce46b04fbd22dedeaf9bead92057c771942126689843f20545ad41899a"
+hash = "be485d1f5df3308912b758126f46be9eeab926715ec57ecd8964d6dbe3d20e7b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_gelum.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_iesnium.png"
-hash = "a7ad573b2eab95161562ce00f9e198350b9dbcbdc19d5523d25096ba1c0fbb4c"
+hash = "4092513689b242487da00d1dd570372214754c060368f00e66450f9d49eb1549"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_ignis.png"
-hash = "7ddc1c676e9970d991df8391de87cddf4e945750bfdadb8b5962a7f720739b1b"
+hash = "9202000a16a2b57a6f1b5756703e742f1fbc0a08e6f37eb1e3c47cfefa23d2e9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_ignis.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_lux.png"
-hash = "55c78ccce73b2d52dba6eb05241727af49c8a2dbc685e44837756f7077969e38"
+hash = "864d530170e087692d1c7f0c149a646bd2f9fec041fd64c910a8f6490ea69c79"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_lux.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_metallum.png"
-hash = "049fffff42d136bc2900b15571ae50442f0bcda95e3e31ba41e30d851e5aebcd"
+hash = "ab3afed274cf1db54998e21f192127e65887de7afac806f789f0947993b8412b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_metallum.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_mortuus.png"
-hash = "c48d38964727733f69fb7550352b2e30f2f1d9c3106d64e0bea6575ce5cd36e6"
+hash = "05e360e73039ba759edccc826386eea78b515485421f50d2a7a35067b59407c8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_mortuus.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_motus.png"
-hash = "f1b2e521206ec637b9c7e067e4bec56d50d0e93d6a4152f5e1520474adcf9776"
+hash = "85dba50c5735d9d6616427eff6d4ceb37c93da1e6603d171d638112c13dc90af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_motus.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_nickel.png"
-hash = "8488aeeba82880353deb3d7888898146f6577d5cdb128fa78a146d3e6c82bf48"
+hash = "98ff2f0da6d9452538eb994df32dbffba38c16e76fc625d7c1485571c2430aab"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_ordo.png"
-hash = "b56d29a168de6b4f261239c4a743fbccdfec0ec0f3c276b3d333d67119187969"
+hash = "178dcc029825202be3c7bab79d192c464b19d6201ffe3373a168fe95877eed72"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_ordo.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_perditio.png"
-hash = "49eb2b11257f0ec9482491e4cb98d90f304a9f38a6ec9f8b75376c8d7530fc75"
+hash = "70a5fe509225e8b471f9247c3fcfaed9e0b1d1384d64818e9c5cb34d090adbef"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_perditio.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_permutatio.png"
-hash = "d78894294619893b9ebadd051bb9111f7c566e05baad53393c99f27f006184ab"
+hash = "4a7ac9a639bdeccb30b53ff4025beebf27b789b7189cd9af8a2d52c14b18d5aa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_permutatio.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_potentia.png"
-hash = "8ff767df6805ef5a35e07bd5b7c55fcb2469d5be2988e81a16fbd2db7ee4a441"
+hash = "db39eee781ce55fa1cf9c9572e1de1123e9e8ebe7824baac48918888e56e48b9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_potentia.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_tempestas.png"
-hash = "4aed63286cca1036c8cce380803162f74d8d802e72e786e52f0582078f052e4f"
+hash = "daac67b8a8d0ada1ac812bd01a61407444a7d8ee78a1e31728c3c8f57f99f756"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_tempestas.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_terra.png"
-hash = "7f7d3656d582dbb6bf40f5e3876370a3091d570888fb50aa2c5650bbdef04715"
+hash = "83f5576b4408f45a1c629ba5488eb75d22c7f352ebcad9eebcb49cce317e196e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_terra.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_vacuos.png"
-hash = "c9eb82b18232fcbd746da876181918132867b1a7a582e850948b02620a73efa7"
+hash = "04a9099ed4565d6b1bad3defa9d7a694c8a88bc7e601c75d8f68377f609f4ac8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_vacuos.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_vapor.png"
-hash = "e20532336df8873f2c6f244e2b39f88a99ffc7ba4064d9a91b1714aca07aea91"
+hash = "4e3fe534708912f019c72b7dabbdd056f5ee4b2cb7c347cac1a1872cf37aec72"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_vapor.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_victus.png"
-hash = "c1db081824dd9514063feba77c535f8dddeb84074ced0ee782b5eed6e613f25d"
+hash = "ec61ec973fc83187ec6203abcc12f3786601d5bf7daf967e799c73c0eb4e9738"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_victus.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_vitium.png"
-hash = "bc115dbb1c96398fd7940bc86ebe918567b683d9765ddd0a4f70c3e225dc5f92"
+hash = "d76a819cf9e9dc2fa7d03c7c40a1e57bd944887e716b097384d976eb614fd1bd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_vitium.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_vitreus.png"
-hash = "420c14c8f76da1eda0f535db22b52340438784eaa24c402f17af49ce5f13e35a"
+hash = "db08eb1d6b1e73118dc1f44a44f1f0d07a6029662a2cd48593dc41f08e3349f3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/crystal_vitreus.png.mcmeta"
+hash = "c8f48c2dc197fd8ed161351da883ab50cb154e2e04e8a6576c6834e8e55d3c26"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crystal_zinc.png"
-hash = "e81d0ae9ea684abc414f72ffa1582f005bc667fb88eaab7d79964fa2dffc1750"
+hash = "62c62a2031375472a9eddd7e0f1a04b8700892537a1965191f5b1bbf84b8fd1f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/dirty_dust_aluminum.png"
-hash = "2965a9f1761c7698570e9a537813c982f863efde398c8fd3670fdbaf6bb02602"
+hash = "817894c9861322bd1984e7bb5bdc0b6ab0581f766cbdb3ed4cfa00e62f289634"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/dirty_dust_iesnium.png"
-hash = "c33df2acf7a0a9e0880b70d23f482ba5764f4ad7cb93611187db80b665f6e806"
+hash = "9a1f1a25861a3c74b70a8fa68bca3e6042e53b4e220889f2471e537e01d75274"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/dirty_dust_nickel.png"
-hash = "85f5fc64e7464f27d576dd7cbbe0c29ddf08b3ab1a1dfcd4b3e597385d9483b5"
+hash = "18749a12b8bf6bb90e9fcec58d3b611ceea2c4d0577a1be0895e2da0f3012324"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/dirty_dust_zinc.png"
-hash = "c4a322a12a5a55f14a5af88989fa05fb2bb8ac305fab35e54577d359e9f58edc"
+hash = "eebdf3801e6058187bb79efc3142e50a22b498251406b2efa1f7eda610248579"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_diamatine_crystal_dust.png"
-hash = "858871043cd972db650ab4b76185dd40c28e6e61e896d4e1130f7b0ab1fc69e0"
+hash = "211e74c12c2413d8506364a507421f0d4454f6fc1993368dd438eb5382d4c7ef"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_diamatine_crystal_dust.png.mcmeta"
-hash = "5456a768c3771cb149976ffb11529ee3caf3904bfa6c1bbf5bf45ae4f48c450d"
+hash = "151823e492038c82078fc5064d5248c42fdf4dca03fc625a7cc7c358f31e42be"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_emeradic_crystal_dust.png"
-hash = "adffeaa8cda98c016c8341f530588329171d3df0fb6996b523cc8f1737faef06"
+hash = "44963b390fee0d3ba3657ad93d7bb25f063219a395186a8f0eab4414873536ee"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_emeradic_crystal_dust.png.mcmeta"
-hash = "5456a768c3771cb149976ffb11529ee3caf3904bfa6c1bbf5bf45ae4f48c450d"
+hash = "151823e492038c82078fc5064d5248c42fdf4dca03fc625a7cc7c358f31e42be"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_enori_crystal_dust.png"
-hash = "08397f90eb74fa8c9f8c8423e3afd2e758294df6124b988fb401277007ed39ae"
+hash = "1b92aaa26f54fe9c2113030fd2744b260c58d1a616736bd9c82b3e973f6b596b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_enori_crystal_dust.png.mcmeta"
-hash = "5456a768c3771cb149976ffb11529ee3caf3904bfa6c1bbf5bf45ae4f48c450d"
+hash = "151823e492038c82078fc5064d5248c42fdf4dca03fc625a7cc7c358f31e42be"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_palis_crystal_dust.png"
-hash = "c641b810db2c6277b140732073eb7452d12c2f473ca38c4faf68b7962949e31c"
+hash = "a4ecf8973557f9603fdf89e26593895a47b87465172cade5c386c66d2aa31e09"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_palis_crystal_dust.png.mcmeta"
-hash = "5456a768c3771cb149976ffb11529ee3caf3904bfa6c1bbf5bf45ae4f48c450d"
+hash = "151823e492038c82078fc5064d5248c42fdf4dca03fc625a7cc7c358f31e42be"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_restonia_crystal_dust.png"
-hash = "713a2586091d1703df635b52081e198d1ba623010752633c2a24be889a11fd83"
+hash = "f89d8dbf9f762da77b96fefd60b6b79b24c261fcb456f221a3cdfa5aa067ab28"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_restonia_crystal_dust.png.mcmeta"
-hash = "5456a768c3771cb149976ffb11529ee3caf3904bfa6c1bbf5bf45ae4f48c450d"
+hash = "151823e492038c82078fc5064d5248c42fdf4dca03fc625a7cc7c358f31e42be"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_void_crystal_dust.png"
-hash = "1b9407a1b8847f426ae1bd252f535c276c85542864e78b9cadc304380f955cd3"
+hash = "62a4957618a3c502198128393d784bbc51c89e6560fe12d4ccee19c75edb5487"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empowered_void_crystal_dust.png.mcmeta"
-hash = "5456a768c3771cb149976ffb11529ee3caf3904bfa6c1bbf5bf45ae4f48c450d"
+hash = "151823e492038c82078fc5064d5248c42fdf4dca03fc625a7cc7c358f31e42be"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/energy_capacitor.png"
-hash = "8ca1e5c08b068a491457c715bf0ff158b79edd42599d719d2bb51ad578751572"
+hash = "50ae8ca32d91a6d239dff03262e67c55601ebb178dbddee45dd6d726fb977f27"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/eternal_starlight_prediction.png"
-hash = "aee7360209adfa27dfdb190ec8b5007aaa4437008e0c54a33f84256d3cf8a503"
+hash = "348622f9a559b307fc4b8ae0465786e63e787067e94cda392a57db59efffc660"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/iesnium_sheet.png"
-hash = "d2bc4fe4afdd95d5c982b846eb205955607afade674f146a835b9b485bbac150"
+hash = "e98c330e545a85426b576e3cf13c217034793f5c85ad3c841ec6bbc1eaa30d11"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/infinity_lava_cell.png"
@@ -3626,7 +3798,7 @@ hash = "b6efddecc964c30912a42731e9832af077f2010eb1fda9ea4c73693d2c9e1a09"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/ordo_essence.png"
-hash = "a888e034ed8ded3693a9f9a75f96d9917b445060fc766d38d659c121bf8ab732"
+hash = "1e8cf14cd6065aa1044c9cf6f0ef0d6cec9882aca66c7a26d1054ebca8b6f80b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/ordo_scribe_tool.png"
@@ -3634,7 +3806,7 @@ hash = "e86ee1066214230dc8c787185dec3c3b157bf1f548daf6fafbab109d2c7b3ffd"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/osmium_sheet.png"
-hash = "dc666b4aaacd08c3460e487d243cc096afdbabd6b555093e3140ab36148a5977"
+hash = "e1aca4200b3d8b9cfb93e1de48426007ecb28ade1edd579b8e45fa77859c50dc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/paradox_collapser.png"
@@ -3646,7 +3818,7 @@ hash = "f0e84ee6690f97d4b9bcc81cdabb53cf634e01be4fa053e61b75e027b697851f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/perditio_essence.png"
-hash = "149cfe549b98d5ede35047d7bc7b8507adb41d69a2b4ceeaadcbd2587748f067"
+hash = "6bce2fa97f20fe35132c55b33ac8d762bd6ead935f06bc703a1c1895e1f6ccf7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/perditio_scribe_tool.png"
@@ -3694,19 +3866,19 @@ hash = "90dfa7daff81dfb6d09cac3e7b7d3f2d089224069ff8eb22e116011b041739bb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/shard_aluminum.png"
-hash = "ebe2e87191214b0161fc866b6966c291ea168260dbfe2020cd4d1480957259e6"
+hash = "341910bf726f8183fe55b8b1cf92a3e057f7d69dcb9e275555efc6e8215682c9"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/shard_iesnium.png"
-hash = "2c46b9d55db9e24348663f8842fbe72770407ef062ba325ba5a760494fde2d20"
+hash = "d6022882ae5c63d6863d9776357d71cf38626be1c016eee87e47b6a6ed1faed3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/shard_nickel.png"
-hash = "2efe6fe5bc6e9611ac1930e4c748ae16888646492bc3daebe8404b1e873ae894"
+hash = "3a57a71fdbd60862a392e6cb582cd8cb15b9cf94e8a067bdd900eb4280bed058"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/shard_zinc.png"
-hash = "9151c0755f4e06904bd2fb4b0e03a9fffc8241b3c68a8f5c646937dfec028557"
+hash = "910798d79f83497ba46bd4524d7361bbf31f6ced8e6f2592cfbf149e005438b9"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/sky_stone_mainboard.png"
@@ -3714,11 +3886,11 @@ hash = "6df4f20837bbbdfbd8d59e41c4e45851484cce852bbe0c2036432ba014bd5e03"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/source_amplifier.png"
-hash = "8a66e0310ebdada06f0d3463188d191e35cd4298c02a2efa022ee31ec9d8a87a"
+hash = "8a6d5fac5379c6a048e0f275a3ed7a50f9239273a7fdbc767d897258617c73cc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tin_sheet.png"
-hash = "065dcdfefe7b3bf73aeb63c985df34205c697476bbda52125c99ff888d462d9b"
+hash = "1fd3475420827ca0e0edb95cd599dbde7a178ffda0872b8e9741ef0827b2cc0f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/token_confusion.png"
@@ -3738,7 +3910,7 @@ hash = "9d10fa6427bb9a5c6ad09352296a68966d4f8d76c76c8046afea9f7d560c342a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/twilight_holy_grail.png"
-hash = "ddd73662560d7227aa952155a25f3542c10f47871ced1fc9b55d7962e2d4edf6"
+hash = "85367e5525953b7491b9c4e1ca344c333437aae3b8c11c3929a9d42174ec6189"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/twilight_ingot.png"
@@ -3870,7 +4042,7 @@ hash = "5a84eec13870867d8c25c4525c143d95a27d13cb222c46081f22847686218c91"
 
 [[files]]
 file = "kubejs/server_scripts/astralsorcery.js"
-hash = "babaae071689f0f6477d2801cc4ff545c92d8cc28eed07fdacb91757a5e63e3a"
+hash = "99409882ed13dcb10a8623608589fee9e842d9b1418a7ef5bb5bde1575b561c7"
 
 [[files]]
 file = "kubejs/server_scripts/botany_pots.js"
@@ -3942,7 +4114,7 @@ hash = "4f75af49b90a40ffc05054ea8678738c4085555bfcd18ea04cb1649f6ef88f9a"
 
 [[files]]
 file = "kubejs/server_scripts/neovitae.js"
-hash = "904a7c1b6d401a710674f65e33f5fde7c5a16fe6a58bc1c041dd70a308817a7c"
+hash = "ff480f28662b25337f3bbe0df0db2dc4c5f2308042d6963399089b8903a34543"
 
 [[files]]
 file = "kubejs/server_scripts/occultism-recipes.js"
@@ -4010,7 +4182,7 @@ hash = "40ae05aa54b1535fae115e8acef6cef85a2e98d6bcfc1bf50d9a9de57b246f1d"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/chemicals.js"
-hash = "910af6a29b2e554cd8841b02a3f7e47d0f6d7c1d9ba6de848e523a882911960b"
+hash = "bc90106e09c259c35aeb35156741a21cf942e652efb4dba6f8d53ecce2c671d6"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/essences.js"
@@ -5656,15 +5828,11 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "1f0cc127932ca9b7210ad40bb9561cb70bdfc8f3dfe114b6303591259dc0d212"
+hash = "aabcc46170268ba6d7ec0ed723733e6b0241f96ae3b64de54c4217ac2619d439"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
 hash = "c151e61ff8cd64c0b03e0fefce0d94af85fbb1b4185846479c2101f145e010a8"
-
-[[files]]
-file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"
-hash = "8d11b19e3e4c992e31ed38af777debc45fab1b4fa6f6fa0ca16ea19f9f7d1b9c"
 
 [[files]]
 file = "resourcepacks/ie-reimmersed.pw.toml"
