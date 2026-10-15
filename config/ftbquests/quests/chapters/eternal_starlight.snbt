@@ -101,19 +101,29 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
+			dependencies: ["4C173E38BEDFEB4A"]
+			icon: {
+				id: "eternal_starlight:chiseled_golem_steel_block"
+			}
 			id: "4CF8C2A8077F34B8"
 			tasks: [{
-				entity: "eternal_starlight:starlight_golem"
-				id: "514A9D77605013CA"
-				type: "kill"
-				value: 1L
+				advancement: "eternal_starlight:kill_golem"
+				criterion: ""
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:eternal_starlight/starlight_golem"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "503E6D37F25A71E3"
+				type: "advancement"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			id: "6C49ACF7A8AF9DB9"
@@ -122,8 +132,8 @@
 				item: { count: 1, id: "eternal_starlight:unrealium_ingot" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.5d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			id: "6EC64940158FA55F"
@@ -132,8 +142,8 @@
 				item: { count: 1, id: "eternal_starlight:drying_rack" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			id: "167A8641C151C28A"
@@ -179,8 +189,8 @@
 				item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.5d
+			x: 8.0d
+			y: 5.5d
 		}
 		{
 			id: "7F79E84CB0CE05C8"
@@ -253,6 +263,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["4C173E38BEDFEB4A"]
 			id: "71F2C2CF724481F9"
 			tasks: [{
 				id: "0B63BF5C3BBD2C84"
@@ -260,7 +271,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: -2.5d
 		}
 		{
 			id: "5CF86A7637F67C8A"
@@ -380,7 +391,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -0.5d
+			y: 5.0d
 		}
 		{
 			id: "0728FFAFE3DF93E2"
@@ -400,7 +411,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.5d
+			y: 5.5d
 		}
 		{
 			id: "33D2C3432AAFB772"
@@ -429,8 +440,8 @@
 				item: { count: 1, id: "eternal_starlight:starlight_flower" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			id: "2FF464F708A68767"
@@ -439,8 +450,43 @@
 				item: { count: 1, id: "eternal_starlight:starlight_torchflower" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30888D82985D06FE"]
+			icon: {
+				id: "eternal_starlight:energy_block"
+			}
+			id: "4C173E38BEDFEB4A"
+			tasks: [{
+				id: "5E53E9F84C08B55C"
+				structure: "eternal_starlight:golem_forge"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C173E38BEDFEB4A"]
+			icon: {
+				id: "eternal_starlight:coldsnap"
+			}
+			id: "26D8E6C6A1E587BD"
+			tasks: [{
+				advancement: "eternal_starlight:kill_permafrost"
+				criterion: ""
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:eternal_starlight/permafrost"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "4798C07EB708E686"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.5d
 		}
 	]
 }
