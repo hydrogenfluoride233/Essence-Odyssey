@@ -82,7 +82,17 @@ If you run into problems while playing, feedback is welcome via [Issues](https:/
 
 ## Repository Contents
 
-Only hand-written / hand-edited content is tracked here — KubeJS scripts and supplementary localization, mod configs, multiblock structure definitions and rendering assets, original textures and models. **No mod jars are distributed in this repository** (`mods/` is excluded via `.gitignore`); please install the pack through CurseForge.
+Only hand-written / hand-edited content is tracked here — KubeJS scripts and supplementary localization, mod configs, multiblock structure definitions and rendering assets, original textures and models, plus the packwiz manifest. **No mod jars are distributed in this repository**: the manifest records each mod's CurseForge project ID, file ID and hash, and the sync script downloads the jars from it (`mods/*.jar` is excluded via `.gitignore`). To play, install the pack through CurseForge.
+
+| Folder | Contents |
+|---|---|
+| `kubejs/` | Startup, server and client scripts; textures and models for the pack's own items and blocks; language files; datapack |
+| `config/`, `defaultconfigs/`, `ldlib2/` | Mod configs, default configs, multiblock structure definitions |
+| `config/ftbquests/quests/` | Quest book; its text lives in `lang/`, one file per language |
+| `pack.toml`, `index.toml`, `mods/*.pw.toml` | packwiz manifest (no jars) |
+| `tools/`, `tests/`, `.github/` | Development checks and CI; not shipped with the game |
+
+Translation conventions and the pre-commit checks are described in [`同步说明.md`](同步说明.md) (Chinese).
 
 ## License
 
