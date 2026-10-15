@@ -186,14 +186,14 @@
   "item.kubejs.tin_sheet":"锡板",
 
   "item.kubejs.unknown_mixture":"未知混合物",
-  "item.kubejs.sky_stone_mainboard":"陨星主板",
+  "item.kubejs.sky_stone_mainboard":"陨石主板",
   "item.kubejs.arcane_wafer":"魔导晶圆",
   "item.kubejs.aura_diode":"灵气二极管",
   "item.kubejs.source_amplifier":"魔源功放",
   "item.kubejs.energy_capacitor":"聚能电容",
   "item.kubejs.calibration_gel":"校准凝胶",
   "item.kubejs.twilight_holy_grail":"暮色圣杯",
-  "item.kubejs.twilight_holy_grail.tooltip":"在合成中不会被消耗",
+  "item.kubejs.twilight_holy_grail.tooltip":"在合成中不会被消耗。",
   "item.kubejs.twilight_ingot":"暮色锭",
   "item.kubejs.aether_prediction":"通用天境预测产物",
   "item.kubejs.eternal_starlight_prediction":"通用永恒星光预测产物",
@@ -211,15 +211,8 @@
   "item.kubejs.ritual_tree":"仪式：封装森林仪式",
   "item.kubejs.ritual_tree.tooltip":"封装森林仪式",
 
-
-
-
-
-
-
   "item.kubejs.perditio_scribe_tool.tooltip":"§7铭文已现……§r",
   "item.kubejs.ordo_scribe_tool.tooltip":"§7铭文已现……§r",
-
 
   "kubejs.tips.aether_is_yellow":"§e来自天境的提示是黄色的！",
   "kubejs.tips.twilight_is_green":"§a来自暮色森林的提示是绿色的！",
@@ -231,7 +224,7 @@
   "kubejs.info.aura_bottle_twilight_forest":"用瓶与塞收集暮色森林的灵气。",
   "kubejs.info.aura_bottle_starlight":"用瓶与塞收集永恒星光的灵气。",
   "kubejs.info.blueprint_automatons":"从试炼密室宝库中获得。",
-  "kubejs.info.blueprint_special_bullet":"与军械工人村民交易，或在工程师小屋箱子中获得。",
+  "kubejs.info.blueprint_special_bullet":"与军火商村民交易，或在工程师小屋箱子中获得。",
   "kubejs.info.mmcr_imbuement_ports":"在多方块结构中，上下两个面的边框可以换成物品输入/输出总线或魔源输入接口。",
   "kubejs.info.mmcr_imbuement_parallel":"奥术核心下方的那一格可以换成并行器。"
 }
