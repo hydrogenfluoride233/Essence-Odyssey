@@ -116,20 +116,22 @@
     ]
 
     //元始要素的陨星层
-    //格式:[半径,填充方块,外壳方块,加权方块]；填充与外壳按需留空字符串
-    //神圣陨星仪式只取加权方块，故 FILL_ONLY_EXCLUDES 里的方块会被滤掉
+    //每层是对象：radius 与 fill 必填，shell 与 weighted 按需；weighted 为 [{entry,weight}]
+    //神圣陨星仪式只取 weighted，故 FILL_ONLY_EXCLUDES 里的方块会被滤掉
     const MeteorLayers = ess=>[
-        [
-            5,"minecraft:amethyst_block","minecraft:calcite",
-            [
+        {
+            "radius":5,
+            "fill":"minecraft:amethyst_block",
+            "shell":"minecraft:calcite",
+            "weighted":[
                 {"entry":`kubejs:block_${ess}`,"weight":300},
                 {"entry":"minecraft:amethyst_block","weight":700}
             ]
-        ],
-        [
-            6,"minecraft:smooth_basalt","",
-            []
-        ]
+        },
+        {
+            "radius":6,
+            "fill":"minecraft:smooth_basalt"
+        }
     ]
 
     const FILL_ONLY_EXCLUDES = ["minecraft:smooth_basalt","minecraft:calcite"]
@@ -213,18 +215,18 @@ ServerEvents.recipes(event=>{
 
         //神圣陨星：只留加权矿石层，平滑玄武岩与方解石一并去掉
         const DeusLayers = layers
-            .filter(([radius,fill,shell,weighted])=>
-                weighted.length>0||!FILL_ONLY_EXCLUDES.includes(fill))
-            .map(([radius,fill,shell,weighted])=>{
-                const layer = {"radius":radius,"fill":fill}
+            .filter(layer=>
+                layer.weighted||!FILL_ONLY_EXCLUDES.includes(layer.fill))
+            .map(layer=>{
+                const out = {"radius":layer.radius,"fill":layer.fill}
 
-                if(shell!==""&&!FILL_ONLY_EXCLUDES.includes(shell)){
-                    layer.shell = shell
+                if(layer.shell&&!FILL_ONLY_EXCLUDES.includes(layer.shell)){
+                    out.shell = layer.shell
                 }
-                if(weighted.length>0){
-                    layer.weighted = weighted
+                if(layer.weighted){
+                    out.weighted = layer.weighted
                 }
-                return layer
+                return out
             })
 
         event.custom(MeteorJson("",layers))
