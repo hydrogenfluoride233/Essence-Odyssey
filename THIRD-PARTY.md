@@ -10,13 +10,21 @@
 
 ## 一、汉化译文
 
-| 位置 | 来源 | 许可 |
-|---|---|---|
-| `kubejs/assets/{accessories, apothic_attributes, apothic_enchanting, buildinggadgets2, ftbchunks, ftbfiltersystem, ftblibrary, ftbquests, ftbteams, ftbultimine, functionalstorage, justdirethings, naturesaura, neovitae, pylons, rechiseled, rechiseledcreate}/lang/zh_cn.json` | 星野夢華 (Hoshino Yumeka)《All the Mods 10 汉化补丁 —— 绿油油版》<https://github.com/chiba233/atm10-zh-cn>；该作品译文部分亦含 **CFPA 社区翻译**（Minecraft-Mod-Language-Package）的成分 | **CC BY-NC-SA 4.0**（署名—非商业性使用—相同方式共享） |
+| 项目 | 内容 |
+|---|---|
+| 位置 | `kubejs/assets/i18n/lang/zh_cn.json`（补译键统一合并在这一份里）、`kubejs/assets/<modid>/lang/zh_cn.json`（中英都有的键留在原命名空间） |
+| 来源 | 星野夢華 (Hoshino Yumeka)《All the Mods 10 汉化补丁 —— 绿油油版》<https://github.com/chiba233/atm10-zh-cn>；该作品译文部分亦含 **CFPA 社区翻译**（Minecraft-Mod-Language-Package，<https://cfpa.site/>）的成分 |
+| 许可 | **CC BY-NC-SA 4.0**（署名—非商业性使用—相同方式共享） |
+| 使用方式 | 部分直接使用，部分按本整合包的口径改写了用词 |
 
-- 2026-09-26 逐键比对复核（上游 `main` @ `a7c75a8`）：上列 17 个文件与上游逐字相同或高度重合——其中 10 个字节完全一致（buildinggadgets2、ftbchunks、ftbfiltersystem、ftblibrary、ftbultimine、functionalstorage、justdirethings、naturesaura、pylons、rechiseledcreate），`rechiseled` 3655/3656 键一致（仅 `rechiseled.tooltip.connecting` 改写），`neovitae` 112/116，其余为键集合一致、仅缩进或空白差异。比对明细见 `docs\脚本\汉化来源比对.md`。
-- 未列入上表的其余语言文件：或上游无对应文件（`deep_aether`、`jeimultiblocks`、`mbd2`、`rechiseledae2`、`sanguine_networks` 等），或仅有极少共同键（`ae2`、`hostilenetworks`、`kubejs`、`occultism` 的 `zh_cn` 属本整合包自定义键的少量覆盖），或部分重合（`modularrouters` 139/369）。上游不含 `en_us`，本仓库各 `en_us.json` 均无对应来源。
+- 与上游逐字重合的程度、上游 commit 与抽样范围见内部记录 `docs\脚本\汉化来源比对.md`（2026-10-15 复核）。
+- 整合包中另有大量键在汉化补丁里没有对应项（自定义内容，以及各模组自带 `zh_cn` 未覆盖的部分），这部分为本整合包自写。
+- 上游不含 `en_us`，本仓库各 `en_us.json` 均无对应来源。
 - 按 CC BY-NC-SA 4.0 的要求，使用这些文件时需：**署名原作者与 CFPA、附协议链接、标明是否修改**，并以相同协议发布改编版。
+
+**关于游戏里启用的汉化资源包**
+
+游戏内启用的 `Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip`（CFPA 社区汉化包）**由玩家自行通过 I18nUpdateMod 下载安装，不由本整合包分发**；它按资源包机制生效，署名与许可见该包内的 `LICENSE` / `README.txt` 与 <https://cfpa.site/>。
 
 **建议署名文字**
 
@@ -31,19 +39,27 @@
 
 | 位置 / 文件 | 来源 | 许可 | 使用方式 |
 |---|---|---|---|
-| `kubejs/assets/kubejs/textures/item/rune_{spring,summer,autumn,winter}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 使用原图 |
-| `kubejs/assets/kubejs/textures/item/rune_{aqua,ignis,terra,aer,perditio,ordo}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 由 Botania 的 `rune_water/fire/earth/air/gluttony/sloth` 改名并改编 |
-| `kubejs/assets/kubejs/textures/item/{clump_*, dirty_dust_*, shard_*, dust_*}.png` | **通用机械 Mekanism** | MIT | 基于其基材质改编 |
-| 部分物品及方块贴图 | **NeoVitae**、**敌对神经网络 Hostile Neural Networks**、**应用能源 AE2**、**模块化机械 Modular Machinery** | NeoVitae / HNN 为 **MIT**；AE2 为 **LGPL-3.0**；Modular Machinery（含社区版）为 **GPL-3.0**（仓库 `LICENCE` 为 GNU GPL v3 全文），素材条款见各自项目页 | 参考与改编 |
-| `kubejs/assets/kubejs/textures/**` 其余贴图、模型、语言文件 | 本整合包作者自绘 | CC BY-NC-SA 4.0 | — |
+| `kubejs/assets/kubejs/textures/item/rune_{aqua,ignis,terra,spring,summer,autumn,winter}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 使用原图（`rune_aqua`／`ignis`／`terra` 分别由 Botania 的 `rune_water`／`fire`／`earth` 改名而来） |
+| `kubejs/assets/kubejs/textures/item/rune_{aer,perditio,ordo}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 由 Botania 的 `rune_air`／`gluttony`／`sloth` 换色改编 |
+| `kubejs/assets/kubejs/textures/item/{clump_*, dirty_dust_*, shard_*, dust_*}.png` | **通用机械 Mekanism** | MIT | 基于其同类贴图换色改编 |
+| `kubejs/assets/kubejs/textures/item/{ordo,perditio}_scribe_tool.png` | **命血术 Neo Vitae** | MIT | 接其铭文工具套系新增 |
+| `kubejs/assets/kubejs/textures/item/token_{confusion,serenity,delirium,equanimity}.png` | **自然灵气 Nature's Aura** | MIT | 接其印记套系新增 |
+| `kubejs/assets/kubejs/textures/item/{ordo,perditio}_essence.png` | **新生魔艺 Ars Nouveau** | Apache-2.0（jar 内 `META-INF/LICENSE.txt`） | 接其精华套系新增 |
+| `kubejs/assets/kubejs/textures/item/{aether,eternal_starlight}_prediction.png` | **敌对神经网络 Hostile Neural Networks** | MIT | 接其预测产物套系新增 |
+| `kubejs/assets/kubejs/textures/item/infinity_lava_cell.png` | **ExtendedAE** | LGPL-3.0 | 照其无限元件（`infinity_cell_water.png`）换色 |
+| `kubejs/assets/kubejs/textures/block/sky_stone_starmetal_ore.png` | **应用能源2（AE2）** | 见其项目页（jar 内声明为「See GitHub repository for details」） | 以 AE2 的陨石（`sky_stone_block`）为底图，矿石点自绘 |
+| `kubejs/assets/kubejs/textures/**` 其余贴图与模型 | 本整合包作者与贡献者绘制与改编 | CC BY-NC-SA 4.0 | — |
+
+许可一列取自各模组 jar 内的声明（`META-INF/mods.toml`、`META-INF/LICENSE.txt`），最终以各项目页为准。
 
 **Botania License 的额外要求**：署名 Vazkii、注明改动；使用方项目需开源并允许再分发与修改。
 
 **建议署名文字**
 
 > 本整合包部分贴图使用或改编自以下作品，特此致谢：植物魔法 Botania（作者 Vazkii，
-> 符文贴图，部分经改名与改编）、通用机械 Mekanism、NeoVitae、
-> 敌对神经网络 Hostile Neural Networks、应用能源 AE2、模块化机械 Modular Machinery。
+> 符文贴图，部分经改名与改编）、通用机械 Mekanism、命血术 Neo Vitae、
+> 自然灵气 Nature's Aura、新生魔艺 Ars Nouveau、敌对神经网络 Hostile Neural Networks、
+> ExtendedAE、应用能源2（AE2）。
 
 ---
 
@@ -70,5 +86,7 @@
 ## 五、其他致谢
 
 本清单由作者依据自己的记录整理，可能仍有遗漏。若你是本整合包中某个素材、译文或代码的作者而未被列入，或希望以别的方式处理你的作品，请通过项目页或仓库 Issue 联系，我会补充署名，或按你的意愿替换 / 移除。
+
+本整合包的贴图与模型由作者与贡献者共同绘制、改编与调色，功能与本地化也有贡献者参与；参与者的提交记录见仓库的 commit 历史与 PR。
 
 同时也一并感谢所有为 Minecraft 模组与汉化社区付出的作者与贡献者。
