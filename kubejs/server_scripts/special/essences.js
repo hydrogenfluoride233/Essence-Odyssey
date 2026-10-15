@@ -200,17 +200,6 @@ ServerEvents.recipes(event=>{
             Fluid.of(`kubejs:${ess}_fluid`,1000)
         )//灌装机：液=>固
 
-        //陨星仪式：普通版层内容与原先一致，只是改成对象写法
-        const MeteorJson = (block,layerList)=>(
-            {
-                "type":block?`neovitae:${block}`:"neovitae:meteor",
-                "input":{"item":`${data.scribe}:${data.name}_scribe_tool`},
-                "syphon":2000000,
-                "explosion":8,
-                "layers":layerList
-            }
-        )
-
         const layers = MeteorLayers(ess)
 
         //神圣陨星：只留加权矿石层，平滑玄武岩与方解石一并去掉
@@ -229,10 +218,39 @@ ServerEvents.recipes(event=>{
                 return out
             })
 
-        event.custom(MeteorJson("",layers))
+        //普通陨星：层数据用 JSON 字面量直写，与改动前逐字段一致
+        //神圣陨星：同一份层数据去掉平滑玄武岩与方解石
+        //两条都用 neovitae:meteor（deus_meteor 是仪式名，不是配方类型）
+        event.custom({
+            "type":"neovitae:meteor",
+            "input":{"item":`${data.scribe}:${data.name}_scribe_tool`},
+            "syphon":2000000,
+            "explosion":8,
+            "layers":[
+                {
+                    "radius":5,
+                    "fill":"minecraft:amethyst_block",
+                    "shell":"minecraft:calcite",
+                    "weighted":[
+                        {"entry":`kubejs:block_${ess}`,"weight":300},
+                        {"entry":"minecraft:amethyst_block","weight":700}
+                    ]
+                },
+                {
+                    "radius":6,
+                    "fill":"minecraft:smooth_basalt"
+                }
+            ]
+        })
             .id(`kubejs:meteor/${ess}`)
 
-        event.custom(MeteorJson("deus_meteor",DeusLayers))
+        event.custom({
+            "type":"neovitae:meteor",
+            "input":{"item":`${data.scribe}:${data.name}_scribe_tool`},
+            "syphon":2000000,
+            "explosion":8,
+            "layers":DeusLayers
+        })
             .id(`kubejs:deus_meteor/${ess}`)
 
         event.recipes.neovitae.ara_vitae_recipe(
