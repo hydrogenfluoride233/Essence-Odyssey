@@ -1,12 +1,13 @@
 """Offline consistency check for the packwiz pack in this repository.
 
 Usage:
-    python -I tools/check_pack.py [pack-root] [--all]
+    python -I tools/check_pack.py [pack-root] [--all] [--strict]
 
 Checks pack.toml -> index.toml -> every indexed file, plus the mod metadata in mods/*.pw.toml.
-Nothing is downloaded. Exit code 0 means packwiz-installer will find every file it is told to fetch,
-with the hash it expects. A stale index (files edited after the last `packwiz refresh`) fails here;
-refresh the index with packwiz before publishing.
+Nothing is downloaded. Broken metadata always fails. A stale index (files edited, deleted or added
+after the last `packwiz refresh`) is normal between refreshes, so it is only a warning unless
+--strict is given; before publishing, run `packwiz refresh` and check with --strict, which exits 0
+only when packwiz-installer will find every file it is told to fetch, with the hash it expects.
 """
 import hashlib
 import os
@@ -19,6 +20,8 @@ HEX = {'sha1': 40, 'sha256': 64, 'sha512': 128, 'md5': 32}
 SIDES = {'both', 'client', 'server'}
 # development material that must never be shipped to players through the index
 DEV_PREFIXES = ('tools/', 'tests/', '.github/', 'data/')
+# fixed by `packwiz refresh`, which the pack runs before publishing rather than on every commit
+STALE = {'index-stale-hash', 'index-file-missing', 'mod-not-indexed'}
 
 
 class Report:
@@ -210,6 +213,9 @@ def main(argv):
     total = sum(len(v) for v in report.problems.values())
     print(f'\n{total} problem(s). Stale or missing index entries are fixed by running `packwiz refresh` '
           'in the pack root before publishing.')
+    if '--strict' not in argv and set(report.problems) <= STALE:
+        print('Only the index is out of date: not an error until publishing (use --strict to fail on it).')
+        return 0
     return 1
 
 

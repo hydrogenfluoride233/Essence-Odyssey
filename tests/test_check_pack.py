@@ -132,6 +132,10 @@ class CheckPackTests(unittest.TestCase):
         with contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(check_pack.main([self.pack.root]), 0)
             os.remove(os.path.join(self.pack.root, 'config', 'a.toml'))
+            # a stale index only fails the strict (pre-release) check
+            self.assertEqual(check_pack.main([self.pack.root]), 0)
+            self.assertEqual(check_pack.main([self.pack.root, '--strict']), 1)
+            self.pack.write(index_hash='0' * 64)
             self.assertEqual(check_pack.main([self.pack.root]), 1)
 
 
