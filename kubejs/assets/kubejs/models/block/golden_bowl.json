@@ -1,5 +1,5 @@
 {
-  "__comment": "Essence Odyssey: golden sacrificial bowl redrawn as a small flared gold bowl to sit on the altars (appearance only; overrides the Occultism model)",
+  "__comment": "Essence Odyssey: small flared gold bowl drawn to sit on the altars; not used by any block yet, kept for a later MMCR multiblock",
   "parent": "block/block",
   "ambientocclusion": false,
   "render_type": "minecraft:cutout",
