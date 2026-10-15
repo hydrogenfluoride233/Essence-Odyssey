@@ -14,11 +14,13 @@ ServerEvents.recipes(event=>{
         'botanypotstiers:elite_upgrade',
     ]
 
+    let removedOutputs = []
     Ingredient.of(/^(botanypotstiers:|botanypots:)/).itemIds.forEach(id=>{
         if (!excludedItems.includes(id)){
-            event.remove({output:id})
+            removedOutputs.push(id)
         }
     })
+    if (removedOutputs.length > 0) event.remove({output:removedOutputs})
 
     event.remove({id:"botanypots:botanypots/crafting/terracotta_botany_pot"})
     event.remove({id:"botanypots:botanypots/crafting/terracotta_hopper_botany_pot_quick"})
