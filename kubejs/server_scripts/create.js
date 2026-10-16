@@ -20,6 +20,12 @@ ServerEvents.recipes(event=>{
     event.remove({id:"create:crafting/kinetics/white_sail"})                        //风帆
     event.remove({id:"starbunclemania:mixing/liquid_source_1000"})                  //液态魔源
     event.remove({id:"create:pressing/compat/immersiveengineering/plate_steel"})    //钢板
+    event.remove({id:"cobblegengalore:crafting/block_gen_copper"})
+    event.remove({id:"cobblegengalore:crafting/block_gen_iron"})
+    event.remove({id:"cobblegengalore:crafting/block_gen_gold"})
+    event.remove({id:"cobblegengalore:crafting/block_gen_emerald"})
+    event.remove({id:"cobblegengalore:crafting/block_gen_diamond"})
+    event.remove({id:"cobblegengalore:crafting/block_gen_netherite"})
 
     //工作台配方
     event.replaceInput(
@@ -87,10 +93,8 @@ ServerEvents.recipes(event=>{
     //石磨
     //格式:[输出,输入]
     const MillstoneList = [
-        [
-            "4x naturesaura:gold_powder",
-            "naturesaura:gold_leaf"
-        ],//金叶粉
+        ["4x naturesaura:gold_powder","naturesaura:gold_leaf"],//金叶粉
+        ["eternal_starlight:dusted_shard","eternal_starlight:dusted_gravel"],//尘蒙碎片
     ]
 
     MillstoneList.forEach(([output,input])=>
@@ -443,6 +447,16 @@ ServerEvents.recipes(event=>{
         }
     )//原子再构机
 
+    event.recipes.create.mechanical_crafting(
+        "cobblegengalore:block_gen_iron",
+        ["ABA","BCB","ABA"],
+        {
+            A:"quark:white_corundum",
+            B:"minecraft:iron_ingot",
+            C:"cobblegengalore:block_gen_copper"
+        }
+    )//铁质方块制造机
+
     //有序合成=>动力合成
     const ShapedMechanicalList = [
             "actuallyadditions:crusher_double",
@@ -464,7 +478,12 @@ ServerEvents.recipes(event=>{
             "buildinggadgets2:gadget_exchanging",
             "buildinggadgets2:gadget_copy_paste",
             "buildinggadgets2:gadget_cut_paste",
-            "buildinggadgets2:gadget_destruction"
+            "buildinggadgets2:gadget_destruction",
+            "pylons:expulsion_pylon",
+            "pylons:infusion_pylon",
+            "pylons:harvester_pylon",
+            "pylons:interdiction_pylon",
+            "pylons:protection_pylon",
         ]
 
     function toCreateIngredient(ing){

@@ -166,6 +166,16 @@ ServerEvents.recipes(event=>{
             ],
             2
         ],//轮机扇叶
+
+        [
+            "cobblegengalore:block_gen_gold",
+            [
+                "cobblegengalore:block_gen_iron",
+                "4x minecraft:potent_sulfur",
+                "4x minecraft:gold_ingot"
+            ],
+            3
+        ],//金质方块制造机
     ]
 
     PressureChamberList.forEach(([output,input,pressure])=>

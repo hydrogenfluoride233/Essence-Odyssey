@@ -296,6 +296,21 @@ ServerEvents.recipes(event=>{
             "starbunclemania:source_condenser",
             10000
         ],//魔源液化器
+
+        [
+            [
+                "minecraft:resin_bricks",
+                "minecraft:copper_ingot",
+                "minecraft:resin_bricks",
+                "minecraft:copper_ingot",
+                "minecraft:resin_bricks",
+                "minecraft:copper_ingot",
+                "minecraft:resin_bricks",
+                "minecraft:copper_ingot",
+            ],
+            "cobblegengalore:block_gen_stone",
+            "cobblegengalore:block_gen_copper",0
+        ],//铜质方块制造机
     ]
 
     EnchantList.forEach(([pedestal,input,output,source])=>
@@ -441,6 +456,7 @@ ServerEvents.recipes(event=>{
         ["naturesaura:projectile_generator",1000],
         ["naturesaura:chorus_generator",1000],
         ["naturesaura:slime_split_generator",1000],
+        ["tiab:time_in_a_bottle",10000]
     ]
 
     ShapedEnchantList.forEach(([recipeId,source])=>

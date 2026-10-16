@@ -773,8 +773,8 @@
 		}
 		{
 			dependencies: ["3ADEEEDFEED6AFAA"]
-			hide_until_deps_complete: true
 			id: "7BF7847A3ED73423"
+			invisible: true
 			tasks: [{
 				id: "637EFFF0BAC3A32E"
 				item: { count: 1, id: "kubejs:unknown_mixture" }

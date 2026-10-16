@@ -1429,38 +1429,6 @@ file = "config/attributefix/sable/player.sub_level_punch_strength.json"
 hash = "3e05221436880d09fbac95dfc9cde9d2225e8cfdb81ea0c4a41a453934acf938"
 
 [[files]]
-file = "config/attributefix/touhou_little_maid/maid_crossbow_attack_speed.json"
-hash = "8ed60ec671d0277ac453b0492018528812127da2bdfa7ccfdf0991af37efaf65"
-
-[[files]]
-file = "config/attributefix/touhou_little_maid/maid_gun_attack_speed.json"
-hash = "8ed60ec671d0277ac453b0492018528812127da2bdfa7ccfdf0991af37efaf65"
-
-[[files]]
-file = "config/attributefix/touhou_little_maid/maid_hunger.json"
-hash = "8ed60ec671d0277ac453b0492018528812127da2bdfa7ccfdf0991af37efaf65"
-
-[[files]]
-file = "config/attributefix/touhou_little_maid/maid_passive_use_shield_tick.json"
-hash = "8ed60ec671d0277ac453b0492018528812127da2bdfa7ccfdf0991af37efaf65"
-
-[[files]]
-file = "config/attributefix/touhou_little_maid/maid_pickup_range.json"
-hash = "3c74ea2409bda517d0ff616d2b1e1267866824ef45036dc911ff71032051dd69"
-
-[[files]]
-file = "config/attributefix/touhou_little_maid/maid_shoot_cooldown.json"
-hash = "8ed60ec671d0277ac453b0492018528812127da2bdfa7ccfdf0991af37efaf65"
-
-[[files]]
-file = "config/attributefix/touhou_little_maid/maid_trident_cooldown.json"
-hash = "8ed60ec671d0277ac453b0492018528812127da2bdfa7ccfdf0991af37efaf65"
-
-[[files]]
-file = "config/attributefix/touhou_little_maid/maid_use_item_speed.json"
-hash = "2f30b6c2de7823de4196a4d6d3ad6673d16c1490a7fac01374b19db127b08e24"
-
-[[files]]
 file = "config/attributefix/twilightforest/clone_count.json"
 hash = "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed"
 
@@ -1474,7 +1442,7 @@ hash = "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed"
 
 [[files]]
 file = "config/ayame_paperdoll_v0.json"
-hash = "168fa8877f9d413ea47c6924ea35edc5de3106129be77c0c6aee12f62e73c8d3"
+hash = "416f37ded40aa926e211101fbdf085e5418b3bd792008558c667fbb0b8bea120"
 
 [[files]]
 file = "config/blueprint-common.toml"
@@ -1607,10 +1575,6 @@ hash = "ba7ae48de21489764763fbcfa70a0751114cec08af0d0dfebee03af1f5892ca1"
 [[files]]
 file = "config/create_enchantment_industry-server.toml"
 hash = "d6342da655e8afd4efbc59ed8745db21e2619bf9c1616f1643f257ed4eb1ade3"
-
-[[files]]
-file = "config/create_enchantment_industry-touhou_little_maid-server.toml"
-hash = "ac69ab6776796c7a6c393df548df4b16ff633a9b205c8fa1a49a626c435bbbc9"
 
 [[files]]
 file = "config/createaddition-common.toml"
@@ -1994,7 +1958,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
+hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2086,7 +2050,7 @@ hash = "aab3d7ded50a0d5e432cec3eab83225b931c4a92b1dc010ae9580eebef60aa1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/before_the_start.snbt"
-hash = "1f2cd3a2778d7b90d26d543f40a927fc79cf2989d51af2f63ad7750d541559f4"
+hash = "e8580e6684eae44f4ba6fa4b3a8518073876aae371129d1b07772b490d21c27e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
@@ -2094,23 +2058,23 @@ hash = "814b4d10c69583e2dd3cab66414d9302c3997e1217bb8a94ef287313ef62c9a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_1.snbt"
-hash = "92b66d741b409b28002cdec4e36d6ed046cc3748b49469c146091e990f1ddf31"
+hash = "11fdcb1bc9166693b6b85af073e5c022ab14a796d08857a0a07f8344746acad7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "3cfea1c0e982f1366938dc6f7869e59bb10523c010a60bcd05754276683a6ce1"
+hash = "830f75f4d09fb89c050ec70d758a2c3f5acc57506b29d991763a8e4ee1b3d21a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
-hash = "cbb108a82d78f1713621b7bd30bd3498e55ed715043408f959dcfe9a228fd069"
+hash = "43f6108f6166f587198c3a8523dec87541aab61882fe463a5f4906b84c1b9fd8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_4.snbt"
-hash = "c9b953876256c4edcb283d5fc87268fb028116508ef57452d0b72a70807f7587"
+hash = "b87904814b20097105f825f6a6d2aa8ec011525ef0a816463a050d61ca5d1ad3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_5.snbt"
-hash = "5a32af042af68eadb29f84bc8ebb91c6ea3fc5af4b088776a88a20d4d1bcd776"
+hash = "e3bf00275209360bb8396622b06dc1252c8353fb10aba6cd7b872636bf0c07f8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_6.snbt"
@@ -2126,11 +2090,11 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
-hash = "0f311fe16ae052dfdc9aed494b5ef43298315c7dba0f29cf7efc10411ea18e6c"
+hash = "7de81d494ac51165abed265b1dab2a292a4ec4efbd8abd2b2de3fd9e3402637e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
-hash = "6ed576a2f9f4633d7241dbc3e15233a6b374044934d269bd1690770d19753919"
+hash = "f38ee68e57fa875aaf5f3a3c7a0a4f5db487cadde32410960ca92c05c3ef0037"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
@@ -2146,7 +2110,7 @@ hash = "59be10748825cba97bb6ddcee84bcd758972714aa9b891805494fd1cd3a3e7a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/useful_gadgets.snbt"
-hash = "afe71c268ef84a2be73d4098639647eb3e12a630289fd29aa2a21e7ffb5393cb"
+hash = "4fa61382b29d74f0cdfc003e5de37ac6569e21cb259b7e36739c18f44d6f7dcd"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2158,7 +2122,7 @@ hash = "41a01d61454b3e23c0f0d071bd401771b381bd1622cbbe243523be86fb8963fd"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "9d9015ea87038e33466f37139ec56e538720998c1b38a761c540ebbc3f3367c0"
+hash = "96dc1b6108031be26bb888c68faeacdb4e0dea7a449614fd96aa784c1bfe585e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2502,7 +2466,7 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
 file = "config/neovitae-server.toml"
-hash = "2b188b6a7eb9124fdb2fbd77f2bf945c537ab8705461145764407ff3dfe2ba95"
+hash = "bd23f9384f9a6130026a34d44da59ed0304927d669aadfd77e669197606651eb"
 
 [[files]]
 file = "config/neovitae/materials.json"
@@ -2747,30 +2711,6 @@ hash = "419a23e2c00bb42a68c4285244a50d92bd63d1d16a6e08cc61ef4531fd958579"
 [[files]]
 file = "config/torchmaster.toml"
 hash = "4765c6a67959c7a4c0e5366eb28b13f4188577d8e54bde7d07b0adc9f92bb3ad"
-
-[[files]]
-file = "config/touhou_little_maid-common.toml"
-hash = "5be0826248868dcc5d11623daebde1ab21793ac5c88f8b7f8d0fc69fc05bfdd7"
-
-[[files]]
-file = "config/touhou_little_maid-server.toml"
-hash = "bc8b44ea87fbb11285778994366dff0496fd9941222ec8d274f1840da73d56be"
-
-[[files]]
-file = "config/touhou_little_maid/info.json"
-hash = "b796821e4450c1f5c01799fb4cc49d2c8d08b8abdc20ee745934c8142bf6f84b"
-
-[[files]]
-file = "config/touhou_little_maid/sites/llm.json"
-hash = "a883e0d89156d0c9dc801c02e5c7048c37a8f04613f155fe43354dac3f144907"
-
-[[files]]
-file = "config/touhou_little_maid/sites/stt.json"
-hash = "5ec985c157181fd244aee13328f34afd15b9300125efe733a2275956c871a73c"
-
-[[files]]
-file = "config/touhou_little_maid/sites/tts.json"
-hash = "ae740d0ce24566a987ab4e41b4f86554bbc3332b5971284fb33cce3b2cd3a109"
 
 [[files]]
 file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
@@ -3114,11 +3054,11 @@ hash = "957b73a67c3fee884505a4ad762284aa1046a39a2974f126ccefe5fb6ce1304d"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/en_us.json"
-hash = "949f1c95b6f9ddf3e0a5cfa234fc01349cb5aa464c9b658f4bd3066af1f4018d"
+hash = "0fb65f0656050f65891119cdd6f0a00f7704f5dab8c0b1a97a0352f735c5e830"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/zh_cn.json"
-hash = "a5366ecad0e8df17274e74df48678330e4ab41cc4ea8b6301ae545e24b605735"
+hash = "fb22a55c61a9d055894c743a88724cf0af6402fe1fb55325bfc16276ab15b194"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/1.json"
@@ -3130,15 +3070,15 @@ hash = "ac6c95166d708da2be831571c04cb4de8ff07f1e711dac2b1ffeea2e0f36b68b"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/11.json"
-hash = "5f8cceba1444e5d93adb50491ff703276e4c07856b53b4379a2ca5153480076d"
+hash = "ba8c19845713fcb6a001f924f08bebe3db5913d2c23110cf57fd378de9cd5f11"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/12.json"
-hash = "a11e3a370c0457f5e24e0238a1180b04e9bceb71111457f1373d69435d039fce"
+hash = "bc3d9abe9321a59139e57073197f521d796d236a041b19d91d774e119e97f151"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/13.json"
-hash = "f30b3080b8e5609164096f495750547ae45ca00ee6d2d8a1650075032c7823b5"
+hash = "5cdc9d4b3249cba1859f68032a10060b92eb15de4fd49333e438fa824dc9e982"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/14.json"
@@ -3149,20 +3089,36 @@ file = "kubejs/assets/essenceodyssey/tips/15.json"
 hash = "9858916fd999c6d513125926989ed59fa12ca6aaaf09f0cb057cc7aa37cd0f68"
 
 [[files]]
+file = "kubejs/assets/essenceodyssey/tips/16.json"
+hash = "f9bad267ac0b2a65f8133ce332fa8ecdb670fe42f7c5beabafb53d1aeb2391e2"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/17.json"
+hash = "af7a6c1b5d27d47b607e34a135aa64ccb716b3d4aecf175ecd6a370fb0d9a7cf"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/18.json"
+hash = "8d80089f53cbf5144889108b8af6d5fd5531357b1e293322827a141ad29de9da"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/19.json"
+hash = "8fba93952d7fbd38aeb7f06025a160765f6e148c176d3effc7a926159fda7828"
+
+[[files]]
 file = "kubejs/assets/essenceodyssey/tips/2.json"
 hash = "38acbc386b9cdb3b08bf286eec8892ad67ccef037fc102b193bc047df1cf0c12"
+
+[[files]]
+file = "kubejs/assets/essenceodyssey/tips/20.json"
+hash = "75007905bf50421543c4c0a2cd99f4818208ab6407927f2338f362eaf13c4316"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/26.json"
 hash = "d9d39fc960a4bf9c4db61ca0673d07cb402a52c4fd797b7848af6df5334ef8d9"
 
 [[files]]
-file = "kubejs/assets/essenceodyssey/tips/3.json"
-hash = "66a6f8576fbb8c8b79c81cd2d421596dfb48c460b57b98a161c8aa49e2e544d9"
-
-[[files]]
 file = "kubejs/assets/essenceodyssey/tips/4.json"
-hash = "8920a6651e285fb081ef0f9349f772ac0c65ca82189e8f68f8316a8c7e1385c6"
+hash = "21bf8682d036a9d1615400470831b1a0193381660619be7c9681beb35add6b1e"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/5.json"
@@ -3170,19 +3126,19 @@ hash = "55bfbc2c1b51cbecfe07698946a470caecd889399defe91135a3d0b99bbab086"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/6.json"
-hash = "709ae1f1646398488f97b8942c4b6ee9d62b85a8411102864ad830e84896cea7"
+hash = "0dc59ba2a74944f49f946f23372c2b640f7583e2e4ba2f9035e0d6dcc8dc31f4"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/7.json"
-hash = "a63cc92c2591c4fcdfbc8e35d34fb9e2b2968c2280ca40a57f5747aa9d499338"
+hash = "f4b2e4878236d206569ddcf076ca31970dc120966d4fcd32e329372ec7e931ac"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/8.json"
-hash = "18a7130fa39e127d425c62cba7f362675e8d7e84b0416de4c86b8da00b997ed3"
+hash = "0c5b7e9f995db4dec49d9dc4adff62fcba1f06e65e5ff9f93547b8853c50e824"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/9.json"
-hash = "a69d2a671b3141d296b1ae6ebe1ae3cd0062d6d08ce9b2ff569091942fe5e80f"
+hash = "f19f6d0e31dd116577f27ba4163e2894f7a6d8671df8adb8f9e9a461866f61ee"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/alt_and_f4.json"
@@ -3278,7 +3234,7 @@ hash = "0a25f87320fa2cd615d90f56640427dfa3209fb0462f2c5b7753a0460a7b1f24"
 
 [[files]]
 file = "kubejs/assets/i18n/lang/zh_cn.json"
-hash = "bc39dcfb81a43b171910ade1cf1d5298dcb77a1f23d8571bb0e86bc98c95c038"
+hash = "c149ca57c9231f229bffcf38733ef844828683b3b2f504f945faad0b42467776"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
@@ -4149,8 +4105,12 @@ file = "kubejs/assets/occultism/lang/zh_cn.json"
 hash = "1d41f065729007a5bac5d39065532f95cf794453e6d5f666b688dd3e14c361e2"
 
 [[files]]
+file = "kubejs/assets/quark/lang/zh_cn.json"
+hash = "2282cb9f9dbf69e5b0bfe211019a0e921b250af3bd1ae94e32ab14fdd1f78b5a"
+
+[[files]]
 file = "kubejs/client_scripts/essenceodyssey/info.js"
-hash = "638801f3245226ed3198072a3d7857b12091246d63f561a6ee9082fa5cb0a5d3"
+hash = "964adcd455eeb2e9d4bc9f4a8752b17c6e83c1f4ad63de250915dc4ea70d9291"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -4158,7 +4118,7 @@ hash = "d2a13306c453d92e9fe31b499b657a16a5083b1471850216a5a22d9876520e17"
 
 [[files]]
 file = "kubejs/client_scripts/recipeviewer/hidden.js"
-hash = "b73ecd288e979d4a41136090d24531dad2d727f446d3af2266593a48f743761b"
+hash = "ac1a1981eaf4def00685359ce7b1fbbcc0ec455fb7127226493a48b06352851a"
 
 [[files]]
 file = "kubejs/client_scripts/recipeviewer/info.js"
@@ -4594,11 +4554,11 @@ hash = "3eb470437ed4b47c158e599e658ef9ccafa6a0f3a6d76c2f6fc9e5e6619667a3"
 
 [[files]]
 file = "kubejs/server_scripts/ars_nouveau.js"
-hash = "5a84eec13870867d8c25c4525c143d95a27d13cb222c46081f22847686218c91"
+hash = "6fc27831392ceacd76c3cd38703b2910b76d9f81c0ea70517eb72f2aaaa4c079"
 
 [[files]]
 file = "kubejs/server_scripts/astralsorcery.js"
-hash = "99409882ed13dcb10a8623608589fee9e842d9b1418a7ef5bb5bde1575b561c7"
+hash = "b4abad3d23875c7c46bb1e48fd3c58af0028906a6d841c2c7e1d15d9cc5cb16d"
 
 [[files]]
 file = "kubejs/server_scripts/botany_pots.js"
@@ -4610,7 +4570,7 @@ hash = "15f06c7394be859f1d957072ef6dc913420bc5a12d5744d7c76666e849015a46"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "8618f0bd447081d6bffe8b57d7387d5ae1c4c8b6703a57ccd56942c2ca45dace"
+hash = "1afdae9fef7922fc78809329315189b943eec367f80fa8ed5ebc5b37e78cf912"
 
 [[files]]
 file = "kubejs/server_scripts/createaddition.js"
@@ -4650,7 +4610,7 @@ hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
 
 [[files]]
 file = "kubejs/server_scripts/justdirethings.js"
-hash = "60ec700b72bb780680235a71e6e13c66a2dde4f6bfd51c3aa4d421edcf2ff876"
+hash = "ba8ed5d726135f864fe69368d1705ea6f112d5b2748c3b0a5d5423667820ba63"
 
 [[files]]
 file = "kubejs/server_scripts/lychee.js"
@@ -4662,7 +4622,7 @@ hash = "b95002575f0c9adfa4f54dad1c2c0fada9d20c3635f9d3a05e54926397e2bbeb"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism.js"
-hash = "a1bf8b6da92b431a3acd2c5c40fad8d8a02adaacdbdd34a4542b2474b7b1806d"
+hash = "19a752d416e412d84167ff1ce29a25b5ba2a068c3946ed47b771ca1dec2e67aa"
 
 [[files]]
 file = "kubejs/server_scripts/naturesaura.js"
@@ -4682,7 +4642,7 @@ hash = "1be1f2e4578db0746a9db3ddfee0d02c3c2c09be33fdc6ceae06c8d8b39da22e"
 
 [[files]]
 file = "kubejs/server_scripts/pneumaticcraft.js"
-hash = "668371f7f3d503d45e024081dc71f53fa7341e45565ca59d5807b625fa22396c"
+hash = "8b234369f16d294790015841b8b109fa124005148a577a5707ed876ba6297edc"
 
 [[files]]
 file = "kubejs/server_scripts/portaltransform.js"
@@ -4702,7 +4662,7 @@ hash = "ee1730bb5f775924a34e7dd6c5f416b7f2f5465fad3a50d6981c3baa89a049fe"
 
 [[files]]
 file = "kubejs/server_scripts/special/tags.js"
-hash = "ec77715d4917e8baf535d1c730003a63c38352304cfb78721c8dc8d69ca0182f"
+hash = "11c976f030fd9b4fcfe43c48b06976b917c06572ea71f4a5c866c166e2f459fb"
 
 [[files]]
 file = "kubejs/server_scripts/thaumon.js"
@@ -5863,11 +5823,6 @@ hash = "315121e1328b1a30d05b6a6d6b59dbeaab5623645290efaf601efe55b3e275a2"
 metafile = true
 
 [[files]]
-file = "mods/maidusehandcrank.pw.toml"
-hash = "0e705511b262bce1adcf6d9d35cb535b316a1818f4373e4d30b1a1e2ae78cc20"
-metafile = true
-
-[[files]]
 file = "mods/mega-cells.pw.toml"
 hash = "e551caa3f5272461a2c64b948499434fad21854f5edc6750ed9e432174d9d33f"
 metafile = true
@@ -5969,7 +5924,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "fb27410100b73d2e170246f84342e95d7c029088a441e9d1cc928f5bb36e534a"
+hash = "cda0c0c8b35a3302a0e329e4f6372c628b79152ccbe79ca44ac9238535a4e1b8"
 metafile = true
 
 [[files]]
@@ -6019,7 +5974,7 @@ metafile = true
 
 [[files]]
 file = "mods/neovitae.pw.toml"
-hash = "384f6f6dc2cd912e514058f908bd7fa45ff9bb1fa5af1b3d0d1299c0bfccf2eb"
+hash = "595464135502d7cd85cb19217e1d3fffc09831de3aa2e110281cff08aaffdc65"
 metafile = true
 
 [[files]]
@@ -6239,7 +6194,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d7c5f80d93574bb42131a4715f7b57d3d4a1882222ff76add9b72e60e48fb34a"
+hash = "92d83ec89c18bd44d038584f47244d827249ea27961b2f63a6222d9d4b09dddc"
 metafile = true
 
 [[files]]
@@ -6249,7 +6204,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "88aab0b58353833de8aee74abeda3c13077a89823c4dc41dbc8db3bd4afe59f7"
+hash = "50b921dfc5f182c90225ceefa137361092c9f08a4b591f69091f512eac159106"
 metafile = true
 
 [[files]]
@@ -6318,11 +6273,6 @@ hash = "de4baeea541da736247e11bb8a90c66cee56e29e0b999af5ecb9fd82391c166f"
 metafile = true
 
 [[files]]
-file = "mods/touhou-little-maid.pw.toml"
-hash = "0c3cc91d27d1a01c7b976bb0ae9ece8e8e99dfa2b06f38b058a6d34d854619cd"
-metafile = true
-
-[[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "318b2826182182ff4acd58ffe985c58fe2b403941ec36f41303217bed275feea"
 metafile = true
@@ -6384,7 +6334,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "fed1691d554686e0a24577a2697ab63c263202b2e41d11392165ac4690118840"
+hash = "65e947ed5590a857393462978a0779c45c7652f92699519fbec6b60f3a942556"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"

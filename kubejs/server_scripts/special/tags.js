@@ -71,6 +71,15 @@ ServerEvents.tags("item",event=>{
 
     //风铃
     event.add("chimes:wind_chimes", "@chimes")
+
+    //建筑小工具
+    event.add("buildinggadgets2:gadget","/^buildinggadgets2:gadget/")
+
+    //升级模板
+    event.add("constructionstick:template","/^constructionstick:template/")
+
+    //塔
+    event.add("pylons:pylon","/^pylons:.*_pylon$/")
 })
 
 ServerEvents.tags("block",event=>{

@@ -2,6 +2,7 @@ ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"justdirethings:gooblock_tier1"})
     event.remove({id:"justdirethings:gooblock_tier2"})
+    event.remove({id:"justdirethings:polymorphic_fluid_block-fluiddrop"})
 
     //凝胶蔓延
     //格式:[输出方块,输入方块,凝胶等级]
@@ -47,5 +48,14 @@ ServerEvents.recipes(event=>{
             1,
             600
         )
+    )
+
+    //投入流体
+    //格式:[催化剂,输入流体,输出流体]
+    event.recipes.justdirethings.fluiddrop(
+        "justdirethings:polymorphic_fluid",
+        "justdirethings:polymorphic_catalyst",
+        "astralsorcery:liquid_starlight",
+        "justdirethings:polymorphic_fluid_block"
     )
 })

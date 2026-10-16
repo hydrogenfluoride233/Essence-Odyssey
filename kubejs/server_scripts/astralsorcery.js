@@ -1,16 +1,13 @@
 ServerEvents.recipes(event=>{
     //配方移除
+    event.remove({id:"entangled:block"})//纠缠方块
 
     //星能物品嬗变
 
     //祭坛合成
     event.recipes.astralsorcery.altar_crafting(
         "neovitae:ritual_diviner_deus",
-        [
-            " J ",
-            "JIJ",
-            " J "
-        ],
+        [" J ","JIJ"," J "],
         {
             A:"neovitae:water_scribe_tool",
             B:"neovitae:fire_scribe_tool",
@@ -26,8 +23,8 @@ ServerEvents.recipes(event=>{
         })
         .type("luminance")
         .relay([
-            "     ",
-            " CAG ",
+            "   GG",
+            " CAGG",
             " E B ",
             " HFD ",
             "H    "])
@@ -40,4 +37,14 @@ ServerEvents.recipes(event=>{
         .fluid("neovitae:essentia_vitae_source",1000)
         .fluid("neovitae:essentia_vitae_source",1000)
         .fluid("neovitae:essentia_vitae_source",1000)//仪式占卜杖[神圣]
+
+    event.recipes.astralsorcery.altar_crafting(
+        "entangled:block",
+        ["ABA","BCB","ABA"],
+        {
+            A:"cataclysm:void_stone",
+            B:"minecraft:crying_obsidian",
+            C:"actuallyadditions:iron_casing"
+        })
+        .chain()//纠缠方块
 })

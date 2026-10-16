@@ -5,20 +5,62 @@
 	filename: "chapter_4"
 	group: "76D01E7F0542ED7A"
 	icon: {
-		id: "astralsorcery:altar_illumination"
+		id: "enderio_evolution:crystalline_alloy_smelter"
 	}
 	id: "0BA7C5B351EC2475"
 	images: [ ]
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "07792431F00F8B93"
-		tasks: [{
-			id: "3175740E2522A296"
-			item: { count: 1, id: "astralsorcery:altar_illumination" }
-			type: "item"
-		}]
-		x: 5.5d
-		y: -2.0d
-	}]
+	quests: [
+		{
+			id: "187A2DF04B007C91"
+			tasks: [{
+				id: "3FA927B44D10BC01"
+				item: { count: 1, id: "kubejs:crystal_lux" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "285EB6506FEA658A"
+			tasks: [{
+				id: "52936DBCCE3CD99B"
+				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "3E86E41DF443E381"
+			tasks: [{
+				id: "2ADC60754867E4CE"
+				item: { count: 1, id: "kubejs:rune_aqua" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "2153454C1A2A919F"
+			tasks: [{
+				id: "2149A2BDB70814E8"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			id: "51A09E2EE1B41729"
+			tasks: [{
+				id: "58E40F624BEDB933"
+				item: { count: 1, id: "kubejs:crystal_fervor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+	]
 }

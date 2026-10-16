@@ -4,18 +4,43 @@
 	default_quest_shape: ""
 	filename: "chapter_5"
 	group: "76D01E7F0542ED7A"
+	icon: {
+		id: "mekanism:chemical_infuser"
+	}
 	id: "2E61D6C20298F803"
 	images: [ ]
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "35B0B8A07957E4FB"
-		tasks: [{
-			id: "6B2CB504C4FD109B"
-			item: { count: 1, id: "mekanism:steel_casing" }
-			type: "item"
-		}]
-		x: -0.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			id: "35B0B8A07957E4FB"
+			tasks: [{
+				id: "6B2CB504C4FD109B"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "6E3FE4D209BFC275"
+			tasks: [{
+				id: "3B597D77716C5950"
+				item: { count: 1, id: "extendedcrafting:basic_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "38AA7C733AD42EFB"
+			tasks: [{
+				id: "13B21842E0BB46BA"
+				item: { count: 1, id: "pneumaticcraft:fluid_mixer" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+	]
 }

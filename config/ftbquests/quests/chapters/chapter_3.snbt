@@ -23,26 +23,6 @@
 			y: -1.0d
 		}
 		{
-			id: "285EB6506FEA658A"
-			tasks: [{
-				id: "52936DBCCE3CD99B"
-				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.0d
-		}
-		{
-			id: "2153454C1A2A919F"
-			tasks: [{
-				id: "2149A2BDB70814E8"
-				item: { count: 1, id: "enderio:grains_of_infinity" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.0d
-		}
-		{
 			id: "55D4ACCC513356B3"
 			tasks: [{
 				id: "25157DA6906523E6"
@@ -94,24 +74,14 @@
 			y: -1.0d
 		}
 		{
-			id: "38AA7C733AD42EFB"
-			tasks: [{
-				id: "13B21842E0BB46BA"
-				item: { count: 1, id: "pneumaticcraft:fluid_mixer" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -1.0d
-		}
-		{
 			id: "1AD22CB51F979425"
 			tasks: [{
 				id: "5630D98633D5608F"
 				item: { count: 1, id: "occultism:fragile_soul_gem" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			id: "477958E4569C3D6B"

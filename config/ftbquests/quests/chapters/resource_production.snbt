@@ -56,5 +56,154 @@
 			x: 4.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["7D30D0CD5F0F151E"]
+			icon: {
+				id: "cobblegengalore:block_gen_stone"
+			}
+			id: "3F1CCBCFEECF80F1"
+			tasks: [{
+				id: "2E9B5C06BD84702F"
+				item: { count: 1, id: "cobblegengalore:block_gen_stone" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F1CCBCFEECF80F1"]
+			id: "1A2BE9B2D68901FA"
+			tasks: [{
+				id: "3D09FEB53065AF7C"
+				item: { count: 1, id: "cobblegengalore:block_gen_copper" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A2BE9B2D68901FA"]
+			id: "19B7F9090EBCABF9"
+			tasks: [{
+				id: "24B8F74F713B8AEC"
+				item: { count: 1, id: "cobblegengalore:block_gen_iron" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19B7F9090EBCABF9"]
+			id: "261B8F2A6269ABE9"
+			tasks: [{
+				id: "704D77D640BFBC77"
+				item: { count: 1, id: "cobblegengalore:block_gen_gold" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["261B8F2A6269ABE9"]
+			id: "73D2184B6493313C"
+			tasks: [{
+				id: "2D1D6EF53213C46F"
+				item: { count: 1, id: "cobblegengalore:block_gen_emerald" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73D2184B6493313C"]
+			id: "3ACB112A6253261F"
+			tasks: [{
+				id: "49C0F6A61766A8FF"
+				item: { count: 1, id: "cobblegengalore:block_gen_diamond" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73D2184B6493313C"]
+			id: "276452D7404A158A"
+			tasks: [{
+				id: "13C674195CB98CCB"
+				item: { count: 1, id: "cobblegengalore:block_gen_netherite" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E138E3EDB6E96AA"]
+			id: "7DD5555C7BFD4CB4"
+			tasks: [{
+				icon: {
+					id: "productivebees:advanced_oak_beehive"
+				}
+				id: "46EFD3F234E4B55C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:advanced_beehives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E138E3EDB6E96AA"]
+			id: "7DB027710EA5DD66"
+			tasks: [{
+				id: "3708B6C8419C6CE1"
+				item: { count: 1, id: "mysticalagriculture:air_seeds" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E138E3EDB6E96AA"]
+			id: "351E49E49FA9FCEC"
+			tasks: [{
+				id: "541E82DF589EFE1C"
+				item: { count: 1, id: "industrialforegoing:hydroponic_bed" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E138E3EDB6E96AA"]
+			id: "7F19D8E7C6B231AF"
+			tasks: [{
+				id: "124CACE6405F5519"
+				item: { count: 1, id: "occultism:miner_ancient_eldritch" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E138E3EDB6E96AA"]
+			id: "46148CE50FC2741E"
+			tasks: [{
+				id: "18953B623CAD5A41"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46148CE50FC2741E"]
+			id: "1F0816DE43CDDFD8"
+			tasks: [{
+				id: "4101BAEF1382CC67"
+				item: { count: 1, id: "kubejs:eternal_starlight_prediction" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
 	]
 }

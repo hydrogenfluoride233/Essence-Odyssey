@@ -186,6 +186,24 @@
 				id: "minecraft:writable_book"
 			}
 			id: "7D30D0CD5F0F151E"
+			rewards: [
+				{
+					id: "4B86C68CFD0ED7B9"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+				{
+					id: "07F405E185CA576F"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.25d
 			tasks: [{

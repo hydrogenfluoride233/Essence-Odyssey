@@ -335,6 +335,17 @@
 		{
 			dependencies: ["481ECA1B87829938"]
 			id: "2CC8F070EF7584BD"
+			rewards: [{
+				id: "6D6D5D7C7670A8D7"
+				item: {
+					components: {
+						"patchouli:book": "justdirethings:justdirethingsbook"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1978DECA121B599D"
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }

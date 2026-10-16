@@ -35,6 +35,15 @@ ServerEvents.recipes(event=>{
     InfuseList.forEach(([output,ItemInput,ChemicalInput])=>
         event.recipes.mekanism.metallurgic_infusing(output,ItemInput,ChemicalInput,false))
 
+    //富集仓
+    //格式:[输出.输入]
+    const EnrichingList = [
+        ["eternal_starlight:dusted_shard","eternal_starlight:dusted_gravel"],       //尘蒙碎片
+    ]
+
+    EnrichingList.forEach(([output,input])=>
+        event.recipes.mekanism.enriching(output,input))
+
     //粉碎机
     //格式:[输出,输入]
     const CrushList = [
