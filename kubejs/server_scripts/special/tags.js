@@ -68,6 +68,9 @@ ServerEvents.tags("item",event=>{
     //铭文工具
     event.add("neovitae:tools/scribe","kubejs:perditio_scribe_tool")
     event.add("neovitae:tools/scribe","kubejs:ordo_scribe_tool")
+
+    //风铃
+    event.add("chimes:wind_chimes", "@chimes")
 })
 
 ServerEvents.tags("block",event=>{
