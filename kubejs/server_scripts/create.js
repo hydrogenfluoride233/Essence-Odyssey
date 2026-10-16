@@ -459,7 +459,12 @@ ServerEvents.recipes(event=>{
             "pneumaticcraft:electrostatic_compressor",
             "pneumaticcraft:thermopneumatic_processing_plant",
             "pneumaticcraft:refinery",
-            "pneumaticcraft:refinery_output"
+            "pneumaticcraft:refinery_output",
+            "buildinggadgets2:gadget_building",
+            "buildinggadgets2:gadget_exchanging",
+            "buildinggadgets2:gadget_copy_paste",
+            "buildinggadgets2:gadget_cut_paste",
+            "buildinggadgets2:gadget_destruction"
         ]
 
     function toCreateIngredient(ing){
