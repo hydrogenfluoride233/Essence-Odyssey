@@ -24,4 +24,12 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("eternal_starlight:blazing_starcore_block", [
         Text.translate("essenceodyssey.info.blazing_starcore_block.detail")
     ])//blazing_starcore_block
+
+    event.add("kubejs:unknown_mixture", [
+        Text.translate("essenceodyssey.info.unknown_mixture.detail")
+    ])//unknown_mixture
+
+    event.add("kubejs:paradox_collapser", [
+        Text.translate("essenceodyssey.info.paradox_collapser.detail")
+    ])//paradox_collapser
 })

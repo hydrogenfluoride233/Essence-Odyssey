@@ -36,7 +36,13 @@ RecipeViewerEvents.removeEntries("item",event=>{
 })
 
 RecipeViewerEvents.removeEntries("fluid",event=>{
+    event.remove("mekanism:steam") //蒸汽流体
+})
 
-    //蒸汽流体
-    event.remove("mekanism:steam")
+//配方隐藏：配方照常生效，只是不在 JEI 里显示
+RecipeViewerEvents.removeRecipes(event=>{
+    event.remove([
+        "create:kjs/unknown_mixture",   //未知混合物
+        "create:kjs/paradox_collapser", //悖论物质
+    ])
 })
