@@ -16,11 +16,11 @@
   "essenceodyssey.tips.ancient_sapling":"嗅探兽有时可以刨挖出苍灰树苗。",
   "essenceodyssey.tips.8":"咕咕嘎嘎！——菲比啾比",
   "essenceodyssey.info.steel_block":"JEI里只显示沉浸的钢块，但也可以用通用机械的钢块。",
-  "essenceodyssey.info.steel_block.detail":"搭建沉浸工程的多方块结构时，JEI里只显示沉浸的钢块，但也可以用通用机械的钢块。两种钢块属于同一种材料（同一个标签），所以能互换。",
+  "essenceodyssey.info.steel_block.detail":"搭建沉浸工程的多方块结构时，JEI里只显示沉浸工程的钢块，但也可以用通用机械的钢块。",
   "essenceodyssey.tips.lock":"永恒星光模组中暂未实装的物品会在对应物品格内的左上角额外渲染“锁”标识。",
   "essenceodyssey.info.aerogel.detail":"将熔岩放置在天境形成。",
   "essenceodyssey.info.aersmog.detail":"由水和深池毒素相遇形成。",
-  "essenceodyssey.info.mysterious_cube.detail":"陨石中这个神秘的方块，用任何现有的手段都无法破坏——镐子撬不动它，爆炸也伤不到它。",
+  "essenceodyssey.info.mysterious_cube.detail":"陨石中这个神秘的方块，用任何现有的手段都无法破坏——镐子撬不动它，爆炸也伤不到它。笔记里或许提到过它，去找找线索吧。",
   "essenceodyssey.info.starcore_light.detail":"使用任意一种镐右键炽热星核块后，它会转化为亮度更高的星核灯。",
   "essenceodyssey.info.blazing_starcore_block.detail":"将星核块放置在熔岩（流体源）附近，它会自动转化为炽热星核块。",
   "essenceodyssey.tips.team_quest":"在背包界面左上角有一个队伍按钮，在那里你可以配置你的队伍，与队友共享任务进度！",
@@ -42,6 +42,11 @@
   "essenceodyssey.tips.14":"当你读到我的时候，你读到了我。——提示",
   "essenceodyssey.tips.15":"你好，世界！——神秘蓝狼",
   "essenceodyssey.tips.26":"每玩游戏60秒，现实就会过去一分钟。——摸鱼",
-  "essenceodyssey.info.unknown_mixture.detail":"你不知道它是怎么来的，JEI里也查不到它的痕迹。任务书里或许有人提过一句。",
-  "essenceodyssey.info.paradox_collapser.detail":"你不知道它是怎么来的，JEI里也查不到它的痕迹。任务书里或许有人提过一句。"
+  "essenceodyssey.info.unknown_mixture.detail":"你不知道它是怎么来的，JEI里也查不到它的痕迹。笔记里或许提到过它，去找找线索吧。",
+  "essenceodyssey.info.paradox_collapser.detail":"你不知道它是怎么来的，JEI里也查不到它的痕迹。笔记里或许提到过它，去找找线索吧。",
+  "essenceodyssey.tips.16":"哈吉马路呦~——维什戴尔",
+  "essenceodyssey.tips.17":"愚人之眼，解放！若！娜！瓦！——丑角",
+  "essenceodyssey.tips.18":"这个世界，好像要比原本的世界复杂——这是真的",
+  "essenceodyssey.tips.19":"俺要寻思！——香蕉赔了",
+  "essenceodyssey.tips.20":"别想着一开始就弄机械动力，你会哭的——别问我怎么知道的"
 }
