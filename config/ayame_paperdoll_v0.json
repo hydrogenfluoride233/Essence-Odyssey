@@ -2,7 +2,7 @@
   "ayame_paperdoll:general": {
     "ayame_paperdoll:display_paperdoll": true,
     "ayame_paperdoll:rotation_mode": "LOCK",
-    "ayame_paperdoll:offset_x": 0.08,
+    "ayame_paperdoll:offset_x": 0.045774647887323994,
     "ayame_paperdoll:offset_y": 0.23,
     "ayame_paperdoll:rotation_x": -4.96,
     "ayame_paperdoll:rotation_y": -4.96,
@@ -40,6 +40,6 @@
     "ayame_paperdoll:player_name": ""
   },
   "ayame_paperdoll:hidden": {
-    "ayame_paperdoll:last_config_tab_idx": 3
+    "ayame_paperdoll:last_config_tab_idx": 0
   }
 }
