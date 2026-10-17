@@ -4810,12 +4810,12 @@ hash = "b4718d339055e31dcfdf3911091a1af34045deceabeb641b79c6d8ad7ed16e96"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
-hash = "0085d9a1eb73a68fe1d07f26b27fb93b0e1a582ab0f47d068fc94d055165aa99"
+hash = "e72892c2f468f3f766e8f22f16ea8184dea99b9e2bf66dcf8e255e7364513b11"
 metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
+hash = "ee096237cb56c7923b21340657cf9e041230875c837ff5ce02bf8e747dcccd7c"
 metafile = true
 
 [[files]]
@@ -5124,7 +5124,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatanimation.pw.toml"
-hash = "67bf466ec0347b06fb26e7f8e27e586add78cd7951667fafd66978e1f23d6d07"
+hash = "026b577ef02aa5fc25e49d7ecc4aafef971f6f36b2d59c6f539b504e403bc9b8"
 metafile = true
 
 [[files]]
@@ -5154,7 +5154,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "eaecaac2e504c8aa5e04ea5bc4719aa3e630a11092447237730c8ca1078abbc6"
+hash = "c50e06477e4a726489c08203dfa0cfce2802940af8e021cec8e34cbcaa7d3e61"
 metafile = true
 
 [[files]]
@@ -5564,7 +5564,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "b460cf2f8bca40e73695b4f9271f3d73d2673bcbd2ab2b88b947df2042e04ad0"
+hash = "937f55aaca4b8383b81a04aa6e30e14570ca1e711a4a46d47daf4e732322e5af"
 metafile = true
 
 [[files]]
@@ -5629,7 +5629,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "e210898d76f87a16e80fa5835152fadccf4e4ec7e386e077e6ed78d503064011"
+hash = "50109154721adb4a72b7f2d034b1839aea2221d84bce2c40a6dfd98368363716"
 metafile = true
 
 [[files]]
@@ -5974,7 +5974,7 @@ metafile = true
 
 [[files]]
 file = "mods/neovitae.pw.toml"
-hash = "595464135502d7cd85cb19217e1d3fffc09831de3aa2e110281cff08aaffdc65"
+hash = "3fb3b8b34b79e6dfe8ade8772f87fe248114a815cac75983da54990a016e5379"
 metafile = true
 
 [[files]]
@@ -6014,7 +6014,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "3db5943419e6b6f4e33946266be8797230434573bc68dbe3a77d72f19001ae0c"
+hash = "a7fd33e3171967cf90314c3a1147769b051315b7db4f30e7c51304d0d3ef4dee"
 metafile = true
 
 [[files]]
@@ -6224,7 +6224,7 @@ metafile = true
 
 [[files]]
 file = "mods/starter-kit.pw.toml"
-hash = "e7f5bf548bac2de67f689a80f5020b1028f54c79fb3021ae5200b30be41a531e"
+hash = "47495a8229e6a6f21b5406d85ff1dda214b4c0b0235dbbd556b241cff7459f13"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "Chat Animation [Smooth Chat]"
-filename = "chatanimation-neoforge-1.3.4+mc1.21.jar"
+filename = "chatanimation-neoforge-1.3.5+mc1.21.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f8db6bce593e3ed9d210a16776cde5b7e29e05af"
+hash = "e647613d3818d4ff74eb7187ea1fe7a95db3b415"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9069802
+file-id = 9206398
 project-id = 892086
