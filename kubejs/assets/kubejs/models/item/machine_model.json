@@ -1,0 +1,12 @@
+{
+  "__comment": "Hidden carrier item for machine model parts; custom_model_data picks the part (see server_scripts/MMCR-models.js)",
+  "parent": "kubejs:item/machine_model/star_ring_3",
+  "overrides": [
+    {"predicate": {"custom_model_data": 1}, "model": "kubejs:item/machine_model/star_ring_1"},
+    {"predicate": {"custom_model_data": 2}, "model": "kubejs:item/machine_model/star_ring_2"},
+    {"predicate": {"custom_model_data": 3}, "model": "kubejs:item/machine_model/star_ring_2_inner"},
+    {"predicate": {"custom_model_data": 4}, "model": "kubejs:item/machine_model/star_ring_3"},
+    {"predicate": {"custom_model_data": 5}, "model": "kubejs:item/machine_model/star_ring_3_inner"},
+    {"predicate": {"custom_model_data": 6}, "model": "kubejs:item/machine_model/star_ring_3_top"}
+  ]
+}
