@@ -2,6 +2,7 @@
   "material": [
     "andesite",
     "aeternium",
+    "amethyst",
     "aluminum",
     "amber",
     "apatite",
@@ -32,6 +33,7 @@
     "mithril",
     "naquadah",
     "netherite",
+    "netherite_scrap",
     "nickel",
     "obsidian",
     "osmium",
