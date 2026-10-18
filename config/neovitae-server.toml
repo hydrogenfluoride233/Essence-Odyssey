@@ -188,10 +188,6 @@ evolution_upgrade_points = 300
 	# Default: 20
 	# Range: 0 ~ 1000000
 	ev_per_craft = 20
-	#Tabula Vitae or Hellfire Forge crafts powered by one Spiritus Ruina or Spiritus Invictus shard.
-	# Default: 8
-	# Range: 1 ~ 1024
-	crafts_per_shard = 8
 	#Ticks one crafting table recipe takes before Swift Sanguine Casings are applied.
 	# Default: 20
 	# Range: 1 ~ 72000
