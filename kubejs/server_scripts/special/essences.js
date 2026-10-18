@@ -179,12 +179,11 @@ ServerEvents.recipes(event=>{
             Fluid.of(`kubejs:${ess}_fluid`,1000)
         )//灌装机：液=>固
 
-        //陨星仪式：普通与神圣共用这一条配方
-        //普通读 fill / shell / weighted，神圣只读 weighted（候选方块须在 neovitae:quarry_blocks 里）
+        //陨星仪式
         event.custom({
             "type":"neovitae:meteor",
             "input":{"item":`${data.scribe}:${data.name}_scribe_tool`},
-            "syphon":2000000,
+            "syphon":500000,
             "explosion":8,
             "layers":[
                 {
