@@ -231,3 +231,21 @@ ServerEvents.recipes(event=>{
         }
     )
 })
+
+//药水配方预热（#9）：沉浸工程的混合器、装瓶机药水配方是惰性生成的，第一次给客户端发配方包时才在 Netty 线程里遍历 PotionBrewing；
+//单人游戏里 Placebo 同步 brewing_mixes 时会在渲染线程往同一张表写，两边撞上就 ConcurrentModificationException，玩家被踢。
+//这里在服务端线程、发配方包之前（OnDatapackSyncEvent，最高优先级，排在 Placebo 的同步之前）先把子配方生成好，发包时只读缓存。
+//arc_recycling_list 不预热：它的结果在服务器启动完、下一个 tick 或普通优先级的同步事件里才算好，在这里取可能还是空的，会报错。
+const $OnDatapackSyncEvent = Java.loadClass("net.neoforged.neoforge.event.OnDatapackSyncEvent")
+const $EventPriority = Java.loadClass("net.neoforged.bus.api.EventPriority")
+const IEPotionLists = ["immersiveengineering:mixer_potion_list","immersiveengineering:potion_bottling_list"]
+NativeEvents.onEvent($EventPriority.HIGHEST,$OnDatapackSyncEvent,event=>{
+    const manager = event.getPlayerList().getServer().getRecipeManager()
+    IEPotionLists.forEach(id=>{
+        try {
+            manager.byKey(id).ifPresent(holder=>holder.value().getSubRecipes())
+        } catch (err) {
+            console.warn(`[沉浸工程药水配方预热] ${id} 失败：${err}`)
+        }
+    })
+})
