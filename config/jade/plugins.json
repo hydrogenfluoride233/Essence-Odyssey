@@ -108,10 +108,6 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "mbd2": {
-    "recipe_logic_provider": true,
-    "multiblock_provider": true
-  },
   "extendedcrafting": {
     "elite_auto_table": true,
     "ender_crafter": true,
