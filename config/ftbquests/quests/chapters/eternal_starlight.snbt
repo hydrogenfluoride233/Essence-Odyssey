@@ -90,7 +90,6 @@
 				id: "eternal_starlight:tenacious_vine"
 			}
 			id: "78EFDBD65E2AFE06"
-			shape: "gear"
 			tasks: [{
 				entity: "eternal_starlight:lunar_monstrosity"
 				icon: {
@@ -112,7 +111,6 @@
 				id: "eternal_starlight:energy_sword"
 			}
 			id: "4CF8C2A8077F34B8"
-			shape: "gear"
 			tasks: [{
 				advancement: "eternal_starlight:kill_golem"
 				criterion: ""
@@ -153,8 +151,8 @@
 				item: { count: 1, id: "eternal_starlight:raw_amaramber" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["741E600F39DCCE9F"]
@@ -185,7 +183,7 @@
 				}
 			]
 			x: -4.0d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4C173E38BEDFEB4A"]
@@ -288,6 +286,17 @@
 				}
 			]
 			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B031C44C9ACA605"]
+			id: "1C3D5A1A97167411"
+			tasks: [{
+				id: "29E25E7212A9BB15"
+				item: { count: 1, id: "eternal_starlight:crystalborn_catalyst" }
+				type: "item"
+			}]
+			x: -4.0d
 			y: 3.5d
 		}
 	]
