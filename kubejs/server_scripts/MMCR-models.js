@@ -233,10 +233,15 @@ const modelTickPending = (uuid,now)=>{                  //载入后没被任何�
     delete ModelState.pending[uuid]
 }
 
-ServerEvents.loaded(event=>{                            //换了存档就清空记录，旧世界的实体引用不能再用
+ServerEvents.unloaded(event=>{                          //关存档时清空记录，旧世界的实体引用不能再用；时间归零，和下一个存档的 tick 计数对上
     ModelState.machines = {}
     ModelState.tracked = {}
     ModelState.pending = {}
+    ModelState.now = 0
+})
+
+ServerEvents.loaded(event=>{                            //出生点区块在这之前就载入了，那时记下的待认领实体留着，不清
+    ModelState.now = event.server.getTickCount()
 })
 
 ServerEvents.tick(event=>{
