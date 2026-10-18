@@ -382,7 +382,7 @@ key_key.jei.toggleCheatMode:key.keyboard.unknown
 key_key.jei.cheatOneItem:key.keyboard.unknown
 key_key.jei.cheatOneItem2:key.keyboard.unknown
 key_key.jei.cheatItemStack:key.mouse.left:SHIFT
-key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.cheatItemStack2:key.mouse.left:CONTROL
 key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
 key_key.jei.toggleEditMode:key.keyboard.r:SHIFT
 key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
