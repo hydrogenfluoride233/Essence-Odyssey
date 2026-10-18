@@ -1485,10 +1485,6 @@ file = "config/cobblegengalore-common.toml"
 hash = "3535071fa5cce6de6d899a9de90c5532241b51091efe99c4f48a32e6d2a92689"
 
 [[files]]
-file = "config/collective.json5"
-hash = "26a3ba7a8caf3fba2538e0726bbb358ada39044105455380be3d3884c44cd704"
-
-[[files]]
 file = "config/colorfulhearts.toml"
 hash = "86d63fa4b42f4cbc3505da9db27e71124751b6e7cacbc8f31f45546deb9bd17b"
 
@@ -2627,58 +2623,6 @@ hash = "bbf5658cf1e41f96c43c09becfd150a0adb0f70d008e56c72364b14b89fee0ef"
 [[files]]
 file = "config/starbunclemania/glyph_place_fluid.toml"
 hash = "1c44b1b48e1389604c2d88d1f8f4aab80a106629cc5c7026df47a33017f1bf4b"
-
-[[files]]
-file = "config/starterkit.json5"
-hash = "59f438a6e1982085656b80f626c075e68278f56e98582b2daa8bdb4ed4bd6f9d"
-
-[[files]]
-file = "config/starterkit/descriptions/1.txt"
-hash = "6d12ed0cd668d7839c857a23a6d857c65e68fbb2bec656d5d98d3842b3c3b9b4"
-
-[[files]]
-file = "config/starterkit/descriptions/Archer.txt"
-hash = "2ea003ce1408175d33f2bf55cb2de60b7aca7d652b922a84ec52d7d77eb99b64"
-
-[[files]]
-file = "config/starterkit/descriptions/Default.txt"
-hash = "19df01c903be0cc0216fbca05181ff06c2aff09f2ef213e78ea93f82d2cb1324"
-
-[[files]]
-file = "config/starterkit/descriptions/Kit_2.txt"
-hash = "4a5a62322132b99bf6265918f52a5637daeb41bde9f493260ac05ffa56b2802f"
-
-[[files]]
-file = "config/starterkit/descriptions/Lumberjack.txt"
-hash = "5091e1a2d5a2927fe1d8f6a6a233ace60f2407be05384f3140b839e9ad3a041a"
-
-[[files]]
-file = "config/starterkit/descriptions/Witch.txt"
-hash = "290f6b832794b6876aba9da963b585ba4e99e5e6a972aebb52810e9a256e2f65"
-
-[[files]]
-file = "config/starterkit/kits/1.txt"
-hash = "5e729f4543da461a0f0a1d2319bdbb267ea23f385ba6c128d009965827e065fc"
-
-[[files]]
-file = "config/starterkit/kits/inactive/Archer.txt"
-hash = "da428925f985e0dd610de8cd21e8ff5c433b3c08e8fa02cad65353fc2de9fb77"
-
-[[files]]
-file = "config/starterkit/kits/inactive/Default.txt"
-hash = "4554f1366724aa5b7cbdf54f949664178c221685e2600e1646fef0341d520b7a"
-
-[[files]]
-file = "config/starterkit/kits/inactive/Kit_2.txt"
-hash = "5e729f4543da461a0f0a1d2319bdbb267ea23f385ba6c128d009965827e065fc"
-
-[[files]]
-file = "config/starterkit/kits/inactive/Lumberjack.txt"
-hash = "e9ed3b597e1cff6e3f01f1a6ef16bc35181c7e1a4c6556b8399b5ea41d0d278f"
-
-[[files]]
-file = "config/starterkit/kits/inactive/Witch.txt"
-hash = "acf56d3d8e4737cf8fc0be14eab977a9eb266a57e004ed2e67c7882a249a62bb"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -5005,11 +4949,6 @@ hash = "107f1089debe869dc912e119eedbc3f6b523dbdd8193719ba51ce476914f4f5a"
 metafile = true
 
 [[files]]
-file = "mods/collective.pw.toml"
-hash = "c50e06477e4a726489c08203dfa0cfce2802940af8e021cec8e34cbcaa7d3e61"
-metafile = true
-
-[[files]]
 file = "mods/colorful-hearts.pw.toml"
 hash = "57f8e906e0ec4815d1aceb9df17ccb026d74337aa6964737c0757eaf8ad86364"
 metafile = true
@@ -6057,11 +5996,6 @@ metafile = true
 [[files]]
 file = "mods/starbunclemania.pw.toml"
 hash = "ab2c89f6522d1d30ccec20d200e9a19418979edd8b19efa24b31f0464959e47b"
-metafile = true
-
-[[files]]
-file = "mods/starter-kit.pw.toml"
-hash = "47495a8229e6a6f21b5406d85ff1dda214b4c0b0235dbbd556b241cff7459f13"
 metafile = true
 
 [[files]]
