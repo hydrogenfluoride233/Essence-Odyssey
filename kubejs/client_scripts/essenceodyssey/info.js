@@ -32,4 +32,16 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("kubejs:paradox_collapser", [
         Text.translate("essenceodyssey.info.paradox_collapser.detail")
     ])//paradox_collapser
+
+    event.add("eternal_starlight:thioquartz_shard", [
+        Text.translate("essenceodyssey.info.thioquartz_shard.detail")
+    ])//thioquartz_shard
+
+    event.add("eternal_starlight:thioquartz_cluster", [
+        Text.translate("essenceodyssey.info.thioquartz_cluster.detail")
+    ])//thioquartz_cluster
+
+    event.add("eternal_starlight:raw_amaramber", [
+        Text.translate("essenceodyssey.info.raw_amaramber.detail")
+    ])//raw_amaramber
 })

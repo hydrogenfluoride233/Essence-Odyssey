@@ -80,6 +80,12 @@ ServerEvents.tags("item",event=>{
 
     //塔
     event.add("pylons:pylon","/^pylons:.*_pylon$/")
+
+    //月藤巨物掉落物
+    event.add("eternal_starlight:lunar_left",["eternal_starlight:tenacious_vine","eternal_starlight:tenacious_petal"])
+
+    //暮色锭
+    event.add("c:ingots","kubejs:twilight_ingot")
 })
 
 ServerEvents.tags("block",event=>{

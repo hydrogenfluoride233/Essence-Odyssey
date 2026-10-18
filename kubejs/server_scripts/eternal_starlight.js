@@ -1,22 +1,57 @@
 ServerEvents.recipes(event=>{
+    //配方移除
+    event.remove({id:"eternal_starlight:alloy/unrealium"})//虚素锭
+    event.remove({id:"eternal_starlight:thioquartz_block"})//石英硫块
+
+    //工作台配方
+    event.shapeless(
+        "eternal_starlight:thioquartz_block",
+        [
+            "eternal_starlight:thioquartz_shard",
+            "eternal_starlight:thioquartz_shard",
+            "eternal_starlight:thioquartz_shard",
+            "eternal_starlight:thioquartz_shard"
+        ]
+    )//石英硫块
+
+    //合金炉
+    event.custom({
+        "type":"eternal_starlight:alloy",
+        "burn_time":400,
+        "ingredients":[
+            {"tag":"c:ingots/deepsilver"},
+            {"tag":"c:ingots/golem_steel"},
+            {"tag":"c:ingots/aethersent"},
+            {"tag":"c:gems/starcore"},
+            {"tag":"c:gems/malarite"},
+            {"tag":"c:gems/starlit_diamond"},
+            {"tag":"eternal_starlight:lunar_left"},
+            {"item":"eternal_starlight:starfire"},
+            {"item":"eternal_starlight:soul_dew"}
+        ],
+        "results":[
+            {"amount":1,"item":{"id":"eternal_starlight:unrealium_ingot"}}
+        ]
+    })
+
     //石英硫母岩
     event.custom({
-        type: "ars_nouveau:budding_conversion",
-        input: "eternal_starlight:thioquartz_block",
-        result: "eternal_starlight:budding_thioquartz"
+        type:"ars_nouveau:budding_conversion",
+        input:"eternal_starlight:thioquartz_block",
+        result:"eternal_starlight:budding_thioquartz"
     })
 
     event.custom({
-        type: "occultism:crystallize",
+        type:"occultism:crystallize",
         ignore_crystallize_multiplier: true,
-        ingredient: {
-            item: "eternal_starlight:thioquartz_cluster"
+        ingredient:{
+            item:"eternal_starlight:thioquartz_cluster"
         },
-        min_tier: 4,
-        result: {
-            type: "occultism:item",
-            count: 1,
-            id: "eternal_starlight:budding_thioquartz"
+        min_tier:4,
+        result:{
+            type:"occultism:item",
+            count:1,
+            id:"eternal_starlight:budding_thioquartz"
         }
     })
 
