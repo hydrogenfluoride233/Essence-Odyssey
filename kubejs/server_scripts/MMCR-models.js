@@ -16,6 +16,14 @@ const ModelStale = 40                                   //控制器 40 tick 没�
 //      offset 偏移、tilt 固定倾斜 [绕x,绕z]（度）、spin 自转、turn 绕竖轴公转（度/tick，写 [待机,工作]，别超过 30）
 //      bob 上下浮动 [幅度,周期tick]、scale 大小 [待机,工作]（0 = 藏起来）、glow 工作时全亮
 const MachineModels = {
+    "mmcr:industrial_imbuement":{                       //工业灌注室（结构见 MMCR-structures.js）
+        anchor:[0,3,2],                                 //灌注室正上方那一层的中心（空气）；灌注室本身在 [0,2,2]
+        parts:[
+            {model:4,scale:[2,2],spin:[0.5,3]},                                                                   //三阶星轨外环
+            {model:5,scale:[1.5,1.5],tilt:[25,0],spin:[-1,-6],turn:[0.4,1.5]},                                    //三阶星轨内环
+            {item:"ars_nouveau:source_gem",display:"fixed",scale:[0,0.6],spin:[0,4],bob:[0.12,60],glow:true}       //魔源宝石
+        ]
+    }
     // "mmcr:xxx":{
     //     anchor:[0,0,2],
     //     parts:[
