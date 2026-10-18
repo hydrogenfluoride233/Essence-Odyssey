@@ -214,7 +214,7 @@ hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
 [[files]]
 file = "config/almostunified/placeholders.json"
-hash = "f4d68b2059677a47d7403a3c54cd680daab105ed583707168bdc21416a1644ed"
+hash = "8936362345c7bc022dd944d421f45665c6883b4179aa8b2d41b7c75c94b144f9"
 
 [[files]]
 file = "config/almostunified/startup.json"
@@ -2086,7 +2086,7 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
-hash = "7de81d494ac51165abed265b1dab2a292a4ec4efbd8abd2b2de3fd9e3402637e"
+hash = "33d32cb39b7b564c93cc0d1fb6c8bda7a031ec68e1df6b49668232a691d72e71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
@@ -2118,7 +2118,7 @@ hash = "41a01d61454b3e23c0f0d071bd401771b381bd1622cbbe243523be86fb8963fd"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "96dc1b6108031be26bb888c68faeacdb4e0dea7a449614fd96aa784c1bfe585e"
+hash = "7b05d7897cc76c04e4711f1da9023f5bf56b11518cbc080a92f7e0667b5ca574"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2254,7 +2254,7 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "2ac9a6f0d9a3686fe1650b28dce58e5977c7adb1a33554de49aa1efd71db40e7"
+hash = "e5a5d9225875998d100bf2c22e5995ba18c8fe256423712f1e75cbdc7877eee7"
 
 [[files]]
 file = "config/jea.json5"
@@ -2446,7 +2446,7 @@ hash = "e769b3fba5d717bc42a38043aee9b08070af87e22700d07a5f6e69c3efca4a31"
 
 [[files]]
 file = "config/neoforge-common.toml"
-hash = "fe878a2717a145cd890621eac5b3be1e1fd656f7ff9abc6e8d53f670d37474c4"
+hash = "8575eb5db529376141370dc9cf80bc762c4c70c22f538d3c89254b592e329f73"
 
 [[files]]
 file = "config/neoforge-server.toml"
@@ -2454,7 +2454,7 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
 file = "config/neovitae-server.toml"
-hash = "bd23f9384f9a6130026a34d44da59ed0304927d669aadfd77e669197606651eb"
+hash = "d7a1c4cca6ba02c3dfa71f6e1f370daf149dd600b4e93fdde63f185966e40b4b"
 
 [[files]]
 file = "config/neovitae/materials.json"
@@ -2990,11 +2990,11 @@ hash = "957b73a67c3fee884505a4ad762284aa1046a39a2974f126ccefe5fb6ce1304d"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/en_us.json"
-hash = "0fb65f0656050f65891119cdd6f0a00f7704f5dab8c0b1a97a0352f735c5e830"
+hash = "28f479d42a4144bb2b1b0f547c5cf12157c20fd7a78bb209e338526c962c2073"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/zh_cn.json"
-hash = "fb22a55c61a9d055894c743a88724cf0af6402fe1fb55325bfc16276ab15b194"
+hash = "cc663c062ecfbcfef03835bf40e5550e962b439c44c5199716054f8030a062f5"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/1.json"
@@ -4006,7 +4006,7 @@ hash = "2282cb9f9dbf69e5b0bfe211019a0e921b250af3bd1ae94e32ab14fdd1f78b5a"
 
 [[files]]
 file = "kubejs/client_scripts/essenceodyssey/info.js"
-hash = "964adcd455eeb2e9d4bc9f4a8752b17c6e83c1f4ad63de250915dc4ea70d9291"
+hash = "9cacb4a6a255c3eef1b1118c2ebfd9ebe5cf8a5289935db3576466df553ab4a4"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -4482,7 +4482,7 @@ hash = "e77cad50d552f73559cf1e98cfbd3beb76de479ea6c3b8fa49ac71c32e7e5dfa"
 
 [[files]]
 file = "kubejs/server_scripts/eternal_starlight.js"
-hash = "96601bb078d54ba1e5e43ff2e2b765357de4bc3e935c29bfbd5e4995f34672e1"
+hash = "a2e33a61286e151d663ac63c36f1e8a83c0516d5658ade0d9122d12ffc8ce16b"
 
 [[files]]
 file = "kubejs/server_scripts/extendedcrafting.js"
@@ -4554,7 +4554,7 @@ hash = "ee1730bb5f775924a34e7dd6c5f416b7f2f5465fad3a50d6981c3baa89a049fe"
 
 [[files]]
 file = "kubejs/server_scripts/special/tags.js"
-hash = "11c976f030fd9b4fcfe43c48b06976b917c06572ea71f4a5c866c166e2f459fb"
+hash = "7d0df4d14a74eeb7b5f26e644e673af641663c6ad7f8ffaad0d75384057425b4"
 
 [[files]]
 file = "kubejs/server_scripts/thaumon.js"
@@ -5600,7 +5600,7 @@ metafile = true
 
 [[files]]
 file = "mods/lychee.pw.toml"
-hash = "315121e1328b1a30d05b6a6d6b59dbeaab5623645290efaf601efe55b3e275a2"
+hash = "61dd173f6a47a14255bed5a5bf22f202299fb4ca0fd7177cdc2ac501f4090dba"
 metafile = true
 
 [[files]]
@@ -5750,7 +5750,7 @@ metafile = true
 
 [[files]]
 file = "mods/neovitae.pw.toml"
-hash = "3fb3b8b34b79e6dfe8ade8772f87fe248114a815cac75983da54990a016e5379"
+hash = "52b3af2db568bbef55967793e99284928ce4abfd3eb15163858251d305fe62bb"
 metafile = true
 
 [[files]]
@@ -5970,7 +5970,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "92d83ec89c18bd44d038584f47244d827249ea27961b2f63a6222d9d4b09dddc"
+hash = "4562fb2d63ea4aea7c6ced1f715e796caf7413a5dab9a7d8e708a83c7d62ec8d"
 metafile = true
 
 [[files]]
