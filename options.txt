@@ -48,7 +48,7 @@ mouseSensitivity:0.7535211267605634
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","serilum_mod_translations","modularbees:dynamic_assets","mod_resources","mod/pneumaticcraft:fusion_integration","file/BDcraft Sound Pack MC121.zip","mod/eternal_starlight:resourcepacks/starlight_3d_mace","mod/appliedcreate:resourcepacks/appliedcreate","file/Natures Aura Altered v1.0.zip","file/[Neoforge] IE Reimmersed v1.1.zip","neovitae_materials","mod/mmcr:optional/arrow_interfaces"]
+resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","modularbees:dynamic_assets","mod_resources","mod/pneumaticcraft:fusion_integration","file/BDcraft Sound Pack MC121.zip","mod/eternal_starlight:resourcepacks/starlight_3d_mace","mod/appliedcreate:resourcepacks/appliedcreate","file/Natures Aura Altered v1.0.zip","file/[Neoforge] IE Reimmersed v1.1.zip","neovitae_materials","mod/mmcr:optional/arrow_interfaces"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
