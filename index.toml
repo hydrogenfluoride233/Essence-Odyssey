@@ -2086,7 +2086,7 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
-hash = "33d32cb39b7b564c93cc0d1fb6c8bda7a031ec68e1df6b49668232a691d72e71"
+hash = "4d712ad7967534af10c36c0361bc9bea851996403b1fd3d52b801998b22e388c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
@@ -2118,7 +2118,7 @@ hash = "41a01d61454b3e23c0f0d071bd401771b381bd1622cbbe243523be86fb8963fd"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "7b05d7897cc76c04e4711f1da9023f5bf56b11518cbc080a92f7e0667b5ca574"
+hash = "be3e8f84467e8e3d2835e36028d583949c9c8c7fcd0963db7e7d2de1bb21701c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2990,11 +2990,11 @@ hash = "957b73a67c3fee884505a4ad762284aa1046a39a2974f126ccefe5fb6ce1304d"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/en_us.json"
-hash = "28f479d42a4144bb2b1b0f547c5cf12157c20fd7a78bb209e338526c962c2073"
+hash = "99a0e4cfe0d5046069ec20f54ec2c33515fff45dd0079d5e300b8700999ad891"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/zh_cn.json"
-hash = "cc663c062ecfbcfef03835bf40e5550e962b439c44c5199716054f8030a062f5"
+hash = "4014d074fc5ac1342f37c323d375a51ad76b24f58e7d11074fcce6035cf9dd0b"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/1.json"
@@ -4006,7 +4006,7 @@ hash = "2282cb9f9dbf69e5b0bfe211019a0e921b250af3bd1ae94e32ab14fdd1f78b5a"
 
 [[files]]
 file = "kubejs/client_scripts/essenceodyssey/info.js"
-hash = "9cacb4a6a255c3eef1b1118c2ebfd9ebe5cf8a5289935db3576466df553ab4a4"
+hash = "907c34ae01ffe70c2855e5c805106b58af04dd1940d8971b04257d4c33a835e8"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -4522,7 +4522,7 @@ hash = "4f75af49b90a40ffc05054ea8678738c4085555bfcd18ea04cb1649f6ef88f9a"
 
 [[files]]
 file = "kubejs/server_scripts/neovitae.js"
-hash = "ff480f28662b25337f3bbe0df0db2dc4c5f2308042d6963399089b8903a34543"
+hash = "76f343e0addb9192b04b19da5dd2a806abbc57f23f24327600f871d3bc9c835d"
 
 [[files]]
 file = "kubejs/server_scripts/occultism-recipes.js"
@@ -4546,7 +4546,7 @@ hash = "f1bfad3d05aa191b38bd24ec6057c626bcc899a879c6efce36369d814f4e72b3"
 
 [[files]]
 file = "kubejs/server_scripts/special/essences.js"
-hash = "1c4ad7ca466c3f9b8ea7fc4b4baf19fb5698972020f29561d25d95344967d3c5"
+hash = "201d6b664c29844b01bcbd5b6be381e179210ecbb987c153ff91326cb0b84af1"
 
 [[files]]
 file = "kubejs/server_scripts/special/ore_processing.js"
@@ -6105,7 +6105,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "5a49cba32314866649865370842c1feee2eb69d8b4db59460a15c240a6b8b3ee"
+hash = "48b8e6634db20d6046b88f287edc9d9a7ae023a076762246cbcfa87d123b83c3"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
