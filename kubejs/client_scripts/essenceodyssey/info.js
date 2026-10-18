@@ -44,4 +44,12 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("eternal_starlight:raw_amaramber", [
         Text.translate("essenceodyssey.info.raw_amaramber.detail")
     ])//raw_amaramber
+
+    event.add("eternal_starlight:alloy_furnace", [
+        Text.translate("essenceodyssey.info.alloy_furnace.detail")
+    ])//alloy_furnace
+
+    event.add("eternal_starlight:starfire", [
+        Text.translate("essenceodyssey.info.starfire.detail")
+    ])//starfire
 })
