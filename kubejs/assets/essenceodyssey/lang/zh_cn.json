@@ -51,7 +51,10 @@
   "essenceodyssey.tips.20":"别想着一开始就弄机械动力，你会哭的——别问我怎么知道的",
   "essenceodyssey.info.thioquartz_shard.detail":"开采石英硫簇可以获得石英硫碎片。",
   "essenceodyssey.info.thioquartz_cluster.detail":"石英硫簇自石英硫母岩中生长而来。",
-  "essenceodyssey.info.raw_amaramber.detail":"为榧木原木去皮时有概率获得粗绯夜脂。",
+  "essenceodyssey.info.raw_amaramber.detail":"为榧木去皮时有概率获得粗绯夜脂。",
   "essenceodyssey.info.alloy_furnace.detail":"合金炉生成于傀儡锻造厂的特定房间，它是一种专门用于冶炼合金或增产矿物的大型设备。",
-  "essenceodyssey.info.starfire.detail":"来自于星火鸟的礼物。"
+  "essenceodyssey.info.starfire.detail":"来自于星火鸟的礼物。",
+  "essenceodyssey.info.orbflora_light.detail":"当海球花生长到水面高度时，它会开花，并在此后结出一颗海球花光球。骨粉可以加速它的生长。",
+  "essenceodyssey.info.starlit_lily_pad.detail":"可以使用骨粉催生星照睡莲，让它再度盛开。",
+  "essenceodyssey.info.crystal_perditio.detail":"将紫水晶碎片由主世界侧丢入末地传送门，以凝结混沌结晶。"
 }

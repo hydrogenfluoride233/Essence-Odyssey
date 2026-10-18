@@ -52,4 +52,16 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("eternal_starlight:starfire", [
         Text.translate("essenceodyssey.info.starfire.detail")
     ])//starfire
+
+    event.add("eternal_starlight:orbflora_light", [
+        Text.translate("essenceodyssey.info.orbflora_light.detail")
+    ])//orbflora_light
+
+    event.add("eternal_starlight:starlit_lily_pad", [
+        Text.translate("essenceodyssey.info.starlit_lily_pad.detail")
+    ])//starlit_lily_pad
+
+    event.add("kubejs:crystal_perditio", [
+        Text.translate("essenceodyssey.info.crystal_perditio.detail")
+    ])//crystal_perditio
 })

@@ -20,7 +20,7 @@
   "essenceodyssey.tips.lock":"Items that Eternal Starlight has not implemented yet show a lock icon in the upper-left corner of their slot.",
   "essenceodyssey.info.aerogel.detail":"Formed by placing lava in the Aether.",
   "essenceodyssey.info.aersmog.detail":"Formed where water and poison meet.",
-  "essenceodyssey.info.mysterious_cube.detail":"No tool you have can break the mysterious block in the meteorite. The notebook may have mentioned it, go look for clues.",
+  "essenceodyssey.info.mysterious_cube.detail":"Nothing you have can break the mysterious block in the meteorite. The notebook may have mentioned it, go look for clues.",
   "essenceodyssey.info.starcore_light.detail":"Right-click a Block of Blazing Starcore with any pickaxe to turn it into a brighter Starcore Light.",
   "essenceodyssey.info.blazing_starcore_block.detail":"Place a Block of Starcore near lava (a fluid source) and it will turn into a Block of Blazing Starcore.",
   "essenceodyssey.tips.team_quest":"There is a team button in the upper-left corner of the inventory screen, where you can set up your team and share quest progress with teammates!",
@@ -49,9 +49,12 @@
   "essenceodyssey.tips.18":"This world is more complex than the original one — That's true",
   "essenceodyssey.tips.19":"Let me think! — XiaoY",
   "essenceodyssey.tips.20":"This one is a Chinese joke — sorry, it doesn't survive translation. — 别问我怎么知道的",
-  "essenceodyssey.info.thioquartz_shard.detail":"开采石英硫簇可以获得石英硫碎片。",
-  "essenceodyssey.info.thioquartz_cluster.detail":"石英硫簇自石英硫母岩中生长而来。",
-  "essenceodyssey.info.raw_amaramber.detail":"为榧木原木去皮时有概率获得粗绯夜脂。",
-  "essenceodyssey.info.alloy_furnace.detail":"合金炉生成于傀儡锻造厂的特定房间，它是一种专门用于冶炼合金或增产矿物的大型设备。",
-  "essenceodyssey.info.starfire.detail":"来自于星火鸟的礼物。"
+  "essenceodyssey.info.thioquartz_shard.detail":"Mining a Thioquartz Cluster yields Thioquartz Shards.",
+  "essenceodyssey.info.thioquartz_cluster.detail":"Thioquartz Clusters grow from Budding Thioquartz.",
+  "essenceodyssey.info.raw_amaramber.detail":"Stripping Torreya Logs has a chance to drop Raw Amaramber.",
+  "essenceodyssey.info.alloy_furnace.detail":"The Alloy Furnace generates in certain rooms of the Golem Forge. It is a large machine built for smelting alloys and multiplying ores.",
+  "essenceodyssey.info.starfire.detail":"A gift from the Starfire Bird.",
+  "essenceodyssey.info.orbflora_light.detail":"When an Orbflora grows up to the water's surface, it blooms and later bears an Orbflora Light. Bone meal speeds up its growth.",
+  "essenceodyssey.info.starlit_lily_pad.detail":"Bonemeal a Starlit Lily Pad to bring it back into bloom.",
+  "essenceodyssey.info.crystal_perditio.detail":"Throw an Amethyst Shard into an End Portal from the Overworld side to condense a Chaos Crystal."
 }
