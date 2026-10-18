@@ -1,6 +1,6 @@
 # 参与开发
 
-> 给想提 PR 的人和各自的 AI 助手。本仓库只放整合包内容：`kubejs`、`config`、`defaultconfigs`、`ldlib2`、`resourcepacks`、`options.txt` 和 packwiz 清单；文档与 CI 不收。起 dev 客户端见 [`同步说明.md`](../同步说明.md)。
+> 给想提 PR 的人和各自的 AI 助手。本仓库只放整合包内容：`kubejs`、`config`、`defaultconfigs`、`resourcepacks`、`options.txt` 和 packwiz 清单；文档与 CI 不收。起 dev 客户端见 [`同步说明.md`](../同步说明.md)。
 
 ## 先开 issue 的事
 

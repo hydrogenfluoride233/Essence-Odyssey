@@ -93,7 +93,7 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 
 | 范围 | 许可 |
 |---|---|
-| 整合包本体，以及 `config/`、`defaultconfigs/`、`data/`、`ldlib2/`、`kubejs/` 下的配置、数据、资源与汉化 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（署名—非商业性使用—相同方式共享） |
+| 整合包本体，以及 `config/`、`defaultconfigs/`、`data/`、`kubejs/` 下的配置、数据、资源与汉化 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（署名—非商业性使用—相同方式共享） |
 | `kubejs/` 目录下作者原创的 `.js` 脚本 | [MIT](kubejs/LICENSE) |
 | 第三方内容（各模组、社区汉化、他人素材） | 各自原始许可，见 [THIRD-PARTY.md](THIRD-PARTY.md) |
 

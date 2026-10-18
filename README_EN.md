@@ -93,7 +93,7 @@ Only hand-written / hand-edited content is tracked here — KubeJS scripts and s
 
 | Scope | License |
 |---|---|
-| The modpack and everything under `config/`, `defaultconfigs/`, `data/`, `ldlib2/`, `kubejs/` | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| The modpack and everything under `config/`, `defaultconfigs/`, `data/`, `kubejs/` | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | Original `.js` scripts under `kubejs/` | [MIT](kubejs/LICENSE) |
 | Third-party content (mods, community translations, adapted textures) | Their own licenses — see [THIRD-PARTY.md](THIRD-PARTY.md) |
 
