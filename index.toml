@@ -2325,10 +2325,6 @@ file = "config/laserio-common.toml"
 hash = "e9d2d5caac82118c45b2b3cd915318d35999bc3580d96931ccba2a73518e85d7"
 
 [[files]]
-file = "config/ldlib2/editor.json"
-hash = "96eb3e5ae08aa8937460688af9748988ac42ff872104b97afee970f92ace0b4a"
-
-[[files]]
 file = "config/legendarytooltips.toml"
 hash = "3ee86b7d3db0c11d9e4288110804777e598f49a8445fa63d7fbec00f74a0f92f"
 
@@ -2343,10 +2339,6 @@ hash = "93ab4ccc839e2041145e6aa46a88d7aa1dce3433c75cd8981b0b1122a5b239ca"
 [[files]]
 file = "config/lychee-common.yaml"
 hash = "eb6d83b30e2639c98d327e5c7a0f35699f56b42c4f3ec79e9fc7026e08c4189f"
-
-[[files]]
-file = "config/mbd2-common.toml"
-hash = "985d5c5773f19e18e6adec32226bedbec8e56e0a4313fbd38a94efb369c16989"
 
 [[files]]
 file = "config/megacells-common.toml"
@@ -3261,22 +3253,6 @@ file = "kubejs/assets/kubejs/models/block/golden_bowl.json"
 hash = "8945b197cca6645db4f4750526218b5aa2527cd5ab380834526adb2ed74faf06"
 
 [[files]]
-file = "kubejs/assets/kubejs/models/block/imbuement_chamber.json"
-hash = "bc20797d7c99e6d568bc42a7037bf3981ab80bde4d0a615514d60222e387b489"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/imbuement_input.json"
-hash = "00754113db683c61e3cc0e9a81f69c38dc793c16be1e621ebff875a6097022e2"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/imbuement_output.json"
-hash = "8fc04990dfc55cf01aae85a7b80ca42ec187ff3534105654d9caac2bc8b1853a"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/imbuement_source.json"
-hash = "0bf4964795d61f03694d7e2099648dc33cf1d0ea6292f0ea2396e80979cdf11a"
-
-[[files]]
 file = "kubejs/assets/kubejs/models/block/sky_stone_starmetal_ore.json"
 hash = "a672a844363aae9f568bbe4541eab95e9bad723c24466cfdadffd22f03b11277"
 
@@ -3591,22 +3567,6 @@ hash = "a365b8f5506d50f89130107b3021fb206865729a466424818664c417d3c05851"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/golden_bowl_top.png"
 hash = "57a36ca292e677c51981e708f72cd5b069471a1e5f3463943f88b6bd6da94fcc"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/imbuement_chamber.png"
-hash = "1ea382104ed3a68bd500557d710170f857957b557a981c325fb03075cbac7dd2"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/imbuement_input.png"
-hash = "04cd0d9166333b2ac0b4cf5dce977ad8cbcf307a46c5eef3959372dc7beadcc8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/imbuement_output.png"
-hash = "927621268398bf349c5237c951397818b1c4c26120996fa1365debe28a53c477"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/imbuement_source.png"
-hash = "0c0155bb7d519a59e2753f4934e679b2e2f3ec1c06877deb2cbef1fd86a242d3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/sky_stone_starmetal_ore.png"
@@ -4071,14 +4031,6 @@ hash = "0c43879f1d1ce2726a45b8dd248f87c711409473b2297bc6dad37769148ab391"
 [[files]]
 file = "kubejs/assets/kubejs/tips/zz_test_a.json"
 hash = "f63ff9f15964fbdebaa9cb899d4464db49347041451477a6d7c9306e0a9d3828"
-
-[[files]]
-file = "kubejs/assets/mbd2/lang/en_us.json"
-hash = "a5c34f2a5937555ea90128a9363bbea9d8dc528bd36c359304518a79c5667323"
-
-[[files]]
-file = "kubejs/assets/mbd2/lang/zh_cn.json"
-hash = "2014bb7196264fb70f19eed73e2043fb8c0d6dc6959060a5cfe13ae9fb2e5dff"
 
 [[files]]
 file = "kubejs/assets/mmcr/lang/en_us.json"
@@ -4617,10 +4569,6 @@ file = "kubejs/server_scripts/lychee.js"
 hash = "5773c9452296fc01522d6fe345f7e82554a8017775d3d97a81a520064e4cb182"
 
 [[files]]
-file = "kubejs/server_scripts/mbd2.js"
-hash = "b95002575f0c9adfa4f54dad1c2c0fada9d20c3635f9d3a05e54926397e2bbeb"
-
-[[files]]
 file = "kubejs/server_scripts/mekanism.js"
 hash = "19a752d416e412d84167ff1ce29a25b5ba2a068c3946ed47b771ca1dec2e67aa"
 
@@ -4711,102 +4659,6 @@ hash = "4212f46533dcd6dc4df7d2b65f06485e311c650008e9004761c2f0b95ff58082"
 [[files]]
 file = "kubejs/startup_scripts/registry/naturesaura.js"
 hash = "7d01ff3f992f4d2ee26a23f62b6abb353da42d3de450b3217d939ab6820b5175"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/imbuement_chamber.renderer.nbt"
-hash = "e0441f3a512abd160a7f324c19eb2ea42578abe48aed8e3c0a274a157211dbf4"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/imbuement_input.renderer.nbt"
-hash = "23014de7cd020bfa1383e7752da2b6e40f69f78d6f08d1d7c19d344d23cd2925"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/imbuement_output.renderer.nbt"
-hash = "8203ab5f702ee0cf4812ef60641d8f193a6bd64ad49652b00082c9d51cc7f746"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/imbuement_source.renderer.nbt"
-hash = "8be8bf8c1725edeb41f458d4382da0299ce1712467d98ea58a0761176d43d509"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_ars_nouveau_arcane_core_9dd7e.predicate.nbt"
-hash = "b3c23cb9c717a69b35832b2294352f8818cdf2844f0af688f065ee70acf4fd82"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_ars_nouveau_arcane_core_c6c5.predicate.nbt"
-hash = "6d867ef77ef80b84e31c2d8e7c3c2e83bd6c93b13ad722b1e8a097a4f57e779e"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_ars_nouveau_arcane_platform_7574f1.predicate.nbt"
-hash = "0aeca8f3240559a85ade2086010ea09d949f863e189c7a501e39dba3a9230a5f"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_ars_nouveau_imbuement_chamber_9dd7e.predicate.nbt"
-hash = "83b2e13edcce739ba9e0765d0e38309fde6fdf3d8dcd377248545c34325db5b1"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_ars_nouveau_smooth_sourcestone_large_bricks.predicate.nbt"
-hash = "c9a51fb9377720ab114a4f3153768135d31f3eec1b2e49e818d0785e826a6175"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_create_framed_glass.predicate.nbt"
-hash = "afbb4bd4de4abdc2e0428d792ff3011f1f226e7602bb8a4c99f9178911f06a1c"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_mbd2_imbuement_input.predicate.nbt"
-hash = "b39f8c76aa396597251f6222fe748d2eee82ccecc4fec21c48084fc4755cf204"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_mbd2_imbuement_output.predicate.nbt"
-hash = "bbf775902fbeba85217710c6d513f75fdfb3091b663e4d2b034cd98803f929e0"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_mbd2_imbuement_source.predicate.nbt"
-hash = "94ec3920f18eb582172cb4644c453308117a10345c4c65135e1d3554b352036b"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/global/states_mekanism_structural_glass.predicate.nbt"
-hash = "cd83778aea43ed0952e850df8f15a741648bd0ca3589984790fc4359dddd8684"
-
-[[files]]
-file = "ldlib2/assets/ldlib2/resources/renderer.meta.nbt"
-hash = "9b805f4daeba646be83e8c2d532cb5f93299e1146da7f25f4263bf50bd49e9dd"
-
-[[files]]
-file = "ldlib2/assets/mbd2/machine/imbuement_input.sm"
-hash = "6efdb3fd432597b5e509059fe5f2bd14244ba7f1bc423106a21595ce24cc9e29"
-
-[[files]]
-file = "ldlib2/assets/mbd2/machine/imbuement_output.sm"
-hash = "723699ff3c773ed49b9b0c09c00d3c3117c9681469aa246d93126d0e4b21151a"
-
-[[files]]
-file = "ldlib2/assets/mbd2/machine/imbuement_source.sm"
-hash = "a519112bdcd4e53e71752a9dfd506204b93417c84a61055ffcee2ea559f67a21"
-
-[[files]]
-file = "ldlib2/assets/mbd2/multiblock/imbuement_chamber.mb"
-hash = "bdc60c192e67659cf6e4eae5932c769218fb0ce4fc0f2ff72921ec1b2b6b51f3"
-
-[[files]]
-file = "ldlib2/assets/mbd2/multiblock/imbuement_chamber.renderer.nbt"
-hash = "e0441f3a512abd160a7f324c19eb2ea42578abe48aed8e3c0a274a157211dbf4"
-
-[[files]]
-file = "ldlib2/assets/mbd2/multiblock/imbuement_input.renderer.nbt"
-hash = "23014de7cd020bfa1383e7752da2b6e40f69f78d6f08d1d7c19d344d23cd2925"
-
-[[files]]
-file = "ldlib2/assets/mbd2/multiblock/imbuement_output.renderer.nbt"
-hash = "8203ab5f702ee0cf4812ef60641d8f193a6bd64ad49652b00082c9d51cc7f746"
-
-[[files]]
-file = "ldlib2/assets/mbd2/multiblock/imbuement_source.renderer.nbt"
-hash = "8be8bf8c1725edeb41f458d4382da0299ce1712467d98ea58a0761176d43d509"
-
-[[files]]
-file = "ldlib2/assets/mbd2/recipe_type/water_essence.rt"
-hash = "b4718d339055e31dcfdf3911091a1af34045deceabeb641b79c6d8ad7ed16e96"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
@@ -5688,11 +5540,6 @@ hash = "e6432c819a2577e9bd4d89ce4020a2ec85c14426cacd516ecd3da03236479982"
 metafile = true
 
 [[files]]
-file = "mods/kilagraph.pw.toml"
-hash = "5f1db7b72c26c5fafea9641e2fe4ccab050588cede4f3e9fd4a8f091b709fa93"
-metafile = true
-
-[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "083c9d609335090c7fd62c13c146c0739306f597096e257fbdae6cdbb1917019"
 metafile = true
@@ -5780,11 +5627,6 @@ metafile = true
 [[files]]
 file = "mods/laserio.pw.toml"
 hash = "0d7ce37fd00f170025118f0e3fbeef7f4e7147c332b1a5a4e924950eb5e36bc0"
-metafile = true
-
-[[files]]
-file = "mods/ldlib.pw.toml"
-hash = "4440530ac68c43d44b4b6459647ea4d24af38b5c601c0af773c3ef7f6fafc7ac"
 metafile = true
 
 [[files]]
@@ -5940,11 +5782,6 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
-metafile = true
-
-[[files]]
-file = "mods/multiblocked2.pw.toml"
-hash = "bd06c9c39fcb0abd559ac3c817a02bfc85b1014e8ed95fdce564b7431a2060c3"
 metafile = true
 
 [[files]]
