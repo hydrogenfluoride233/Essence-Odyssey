@@ -1,249 +1,509 @@
-	[TierSettings.BrassTier]
-		#Item capability for brass tier mechanical[default:256]
-		# Default: 256
-		# Range: > 1
-		brass_item_capability = 256
-		#Fluid capability for brass tier mechanical[default:4000]
-		# Default: 4000
-		# Range: > 1
-		brass_fluid_capability = 4000
-		#Fluid Tank capability for brass tier mechanical[default:32000]
-		# Default: 32000
-		# Range: > 1
-		brass_fluid_tank_capability = 32000
-		#Processing multiple for brass tier mechanical[default:4]
-		# Default: 4
-		# Range: > 1
-		brass_processing_multiple = 4
-		#Processing multiple for brass tier Deployer[default:4]
-		# Default: 4
-		# Range: 1 ~ 64
-		brass_deployer_processing_multiple = 4
-		#Generated Speed for brass tier Steam Engine[default:64]
-		# Default: 64
-		# Range: 1 ~ 256
-		brass_steam_engine_generated_speed = 64
-		#Capacity for brass tier Steam Engine[default:2048.0]
-		# Default: 2048.0
-		# Range: 1.0 ~ 2.147483647E9
-		brass_steam_engine_capacity = 2048.0
-		#Impact needed for brass tier mechanical press[default:32.0]
-		# Default: 32.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		brass_mechanical_press_impact = 32.0
-		#Impact needed for brass tier mechanical mixer[default:16.0]
-		# Default: 16.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		brass_mechanical_mixer_impact = 16.0
-		#Impact needed forbrass tier deployer[default:16.0]
-		# Default: 16.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		brassdeployer_impact = 16.0
-		#Impact needed for brass tier saw[default:8.0]
-		# Default: 8.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		brass_saw_impact = 8.0
-		#Inventory size for brass tier saw[default:64]
-		# Default: 64
-		# Range: 4 ~ 4096
-		brass_saw_inventory_size = 64
+		[TierSettings."Brass Tier"."Item Capability"]
+			#Item capability for brass basin
+			# Default: 256
+			# Range: > 1
+			brass_basin_item_capability = 256
+			#Item capability for brass depot
+			# Default: 256
+			# Range: > 1
+			brass_depot_item_capability = 256
+			#Item capability for brass deployer
+			# Default: 256
+			# Range: > 1
+			brass_deployer_item_capability = 256
+			#Item capability for brass saw
+			# Default: 64
+			# Range: > 1
+			brass_saw_item_capability = 64
 
-	[TierSettings.NetheriteTier]
-		#Item capability for netherite tier mechanical[default:1024]
-		# Default: 1024
-		# Range: > 1
-		netherite_item_capability = 1024
-		#Fluid capability for netherite tier mechanical[default:16000]
-		# Default: 16000
-		# Range: > 1
-		netherite_fluid_capability = 16000
-		#Fluid Tank capability for netherite tier mechanical[default:64000]
-		# Default: 64000
-		# Range: > 1
-		netherite_fluid_tank_capability = 64000
-		#Processing multiple for netherite tier mechanical[default:16]
-		# Default: 16
-		# Range: > 1
-		netherite_processing_multiple = 16
-		#Processing multiple for netherite tier Deployer[default:8]
-		# Default: 8
-		# Range: 1 ~ 64
-		netherite_deployer_processing_multiple = 8
-		#Generated Speed for netherite tier Steam Engine[default:64]
-		# Default: 64
-		# Range: 1 ~ 256
-		netherite_steam_engine_generated_speed = 64
-		#Capacity for netherite tier Steam Engine[default:4096.0]
-		# Default: 4096.0
-		# Range: 1.0 ~ 2.147483647E9
-		netherite_steam_engine_capacity = 4096.0
-		#Impact needed for netherite tier mechanical press[default:128.0]
-		# Default: 128.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		netherite_mechanical_press_impact = 128.0
-		#Impact needed for netherite tier mechanical mixer[default:64.0]
-		# Default: 64.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		netherite_mechanical_mixer_impact = 64.0
-		#Impact needed fornetherite tier deployer[default:32.0]
-		# Default: 32.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		netheritedeployer_impact = 32.0
-		#Impact needed for netherite tier saw[default:32.0]
-		# Default: 32.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		netherite_saw_impact = 32.0
-		#Inventory size for netherite tier saw[default:128]
-		# Default: 128
-		# Range: 4 ~ 4096
-		netherite_saw_inventory_size = 128
+		[TierSettings."Brass Tier"."Fluid Capability"]
+			#Fluid capability for brass basin
+			# Default: 4000
+			# Range: > 1
+			brass_basin_fluid_capability = 4000
+			#Fluid capability for brass fluid_tank
+			# Default: 32000
+			# Range: > 1
+			brass_fluid_tank_fluid_capability = 32000
+			#Fluid capability for brass spout
+			# Default: 4000
+			# Range: > 1
+			brass_spout_fluid_capability = 4000
 
-	[TierSettings.EndTier]
-		#Item capability for end tier mechanical[default:4096]
-		# Default: 4096
-		# Range: > 1
-		end_item_capability = 4096
-		#Fluid capability for end tier mechanical[default:64000]
-		# Default: 64000
-		# Range: > 1
-		end_fluid_capability = 64000
-		#Fluid Tank capability for end tier mechanical[default:256000]
-		# Default: 256000
-		# Range: > 1
-		end_fluid_tank_capability = 256000
-		#Processing multiple for end tier mechanical[default:64]
-		# Default: 64
-		# Range: > 1
-		end_processing_multiple = 64
-		#Processing multiple for end tier Deployer[default:16]
-		# Default: 16
-		# Range: 1 ~ 64
-		end_deployer_processing_multiple = 16
-		#Generated Speed for end tier Steam Engine[default:128]
-		# Default: 128
-		# Range: 1 ~ 256
-		end_steam_engine_generated_speed = 128
-		#Capacity for end tier Steam Engine[default:8192.0]
-		# Default: 8192.0
-		# Range: 1.0 ~ 2.147483647E9
-		end_steam_engine_capacity = 8192.0
-		#Impact needed for end tier mechanical press[default:512.0]
-		# Default: 512.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		end_mechanical_press_impact = 512.0
-		#Impact needed for end tier mechanical mixer[default:256.0]
-		# Default: 256.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		end_mechanical_mixer_impact = 256.0
-		#Impact needed forend tier deployer[default:64.0]
-		# Default: 64.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		enddeployer_impact = 64.0
-		#Impact needed for end tier saw[default:128.0]
-		# Default: 128.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		end_saw_impact = 128.0
-		#Inventory size for end tier saw[default:256]
-		# Default: 256
-		# Range: 4 ~ 4096
-		end_saw_inventory_size = 256
+		[TierSettings."Brass Tier"."Processing Multiple"]
+			#Processing Multiple for brass deployer
+			# Default: 4
+			# Range: > 1
+			brass_deployer_processing_multiple = 4
+			#Processing Multiple for brass mixer
+			# Default: 4
+			# Range: > 1
+			brass_mixer_processing_multiple = 4
+			#Processing Multiple for brass press
+			# Default: 4
+			# Range: > 1
+			brass_press_processing_multiple = 4
+			#Processing Multiple for brass spout
+			# Default: 4
+			# Range: > 1
+			brass_spout_processing_multiple = 4
+			#Processing Multiple for brass saw
+			# Default: 4
+			# Range: > 1
+			brass_saw_processing_multiple = 4
+			#Processing Multiple for brass crushing_wheel
+			# Default: 4
+			# Range: > 1
+			brass_crushing_wheel_processing_multiple = 4
 
-	[TierSettings.BeyondTier]
-		#Item capability for beyond tier mechanical[default:16384]
-		# Default: 16384
-		# Range: > 1
-		beyond_item_capability = 16384
-		#Fluid capability for beyond tier mechanical[default:256000]
-		# Default: 256000
-		# Range: > 1
-		beyond_fluid_capability = 256000
-		#Fluid Tank capability for beyond tier mechanical[default:1024000]
-		# Default: 1024000
-		# Range: > 1
-		beyond_fluid_tank_capability = 1024000
-		#Processing multiple for beyond tier mechanical[default:256]
-		# Default: 256
-		# Range: > 1
-		beyond_processing_multiple = 256
-		#Processing multiple for beyond tier Deployer[default:32]
-		# Default: 32
-		# Range: 1 ~ 64
-		beyond_deployer_processing_multiple = 32
-		#Generated Speed for beyond tier Steam Engine[default:128]
-		# Default: 128
-		# Range: 1 ~ 256
-		beyond_steam_engine_generated_speed = 128
-		#Capacity for beyond tier Steam Engine[default:16384.0]
-		# Default: 16384.0
-		# Range: 1.0 ~ 2.147483647E9
-		beyond_steam_engine_capacity = 16384.0
-		#Impact needed for beyond tier mechanical press[default:2048.0]
-		# Default: 2048.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		beyond_mechanical_press_impact = 2048.0
-		#Impact needed for beyond tier mechanical mixer[default:1024.0]
-		# Default: 1024.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		beyond_mechanical_mixer_impact = 1024.0
-		#Impact needed forbeyond tier deployer[default:128.0]
-		# Default: 128.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		beyonddeployer_impact = 128.0
-		#Impact needed for beyond tier saw[default:512.0]
-		# Default: 512.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		beyond_saw_impact = 512.0
-		#Inventory size for beyond tier saw[default:512]
-		# Default: 512
-		# Range: 4 ~ 4096
-		beyond_saw_inventory_size = 512
+		[TierSettings."Brass Tier"."Mechanical Impact"]
+			#Mechanical Impact for brass deployer
+			# Default: 16.0
+			# Range: 1.0 ~ 2.147483647E9
+			brass_deployer_mechanical_impact = 16.0
+			#Mechanical Impact for brass mixer
+			# Default: 16.0
+			# Range: 1.0 ~ 2.147483647E9
+			brass_mixer_mechanical_impact = 16.0
+			#Mechanical Impact for brass press
+			# Default: 32.0
+			# Range: 1.0 ~ 2.147483647E9
+			brass_press_mechanical_impact = 32.0
+			#Mechanical Impact for brass saw
+			# Default: 8.0
+			# Range: 1.0 ~ 2.147483647E9
+			brass_saw_mechanical_impact = 8.0
+			#Mechanical Impact for brass encased_fan
+			# Default: 8.0
+			# Range: 1.0 ~ 2.147483647E9
+			brass_encased_fan_mechanical_impact = 8.0
+			#Mechanical Impact for brass crushing_wheel
+			# Default: 32.0
+			# Range: 1.0 ~ 2.147483647E9
+			brass_crushing_wheel_mechanical_impact = 32.0
 
-	[TierSettings.CreativeTier]
-		#Item capability for creative tier mechanical[default:2147483647]
-		# Default: 2147483647
-		# Range: > 1
-		creative_item_capability = 2147483647
-		#Fluid capability for creative tier mechanical[default:2147483647]
-		# Default: 2147483647
-		# Range: > 1
-		creative_fluid_capability = 2147483647
-		#Fluid Tank capability for creative tier mechanical[default:2147483647]
-		# Default: 2147483647
-		# Range: > 1
-		creative_fluid_tank_capability = 2147483647
-		#Processing multiple for creative tier mechanical[default:2147483647]
-		# Default: 2147483647
-		# Range: > 1
-		creative_processing_multiple = 2147483647
-		#Processing multiple for creative tier Deployer[default:64]
-		# Default: 64
-		# Range: 1 ~ 64
-		creative_deployer_processing_multiple = 64
-		#Generated Speed for creative tier Steam Engine[default:256]
-		# Default: 256
-		# Range: 1 ~ 256
-		creative_steam_engine_generated_speed = 256
-		#Capacity for creative tier Steam Engine[default:2.147483647E9]
-		# Default: 2.147483647E9
-		# Range: 1.0 ~ 2.147483647E9
-		creative_steam_engine_capacity = 2.147483647E9
-		#Impact needed for creative tier mechanical press[default:8.0]
-		# Default: 8.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		creative_mechanical_press_impact = 8.0
-		#Impact needed for creative tier mechanical mixer[default:4.0]
-		# Default: 4.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		creative_mechanical_mixer_impact = 4.0
-		#Impact needed forcreative tier deployer[default:4.0]
-		# Default: 4.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		creativedeployer_impact = 4.0
-		#Impact needed for creative tier saw[default:8.0]
-		# Default: 8.0
-		# Range: 1.0 ~ 1.7976931348623157E308
-		creative_saw_impact = 8.0
-		#Inventory size for creative tier saw[default:4096]
-		# Default: 4096
-		# Range: 4 ~ 4096
-		creative_saw_inventory_size = 4096
+			[TierSettings."Brass Tier".Special.Encased_fan]
+				# Default: 8
+				# Range: > 1
+				brass_encased_fan_speed = 8
+
+			[TierSettings."Brass Tier".Special.Crushing_wheel]
+				# Default: 4
+				# Range: > 1
+				brass_crushing_wheel_speed = 4
+
+			[TierSettings."Brass Tier".Special.Steam_engine]
+				# Default: 64
+				# Range: > 1
+				brass_steam_engine_generated_speed = 64
+				# Default: 2048
+				# Range: > 1
+				brass_steam_engine_capacity = 2048
+
+		[TierSettings."Netherite Tier"."Item Capability"]
+			#Item capability for netherite basin
+			# Default: 1024
+			# Range: > 1
+			netherite_basin_item_capability = 1024
+			#Item capability for netherite depot
+			# Default: 1024
+			# Range: > 1
+			netherite_depot_item_capability = 1024
+			#Item capability for netherite deployer
+			# Default: 1024
+			# Range: > 1
+			netherite_deployer_item_capability = 1024
+			#Item capability for netherite saw
+			# Default: 128
+			# Range: > 1
+			netherite_saw_item_capability = 128
+
+		[TierSettings."Netherite Tier"."Fluid Capability"]
+			#Fluid capability for netherite basin
+			# Default: 16000
+			# Range: > 1
+			netherite_basin_fluid_capability = 16000
+			#Fluid capability for netherite fluid_tank
+			# Default: 64000
+			# Range: > 1
+			netherite_fluid_tank_fluid_capability = 64000
+			#Fluid capability for netherite spout
+			# Default: 16000
+			# Range: > 1
+			netherite_spout_fluid_capability = 16000
+
+		[TierSettings."Netherite Tier"."Processing Multiple"]
+			#Processing Multiple for netherite deployer
+			# Default: 8
+			# Range: > 1
+			netherite_deployer_processing_multiple = 8
+			#Processing Multiple for netherite mixer
+			# Default: 16
+			# Range: > 1
+			netherite_mixer_processing_multiple = 16
+			#Processing Multiple for netherite press
+			# Default: 16
+			# Range: > 1
+			netherite_press_processing_multiple = 16
+			#Processing Multiple for netherite spout
+			# Default: 16
+			# Range: > 1
+			netherite_spout_processing_multiple = 16
+			#Processing Multiple for netherite saw
+			# Default: 8
+			# Range: > 1
+			netherite_saw_processing_multiple = 8
+			#Processing Multiple for netherite crushing_wheel
+			# Default: 8
+			# Range: > 1
+			netherite_crushing_wheel_processing_multiple = 8
+
+		[TierSettings."Netherite Tier"."Mechanical Impact"]
+			#Mechanical Impact for netherite deployer
+			# Default: 32.0
+			# Range: 1.0 ~ 2.147483647E9
+			netherite_deployer_mechanical_impact = 32.0
+			#Mechanical Impact for netherite mixer
+			# Default: 64.0
+			# Range: 1.0 ~ 2.147483647E9
+			netherite_mixer_mechanical_impact = 64.0
+			#Mechanical Impact for netherite press
+			# Default: 128.0
+			# Range: 1.0 ~ 2.147483647E9
+			netherite_press_mechanical_impact = 128.0
+			#Mechanical Impact for netherite saw
+			# Default: 32.0
+			# Range: 1.0 ~ 2.147483647E9
+			netherite_saw_mechanical_impact = 32.0
+			#Mechanical Impact for netherite encased_fan
+			# Default: 32.0
+			# Range: 1.0 ~ 2.147483647E9
+			netherite_encased_fan_mechanical_impact = 32.0
+			#Mechanical Impact for netherite crushing_wheel
+			# Default: 128.0
+			# Range: 1.0 ~ 2.147483647E9
+			netherite_crushing_wheel_mechanical_impact = 128.0
+
+			[TierSettings."Netherite Tier".Special.Encased_fan]
+				# Default: 16
+				# Range: > 1
+				netherite_encased_fan_speed = 16
+
+			[TierSettings."Netherite Tier".Special.Crushing_wheel]
+				# Default: 8
+				# Range: > 1
+				netherite_crushing_wheel_speed = 8
+
+			[TierSettings."Netherite Tier".Special.Steam_engine]
+				# Default: 64
+				# Range: > 1
+				netherite_steam_engine_generated_speed = 64
+				# Default: 4096
+				# Range: > 1
+				netherite_steam_engine_capacity = 4096
+
+		[TierSettings."End Tier"."Item Capability"]
+			#Item capability for end basin
+			# Default: 4096
+			# Range: > 1
+			end_basin_item_capability = 4096
+			#Item capability for end depot
+			# Default: 4096
+			# Range: > 1
+			end_depot_item_capability = 4096
+			#Item capability for end deployer
+			# Default: 4096
+			# Range: > 1
+			end_deployer_item_capability = 4096
+			#Item capability for end saw
+			# Default: 256
+			# Range: > 1
+			end_saw_item_capability = 256
+
+		[TierSettings."End Tier"."Fluid Capability"]
+			#Fluid capability for end basin
+			# Default: 64000
+			# Range: > 1
+			end_basin_fluid_capability = 64000
+			#Fluid capability for end fluid_tank
+			# Default: 256000
+			# Range: > 1
+			end_fluid_tank_fluid_capability = 256000
+			#Fluid capability for end spout
+			# Default: 64000
+			# Range: > 1
+			end_spout_fluid_capability = 64000
+
+		[TierSettings."End Tier"."Processing Multiple"]
+			#Processing Multiple for end deployer
+			# Default: 16
+			# Range: > 1
+			end_deployer_processing_multiple = 16
+			#Processing Multiple for end mixer
+			# Default: 64
+			# Range: > 1
+			end_mixer_processing_multiple = 64
+			#Processing Multiple for end press
+			# Default: 64
+			# Range: > 1
+			end_press_processing_multiple = 64
+			#Processing Multiple for end spout
+			# Default: 64
+			# Range: > 1
+			end_spout_processing_multiple = 64
+			#Processing Multiple for end saw
+			# Default: 16
+			# Range: > 1
+			end_saw_processing_multiple = 16
+			#Processing Multiple for end crushing_wheel
+			# Default: 16
+			# Range: > 1
+			end_crushing_wheel_processing_multiple = 16
+
+		[TierSettings."End Tier"."Mechanical Impact"]
+			#Mechanical Impact for end deployer
+			# Default: 64.0
+			# Range: 1.0 ~ 2.147483647E9
+			end_deployer_mechanical_impact = 64.0
+			#Mechanical Impact for end mixer
+			# Default: 256.0
+			# Range: 1.0 ~ 2.147483647E9
+			end_mixer_mechanical_impact = 256.0
+			#Mechanical Impact for end press
+			# Default: 512.0
+			# Range: 1.0 ~ 2.147483647E9
+			end_press_mechanical_impact = 512.0
+			#Mechanical Impact for end saw
+			# Default: 64.0
+			# Range: 1.0 ~ 2.147483647E9
+			end_saw_mechanical_impact = 64.0
+			#Mechanical Impact for end encased_fan
+			# Default: 64.0
+			# Range: 1.0 ~ 2.147483647E9
+			end_encased_fan_mechanical_impact = 64.0
+			#Mechanical Impact for end crushing_wheel
+			# Default: 512.0
+			# Range: 1.0 ~ 2.147483647E9
+			end_crushing_wheel_mechanical_impact = 512.0
+
+			[TierSettings."End Tier".Special.Encased_fan]
+				# Default: 32
+				# Range: > 1
+				end_encased_fan_speed = 32
+
+			[TierSettings."End Tier".Special.Crushing_wheel]
+				# Default: 16
+				# Range: > 1
+				end_crushing_wheel_speed = 16
+
+			[TierSettings."End Tier".Special.Steam_engine]
+				# Default: 128
+				# Range: > 1
+				end_steam_engine_generated_speed = 128
+				# Default: 8192
+				# Range: > 1
+				end_steam_engine_capacity = 8192
+
+		[TierSettings."Beyond Tier"."Item Capability"]
+			#Item capability for beyond basin
+			# Default: 16384
+			# Range: > 1
+			beyond_basin_item_capability = 16384
+			#Item capability for beyond depot
+			# Default: 16384
+			# Range: > 1
+			beyond_depot_item_capability = 16384
+			#Item capability for beyond deployer
+			# Default: 16384
+			# Range: > 1
+			beyond_deployer_item_capability = 16384
+			#Item capability for beyond saw
+			# Default: 512
+			# Range: > 1
+			beyond_saw_item_capability = 512
+
+		[TierSettings."Beyond Tier"."Fluid Capability"]
+			#Fluid capability for beyond basin
+			# Default: 256000
+			# Range: > 1
+			beyond_basin_fluid_capability = 256000
+			#Fluid capability for beyond fluid_tank
+			# Default: 1024000
+			# Range: > 1
+			beyond_fluid_tank_fluid_capability = 1024000
+			#Fluid capability for beyond spout
+			# Default: 256000
+			# Range: > 1
+			beyond_spout_fluid_capability = 256000
+
+		[TierSettings."Beyond Tier"."Processing Multiple"]
+			#Processing Multiple for beyond deployer
+			# Default: 32
+			# Range: > 1
+			beyond_deployer_processing_multiple = 32
+			#Processing Multiple for beyond mixer
+			# Default: 256
+			# Range: > 1
+			beyond_mixer_processing_multiple = 256
+			#Processing Multiple for beyond press
+			# Default: 256
+			# Range: > 1
+			beyond_press_processing_multiple = 256
+			#Processing Multiple for beyond spout
+			# Default: 256
+			# Range: > 1
+			beyond_spout_processing_multiple = 256
+			#Processing Multiple for beyond saw
+			# Default: 32
+			# Range: > 1
+			beyond_saw_processing_multiple = 32
+			#Processing Multiple for beyond crushing_wheel
+			# Default: 32
+			# Range: > 1
+			beyond_crushing_wheel_processing_multiple = 32
+
+		[TierSettings."Beyond Tier"."Mechanical Impact"]
+			#Mechanical Impact for beyond deployer
+			# Default: 128.0
+			# Range: 1.0 ~ 2.147483647E9
+			beyond_deployer_mechanical_impact = 128.0
+			#Mechanical Impact for beyond mixer
+			# Default: 1024.0
+			# Range: 1.0 ~ 2.147483647E9
+			beyond_mixer_mechanical_impact = 1024.0
+			#Mechanical Impact for beyond press
+			# Default: 2048.0
+			# Range: 1.0 ~ 2.147483647E9
+			beyond_press_mechanical_impact = 2048.0
+			#Mechanical Impact for beyond saw
+			# Default: 128.0
+			# Range: 1.0 ~ 2.147483647E9
+			beyond_saw_mechanical_impact = 128.0
+			#Mechanical Impact for beyond encased_fan
+			# Default: 128.0
+			# Range: 1.0 ~ 2.147483647E9
+			beyond_encased_fan_mechanical_impact = 128.0
+			#Mechanical Impact for beyond crushing_wheel
+			# Default: 2048.0
+			# Range: 1.0 ~ 2.147483647E9
+			beyond_crushing_wheel_mechanical_impact = 2048.0
+
+			[TierSettings."Beyond Tier".Special.Encased_fan]
+				# Default: 64
+				# Range: > 1
+				beyond_encased_fan_speed = 64
+
+			[TierSettings."Beyond Tier".Special.Crushing_wheel]
+				# Default: 32
+				# Range: > 1
+				beyond_crushing_wheel_speed = 32
+
+			[TierSettings."Beyond Tier".Special.Steam_engine]
+				# Default: 128
+				# Range: > 1
+				beyond_steam_engine_generated_speed = 128
+				# Default: 16384
+				# Range: > 1
+				beyond_steam_engine_capacity = 16384
+
+		[TierSettings."Creative Tier"."Item Capability"]
+			#Item capability for creative basin
+			# Default: 2147483647
+			# Range: > 1
+			creative_basin_item_capability = 2147483647
+			#Item capability for creative depot
+			# Default: 2147483647
+			# Range: > 1
+			creative_depot_item_capability = 2147483647
+			#Item capability for creative deployer
+			# Default: 2147483647
+			# Range: > 1
+			creative_deployer_item_capability = 2147483647
+			#Item capability for creative saw
+			# Default: 4096
+			# Range: > 1
+			creative_saw_item_capability = 4096
+
+		[TierSettings."Creative Tier"."Fluid Capability"]
+			#Fluid capability for creative basin
+			# Default: 2147483647
+			# Range: > 1
+			creative_basin_fluid_capability = 2147483647
+			#Fluid capability for creative fluid_tank
+			# Default: 2147483647
+			# Range: > 1
+			creative_fluid_tank_fluid_capability = 2147483647
+			#Fluid capability for creative spout
+			# Default: 2147483647
+			# Range: > 1
+			creative_spout_fluid_capability = 2147483647
+
+		[TierSettings."Creative Tier"."Processing Multiple"]
+			#Processing Multiple for creative deployer
+			# Default: 64
+			# Range: > 1
+			creative_deployer_processing_multiple = 64
+			#Processing Multiple for creative mixer
+			# Default: 2147483647
+			# Range: > 1
+			creative_mixer_processing_multiple = 2147483647
+			#Processing Multiple for creative press
+			# Default: 2147483647
+			# Range: > 1
+			creative_press_processing_multiple = 2147483647
+			#Processing Multiple for creative spout
+			# Default: 2147483647
+			# Range: > 1
+			creative_spout_processing_multiple = 2147483647
+			#Processing Multiple for creative saw
+			# Default: 64
+			# Range: > 1
+			creative_saw_processing_multiple = 64
+			#Processing Multiple for creative crushing_wheel
+			# Default: 64
+			# Range: > 1
+			creative_crushing_wheel_processing_multiple = 64
+
+		[TierSettings."Creative Tier"."Mechanical Impact"]
+			#Mechanical Impact for creative deployer
+			# Default: 4.0
+			# Range: 1.0 ~ 2.147483647E9
+			creative_deployer_mechanical_impact = 4.0
+			#Mechanical Impact for creative mixer
+			# Default: 4.0
+			# Range: 1.0 ~ 2.147483647E9
+			creative_mixer_mechanical_impact = 4.0
+			#Mechanical Impact for creative press
+			# Default: 8.0
+			# Range: 1.0 ~ 2.147483647E9
+			creative_press_mechanical_impact = 8.0
+			#Mechanical Impact for creative saw
+			# Default: 4.0
+			# Range: 1.0 ~ 2.147483647E9
+			creative_saw_mechanical_impact = 4.0
+			#Mechanical Impact for creative encased_fan
+			# Default: 4.0
+			# Range: 1.0 ~ 2.147483647E9
+			creative_encased_fan_mechanical_impact = 4.0
+			#Mechanical Impact for creative crushing_wheel
+			# Default: 8.0
+			# Range: 1.0 ~ 2.147483647E9
+			creative_crushing_wheel_mechanical_impact = 8.0
+
+			[TierSettings."Creative Tier".Special.Encased_fan]
+				# Default: 256
+				# Range: > 1
+				creative_encased_fan_speed = 256
+
+			[TierSettings."Creative Tier".Special.Crushing_wheel]
+				# Default: 64
+				# Range: > 1
+				creative_crushing_wheel_speed = 64
+
+			[TierSettings."Creative Tier".Special.Steam_engine]
+				# Default: 256
+				# Range: > 1
+				creative_steam_engine_generated_speed = 256
+				# Default: 2147483647
+				# Range: > 1
+				creative_steam_engine_capacity = 2147483647

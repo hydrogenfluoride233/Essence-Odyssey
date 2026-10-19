@@ -1,0 +1,48 @@
+#Speed of the frost charge (the Aether's own ice crystal).
+# Default: 2.5
+# Range: 0.1 ~ 10.0
+frost_speed = 2.5
+#Damage of the frost bolt.
+# Default: 7.0
+# Range: 0.0 ~ 100.0
+frost_damage = 7.0
+#Whether the frost bolt freezes the Sun Spirit, like the Aether's own ice crystal.
+frost_freezes_sun_spirit = true
+#Freeze duration applied to the Sun Spirit, in ticks.
+# Default: 175
+# Range: 1 ~ 1200
+frost_freeze_ticks = 175
+#Speed of the mod's own crystal bolts.
+# Default: 2.0
+# Range: 0.1 ~ 10.0
+bolt_speed = 2.0
+#Cooldown after throwing a single-use charge, in ticks.
+# Default: 10
+# Range: 0 ~ 200
+charge_cooldown = 10
+#Cooldown after casting with a scepter, in ticks.
+# Default: 60
+# Range: 0 ~ 400
+scepter_cooldown = 60
+#Damage of the blaze bolt.
+# Default: 15.0
+# Range: 0.0 ~ 100.0
+blaze_damage = 15.0
+#Seconds the blaze bolt sets the target on fire.
+# Default: 6.0
+# Range: 0.0 ~ 30.0
+blaze_ignite_seconds = 6.0
+#Damage of the thunder bolt.
+# Default: 5.0
+# Range: 0.0 ~ 100.0
+thunder_damage = 5.0
+#Whether the thunder bolt calls down lightning.
+thunder_summon_lightning = true
+#Horizontal knockback strength of the cloud bolt.
+# Default: 1.5
+# Range: 0.0 ~ 5.0
+cloud_knockback = 1.5
+#Damage of the cloud bolt.
+# Default: 0.0
+# Range: 0.0 ~ 100.0
+cloud_damage = 0.0
