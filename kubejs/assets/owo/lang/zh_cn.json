@@ -1,0 +1,17 @@
+{
+  "text.owo.configure_hot_reload.title":"配置热重载",
+  "text.owo.configure_hot_reload.choose_file":"选择文件",
+  "text.owo.configure_hot_reload.save":"保存",
+  "text.owo.configure_hot_reload.reload_from.unset":"未设置",
+  "text.owo.config.search":"搜索…",
+  "text.owo.config.search.no_matches":"无匹配项",
+  "text.owo.config.must_restart":"你所做的部分更改需要重启后才能应用",
+  "text.owo.config.button.exit_minecraft":"退出 Minecraft",
+  "text.owo.config.button.ignore_restart":"稍后重启",
+  "text.owo.config.button.range.edit_as_text":"以文本编辑",
+  "text.owo.config.button.range.edit_with_slider":"使用滑动条编辑",
+  "text.owo.config.button.reload":"重载",
+  "text.owo.config.button.done":"完成",
+  "text.owo.config.sections_tooltip":"分区",
+  "text.owo.config.list.add_entry":"添加条目"
+}

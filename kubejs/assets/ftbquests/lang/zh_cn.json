@@ -764,5 +764,17 @@
   "sidebar_button.ftbquests.quests":"任务",
   "sidebar_button.ftbquests.quests.no_team":"加入队伍以完成任务！",
 
-  "block.ftbquests.banner":"旗帜"
+  "block.ftbquests.banner":"旗帜",
+
+  "key.ftbquests.cycle_pinned_tracker":"切换置顶任务追踪器的显示",
+  "key.ftbquests.gui_editor.complete_object":"强制完成悬停对象",
+  "key.ftbquests.gui_editor.reset_object":"强制重置悬停对象",
+  "key.ftbquests.gui_editor.save":"立即保存任务",
+  "ftbquests.gui.edit_tooltip":"快捷键：Alt + 左键",
+  "ftbquests.pinned.pinned_exclude_flexible":"排除弹性模式的任务",
+  "ftbquests.pinned.pinned_exclude_flexible.tooltip":"开启后，只因弹性模式才可以开始（因而还不能完成）的任务不会出现在追踪器里\n关闭则显示全部可开始的任务",
+  "ftbquests.pinned.pinned_visibility":"置顶追踪器的显示方式",
+  "ftbquests.pinned.visibility.all":"任务与目标",
+  "ftbquests.pinned.visibility.quests_only":"仅任务",
+  "ftbquests.pinned.visibility.hidden":"隐藏"
 }

@@ -1,0 +1,7 @@
+{
+  "config.moreoverlays.lightoverlay.spawn_numbers":"使用数字覆盖",
+  "config.moreoverlays.lightoverlay.update_interval_frames":"更新间隔 (帧)",
+  "config.moreoverlays.rendersettings.chunk_line_thick":"区块：粗线",
+  "config.moreoverlays.rendersettings.spawn_number_scale":"出生点区块：数字大小",
+  "config.moreoverlays.rendersettings.spawn_safe_color":"出生点区块：安全颜色"
+}

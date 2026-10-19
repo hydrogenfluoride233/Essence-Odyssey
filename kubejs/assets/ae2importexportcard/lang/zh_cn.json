@@ -1,0 +1,5 @@
+{
+  "item.ae2importexportcard.block_picker_card":"选取方块卡",
+  "gui.ae2importexportcard.block_picker_amount":"选取方块数量",
+  "gui.ae2importexportcard.block_picker_amount.value":"选取方块数量：%s"
+}

@@ -1,4 +1,7 @@
 {
   "effect.farmersdelight.comfort.description":"在任意饥饿值下给予自然生命恢复。",
-  "effect.farmersdelight.nourishment.description":"阻止饥饿值损失，使用饥饿值等恢复生命值除外。"
+  "effect.farmersdelight.nourishment.description":"阻止饥饿值损失，使用饥饿值等恢复生命值除外。",
+
+  "tag.block.farmersdelight.cabinets.wooden":"木制柜子",
+  "tag.block.farmersdelight.mineable.knife":"可用刀具挖掘"
 }

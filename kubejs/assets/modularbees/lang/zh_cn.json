@@ -1,0 +1,13 @@
+{
+  "block.modularbees.me_beehive_export":"蜂巢ME导出仓",
+  "block.modularbees.me_centrifuge_export":"离心机ME导出仓",
+  "block.modularbees.me_centrifuge_import":"离心机 ME 导入仓",
+  "modularbees.gui.me_export.filter_enable":"过滤器已启用",
+  "modularbees.gui.me_export.filter_disable":"过滤器已禁用",
+  "modularbees.gui.me_export.whitelist":"白名单模式",
+  "modularbees.gui.me_export.blacklist":"黑名单模式",
+  "modularbees.gui.me_import.config":"配置",
+  "modularbees.gui.me_import.storage":"存储",
+  "config.jade.plugin_modularbees.grid_node_state":"AE2网络状态（ModularBees）",
+  "config.jade.plugin_modularbees.power_storage":"AE2电力状态（ModularBees）"
+}
