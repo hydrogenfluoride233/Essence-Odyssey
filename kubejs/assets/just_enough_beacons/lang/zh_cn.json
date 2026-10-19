@@ -1,0 +1,7 @@
+{
+  "category.beacon_base_blocks":"信标基座方块",
+  "category.beacon_payments":"信标支付物品",
+  "category.conduit_frame_blocks":"潮涌核心框架方块",
+  "jei.just_enough_beacons.payment_item.tooltip":"用来激活信标时，信标范围扩大%s格",
+  "jei.just_enough_beacons.base_blocks.tooltip":"用来搭建信标时，主效果的等级提升至%s"
+}

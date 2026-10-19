@@ -1,0 +1,20 @@
+{
+  "block.arsdelight.dawnberry_crate":"箱装晨曦莓",
+  "block.arsdelight.dawnberry_jelly":"晨曦莓果冻",
+  "block.arsdelight.dawnberry_pie":"晨曦莓派",
+  "block.arsdelight.lightchee_crate":"箱装光荔枝",
+  "block.arsdelight.lightchee_jelly":"光荔枝果冻",
+  "block.arsdelight.lightchee_pie":"光荔枝派",
+  "effect.arsdelight.lightning_curse.desc":"让你的法术攻击目标引来闪电",
+  "item.arsdelight.bleak_bark":"凋寂至高树皮",
+  "item.arsdelight.dawn_bark":"晨曦至高树皮",
+  "item.arsdelight.dawnberry_hornbeer":"晨曦莓果酒",
+  "item.arsdelight.dawnberry_pie_slice":"晨曦莓派切片",
+  "item.arsdelight.dawnberry_tea":"晨曦莓果茶",
+  "item.arsdelight.fading_bark":"消逝至高树皮",
+  "item.arsdelight.lightchee_hornbeer":"光荔枝果酒",
+  "item.arsdelight.lightchee_pie_slice":"光荔枝派切片",
+  "item.arsdelight.lightchee_tea":"光荔枝果茶",
+  "item.arsdelight.neutralized_dawnberry_jam":"晨曦莓果酱",
+  "item.arsdelight.neutralized_lightchee_jam":"光荔枝果酱"
+}
