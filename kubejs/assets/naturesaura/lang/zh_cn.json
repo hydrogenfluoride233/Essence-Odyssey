@@ -1,5 +1,7 @@
 {
   "item.naturesaura.aura_bottle.kubejs:aether":"瓶装曙光",
   "item.naturesaura.aura_bottle.kubejs:twilight_forest":"瓶装暮光",
-  "item.naturesaura.aura_bottle.kubejs:starlight":"瓶装星光"
+  "item.naturesaura.aura_bottle.kubejs:starlight":"瓶装星光",
+
+  "block.naturesaura.light":"光源"
 }

@@ -329,5 +329,9 @@
   "block.apothic_enchanting.apothic_enchanting_table":"神化附魔台",
   "block.apothic_enchanting.apothic_enchanting_table.desc":"附魔台的外观变体。",
   "block.apothic_enchanting.basic_bookshelf":"基础书架",
-  "block.apothic_enchanting.raven_enchanting_table.desc":"可以手动调整核心附魔属性。"
+  "block.apothic_enchanting.raven_enchanting_table.desc":"可以手动调整核心附魔属性。",
+
+  "block.apothic_enchanting.prismatic_altar":"棱彩祭坛",
+  "block.apothic_enchanting.reforging_table":"重铸台",
+  "block.apothic_enchanting.salvaging_table":"拆解台"
 }

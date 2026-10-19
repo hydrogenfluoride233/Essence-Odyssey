@@ -762,5 +762,7 @@
   "key.ftbquests.gui_quest_panel.edit_title":"编辑标题",
   "key.ftbquests.quests":"打开任务",
   "sidebar_button.ftbquests.quests":"任务",
-  "sidebar_button.ftbquests.quests.no_team":"加入队伍以完成任务！"
+  "sidebar_button.ftbquests.quests.no_team":"加入队伍以完成任务！",
+
+  "block.ftbquests.banner":"旗帜"
 }

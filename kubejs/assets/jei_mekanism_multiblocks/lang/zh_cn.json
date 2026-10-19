@@ -74,5 +74,7 @@
   "text.jei_mekanism_multiblocks.specs.layout":"布局",
   "text.jei_mekanism_multiblocks.result.processing_speed":"处理速度",
   "text.jei_mekanism_multiblocks.result.boil_efficiency":"沸腾效率",
-  "text.jei_mekanism_multiblocks.result.supercharging_elements":"超充组件：%s"
+  "text.jei_mekanism_multiblocks.result.supercharging_elements":"超充组件：%s",
+
+  "text.jei_mekanism_multiblocks.tooltip.production_per_flow":"每点流量的产出：%s。"
 }

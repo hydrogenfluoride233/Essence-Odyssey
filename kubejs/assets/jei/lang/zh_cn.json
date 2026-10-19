@@ -317,5 +317,8 @@
   "gui.jei.search":"原料筛选",
   "key.jei.pauseRecipeCycling":"暂停配方原料轮播",
   "key.jei.shareToChat":"分享物品到聊天栏",
-  "key.jei.showBookmarkTooltipFeatures":"显示书签提示框功能"
+  "key.jei.showBookmarkTooltipFeatures":"显示书签提示框功能",
+
+  "jei.config.client.appearance.toastReflowEnabled":"通知弹窗避让",
+  "jei.config.client.appearance.toastReflowEnabled.description":"为弹窗通知预留空间，使其不会遮挡JEI界面。"
 }
