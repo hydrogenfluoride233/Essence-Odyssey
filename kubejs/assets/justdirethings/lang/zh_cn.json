@@ -486,5 +486,10 @@
   "sound.justdirethings.beep":"哔",
   "sound.justdirethings.paradox_ambient":"悖论机器：运作",
   "sound.justdirethings.portal_gun_close":"传送枪：关闭",
-  "sound.justdirethings.portal_gun_open":"传送枪：打开"
+  "sound.justdirethings.portal_gun_open":"传送枪：打开",
+
+  "Just Dires Guide":"Just Dires指南",
+  "Just Dire Things - Explained!":"Just Dire Things - 详解！",
+  "justdirethings.phase":"穿墙",
+  "block.justdirethings.goopatternblock":"黏液图案方块"
 }
