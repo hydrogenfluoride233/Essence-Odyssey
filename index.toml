@@ -201,6 +201,10 @@ file = "config/aether/sun_altar_whitelist.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
+file = "config/aether_charges-common.toml"
+hash = "432dddf68a16ce631936da719f9ece955600d36975914c319867810b8066e8e4"
+
+[[files]]
 file = "config/aethersdelight-common.toml"
 hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
 
@@ -242,11 +246,11 @@ hash = "a3bee57a52654b40ba20f3dd1128377ce044df863f03deb507dd5ff6eb39311f"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "9d71fb8c686bd4f82b4168a5d1eeae03dc604cbe97871058666b00a84f1dcb4b"
+hash = "2829bd75e70e75cdc65ad5c8aba449830e2c220ed06a494f975e728bfbc1716d"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
-hash = "752de42c70e3e3d9e89d96d56605fe92e7cab4514c08c87c188215da8af42ff3"
+hash = "c20ae6dda80c2e3bd99461a8268ef6cc360b84f0f90b88eb5b27330e593c8ba0"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
@@ -1381,6 +1385,14 @@ file = "config/attributefix/minecraft/player.sweeping_damage_ratio.json"
 hash = "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535"
 
 [[files]]
+file = "config/attributefix/minecraft/waypoint_receive_range.json"
+hash = "2d8ef79ff6cbf914b4080e290dafd2bcddd8f497cebc08502f657350035ae323"
+
+[[files]]
+file = "config/attributefix/minecraft/waypoint_transmit_range.json"
+hash = "2d8ef79ff6cbf914b4080e290dafd2bcddd8f497cebc08502f657350035ae323"
+
+[[files]]
 file = "config/attributefix/minecraft/zombie.spawn_reinforcements.json"
 hash = "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535"
 
@@ -1590,7 +1602,7 @@ hash = "3ff7bfbdf8353dffba0809215ab4812f63443843128b3d40ae6b377aeda94855"
 
 [[files]]
 file = "config/createmoremachines-startup.toml"
-hash = "c5f476c6bca1705322b69e815b746a332fce255383bdf620d19b7c3e625b086d"
+hash = "acf99919f9fa58397fafe52ea5f8588170edb7de3274da77d8e448014c0ad7b3"
 
 [[files]]
 file = "config/cristellib/ae2/structure_placement_config.json5"
@@ -1689,6 +1701,22 @@ file = "config/cristellib/eternal_starlight/structure_toggle_config.json5"
 hash = "856140e9eb118c9a5ce9eaa87497eed9856c2021eea93d680017ef8c09f8b173"
 
 [[files]]
+file = "config/cristellib/explore_ruins_aether/structure_placement_config.json5"
+hash = "2f6aae22095b8df7a806434641f096aaaceb3da5c45aa4a12d63e580608eb0cf"
+
+[[files]]
+file = "config/cristellib/explore_ruins_aether/structure_toggle_config.json5"
+hash = "691d9f9be83d19408dad09395b07285be274ca4f87dedd4f1bcb1798e2e7e451"
+
+[[files]]
+file = "config/cristellib/farmers_structures/structure_placement_config.json5"
+hash = "e85ca8a89ed9a096b731101c44f8a000ca008ecbd292d08c2d1583bd852e42af"
+
+[[files]]
+file = "config/cristellib/farmers_structures/structure_toggle_config.json5"
+hash = "675211ef327b8599cda6ceb55ea29926f89c59043c2807730bc530cc475786e2"
+
+[[files]]
 file = "config/cristellib/imst/structure_placement_config.json5"
 hash = "72c0cb2833e43e7b8b4bb7c7743d10375e83c54e3666c821d9164ba1b938e05d"
 
@@ -1727,6 +1755,14 @@ hash = "454ffa75bab1f9806e61895bedc3aa5f6f0d122ea013ea7e30e13f6213357fcb"
 [[files]]
 file = "config/cristellib/undergarden/structure_toggle_config.json5"
 hash = "f8d8304e690a1a851a58af20f42fbdf23ec87af613630be91a429630128cf567"
+
+[[files]]
+file = "config/cristellib/vanillabackport/structure_placement_config.json5"
+hash = "1e5ef559a20d1d02387214c10bdbe1ba1915f12958d1aeee4adef667bf7d70a8"
+
+[[files]]
+file = "config/cristellib/vanillabackport/structure_toggle_config.json5"
+hash = "36ff9d3a88e647a634d3e64946f45fba93fbc88d079c9ed910e2a9ad631a5fe5"
 
 [[files]]
 file = "config/ctm.toml"
@@ -2094,7 +2130,7 @@ hash = "f38ee68e57fa875aaf5f3a3c7a0a4f5db487cadde32410960ca92c05c3ef0037"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
-hash = "e738199249a201ffe8b55a254b548b110f4ea90ad621935e6b9204270efddc00"
+hash = "4d150c962f987d192e32622a9defdcf09460987490f6f33c4d9d9bc76c281293"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
@@ -2118,7 +2154,7 @@ hash = "41a01d61454b3e23c0f0d071bd401771b381bd1622cbbe243523be86fb8963fd"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "41d411f03389bbc17ecc33989dc933503ae5676eb18ae06a6bb1d12dc673516e"
+hash = "e15747adf474eb3e92a881c030d4c9ac59629c10e1035d7ac2e1628d52dde4fd"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2690,7 +2726,7 @@ hash = "a50b4ca77d21ae105e68560c1af694125ea06360374c82e87f4da54b7ecfa51d"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
-hash = "15c887868f49ecd06f43c62a6a98fcc1503908470f317f5a257cead14b1c4d38"
+hash = "b8dfa4b94428c0a3d33594242ddee2115e8d27e72c74e7c20963b6f978f673b9"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -2711,6 +2747,18 @@ hash = "e63fbc2d25ccd2d86eb887562d3f5f544dadcb75b0c68dd7cc152f7197a1e2d7"
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/accessories/lang/zh_cn.json"
+hash = "ed4b49c762ce7491acc1dd29fc348a8bbbfa7be7b209f91829598aa10cb49ac0"
+
+[[files]]
+file = "kubejs/assets/accessories_compat_layer/lang/zh_cn.json"
+hash = "99f8f5db3e8242ff4fba2c7bb96d176377b6862fe63c8362b44544b3d9fac595"
+
+[[files]]
+file = "kubejs/assets/actuallyadditions/lang/zh_cn.json"
+hash = "00b274ab70d913b3a11c467fea7c60f6fb112508b09d48e661ab6ba21fde96a8"
 
 [[files]]
 file = "kubejs/assets/ae2/ae2guide/_zh_cn/items-blocks-machines/mysterious_cube.md"
@@ -2734,7 +2782,15 @@ hash = "f12fd9548c5b3358fdd9c7020530b743bc41e08883826ba237729690067cea2c"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/zh_cn.json"
-hash = "9c5576336f5ae49d8cb57d28f39d21845f2db41103180c212bd0eb590f131553"
+hash = "b987bc7ceeb11c058754fb06b11a780dfa7c4b8606afb6ace9ca918ed055567c"
+
+[[files]]
+file = "kubejs/assets/ae2importexportcard/lang/zh_cn.json"
+hash = "6d7fb8ad245d64f02dd705159263531957bdad59ad5be5d868fc0978929ee31a"
+
+[[files]]
+file = "kubejs/assets/aether/lang/zh_cn.json"
+hash = "eb919a4d7ef211b59fa8436a6f2c277153e3b62376cad7c2ce4718acb72d145e"
 
 [[files]]
 file = "kubejs/assets/aether/tips/aerogel_explosion_resistance.json"
@@ -2981,12 +3037,136 @@ file = "kubejs/assets/aether/tips/zephyr_shooting.json"
 hash = "9e5610200d8a3a1387532b7ca50937bebf28b9579b8abf56b17d75f92d7161fa"
 
 [[files]]
+file = "kubejs/assets/aether_treasure_reforging/lang/zh_cn.json"
+hash = "a772f9de79610c439975b762a126b1b0cf0ddb53bcfb247d1129c9756403ffc8"
+
+[[files]]
+file = "kubejs/assets/apotheosis/lang/zh_cn.json"
+hash = "e52ed80050cce71434037a49c4148c0663af3341f43c22f2d246f6368e62b0d7"
+
+[[files]]
+file = "kubejs/assets/apothic_attributes/lang/zh_cn.json"
+hash = "95470e4f44db8faa754b17bd23820396b00dc31ff3ea80858e4fcafe991a2d03"
+
+[[files]]
+file = "kubejs/assets/apothic_enchanting/lang/zh_cn.json"
+hash = "a4f515161e4d232eff4978d8ff548e1d1285dac79b02552e1694911529ec35bc"
+
+[[files]]
+file = "kubejs/assets/appflux/lang/zh_cn.json"
+hash = "f9960d8c5e3c7f6b7d483fcc5d9f945151cf22c23646bfb4055d773e08bfc53f"
+
+[[files]]
+file = "kubejs/assets/aquaculture/lang/zh_cn.json"
+hash = "318df12d00f54c62745b6a831952ded5ecde675592ed348f2c236e71d61a8758"
+
+[[files]]
+file = "kubejs/assets/aquaculturedelight/lang/zh_cn.json"
+hash = "2d868d3eb9e4962de4647f7bf923861f18c37867cc71f1436ddc9ba369f3f485"
+
+[[files]]
+file = "kubejs/assets/ars_technica/lang/zh_cn.json"
+hash = "6208ec43cffdc968b0305542d45c7f0b2cc015806d011a9a3f40f359c863057e"
+
+[[files]]
+file = "kubejs/assets/arsdelight/lang/zh_cn.json"
+hash = "727072e86d756e3abf3881f8b96f451e5e222d40e9a5c88ff3a75157a48dc7ba"
+
+[[files]]
+file = "kubejs/assets/balm/lang/zh_cn.json"
+hash = "855cab200e405d963d5fcf60744e2fa925d6b92e0077e5db31308a46ada8d918"
+
+[[files]]
+file = "kubejs/assets/betteradvancedtooltips/lang/zh_cn.json"
+hash = "39ba43b398cc31906686a93c9854919455f31381adc439b343c63842c27fc18a"
+
+[[files]]
+file = "kubejs/assets/betteradvancements/lang/zh_cn.json"
+hash = "03b78d79a863f8a3f1bc3a0dcc9ff29f34492eb54da3a48513060586b072ff5d"
+
+[[files]]
+file = "kubejs/assets/bookshelf/lang/zh_cn.json"
+hash = "6e87f8667af710ec731ce464cb47c6f4dc2d20fbad021e3b4535723a1469aac8"
+
+[[files]]
+file = "kubejs/assets/buildinggadgets2/lang/zh_cn.json"
+hash = "eae49d2accfd521b01a654a03a56fafdc3d2a8f577e13dcda4f5417ef1794c68"
+
+[[files]]
+file = "kubejs/assets/cataclysm/lang/zh_cn.json"
+hash = "b7c28ee659747a1522cc8a6232b7de47cbc762fed67ada447b57727c242447b9"
+
+[[files]]
+file = "kubejs/assets/chat_heads/lang/zh_cn.json"
+hash = "cad7fa5ea85e6c36ccc0a255890a319fb1f7acbccb71ed37c961fc8fdeb6bc8b"
+
+[[files]]
+file = "kubejs/assets/chatanimation/lang/zh_cn.json"
+hash = "d11bc7f3be75e1cf1900ff8af1fbae398ba7c6f9d78a5cae34b0fea023f3b989"
+
+[[files]]
+file = "kubejs/assets/chimes/lang/zh_cn.json"
+hash = "70ded75822440179d508ae5cb34184b506141ea54a896f1cb1ff010eef35af4e"
+
+[[files]]
+file = "kubejs/assets/cobblegengalore/lang/zh_cn.json"
+hash = "927130780b8bc2fcb7734e7f87354c73abdd4766cd66a2619936646b3c14282c"
+
+[[files]]
+file = "kubejs/assets/codechickenlib/lang/zh_cn.json"
+hash = "53972d0652130b58816d6573795cba5662802cfddee2f116272cd7a2b565e90c"
+
+[[files]]
+file = "kubejs/assets/colorfulhearts/lang/zh_cn.json"
+hash = "b8bc5dc21da657f5d1def622b12b598d7e775d9372c45d31ef8b170e8182cf00"
+
+[[files]]
+file = "kubejs/assets/configured/lang/zh_cn.json"
+hash = "a85751914d3c78c826538409f84207e44e002dd6fb146b8ce19a54343715193d"
+
+[[files]]
+file = "kubejs/assets/constructionstick/lang/zh_cn.json"
+hash = "6dd21d7cf48b9a8b92d3cbbb5a9a38b09b6421e87de611daef95cf863a92a933"
+
+[[files]]
+file = "kubejs/assets/craftingtweaks/lang/zh_cn.json"
+hash = "a3f1304954e92301eb5748efa83963b5b23a0e120ba379f61428409e8fbca3d1"
+
+[[files]]
+file = "kubejs/assets/create/lang/zh_cn.json"
+hash = "e1973ec910652dca2a986ba56e0089a6bf9a78eed11dc1305442d7a3b050c230"
+
+[[files]]
+file = "kubejs/assets/createaddition/lang/zh_cn.json"
+hash = "9f781070cb2990fe78006f21345d1b15fb0bbbb2bfcdddaaf54e32ff562bf28a"
+
+[[files]]
+file = "kubejs/assets/ctm/lang/zh_cn.json"
+hash = "57f85aa2a57fc239bf2241c6dade9afa43fffab0991568cdc44938009a9bf0f9"
+
+[[files]]
+file = "kubejs/assets/cucumber/lang/zh_cn.json"
+hash = "6c67be3c12b44440dbaa6e15724345d53c5372594e8c96bcd443420e6de9bcee"
+
+[[files]]
 file = "kubejs/assets/deep_aether/lang/en_us.json"
 hash = "38062de3181a3c59a2b7db70e3d037101f95ebf7a6c880dc9cc4900906423ad5"
 
 [[files]]
 file = "kubejs/assets/deep_aether/lang/zh_cn.json"
-hash = "957b73a67c3fee884505a4ad762284aa1046a39a2974f126ccefe5fb6ce1304d"
+hash = "119771845051726ef106f2b14d5fa1db8320cf5147af3df838abd92bde91e8a0"
+
+[[files]]
+file = "kubejs/assets/dungeons_arise/lang/zh_cn.json"
+hash = "d2b07f150f95e85344957ccd442643078ac2bb019026f216dbe9a22da0e56b07"
+
+[[files]]
+file = "kubejs/assets/elevatorid/lang/zh_cn.json"
+hash = "c12889945ba26d5d4be9ee000adf38a77caab400da867cac90a9c9e61e3a65ad"
+
+[[files]]
+file = "kubejs/assets/engineeredcompatibility/lang/zh_cn.json"
+hash = "f31a195bf299444deaa7bafb925901aef38b9f97a44426492183f73177ec1886"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/en_us.json"
@@ -3161,6 +3341,58 @@ file = "kubejs/assets/essenceodyssey/tips/wthit.json"
 hash = "4627ffe75307bf4ceb21aa76088b97dec15ef1820fc19d1eca7b0b5072609e51"
 
 [[files]]
+file = "kubejs/assets/extendedcrafting/lang/zh_cn.json"
+hash = "9fc69fe7ce5a523a47c7ed469ab9dcc99a4a187a41a009a508550e771d41a056"
+
+[[files]]
+file = "kubejs/assets/fancymenu/lang/zh_cn.json"
+hash = "8463001c65510ab8e9ce753c1a44581004e14de58304fbbddfd4b89af8e76933"
+
+[[files]]
+file = "kubejs/assets/farmersdelight/lang/zh_cn.json"
+hash = "6d35f147ae419e835abe2c462d65e53aca203588502bab7e5deccdedf69a144c"
+
+[[files]]
+file = "kubejs/assets/fastbench/lang/zh_cn.json"
+hash = "e9a406223be014481d68236bc5e71fa23f74ce525ea2c3c53b42d6cc1a2b1599"
+
+[[files]]
+file = "kubejs/assets/ftbchunks/lang/zh_cn.json"
+hash = "6513c82e8e19bb875c4d5b0a332051ca280b0b1e632a2596fb1ddb13b48c528d"
+
+[[files]]
+file = "kubejs/assets/ftbfiltersystem/lang/zh_cn.json"
+hash = "ccf53f07d09afc1d7141ca5102e11ea8cfa9ef44a8686cf162c27ac086558189"
+
+[[files]]
+file = "kubejs/assets/ftblibrary/lang/zh_cn.json"
+hash = "2ee9cde13240ff43d22792df1905a1eff15abc3306b84da5275e781f40b134b2"
+
+[[files]]
+file = "kubejs/assets/ftbquests/lang/zh_cn.json"
+hash = "42c77a13fcd8ee660e6483e6c2a6b2a9da38a14e0c0fc3be30565d7cbecb0d46"
+
+[[files]]
+file = "kubejs/assets/ftbteams/lang/zh_cn.json"
+hash = "a02a88002c5931a655f7e85d11836136817abd4c9ed2c5fa7fcc984dd4ef53af"
+
+[[files]]
+file = "kubejs/assets/ftbultimine/lang/zh_cn.json"
+hash = "1cd4dcc51e2c438c7fafbb52a2ce237346b3aa4e943e1dbfec1f0d7313573457"
+
+[[files]]
+file = "kubejs/assets/functionalstorage/lang/zh_cn.json"
+hash = "d3f94d8539e1c1294ca23611fbf97c6edda3f8e3d25cdb30d549a50a1e2b0921"
+
+[[files]]
+file = "kubejs/assets/fusion/lang/zh_cn.json"
+hash = "6cbb958a427c558c306ddb3df5692b8fb86c25c78169cdd41c4b5a8e40627e77"
+
+[[files]]
+file = "kubejs/assets/gravestone/lang/zh_cn.json"
+hash = "846109af70fde1f4223ca032c4bfaf5cb236da53126991475eb04ae5c8a52f21"
+
+[[files]]
 file = "kubejs/assets/hostilenetworks/lang/en_us.json"
 hash = "adba3689182d2783af7b4c04682ef2e1854998d3295bf187a0a11be6ae1d4883"
 
@@ -3169,16 +3401,76 @@ file = "kubejs/assets/hostilenetworks/lang/zh_cn.json"
 hash = "0a25f87320fa2cd615d90f56640427dfa3209fb0462f2c5b7753a0460a7b1f24"
 
 [[files]]
-file = "kubejs/assets/i18n/lang/zh_cn.json"
-hash = "c149ca57c9231f229bffcf38733ef844828683b3b2f504f945faad0b42467776"
+file = "kubejs/assets/immersivepetroleum/lang/zh_cn.json"
+hash = "10285ae72fe823743ec78921552be1db9a50783e325eed1cc978fb64842a1130"
+
+[[files]]
+file = "kubejs/assets/industrialforegoing/lang/zh_cn.json"
+hash = "47d9e6e810dee4e1f90cf29d1b1b9c50288fe70c87594910fb5a391236e59c0b"
+
+[[files]]
+file = "kubejs/assets/integrateddynamics/lang/zh_cn.json"
+hash = "7b2e98dc0eab69a7cb3dcba598f583a682b9417ef77af97bee02379d37ee60d6"
+
+[[files]]
+file = "kubejs/assets/integrateddynamicscompat/lang/zh_cn.json"
+hash = "4b02a9bf2bda37c5a6015f72d03d77fd5ef02aa886fd81ae77c96afb1e97d912"
+
+[[files]]
+file = "kubejs/assets/integratedtunnels/lang/zh_cn.json"
+hash = "335909eb020d2c9a2a4e4282e5ecd18e019a8b67dbdc66d151337652f88b92f1"
+
+[[files]]
+file = "kubejs/assets/iris/lang/zh_cn.json"
+hash = "16aec49695d027641c1efb13e7385b31ea5f5cecfff18d151011fff2ad707e9a"
+
+[[files]]
+file = "kubejs/assets/itemzoom/lang/zh_cn.json"
+hash = "12aea5d80a40badc690b7ce1a4f222f61ab41880bef1fcaa083d92babc690076"
+
+[[files]]
+file = "kubejs/assets/jadeaddons/lang/zh_cn.json"
+hash = "82a2e98a57f85f2bc2af5c5530d5e4e9b4c837511bbdff7b7079fc3973387e60"
+
+[[files]]
+file = "kubejs/assets/jearchaeology/lang/zh_cn.json"
+hash = "446f330812cd7d763525a728b7790591d8ef8ff630c01d5a25bc685cad148392"
+
+[[files]]
+file = "kubejs/assets/jeed/lang/zh_cn.json"
+hash = "c86d75a813c512dcf3e35976d4d551f8d83c8390190406e6166bacca7b2f3e47"
+
+[[files]]
+file = "kubejs/assets/jei/lang/zh_cn.json"
+hash = "ea00be638fd0b38204f5196292ebbde5169a50c76134c19c5655b75056c49441"
+
+[[files]]
+file = "kubejs/assets/jei_mekanism_multiblocks/lang/zh_cn.json"
+hash = "9478ff6463eca514c235b4985c0daa3c8ed7a7baad76ba784d1dedc055b40123"
+
+[[files]]
+file = "kubejs/assets/jeimultiblocks/lang/zh_cn.json"
+hash = "574336d4d94d49c04f7ee11614a8128bb5a369480b10929ef898d5d654078ae1"
+
+[[files]]
+file = "kubejs/assets/just_enough_beacons/lang/zh_cn.json"
+hash = "9bbe18b34083be375c31fc023a323a0adb03838bb5feba3379b1662e8e3916dc"
+
+[[files]]
+file = "kubejs/assets/justdirethings/lang/zh_cn.json"
+hash = "5680bccc93bdfd041971546eb11acede265cf4c18a475032f3760df6d816003c"
+
+[[files]]
+file = "kubejs/assets/kiwi/lang/zh_cn.json"
+hash = "83d18d181ba416df87bb2ff9bbcbe6cc92489e2bdc83159a2e4adecd631d847f"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "b96012831083f98d571ec0e26d6e25d19261b31df36b3fd03c709e28932a4a85"
+hash = "5dc9bfe33d91a83f1a5a3b0509e5eb559223d20f11085e90334345a938553687"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "1a636f91bf770e5b04156fe6095732fb32507be2dbfab330c9b8ce9175d4a5e1"
+hash = "de94fda1f7413e52e67f1c747a58a83923289c7c4b8395042646bee37b75d3c2"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/altar_1.json"
@@ -3199,6 +3491,34 @@ hash = "8945b197cca6645db4f4750526218b5aa2527cd5ab380834526adb2ed74faf06"
 [[files]]
 file = "kubejs/assets/kubejs/models/block/sky_stone_starmetal_ore.json"
 hash = "a672a844363aae9f568bbe4541eab95e9bad723c24466cfdadffd22f03b11277"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/machine_model.json"
+hash = "f9e92a2a1f27f818fcb8bccaba86fcb7e7e7d345f186112ad4451c88189272c6"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/machine_model/star_ring_1.json"
+hash = "243456e0b49a0416376843888b525f3660a6877b1bfd0ea2cddecc1688b36eb6"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/machine_model/star_ring_2.json"
+hash = "b65075571f773b8313a2c1cf1640b4373c07f81d7feff1d28b39742151359497"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/machine_model/star_ring_2_inner.json"
+hash = "e44b82140f784a1162071d3079ec452b89c4f3d65233a0501b5eec601af3c210"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/machine_model/star_ring_3.json"
+hash = "7e04277e4d1c7fb574b02cf6826eb93770d69adc2b65f1dc2382f2bd07b5857c"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/machine_model/star_ring_3_inner.json"
+hash = "ba06a8052e1cb4e7d0de9d122cad9b6ced973a347933f2d92c4cf8a14927536b"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/machine_model/star_ring_3_top.json"
+hash = "e00bb5e9d66a935202be8d8dbf9a848e57f64565d1667ec6be02e30fdd01c034"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/altar_1_ledge.png"
@@ -3977,6 +4297,38 @@ file = "kubejs/assets/kubejs/tips/zz_test_a.json"
 hash = "f63ff9f15964fbdebaa9cb899d4464db49347041451477a6d7c9306e0a9d3828"
 
 [[files]]
+file = "kubejs/assets/legendarytooltips/lang/zh_cn.json"
+hash = "6f912f2a9db7d4ffd6071f21c4fdca44007ddc13f22af9c707257a5731eedc4e"
+
+[[files]]
+file = "kubejs/assets/libx/lang/zh_cn.json"
+hash = "a5b3243d054f09c8f3b51edf6327bcf64a3cd93c3ca0ed6c53f606e66da06b9f"
+
+[[files]]
+file = "kubejs/assets/lionfishapi/lang/zh_cn.json"
+hash = "d191f28784c7550626e07e3db98984de420819e8a517a9ea826b49253345c7f6"
+
+[[files]]
+file = "kubejs/assets/lychee/lang/zh_cn.json"
+hash = "816a368b907dde408e0b26c0e5d23d724d8c79ce1036de6c2832e764a08404ef"
+
+[[files]]
+file = "kubejs/assets/mctb/lang/zh_cn.json"
+hash = "860c38e7fee1183a5789b846dc203e5f7c426dedfd274cb6a3bf297634d03228"
+
+[[files]]
+file = "kubejs/assets/mekanism_lasers/lang/zh_cn.json"
+hash = "60b73a42a5d18d1ee5737f2d0eb18ab79cbeb7295c17fcc18d4d430d498733cd"
+
+[[files]]
+file = "kubejs/assets/mekaweapons/lang/zh_cn.json"
+hash = "12ad2ef0bc5520db11521846feb339203aeecd2b4f3790cc1e6eaeefe53bd5a6"
+
+[[files]]
+file = "kubejs/assets/minecraft/lang/zh_cn.json"
+hash = "c4461dc69095f0ba33861bce4e76ec43b17a6305ac95872b56ec27bb03b2bc34"
+
+[[files]]
 file = "kubejs/assets/mmcr/lang/en_us.json"
 hash = "c0b57e60ca8ffb027edab9750843c8d7931ec71b91166d7eb0d5f4d93b06765c"
 
@@ -3985,12 +4337,40 @@ file = "kubejs/assets/mmcr/lang/zh_cn.json"
 hash = "d261f22c53434d579dc8f46f0afd219a2eb9876be43bcbfd42c51987948c45eb"
 
 [[files]]
+file = "kubejs/assets/modernfix/lang/zh_cn.json"
+hash = "c8352e458803f2c21340987fb4e09594f19b019226ca251215cdaafaff8385c6"
+
+[[files]]
+file = "kubejs/assets/modonomicon/lang/zh_cn.json"
+hash = "4252e86130de49347744f368dffc282e2d491bf342e5bd92b4f5efac2fb4dd99"
+
+[[files]]
+file = "kubejs/assets/modularbees/lang/zh_cn.json"
+hash = "6cb479d00a73d9d9a8e118cf9dc86a1e897a8792f5a2f28abc69336bf07e9368"
+
+[[files]]
+file = "kubejs/assets/modularrouters/lang/zh_cn.json"
+hash = "9acb0ffd53bedfffecdcebd9566e7ea3f7d66e0b826859f89560c7692f3de103"
+
+[[files]]
+file = "kubejs/assets/moreoverlays/lang/zh_cn.json"
+hash = "5b921df07104cc29cac884317d72d736fa8639a9b5723f3a1171b73ab7797255"
+
+[[files]]
 file = "kubejs/assets/naturesaura/lang/en_us.json"
 hash = "9c1eb2d5c199be6383a2119dd30e59c10ed9a9eb816e04e474bad14ffad820af"
 
 [[files]]
 file = "kubejs/assets/naturesaura/lang/zh_cn.json"
-hash = "fb0b74aa587512207bacd7ac5dc70d7ab0b73688dc22ecefef99f6238b7620af"
+hash = "2c9b59f0493f71cd80d2edadc898c0871028d244261a05ba1bfd881eee52ac54"
+
+[[files]]
+file = "kubejs/assets/neovitae/lang/zh_cn.json"
+hash = "0470f6ffd0b71c6d6705401becec7617805a8da055d21caabe1d72d815e1527e"
+
+[[files]]
+file = "kubejs/assets/notenoughanimations/lang/zh_cn.json"
+hash = "8999ca09e0a6a7cbb56b00f9d41b218f2aba60ff1ff5b6d515ebf215678284ac"
 
 [[files]]
 file = "kubejs/assets/occultism/lang/en_us.json"
@@ -4001,8 +4381,136 @@ file = "kubejs/assets/occultism/lang/zh_cn.json"
 hash = "1d41f065729007a5bac5d39065532f95cf794453e6d5f666b688dd3e14c361e2"
 
 [[files]]
+file = "kubejs/assets/owo/lang/zh_cn.json"
+hash = "a30b5486c660f9f1e325f131eaf8e92f0ed13a57c13451a275bb77f215e81c8d"
+
+[[files]]
+file = "kubejs/assets/patchouli/lang/zh_cn.json"
+hash = "3a6dbb111b523034c0e94196a8208d5355aac32a3b3d60e5f86141f7f266641b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/lang/zh_cn.json"
+hash = "80ca8dd451ce6d5666713bcd4afe6fa2a757da607422eef9b12001e57b1e4a3d"
+
+[[files]]
+file = "kubejs/assets/probejs/lang/zh_cn.json"
+hash = "b298b644ed75bbc087f7d6d4889f9b85f1d67e3188133682a3e383b458d14c9d"
+
+[[files]]
+file = "kubejs/assets/productivebees/lang/zh_cn.json"
+hash = "2fee42f8acace9ef735d4c54662980fd943401b6066d3223d9c1bf9118ffa720"
+
+[[files]]
+file = "kubejs/assets/pylons/lang/zh_cn.json"
+hash = "6f9e9411ca8a7e459a6fa61c007e60adf2c80299b886b5aa135c9ffc73d3796f"
+
+[[files]]
 file = "kubejs/assets/quark/lang/zh_cn.json"
-hash = "2282cb9f9dbf69e5b0bfe211019a0e921b250af3bd1ae94e32ab14fdd1f78b5a"
+hash = "0ae8e5354fa6adbe5a20e91d36d73f8857a902a014bb4f0ca2c95de6b338d179"
+
+[[files]]
+file = "kubejs/assets/quark_ponders/lang/zh_cn.json"
+hash = "b112f8b495766e99e2663c4d8e8505c43aa4eace953c6918129c2c43fe567aeb"
+
+[[files]]
+file = "kubejs/assets/rechiseled/lang/zh_cn.json"
+hash = "f2fa6b0d0fc99be1db5ab1da2a5900154373a9ab8163063732fa1fba23131ea2"
+
+[[files]]
+file = "kubejs/assets/rechiseledae2/lang/zh_cn.json"
+hash = "6b8161dac27a0c40f3c529654eff87fe63103937f9d1602af7cf411d39a49f55"
+
+[[files]]
+file = "kubejs/assets/rechiseledcreate/lang/zh_cn.json"
+hash = "7e6e0b9759330ddeee4298dfe5f5a76b9fddb2b2b5c1c38232b92319e3421a7a"
+
+[[files]]
+file = "kubejs/assets/reeses-sodium-options/lang/zh_cn.json"
+hash = "e2d36fefb97f8d7b83eeb72512db8198a317dafc1065d0ed426d501485bb11cb"
+
+[[files]]
+file = "kubejs/assets/repurposed_structures/lang/zh_cn.json"
+hash = "58c90a31951cc53882cbf46a9433249977020a189183c716b359ba45e139bfd7"
+
+[[files]]
+file = "kubejs/assets/sanguine_networks/lang/zh_cn.json"
+hash = "1e4cabc15b2dfc68e2a3240160cab2e0965859ec0f72a848abdaf77afe726096"
+
+[[files]]
+file = "kubejs/assets/sfm/lang/zh_cn.json"
+hash = "e8db96f07a828d82e975d48787c19748a6997e3fb1c2fd4d0228bdb62aeda0b1"
+
+[[files]]
+file = "kubejs/assets/sodium-extra/lang/zh_cn.json"
+hash = "1d29795e38620e66530e41eae7378030e553b14a1d8ee6bf617230c12a63644c"
+
+[[files]]
+file = "kubejs/assets/sophisticatedbackpacks/lang/zh_cn.json"
+hash = "0f8c100e8e649bc4772c9fe38ba20fcc4f1a9b991bb6ae99332d6acf673fb806"
+
+[[files]]
+file = "kubejs/assets/supermartijn642corelib/lang/zh_cn.json"
+hash = "67110f09eb8ac2eef11a7c685b0a1fd4d0d13a75e825cfd808598ac8da733919"
+
+[[files]]
+file = "kubejs/assets/tiab/lang/zh_cn.json"
+hash = "3a2b25840a03e82cc3d2bb8a3ab0f90f0cf49a0974dab9a6bc160199162af7a4"
+
+[[files]]
+file = "kubejs/assets/tipsmod/lang/zh_cn.json"
+hash = "8acbfe8a9108d9685269e855177e760f1930e1c121dc8ae224def7b7ed41e463"
+
+[[files]]
+file = "kubejs/assets/tmted/lang/zh_cn.json"
+hash = "8f8b6819b438a57a3b042b10be46e4185623847ae43fc4a34d88c73fd5eab28d"
+
+[[files]]
+file = "kubejs/assets/toolleveling/lang/zh_cn.json"
+hash = "866fa47335eb78501570b4bf08371cf9c3a6d0fbe53874d161f08c8a24f3e9a4"
+
+[[files]]
+file = "kubejs/assets/torchmaster/lang/zh_cn.json"
+hash = "a2a3bbc4d7b4fe172d78f072d5e0adcdfccb4b75ecfcd149bb2ab59746990cf4"
+
+[[files]]
+file = "kubejs/assets/trashcans/lang/zh_cn.json"
+hash = "1139b5a507862a9021d360f060235fbc53cc2b7b45e8fb6c4cbe71cccf2a040c"
+
+[[files]]
+file = "kubejs/assets/twilightdelight/lang/zh_cn.json"
+hash = "26e819543faf49fbb850b022435f69aa46b72bee82d75b6c0a8c4c3a10584581"
+
+[[files]]
+file = "kubejs/assets/twilightforest/lang/zh_cn.json"
+hash = "fa357e8e6ce6d0c86048687bced065e7a3f9385314dcba500523fd083fb0a202"
+
+[[files]]
+file = "kubejs/assets/upgrade_aquatic/lang/zh_cn.json"
+hash = "e947cf05a72266de058205d05259ecf545eebed9e9a55c45290760a8fee241fb"
+
+[[files]]
+file = "kubejs/assets/vanillabackport/lang/zh_cn.json"
+hash = "d65413688439f550660e2668a01991d9d99dec22ba68dae0072d7c21083ad692"
+
+[[files]]
+file = "kubejs/assets/waystones/lang/zh_cn.json"
+hash = "e7a4a2f0eaac0b4f5c54bb7c332cd25e701e756f46be99d0b50c3bc6f4a69585"
+
+[[files]]
+file = "kubejs/assets/xaerobetterpvp/lang/zh_cn.json"
+hash = "5c35919ca0a4cdcbf1bf610180f75b1fc184ec42bff8a5f46687967d2071dc1b"
+
+[[files]]
+file = "kubejs/assets/xaerominimap/lang/zh_cn.json"
+hash = "b17d93361ecb23f3f817059f6d5e11c34f874204fd38cf645435aa484ba69130"
+
+[[files]]
+file = "kubejs/assets/xaeroworldmap/lang/zh_cn.json"
+hash = "2e5b2c616d211c3612507ae13ad7ca7ffe1a5ea86ddf1f1baabe2ec447d9e0c0"
+
+[[files]]
+file = "kubejs/assets/zeta/lang/zh_cn.json"
+hash = "9b9493228bd73fd586170000652c8325cc3adcf58d3fca4dc41e1cf7625c8b04"
 
 [[files]]
 file = "kubejs/client_scripts/essenceodyssey/info.js"
@@ -4014,7 +4522,7 @@ hash = "d2a13306c453d92e9fe31b499b657a16a5083b1471850216a5a22d9876520e17"
 
 [[files]]
 file = "kubejs/client_scripts/recipeviewer/hidden.js"
-hash = "ac1a1981eaf4def00685359ce7b1fbbcc0ec455fb7127226493a48b06352851a"
+hash = "1401e319cc42885368d068325b56d4be6400c772cba314c8c30e1de9264712e4"
 
 [[files]]
 file = "kubejs/client_scripts/recipeviewer/info.js"
@@ -4154,7 +4662,7 @@ hash = "7b0ab9da87b8fb22b83272a9d8942b3b47ddcaab2da234db02fa4105f51085a2"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/aether/slider.json"
-hash = "04a6be75e70af1f780af45cffc618e95ecb6658208b7c6ce589cdba19201350f"
+hash = "6f5141d1ca08d6befdee768afb33d2ee391cf1c8709a116a51f6f3ed4792980e"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/aether/sun_spirit.json"
@@ -4162,7 +4670,7 @@ hash = "3001e976f59d96fe397bd02367085b64556b68c4cf043c9555ca2aecebc4ec14"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/aether/valkyrie_queen.json"
-hash = "8aca09d06ec9a10d6f26a503431bcc81a6c7357e8919750cfb6829f66417edf1"
+hash = "522d87009a3dbc238e3410c59344bae4727df64873c2c773e369f116b5401bb8"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/aether/zephyr.json"
@@ -4425,6 +4933,10 @@ file = "kubejs/package.json"
 hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
+file = "kubejs/server_scripts/MMCR-models.js"
+hash = "d1e14ebb379a7ca5359d9e6de01214fa1aaea4e70f09348e60060066253732be"
+
+[[files]]
 file = "kubejs/server_scripts/MMCR-recipes.js"
 hash = "18ba1a94429e98e3363098548276f5200dc52f18fec40f37b4073f796f57b1dd"
 
@@ -4446,7 +4958,7 @@ hash = "667bd60bdd445604b39f8b51ebb48f6105b9c69406b35adb9e4f1fbfc82f5716"
 
 [[files]]
 file = "kubejs/server_scripts/aether.js"
-hash = "3eb470437ed4b47c158e599e658ef9ccafa6a0f3a6d76c2f6fc9e5e6619667a3"
+hash = "e98567a695b7a5d494d741227efa33573456e66dcf6b55106a9d301a86596217"
 
 [[files]]
 file = "kubejs/server_scripts/ars_nouveau.js"
@@ -4482,7 +4994,7 @@ hash = "e77cad50d552f73559cf1e98cfbd3beb76de479ea6c3b8fa49ac71c32e7e5dfa"
 
 [[files]]
 file = "kubejs/server_scripts/eternal_starlight.js"
-hash = "a2e33a61286e151d663ac63c36f1e8a83c0516d5658ade0d9122d12ffc8ce16b"
+hash = "485edf79fc62fb7567040f311717d44b875cf465a615e90212f0e13e859ebd2d"
 
 [[files]]
 file = "kubejs/server_scripts/extendedcrafting.js"
@@ -4494,7 +5006,7 @@ hash = "7b4ac1e692d6a24f1df455031fec4b22b197ca04d6c30ab27f005dd4fc2c742a"
 
 [[files]]
 file = "kubejs/server_scripts/immersiveengineering.js"
-hash = "e7fd284ac7a048c990078735e4f69004099dec5c31da47dd139df2970e460a47"
+hash = "ff66ea87b26cb81e19183830d94a9eb4a05bfe6a41371df01713a5955e7c1545"
 
 [[files]]
 file = "kubejs/server_scripts/industrialforegoing.js"
@@ -4545,8 +5057,8 @@ file = "kubejs/server_scripts/sanguine_networks.js"
 hash = "f1bfad3d05aa191b38bd24ec6057c626bcc899a879c6efce36369d814f4e72b3"
 
 [[files]]
-file = "kubejs/server_scripts/special/essences.js"
-hash = "201d6b664c29844b01bcbd5b6be381e179210ecbb987c153ff91326cb0b84af1"
+file = "kubejs/server_scripts/special/aspects.js"
+hash = "fb9349fbec11f1102af9331373dd6dbdcd404c2064489a6d169e0c8a6f5ea3c0"
 
 [[files]]
 file = "kubejs/server_scripts/special/ore_processing.js"
@@ -4557,20 +5069,24 @@ file = "kubejs/server_scripts/special/tags.js"
 hash = "7d0df4d14a74eeb7b5f26e644e673af641663c6ad7f8ffaad0d75384057425b4"
 
 [[files]]
+file = "kubejs/server_scripts/special/临时内容.js"
+hash = "594dbbcbcf013b41e528c5b9067a4a164c09d99c075b43e40a53f06283d48871"
+
+[[files]]
 file = "kubejs/server_scripts/thaumon.js"
 hash = "8feb631fed82b339265a25e975ace0c6c23e360d9161505853b062a0ed8314e8"
 
 [[files]]
 file = "kubejs/server_scripts/twilightforest.js"
-hash = "a5a85d0a924192e78f8f0a72e6f17a477d20a867041bc345d601425aa67c06d2"
+hash = "e31178bdbea076deb047a816a215902c10ae49531bb53c158c343da9d4e07bdc"
 
 [[files]]
-file = "kubejs/server_scripts/临时内容.js"
-hash = "594dbbcbcf013b41e528c5b9067a4a164c09d99c075b43e40a53f06283d48871"
+file = "kubejs/startup_scripts/MMCR-models.js"
+hash = "fd5ed5a3736c0336b796289f721d6869717c261ccc9efb113357f6d972f41698"
 
 [[files]]
 file = "kubejs/startup_scripts/MMCR-startup.js"
-hash = "f6601ecf3f14e4603cfc4ab30778c8802cebb02d5a01a833ffa08da0c226a95c"
+hash = "506c5bdaed3795d79d921dfe1d2c190dc26c782b8183ce70abbed6f476dc8bbd"
 
 [[files]]
 file = "kubejs/startup_scripts/block_modify.js"
@@ -6120,7 +6636,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "070965dc67e3db7aa1ad3bc9f49c61fef9c56c5e3c099eae7a1b1ae869d88859"
+hash = "027b2bea8763c4e1a0fcd06168348c1af52d158ea390ead521e0a37a238b1323"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
