@@ -1,0 +1,12 @@
+{
+  "screen.torchmaster.volume_gui.title":"超级火把范围显示",
+  "screen.torchmaster.volume_gui.toggle_on":"关闭范围显示",
+  "screen.torchmaster.volume_gui.toggle_off":"开启范围显示",
+  "screen.torchmaster.volume_gui.range":"四周各 §a%s§r 格内有效",
+  "screen.torchmaster.feral_flare_lantern.title":"野火灯笼",
+  "screen.torchmaster.feral_flare_lantern.description":"照亮方式",
+  "screen.torchmaster.feral_flare_lantern.line_of_sight.enabled":"只照亮灯笼看得见的地方",
+  "screen.torchmaster.feral_flare_lantern.line_of_sight.enabled.description":"墙挡着就不照",
+  "screen.torchmaster.feral_flare_lantern.line_of_sight.disabled":"墙后也照亮",
+  "screen.torchmaster.feral_flare_lantern.line_of_sight.disabled.description":"不需要看得见"
+}
