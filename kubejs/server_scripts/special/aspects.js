@@ -1,7 +1,7 @@
 //====================要素数据====================
 
     //全部要素
-    const EssenceList = [
+    const AspectList = [
         "aqua"      ,//水
         "ignis"     ,//火
         "terra"     ,//地
@@ -26,7 +26,7 @@
     ]
 
     //元始要素
-    const PrimaryEssenceObjects = {
+    const PrimaryAspectObjects = {
         aqua:{
             name:"water",
             imbuement:"ars_nouveau",
@@ -94,10 +94,10 @@
         }
     }
 
-    const PrimaryEssenceList = Object.keys(PrimaryEssenceObjects)
+    const PrimaryAspectList = Object.keys(PrimaryAspectObjects)
 
     //二级要素
-    const SecondaryEssenceList = [
+    const SecondaryAspectList = [
         "vapor"     ,//蒸汽 = 水+火
         "victus"    ,//生命 = 水+地
         "tempestas" ,//气候 = 水+风
@@ -116,7 +116,7 @@
     ]
 
     //二级要素合成表
-    const SecondaryEssenceRecipes = [
+    const SecondaryAspectRecipes = [
         ["aqua"    ,"ignis"   ,"vapor"     ],
         ["aqua"    ,"terra"   ,"victus"    ],
         ["aqua"    ,"aer"     ,"tempestas" ],
@@ -140,7 +140,7 @@ ServerEvents.recipes(event=>{
 
 //====================元始要素配方====================
 
-    Object.entries(PrimaryEssenceObjects).forEach(([ess,data])=>{
+    Object.entries(PrimaryAspectObjects).forEach(([ess,data])=>{
         event.custom({
             "type":"pneumaticcraft:thermo_plant",
             "inputs":{
@@ -200,7 +200,7 @@ ServerEvents.recipes(event=>{
                     "fill":"minecraft:smooth_basalt"
                 }
             ]
-        })//陨星仪式
+        })
         
         event.recipes.neovitae.ara_vitae_recipe(
             `${data.scribe}:${data.name}_scribe_tool`,
@@ -211,7 +211,7 @@ ServerEvents.recipes(event=>{
 
 //====================通用要素配方====================
 
-    EssenceList.forEach(ess=>{
+    AspectList.forEach(ess=>{
         event.recipes.mekanism.rotary(
             `1x kubejs:${ess}_chemical`,
             `1x kubejs:${ess}_fluid`,
@@ -248,7 +248,7 @@ ServerEvents.recipes(event=>{
 
 //====================二级要素合成====================
 
-    SecondaryEssenceRecipes.forEach(([left,right,result])=>{
+    SecondaryAspectRecipes.forEach(([left,right,result])=>{
         event.recipes.mekanism.chemical_infusing(
             `2x kubejs:${result}_chemical`,
             `1x kubejs:${left}_chemical`,
@@ -276,29 +276,29 @@ ServerEvents.recipes(event=>{
 //====================标签注册====================
 
 ServerEvents.tags("item",event=>{
-    EssenceList.forEach(ess=>{
+    AspectList.forEach(ess=>{
         event.add("kubejs:essence_crystal",`kubejs:crystal_${ess}`)
         event.add("kubejs:essence_block",`kubejs:block_${ess}`)
     })
 
-    PrimaryEssenceList.forEach(ess=>{
+    PrimaryAspectList.forEach(ess=>{
         event.add("kubejs:primary_essence_crystal",`kubejs:crystal_${ess}`)
         event.add("kubejs:primary_essence_block",`kubejs:block_${ess}`)
     })
 
-    SecondaryEssenceList.forEach(ess=>{
+    SecondaryAspectList.forEach(ess=>{
         event.add("kubejs:secondary_essence_crystal",`kubejs:crystal_${ess}`)
         event.add("kubejs:secondary_essence_block",`kubejs:block_${ess}`)
     })
 })
 
 ServerEvents.tags("block",event=>{
-    EssenceList.forEach(ess=>
+    AspectList.forEach(ess=>
         event.add("kubejs:essence_block",`kubejs:block_${ess}`))
 
-    PrimaryEssenceList.forEach(ess=>
+    PrimaryAspectList.forEach(ess=>
         event.add("kubejs:primary_essence_block",`kubejs:block_${ess}`))
 
-        SecondaryEssenceList.forEach(ess=>
+    SecondaryAspectList.forEach(ess=>
         event.add("kubejs:secondary_essence_block",`kubejs:block_${ess}`))
 })
