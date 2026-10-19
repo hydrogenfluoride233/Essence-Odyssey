@@ -196,5 +196,8 @@
   "effect.mynethersdelight.g_pungent.description":"与抗火同时存在时，从附近的热源获得治疗效果。若不具抗火则会造成伤害。",
   "effect.enigmaticlegacy.growing_hunger.description":"不断消耗饥饿值，同时提升伤害和生命窃取。",
   "effect.enigmaticlegacy.growing_bloodlust.description":"不断消耗生命值，同时提升伤害和生命窃取。仅在受诅咒的实体食用禁忌之果后给予。",
-  "effect.mowziesmobs.sunblock.description":"乌穆武塔纳正在保护它们的酋长！在你处理不了之前赶紧阻止它们！"
+  "effect.mowziesmobs.sunblock.description":"乌穆武塔纳正在保护它们的酋长！在你处理不了之前赶紧阻止它们！",
+
+  "effect.quark.danger_sight.description":"高亮敌对生物可能生成的区域。",
+  "effect.quark.resilience.description":"给予50%击退抗性。"
 }
