@@ -11,17 +11,15 @@ const ModelStep = 5                                     //每 5 tick 发一次�
 const ModelStale = 40                                   //控制器 40 tick 没报到（拆了／散架／区块卸载）就收掉模型
 
 //坐标按「控制器正面朝北」写：x+ 东、y+ 上、z+ 南（往结构里），单位是格；朝别的方向时自动转过去
-//anchor：模型中心相对控制器的位置，要落在空气里（亮度按这一格算）
+//anchor：模型中心相对控制器的位置，亮度按这一格算；落在方块里（比如套住某个方块）就给部件加 glow，不然会发黑
 //部件：model = 载体物品的模型编号（models/item/machine_model.json 里的顺序）；item = 直接摆一个现成物品，display 是它的摆法（默认 none）
 //      offset 偏移、tilt 固定倾斜 [绕x,绕z]（度）、spin 自转、turn 绕竖轴公转（度/tick，写 [待机,工作]，别超过 30）
 //      bob 上下浮动 [幅度,周期tick]、scale 大小 [待机,工作]（0 = 藏起来）、glow 工作时全亮
 const MachineModels = {
     "mmcr:industrial_imbuement":{                       //工业灌注室（结构见 MMCR-structures.js）
-        anchor:[0,3,2],                                 //灌注室正上方那一层的中心（空气）；灌注室本身在 [0,2,2]
+        anchor:[0,2,2],                                 //灌注室本身那一格的中心，环套着灌注室转
         parts:[
-            {model:4,scale:[2,2],spin:[0.5,3]},                                                                   //三阶星轨外环
-            {model:5,scale:[1.5,1.5],tilt:[25,0],spin:[-1,-6],turn:[0.4,1.5]},                                    //三阶星轨内环
-            {item:"ars_nouveau:source_gem",display:"fixed",scale:[0,0.6],spin:[0,4],bob:[0.12,60],glow:true}       //魔源宝石
+            {model:4,scale:[0,2],tilt:[20,0],spin:[0,6],turn:[0,2],glow:true}                                    //三阶星轨外环：待机藏起来，工作时斜着绕灌注室转、全亮（2 倍宽约 1.9 格，转起来对角不碰玻璃）
         ]
     }
     // "mmcr:xxx":{
