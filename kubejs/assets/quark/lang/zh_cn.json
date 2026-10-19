@@ -40,5 +40,21 @@
   "tag.item.quark.ancient_logs":"苍灰木",
   "zeta.config.world.ancient_wood.name":"苍灰木",
   "zeta.config.world.ancient_wood.desc":"苍灰木是一种新的木材类型，可以砍伐苍灰树获得。\n苍灰树不会自然生成，但是嗅探兽可以刨挖出苍灰树苗。\n类似于苹果，苍灰树的树叶还会掉落一种新的食物：附魔水果，食用后会增加少量经验。",
-  "zeta.config.world.ancient_wood.sniffing_loot_weight.desc":"设为0后，嗅探兽嗅探时不会有苍灰木。原版战利品表每个条目权重都为1，所以若不编辑此项，树苗就不可能变得更稀有。\n允许的值：[0,)"
+  "zeta.config.world.ancient_wood.sniffing_loot_weight.desc":"设为0后，嗅探兽嗅探时不会有苍灰木。原版战利品表每个条目权重都为1，所以若不编辑此项，树苗就不可能变得更稀有。\n允许的值：[0,)",
+
+  "quark.jade.eating_cooldown":"进食冷却：%ds",
+  "config.jade.plugin_quark.oretoise_eating_cooldown":"乌龟进食冷却",
+  "quark.misc.trash_item.invert":"左击以销毁物品",
+  "quark.misc.insert_shulker_box.invert":"左击以放入物品",
+  "quark.misc.merge_shulker_box.invert":"左击以转储物品",
+  "quark.misc.equip_armor.invert":"左击以装备",
+  "quark.misc.open_shulker.invert":"左击以打开",
+  "quark.misc.totem_darksouls":"之前的留存图腾碎掉了，你感到一阵恐惧",
+  "item.quark.backpack.warning.line_1":"警告",
+  "item.quark.backpack.warning.line_2":"这个背包里有物品，生存模式下不穿在身上的话，里面的物品会被清空。",
+  "item.quark.smithing_template_rune":"锻造模板",
+  "entity.quark.torch_arrow":"火把箭",
+  "advancements.quark.tatami_gaeshi.title":"掀榻榻米！",
+  "advancements.quark.tatami_gaeshi.description":"用竹席打一下什么东西",
+  "quark.pack.emote_icon_pack":"夸克动作表情图标包"
 }

@@ -1,0 +1,12 @@
+{
+  "accessories.slot.pocket":"口袋",
+  "text.config.accessories_compat.title":"Accessories 兼容配置",
+  "text.config.accessories_compat.option.slotIdRedirects":"槽位 ID 重定向",
+  "text.config.accessories_compat.option.slotIdRedirects.tooltip":"需要把 Trinkets 槽位重定向到常规 Accessories 槽位类型时有用",
+  "text.config.accessories_compat.option.dumpDataWhenNullEntries":"遇到空条目时导出数据",
+  "text.config.accessories_compat.option.dumpDataWhenNullEntries.tooltip":"Trinkets 内部因为空值出错、进而导致崩溃时有用",
+  "text.config.accessories_compat.option.addPocketSlot":"添加口袋槽位",
+  "text.config.accessories_compat.option.addPocketSlot.tooltip":"添加一个模拟 Curios 饰品槽位的口袋槽位",
+  "text.config.accessories_compat.option.showPocketSlotInTooltip":"在提示框中显示口袋槽位",
+  "text.config.accessories_compat.option.showPocketSlotInTooltip.tooltip":"物品并非默认适用于口袋槽位时，在提示框中显示口袋槽位"
+}

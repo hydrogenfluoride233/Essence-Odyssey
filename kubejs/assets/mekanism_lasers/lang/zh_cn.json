@@ -1,0 +1,8 @@
+{
+  "block.mekanism_lasers.energy_transformer":"能量转换器",
+  "block.mekanism_lasers.odecm":"ODECM 核心",
+  "block.mekanism_lasers.energized_fence":"充能围栏",
+  "item.mekanism_lasers.laser_configurator":"激光配置器",
+  "description.mekanism.energy_transformer":"把激光转换为能量",
+  "description.mekanism.odecm":"ODECM：矿石复制能量凝聚矩阵"
+}

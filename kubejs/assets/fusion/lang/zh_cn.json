@@ -5,5 +5,7 @@
   "fusion.resource_packs.warning_screen.confirmation":"你仍然想启用该资源包吗？",
   "fusion.resource_packs.warning_screen.current_version":"已安装版本：",
   "fusion.resource_packs.warning_screen.required_version":"所需版本：",
-  "fusion.resource_packs.warning_screen.confirm":"是"
+  "fusion.resource_packs.warning_screen.confirm":"是",
+
+  "fusion.resource_packs.warning_screen.cancel":"否"
 }

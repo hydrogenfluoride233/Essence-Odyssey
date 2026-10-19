@@ -1,0 +1,22 @@
+{
+  "contextual.lychee.is_off_item_cooldown":"不在冷却中：%s",
+  "contextual.lychee.is_off_item_cooldown.not":"冷却中：%s",
+  "contextual.lychee.sky_darken":"天空变暗检测",
+  "contextual.lychee.sky_darken.not":"天空变暗检测",
+  "lychee.config.debug":"调试",
+  "lychee.config.debug.enable":"启用",
+  "lychee.config.dispenserFallableBlockPlacement":"发射器放置可下落方块",
+  "lychee.config.fragment":"片段",
+  "lychee.config.fragment.enable":"启用",
+  "lychee.config.yamlRecipes":"YAML 配方",
+  "lychee.config.yamlRecipes.enable":"启用",
+  "modmenu.descriptionTranslation.lychee":"数据驱动的世界内合成",
+  "recipeType.lychee.entity_ticking":"实体刻",
+  "tag.block.lychee.extend_box":"扩展交互范围",
+  "tag.entity_type.lychee.lightning_fire_immune":"免疫闪电引火的实体",
+  "tag.entity_type.lychee.lightning_immune":"免疫闪电的实体",
+  "tag.item.lychee.block_exploding_catalysts":"方块爆炸催化剂",
+  "tag.item.lychee.dispenser_placement":"可被发射器放置的物品",
+  "tag.item.lychee.fire_immune":"防火物品",
+  "tag.item.lychee.item_exploding_catalysts":"物品爆炸催化剂"
+}

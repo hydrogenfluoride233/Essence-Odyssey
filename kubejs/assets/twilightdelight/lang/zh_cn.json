@@ -1,0 +1,8 @@
+{
+  "block.twilightdelight.fiddlehead_clump":"暮色蕨丛",
+  "block.twilightdelight.fiddlehead_clump_upper":"暮色蕨丛（上半）",
+  "block.twilightdelight.twilight_rich_soil":"暮色沃土",
+  "block.twilightdelight.twilight_rich_soil_farmland":"暮色沃土耕地",
+  "twilightdelight.configuration.richSoilTrials":"暮色沃土/耕地每个随机刻加速植物的尝试次数",
+  "twilightdelight.configuration.richSoilTrials.tooltip":" 默认：5\n 范围：0 ~ 32"
+}

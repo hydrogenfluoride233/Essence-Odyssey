@@ -4,5 +4,7 @@
   "gui.remove":"移除",
   "dimension.minecraft.overworld":"主世界",
   "dimension.minecraft.the_nether":"下界",
-  "dimension.minecraft.the_end":"末地"
+  "dimension.minecraft.the_end":"末地",
+
+  "fieldguide.name.minecraft.pale_oak_sapling":"苍白橡树"
 }
