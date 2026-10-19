@@ -10,16 +10,412 @@
 	images: [ ]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["7D30D0CD5F0F151E"]
-		hide_until_deps_complete: true
-		id: "0DFAA76C3EF9F0C3"
-		tasks: [{
-			id: "3A1E1319BB3AD7FB"
-			item: { count: 1, id: "aether:skyroot_log" }
-			type: "item"
-		}]
-		x: -1.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["2C96F0369D75B59D"]
+			icon: {
+				id: "aether:valkyrie_pickaxe"
+			}
+			id: "0DFAA76C3EF9F0C3"
+			tasks: [{
+				id: "2F25F6E4CB25B4AC"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D30D0CD5F0F151E"]
+			icon: {
+				id: "minecraft:glowstone"
+			}
+			id: "6E5373E39669104B"
+			tasks: [{
+				id: "3ECC9EE3E94A8433"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E5373E39669104B"]
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "2C96F0369D75B59D"
+			shape: "gear"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: {
+					id: "aether:aether_portal_frame"
+				}
+				id: "05DB781177E618DA"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C6551855677E394"]
+			icon: {
+				id: "deep_aether:nimbus_stone"
+			}
+			id: "1B2329D67EC21B7B"
+			tasks: [{
+				id: "28FCFA1AAE2720F6"
+				structure: "deep_aether:brass_dungeon"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DFAA76C3EF9F0C3"]
+			icon: {
+				id: "aether:carved_stone"
+			}
+			id: "389232F20FD67796"
+			tasks: [{
+				id: "24999E6DE4A1459F"
+				structure: "aether:bronze_dungeon"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F98658FB39A828A"]
+			icon: {
+				id: "aether:angelic_stone"
+			}
+			id: "6ED362EAD1B8C171"
+			tasks: [{
+				id: "0FE69EFC07C3F37B"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["691D79550FAD2ADE"]
+			icon: {
+				id: "aether:hellfire_stone"
+			}
+			id: "750732F9BA65F823"
+			tasks: [{
+				id: "58FC5CA8599FE323"
+				structure: "aether:gold_dungeon"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["708C965D7191F1FF"]
+			id: "6CDD9C60114AF706"
+			tasks: [{
+				id: "1D494AD0F992C2FC"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0DFAA76C3EF9F0C3"]
+			id: "0C5E798F28A231C4"
+			tasks: [{
+				id: "20112E465CEB2AB2"
+				item: { count: 1, id: "aether:freezer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["389232F20FD67796"]
+			id: "0C6551855677E394"
+			tasks: [{
+				id: "4927AF4ABFDAD371"
+				item: { count: 1, id: "aether:bronze_dungeon_key" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B2329D67EC21B7B"]
+			id: "0F98658FB39A828A"
+			tasks: [{
+				id: "45256E3F309E393E"
+				item: { count: 1, id: "deep_aether:brass_dungeon_key" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6ED362EAD1B8C171"]
+			id: "691D79550FAD2ADE"
+			tasks: [{
+				id: "6AC2C61F95081E52"
+				item: { count: 1, id: "aether:silver_dungeon_key" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["750732F9BA65F823"]
+			icon: {
+				id: "aether:gold_dungeon_key"
+			}
+			id: "42B654686E7E6BFC"
+			tasks: [
+				{
+					id: "08AD24FC8164DC8F"
+					item: { count: 1, id: "aether:gold_dungeon_key" }
+					type: "item"
+				}
+				{
+					id: "7E1E748AB7AFFE0E"
+					item: { count: 1, id: "aether_charges:frost_charge" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "45909CC4478AE23F"
+					item: { count: 1, id: "aether_charges:frost_scepter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"571009D6DC3766FA"
+				"28A287F38BC6D9D6"
+			]
+			id: "21CD29A550619BBF"
+			shape: "gear"
+			tasks: [{
+				id: "1C1C5DAA21CA0A2E"
+				item: { count: 1, id: "deep_aether:stratus_ingot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CDD9C60114AF706"]
+			id: "28A287F38BC6D9D6"
+			tasks: [{
+				id: "14AEC1DF063D4C89"
+				item: { count: 1, id: "aether:enchanted_gravitite" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["708C965D7191F1FF"]
+			id: "66F862C570D8DC96"
+			tasks: [{
+				id: "0F13AB469C205E72"
+				item: { count: 1, id: "aether:golden_amber" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A00C69798692D1B"]
+			id: "133BB67CC60B260F"
+			tasks: [{
+				id: "74A9027CEDF78A8B"
+				item: { count: 1, id: "aether:ambrosium_shard" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CDD9C60114AF706"]
+			id: "571009D6DC3766FA"
+			tasks: [{
+				id: "6DDA1ECC9B099E87"
+				item: { count: 1, id: "deep_aether:chromatic_aercloud" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["708C965D7191F1FF"]
+			id: "18FC77AF14B862AE"
+			tasks: [{
+				id: "30652CD6722982EC"
+				item: { count: 1, id: "aethersdelight:arkenium_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42B654686E7E6BFC"]
+			id: "1F37C07E86AB1EAC"
+			tasks: [{
+				id: "47FE2F8BB0DAB383"
+				item: { count: 1, id: "deep_aether:sun_core" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0DFAA76C3EF9F0C3"]
+			icon: {
+				id: "aether:skyroot_sapling"
+			}
+			id: "5A00C69798692D1B"
+			tasks: [{
+				id: "39A2325FAF2E2751"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aether:skyroot_tool_crafting)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A00C69798692D1B"]
+			id: "5F7B7E99A3288BD8"
+			tasks: [{
+				id: "772745CA1651F1E3"
+				item: { count: 1, id: "aether:holystone" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F7B7E99A3288BD8"]
+			id: "708C965D7191F1FF"
+			tasks: [
+				{
+					id: "451CFC6C113DBDBB"
+					item: { count: 1, id: "aether:zanite_gemstone" }
+					type: "item"
+				}
+				{
+					id: "019C8C995D008670"
+					item: { count: 1, id: "deep_aether:skyjade" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C6551855677E394"]
+			id: "19047323B0DB5C28"
+			tasks: [{
+				id: "021356C20A0CB90D"
+				item: { count: 1, id: "aether_treasure_reforging:neptune_mesh" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0F98658FB39A828A"]
+			id: "3992BDF384165566"
+			tasks: [{
+				id: "4CCCDB41EB6D4D1D"
+				item: { count: 1, id: "deep_aether:squall_plate" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["691D79550FAD2ADE"]
+			id: "7D87B9FEDFC0F52F"
+			tasks: [{
+				id: "3E8C72984233A3C0"
+				item: { count: 1, id: "aether_treasure_reforging:valkyrum_ingot" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42B654686E7E6BFC"]
+			id: "7F6334C85D5A5471"
+			tasks: [{
+				id: "45380DE0D60384DF"
+				item: { count: 1, id: "aether_treasure_reforging:pyral_ingot" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["691D79550FAD2ADE"]
+			id: "66005447331600B1"
+			tasks: [{
+				id: "1FD1C9425502442D"
+				item: { count: 1, id: "deep_aether:medal_of_honor" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C6551855677E394"]
+			id: "235FDE6DBE018EDE"
+			tasks: [{
+				id: "22E24866FBC32CB2"
+				item: { count: 1, id: "deep_aether:slider_eye" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0F98658FB39A828A"]
+			id: "15B512E612FBC9BC"
+			tasks: [{
+				id: "2A21747AA8AFE759"
+				item: { count: 1, id: "deep_aether:floaty_scarf" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["42B654686E7E6BFC"]
+			id: "6BF71BFF3438B29B"
+			tasks: [{
+				id: "2A6A3C653ED73C80"
+				item: { count: 1, id: "aether:sun_altar" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6BF71BFF3438B29B"]
+			id: "1F8BC97C86D47EBE"
+			tasks: [{
+				id: "0BDEABAA06786379"
+				item: { count: 1, id: "kubejs:twilight_holy_grail" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+	]
 }

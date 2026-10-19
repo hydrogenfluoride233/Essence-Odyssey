@@ -68,6 +68,10 @@
         {
             "id": "aether:valkyrie_lance",
             "count": 1
+        },
+        {
+            "id": "deep_aether:medal_of_honor",
+            "count": 1
         }
     ]
 }

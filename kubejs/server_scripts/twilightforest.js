@@ -1,19 +1,18 @@
 ServerEvents.recipes(event=>{
     //暮色锭
-    event.shaped(
-        "8x kubejs:twilight_ingot",
-        ["ABC","DEF","GHI"],
-        {
-            A:"twilightforest:ironwood_ingot",
-            B:"twilightforest:steeleaf_ingot",
-            C:"twilightforest:naga_scale",
-            D:"twilightforest:knightmetal_ingot",
-            E:"kubejs:twilight_holy_grail",
-            F:"twilightforest:fiery_ingot",
-            G:"twilightforest:arctic_fur",
-            H:"twilightforest:alpha_yeti_fur",
-            I:"twilightforest:carminite"
-        }
+    event.shapeless(
+        "kubejs:twilight_ingot",
+        [
+            "twilightforest:ironwood_ingot",
+            "twilightforest:steeleaf_ingot",
+            "twilightforest:naga_scale",
+            "twilightforest:knightmetal_ingot",
+            "kubejs:twilight_holy_grail",
+            "twilightforest:fiery_ingot",
+            "twilightforest:arctic_fur",
+            "twilightforest:alpha_yeti_fur",
+            "twilightforest:carminite"
+        ]
     ).keepIngredient("kubejs:twilight_holy_grail")
 
     //暮色奖杯NBT清除

@@ -2,6 +2,11 @@ ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"eternal_starlight:alloy/unrealium"})//虚素锭
     event.remove({id:"eternal_starlight:thioquartz_block"})//石英硫块
+    event.remove({id:"eternal_starlight:golem_steel_ingot_smelting_from_oxidized_golem_steel_ingot"})//傀儡钢锭
+    event.remove({id:"eternal_starlight:golem_steel_ingot_blasting_from_oxidized_golem_steel_ingot"})
+    event.remove({id:"eternal_starlight:golem_steel_nugget_smelting_from_oxidized_golem_steel_nugget"})
+    event.remove({id:"eternal_starlight:golem_steel_nugget_blasting_from_oxidized_golem_steel_nugget"})
+    event.remove({id:"eternal_starlight:alloy/golem_steel"})
 
     //工作台配方
     event.shapeless(
@@ -32,7 +37,22 @@ ServerEvents.recipes(event=>{
         "results":[
             {"amount":1,"item":{"id":"eternal_starlight:unrealium_ingot"}}
         ]
-    })
+    })//虚素锭
+
+    event.custom({
+        "type":"eternal_starlight:alloy",
+        "burn_time":200,
+        "ingredients":[
+            {"tag":"c:ingots/oxidized_golem_steel"},
+            {"tag":"c:ingots/oxidized_golem_steel"},
+            {"tag":"c:ingots/oxidized_golem_steel"},
+            {"tag":"c:gems/starcore"},
+            {"tag":"c:dusts/saltpeter"}
+        ],
+        "results":[
+            {"amount":2,"item":{"id":"eternal_starlight:golem_steel_ingot"}}
+        ]
+    })//傀儡钢锭
 
     //石英硫母岩
     event.custom({

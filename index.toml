@@ -2086,7 +2086,7 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
-hash = "4d712ad7967534af10c36c0361bc9bea851996403b1fd3d52b801998b22e388c"
+hash = "23a3cc4492e56f85d7d7b647f66c7d14b6fc2673ac9e691a681ed358da09f808"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
@@ -2094,7 +2094,7 @@ hash = "f38ee68e57fa875aaf5f3a3c7a0a4f5db487cadde32410960ca92c05c3ef0037"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
-hash = "01f03e159635acffd0ce07702b5b2740949d07c766e2b21c1b64c385233e9206"
+hash = "e738199249a201ffe8b55a254b548b110f4ea90ad621935e6b9204270efddc00"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
@@ -2118,7 +2118,7 @@ hash = "41a01d61454b3e23c0f0d071bd401771b381bd1622cbbe243523be86fb8963fd"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "be3e8f84467e8e3d2835e36028d583949c9c8c7fcd0963db7e7d2de1bb21701c"
+hash = "41d411f03389bbc17ecc33989dc933503ae5676eb18ae06a6bb1d12dc673516e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2990,11 +2990,11 @@ hash = "957b73a67c3fee884505a4ad762284aa1046a39a2974f126ccefe5fb6ce1304d"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/en_us.json"
-hash = "99a0e4cfe0d5046069ec20f54ec2c33515fff45dd0079d5e300b8700999ad891"
+hash = "dcde9a5e589625235da9c14b859cd1f0efa791a5adc818b3e2a9cfa433ab18ce"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/zh_cn.json"
-hash = "4014d074fc5ac1342f37c323d375a51ad76b24f58e7d11074fcce6035cf9dd0b"
+hash = "dbca63e89d076e5f615347d55f78e93b26715805fbf9993920ad8f3f9baab0c8"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/1.json"
@@ -4006,7 +4006,7 @@ hash = "2282cb9f9dbf69e5b0bfe211019a0e921b250af3bd1ae94e32ab14fdd1f78b5a"
 
 [[files]]
 file = "kubejs/client_scripts/essenceodyssey/info.js"
-hash = "907c34ae01ffe70c2855e5c805106b58af04dd1940d8971b04257d4c33a835e8"
+hash = "4883477ffe78d92cd70cc774c7264a223e56084dded6b3c82373ceb3eec02a5f"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -4660,6 +4660,11 @@ hash = "30f2748e13772d67322f73dcf89f022b675f95a6446edc233eb7448f7ba75d4b"
 metafile = true
 
 [[files]]
+file = "mods/aether-treasure-reforging.pw.toml"
+hash = "7ca929b272bf0b2fc422aaa6c8222f1f8fa54d8bcbf39e84a7984e2c12cf5480"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "59c9a1f969edd0ba1da9ba5ad6975951513225d0304a692c3d4c862e2360940c"
 metafile = true
@@ -5025,7 +5030,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-more-machines.pw.toml"
-hash = "823879938e34bb6306a9d4679d8bfe783d0da5cfa5f60edfebfcb20933a76128"
+hash = "7bd8885bcae3e0e04e0f56aef0d566bae36335ee66389118e4b901e8e9a5d80d"
 metafile = true
 
 [[files]]
@@ -5065,7 +5070,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "7fc9c417a6f55d7383fcb5deefd38cadcaecee0059c509a83d9ed88d2e18b2a6"
+hash = "3f869e9425c1f923f94e2be28259fca4f46120f354b407baee95356b24e6ccf2"
 metafile = true
 
 [[files]]
@@ -5134,6 +5139,11 @@ hash = "832116ba3f826af7f8ccfc56d11c19a350cd152fe194f0d27c1b1c9f3db30ed7"
 metafile = true
 
 [[files]]
+file = "mods/explore-ruins-aether.pw.toml"
+hash = "2970e06f402a3987008e3c90c7bed5bf330a3ddc10a3c73825b2aa3cad0dc8de"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "e206e53e79c196615bebfc9f5dfa943c11c1361e1c7dc4f8f952c86b95e0f0ca"
 metafile = true
@@ -5171,6 +5181,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
+metafile = true
+
+[[files]]
+file = "mods/farmers-structures.pw.toml"
+hash = "03002470c114fce6b14ebd12ac4a36d17d413f0ec2a2fb767486689b173998a3"
 metafile = true
 
 [[files]]
@@ -5395,7 +5410,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "151b25ff8be23ad113a19218a53a9de013deec864e6a1867f1dc3936d59cc80d"
+hash = "f6d09d30839958e527edf171ac4c5d0d5da1ffb1082308ab26d9e7425cf7178e"
 metafile = true
 
 [[files]]
@@ -5420,7 +5435,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "50109154721adb4a72b7f2d034b1839aea2221d84bce2c40a6dfd98368363716"
+hash = "4bf92c54814e82a7fb67dcf63ff39db7419f974e812e0456ae53bb20917cc03c"
 metafile = true
 
 [[files]]
@@ -5705,7 +5720,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "cda0c0c8b35a3302a0e329e4f6372c628b79152ccbe79ca44ac9238535a4e1b8"
+hash = "932ec791672b6db7a46fa7a7789ee5d4cb338d34b914a7cc740821ead3d4642e"
 metafile = true
 
 [[files]]
@@ -5805,7 +5820,7 @@ metafile = true
 
 [[files]]
 file = "mods/platform.pw.toml"
-hash = "cf4f9fdb9d7cf582d1068fae6ca9bf7fe6d3f0f1dbb031627f339f73477d325c"
+hash = "73d7ec775e35b692ccd62018744696a3779cc13468610604083976a740171e44"
 metafile = true
 
 [[files]]
@@ -5930,7 +5945,7 @@ metafile = true
 
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
-hash = "551132dcd7a74c2de47e12e776942fa5b2ce8a14fe7202e4d61152e422e4817a"
+hash = "137e875fa7e402193fda0023fbae412d6a4be3e3275e52e6ec37dbb9ee241cb6"
 metafile = true
 
 [[files]]
@@ -6055,7 +6070,7 @@ metafile = true
 
 [[files]]
 file = "mods/twilights-flavors-delight.pw.toml"
-hash = "86798186148a27da1e22748d118b69088dc54aac6e104677be705367a4d8079d"
+hash = "331ff598edc215df9ee3d2fad6969d0df0e9898b5c022fa074a6d03307edb887"
 metafile = true
 
 [[files]]
@@ -6070,7 +6085,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "2ed8143d74813a492685aa18210835862a6bd70789e6a0301ceb270174b51460"
+hash = "d32ac0e086914a3b5dd373c1a677b162023957f32984ed6b30623ab7b42609ff"
 metafile = true
 
 [[files]]

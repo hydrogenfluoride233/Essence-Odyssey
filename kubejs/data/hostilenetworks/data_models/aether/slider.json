@@ -40,6 +40,10 @@
         {
             "id": "aether:neptune_gloves",
             "count": 1
+        },
+        {
+            "id": "deep_aether:slider_eye",
+            "count": 1
         }
     ]
 }

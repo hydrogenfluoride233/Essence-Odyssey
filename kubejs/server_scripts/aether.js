@@ -1,4 +1,32 @@
 ServerEvents.recipes(event=>{
+    //配方移除
+    event.remove({id:"deep_aether:stratus_ingot"})//云母钢锭
+
+    //工作台配方
+    event.shaped(
+        "aether:altar",
+        ["AAA","ABA","AAA"],
+        {
+            A:"#aether:holystone",
+            B:"deep_aether:skyjade"
+        }
+    )//穹玉晶做神能炉
+
+    event.shapeless(
+        "deep_aether:stratus_ingot",
+        [
+            "deep_aether:chromatic_aercloud",
+            "deep_aether:chromatic_aercloud",
+            "deep_aether:chromatic_aercloud",
+            "aether:ambrosium_shard",
+            "aether:golden_amber",
+            "aether:zanite_gemstone",
+            "deep_aether:skyjade",
+            "aethersdelight:arkenium_ingot",
+            "aether:enchanted_gravitite"
+        ]
+    )//云母钢
+
     //毒液转化
     //格式:[输出,输入]
     const PoisonList = [

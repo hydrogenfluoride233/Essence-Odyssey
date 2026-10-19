@@ -42,7 +42,7 @@
 			tasks: [{
 				dimension: "eternal_starlight:starlight"
 				icon: {
-					id: "eternal_starlight:lunar_sapling"
+					id: "eternal_starlight:starlight_flower"
 				}
 				id: "4187313DDDBF9184"
 				type: "dimension"
