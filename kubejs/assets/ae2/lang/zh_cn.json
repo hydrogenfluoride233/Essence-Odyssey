@@ -1,3 +1,5 @@
 {
-  "gui.ae2.inWorldCraftingPresses": "压印模板由没那么神秘的方块合成获得。"
+  "gui.ae2.inWorldCraftingPresses": "压印模板由没那么神秘的方块合成获得。",
+
+  "dimension.ae2.spatial_storage":"AE2空间存储"
 }
