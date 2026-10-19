@@ -28,10 +28,7 @@
 
 **建议署名文字**
 
-> 本整合包部分模组的汉化来自 / 改编自 星野夢華 (Hoshino Yumeka) 制作的《All the Mods 10
-> 汉化补丁 —— 绿油油版》（https://github.com/chiba233/atm10-zh-cn），该作品译文部分含
-> CFPA 社区翻译（Minecraft-Mod-Language-Package）成分，以 CC BY-NC-SA 4.0 授权，
-> 本整合包中相关译文亦以相同协议提供。
+> 本整合包部分模组的汉化来自 / 改编自 星野夢華 (Hoshino Yumeka) 制作的《All the Mods 10 汉化补丁 —— 绿油油版》（https://github.com/chiba233/atm10-zh-cn ），该作品译文部分含 CFPA 社区翻译（Minecraft-Mod-Language-Package）成分，以 CC BY-NC-SA 4.0 授权，本整合包中相关译文亦以相同协议提供。
 
 ---
 
