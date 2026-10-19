@@ -13,5 +13,7 @@
   "text.owo.config.button.reload":"重载",
   "text.owo.config.button.done":"完成",
   "text.owo.config.sections_tooltip":"分区",
-  "text.owo.config.list.add_entry":"添加条目"
+  "text.owo.config.list.add_entry":"添加条目",
+
+  "text.owo.config.search.matches":"第%d个，共%d个"
 }

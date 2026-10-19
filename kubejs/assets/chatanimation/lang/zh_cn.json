@@ -1,0 +1,11 @@
+{
+  "chatanimation.config._messages":"消息",
+  "chatanimation.config.enableMessageAnimation":"消息动画",
+  "chatanimation.config.fadeTimeMessage":"持续时间",
+  "chatanimation.config.removeMessageIndicator":"隐藏指示线",
+  "chatanimation.config.removeMessageIndicator.tooltip":"隐藏消息左侧的指示线。",
+  "chatanimation.config.enableOpacity":"不透明度动画",
+  "chatanimation.config._input":"输入框",
+  "chatanimation.config.enableTextFieldAnimation":"输入框动画",
+  "chatanimation.config.fadeTimeTextField":"持续时间"
+}
