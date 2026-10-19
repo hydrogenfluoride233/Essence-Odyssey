@@ -1,0 +1,8 @@
+{
+  "iris.shaders.debug.restartNoDebug":"已启用着色器调试；NeoForge 不支持 OpenGL 调试。",
+  "iris.load.failure.shader":"光影包加载失败！请将此错误报告给光影开发者。",
+  "iris.load.failure.generic":"鸢尾在尝试加载着色器时遇到了问题；请将此问题报告给鸢尾开发者。",
+  "iris.keybind.wireframe":"格栅（仅限单人）",
+  "options.iris.colorSpace":"颜色空间",
+  "options.iris.colorSpace.sodium_tooltip":"将屏幕转换到的色彩空间。即使启用光影包也会生效。如果不确定，请使用 SRGB。"
+}

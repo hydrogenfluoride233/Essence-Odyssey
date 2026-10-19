@@ -1,0 +1,15 @@
+{
+  "create.gui.stock_keeper.click_to_cycle":"点击以循环切换",
+  "create.gui.stock_keeper.jei_sync.none":"不同步",
+  "create.gui.stock_keeper.jei_sync.none.description":"库存守护者与配方查看器的搜索相互独立",
+  "create.gui.stock_keeper.jei_sync.sync_both":"与配方查看器双向同步",
+  "create.gui.stock_keeper.jei_sync.sync_both.description":"库存守护者与配方查看器的搜索将同步",
+  "create.gui.stock_keeper.jei_sync.sync_from_jei":"从配方查看器同步",
+  "create.gui.stock_keeper.jei_sync.sync_from_jei.description":"在配方查看器中的搜索将同步至库存守护者",
+  "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper":"从库存守护者同步",
+  "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper.description":"在库存守护者中的搜索将同步至配方查看器",
+  "create.keyinfo.alt_modifier":"Alt修饰符",
+  "create.keyinfo.ctrl_modifier":"Ctrl修饰符",
+  "create.keyinfo.shift_modifier":"Shift修饰符",
+  "tag.item.c.foods.dough.wheat":"小麦面团"
+}
