@@ -1,0 +1,13 @@
+name = "Explore Ruins: The Aether - Dungeons & Structures"
+filename = "explore_ruins_aether-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c4de6d0104090df656634afc03f3b1b05c6b33e1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6889560
+project-id = 1327133

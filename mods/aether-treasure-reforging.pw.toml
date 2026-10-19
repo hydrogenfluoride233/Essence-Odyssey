@@ -1,0 +1,13 @@
+name = "Aether Addon: Treasure Reforging"
+filename = "aether_treasure_reforging-1.21.1-1.0.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e91142f8508896337a59648d03a4b53129a5802c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6040710
+project-id = 1016302
