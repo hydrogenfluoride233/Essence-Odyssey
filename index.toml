@@ -5176,6 +5176,11 @@ hash = "30f2748e13772d67322f73dcf89f022b675f95a6446edc233eb7448f7ba75d4b"
 metafile = true
 
 [[files]]
+file = "mods/aether-charges.pw.toml"
+hash = "215e3440f90438e90a248fe568ef7d31c8a8c34e6e7a82e024bd4e895209cfe7"
+metafile = true
+
+[[files]]
 file = "mods/aether-treasure-reforging.pw.toml"
 hash = "7ca929b272bf0b2fc422aaa6c8222f1f8fa54d8bcbf39e84a7984e2c12cf5480"
 metafile = true
@@ -5286,7 +5291,7 @@ metafile = true
 
 [[files]]
 file = "mods/appliedas.pw.toml"
-hash = "9b4ea9d5823fbae5515cfcd42f415a5a413e6bab19f684751200e0f30870fd0f"
+hash = "5b67c45f0cc9a245401de1ed09efe6d2265e76bc48fb37e728b56ee5972205a7"
 metafile = true
 
 [[files]]
@@ -6496,12 +6501,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "8b40a946e889b44feb2fa3b3f4876ca30f7e276e420b8b8b8b1f2051180c0418"
+hash = "06d8d1de63066eb72a85ad15c25533063fdce1c94d616ee3f0be55473d7a43b1"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "4562fb2d63ea4aea7c6ced1f715e796caf7413a5dab9a7d8e708a83c7d62ec8d"
+hash = "936202c6ed247201ab29469b1af89c3d705bc1ccc0810ffee1244ec9f17a386d"
 metafile = true
 
 [[files]]

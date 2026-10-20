@@ -1,0 +1,13 @@
+name = "Aether Charges"
+filename = "aether_charges-neoforge-1.21.1-0.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db9bccc338395020d8cc8b4a7fa5eeacbbf13da4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9252980
+project-id = 1752887
