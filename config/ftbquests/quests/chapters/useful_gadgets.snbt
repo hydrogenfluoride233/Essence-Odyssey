@@ -13,6 +13,7 @@
 	quests: [
 		{
 			dependencies: ["636F2AFB3BF2AC31"]
+			hide_until_deps_complete: true
 			id: "3BDF422CB23EB76B"
 			tasks: [{
 				id: "7FCF60F601439F1F"
@@ -94,6 +95,7 @@
 		}
 		{
 			dependencies: ["7D30D0CD5F0F151E"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "constructionstick:diamond_stick"
 			}
@@ -108,6 +110,7 @@
 		}
 		{
 			dependencies: ["7D30D0CD5F0F151E"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "chimes:amethyst_chimes"
 			}
@@ -145,6 +148,7 @@
 		}
 		{
 			dependencies: ["7D30D0CD5F0F151E"]
+			hide_until_deps_complete: true
 			id: "46FAF2499DF8D446"
 			tasks: [{
 				icon: {
@@ -159,6 +163,7 @@
 		}
 		{
 			dependencies: ["7D30D0CD5F0F151E"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "elevatorid:elevator_white"
 			}
@@ -230,6 +235,7 @@
 		}
 		{
 			dependencies: ["477958E4569C3D6B"]
+			hide_until_deps_complete: true
 			id: "1217093AA675C1E8"
 			tasks: [{
 				id: "4AA787D7D9E6C98E"
@@ -274,6 +280,7 @@
 		}
 		{
 			dependencies: ["7D30D0CD5F0F151E"]
+			hide_until_deps_complete: true
 			id: "7C22A3F6B39F3695"
 			rewards: [{
 				id: "7DBA7DF07558E578"
@@ -293,6 +300,7 @@
 		}
 		{
 			dependencies: ["4363AE8363EC43A6"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "pylons:harvester_pylon"
 			}

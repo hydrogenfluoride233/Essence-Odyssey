@@ -191,6 +191,10 @@
 		{
 			dependencies: ["7D30D0CD5F0F151E"]
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:void_assault_shoulder_weapon"
+			}
 			id: "1217950B47119C27"
 			shape: "gear"
 			size: 1.5d

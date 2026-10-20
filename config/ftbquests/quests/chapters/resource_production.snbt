@@ -58,6 +58,7 @@
 		}
 		{
 			dependencies: ["7D30D0CD5F0F151E"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "cobblegengalore:block_gen_stone"
 			}

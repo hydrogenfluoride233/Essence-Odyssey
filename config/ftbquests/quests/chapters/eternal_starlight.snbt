@@ -1,4 +1,5 @@
 {
+	autofocus_id: "741E600F39DCCE9F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "eternal_starlight"
@@ -13,6 +14,7 @@
 	quests: [
 		{
 			dependencies: ["0A739937D1D185C7"]
+			hide_until_deps_complete: true
 			id: "1C2C86D965817F76"
 			shape: "gear"
 			tasks: [{
@@ -25,6 +27,7 @@
 		}
 		{
 			dependencies: ["7D30D0CD5F0F151E"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "eternal_starlight:chiseled_voidstone"
 			}
@@ -38,6 +41,7 @@
 		}
 		{
 			dependencies: ["1C2C86D965817F76"]
+			hide_until_deps_complete: true
 			id: "741E600F39DCCE9F"
 			tasks: [{
 				dimension: "eternal_starlight:starlight"
@@ -64,6 +68,7 @@
 		{
 			dependencies: ["741E600F39DCCE9F"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "791B7C1CD2D53F4E"
 			tasks: [{
 				id: "5B3117DA64BEDEB1"
@@ -75,6 +80,7 @@
 		}
 		{
 			dependencies: ["741E600F39DCCE9F"]
+			hide_until_deps_complete: true
 			id: "30888D82985D06FE"
 			tasks: [{
 				id: "0D9DA8EFF4879CC4"
@@ -145,6 +151,7 @@
 		{
 			dependencies: ["741E600F39DCCE9F"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "00D52A4B60E3BCAB"
 			tasks: [{
 				id: "0CF830C5F6F5273A"
@@ -157,6 +164,7 @@
 		{
 			dependencies: ["741E600F39DCCE9F"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "76C12AED65BC46C7"
 			tasks: [{
 				id: "7794B27C474A0F04"
@@ -169,6 +177,7 @@
 		{
 			dependencies: ["741E600F39DCCE9F"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "3B031C44C9ACA605"
 			tasks: [
 				{

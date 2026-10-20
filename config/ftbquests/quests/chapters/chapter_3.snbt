@@ -84,6 +84,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["52445941353FAD96"]
+			hide_until_deps_complete: true
 			id: "477958E4569C3D6B"
 			tasks: [{
 				id: "4F3AD035C3B6110C"

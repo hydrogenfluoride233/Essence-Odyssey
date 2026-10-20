@@ -1,4 +1,5 @@
 {
+	autofocus_id: "526FED59584C6513"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "twilight_forest"
@@ -12,7 +13,8 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7D30D0CD5F0F151E"]
+			dependencies: ["30BB47BC4D75F040"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "2F074ADCF3BB9078"
 			tasks: [{
@@ -20,7 +22,7 @@
 				item: { count: 1, id: "twilightforest:naga_trophy" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -31,8 +33,8 @@
 				item: { count: 1, id: "twilightforest:lich_trophy" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["526FED59584C6513"]
@@ -42,8 +44,8 @@
 				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1A64E09306C5EC80"]
@@ -53,8 +55,8 @@
 				item: { count: 1, id: "twilightforest:hydra_trophy" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["526FED59584C6513"]
@@ -64,8 +66,8 @@
 				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1553D272E3538E31"]
@@ -75,8 +77,8 @@
 				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["526FED59584C6513"]
@@ -86,8 +88,8 @@
 				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["52E4D111AF7DFF20"]
@@ -97,8 +99,8 @@
 				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2F074ADCF3BB9078"]
@@ -108,8 +110,8 @@
 				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -118,14 +120,15 @@
 				"7D8BAE5F68C2DA25"
 				"26DCF8DA35F5CEA6"
 			]
+			hide_dependency_lines: true
 			id: "13DA290A6AFCB1C4"
 			tasks: [{
 				id: "4738986842F5B6FD"
 				item: { count: 1, id: "kubejs:twilight_holy_grail" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["13DA290A6AFCB1C4"]
@@ -136,8 +139,65 @@
 				item: { count: 1, id: "kubejs:twilight_ingot" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D30D0CD5F0F151E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "44B6CBFAD6C215C0"
+			tasks: [{
+				id: "4169278B721935AA"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44B6CBFAD6C215C0"]
+			hide_until_deps_complete: true
+			id: "30BB47BC4D75F040"
+			shape: "gear"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: {
+					id: "twilightforest:twilight_portal_miniature_structure"
+				}
+				id: "13EF709CBBE409AD"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["312538FA84554CFC"]
+			id: "77C3EA4840F81D5C"
+			tasks: [{
+				id: "3356967F16967E2F"
+				item: { count: 1, id: "twilightforest:giant_pickaxe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5E9797FB5209D7ED"
+				"7D8BAE5F68C2DA25"
+				"7692932667CF698E"
+			]
+			hide_dependency_lines: true
+			id: "312538FA84554CFC"
+			tasks: [{
+				id: "53776CCE33AE4733"
+				item: { count: 1, id: "twilightforest:magic_beans" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
 		}
 	]
 }
