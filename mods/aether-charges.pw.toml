@@ -1,13 +1,13 @@
 name = "Aether Charges"
-filename = "aether_charges-neoforge-1.21.1-0.1.1.jar"
+filename = "aether_charges-neoforge-1.21.1-0.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "db9bccc338395020d8cc8b4a7fa5eeacbbf13da4"
+hash = "60b7228fe620b66dfc9c3de0f28264726c56b8a0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9252980
+file-id = 9277350
 project-id = 1752887

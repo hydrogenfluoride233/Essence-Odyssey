@@ -166,7 +166,7 @@ hash = "5a0d76aba380045e871ef42488d121cc8c700f43bea689adfae529a43cb69bd0"
 
 [[files]]
 file = "config/ae2utility-jei-substitution.properties"
-hash = "fb45e6fc16a27a09fd065c3edcb170a055f6e8389b3081ebc6ad69227568ba40"
+hash = "b5ff60ae1704f4f6216f1d42d2a5832ec49adeb54dea7cc424952fdc49173ca3"
 
 [[files]]
 file = "config/ae2utility-server.toml"
@@ -2086,7 +2086,7 @@ hash = "e8580e6684eae44f4ba6fa4b3a8518073876aae371129d1b07772b490d21c27e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
-hash = "814b4d10c69583e2dd3cab66414d9302c3997e1217bb8a94ef287313ef62c9a4"
+hash = "6327d32707a02ebeb35d5479ba1cf3f1f4da5b780a7f17a0ebfe0de9b2f00c1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_1.snbt"
@@ -2094,11 +2094,11 @@ hash = "11fdcb1bc9166693b6b85af073e5c022ab14a796d08857a0a07f8344746acad7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "830f75f4d09fb89c050ec70d758a2c3f5acc57506b29d991763a8e4ee1b3d21a"
+hash = "d1677a4350a26171d91342bd2bfeb67e1f7fd70667339c8dfd9cdd2eca474257"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
-hash = "43f6108f6166f587198c3a8523dec87541aab61882fe463a5f4906b84c1b9fd8"
+hash = "cae6a11741afdcaf9ed100e09eceb97510fa8e073fb790bc4522aa750b055c42"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_4.snbt"
@@ -2122,19 +2122,19 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
-hash = "23a3cc4492e56f85d7d7b647f66c7d14b6fc2673ac9e691a681ed358da09f808"
+hash = "3d0e802be7955499e5605e19f9380ab1fb71f4800893cba8e64f8c1fef7cffe4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
-hash = "f38ee68e57fa875aaf5f3a3c7a0a4f5db487cadde32410960ca92c05c3ef0037"
+hash = "807edb351cf1a3665f2ff53bd1756e631a5e679ad0a4fbb13ab0835fdbcaa064"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
-hash = "4d150c962f987d192e32622a9defdcf09460987490f6f33c4d9d9bc76c281293"
+hash = "0598d43a18cb414baa54665cd00fcb623d93a34fff75f126a9a212b4a0abb591"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
-hash = "6d5f6789917eb1020ca50975bcb88d8ad32c3d607e488f8dc441c3f1f4fe532b"
+hash = "a0dfd605cc6e2d4f30890e0f7b5a2ea7f2a037ff01a451151797732fdf655d9f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/unknown_technology.snbt"
@@ -2142,7 +2142,7 @@ hash = "59be10748825cba97bb6ddcee84bcd758972714aa9b891805494fd1cd3a3e7a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/useful_gadgets.snbt"
-hash = "4fa61382b29d74f0cdfc003e5de37ac6569e21cb259b7e36739c18f44d6f7dcd"
+hash = "8a1209d90639ce8123d422a5cfc2f22ad530362c2153a6ae8e8a6fa92796f2ec"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2154,7 +2154,7 @@ hash = "41a01d61454b3e23c0f0d071bd401771b381bd1622cbbe243523be86fb8963fd"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "e15747adf474eb3e92a881c030d4c9ac59629c10e1035d7ac2e1628d52dde4fd"
+hash = "089a0b8ced7e1991b157259220a308b45b08cf66c649a1019cc4b7560e33045a"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -4886,7 +4886,7 @@ hash = "e98567a695b7a5d494d741227efa33573456e66dcf6b55106a9d301a86596217"
 
 [[files]]
 file = "kubejs/server_scripts/ars_nouveau.js"
-hash = "6fc27831392ceacd76c3cd38703b2910b76d9f81c0ea70517eb72f2aaaa4c079"
+hash = "953658f6d02c4b7b245019e74453b99ed7ed32c899d9d5c736d7a17237787eee"
 
 [[files]]
 file = "kubejs/server_scripts/astralsorcery.js"
@@ -5101,7 +5101,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether-charges.pw.toml"
-hash = "215e3440f90438e90a248fe568ef7d31c8a8c34e6e7a82e024bd4e895209cfe7"
+hash = "d7239332828fb58906b3030816de592adc64337b8d4d427a3d06a1c7258398bd"
 metafile = true
 
 [[files]]
@@ -5215,7 +5215,7 @@ metafile = true
 
 [[files]]
 file = "mods/appliedas.pw.toml"
-hash = "5b67c45f0cc9a245401de1ed09efe6d2265e76bc48fb37e728b56ee5972205a7"
+hash = "e21b3c14a626a3ac15167eedbc78322eaaa9e13f333666b5057a16ab1310e267"
 metafile = true
 
 [[files]]
@@ -5715,7 +5715,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "6ad22c468d67dcbb65784e161d4af9e671d3437cb5bfb1e86a42ae25207cf25b"
+hash = "96b8df58491c7190b35bf1c5115f029df6464ec276244557becad1613c5f5125"
 metafile = true
 
 [[files]]
@@ -5880,7 +5880,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4bf92c54814e82a7fb67dcf63ff39db7419f974e812e0456ae53bb20917cc03c"
+hash = "d59efc266bf1949c2834fd05448ff6ca06f602f15633d5aea03390173157ac5b"
 metafile = true
 
 [[files]]
@@ -6165,7 +6165,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "932ec791672b6db7a46fa7a7789ee5d4cb338d34b914a7cc740821ead3d4642e"
+hash = "f00a36fb43781e4a6c289b24a2a6f0b3b9e23558fe5d45917d63f7bc5c9056dd"
 metafile = true
 
 [[files]]
@@ -6176,6 +6176,11 @@ metafile = true
 [[files]]
 file = "mods/more-overlays-updated.pw.toml"
 hash = "c315824dfe979035e9943c2d6c051cb865e5501c8e48ac96860289a8fb81a28d"
+metafile = true
+
+[[files]]
+file = "mods/morejs.pw.toml"
+hash = "564b879b80fefa01331a62aded574c6f7d7f55c701f031e2b5072f02737560d0"
 metafile = true
 
 [[files]]
@@ -6210,7 +6215,7 @@ metafile = true
 
 [[files]]
 file = "mods/neovitae.pw.toml"
-hash = "52b3af2db568bbef55967793e99284928ce4abfd3eb15163858251d305fe62bb"
+hash = "95b788fde5c21a1a69bc09ecd3eb50db39e7601274b9637b8575f68169ff91db"
 metafile = true
 
 [[files]]
@@ -6425,7 +6430,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "06d8d1de63066eb72a85ad15c25533063fdce1c94d616ee3f0be55473d7a43b1"
+hash = "e71aedefbc645a4c7081af6fd02e49ef4bda9f4ee2b8371300f3614a12cc4813"
 metafile = true
 
 [[files]]
@@ -6565,7 +6570,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "027b2bea8763c4e1a0fcd06168348c1af52d158ea390ead521e0a37a238b1323"
+hash = "258e67fbf80103e6b8f433249079f531bdc622c18f6343da5853e2a702d06178"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
