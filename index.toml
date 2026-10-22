@@ -1998,7 +1998,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
+hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2089,10 +2089,6 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "aab3d7ded50a0d5e432cec3eab83225b931c4a92b1dc010ae9580eebef60aa1c"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/6861c65426846722.snbt"
-hash = "d28ae2e0408e7b2510970ebf16741d7e732f0a75fd46e4d58134d1d0ee27c9fb"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/before_the_start.snbt"
 hash = "e8580e6684eae44f4ba6fa4b3a8518073876aae371129d1b07772b490d21c27e"
 
@@ -2133,6 +2129,10 @@ file = "config/ftbquests/quests/chapters/dimensions_and_aspects.snbt"
 hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/electricity_production.snbt"
+hash = "1a5a1f87e2c4084f71e55975c21a76b60c7b1d5352a104947b324c0e6f5fcf24"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
 hash = "3d0e802be7955499e5605e19f9380ab1fb71f4800893cba8e64f8c1fef7cffe4"
 
@@ -2150,7 +2150,7 @@ hash = "a0dfd605cc6e2d4f30890e0f7b5a2ea7f2a037ff01a451151797732fdf655d9f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/unknown_technology.snbt"
-hash = "59be10748825cba97bb6ddcee84bcd758972714aa9b891805494fd1cd3a3e7a0"
+hash = "99e83bc4d91875b6ad66d63a2bb51090c730c987c14f131e9ff085ad40853f03"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/useful_gadgets.snbt"
@@ -6590,7 +6590,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "e385b107843800c42a0109cef81fe96e0c9d370888048a2e716f896158420a52"
+hash = "437038802d408b7b0bc16be66f3f5e88fe91d87baa3ba12fa6e8e433d96967b4"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
