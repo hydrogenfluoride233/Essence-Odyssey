@@ -75,6 +75,9 @@
   "entangled": {
     "entangled_block_component": true
   },
+  "astralsorcery": {
+    "lumen": true
+  },
   "ftbquests": {
     "barrier": true
   },
@@ -132,10 +135,6 @@
     "fluid": true,
     "energy": true,
     "tooltip_renderer": true
-  },
-  "touhou_little_maid": {
-    "maid": true,
-    "shrine_lamp": true
   },
   "quark": {
     "oretoise_eating_cooldown": true

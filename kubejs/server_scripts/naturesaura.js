@@ -346,7 +346,7 @@ ServerEvents.recipes(event=>{
                 "minecraft:warped_fungus"
             ],
             "quark:ancient_sapling",50
-        ],//自然灵气远古树苗
+        ],//远古树苗
 
         [
             "quark:ancient_sapling",
@@ -361,7 +361,7 @@ ServerEvents.recipes(event=>{
                 "ars_nouveau:mendosteen_pod"
             ],
             "quark:yellow_blossom_sapling",50
-        ],//夸克远古树苗
+        ],//苍灰树苗
 
         [
             "2x naturesaura:token_sorrow",
@@ -542,28 +542,13 @@ ServerEvents.recipes(event=>{
                 "#twilightforest:fiery_vial",
                 "naturesaura:nature_altar",
                 "kubejs:aqua_fluid_bucket",
-                "kubejs:ignis_fluid_bucket",
                 "kubejs:terra_fluid_bucket",
-                "kubejs:aer_fluid_bucket",
-                "kubejs:perditio_fluid_bucket",
-                "kubejs:ordo_fluid_bucket"
+                "minecraft:gold_ingot",
+                "minecraft:deepslate",
+                "minecraft:gold_ingot",
+                "minecraft:deepslate"
             ],
-            "deep_aether:roseroot_sapling",200
-        ],//命血祭坛
-
-        [
-            "neovitae:ara_vitae",
-            [
-                "#twilightforest:fiery_vial",
-                "naturesaura:nature_altar",
-                "kubejs:aqua_fluid_bucket",
-                "kubejs:ignis_fluid_bucket",
-                "kubejs:terra_fluid_bucket",
-                "kubejs:aer_fluid_bucket",
-                "kubejs:perditio_fluid_bucket",
-                "kubejs:ordo_fluid_bucket"
-            ],
-            "deep_aether:blue_roseroot_sapling",200
+            "minecraft:poplar_sapling",200
         ],//命血祭坛
     ]
 

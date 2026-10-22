@@ -202,7 +202,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/aether_charges-common.toml"
-hash = "432dddf68a16ce631936da719f9ece955600d36975914c319867810b8066e8e4"
+hash = "799e387e4586aa31053730f5749d2ec1c83e506a6c4315a92abaa97ad06d29b9"
 
 [[files]]
 file = "config/aethersdelight-common.toml"
@@ -246,7 +246,7 @@ hash = "a3bee57a52654b40ba20f3dd1128377ce044df863f03deb507dd5ff6eb39311f"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "2829bd75e70e75cdc65ad5c8aba449830e2c220ed06a494f975e728bfbc1716d"
+hash = "c02a404152825c6bb8e031deebb69cef8ec1ec8d33e540f6f37ae489b9bd9a30"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
@@ -907,6 +907,10 @@ hash = "e0201640af8e2539582d8cb5dd8d17085139288c618915f39c559c18b605f3f6"
 [[files]]
 file = "config/astralsorcery/perk_gem_modifiers.json"
 hash = "bc3a67dce4bddf078d77a386611355dda6fc1aebcf72f41458ccd44098bd1434"
+
+[[files]]
+file = "config/astralsorcery/tile_manipulation_blacklist.json"
+hash = "992a99149b5e2a13e1f681dbefc5e9acd37e67f1c76917ce9e29f12a2cc3450e"
 
 [[files]]
 file = "config/attributefix/aether/moa_max_jumps.json"
@@ -1869,6 +1873,10 @@ file = "config/eternal_starlight.json"
 hash = "999dc03ed73f72c9bebef72a1514d4285e44ec2394c1ba3d2cd46903758172b6"
 
 [[files]]
+file = "config/eternal_starlight_delight.json"
+hash = "3fd3f5b8911817967b03d8b5b67544f8326dc6a948f143e9d2c0b6ccd936eca3"
+
+[[files]]
 file = "config/explorerscompass-common.toml"
 hash = "4067e50c6833df6619e511f2bc09630f16fa22e61cf250a8abbf3354afbe14f0"
 
@@ -2081,6 +2089,10 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "aab3d7ded50a0d5e432cec3eab83225b931c4a92b1dc010ae9580eebef60aa1c"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/6861c65426846722.snbt"
+hash = "d28ae2e0408e7b2510970ebf16741d7e732f0a75fd46e4d58134d1d0ee27c9fb"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/before_the_start.snbt"
 hash = "e8580e6684eae44f4ba6fa4b3a8518073876aae371129d1b07772b490d21c27e"
 
@@ -2094,11 +2106,11 @@ hash = "11fdcb1bc9166693b6b85af073e5c022ab14a796d08857a0a07f8344746acad7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "d1677a4350a26171d91342bd2bfeb67e1f7fd70667339c8dfd9cdd2eca474257"
+hash = "c6305200702d26818d45775f2a65885305684d49a5f8347b57cacbb9954b0735"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
-hash = "cae6a11741afdcaf9ed100e09eceb97510fa8e073fb790bc4522aa750b055c42"
+hash = "3fb0aebe03b0c45c94faa5c6047925509a45fcd95fd1f21186dcbf4712c37d7b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_4.snbt"
@@ -2126,7 +2138,7 @@ hash = "3d0e802be7955499e5605e19f9380ab1fb71f4800893cba8e64f8c1fef7cffe4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
-hash = "807edb351cf1a3665f2ff53bd1756e631a5e679ad0a4fbb13ab0835fdbcaa064"
+hash = "876b9daba1f65351753d2e561cbb3f048e46889a1322b095d40c994fa416eba8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
@@ -2142,7 +2154,7 @@ hash = "59be10748825cba97bb6ddcee84bcd758972714aa9b891805494fd1cd3a3e7a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/useful_gadgets.snbt"
-hash = "8a1209d90639ce8123d422a5cfc2f22ad530362c2153a6ae8e8a6fa92796f2ec"
+hash = "dbf8d3312ae61c85578a6366818c9823bed40548c34ccbd098eb0929a2e98dc4"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2154,7 +2166,7 @@ hash = "41a01d61454b3e23c0f0d071bd401771b381bd1622cbbe243523be86fb8963fd"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "089a0b8ced7e1991b157259220a308b45b08cf66c649a1019cc4b7560e33045a"
+hash = "ad924fd48f5e1f085057b28a042e24cf96818429a8344499468c21c271318aad"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2290,7 +2302,7 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "e5a5d9225875998d100bf2c22e5995ba18c8fe256423712f1e75cbdc7877eee7"
+hash = "650b81e0abcdba02946cb7ae74043cdc1a1a4020898aa9c4efcca4331aabc9d9"
 
 [[files]]
 file = "config/jea.json5"
@@ -3165,6 +3177,10 @@ file = "kubejs/assets/elevatorid/lang/zh_cn.json"
 hash = "c12889945ba26d5d4be9ee000adf38a77caab400da867cac90a9c9e61e3a65ad"
 
 [[files]]
+file = "kubejs/assets/enchdesc/lang/en_us.json"
+hash = "eb1f015900305856ba96723d367e212d3c503d2ff56689a9869ed03d9e0a8388"
+
+[[files]]
 file = "kubejs/assets/engineeredcompatibility/lang/zh_cn.json"
 hash = "f31a195bf299444deaa7bafb925901aef38b9f97a44426492183f73177ec1886"
 
@@ -3339,6 +3355,10 @@ hash = "a4f412963791553ba88c27f0c4242226f183eea4b11bc6a61e6ab6738a143669"
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/wthit.json"
 hash = "4627ffe75307bf4ceb21aa76088b97dec15ef1820fc19d1eca7b0b5072609e51"
+
+[[files]]
+file = "kubejs/assets/eternal_starlight_delight/lang/zh_cn.json"
+hash = "18086c6f3255db7bde8378805cbf345a567406708ddf67185b481f429c7327cb"
 
 [[files]]
 file = "kubejs/assets/extendedcrafting/lang/zh_cn.json"
@@ -4366,7 +4386,7 @@ hash = "2c9b59f0493f71cd80d2edadc898c0871028d244261a05ba1bfd881eee52ac54"
 
 [[files]]
 file = "kubejs/assets/neovitae/lang/zh_cn.json"
-hash = "0470f6ffd0b71c6d6705401becec7617805a8da055d21caabe1d72d815e1527e"
+hash = "0f883da75cd8440c1c7d0944c6848aa1d7cfd75631a30456cf275052a01314f8"
 
 [[files]]
 file = "kubejs/assets/notenoughanimations/lang/zh_cn.json"
@@ -4886,7 +4906,7 @@ hash = "e98567a695b7a5d494d741227efa33573456e66dcf6b55106a9d301a86596217"
 
 [[files]]
 file = "kubejs/server_scripts/ars_nouveau.js"
-hash = "953658f6d02c4b7b245019e74453b99ed7ed32c899d9d5c736d7a17237787eee"
+hash = "171c5ec5daad60eed01708c39c4e575d2415e29e33bb5ecb76f4619a46601474"
 
 [[files]]
 file = "kubejs/server_scripts/astralsorcery.js"
@@ -4954,7 +4974,7 @@ hash = "19a752d416e412d84167ff1ce29a25b5ba2a068c3946ed47b771ca1dec2e67aa"
 
 [[files]]
 file = "kubejs/server_scripts/naturesaura.js"
-hash = "4f75af49b90a40ffc05054ea8678738c4085555bfcd18ea04cb1649f6ef88f9a"
+hash = "6070aaa46608474020ce66e383a0a6b3adf1609baf63d7a3d3fe062254252990"
 
 [[files]]
 file = "kubejs/server_scripts/neovitae.js"
@@ -5524,11 +5544,6 @@ hash = "183f4532b3c853915ec256a6dd57ef582cb6dd1b08cf593101d99ff6dd75be0b"
 metafile = true
 
 [[files]]
-file = "mods/enchantment-descriptions.pw.toml"
-hash = "f9e6dd1d85322833d9d3440446e569340ef52e23a5ce2149ddedec1c49b24efc"
-metafile = true
-
-[[files]]
 file = "mods/ender-io-conduit-optimizer.pw.toml"
 hash = "e643da2919468346bd42cef9c5196d252eddb1ada9e5898eead0c132e52d7306"
 metafile = true
@@ -5566,6 +5581,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "02d6c9aceef547b018bf3786367ca40f5aec682b8f577e15fb0656811b424d66"
+metafile = true
+
+[[files]]
+file = "mods/eternal-starlight-delight.pw.toml"
+hash = "78922992e8f19d5759473ef109f3c93751767fb283528d17e4633befbc46611f"
 metafile = true
 
 [[files]]
@@ -6215,7 +6235,7 @@ metafile = true
 
 [[files]]
 file = "mods/neovitae.pw.toml"
-hash = "95b788fde5c21a1a69bc09ecd3eb50db39e7601274b9637b8575f68169ff91db"
+hash = "952c45f4988ea5044b021016faea5b2bf14824b6b475869bcb711cc54e626957"
 metafile = true
 
 [[files]]
@@ -6435,7 +6455,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "936202c6ed247201ab29469b1af89c3d705bc1ccc0810ffee1244ec9f17a386d"
+hash = "88f9a977f852f416f10c36cec9383cd933202a9c55308f6db01c3b5f078940e7"
 metafile = true
 
 [[files]]
@@ -6445,7 +6465,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "50b921dfc5f182c90225ceefa137361092c9f08a4b591f69091f512eac159106"
+hash = "9691c9f55d5d13231a6ee9f03359fbfc1f32878c75bb237e57cedab58c0a15cc"
 metafile = true
 
 [[files]]
@@ -6570,7 +6590,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "258e67fbf80103e6b8f433249079f531bdc622c18f6343da5853e2a702d06178"
+hash = "437038802d408b7b0bc16be66f3f5e88fe91d87baa3ba12fa6e8e433d96967b4"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"

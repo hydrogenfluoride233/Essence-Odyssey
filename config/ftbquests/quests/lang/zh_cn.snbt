@@ -12,6 +12,7 @@
 	chapter.5196E500B38ADA0E.title: "未知科技"
 	chapter.569E4BE55E1C440F.title: "天境传说"
 	chapter.572A55A700B05B5A.title: "第二章 陨星铭刻，熔铸世界"
+	chapter.6861C65426846722.title: "电力生产"
 	chapter.69D614063602F65E.title: "维度，要素和这个世界"
 	chapter.7BE58E7C6030198B.title: "资源生产"
 	chapter.7FE4693A264FF39A.title: "第六章 群星也不是终点"
@@ -271,7 +272,7 @@
 	]
 	quest.13CF62C60D16A9DB.title: "风铃"
 	quest.13DA290A6AFCB1C4.quest_desc: [
-		"&o&6九只奖杯被摆上附魔装置，暮色圣杯从光里浮出来，这是暮色森林给征服者的回礼。 &r"
+		"&o&7九只奖杯被摆上附魔装置，暮色圣杯从光里浮出来，这是暮色森林给征服者的回礼。&r "
 		""
 		"&a暮色圣杯&r是合成&a暮色锭&r的催化剂，本身不会在合成中消耗。"
 	]
@@ -423,11 +424,9 @@
 	]
 	quest.235FDE6DBE018EDE.quest_desc: ["&a无伤&r击败滑行魔石获得。"]
 	quest.236B9D3A654D936D.quest_desc: [
-		"&a交流发电机&r把旋转力变成电，&a电线&r把电送到远处，&a电动马达&r再把电变回旋转力。"
+		"&a交流发电机&r把旋转力变成电，&a导线&r把电送到远处，&a电动马达&r再把电变回旋转力。"
 		""
-		"电也能直接改变材料：&a特斯拉线圈&r可以给物品充能，比如灌注铁锭通上电会变成钢锭；也可以把电放出去。"
-		""
-		"从此动力不必再由传动轴一节一节接过去。"
+		"电也能直接改变材料：&a特斯拉线圈&r可以给物品充能。"
 	]
 	quest.236B9D3A654D936D.title: "电力时代"
 	quest.23801395A0C28C71.quest_desc: [
@@ -461,12 +460,7 @@
 		"它不会攻击你，只是等着你把&a十六种颜色的羊毛&r凑齐，全部交给它，你就会获得你想要的奖励。"
 	]
 	quest.27219131E0E42F88.quest_desc: ["用&a热带鱼&r喂食幼年利维坦可以驯服它，然后它就能用不成熟的深渊之力帮助你战斗。"]
-	quest.2740A375D6EBCB05.quest_desc: [
-		"要素结晶太安静了，安静得几乎不像要素。给它足够的热，再加足够的压力，它才会重新开口说话——以流体的形式，把封存的要素交还给你。"
-		"而要让这场对话成立，你还得先准备好液态魔源。它不是燃料，更像是一种媒介：魔源先替水晶承受住高温与高压，再引导要素从晶体中平稳地流出，不至于在半途重新凝结。没有魔源，水晶要么碎裂，要么沉默。"
-		"这是你第一次把要素从固态中解放出来。从此它可以被输送、被计量，也可以被机器真正当成一种资源来使用。"
-	]
-	quest.2740A375D6EBCB05.title: "要素流体桶"
+	quest.2740A375D6EBCB05.title: "要素流体"
 	quest.276452D7404A158A.quest_desc: ["使用&a罗纳扎通灵术&r制作。"]
 	quest.27F647FAFC46B251.quest_desc: [
 		"&a深渊祭品&r可以用于召唤利维坦。"
@@ -512,8 +506,6 @@
 	]
 	quest.2D9A7BCB69358AFC.title: "下界合金巨兽的试炼"
 	quest.2E5D92132F9FA3DC.quest_desc: [
-		"&o铁撑不住了。冲压、传动、外壳，越往下走越需要更硬、更稳定的材料。&r"
-		""
 		"&o你利用&a自然祭坛&r&o和&a特斯拉线圈&r&o，炼出了第一块钢锭。从这块钢开始，机器的部件才真正称得上精密。&r"
 		""
 		"&o&m其实我也不知道为啥能想出这么神秘的配方&r"
@@ -579,6 +571,7 @@
 	quest.34164812034BC9A0.title: "末影守卫的试炼"
 	quest.34172736AC658A51.quest_desc: ["通过对应的&a下界合金套装&r加上&a锻造模板（咒魂升级）&r和咒魂锭在锻造台升级而成。"]
 	quest.34172736AC658A51.title: "咒魂套装"
+	quest.3453F3AF03FF04C4.quest_desc: ["{@pagebreak}"]
 	quest.348FD640D0B99AE2.quest_desc: [
 		"&o&6卫城的高级守卫，手持巨斧的巨型鳌虾，拥有无与伦比的力量。&r"
 		""
@@ -600,11 +593,6 @@
 		"手持&a下界之星&r右键古代工厂中沉睡的先驱者，便能将其唤醒。"
 	]
 	quest.35CE21DCABAAF10A.title: "先驱者的试炼"
-	quest.35FE4723A2488CF4.quest_desc: [
-		"没错，这玩意儿现在要用钢做。"
-		"&m虽然你可以在地牢的箱子里发现一点&r"
-		"&7ps.本章任务线采取双线并行，此线为主线&r"
-	]
 	quest.366A7FDB98BD9216.quest_desc: [
 		"&a超级火把&r可以阻止附近大范围内的敌对生物刷新，右击可以打开范围显示。"
 		""
@@ -697,6 +685,10 @@
 	]
 	quest.400F9EA8BED6E390.quest_subtitle: "大风车"
 	quest.400F9EA8BED6E390.title: "应力生产（其一）"
+	quest.40501041AF4EBAA3.quest_desc: [
+		"The aura of the six dimensions follows different rules, and when they come near one another they usually only interfere. The Aura Diode splits them apart, corrects them, and guides them into a single stable observation line."
+		"Now, at last, you can let aura from different worlds take part in the same experiment at the same time."
+	]
 	quest.40A0FF3C16F17A99.quest_desc: [
 		"&o森林仪式记下了生命面对这个维度时留下的情绪。&r"
 		""
@@ -793,6 +785,7 @@
 		"使用&a炽燃余烬&r右键点击烈焰竞技场顶层中心的&a烈焰祭坛&r召唤焰魔。"
 	]
 	quest.4882FCF67676C010.title: "焰魔的试炼"
+	quest.48B4C24167D00D08.title: "机械零件"
 	quest.4A540375BBDC6D05.quest_desc: [
 		"要获得各类机壳，你首先需要种植&a苍灰树&r。"
 		""
@@ -865,7 +858,7 @@
 		"洞窟深处的&a雪怪首领&r披着厚厚的毛皮，那毛皮能挡住&a极光冰川&r的寒风。"
 	]
 	quest.54766B34784DB721.quest_desc: [
-		"&o&6圣杯被放上工作台，森林各处的材料向它聚拢，凝成一枚淡蓝色闪闪发光的锭。&r"
+		"&o&7圣杯被放上工作台，森林各处的材料向它聚拢，凝成一枚淡蓝色闪闪发光的锭。&r"
 		""
 		"&a暮色锭&r能把boss的灵魂从奖杯里抽出来，注入&a收容罐&r（幻影骑士除外）。"
 	]
@@ -975,6 +968,7 @@
 		"注意它处理不来&a钢锭&r，需要其他的办法。"
 	]
 	quest.6256F04D11B48E39.title: "动力冲压机"
+	quest.62FFB5BB68CF11F3.quest_desc: ["这是你的第一台发电机，它能将应力转化为电力。"]
 	quest.636F2AFB3BF2AC31.quest_desc: [
 		"&a附魔装置&r由六种魔法精华在森林仪式中合成。"
 		""
@@ -1103,6 +1097,10 @@
 		"庄严的白银地牢是天境不可侵犯的圣地，也是武神族人的休憩之所。"
 		""
 		"在这里，你可以见到神庙的守护人，武神一族的高级统治者，白银钥匙的保管者——&a武神女王&r。"
+	]
+	quest.704148E137D62A82.quest_desc: [
+		"The outer layer of the Mysterious Cube is not ordinary meteor rock, but a sealed protective structure. Stable capacitors and controlled machining can strip away its useless shell step by step while preserving the circuitry inside that has not yet been destroyed."
+		"This mainboard still cannot read any information, but it has provided the first operable interface for the deciphering to come."
 	]
 	quest.708C965D7191F1FF.quest_desc: [
 		"紫晶石和穹玉晶石制成的工具和装备，性质&a恰好相反&r："

@@ -247,20 +247,20 @@ ServerEvents.recipes(event=>{
                 "ars_nouveau:source_gem",
                 "kubejs:empowered_palis_crystal_dust",
             ],
-            "actuallyadditions:triple_battery",
+            "actuallyadditions:basic_coil",
             "kubejs:source_amplifier",5000
         ],//魔源功放
 
         [
             [
                 "actuallyadditions:smooth_black_quartz_block",
-                "actuallyadditions:enori_crystal_block",
+                "actuallyadditions:enori_crystal",
                 "actuallyadditions:smooth_black_quartz_block",
-                "actuallyadditions:enori_crystal_block",
+                "actuallyadditions:enori_crystal",
                 "actuallyadditions:smooth_black_quartz_block",
-                "actuallyadditions:enori_crystal_block",
+                "actuallyadditions:enori_crystal",
                 "actuallyadditions:smooth_black_quartz_block",
-                "actuallyadditions:enori_crystal_block",
+                "actuallyadditions:enori_crystal",
             ],
             "actuallyadditions:wood_casing",
             "actuallyadditions:iron_casing",0

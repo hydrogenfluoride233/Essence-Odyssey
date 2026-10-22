@@ -17,13 +17,13 @@ frost_freeze_ticks = 175
 # Range: 0.1 ~ 10.0
 bolt_speed = 2.0
 #Cooldown after throwing a single-use charge, in ticks.
-# Default: 10
-# Range: 0 ~ 200
-charge_cooldown = 10
-#Cooldown after casting with a scepter, in ticks.
-# Default: 60
+# Default: 20
 # Range: 0 ~ 400
-scepter_cooldown = 60
+charge_cooldown = 20
+#Cooldown after casting with a scepter, in ticks.
+# Default: 20
+# Range: 0 ~ 400
+scepter_cooldown = 20
 #Damage of the blaze bolt.
 # Default: 15.0
 # Range: 0.0 ~ 100.0
@@ -46,3 +46,23 @@ cloud_knockback = 1.5
 # Default: 0.0
 # Range: 0.0 ~ 100.0
 cloud_damage = 0.0
+#Damage multiplier applied to single-use charges (scepters use the full value).
+# Default: 0.55
+# Range: 0.0 ~ 2.0
+charge_damage_multiplier = 0.55
+#Projectile speed multiplier applied to single-use charges.
+# Default: 0.85
+# Range: 0.0 ~ 2.0
+charge_speed_multiplier = 0.85
+#Knockback multiplier applied to the cloud charge.
+# Default: 0.7
+# Range: 0.0 ~ 2.0
+charge_knockback_multiplier = 0.7
+#Freeze duration multiplier applied to the frost charge.
+# Default: 0.35
+# Range: 0.0 ~ 2.0
+charge_freeze_multiplier = 0.35
+#Ignite duration multiplier applied to the blaze charge.
+# Default: 0.5
+# Range: 0.0 ~ 2.0
+charge_ignite_multiplier = 0.5
