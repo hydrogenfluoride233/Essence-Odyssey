@@ -10,15 +10,132 @@
 	images: [ ]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["236B9D3A654D936D"]
-		id: "62FFB5BB68CF11F3"
-		tasks: [{
-			id: "25FC289973DE661D"
-			item: { count: 1, id: "createaddition:alternator" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["0A2D3B4F6D9CCB87"]
+			id: "62FFB5BB68CF11F3"
+			tasks: [
+				{
+					id: "25FC289973DE661D"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "0CD66BC95506371C"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["722B83DF6BDAAE12"]
+			id: "4D55DD74B097B6DE"
+			tasks: [{
+				id: "60717A642114EFAD"
+				item: { count: 1, id: "immersiveengineering:diesel_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["722B83DF6BDAAE12"]
+			id: "2E95B8C52AE45937"
+			tasks: [{
+				id: "17444A9F09A2F80A"
+				item: { count: 1, id: "immersivepetroleum:gas_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A2D3B4F6D9CCB87"]
+			id: "5D6FDC17D4284E3A"
+			tasks: [
+				{
+					id: "5318CD45CB44AEBE"
+					item: { count: 1, id: "enigmaticunity:iridescent_source_generator" }
+					type: "item"
+				}
+				{
+					id: "60926FE53772ACDA"
+					item: { count: 1, id: "enigmaticunity:iridescent_source_producer" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "71355FBA43088A3F"
+			tasks: [{
+				id: "2C1AB38A5FF50D5D"
+				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "mekanismgenerators:wind_generator"
+			}
+			id: "0A2D3B4F6D9CCB87"
+			size: 1.25d
+			tasks: [{
+				id: "10592E63525168AF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["722B83DF6BDAAE12"]
+			id: "0E2093975877DFC1"
+			tasks: [{
+				id: "5265B6F65997E018"
+				item: { count: 1, id: "immersiveengineering:dynamo" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["722B83DF6BDAAE12"]
+			id: "70D32E7185CB21F5"
+			tasks: [{
+				id: "161B5F9D49851975"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A2D3B4F6D9CCB87"]
+			icon: {
+				id: "immersiveengineering:hammer"
+			}
+			id: "722B83DF6BDAAE12"
+			tasks: [{
+				id: "58FBFED05322F7D4"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "0E1DB2F236A70179"
+			tasks: [{
+				id: "5E8DAFAB64C56029"
+				item: { count: 1, id: "pneumaticcraft:flux_compressor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+	]
 }

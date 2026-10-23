@@ -263,31 +263,8 @@
 					type: "item"
 				}
 				{
-					id: "329F5CB4FF1CBF83"
-					item: { count: 1, id: "createaddition:electric_motor" }
-					optional_task: true
-					type: "item"
-				}
-				{
 					id: "3ACC034C53CA5397"
 					item: { count: 1, id: "createaddition:tesla_coil" }
-					type: "item"
-				}
-				{
-					id: "50848DDA637CFD15"
-					item: { count: 1, id: "createaddition:connector" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5802FD0F6921FBB0"
-					item: { count: 1, id: "createaddition:large_connector" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "75C08446667D55EF"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(createaddition:spools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -897,6 +874,17 @@
 			}]
 			x: 11.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["26C4569F0CA4E7D7"]
+			id: "6B0C4D6CC6F590A4"
+			tasks: [{
+				id: "688E6AE95846091C"
+				item: { count: 1, id: "mekanism:cardboard_box" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
 		}
 	]
 }

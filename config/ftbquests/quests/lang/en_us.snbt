@@ -409,11 +409,6 @@
 		"Hold a &aNether Star&r and right-click the sleeping Harbinger in the Ancient Factory to wake it."
 	]
 	quest.35CE21DCABAAF10A.title: "Trial of The Harbinger"
-	quest.35FE4723A2488CF4.quest_desc: [
-		"That is right, this thing is made of steel now."
-		"&mEven though you can find a little of it in dungeon chests&r"
-		"&7ps. This chapter's quest line runs two parallel branches; this one is the main branch&r"
-	]
 	quest.3676A11CC0AC3510.quest_desc: [
 		"The inside of Desert Pyramid Revamped is a maze holding countless treasures. But as you explore, beware the skeletal jackal-headed guards and the traps that are everywhere."
 		""
@@ -925,7 +920,6 @@
 	task.73B7DE094D9C8EE8.title: "AE2"
 	task.74A6BFF77446A183.title: "Burning Arena"
 	task.75BFDE05DC02A082.title: "Starting Kit"
-	task.75C08446667D55EF.title: "Spool"
 	task.7D2F04B3382958EC.title: "Sorry, I never fought it — I skipped that lesson."
 	task.7E6F682B99D230E1.title: "Any Log"
 	task.7F97A016ABC3B040.title: "Ruined Citadel"

@@ -213,5 +213,20 @@
 			x: 7.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["01E75843E7AA2555"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "justdirethings:ferricore_wrench"
+			}
+			id: "2C4674EF49DCE846"
+			tasks: [{
+				id: "5B866B1F475CB069"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
 	]
 }
