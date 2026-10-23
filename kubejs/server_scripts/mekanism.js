@@ -82,6 +82,7 @@ ServerEvents.recipes(event=>{
         ["industrialforegoing:iron_gear","4x minecraft:iron_ingot","immersiveengineering:mold_gear"],
         ["industrialforegoing:gold_gear","4x minecraft:gold_ingot","immersiveengineering:mold_gear"],
         ["industrialforegoing:diamond_gear","4x minecraft:diamond","immersiveengineering:mold_gear"],
+        ["kubejs:steel_gear","4x mekanism:ingot_steel","immersiveengineering:mold_gear"],     //钢齿轮
     ]
 
     StampList.forEach(([output,input,mold])=>
