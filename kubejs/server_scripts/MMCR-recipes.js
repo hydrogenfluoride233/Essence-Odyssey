@@ -1,4 +1,4 @@
-const parseImbuementInput = ingredient=>{                       //"4x 物品id" / "4x #标签" → MMCR 的 Ingredient 形状
+const parseImbuementInput = ingredient=>{
     if(typeof ingredient!=="string") return ingredient
 
     const match=ingredient.match(/^(\d+)x\s+(.+)$/)
@@ -10,7 +10,7 @@ const parseImbuementInput = ingredient=>{                       //"4x 物品id" 
         {"count":count,"item":{"item":id}}
 }
 
-const parseImbuementOutput = result=>{                          //"4x 物品id" → {id,count}（走 ItemStack 编码器）
+const parseImbuementOutput = result=>{
     if(typeof result!=="string") return result
 
     const match=result.match(/^(\d+)x\s+(.+)$/)
@@ -21,6 +21,10 @@ const parseImbuementOutput = result=>{                          //"4x 物品id" 
 }
 
 ServerEvents.recipes(event=>{
+    //配方移除
+    event.remove({id:"mmcr:modularium"})    //模块化合金锭
+    event.remove({id:"mmcr:basic_casing"})  //基础机器外壳
+    
     //工业灌注室
     //格式:[输入,输出,魔源,配方名]
     const ImbuementList = [

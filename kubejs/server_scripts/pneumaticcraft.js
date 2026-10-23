@@ -63,7 +63,7 @@ ServerEvents.recipes(event=>{
         ],
         {
             A:"pneumaticcraft:reinforced_bricks",
-            B:"immersiveengineering:creosote_bucket"
+            B:"mekanism:ingot_steel"
         }
     )//压力室墙壁
 
@@ -106,16 +106,6 @@ ServerEvents.recipes(event=>{
             ],
             2
         ],//聚能电容
-
-        [
-            "3x immersiveengineering:blastbrick",
-            [
-                "immersiveengineering:slag_brick",
-                "4x immersiveengineering:dust_coke",
-                "4x minecraft:nether_brick"
-            ],
-            2.5
-        ],//高炉砖
 
         [
             "immersiveengineering:heavy_engineering",

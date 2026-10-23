@@ -20,7 +20,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"create:crafting/kinetics/white_sail"})                        //风帆
     event.remove({id:"starbunclemania:mixing/liquid_source_1000"})                  //液态魔源
     event.remove({id:"create:pressing/compat/immersiveengineering/plate_steel"})    //钢板
-    event.remove({id:"cobblegengalore:crafting/block_gen_copper"})
+    event.remove({id:"cobblegengalore:crafting/block_gen_copper"})                  //方块制造机
     event.remove({id:"cobblegengalore:crafting/block_gen_iron"})
     event.remove({id:"cobblegengalore:crafting/block_gen_gold"})
     event.remove({id:"cobblegengalore:crafting/block_gen_emerald"})
@@ -151,6 +151,22 @@ ServerEvents.recipes(event=>{
             ],
             "superheated"
         ],//末地合金
+
+        [
+            "5x mmcr:modularium",
+            [
+                "minecraft:netherite_ingot",
+                "mekanism:ingot_steel",
+                "create:brass_ingot",
+                "pneumaticcraft:ingot_iron_compressed",
+                "megacells:sky_steel_ingot",
+                "immersiveengineering:ingot_hop_graphite",
+                "kubejs:unknown_mixture",
+                "powah:steel_energized",
+                "250x immersiveengineering:redstone_acid"
+            ],
+            "superheated"
+        ],//模块化合金锭
     ]
 
     MixList.forEach(([output,input,heat])=>{
@@ -232,6 +248,14 @@ ServerEvents.recipes(event=>{
                 "minecraft:copper_ingot"
             ]
         ],//铜机壳
+
+        [
+            "mmcr:basic_casing",
+            [
+                "create:andesite_casing",
+                "mmcr:modularium"
+            ]
+        ],//基础机器外壳
     ]
 
     ApplicationList.forEach(([output,input])=>
@@ -388,7 +412,7 @@ ServerEvents.recipes(event=>{
     )//钢板
 
     event.recipes.create.sequenced_assembly(
-        "2x immersiveengineering:stick_steel",
+        "immersiveengineering:stick_steel",
         "immersiveengineering:plate_steel",
         [
             event.recipes.create.filling(
@@ -409,25 +433,25 @@ ServerEvents.recipes(event=>{
 
     //处理器序列组装
     const ProcessorAssemblyList = [
-        ["ae2:logic_processor","enderio:redstone_alloy_ingot","ae2:printed_logic_processor"],//逻辑处理器
-        ["ae2:calculation_processor","enderio:redstone_alloy_ingot","ae2:printed_calculation_processor"],//运算处理器
-        ["ae2:engineering_processor","enderio:redstone_alloy_ingot","ae2:printed_engineering_processor"],//工程处理器
-        ["advanced_ae:quantum_processor","enderio:redstone_alloy_ingot","advanced_ae:printed_quantum_processor"],//量子处理器
-        ["appflux:energy_processor","enderio:redstone_alloy_ingot","appflux:printed_energy_processor"],//能量处理器
-        ["extendedae:concurrent_processor","enderio:redstone_alloy_ingot","extendedae:concurrent_processor_print"],//并发处理器
-        ["megacells:accumulation_processor","enderio:redstone_alloy_ingot","megacells:printed_accumulation_processor"],//累积处理器
-        ["appliedcreate:stress_processor","enderio:redstone_alloy_ingot","appliedcreate:stress_circuit_board"],//安山应力处理器
-        ["appliedcreate:advanced_stress_processor","enderio:redstone_alloy_ingot","appliedcreate:advanced_stress_circuit_board"],//黄铜应力处理器
+        ["ae2:logic_processor","ae2:printed_logic_processor"],//逻辑处理器
+        ["ae2:calculation_processor","ae2:printed_calculation_processor"],//运算处理器
+        ["ae2:engineering_processor","ae2:printed_engineering_processor"],//工程处理器
+        ["advanced_ae:quantum_processor","advanced_ae:printed_quantum_processor"],//量子处理器
+        ["appflux:energy_processor","appflux:printed_energy_processor"],//能量处理器
+        ["extendedae:concurrent_processor","extendedae:concurrent_processor_print"],//并发处理器
+        ["megacells:accumulation_processor","megacells:printed_accumulation_processor"],//累积处理器
+        ["appliedcreate:stress_processor","appliedcreate:stress_circuit_board"],//安山应力处理器
+        ["appliedcreate:advanced_stress_processor","appliedcreate:advanced_stress_circuit_board"],//黄铜应力处理器
     ]
 
-    ProcessorAssemblyList.forEach(([output,middle,board])=>
+    ProcessorAssemblyList.forEach(([output,board])=>
         event.recipes.create.sequenced_assembly(
             output,
             "ae2:printed_silicon",
             [
                 event.recipes.create.deploying(
                     "ae2:printed_silicon",
-                    ["ae2:printed_silicon",middle]
+                    ["ae2:printed_silicon","minecraft:redstone"]
                 ),
                 event.recipes.create.deploying(
                     "ae2:printed_silicon",

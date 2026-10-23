@@ -6,7 +6,9 @@ ServerEvents.recipes(event=>{
     event.remove({id:"industrialforegoing:iron_gear"})
     event.remove({id:"industrialforegoing:diamond_gear"})
     event.remove({id:"immersiveengineering:crafting/alloybrick"})                   //窑砖
+    event.remove({id:"immersiveengineering:crafting/cokebrick"})                    //焦炉砖
     event.remove({id:"immersiveengineering:crafting/blastbrick"})                   //高炉砖
+    event.remove({id:"immersiveengineering:crafting/blastbrick_reinforced"})        //强化高炉砖
     event.remove({id:"immersiveengineering:crafting/component_steel"})              //机械零件
     event.remove({id:"immersiveengineering:crafting/component_iron"})
     event.remove({id:"immersiveengineering:crafting/rs_engineering"})               //工程块
@@ -22,8 +24,8 @@ ServerEvents.recipes(event=>{
     //工作台配方
     event.replaceInput(
         {id:"immersiveengineering:crafting/cokebrick"},
-        "#c:sandstone/blocks",
-        "pneumaticcraft:reinforced_bricks"
+        "#c:bricks",
+        "mekanism:ingot_steel"
     )//焦炉砖
 
     event.replaceInput(
@@ -55,7 +57,7 @@ ServerEvents.recipes(event=>{
         ["AAA","ABA","AAA"],
         {
             A:"create:fluid_pipe",
-            B:"industrialforegoing:iron_gear"
+            B:"kubejs:steel_gear"
         }
     )//流体管道
 
@@ -108,12 +110,6 @@ ServerEvents.recipes(event=>{
             "slag"
         ],//锻铁锭
 
-        [
-            "immersiveengineering:ingot_hop_graphite",
-            "immersiveengineering:dust_hop_graphite",
-            600,
-            "slag"
-        ],//高定向热解石墨锭
     ]
 
     BlastFurnaceList.forEach(([output,input,time,slag])=>{
@@ -135,11 +131,7 @@ ServerEvents.recipes(event=>{
     //合金窑
     //格式:[输出,输入1,输入2]
     const AlloySmelterList = [
-        [
-            "enderio:redstone_alloy_ingot",
-            "minecraft:redstone",
-            "minecraft:copper_ingot"
-        ],//红石合金锭
+
     ]
 
     AlloySmelterList.forEach(([output,input1,input2])=>
@@ -232,10 +224,7 @@ ServerEvents.recipes(event=>{
     )
 })
 
-//药水配方预热（#9）：沉浸工程的混合器、装瓶机药水配方是惰性生成的，第一次给客户端发配方包时才在 Netty 线程里遍历 PotionBrewing；
-//单人游戏里 Placebo 同步 brewing_mixes 时会在渲染线程往同一张表写，两边撞上就 ConcurrentModificationException，玩家被踢。
-//这里在服务端线程、发配方包之前（OnDatapackSyncEvent，最高优先级，排在 Placebo 的同步之前）先把子配方生成好，发包时只读缓存。
-//arc_recycling_list 不预热：它的结果在服务器启动完、下一个 tick 或普通优先级的同步事件里才算好，在这里取可能还是空的，会报错。
+//药水配方预热
 const $OnDatapackSyncEvent = Java.loadClass("net.neoforged.neoforge.event.OnDatapackSyncEvent")
 const $EventPriority = Java.loadClass("net.neoforged.bus.api.EventPriority")
 const IEPotionLists = ["immersiveengineering:mixer_potion_list","immersiveengineering:potion_bottling_list"]

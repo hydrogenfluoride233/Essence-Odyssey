@@ -20,6 +20,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"naturesaura:generator_limit_remover"})        //制造催化剂
     event.remove({id:"naturesaura:spring"})                         //永恒之泉
     event.remove({id:"cookingforblockheads:sink"})                  //水槽
+    event.remove({id:"naturesaura:rf_converter"})                   //充能灵气锻炉
 
     //森林仪式
     //格式:[输出,输入,树苗,时间];时间单位为 tick

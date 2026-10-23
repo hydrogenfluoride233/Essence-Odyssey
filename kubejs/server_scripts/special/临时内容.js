@@ -16,7 +16,6 @@ ServerEvents.recipes(event=>{
     event.remove({id:"ae2:network/blocks/crystal_processing_charger"})
     event.remove({id:"ae2:network/blocks/inscribers"})
     event.remove({id:"integrateddynamics:crafting/variable"})
-    event.remove({id:"ironfurnaces:augments/augment_generator"})
     event.remove({id:"laserio:logic_chip_raw"})
     event.remove({id:"neovitae:hellfire_forge"})
     event.remove({id:"ars_ocultas:altar"})

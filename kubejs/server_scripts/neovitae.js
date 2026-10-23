@@ -22,6 +22,12 @@ ServerEvents.recipes(event=>{
             "minecraft:book",
             0,1000
         ],//命血手札
+
+        [
+            "mysticalagriculture:infusion_crystal",
+            "mysticalagriculture:prosperity_gemstone",
+            4,50000
+        ],//注魔水晶
     ]
     AraList.forEach(([output,input,tier,blood])=>
         event.recipes.neovitae.ara_vitae_recipe(output,input,tier,blood,25,50))
