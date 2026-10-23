@@ -44,6 +44,7 @@
 | `kubejs/assets/kubejs/textures/item/{ordo,perditio}_essence.png` | **新生魔艺 Ars Nouveau** | Apache-2.0（jar 内 `META-INF/LICENSE.txt`） | 接其精华套系新增 |
 | `kubejs/assets/kubejs/textures/item/{aether,eternal_starlight}_prediction.png` | **敌对神经网络 Hostile Neural Networks** | MIT | 接其预测产物套系新增 |
 | `kubejs/assets/kubejs/textures/item/infinity_lava_cell.png` | **ExtendedAE** | LGPL-3.0 | 照其无限元件（`infinity_cell_water.png`）换色 |
+| `kubejs/assets/kubejs/textures/item/steel_gear.png` | **工业先锋 Industrial Foregoing** | MIT | 由其铁齿轮（`iron_gear.png`）换色改编 |
 | `kubejs/assets/kubejs/textures/block/sky_stone_starmetal_ore.png` | **应用能源2（AE2）** | 见其项目页（jar 内声明为「See GitHub repository for details」） | 以 AE2 的陨石（`sky_stone_block`）为底图，矿石点自绘 |
 | `kubejs/assets/kubejs/textures/**` 其余贴图与模型 | 本整合包作者与贡献者绘制与改编 | CC BY-NC-SA 4.0 | — |
 
@@ -56,7 +57,7 @@
 > 本整合包部分贴图使用或改编自以下作品，特此致谢：植物魔法 Botania（作者 Vazkii，
 > 符文贴图，部分经改名与改编）、通用机械 Mekanism、命血术 Neo Vitae、
 > 自然灵气 Nature's Aura、新生魔艺 Ars Nouveau、敌对神经网络 Hostile Neural Networks、
-> ExtendedAE、应用能源2（AE2）。
+> 工业先锋 Industrial Foregoing、ExtendedAE、应用能源2（AE2）。
 
 ---
 

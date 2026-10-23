@@ -66,6 +66,9 @@ StartupEvents.registry("item",event=>{
      event.create("kubejs:aether_prediction")
      event.create("kubejs:eternal_starlight_prediction") 
 
+    //齿轮
+    event.create("kubejs:steel_gear")
+
     //其他
     event.create("kubejs:unknown_mixture").rarity("uncommon")
     event.create("kubejs:sky_stone_mainboard").rarity("uncommon")

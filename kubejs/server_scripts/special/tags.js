@@ -62,6 +62,9 @@ ServerEvents.tags("item",event=>{
     event.remove("c:gears/iron","enderio:iron_gear")
     event.add("c:gears","enderio:iron_gear")
 
+    //钢齿轮
+    event.add("c:gears/steel","kubejs:steel_gear")
+
     //污染黄金
     event.add("c:ingots","naturesaura:tainted_gold")
 
