@@ -37,7 +37,7 @@
 	#Alternator efficiency relative to base conversion rate.
 	# Default: 0.75
 	# Range: 0.01 ~ 1.0
-	generator_efficiency = 1.0
+	generator_efficiency = 0.75
 	#Alternator max input in FE (Energy transfer, not generation).
 	# Default: 5000
 	# Range: > 0
@@ -183,7 +183,7 @@
 	#Liquid Blaze Burner internal liquid storage capacity (in mB). A value less than 1000 prevents players from refilling with a bucket.
 	# Default: 1000
 	# Range: > 100
-	liquid_blaze_burner_max_liquid_capacity = 4000
+	liquid_blaze_burner_max_liquid_capacity = 1000
 	#Liquid Blaze Burner internal heat capacity (in ticks).
 	# Default: 10000
 	# Range: > 0
