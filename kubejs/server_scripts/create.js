@@ -387,6 +387,26 @@ ServerEvents.recipes(event=>{
         "mekanism:ingot_steel",10
     )//钢板
 
+    event.recipes.create.sequenced_assembly(
+        "2x immersiveengineering:stick_steel",
+        "immersiveengineering:plate_steel",
+        [
+            event.recipes.create.filling(
+                "immersiveengineering:plate_steel",
+                ["immersiveengineering:plate_steel", Fluid.of("minecraft:lava", 500)]
+            ),
+            event.recipes.create.deploying(
+                "immersiveengineering:plate_steel",
+                ["immersiveengineering:plate_steel", "immersiveengineering:mold_rod"]
+            ).keepHeldItem(),
+            event.recipes.create.pressing(
+                "immersiveengineering:plate_steel",
+                "immersiveengineering:plate_steel"
+            )
+        ],
+        "immersiveengineering:plate_steel",1
+    )//钢棒
+
     //处理器序列组装
     const ProcessorAssemblyList = [
         ["ae2:logic_processor","enderio:redstone_alloy_ingot","ae2:printed_logic_processor"],//逻辑处理器
@@ -456,6 +476,26 @@ ServerEvents.recipes(event=>{
             C:"cobblegengalore:block_gen_copper"
         }
     )//铁质方块制造机
+
+    event.recipes.create.mechanical_crafting(
+        "3x immersiveengineering:cokebrick",
+        ["ABA","BCB","ABA"],
+        {
+            A:"minecraft:clay_ball",
+            B:"mekanism:ingot_steel",
+            C:"cataclysm:stone_tiles"
+        }
+    )//焦炉砖
+
+    event.recipes.create.mechanical_crafting(
+        "3x immersiveengineering:blastbrick",
+        ["ABA","BCB","ABA"],
+        {
+            A:"immersiveengineering:dust_coke",
+            B:"ars_nouveau:fire_essence",
+            C:"minecraft:magma_block"
+        }
+    )//高炉砖
 
     //有序合成=>动力合成
     const ShapedMechanicalList = [
