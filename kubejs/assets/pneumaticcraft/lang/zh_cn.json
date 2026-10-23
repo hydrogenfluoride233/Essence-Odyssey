@@ -26,5 +26,6 @@
   "pneumaticcraft.gui.tab.pressureChamber.chamberSize.outside":"（外部）",
   "pneumaticcraft.gui.tooltip.jackhammer.speedcapped.true":"防止瞬间破坏：开",
   "pneumaticcraft.gui.tooltip.jackhammer.speedcapped.false":"防止瞬间破坏：关",
-  "programmingPuzzle.pneumaticcraft.condition_dimension.name":"条件：维度"
+  "programmingPuzzle.pneumaticcraft.condition_dimension.name":"条件：维度",
+  "entity.minecraft.villager.pneumaticcraft:mechanic":"压力技工"
 }
