@@ -1,25 +1,3 @@
-const parseCARecipeInput = ingredient=>{
-    if(typeof ingredient!=="string") return ingredient
-
-    const match=ingredient.match(/^(\d+)x\s+(.+)$/)
-    const count=match ? parseInt(match[1]) : 1
-    const id=match ? match[2] : ingredient
-
-    return id.startsWith("#") ?
-        {"count":count,"tag":id.substring(1)} :
-        {"count":count,"item":id}
-}
-
-const parseCARecipeResult = result=>{
-    if(typeof result!=="string") return result
-
-    const match=result.match(/^(\d+)x\s+(.+)$/)
-    return {
-        "count":match ? parseInt(match[1]) : 1,
-        "id":match ? match[2] : result
-    }
-}
-
 ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"createaddition:mixing/electrum"})                                                 //琥珀金
@@ -54,7 +32,7 @@ ServerEvents.recipes(event=>{
     RollingList.forEach(([output,input])=>
         event.custom({
             "type":"createaddition:rolling",
-            "ingredients":[parseCARecipeInput(input)],
-            "results":[parseCARecipeResult(output)]})
+            "ingredients":[toIngredient(input)],
+            "results":[toItemStack(output)]})
     )
 })

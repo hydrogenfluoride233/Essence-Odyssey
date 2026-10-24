@@ -44,6 +44,7 @@ RecipeViewerEvents.removeEntries("item",event=>{
         "actuallyadditions:coal_generator",                 //煤炭发电机
         "actuallyadditions:leaf_generator",                 //咀叶发电机
         "actuallyadditions:heat_collector",                 //热能发电机
+        "actuallyadditions:bio_reactor",                    //生物反应器
         "enderio:photovoltaic_composite",                   //光伏复合材料
         "enderio:photovoltaic_plate",                       //光伏板材
         "enderio:energetic_photovoltaic_module",            //充能光伏模块

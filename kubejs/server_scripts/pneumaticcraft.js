@@ -1,69 +1,47 @@
-const parseRecipeInput = ingredient=>{
-    if(typeof ingredient!=="string") return ingredient
-
-    const match=ingredient.match(/^(\d+)x\s+(.+)$/)
-    const count=match ? parseInt(match[1]) : 1
-    const id=match ? match[2] : ingredient
-
-    return id.startsWith("#") ?
-        {"count":count,"tag":id.substring(1)} :
-        {"count":count,"item":id}
-}
-
-const parseRecipeResult = result=>{
-    if(typeof result!=="string") return result
-
-    const match=result.match(/^(\d+)x\s+(.+)$/)
-    return {
-        "count":match ? parseInt(match[1]) : 1,
-        "id":match ? match[2] : result
-    }
-}
-
-const parseThermoPlantOutput = output => {
-    if(typeof output === "string") return {"item_output":parseRecipeResult(output)}
-
-    if(output.fluid) return {
-        "fluid_output":{
-            "id":output.fluid,
-            "amount":output.amount
-        }
-    }
-
-    return output
-}
-
-const asRecipeArray = value=>Array.isArray(value) ? value : [value]
-
 ServerEvents.recipes(event=>{
     //配方移除
-    event.remove({id:"pneumaticcraft:explosion_crafting/compressed_iron_ingot"})    //压缩铁锭和压缩铁块
+    event.remove({id:"pneumaticcraft:explosion_crafting/compressed_iron_ingot"})//压缩铁锭和压缩铁块
     event.remove({id:"pneumaticcraft:explosion_crafting/compressed_iron_block"})
     event.remove({id:"pneumaticcraft:pressure_chamber/compressed_iron_ingot"})
     event.remove({id:"pneumaticcraft:pressure_chamber/compressed_iron_block"})
-    event.remove({id:"pneumaticcraft:pressure_chamber_wall"})                       //压力室相关
+
+    event.remove({id:"pneumaticcraft:pressure_chamber_wall"})//压力室相关
     event.remove({id:"pneumaticcraft:pressure_chamber_valve"})
     event.remove({id:"pneumaticcraft:pressure_chamber_glass"})
     event.remove({id:"pneumaticcraft:pressure_chamber_valve_x4"})
     event.remove({id:"pneumaticcraft:pressure_chamber_glass_x4"})
-    event.remove({id:"pneumaticcraft:fluid_mixer"})                                 //流体混合器
-    event.remove({id:"pneumaticcraft:pressure_chamber/turbine_blade"})              //轮机扇叶
+
+    event.remove({id:"pneumaticcraft:air_compressor"})//压缩机
+    event.remove({id:"pneumaticcraft:liquid_compressor"})
+    event.remove({id:"pneumaticcraft:manual_compressor"})
+    event.remove({id:"pneumaticcraft:thermal_compressor"})
+    
+    event.remove({id:"pneumaticcraft:fluid_mixer"})//流体混合器
+    event.remove({id:"pneumaticcraft:pressure_chamber/turbine_blade"})//轮机扇叶
+    event.remove({id:"pneumaticcraft:thermopneumatic_processing_plant"})//热气动加工机
+    event.remove({id:"pneumaticcraft:refinery"})//精炼厂控制器
+    event.remove({id:"pneumaticcraft:refinery_output"})//精炼厂输出端
+    event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_biodiesel"})//生物柴油产塑料
 
     //工作台配方
-    event.replaceInput({id:"pneumaticcraft:reinforced_stone"},"minecraft:stone","naturesaura:infused_stone")        //强化石头
-    event.replaceInput({id:"pneumaticcraft:air_compressor"},"minecraft:furnace","ironfurnaces:obsidian_furnace")    //空气压缩机
-    event.replaceInput({id:"pneumaticcraft:small_tank"},"#c:glass_blocks","create:fluid_tank")                      //流体储罐
+    event.replaceInput(
+        {id:"pneumaticcraft:reinforced_stone"},
+        "minecraft:stone",
+        "naturesaura:infused_stone"
+    )//强化石头
+
+    event.replaceInput(
+        {id:"pneumaticcraft:small_tank"},
+        "#c:glass_blocks",
+        "create:fluid_tank"
+    )//流体储罐
 
     event.shaped(
         "8x pneumaticcraft:pressure_chamber_wall",
-        [
-            "AAA",
-            "ABA",
-            "AAA"
-        ],
+        ["AAA","ABA","AAA"],
         {
             A:"pneumaticcraft:reinforced_bricks",
-            B:"mekanism:ingot_steel"
+            B:"pneumaticcraft:ingot_iron_compressed"
         }
     )//压力室墙壁
 
@@ -77,13 +55,13 @@ ServerEvents.recipes(event=>{
     ExplosionList.forEach(([output,input,loss])=>
         event.custom({
             "type":"pneumaticcraft:explosion_crafting",
-            "input":parseRecipeInput(input),
+            "input":toIngredient(input),
             "loss_rate":loss,
-            "results":asRecipeArray(output).map(parseRecipeResult)
+            "results":asRecipeArray(output).map(toItemStack)
         }))
 
     //压力室
-    //格式:[输出,输入或输入列表,压力]
+    //格式:[输出,输入,压力]
     const PressureChamberList = [
         [
             "pneumaticcraft:ingot_iron_compressed",
@@ -166,14 +144,47 @@ ServerEvents.recipes(event=>{
             ],
             3
         ],//金质方块制造机
+
+        [
+            "pneumaticcraft:thermopneumatic_processing_plant",
+            [
+                "2x justdirethings:ferricore_ingot",
+                "2x pneumaticcraft:small_tank",
+                "pneumaticcraft:pressure_tube",
+                "actuallyadditions:iron_casing"
+            ],
+            2
+        ],//热气动加工机
+
+        [
+            "pneumaticcraft:refinery",
+            [
+                "2x actuallyadditions:restonia_crystal",
+                "pneumaticcraft:small_tank",
+                "2x actuallyadditions:advanced_coil",
+                "actuallyadditions:iron_casing"
+            ],
+            3
+        ],//精炼厂控制器
+
+        [
+            "pneumaticcraft:refinery_output",
+            [
+                "2x actuallyadditions:enori_crystal",
+                "pneumaticcraft:small_tank",
+                "2x #c:glass_blocks",
+                "actuallyadditions:iron_casing"
+            ],
+            2
+        ],//精炼厂输出端
     ]
 
     PressureChamberList.forEach(([output,input,pressure])=>
         event.custom({
             "type":"pneumaticcraft:pressure_chamber",
-            "inputs":asRecipeArray(input).map(parseRecipeInput),
+            "inputs":asRecipeArray(input).map(toIngredient),
             "pressure":pressure,
-            "results":asRecipeArray(output).map(parseRecipeResult)
+            "results":asRecipeArray(output).map(toItemStack)
         }))
 
     //流体混合器
@@ -190,7 +201,7 @@ ServerEvents.recipes(event=>{
                 "id":fluidOutput.fluid,
                 "amount":fluidOutput.amount
             } : {},
-            "item_output":itemOutput ? parseRecipeResult(itemOutput) : {},
+            "item_output":itemOutput ? toItemStack(itemOutput) : {},
             "input1":input1,
             "input2":input2,
             "pressure":pressure,
@@ -205,9 +216,9 @@ ServerEvents.recipes(event=>{
     AssemblyList.forEach(([output,input,program]) =>
         event.custom({
             "type":`pneumaticcraft:assembly_${program}`,
-            "input":parseRecipeInput(input),
+            "input":toIngredient(input),
             "program":program,
-            "result":parseRecipeResult(output)
+            "result":toItemStack(output)
         }))
 
     //热气动加工机
@@ -217,9 +228,23 @@ ServerEvents.recipes(event=>{
         [
             "actuallyadditions:advanced_coil",
             "actuallyadditions:basic_coil",
-            {fluid:"kubejs:ordo_fluid", amount:500},
+            {fluid:"actuallyadditions:crystallized_oil", amount:500},
             473
         ],//高级线圈
+
+        [
+            {fluid:"actuallyadditions:crystallized_oil", amount:1000},
+            "actuallyadditions:crystallized_canola_seed",
+            {fluid:"actuallyadditions:refined_canola_oil", amount:1000},
+            373
+        ],//晶化油
+
+        [
+            {fluid:"actuallyadditions:empowered_oil", amount:1000},
+            "actuallyadditions:empowered_canola_seed",
+            {fluid:"actuallyadditions:crystallized_oil", amount:1000},
+            373
+        ],//充能油
     ]
 
     ThermoPlantList.forEach(([output,item,fluid,temperature,pressure,time]) => {
@@ -229,7 +254,7 @@ ServerEvents.recipes(event=>{
             "outputs":parseThermoPlantOutput(output)
         }
 
-        if(item) recipe.inputs.item = parseRecipeInput(item)
+        if(item) recipe.inputs.item = toIngredient(item)
         if(fluid) recipe.inputs.fluid = fluid
         if(temperature) recipe.temperature = typeof temperature === "number" ? {"min":temperature} : temperature
         if(pressure) recipe.pressure = pressure

@@ -102,9 +102,11 @@ ServerEvents.recipes(event=>{
     const parseCombinationIngredient = ingredient=>{
         if(typeof ingredient!=="string") return ingredient
 
-        return ingredient.startsWith("#") ?
-            {tag:ingredient.substring(1)} :
-            {item:ingredient}
+        const {id}=parseCounted(ingredient)
+
+        return id.startsWith("#") ?
+            {tag:id.substring(1)} :
+            {item:id}
     }
 
     const parseCombinationInput = input=>parseCombinationIngredient(input)
@@ -116,7 +118,7 @@ ServerEvents.recipes(event=>{
         if(typeof result!=="string") return result
 
         return {
-            id:result
+            id:parseCounted(result).id
         }
     }
 

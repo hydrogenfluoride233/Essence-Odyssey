@@ -7,7 +7,7 @@ ServerEvents.recipes(event=>{
     const DissolutionList = [
         [
             [
-                "minecraft:netherite_ingot",
+                "naturesaura:tainted_gold",
                 "mekanism:ingot_steel",
                 "create:brass_ingot",
                 "pneumaticcraft:ingot_iron_compressed",

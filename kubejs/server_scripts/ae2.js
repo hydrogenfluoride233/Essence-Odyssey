@@ -32,7 +32,7 @@ ServerEvents.recipes(event=>{
         "GCG",
         "GGG",
     ],{
-        G:"ae2:certus_quartz_crystal",
+        G:"ae2:charged_certus_quartz_crystal",
         C:"ae2:not_so_mysterious_cube"
     })//运算压印模板
 

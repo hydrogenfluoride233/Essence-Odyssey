@@ -1,23 +1,11 @@
 const parseImbuementInput = ingredient=>{
     if(typeof ingredient!=="string") return ingredient
 
-    const match=ingredient.match(/^(\d+)x\s+(.+)$/)
-    const count=match ? parseInt(match[1]) : 1
-    const id=match ? match[2] : ingredient
+    const {count,id}=parseCounted(ingredient)
 
     return id.startsWith("#") ?
         {"count":count,"item":{"tag":id.substring(1)}} :
         {"count":count,"item":{"item":id}}
-}
-
-const parseImbuementOutput = result=>{
-    if(typeof result!=="string") return result
-
-    const match=result.match(/^(\d+)x\s+(.+)$/)
-    return {
-        "count":match ? parseInt(match[1]) : 1,
-        "id":match ? match[2] : result
-    }
 }
 
 ServerEvents.recipes(event=>{
@@ -111,7 +99,7 @@ ServerEvents.recipes(event=>{
                 {
                     "type":"minecraft:item",
                     "io":"output",
-                    "stack":parseImbuementOutput(output)
+                    "stack":toItemStack(output)
                 }
             ]
         }).id(`mmcr:industrial_imbuement/${name}`)

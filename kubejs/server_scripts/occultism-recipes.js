@@ -2,9 +2,7 @@ ServerEvents.recipes(event=>{
     const parseResult = result=>{
         if(typeof result!=="string") return result
 
-        const match=result.match(/^(\d+)x\s+(.+)$/)
-        const count=match ? parseInt(match[1]) : 1
-        const id=match ? match[2] : result
+        const {count,id}=parseCounted(result)
 
         return RecipeResult.of(id,count)
     }
@@ -12,9 +10,7 @@ ServerEvents.recipes(event=>{
     const parseInput = ingredient=>{
         if(typeof ingredient!=="string") return ingredient
 
-        const match=ingredient.match(/^(\d+)x\s+(.+)$/)
-        const count=match ? parseInt(match[1]) : 1
-        const id=match ? match[2] : ingredient
+        const {count,id}=parseCounted(ingredient)
 
         if(count!==1) throw new Error("神秘学粉碎配方不支持多个输入物品")
 

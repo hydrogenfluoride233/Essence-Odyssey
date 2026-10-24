@@ -4,6 +4,7 @@ ServerEvents.recipes(event=>{
     event.remove({output:"actuallyadditions:coal_generator"})
     event.remove({output:"actuallyadditions:leaf_generator"})
     event.remove({output:"actuallyadditions:heat_collector"})
+    event.remove({output:"actuallyadditions:bio_reactor"})
 
     //末影接口
     event.remove({id:"enderio:photovoltaic_composite"})

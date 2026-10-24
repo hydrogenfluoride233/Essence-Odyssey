@@ -52,6 +52,12 @@ ServerEvents.recipes(event=>{
         "create:andesite_alloy"
     )//工程师锤
 
+    event.replaceInput(
+        {id:"immersiveengineering:crafting/workbench"},
+        "minecraft:iron_ingot",
+        "twilightforest:wrought_iron_bar"
+    )//工程师装配台
+
     event.shaped(
         "8x immersiveengineering:fluid_pipe",
         ["AAA","ABA","AAA"],
@@ -66,7 +72,6 @@ ServerEvents.recipes(event=>{
 
     //金属冲压机
     //格式:[输出,输入,模具]
-    //能耗固定为 2400 FE
     const MetalPressList = [
         [
             "kubejs:iesnium_sheet",
@@ -92,6 +97,47 @@ ServerEvents.recipes(event=>{
             TagOutputJS.ofItemStack(output),
             IngredientWithSizeJS.ofItemStack(input),
             mold,2400)
+        )
+
+    //粉碎机
+    //格式:[输出,输入]
+    const CrusherList = [
+        [
+            "kubejs:empowered_restonia_crystal_dust",
+            "actuallyadditions:empowered_restonia_crystal"
+        ],//充能红石水晶粉
+
+        [
+            "kubejs:empowered_palis_crystal_dust",
+            "actuallyadditions:empowered_palis_crystal"
+        ],//充能青金石水晶粉
+
+        [
+            "kubejs:empowered_diamatine_crystal_dust",
+            "actuallyadditions:empowered_diamatine_crystal"
+        ],//充能钻石水晶粉
+
+        [
+            "kubejs:empowered_void_crystal_dust",
+            "actuallyadditions:empowered_void_crystal"
+        ],//充能煤晶粉
+
+        [
+            "kubejs:empowered_enori_crystal_dust",
+            "actuallyadditions:empowered_enori_crystal"
+        ],//充能铁晶粉
+
+        [
+            "kubejs:empowered_emeradic_crystal_dust",
+            "actuallyadditions:empowered_emeradic_crystal"
+        ],//充能绿宝石水晶粉
+    ]
+
+    CrusherList.forEach(([output,input])=>
+        event.recipes.immersiveengineering.crusher(
+            TagOutputJS.ofItemStack(output),
+            input,
+            3200)
         )
 
     //高炉燃料
@@ -206,6 +252,57 @@ ServerEvents.recipes(event=>{
         )
     )
 
+    //搅拌机
+    //格式:[输出流体,输入流体,物品输入];流体写"Nx 流体id",N 为 mB,不写默认 1000
+    const MixerList = [
+        [
+            "1000x actuallyadditions:crystallized_oil",
+            "1000x actuallyadditions:refined_canola_oil",
+            "actuallyadditions:crystallized_canola_seed"
+        ],//晶化油
+
+        [
+            "1000x actuallyadditions:empowered_oil",
+            "1000x actuallyadditions:crystallized_oil",
+            "actuallyadditions:empowered_canola_seed"
+        ],//充能油
+    ]
+
+    MixerList.forEach(([output,fluid,input])=>
+        event.recipes.immersiveengineering.mixer(
+            toFluidStack(output),
+            toFluidStack(fluid),
+            [IngredientWithSizeJS.ofItemStack(input)],
+            3200
+        )
+    )
+
+    //挤压机
+    //格式:[输入,物品输出,流体输出];物品写"Nx 物品id",流体写"Nx 流体id",不需要的那项填 null
+    const SqueezerList = [
+        [
+            "actuallyadditions:canola",
+            null,
+            "80x actuallyadditions:canola_oil"
+        ],//油菜
+    ]
+
+    SqueezerList.forEach(([input,item,fluid])=>{
+        const recipe = {
+            "type":"immersiveengineering:squeezer",
+            "energy":6400,
+            "input":{"item":input}
+        }
+
+        recipe.result = item ? toTagOutput(item) : []
+
+        if(fluid) {
+            recipe.fluid = toFluidJson(fluid)
+        }
+
+        event.custom(recipe)//挤压机
+    })
+
     //临时内容
     event.remove({id:"engineeredcompatibility:crafting_compat/pcb_blueprint"})
     event.shaped(
@@ -222,6 +319,35 @@ ServerEvents.recipes(event=>{
             P: "#c:paper"
         }
     )
+
+    //沉浸原油
+    event.remove({id:"immersivepetroleum:distillationtower/oil"})       //原油蒸馏
+    event.remove({id:"immersivepetroleum:distillationtower/kerosene"})  //煤油裂解：并入蒸馏塔
+
+    event.custom({
+        "type":"immersivepetroleum:distillation",
+        "byproducts":[{"chance":0.25,"output":{"id":"immersivepetroleum:bitumen"}}],
+        "energy":1024,
+        "input":{"amount":60,"tag":"c:crude_oil"},
+        "results":[
+            {"amount":20,"id":"immersivepetroleum:naphtha"},
+            {"amount":20,"id":"immersivepetroleum:diesel_sulfur"},
+            {"amount":5,"id":"immersivepetroleum:lubricant"}
+        ],
+        "time":1
+    })//原油
+
+    event.custom({
+        "type":"immersivepetroleum:distillation",
+        "byproducts":[],
+        "energy":1024,
+        "input":{"amount":20,"tag":"c:naphtha"},
+        "results":[
+            {"amount":15,"id":"immersivepetroleum:benzol"},
+            {"amount":5,"id":"immersivepetroleum:petroleum_gas"}
+        ],
+        "time":1
+    })//石脑油重整
 })
 
 //药水配方预热

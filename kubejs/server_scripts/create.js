@@ -85,6 +85,36 @@ ServerEvents.recipes(event=>{
             "kubejs:paradox_collapser",
             "create:crushing_wheel"
         ],//悖论物质
+
+        [
+            "kubejs:empowered_restonia_crystal_dust",
+            "actuallyadditions:empowered_restonia_crystal"
+        ],//充能红石水晶粉
+
+        [
+            "kubejs:empowered_palis_crystal_dust",
+            "actuallyadditions:empowered_palis_crystal"
+        ],//充能青金石水晶粉
+
+        [
+            "kubejs:empowered_diamatine_crystal_dust",
+            "actuallyadditions:empowered_diamatine_crystal"
+        ],//充能钻石水晶粉
+
+        [
+            "kubejs:empowered_void_crystal_dust",
+            "actuallyadditions:empowered_void_crystal"
+        ],//充能煤晶粉
+
+        [
+            "kubejs:empowered_enori_crystal_dust",
+            "actuallyadditions:empowered_enori_crystal"
+        ],//充能铁晶粉
+
+        [
+            "kubejs:empowered_emeradic_crystal_dust",
+            "actuallyadditions:empowered_emeradic_crystal"
+        ],//充能绿宝石水晶粉
     ]
    
     CrushList.forEach(([output,input])=>
@@ -93,8 +123,15 @@ ServerEvents.recipes(event=>{
     //石磨
     //格式:[输出,输入]
     const MillstoneList = [
-        ["4x naturesaura:gold_powder","naturesaura:gold_leaf"],//金叶粉
-        ["eternal_starlight:dusted_shard","eternal_starlight:dusted_gravel"],//尘蒙碎片
+        [
+            "4x naturesaura:gold_powder",
+            "naturesaura:gold_leaf"
+        ],//金叶粉
+
+        [
+            "eternal_starlight:dusted_shard",
+            "eternal_starlight:dusted_gravel"
+        ],//尘蒙碎片
     ]
 
     MillstoneList.forEach(([output,input])=>
@@ -155,7 +192,7 @@ ServerEvents.recipes(event=>{
         [
             "5x mmcr:modularium",
             [
-                "minecraft:netherite_ingot",
+                "naturesaura:tainted_gold",
                 "mekanism:ingot_steel",
                 "create:brass_ingot",
                 "pneumaticcraft:ingot_iron_compressed",
@@ -336,7 +373,7 @@ ServerEvents.recipes(event=>{
 
     //序列组装
     event.recipes.create.sequenced_assembly(
-        "kubejs:sky_stone_mainboard",
+        "4x kubejs:sky_stone_mainboard",
         "ae2:mysterious_cube",
         [
             event.recipes.create.deploying(
@@ -345,7 +382,7 @@ ServerEvents.recipes(event=>{
             ),
             event.recipes.create.deploying(
                 "ae2:smooth_sky_stone_block",
-                ["ae2:smooth_sky_stone_block","ae2:charged_certus_quartz_crystal"]
+                ["ae2:smooth_sky_stone_block","ae2:fluix_crystal"]
             ),
             event.recipes.create.deploying(
                 "ae2:smooth_sky_stone_block",
@@ -360,11 +397,11 @@ ServerEvents.recipes(event=>{
                 "ae2:smooth_sky_stone_block"
             )
         ],
-        "ae2:smooth_sky_stone_block",1
+        "ae2:smooth_sky_stone_block",2
     )//陨星主板
 
     event.recipes.create.sequenced_assembly(
-        "4x ae2:not_so_mysterious_cube",
+        "ae2:not_so_mysterious_cube",
         "kubejs:sky_stone_mainboard",
         [
             event.recipes.create.deploying(
@@ -484,12 +521,24 @@ ServerEvents.recipes(event=>{
         ["DBA","ECE","ABD"],
         {
             A:"#c:cobblestones",
-            B:"kubejs:empowered_enori_crystal_dust",
+            B:"actuallyadditions:enori_crystal",
             C:"actuallyadditions:iron_casing",
-            D:"kubejs:empowered_restonia_crystal_dust",
+            D:"actuallyadditions:restonia_crystal",
             E:"actuallyadditions:basic_coil"
         }
     )//原子再构机
+
+    event.recipes.create.mechanical_crafting(
+        "actuallyadditions:canola_press",
+        ["BCA","DED","ACB"],
+        {
+            A:"#c:cobblestones",
+            B:"actuallyadditions:enori_crystal",
+            C:"actuallyadditions:canola_seeds",
+            D:"actuallyadditions:basic_coil",
+            E:"actuallyadditions:iron_casing"
+        }
+    )//油菜压榨机
 
     event.recipes.create.mechanical_crafting(
         "cobblegengalore:block_gen_iron",
@@ -515,39 +564,92 @@ ServerEvents.recipes(event=>{
         "3x immersiveengineering:blastbrick",
         ["ABA","BCB","ABA"],
         {
-            A:"immersiveengineering:dust_coke",
+            A:"justdirethings:coal_t1",
             B:"ars_nouveau:fire_essence",
             C:"minecraft:magma_block"
         }
     )//高炉砖
 
+    event.recipes.create.mechanical_crafting(
+        "pneumaticcraft:air_compressor",
+        ["AAA","A B","ACA"],
+        {
+            A:"pneumaticcraft:reinforced_bricks",
+            B:"pneumaticcraft:pressure_tube",
+            C:"ironfurnaces:obsidian_furnace"
+        }
+    )//空气压缩机
+
+    event.recipes.create.mechanical_crafting(
+        "pneumaticcraft:manual_compressor",
+        ["BAB"," C ","DED"],
+        {
+            A:"pneumaticcraft:ingot_iron_compressed",
+            B:"minecraft:red_dye",
+            C:"pneumaticcraft:pressure_tube",
+            D:"create:cogwheel",
+            E:"pneumaticcraft:stone_base"
+        }
+    )//人力压缩机
+
+    event.recipes.create.mechanical_crafting(
+        "pneumaticcraft:thermal_compressor",
+        ["ABA","BCB","ADA"],
+        {
+            A:"pneumaticcraft:ingot_iron_compressed",
+            B:"pneumaticcraft:pressure_tube",
+            C:"pneumaticcraft:air_compressor",
+            D:"create:blaze_burner"
+        }
+    )//温差压缩机
+
+    event.recipes.create.mechanical_crafting(
+        "pneumaticcraft:liquid_compressor",
+        ["ABA","BCB","ADA"],
+        {
+            A:"pneumaticcraft:ingot_iron_compressed",
+            B:"pneumaticcraft:pressure_tube",
+            C:"pneumaticcraft:air_compressor",
+            D:"pneumaticcraft:small_tank"
+        }
+    )//液体压缩机
+
     //有序合成=>动力合成
     const ShapedMechanicalList = [
             "actuallyadditions:crusher_double",
             "actuallyadditions:powered_furnace",
+            "actuallyadditions:fermenting_barrel",
+            "actuallyadditions:feeder",
+            "actuallyadditions:lava_factory_controller",
+            "actuallyadditions:energizer",
+            "actuallyadditions:farmer",
+            "actuallyadditions:vertical_digger",
+            "actuallyadditions:enervator",
+            "actuallyadditions:firework_box",
+            "actuallyadditions:coffee_machine",
+            "actuallyadditions:lava_factory_casing",
+            "actuallyadditions:ranged_collector",
+            
+
             "modularrouters:modular_router",
             "modularrouters:blank_upgrade",
             "modularrouters:blank_module",
-            "pneumaticcraft:manual_compressor",
-            "pneumaticcraft:solar_compressor",
-            "pneumaticcraft:liquid_compressor",
-            "pneumaticcraft:thermal_compressor",
-            "pneumaticcraft:air_compressor",
-            "pneumaticcraft:flux_compressor",
-            "pneumaticcraft:electrostatic_compressor",
-            "pneumaticcraft:thermopneumatic_processing_plant",
-            "pneumaticcraft:refinery",
-            "pneumaticcraft:refinery_output",
+
             "buildinggadgets2:gadget_building",
             "buildinggadgets2:gadget_exchanging",
             "buildinggadgets2:gadget_copy_paste",
             "buildinggadgets2:gadget_cut_paste",
             "buildinggadgets2:gadget_destruction",
+
             "pylons:expulsion_pylon",
             "pylons:infusion_pylon",
             "pylons:harvester_pylon",
             "pylons:interdiction_pylon",
             "pylons:protection_pylon",
+
+            "pneumaticcraft:flux_compressor",
+            "pneumaticcraft:electrostatic_compressor",
+            "pneumaticcraft:solar_compressor"
         ]
 
     function toCreateIngredient(ing){

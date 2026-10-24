@@ -22,6 +22,8 @@ ServerEvents.recipes(event=>{
     event.remove({id:"ars_nouveau:mycelial_sourcelink"})            //菌丝魔源通道
     event.remove({id:"starbunclemania:fluid_sourcelink"})           //流体魔源通道
     event.remove({id:"starbunclemania:source_condenser"})           //魔源凝聚器
+    event.remove({id:"enigmaticunity:iridescent_source_generator"}) //五彩脉冲水晶
+    event.remove({id:"enigmaticunity:iridescent_source_producer"})  //五彩共鸣水晶
     
     //灌注室
     //格式:[输入,输出,魔源,基座材料]
@@ -135,6 +137,18 @@ ServerEvents.recipes(event=>{
                 "twilightforest:charm_of_life_2"
             ],
         ],//灵魂之精华
+
+        [
+            "enigmaticunity:iridescent_source_generator",
+            "enigmaticunity:iridescent_source_producer",
+            1000,["minecraft:glass","minecraft:glass","minecraft:glass","minecraft:glass"]
+        ],//五彩共鸣水晶
+
+        [
+            "enigmaticunity:iridescent_source_producer",
+            "enigmaticunity:iridescent_source_generator",
+            1000,["minecraft:tinted_glass","minecraft:tinted_glass","minecraft:tinted_glass","minecraft:tinted_glass"]
+        ],//五彩脉冲水晶
 
         ["quark:red_corundum","quark:orange_corundum",100,[]],
         ["quark:orange_corundum","quark:yellow_corundum",100,[]],
@@ -284,13 +298,13 @@ ServerEvents.recipes(event=>{
         [
             [
                 "#pneumaticcraft:smooth_plastic_bricks",
-                "immersiveengineering:duroplast",
+                "immersiveengineering:plate_duroplast",
                 "kubejs:empowered_emeradic_crystal_dust",
                 "aether:quicksoil_glass",
                 "#pneumaticcraft:smooth_plastic_bricks",
                 "aether:quicksoil_glass",
                 "kubejs:empowered_emeradic_crystal_dust",
-                "immersiveengineering:duroplast",
+                "immersiveengineering:plate_duroplast",
             ],
             "starbunclemania:fluid_jar",
             "starbunclemania:source_condenser",
@@ -311,6 +325,19 @@ ServerEvents.recipes(event=>{
             "cobblegengalore:block_gen_stone",
             "cobblegengalore:block_gen_copper",0
         ],//铜质方块制造机
+
+        [
+            [
+                "ars_nouveau:source_gem_block",
+                "naturesaura:infused_iron",
+                "ars_nouveau:fire_essence",
+                "minecraft:diamond_block",
+                "kubejs:ordo_essence",
+                "naturesaura:tainted_gold",
+            ],
+            "#c:clusters",
+            "enigmaticunity:iridescent_source_generator",5000
+        ],//五彩脉冲水晶
     ]
 
     EnchantList.forEach(([pedestal,input,output,source])=>

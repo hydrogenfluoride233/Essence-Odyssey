@@ -1,4 +1,4 @@
-const $ = {
+const pentacleSymbols = {
     mid:        { type: "modonomicon:tag", display: "occultism:golden_sacrificial_bowl", tag: "#occultism:center_sacrificial_bowl"},
     white:      { type: "modonomicon:tag", display: "occultism:chalk_glyph_white",       tag: "#occultism:foundation_glyphs_any"},
     light_grey: { type: "modonomicon:tag", display: "occultism:chalk_glyph_light_grey",  tag: "#occultism:foundation_glyphs_no_white"},
@@ -118,11 +118,11 @@ ServerEvents.generateData("after_mods",event=>{
             name: "ritual_rune",
             icon: "kubejs:rune_spring",
             mapping: {
-                "0":$.mid,
-                "1":$.gold,
-                "2":$.white,
-                "s":$.crystal,
-                "c":$.candle,
+                "0":pentacleSymbols.mid,
+                "1":pentacleSymbols.gold,
+                "2":pentacleSymbols.white,
+                "s":pentacleSymbols.crystal,
+                "c":pentacleSymbols.candle,
                 "o":{type:"modonomicon:block",block:"minecraft:obsidian"},
                 "i":{type:"modonomicon:block",block:"naturesaura:infused_stone"},
                 "l":{type:"modonomicon:block",block:"minecraft:lapis_block"},
@@ -151,7 +151,7 @@ ServerEvents.generateData("after_mods",event=>{
             name: "ritual_astral_1",
             icon: "kubejs:altar_1",
             mapping: {
-                "0": $.mid,
+                "0": pentacleSymbols.mid,
                 "1":{type:"modonomicon:tag",display:"kubejs:altar_1",tag:"#kubejs:altar_1"},
                 "a":{type:"modonomicon:block",block:"create:cut_limestone_bricks"},
                 "b":{type:"modonomicon:block",block:"create:cut_limestone"},
@@ -184,7 +184,7 @@ ServerEvents.generateData("after_mods",event=>{
             name: "ritual_astral_2",
             icon: "kubejs:altar_2",
             mapping: {
-                "0": $.mid,
+                "0": pentacleSymbols.mid,
                 "1":{type:"modonomicon:tag",display:"kubejs:altar_2",tag:"#kubejs:altar_2"},
                 "a":{type:"modonomicon:block",block:"create:cut_limestone_bricks"},
                 "b":{type:"modonomicon:block",block:"create:cut_limestone"},
@@ -217,7 +217,7 @@ ServerEvents.generateData("after_mods",event=>{
             name: "ritual_astral_3",
             icon: "kubejs:altar_3",
             mapping: {
-                "0": $.mid,
+                "0": pentacleSymbols.mid,
                 "1":{type:"modonomicon:tag",display:"kubejs:altar_3",tag:"#kubejs:altar_3"},
                 "a":{type:"modonomicon:block",block:"create:cut_limestone_bricks"},
                 "b":{type:"modonomicon:block",block:"create:cut_limestone"},
@@ -251,7 +251,7 @@ ServerEvents.generateData("after_mods",event=>{
             name: "ritual_tree",
             icon: "naturesaura:gold_leaf",
             mapping: {
-                "0": $.mid,
+                "0": pentacleSymbols.mid,
                 "1":{type:"modonomicon:block",block:"minecraft:oak_planks"},
                 "a":{type:"modonomicon:block",block:"mekanism:steel_casing"},
                 "b":{type:"modonomicon:block",block:"mekanism:structural_glass"},

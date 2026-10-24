@@ -89,6 +89,19 @@ ServerEvents.tags("item",event=>{
 
     //暮色锭
     event.add("c:ingots","kubejs:twilight_ingot")
+
+    //基础空气压缩机
+    event.add("pneumaticcraft:basic_compressor","pneumaticcraft:air_compressor")
+    event.add("pneumaticcraft:basic_compressor","pneumaticcraft:manual_compressor")
+    event.add("pneumaticcraft:basic_compressor","pneumaticcraft:liquid_compressor")
+    event.add("pneumaticcraft:basic_compressor","pneumaticcraft:thermal_compressor")
+
+    //高级空气压缩机
+    event.add("pneumaticcraft:advanced_compressor","pneumaticcraft:solar_compressor")
+    event.add("pneumaticcraft:advanced_compressor","pneumaticcraft:flux_compressor")
+    event.add("pneumaticcraft:advanced_compressor","pneumaticcraft:electrostatic_compressor")
+    event.add("pneumaticcraft:advanced_compressor","pneumaticcraft:advanced_air_compressor")
+    event.add("pneumaticcraft:advanced_compressor","pneumaticcraft:advanced_liquid_compressor")
 })
 
 ServerEvents.tags("block",event=>{

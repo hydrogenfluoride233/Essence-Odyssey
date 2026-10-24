@@ -147,9 +147,7 @@ ServerEvents.recipes(event=>{
                 "fluid":{"amount":250,"fluid":"sauce:source_fluid"},
                 "item":{"item":`kubejs:crystal_${ess}`}
             },
-            "outputs":{
-                "fluid_output":{"amount":250,"id":`kubejs:${ess}_fluid`}
-            },
+            "outputs":parseThermoPlantOutput({fluid:`kubejs:${ess}_fluid`, amount:250}),
             "temperature":{"min":473},
             "pressure":2.0,
         })//热气动加工机：固=>液
@@ -160,12 +158,24 @@ ServerEvents.recipes(event=>{
                 "fluid":{"amount":1000,"fluid":"sauce:source_fluid"},
                 "item":{"item":`kubejs:block_${ess}`}
             },
-            "outputs":{
-                "fluid_output":{"amount":1000,"id":`kubejs:${ess}_fluid`}
-            },
+            "outputs":parseThermoPlantOutput({fluid:`kubejs:${ess}_fluid`, amount:1000}),
             "temperature":{"min":573},
             "pressure":3.0,
         })//热气动加工机：固=>液
+
+        event.recipes.immersiveengineering.mixer(
+            Fluid.of(`kubejs:${ess}_fluid`,250),
+            Fluid.of("sauce:source_fluid",250),
+            [IngredientWithSizeJS.ofItemStack(`kubejs:crystal_${ess}`)],
+            3200
+        )//搅拌机：固=>液
+
+        event.recipes.immersiveengineering.mixer(
+            Fluid.of(`kubejs:${ess}_fluid`,1000),
+            Fluid.of("sauce:source_fluid",1000),
+            [IngredientWithSizeJS.ofItemStack(`kubejs:block_${ess}`)],
+            12800
+        )//搅拌机：块=>液
 
         event.recipes.immersiveengineering.bottling_machine(
             TagOutputJS.ofItemStack(`kubejs:crystal_${ess}`),

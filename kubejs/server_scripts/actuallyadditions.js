@@ -6,6 +6,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"actuallyadditions:advanced_coil"})            //高级线圈
     event.remove({id:"actuallyadditions:crusher"})                  //磨粉机
     event.remove({id:"actuallyadditions:atomic_reconstructor"})     //原子再构机
+    event.remove({id:"actuallyadditions:canola_press"})             //油菜压榨机
 
 
     //工作台配方
@@ -34,13 +35,40 @@ ServerEvents.recipes(event=>{
     //磨粉机
     //格式:[输出,输入]
     const CrushList = [
-        ["kubejs:empowered_restonia_crystal_dust","actuallyadditions:empowered_restonia_crystal"],
-        ["kubejs:empowered_palis_crystal_dust","actuallyadditions:empowered_palis_crystal"],
-        ["kubejs:empowered_diamatine_crystal_dust","actuallyadditions:empowered_diamatine_crystal"],
-        ["kubejs:empowered_void_crystal_dust","actuallyadditions:empowered_void_crystal"],
-        ["kubejs:empowered_enori_crystal_dust","actuallyadditions:empowered_enori_crystal"],
-        ["kubejs:empowered_emeradic_crystal_dust","actuallyadditions:empowered_emeradic_crystal"],
-        ["4x naturesaura:gold_powder","naturesaura:gold_leaf"],
+        [
+            "kubejs:empowered_restonia_crystal_dust",
+            "actuallyadditions:empowered_restonia_crystal"
+        ],//充能红石水晶粉
+
+        [
+            "kubejs:empowered_palis_crystal_dust",
+            "actuallyadditions:empowered_palis_crystal"
+        ],//充能青金石水晶粉
+
+        [
+            "kubejs:empowered_diamatine_crystal_dust",
+            "actuallyadditions:empowered_diamatine_crystal"
+        ],//充能钻石水晶粉
+
+        [
+            "kubejs:empowered_void_crystal_dust",
+            "actuallyadditions:empowered_void_crystal"
+        ],//充能煤晶粉
+
+        [
+            "kubejs:empowered_enori_crystal_dust",
+            "actuallyadditions:empowered_enori_crystal"
+        ],//充能铁晶粉
+
+        [
+            "kubejs:empowered_emeradic_crystal_dust",
+            "actuallyadditions:empowered_emeradic_crystal"
+        ],//充能绿宝石水晶粉
+        
+        [
+            "4x naturesaura:gold_powder",
+            "naturesaura:gold_leaf"
+        ],//金叶粉
     ]
 
     CrushList.forEach(([output,input])=>
