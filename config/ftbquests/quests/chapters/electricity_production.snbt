@@ -27,7 +27,7 @@
 				}
 			]
 			x: -2.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["722B83DF6BDAAE12"]
@@ -66,8 +66,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 2.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			id: "71355FBA43088A3F"
@@ -128,14 +128,57 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["0A2D3B4F6D9CCB87"]
 			id: "0E1DB2F236A70179"
+			tasks: [
+				{
+					id: "5E8DAFAB64C56029"
+					item: { count: 1, id: "pneumaticcraft:flux_compressor" }
+					type: "item"
+				}
+				{
+					id: "783E858D37453FFC"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_dynamo" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A2D3B4F6D9CCB87"]
+			icon: {
+				id: "kubejs:rune_aqua"
+			}
+			id: "526331691A38FD42"
 			tasks: [{
-				id: "5E8DAFAB64C56029"
-				item: { count: 1, id: "pneumaticcraft:flux_compressor" }
+				id: "6A61A658028B8319"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A2D3B4F6D9CCB87"]
+			id: "094F8DB5315BE376"
+			tasks: [{
+				id: "73B92F75DBB8A488"
+				item: { count: 1, id: "sanguine_networks:virtual_sacrificer" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A2D3B4F6D9CCB87"]
+			id: "0285D9D3BFC5CBEA"
+			tasks: [{
+				id: "4EE2977DAD876666"
+				item: { count: 1, id: "mekanism:resistive_heater" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 4.0d
 		}
 	]
 }

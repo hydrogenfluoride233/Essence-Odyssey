@@ -13,16 +13,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "35B0B8A07957E4FB"
-			tasks: [{
-				id: "6B2CB504C4FD109B"
-				item: { count: 1, id: "mekanism:steel_casing" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -0.5d
-		}
-		{
 			id: "6E3FE4D209BFC275"
 			tasks: [{
 				id: "3B597D77716C5950"
@@ -37,6 +27,16 @@
 			tasks: [{
 				id: "13B21842E0BB46BA"
 				item: { count: 1, id: "pneumaticcraft:fluid_mixer" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "4D52DADA6D28E95C"
+			tasks: [{
+				id: "368A67A4636728FF"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
 				type: "item"
 			}]
 			x: -0.5d

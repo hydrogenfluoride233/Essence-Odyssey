@@ -243,7 +243,7 @@
 		{
 			dependencies: ["4363AE8363EC43A6"]
 			icon: {
-				id: "createaddition:tesla_coil"
+				id: "createaddition:modular_accumulator"
 			}
 			id: "236B9D3A654D936D"
 			rewards: [{
@@ -260,6 +260,13 @@
 				{
 					id: "746191D4F7F47C7F"
 					item: { count: 1, id: "createaddition:alternator" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16A72B1739F5B7AC"
+					item: { count: 1, id: "enigmaticunity:iridescent_source_generator" }
+					optional_task: true
 					type: "item"
 				}
 				{

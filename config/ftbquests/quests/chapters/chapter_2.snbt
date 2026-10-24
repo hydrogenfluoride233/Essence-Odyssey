@@ -13,19 +13,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["499464A11D38D71F"]
+			dependencies: ["13F6206C8B723102"]
+			icon: {
+				id: "pneumaticcraft:pressure_chamber_interface"
+			}
 			id: "5971AA7E8234AA79"
-			rewards: [{
-				id: "043F51354FBCBAB8"
-				item: {
-					components: {
-						"patchouli:book": "pneumaticcraft:book"
-					}
-					count: 1
-					id: "patchouli:guide_book"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "469ACC204A16ED40"
@@ -47,15 +39,15 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["1A4D3224BF39EFA7"]
+			dependencies: ["2CC8F070EF7584BD"]
 			id: "5B27D2BA57349AAF"
 			tasks: [{
 				id: "139B6B12A9565441"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -7.0d
+			x: 6.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4253B342CB49E078"]
@@ -205,17 +197,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["2CC8F070EF7584BD"]
-			id: "0D7152948770AE7F"
-			tasks: [{
-				id: "1FFB9B734A451351"
-				item: { count: 1, id: "actuallyadditions:iron_casing" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -7.0d
-		}
-		{
 			dependencies: ["4253B342CB49E078"]
 			hide_until_deps_complete: true
 			icon: {
@@ -264,7 +245,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["6BA679217AD6DBB8"]
+			dependencies: ["4253B342CB49E078"]
 			icon: {
 				id: "immersiveengineering:blast_furnace"
 			}
@@ -297,25 +278,25 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["6BA679217AD6DBB8"]
+			dependencies: [
+				"6BA679217AD6DBB8"
+				"481ECA1B87829938"
+			]
 			id: "1529F9460D2A49FE"
 			tasks: [{
 				id: "2D6D29589A1A0394"
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"1529F9460D2A49FE"
-				"481ECA1B87829938"
-			]
+			dependencies: ["1529F9460D2A49FE"]
 			icon: {
 				id: "immersiveengineering:metal_press"
 			}
@@ -371,18 +352,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["1ECEECDD3F1DBB34"]
-			id: "1A4D3224BF39EFA7"
-			tasks: [{
-				id: "1953F4FF680C483A"
-				item: { count: 1, id: "actuallyadditions:crusher" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["0D7152948770AE7F"]
 			icon: {
 				id: "actuallyadditions:empowerer"
 			}
@@ -400,20 +369,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["5B27D2BA57349AAF"]
-			id: "5043DF2690C1CFED"
-			shape: "gear"
-			tasks: [{
-				id: "00E5883A39BAA2B2"
-				item: { count: 1, id: "botanypots:terracotta_botany_pot" }
-				type: "item"
-			}]
 			x: 14.0d
-			y: -9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["64DDBFEA863697E9"]
@@ -446,8 +403,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -3.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["22BBDE618BB134FE"]
@@ -480,8 +437,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -3.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2CC22C2203005BFF"]
@@ -514,35 +471,35 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -3.0d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["5971AA7E8234AA79"]
+			dependencies: ["2CC8F070EF7584BD"]
 			id: "3FFA638D5CDEBF1B"
 			tasks: [{
 				id: "4704EEFCC3DEA748"
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.0d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2B008EB17CABF755"]
 			id: "2740A375D6EBCB05"
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "397EE4B2D30C65D0"
 				item: { count: 1, id: "kubejs:aer_fluid_bucket" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["1529F9460D2A49FE"]
+			dependencies: ["64DDBFEA863697E9"]
 			icon: {
 				id: "immersiveengineering:crusher"
 			}
@@ -573,7 +530,7 @@
 				}
 			]
 			x: 6.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["75FB247B07C3BF7B"]
@@ -607,7 +564,7 @@
 				}
 			]
 			x: 8.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["796BB04761A96F35"]
@@ -618,14 +575,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"5B27D2BA57349AAF"
-				"1A31F4BEA09D1AF9"
-				"155EDED095DCAE6B"
-			]
+			dependencies: ["1ECEECDD3F1DBB34"]
 			id: "2B008EB17CABF755"
 			tasks: [{
 				id: "60AAD0835DC260A5"
@@ -633,11 +586,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A72CFCDBF3ABF73"]
-			hide_dependent_lines: true
 			id: "155EDED095DCAE6B"
 			shape: "gear"
 			tasks: [{
@@ -645,14 +597,11 @@
 				item: { count: 1, id: "immersiveengineering:plate_duroplast" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.0d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
-			dependencies: [
-				"096875F870AB8F0B"
-				"1A72CFCDBF3ABF73"
-			]
+			dependencies: ["096875F870AB8F0B"]
 			icon: {
 				id: "immersiveengineering:arc_furnace"
 			}
@@ -689,11 +638,10 @@
 				}
 			]
 			x: 10.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["72207EFC62718B7D"]
-			hide_dependent_lines: true
 			id: "1A31F4BEA09D1AF9"
 			shape: "gear"
 			tasks: [{
@@ -701,11 +649,14 @@
 				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -9.0d
+			x: 12.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["3FFA638D5CDEBF1B"]
+			dependencies: [
+				"00FB0980BFB14CD3"
+				"3FFA638D5CDEBF1B"
+			]
 			icon: {
 				id: "pneumaticcraft:refinery"
 			}
@@ -714,16 +665,18 @@
 				{
 					id: "5469A7575D7A3B50"
 					item: { count: 1, id: "pneumaticcraft:refinery" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "29EEEC4E204D8A5A"
 					item: { count: 1, id: "pneumaticcraft:refinery_output" }
+					optional_task: true
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -9.0d
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["64DDBFEA863697E9"]
@@ -784,7 +737,6 @@
 		{
 			dependencies: ["216FDC1A803B60AC"]
 			id: "3276C4FA6F80293A"
-			shape: "gear"
 			tasks: [{
 				id: "4886451BC00CBD7D"
 				item: { count: 1, id: "mmcr:industrial_imbuement_controller" }
@@ -794,14 +746,14 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6BA679217AD6DBB8"]
+			dependencies: ["4253B342CB49E078"]
 			id: "499464A11D38D71F"
 			tasks: [{
 				id: "1206FD1DDBEDAF37"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -7.0d
 		}
 		{
@@ -816,7 +768,7 @@
 				id: "524B216B8280FA17"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -5.0d
 		}
 		{
@@ -825,17 +777,19 @@
 				id: "immersiveengineering:advanced_blast_furnace"
 			}
 			id: "5CB6EA2A68A9037C"
+			optional: true
+			shape: "rsquare"
 			tasks: [
 				{
-					count: 27L
-					id: "55DED638953C2A0F"
-					item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
-					type: "item"
-				}
-				{
-					id: "5454CBF9F13A5667"
-					item: { count: 1, id: "minecraft:hopper" }
-					type: "item"
+					icon: {
+						id: "immersiveengineering:advanced_blast_furnace"
+					}
+					id: "4FE49AA5D75A0251"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:advanced_blast_furnace"
+					type: "observation"
 				}
 				{
 					count: 2L
@@ -856,7 +810,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -871,10 +825,142 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["1A31F4BEA09D1AF9"]
 			id: "00C3498874CCAB65"
 			tasks: [{
 				id: "37A83C05E5E72666"
 				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			id: "3EAB8E5279D3CF73"
+			tasks: [{
+				id: "589EE0F3CC3E3FAE"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1529F9460D2A49FE"]
+			icon: {
+				id: "immersiveengineering:auto_workbench"
+			}
+			id: "47B79E15AB741060"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:auto_workbench"
+					}
+					id: "21A3F76B869C1860"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:auto_workbench"
+					type: "observation"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1B57E58F7EDECB52"
+					item: { count: 1, id: "immersiveengineering:auto_workbench" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["499464A11D38D71F"]
+			icon: {
+				id: "pneumaticcraft:air_compressor"
+			}
+			id: "13F6206C8B723102"
+			rewards: [{
+				id: "4094955F91895C78"
+				item: {
+					components: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63AF354B2500B7C6"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pneumaticcraft:basic_compressor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["13F6206C8B723102"]
+			icon: {
+				id: "pneumaticcraft:advanced_air_compressor"
+			}
+			id: "0CE9557BA608CA22"
+			tasks: [{
+				id: "4B29AE92649276BC"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pneumaticcraft:advanced_compressor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1A31F4BEA09D1AF9"]
+			id: "258F3BBF92677C79"
+			tasks: [{
+				id: "395F35BEC9189521"
+				item: { count: 1, id: "pneumaticcraft:assembly_platform" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1ECEECDD3F1DBB34"]
+			id: "4B3A4AC1A56E5A22"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "3AB6080F6AD96BA9"
+				item: { count: 1, id: "actuallyadditions:crusher" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B27D2BA57349AAF"]
+			id: "73E1CE96E3F14EF5"
+			tasks: [{
+				id: "4B0694854054F110"
+				item: { count: 1, id: "actuallyadditions:canola_press" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["73E1CE96E3F14EF5"]
+			id: "00FB0980BFB14CD3"
+			tasks: [{
+				id: "356713CE041BF6F7"
+				item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
 				type: "item"
 			}]
 			x: 10.0d

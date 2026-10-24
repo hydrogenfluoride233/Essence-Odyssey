@@ -19,8 +19,8 @@
 				item: { count: 1, id: "kubejs:crystal_lux" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			id: "285EB6506FEA658A"
@@ -39,18 +39,8 @@
 				item: { count: 1, id: "kubejs:rune_aqua" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 6.5d
 			y: -2.0d
-		}
-		{
-			id: "2153454C1A2A919F"
-			tasks: [{
-				id: "2149A2BDB70814E8"
-				item: { count: 1, id: "enderio:grains_of_infinity" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: -4.0d
 		}
 		{
 			id: "51A09E2EE1B41729"
@@ -61,6 +51,56 @@
 			}]
 			x: 4.5d
 			y: -2.0d
+		}
+		{
+			id: "1AD22CB51F979425"
+			tasks: [{
+				id: "5630D98633D5608F"
+				item: { count: 1, id: "occultism:fragile_soul_gem" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "13A7FD8383CB4DD4"
+			tasks: [{
+				id: "775E588526073D1F"
+				item: { count: 1, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			id: "35B0B8A07957E4FB"
+			tasks: [{
+				id: "6B2CB504C4FD109B"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "61DB7F811FB1192B"
+			tasks: [{
+				id: "696E7BD716F14647"
+				item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "3B7B8DBF35D5210E"
+			tasks: [{
+				id: "5E2A9CEFF96A6CD0"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
 		}
 	]
 }

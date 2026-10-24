@@ -31,6 +31,11 @@
 		""
 		"将粗绯夜脂与&a深板岩&r合成，可以获得&a绯夜脂锭&r。"
 	]
+	quest.00FB0980BFB14CD3.quest_desc: [
+		"发酵桶可用于将菜籽油发酵为&a精制菜籽油&r。"
+		""
+		"将晶化油菜种子丢入精制菜籽油可以获得&a晶化油&r，将充能油菜种子丢入晶化油可以获得&a充能油&r。这两条配方也可以由&a热气动加工机&r或者&a搅拌机&r完成。"
+	]
 	quest.0109DF2D0978C413.quest_desc: ["咒翼灵骸会随所用技能换持这些武器；如今，你也能把它们做出来，&a为你自己所用&r。"]
 	quest.0109DF2D0978C413.title: "咒魂武器"
 	quest.011DB0FFB4E95919.quest_desc: [
@@ -48,11 +53,11 @@
 	]
 	quest.0171C96CB85AC0B5.quest_desc: ["忘掉那些慢慢悠悠的产线吧，现在你可以&a升级&r你的各种机器！"]
 	quest.01789FF24DAB1731.quest_desc: [
-		"你走过了六个维度，把它们的痕迹一件件带了回来：结晶、精华、印记、装置，还有一条能自己转起来的产线。"
+		"&o&7当第一块钢锭出炉时，你更加深刻地明白了：魔法、科技与冒险从来不是三条分开的路，而是理解同一个世界的三种方法。六重元始要素书写世界的方式，也已在你脚下展开。&r"
 		""
-		"当第一块&a钢锭&r出炉时，你更加深刻地明白了：魔法、科技与冒险从来不是三条分开的路，而是理解同一个世界的三种方法。"
+		"你走过了六个维度，把它们的痕迹一件件带了回来：结晶、精华、印记；你还造出了各类仪式和装置，还有一条条能自己转起来的产线。"
 		"{@pagebreak}"
-		"&a陨石中心那个方块&r还躺在那里。你破坏不了它，读不懂它，只能把它的外壳磨成粉，依葫芦画瓢做出一件件说不清原理、却真的能用的东西。"
+		"但&a陨石中心那个方块&r还躺在那里，你破坏不了它，读不懂它。"
 		""
 		"&l接下来，是学会读懂它。&r"
 	]
@@ -68,6 +73,7 @@
 		"在这里，用瓶与塞可以收集到瓶装曙光。"
 	]
 	quest.0258FA1C2F0406EA.title: "天境"
+	quest.0285D9D3BFC5CBEA.title: "电力与热量"
 	quest.02B0BF4F271034FE.quest_desc: [
 		"The meteor structure answers outside energy with a faint response, but the answer is far too brief to record. An amplifier driven by magical source can widen that echo, until a signal hidden deep inside the blocks becomes discernible for the first time."
 		"What you need is not a stronger spell, but a precise enough way of listening."
@@ -125,6 +131,7 @@
 		"于是你得到火之精华：它不再记得自己烧过什么，只记得&#FF5A01释放&r、&#FF5A01转化&r、&#FF5A01燃烧&r。"
 	]
 	quest.08C5BA5D71D244AF.title: "火之精华"
+	quest.094F8DB5315BE376.title: "电力与生命源质"
 	quest.096875F870AB8F0B.title: "工业挤压机"
 	quest.09A2129D419DDC49.quest_desc: ["&o&m河电，轻而易举啊！&r"]
 	quest.09A2129D419DDC49.quest_subtitle: "河动力"
@@ -182,11 +189,7 @@
 		"&o&7你看不出这一块巨大的陨石和它里面的东西对你有什么用。&r"
 	]
 	quest.0C963B7BCA20460B.title: "发现陨石"
-	quest.0D7152948770AE7F.quest_desc: [
-		"凝胶向对应的矿石蔓延可以获得对应的晶簇。"
-		"暂时先这么获取吧。"
-		"（别忘了你可以通过附魔装置获得精准采集附魔）"
-	]
+	quest.0CE9557BA608CA22.title: "高级压缩机"
 	quest.0DB2CD482BA01F58.quest_desc: ["在主世界中，将紫水晶碎片丢进装有水的炼药锅中。"]
 	quest.0DE6FE73C42F8CA2.quest_desc: [
 		"&o森林仪式记下了生命面对这个维度时留下的情绪。&r"
@@ -207,6 +210,7 @@
 		""
 		"但与此同时，不同质地的天境工具各有一些其独特的功能与特性。"
 	]
+	quest.0E1DB2F236A70179.title: "电力与压力"
 	quest.0EAD190E24BC4DAD.quest_desc: [
 		"&a搅拌机&r用于将固体溶解于流体中，将它们混合在一起。"
 		""
@@ -290,6 +294,14 @@
 		""
 		"&a暮色圣杯&r是合成&a暮色锭&r的催化剂，本身不会在合成中消耗。"
 	]
+	quest.13F6206C8B723102.quest_desc: [
+		"压缩机是通过压缩空气来产生压力的机器。"
+		""
+		"压力P可以按如下公式计算：&l&aP = ( A / V ) - 1&r，其中A表示机器内存储的空气的量，V表示机器的容积。"
+		""
+		"这本手册可以教会你更多。"
+	]
+	quest.13F6206C8B723102.title: "基础压缩机"
 	quest.140B027BBF9B47B2.quest_desc: [
 		"&o森林仪式记下了生命面对这个维度时留下的情绪。&r"
 		""
@@ -355,11 +367,6 @@
 	quest.19047323B0DB5C28.quest_desc: ["烧炼来自于青铜地牢的&a海皇套装&r获得。"]
 	quest.19B7F9090EBCABF9.quest_desc: ["使用&a动力合成器&r制作。"]
 	quest.1A2BE9B2D68901FA.quest_desc: ["使用&a附魔装置&r制作。"]
-	quest.1A4D3224BF39EFA7.quest_desc: [
-		"这玩意儿一点都不好用，但是为了粉碎这些充能的晶体你不得不使用它。"
-		""
-		"&m&o我甚至懒得给它写配方兼容，还是早点扔了它吧。&r"
-	]
 	quest.1A64E09306C5EC80.quest_desc: [
 		"&a牛头人迷宫&r藏在暮光沼泽的湿地之下，牛头人们在黑暗里守着一条通往火焰沼泽的路。 "
 		""
@@ -420,7 +427,9 @@
 	]
 	quest.203DC11C3D09AFA2.title: "击杀徘徊者"
 	quest.216FDC1A803B60AC.quest_desc: [
-		"红石酸的威力比想象中还要强，我尝试着把这些毫不相干的金属溶在一起，再撒上那撮&l&a未知的粉末&r。等冷却下来以后，它们变成了一种特殊的合金。"
+		"&o&7笔记翻到这一页，字迹比别处潦草。&r"
+		""
+		"红石酸的威力比想象中还要强，我尝试着把这些毫不相干的金属溶在一起，再撒上那撮&l&a未知的粉末&r。等冷却下来以后，它们变成了一种&a特殊的合金&r。"
 		""
 		"&o&7笔记中记载了这么一份神秘的配方。但是，为什么？&r"
 	]
@@ -447,9 +456,11 @@
 	]
 	quest.235FDE6DBE018EDE.quest_desc: ["&a无伤&r击败滑行魔石获得。"]
 	quest.236B9D3A654D936D.quest_desc: [
-		"&a交流发电机&r把旋转力变成电，&a特斯拉线圈&r可以消耗电能给物品充能。"
+		"交流发电机把&a应力&r变成电力，五彩脉冲水晶把&a魔源&r和&a灵气&r变成电力。"
 		""
-		"&o由此你获得了电，它可以作为一个通用的转换节点，统一各种“能源”。后续单列「电力生产」一章叙述。&r"
+		"特斯拉线圈可以&a消耗电能&r给物品充能。"
+		""
+		"&o由此你获得了电，它可以作为一个通用的转换节点，统一各种“能源”，也可以接入电网，方便地传输。后续单列「电力生产」一章叙述。&r"
 	]
 	quest.236B9D3A654D936D.title: "电力时代"
 	quest.23801395A0C28C71.quest_desc: [
@@ -467,7 +478,7 @@
 	quest.261B8F2A6269ABE9.quest_desc: ["使用&a压力室&r制作。"]
 	quest.26C4569F0CA4E7D7.quest_desc: [
 		"！？粉碎轮粉碎粉碎轮？！"
-		"&a用粉碎轮粉碎粉碎轮，粉碎轮会被粉碎轮粉碎吗？&r"
+		"&a&l用粉碎轮粉碎粉碎轮，粉碎轮会被粉碎轮粉碎吗？&r"
 	]
 	quest.26C4569F0CA4E7D7.title: "粉碎轮"
 	quest.26D8E6C6A1E587BD.quest_desc: [
@@ -483,12 +494,6 @@
 		"它不会攻击你，只是等着你把&a十六种颜色的羊毛&r凑齐，全部交给它，你就会获得你想要的奖励。"
 	]
 	quest.27219131E0E42F88.quest_desc: ["用&a热带鱼&r喂食幼年利维坦可以驯服它，然后它就能用不成熟的深渊之力帮助你战斗。"]
-	quest.2740A375D6EBCB05.quest_desc: [
-		"Aspect crystals are too quiet — so quiet they hardly seem like aspects at all. Give them enough heat, then enough pressure, and they will speak again: returning the aspects they sealed away, in the form of a fluid."
-		"{@pagebreak}"
-		"For that conversation to happen, you must first prepare liquid source. It is not a fuel so much as a medium: the source bears the heat and the pressure on the crystal's behalf, then guides the aspect smoothly out of the crystal so it does not re-condense halfway."
-		"This is the first time you have set an aspect free from its solid form. From now on it can be piped, measured, and used by machines as a genuine resource."
-	]
 	quest.2740A375D6EBCB05.title: "要素流体"
 	quest.276452D7404A158A.quest_desc: ["使用&a罗纳扎通灵术&r制作。"]
 	quest.27F647FAFC46B251.quest_desc: [
@@ -517,9 +522,9 @@
 	quest.2A90934B95C717BC.title: "森林仪式"
 	quest.2B008EB17CABF755.quest_desc: ["所以为什么有这么多种塑料？"]
 	quest.2C4674EF49DCE846.quest_desc: [
-		"这个包里已经调好了常用设置：小地图在右上角，HUD 摆在该在的位置，按键也避开了互相冲突。"
+		"这个包里已经调好了常用设置：&a小地图&r在右上角，&aHUD&r摆在该在的位置，&a按键&r也尽量避开了互相冲突。"
 		""
-		"你改过的设置不会被更新覆盖；想回到预设，删掉 config 里对应的文件，下次启动就补回来了。"
+		"你改过的设置不会被更新覆盖。想回到预设，删掉config里对应的文件，下次启动会补回来。"
 	]
 	quest.2C4674EF49DCE846.title: "默认配置说明"
 	quest.2C96F0369D75B59D.quest_desc: [
@@ -528,6 +533,13 @@
 		"初次进入天境时，你会获得一本名为&a天境传说&r的指南书。去读一读它吧，聆听这片天空讲述它自己的故事与传奇。"
 	]
 	quest.2CC22C2203005BFF.title: "精炼厂"
+	quest.2CC8F070EF7584BD.quest_desc: [
+		"在高压下把糖、腐肉、气凝胶压在一起，得到了一坨黏糊糊的东西。"
+		""
+		"喂食它所求的&a食物&r，它便开始吞噬附近的物品并&a蔓延&r，留下一些有用的东西。"
+		""
+		"&6&o没人知道它们运作的原理，但它好像不知怎的……有生命？&r"
+	]
 	quest.2D72B8B451B12DFB.quest_desc: [
 		"&a灌注室&r向物品灌注魔源以合成物品。"
 		""
@@ -808,6 +820,7 @@
 		"&o&m但是为什么是砧板？！&r"
 	]
 	quest.477C7D68B338367C.title: "安山时代"
+	quest.47B79E15AB741060.title: "自动化工程师装配台"
 	quest.47FCF20CC8A5E09D.quest_desc: ["在&a天赐块&r上放置一个&a雕刻月螟仙人掌果实&r可以召唤&a天赐傀儡&r，它可以拦截砸向地面的陨石，防止它们摧毁地表上的建筑。"]
 	quest.47FCF20CC8A5E09D.title: "天赐傀儡"
 	quest.481ECA1B87829938.quest_desc: ["这是一个更好的&a获得钢&r的方法&m（吗？）&r。除此之外，它还能精炼一些&a其他的材料&r。"]
@@ -835,7 +848,6 @@
 		""
 		"它具有独特的性能，能与&a压力&r和&a热量&r很好的协作。"
 	]
-	quest.499464A11D38D71F.quest_subtitle: "压缩钢锭"
 	quest.4A540375BBDC6D05.quest_desc: [
 		"要获得各类机壳，你首先需要种植&a苍灰树&r。"
 		""
@@ -897,6 +909,7 @@
 		"登上卫城的顶层，你就来到了boss所在的建筑。准备好以后&a右击正中心的船锚&r，便可唤来斯库拉开始战斗。"
 	]
 	quest.516C33B1C8134654.title: "斯库拉的试炼"
+	quest.526331691A38FD42.quest_desc: ["&o预留给植物魔法的位置。&r"]
 	quest.526FED59584C6513.quest_desc: [
 		"&a巫妖怪塔&r是一座哥特式的尖塔，塔身的砖石被咒语护着，连塔周围的空气都带着压迫感。"
 		""
@@ -974,6 +987,7 @@
 	quest.5A00C69798692D1B.quest_desc: ["天境的木材制作的木质工具，虽然耐久很低，但是可以&a加倍掉落&r。"]
 	quest.5A00C69798692D1B.title: "天境木材"
 	quest.5AA560228973D274.title: "重塑应用能源"
+	quest.5B27D2BA57349AAF.quest_desc: ["看看资源生产多了什么东西"]
 	quest.5CB6EA2A68A9037C.quest_desc: ["改良高炉支持&a输入输出自动化&r，同时还能通过外加&a高炉预热器&r加速精炼过程。"]
 	quest.5CB6EA2A68A9037C.title: "改良高炉"
 	quest.5D6FDC17D4284E3A.quest_desc: [
@@ -1054,7 +1068,7 @@
 	]
 	quest.6382FF32C9CD4C98.title: "建筑棒升级模板"
 	quest.64DDBFEA863697E9.quest_desc: [
-		"金属冲压机可以使用&a金属冲压模具&r对金属进行自动化成型，这其中便包括了各类齿轮。"
+		"金属冲压机可以使用&a金属冲压模具&r对金属进行自动化成型，这其中便包括了各类&a齿轮&r。"
 		""
 		"&o沉浸的机器均得到增强：耗电量减少，处理速度加快。&r"
 	]
@@ -1203,6 +1217,7 @@
 	quest.72B021AA3E3944F3.title: "远古树苗"
 	quest.72D47293DC94CAC0.quest_desc: ["&a量子传送装置&r可以用于跨距离&a无线传输&r物品、电力、流体、气体等物资，不消耗任何资源，且加载锚升级后可以&a跨维度&r传输。"]
 	quest.73D2184B6493313C.quest_desc: ["使用&a启明工作台&r制作。"]
+	quest.73E1CE96E3F14EF5.quest_desc: ["将油菜压榨为菜籽油的任务可以由笨重的&a工业挤压机&r完成，但是你也可以制作这台轻便的&a油菜压榨机&r来完成这项工作。"]
 	quest.741E600F39DCCE9F.quest_desc: [
 		"欢迎来到这个神秘莫测的&a星光维度&r！这里的一切都在等待着你的到来。"
 		""
@@ -1373,7 +1388,9 @@
 	task.17650FBCBA1450E9.title: "远征"
 	task.189307CC8D6EEF7E.title: "风铃"
 	task.1A8BEDAAA27F7163.title: "传送门遗迹"
+	task.1B57E58F7EDECB52.title: "搭建提示"
 	task.203A163FC71A00FC.title: "被诅咒的金字塔"
+	task.21A3F76B869C1860.title: "观察：自动化工程师装配台"
 	task.2305198079015D3A.title: "发现一颗陨石"
 	task.24999E6DE4A1459F.title: "造访青铜地牢"
 	task.24FE31B570989116.title: "异变"
@@ -1402,11 +1419,13 @@
 	task.4798C07EB708E686.title: "击杀永冻"
 	task.4949CEE6599F4ECE.title: "暮色森林"
 	task.4957F257EAD47780.title: "搭建提示"
+	task.4B29AE92649276BC.title: "高级压缩机"
 	task.4C19EFA8BF153159.title: "认识这个世界"
 	task.4C3D832DFA013D0A.title: "苦寒监牢"
 	task.4E664F0AFCBB4293.title: "开端"
 	task.4F2A964E7E3DFD96.title: "沉沦之城"
 	task.4F45886C24B2B9F2.title: "搭建提示"
+	task.4FE49AA5D75A0251.title: "观察：改良高炉"
 	task.4FF759267D5261E9.title: "魔源通道"
 	task.503E6D37F25A71E3.title: "击杀星光傀儡"
 	task.5140F85B109430DF.title: "搭建提示"
@@ -1427,10 +1446,12 @@
 	task.602D6817A35C870F.title: "观察：精炼厂"
 	task.61D450BF8318F2E6.title: "未解之谜"
 	task.61DE08540FEA7353.title: "观察：电弧炉"
+	task.63AF354B2500B7C6.title: "基础压缩机"
 	task.63B2FB528FF866BD.title: "对不起我并没有打它，我逃课了"
 	task.652218963A103A1D.title: "下界"
 	task.65587729DFF5CEC4.title: "观察：搅拌机"
 	task.6634D131AE9072E3.title: "观察：工业发酵机"
+	task.6A61A658028B8319.title: "电力与魔力"
 	task.6E927BFCDAC25C8F.title: "观察：金属冲压机"
 	task.7008DF5E949ABB24.title: "观察：粉碎机"
 	task.71C8B83C37C6DF3B.title: "异“梦”"

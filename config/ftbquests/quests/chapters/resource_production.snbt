@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5043DF2690C1CFED"]
+			dependencies: ["5B27D2BA57349AAF"]
 			hide_until_deps_complete: true
 			id: "309A88B1C29136BA"
 			tasks: [{
@@ -205,6 +205,16 @@
 			}]
 			x: -7.5d
 			y: 0.5d
+		}
+		{
+			id: "6EFA9AA1F54CD9ED"
+			tasks: [{
+				id: "49F0B6A8D719354C"
+				item: { count: 1, id: "apotheosis:spawner_rune" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
 		}
 	]
 }
