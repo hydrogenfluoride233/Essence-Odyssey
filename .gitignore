@@ -59,6 +59,7 @@ Essence Odyssey-*.zip
 packwiz.json
 .github/*
 !.github/CONTRIBUTING.md
+!.github/ISSUE_TEMPLATE/
 
 # ---------------------------------------------------------------------
 #  2. ProbeJS 转储（约 2800 个 .d.ts / 37 MB）

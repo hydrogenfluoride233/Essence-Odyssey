@@ -1,0 +1,43 @@
+name: 文本问题
+description: 任务书中文、英文、译名、错字标点
+title: "[文本] "
+labels: ["任务书"]
+assignees: []
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型
+      options:
+        - 任务书中文
+        - 英文
+        - 汉化译名
+        - 错字／标点
+        - 其它
+    validations:
+      required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: 位置
+      description: 任务书问题写章节和卡 id；译名问题写物品名
+      placeholder: chapter_1 / quest.2E5D92132F9FA3DC
+    validations:
+      required: true
+
+  - type: textarea
+    id: now
+    attributes:
+      label: 现在的内容
+      placeholder: 把原句整个贴进来
+    validations:
+      required: true
+
+  - type: textarea
+    id: want
+    attributes:
+      label: 问题或建议
+      placeholder: 哪里不对、想改成什么
+    validations:
+      required: true

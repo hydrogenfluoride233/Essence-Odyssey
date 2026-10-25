@@ -1,0 +1,51 @@
+name: Bug 报告
+description: 游戏内报错、崩溃，或某个东西表现不对
+title: "[Bug] "
+labels: ["bug"]
+assignees: []
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 影响版本
+      description: 写当前 dev tag，例如 dev-261022
+      placeholder: dev-261022
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 现象写具体：哪个方块／物品／任务卡、报什么错
+      placeholder: 打开任务书第三章时游戏崩溃
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: 日志／崩溃报告
+      description: 贴 latest.log 或 crash-report 里相关的那几段；太长就传成 gist 放链接
+      render: text
+    validations:
+      required: false
+
+  - type: input
+    id: expect
+    attributes:
+      label: 期望结果
+      placeholder: 正常打开，不崩溃
+    validations:
+      required: false
