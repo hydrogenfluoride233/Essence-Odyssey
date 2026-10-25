@@ -2014,7 +2014,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
+hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -6695,7 +6695,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "c42d7aabaefd004cb2d8bd60e3520ae163af9d0032412f086f85be1409902167"
+hash = "de8a25a7bfbd6f1d0adc7b5eecdb6e8162e59be618337c380e25be59917fa1c3"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
