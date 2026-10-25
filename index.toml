@@ -2793,12 +2793,20 @@ file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "e63fbc2d25ccd2d86eb887562d3f5f544dadcb75b0c68dd7cc152f7197a1e2d7"
 
 [[files]]
+file = "defaultconfigs/inventoryhud-client.toml"
+hash = "734855b2094cc554ce0332c8ec2591f1ac6421ebf66c178c538d91e79f411223"
+
+[[files]]
 file = "defaultconfigs/jei/blacklist.json"
 hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "defaultconfigs/jei/client/recipe-category-sort-order.ini"
 hash = "aeb635e1da5f7f0513dab62389213eea850cf977a34fb727abf3f232858b34db"
+
+[[files]]
+file = "defaultconfigs/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
 
 [[files]]
 file = "defaultconfigs/xaerohud.txt"
@@ -4978,7 +4986,7 @@ hash = "e98567a695b7a5d494d741227efa33573456e66dcf6b55106a9d301a86596217"
 
 [[files]]
 file = "kubejs/server_scripts/ars_nouveau.js"
-hash = "cf19271bb650c8a76e2e4a844949528fe6e4a92b5ac365227639d74b3211507f"
+hash = "0e2619b1fda7bd6ce24d468a3810d6063f41db09d55d2df576d61efb9f81d168"
 
 [[files]]
 file = "kubejs/server_scripts/astralsorcery.js"
@@ -4994,7 +5002,7 @@ hash = "f86891ee90043320b8c00b7af164f2c481bfc5808b136e21d387595caf6c896d"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "a2f98d2cc82669e927e22953c532e188a4e55265a5fd6d4eee3fccdef8b1e461"
+hash = "c196820fdab88362bf03fe6c7211bae4888d4333b1139197393b2a2973f48e43"
 
 [[files]]
 file = "kubejs/server_scripts/createaddition.js"
@@ -5022,7 +5030,7 @@ hash = "7b4ac1e692d6a24f1df455031fec4b22b197ca04d6c30ab27f005dd4fc2c742a"
 
 [[files]]
 file = "kubejs/server_scripts/immersiveengineering.js"
-hash = "0bbbd24f808916f8f6188ee4cdcd3623d3dd7e331a10729655bc256d70d08abc"
+hash = "f0619b78a8c722cad286bf86938783f72f6d48c0a32db0bd20c33824cced7c8a"
 
 [[files]]
 file = "kubejs/server_scripts/industrialforegoing.js"
@@ -5066,7 +5074,7 @@ hash = "fce61c05e578903534388459a3d641d760b79ef877684e6589dbda8fa75eefc3"
 
 [[files]]
 file = "kubejs/server_scripts/pneumaticcraft.js"
-hash = "fcbf74aa7e325bbc14626fed090fd28ebe7d4179f7bc27da0039e68595e19f62"
+hash = "36e95b43138a1d55f1a05d946ef0757ef4b45005d91f1493427260946007295f"
 
 [[files]]
 file = "kubejs/server_scripts/portaltransform.js"
@@ -6687,15 +6695,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "273e3714165b02f5d2a1f2e5da2fd8410558d77ebc98c1e7c99d946085cd4caf"
-
-[[files]]
-file = "preset/options.txt"
 hash = "c42d7aabaefd004cb2d8bd60e3520ae163af9d0032412f086f85be1409902167"
-
-[[files]]
-file = "preset/xaerohud.txt"
-hash = "6de57f88c55043cfafb952219205e2080da514284c822a277cd9f1ef804f0def"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
