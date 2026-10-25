@@ -49,11 +49,11 @@
 	]
 	quest.0171C96CB85AC0B5.quest_desc: ["Forget those slow, plodding production lines — you can now &aupgrade&r your Mechanical Press, Mechanical Mixer, Deployer and Spout!"]
 	quest.01789FF24DAB1731.quest_desc: [
-		"You have walked through six dimensions and brought their traces back one by one: crystals, essences, tokens, devices — and a production line that turns on its own."
+		"&o&7When the first Steel Ingot came out of the furnace, you understood it all the more clearly: magic, technology and adventure were never three separate roads, but three ways of reading one and the same world. The way the six primordial aspects write the world has unfolded under your feet as well.&r"
 		""
-		"When the first &aSteel Ingot&r came out of the furnace, you understood it all the more clearly: magic, technology and adventure were never three separate roads, but three ways of reading one and the same world."
+		"You have walked through six dimensions and brought their traces back one by one: crystals, essences, tokens; you have built rituals and devices, and production lines that turn on their own."
 		"{@pagebreak}"
-		"&aThe block at the center of the meteor&r is still lying there. You cannot break it and you cannot read it; all you can do is grind its shell into powder and copy what it does, making one thing after another whose principles you cannot explain, yet which genuinely works."
+		"But &athe block at the center of the meteor&r is still lying there. You cannot break it, and you cannot read it."
 		""
 		"&lNext, it is time to learn to read it.&r"
 	]
@@ -91,7 +91,7 @@
 		"The channel count in this modpack is twice the default."
 	]
 	quest.0447158FB18F70D5.title: "AE2 Notes"
-	quest.04AE1E7E0CAA5837.quest_desc: ["Diamonds are not a requirement — most people just think they are."]
+	quest.04AE1E7E0CAA5837.quest_desc: ["&oDiamonds are not a requirement — most people just think they are.&r"]
 	quest.04AE1E7E0CAA5837.title: "In Case You Can't Find Diamonds"
 	quest.04C5D1E537383AFD.quest_desc: [
 		"&oDrop the Chaos Crystal into the Imbuement Chamber — the source will soak through it first.&r"
@@ -211,8 +211,9 @@
 		"In the &#626262chaos&r token is confusion — it takes away certainty and direction."
 	]
 	quest.1553D272E3538E31.quest_desc: [
-		"Spawns inside loot chests once every Knight Phantom has been defeated."
-		"ps. Do not use an Ars Nouveau Containment Jar on a Knight Phantom...... (otherwise its health bar will stay on your screen forever)"
+		"The Knight Stronghold is a ruin in the Dark Forest, watched over by goblins in knight armour; deep inside stands a pedestal that once held a trophy."
+		""
+		"The &aKnight Phantom&r wanders behind the pedestal. Put it to rest, and the mechanisms of the &aDark Tower&r are yours to work."
 	]
 	quest.15A06B3385469BF5.quest_desc: [
 		"&o&6The Maledictus — once a legendary warrior of the frozen land, later a tyrant commander, now a cursed undead.&r"
@@ -276,11 +277,11 @@
 	quest.217A0236C9312C68.title: "Visit the Twilight Forest"
 	quest.22BBDE618BB134FE.title: "Industrial Fermenter"
 	quest.236B9D3A654D936D.quest_desc: [
-		"&aAn Alternator&r turns rotation into electricity, &awires&r carry that electricity a long way, and an &aElectric Motor&r turns it back into rotation."
+		"&aAn Alternator&r turns stress into electricity; an &aIridescent Pulsating Crystal&r turns &asource&r and &aaura&r into electricity."
 		""
-		"Electricity can change materials directly as well: a &aTesla Coil&r can charge items — feed an Infused Iron electricity and it becomes a Steel Ingot — or discharge into the world."
+		"&aA Tesla Coil&r can spend that electricity to charge items."
 		""
-		"From now on, power no longer has to be handed along shaft by shaft."
+		"&oSo now you have electricity: a universal conversion node that unifies every kind of “energy”, and something you can feed into a grid and carry far away. It will get a chapter of its own later.&r"
 	]
 	quest.236B9D3A654D936D.title: "Power Generation and Use"
 	quest.23801395A0C28C71.quest_desc: [
@@ -335,8 +336,6 @@
 	]
 	quest.2D9A7BCB69358AFC.title: "Trial of the Netherite Monstrosity"
 	quest.2E5D92132F9FA3DC.quest_desc: [
-		"&oIron is no longer enough. Presses, drivetrain, casings — the further you go, the more you need a harder, steadier material.&r"
-		""
 		"&oWith the &aNatural Altar&r&o and a &aTesla Coil&r&o, you smelt your first Steel Ingot. From this ingot on, machine parts can truly be called precision work.&r"
 		""
 		"&o&mHonestly, I have no idea how I came up with a recipe this arcane either&r"
@@ -423,7 +422,7 @@
 		""
 		"Three materials and the Order Essence carve this one stroke: from now on, &#D8D7F0binding&r and &#D8D7F0repeating&r can be called up by ritual."
 	]
-	quest.37F411FC6258C723.quest_desc: ["Now you can see what lies on the other side of the glowstone gate."]
+	quest.37F411FC6258C723.quest_desc: ["&oNow you can see what lies on the other side of the glowstone gate.&r"]
 	quest.37F411FC6258C723.title: "In Case You Can't Find Glowstone"
 	quest.380E92E17E92D38B.quest_desc: ["&o&mTake as much stress as you like (?).&r"]
 	quest.380E92E17E92D38B.quest_subtitle: ["The Steam Age"]
@@ -436,7 +435,7 @@
 		"What remains is the Earth Essence: it no longer remembers which rings of wood it pressed, only &#56C000settling&r, &#56C000bounding&r, &#56C000growing&r."
 	]
 	quest.3811626F7A0570C2.title: "Earth Essence"
-	quest.382FD077B4CB5BA6.quest_desc: ["That shouldn't work... right?"]
+	quest.382FD077B4CB5BA6.quest_desc: ["&oThat shouldn't work... right?&r"]
 	quest.382FD077B4CB5BA6.title: "In Case You Can't Beat a Blaze and an Enderman"
 	quest.38F89B3C95DB51AC.quest_desc: ["In the Aether, drop an Amethyst Shard into the Golden Aercloud."]
 	quest.397C219C667CE90A.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Aether."]
@@ -501,7 +500,11 @@
 		"&oNote: the quest line of this chapter revolves around the &#3EDCFFwater&r&o of the Overworld only. Another chapter, &l\"Dimensions, Aspects, and This World\"&r&o, collects the related content of every primary aspect.&r"
 	]
 	quest.431A6B56EE43ADEE.title: "The Six Primary Aspects"
-	quest.4363AE8363EC43A6.quest_desc: ["Some recipes can only be made on a &aMechanical Crafter&r; a crafting table cannot handle them."]
+	quest.4363AE8363EC43A6.quest_desc: [
+		"Some recipes can only be made on a &aMechanical Crafter&r; a crafting table cannot handle them."
+		""
+		"&oEspecially the small gadgets: some of them need a Mechanical Crafter. Check this card's follow-up quests to see which.&r"
+	]
 	quest.4363AE8363EC43A6.title: "Mechanical Crafter"
 	quest.460FC1911724CF88.quest_desc: ["&oTo be honest, it really is just a fancy pickaxe — but it &ais really cool&r&o, is it not?&r"]
 	quest.46B818618F767629.quest_desc: [
@@ -692,7 +695,7 @@
 	]
 	quest.636F2AFB3BF2AC31.title: "Enchanting Apparatus"
 	quest.64DDBFEA863697E9.title: "Metal Press"
-	quest.656B7D59A1F6492F.quest_desc: ["That is impossible."]
+	quest.656B7D59A1F6492F.quest_desc: ["&oThat is impossible.&r"]
 	quest.656B7D59A1F6492F.title: "In Case You Don't Know What the Overworld Is"
 	quest.6576FFF207EECE9E.quest_desc: [
 		"&o&6A senior guard of the acropolis — a seahorse with a trident, a fine warrior with strong close-quarters skill and ability.&r"
@@ -744,8 +747,8 @@
 	]
 	quest.6D1E3B2DB0CF6EB6.title: "Visit Eternal Starlight"
 	quest.6DDF94B179429870.quest_desc: [
-		"— Only the weak need this."
-		"— Yes, I am the weak one."
+		"&o— Only the weak need this.&r"
+		"&o— Yes, I am the weak one.&r"
 	]
 	quest.6DDF94B179429870.title: "In Case You Can't Find Obsidian"
 	quest.6DE914EC13E3D516.quest_desc: [
@@ -796,7 +799,7 @@
 	quest.75A85A3EB42EA77D.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Nether."]
 	quest.75CBBA83CDDDFB00.quest_desc: ["Collected with a Bottle and Cork from the aura field of the End."]
 	quest.75FB247B07C3BF7B.title: "Crusher"
-	quest.77CCF6E3CA3E9F38.quest_desc: ["...Fine, have it your way."]
+	quest.77CCF6E3CA3E9F38.quest_desc: ["&o...Fine, have it your way.&r"]
 	quest.77CCF6E3CA3E9F38.title: "In Case You Can't Beat the Gatekeeper or the Ender Dragon"
 	quest.780012BD80D8EF84.quest_desc: [
 		"&o&6You have slain every boss of Cataclysm, and stood upon its peak.&r"
