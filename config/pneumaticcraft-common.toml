@@ -52,7 +52,7 @@
 	#Changing this value will alter the pressurized air production of the Electric Compressor. The input, EU, will stay the same
 	# Default: 40
 	# Range: > 0
-	electric_compressor_efficiency = 40
+	electric_compressor_efficiency = 75
 	#Base chance (1/x) per tick of a lightning strike on/around the Electrostatic Generator
 	# Default: 100000
 	# Range: > 0
@@ -64,7 +64,7 @@
 	#The amount of air produced by using 100 FE (Forge Energy) in the flux compressor
 	# Default: 40
 	# Range: > 0
-	flux_compressor_efficiency = 40
+	flux_compressor_efficiency = 75
 	#The amount to multiply the air production of the solar compressor by.
 	# Default: 1.0
 	# Range: 0.0 ~ Infinity
@@ -78,7 +78,7 @@
 	#The amount of air produced by using 100 MJ (Minecraft Joules) in the flux compressor
 	# Default: 40
 	# Range: > 0
-	kinetic_compressor_efficiency = 40
+	kinetic_compressor_efficiency = 75
 	#Can the Liquid Hopper absorb/dispense fluids into the world with a Dispenser Upgrade?
 	liquid_hopper_dispenser = true
 	#Can the Omnidirectional Hopper dispense items into the world with a Dispenser Upgrade?
@@ -100,19 +100,19 @@
 	#The amount of FE (Forge Energy) produced by using 100mL of air in the Pneumatic Dynamo
 	# Default: 40
 	# Range: > 0
-	pneumatic_dynamo_efficiency = 40
+	pneumatic_dynamo_efficiency = 50
 	#The amount of MJ (Minecraft Joules) produced by using 100mL of air in the Pneumatic Dynamo
 	# Default: 40
 	# Range: > 0
-	pneumatic_engine_efficiency = 40
+	pneumatic_engine_efficiency = 50
 	#Changing this value will alter the pressurized air usage of the Pneumatic Generator. The output, EU, will stay the same.
 	# Default: 40
 	# Range: > 0
-	pneumatic_generator_efficiency = 40
+	pneumatic_generator_efficiency = 50
 	#Changing this value will alter the hydraulic bar production of the Pneumatic Pump. The input, air, will stay the same
 	# Default: 40
 	# Range: > 0
-	pneumatic_pump_efficiency = 40
+	pneumatic_pump_efficiency = 75
 	#Minimum pressure required for the Pressurized Spawner to run
 	# Default: 10.0
 	# Range: 1.0 ~ 20.0
@@ -120,11 +120,11 @@
 	#Speed multiplier per speed upgrade: speed mult = speedUpgradeSpeedMultiplier ^ num_of_speed_upgrades
 	# Default: 1.5
 	# Range: 1.0 ~ 2.0
-	speed_upgrade_speed_multiplier = 1.5
+	speed_upgrade_speed_multiplier = 2.0
 	#Fuel usage / heat gen multiplier per speed upgrade: usage mult = speedUpgradeUsageMultiplier ^ num_of_speed_upgrades
 	# Default: 1.649999976158142
 	# Range: 1.0 ~ 2.0
-	speed_upgrade_usage_multiplier = 1.649999976158142
+	speed_upgrade_usage_multiplier = 1.6
 	#Blacklist items from being allowed in the Pressure Chamber disenchanting system. You can use wildcarded matches here, e.g. 'tetra:*' matches all items from the Tetra mod. Blacklisted by default are Quark Ancient Tomes, and all Tetra items; both can lead to enchantment duping as they have special enchantment mechanics.
 	disenchanting_blacklist = ["quark:ancient_tome", "tetra:*"]
 	#ID's of dimensions in which the Aerial Interface is not allowed to operate. You can use wildcarded dimensions here, e.g. 'somemod:*'.
@@ -435,7 +435,7 @@
 	add_mechanic_house = 8
 	#Which trades should the Pressure Mechanic offer? ALL will offer all trades. PCB_BLUEPRINT will offer *only* the PCB Blueprint, an item required for normal progression through the mod. NONE will offer nothing (but the PCB Blueprint is also available via Amadron by default). Note that changing this won't affect any already-spawned Pressure Mechanics.
 	#Allowed Values: NONE, PCB_BLUEPRINT, ALL
-	mechanic_trades = "ALL"
+	mechanic_trades = "NONE"
 
 [drones]
 	#Enable Drone Suffocation Damage

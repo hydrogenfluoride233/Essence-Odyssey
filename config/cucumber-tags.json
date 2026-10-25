@@ -16,5 +16,6 @@
   "c:dusts/niter": "null",
   "c:rubbers": "null",
   "c:gems/peridot": "null",
-  "c:ingots/nickel": "immersiveengineering:ingot_nickel"
+  "c:ingots/nickel": "immersiveengineering:ingot_nickel",
+  "c:dusts/sulfur": "mekanism:dust_sulfur"
 }
