@@ -1,13 +1,13 @@
 name = "Modular Machinery: Community Refoxed"
-filename = "mmcr-neoforge-mc1.21.1-0.1.3.jar"
+filename = "mmcr-neoforge-mc1.21.1-0.1.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "86674eebcc8a20286dfdaaa1e3c21fd668500847"
+hash = "b2c9626ede0df600a0cb19fae284bf431b5ee2d1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9274793
+file-id = 9304111
 project-id = 1654570

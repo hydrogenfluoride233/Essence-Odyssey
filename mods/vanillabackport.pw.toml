@@ -1,13 +1,13 @@
 name = "Vanilla Backport"
-filename = "VanillaBackport-neoforge-1.21.1-1.2.1.jar"
+filename = "VanillaBackport-neoforge-1.21.1-1.2.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2f49b0007991f0ac774eeb31fc3e81abcf728b3c"
+hash = "12871e5330f8b33df7740a975047fc9a584d0387"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9295989
+file-id = 9318571
 project-id = 417430

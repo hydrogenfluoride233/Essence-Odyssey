@@ -1,13 +1,13 @@
 name = "Applied AstralSorcery"
-filename = "appliedas-0.5.2.jar"
+filename = "appliedas-0.5.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c9345e0a88ac01dba41da5b2b62cea9b7f01a033"
+hash = "e42c3f65284676f3820b58d51d7a81a82cdbbd69"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9274036
+file-id = 9305841
 project-id = 1714316
