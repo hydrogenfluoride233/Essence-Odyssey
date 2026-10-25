@@ -27,5 +27,7 @@
   "pneumaticcraft.gui.tooltip.jackhammer.speedcapped.true":"防止瞬间破坏：开",
   "pneumaticcraft.gui.tooltip.jackhammer.speedcapped.false":"防止瞬间破坏：关",
   "programmingPuzzle.pneumaticcraft.condition_dimension.name":"条件：维度",
-  "entity.minecraft.villager.pneumaticcraft:mechanic":"压力技工"
+  "entity.minecraft.villager.pneumaticcraft:mechanic":"压力技工",
+  "gui.tooltip.block.pneumaticcraft.flux_compressor":"将FE能量（与RF和许多其他模组的能量兼容）转换为压缩空气。其基础效率为75%%，也即，消耗100FE才能产生75mL压缩空气。速度升级将略微降低这一效率。\n此压缩机会产生热量，必须将其散热以避免效率损失。",
+  "gui.tooltip.block.pneumaticcraft.pneumatic_dynamo":"将压缩空气转换为FE能量（与RF和许多其他模组的能量兼容）。其基础效率为50%%，也即，消耗100mL压缩空气才能产生50FE。速度升级将略微降低这一效率。\n这个发电机会产生热量，必须散热以避免效率降低。"
 }
