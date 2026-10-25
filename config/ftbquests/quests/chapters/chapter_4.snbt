@@ -5,7 +5,7 @@
 	filename: "chapter_4"
 	group: "76D01E7F0542ED7A"
 	icon: {
-		id: "enderio_evolution:crystalline_alloy_smelter"
+		id: "occultism:celestial_chalice"
 	}
 	id: "0BA7C5B351EC2475"
 	images: [ ]

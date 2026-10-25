@@ -46,8 +46,8 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -9.0d
+			x: 4.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["4253B342CB49E078"]
@@ -171,6 +171,7 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.25d
 			tasks: [
 				{
 					id: "7D25F4D191B14D08"
@@ -193,7 +194,7 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
+			x: -11.0d
 			y: -5.0d
 		}
 		{
@@ -283,16 +284,33 @@
 		}
 		{
 			dependencies: [
-				"6BA679217AD6DBB8"
-				"481ECA1B87829938"
+				"3E14BCC55E258B2F"
+				"4AB4F5A68509FE2D"
 			]
+			icon: {
+				id: "immersiveengineering:workbench"
+			}
 			id: "1529F9460D2A49FE"
-			tasks: [{
-				id: "2D6D29589A1A0394"
-				item: { count: 1, id: "immersiveengineering:workbench" }
-				type: "item"
-			}]
-			x: 2.0d
+			tasks: [
+				{
+					id: "2D6D29589A1A0394"
+					item: { count: 1, id: "immersiveengineering:workbench" }
+					type: "item"
+				}
+				{
+					id: "737DE9B3BA327C5D"
+					item: { components: { "immersiveengineering:blueprint": "molds" }, count: 1, id: "immersiveengineering:blueprint" }
+					match_components: "strict"
+					type: "item"
+				}
+				{
+					id: "5CF31BA34BC9EF55"
+					item: { components: { "immersiveengineering:blueprint": "components" }, count: 1, id: "immersiveengineering:blueprint" }
+					match_components: "strict"
+					type: "item"
+				}
+			]
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -326,7 +344,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -348,10 +366,14 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -7.0d
+			x: 4.0d
+			y: -9.0d
 		}
 		{
+			dependencies: [
+				"0D56A0E086A7FA9D"
+				"155EDED095DCAE6B"
+			]
 			icon: {
 				id: "actuallyadditions:empowerer"
 			}
@@ -403,7 +425,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 6.0d
 			y: -5.0d
 		}
 		{
@@ -437,7 +459,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 8.0d
 			y: -5.0d
 		}
 		{
@@ -471,7 +493,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 10.0d
 			y: -5.0d
 		}
 		{
@@ -482,20 +504,20 @@
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -7.0d
+			x: 6.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2B008EB17CABF755"]
 			id: "2740A375D6EBCB05"
 			shape: "gear"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "397EE4B2D30C65D0"
 				item: { count: 1, id: "kubejs:aer_fluid_bucket" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 18.5d
 			y: -5.0d
 		}
 		{
@@ -529,7 +551,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 8.0d
 			y: -3.0d
 		}
 		{
@@ -563,18 +585,19 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 10.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["796BB04761A96F35"]
+			hide_dependent_lines: true
 			id: "23F9C2FC3B036985"
 			tasks: [{
 				id: "64446A603B3D1A31"
 				item: { count: 1, id: "immersiveengineering:ingot_hop_graphite" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: -3.0d
 		}
 		{
@@ -597,7 +620,7 @@
 				item: { count: 1, id: "immersiveengineering:plate_duroplast" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: -5.0d
 		}
 		{
@@ -637,7 +660,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 12.0d
 			y: -3.0d
 		}
 		{
@@ -649,8 +672,8 @@
 				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -7.0d
+			x: 10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -675,8 +698,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -7.0d
+			x: 8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["64DDBFEA863697E9"]
@@ -709,7 +732,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -731,7 +754,7 @@
 				item: { count: 1, id: "immersiveengineering:redstone_acid_bucket" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -742,7 +765,7 @@
 				item: { count: 1, id: "mmcr:industrial_imbuement_controller" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -814,36 +837,32 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["5EDF156392CA0C8F"]
+			dependencies: [
+				"5EDF156392CA0C8F"
+				"23F9C2FC3B036985"
+				"00C3498874CCAB65"
+			]
 			id: "216FDC1A803B60AC"
 			tasks: [{
 				id: "52A870C58F7F8B67"
 				item: { count: 1, id: "mmcr:modularium" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["1A31F4BEA09D1AF9"]
+			dependencies: ["51A60EA75894B027"]
+			hide_dependent_lines: true
 			id: "00C3498874CCAB65"
+			shape: "gear"
 			tasks: [{
 				id: "37A83C05E5E72666"
 				item: { count: 1, id: "powah:energizing_orb" }
 				type: "item"
 			}]
 			x: 12.0d
-			y: -9.0d
-		}
-		{
-			id: "3EAB8E5279D3CF73"
-			tasks: [{
-				id: "589EE0F3CC3E3FAE"
-				item: { count: 1, id: "powah:dielectric_paste" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -9.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["1529F9460D2A49FE"]
@@ -878,7 +897,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -912,6 +931,8 @@
 				id: "pneumaticcraft:advanced_air_compressor"
 			}
 			id: "0CE9557BA608CA22"
+			optional: true
+			shape: "rsquare"
 			tasks: [{
 				id: "4B29AE92649276BC"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pneumaticcraft:advanced_compressor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -921,18 +942,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["1A31F4BEA09D1AF9"]
-			id: "258F3BBF92677C79"
-			tasks: [{
-				id: "395F35BEC9189521"
-				item: { count: 1, id: "pneumaticcraft:assembly_platform" }
-				type: "item"
-			}]
-			x: 14.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["1ECEECDD3F1DBB34"]
+			dependencies: ["5B27D2BA57349AAF"]
 			id: "4B3A4AC1A56E5A22"
 			optional: true
 			shape: "rsquare"
@@ -941,8 +951,8 @@
 				item: { count: 1, id: "actuallyadditions:crusher" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -3.0d
+			x: 2.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5B27D2BA57349AAF"]
@@ -952,8 +962,8 @@
 				item: { count: 1, id: "actuallyadditions:canola_press" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -9.0d
+			x: 6.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["73E1CE96E3F14EF5"]
@@ -963,8 +973,131 @@
 				item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
 				type: "item"
 			}]
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1A31F4BEA09D1AF9"]
+			icon: {
+				components: {
+					"pneumaticcraft:air": 30000
+				}
+				id: "pneumaticcraft:amadron_tablet"
+			}
+			id: "3E533BD41513A354"
+			tasks: [{
+				id: "375631040117C4B4"
+				item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
+				type: "item"
+			}]
 			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6CE9715E9B2AA79C"]
+			id: "0D56A0E086A7FA9D"
+			shape: "gear"
+			tasks: [{
+				id: "0EA4358EAF18A126"
+				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["147568389F8D910A"]
+			id: "6CE9715E9B2AA79C"
+			tasks: [{
+				id: "1A065EC20F087EAF"
+				item: { count: 1, id: "pneumaticcraft:etching_tank" }
+				type: "item"
+			}]
+			x: 14.0d
 			y: -9.0d
+		}
+		{
+			dependencies: [
+				"1A31F4BEA09D1AF9"
+				"6579EF18AD18A044"
+			]
+			id: "147568389F8D910A"
+			tasks: [{
+				id: "088028382686DD68"
+				item: { count: 1, id: "pneumaticcraft:uv_light_box" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3E533BD41513A354"]
+			id: "6579EF18AD18A044"
+			tasks: [{
+				id: "7702143D68E81F6B"
+				item: { count: 1, id: "pneumaticcraft:pcb_blueprint" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"72207EFC62718B7D"
+				"33FB481FD8A71455"
+			]
+			id: "4EAF62A177AAAEE9"
+			tasks: [{
+				id: "41AC37C5BBA2C910"
+				item: { count: 1, id: "pneumaticcraft:speed_upgrade" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3FFA638D5CDEBF1B"]
+			id: "33FB481FD8A71455"
+			tasks: [{
+				id: "57055091683AF16C"
+				item: { count: 1, id: "pneumaticcraft:upgrade_matrix" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1A31F4BEA09D1AF9"]
+			id: "51A60EA75894B027"
+			tasks: [{
+				id: "19534A905538DCDE"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6BA679217AD6DBB8"]
+			id: "3E14BCC55E258B2F"
+			tasks: [{
+				id: "0C191D5D7A523324"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["481ECA1B87829938"]
+			id: "4AB4F5A68509FE2D"
+			tasks: [{
+				id: "6D809AF3E6BD6394"
+				item: { count: 1, id: "twilightforest:wrought_iron_bar" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
 		}
 	]
 }

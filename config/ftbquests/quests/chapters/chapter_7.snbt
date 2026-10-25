@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "chapter_7"
 	group: "76D01E7F0542ED7A"
+	icon: {
+		id: "minecraft:writable_book"
+	}
 	id: "20392DD40E1EED8C"
 	images: [ ]
 	order_index: 6

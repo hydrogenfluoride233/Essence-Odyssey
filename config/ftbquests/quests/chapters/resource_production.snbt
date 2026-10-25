@@ -216,5 +216,15 @@
 			x: -3.5d
 			y: 4.5d
 		}
+		{
+			id: "0C01F72A7AC05502"
+			tasks: [{
+				id: "673C73B21C495BCF"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
 	]
 }

@@ -307,11 +307,7 @@
 		""
 		"&#626262混沌&r之印记里是茫然——让生命失去确定与方向。"
 	]
-	quest.1529F9460D2A49FE.quest_desc: [
-		"杂酚油可以用来制作&a防腐木板&r，一种非常结实的木板。"
-		""
-		"&a工程师装配台&r的合成材料中包含了防腐木板。它可用于组装&a工程师蓝图&r中记载的物品，也可用于&a改装与配置&r一些工具。"
-	]
+	quest.1529F9460D2A49FE.quest_desc: ["&a工程师装配台&r可用于组装&a工程师蓝图&r中记载的物品，也可用于&a改装与配置&r一些工具。"]
 	quest.1553D272E3538E31.quest_desc: [
 		"黑松骑士要塞是黑暗森林里的一片废墟，穿骑士盔甲的哥布林守在外面，废墟深处有一座放奖杯的基座。"
 		""
@@ -475,6 +471,7 @@
 		"灵魂可以被&a灵魂促速器&r消耗，用于加速其所指向的方块。"
 	]
 	quest.242542377899CEDB.title: "灵魂涌动"
+	quest.258F3BBF92677C79.title: "装配台"
 	quest.261B8F2A6269ABE9.quest_desc: ["使用&a压力室&r制作。"]
 	quest.26C4569F0CA4E7D7.quest_desc: [
 		"！？粉碎轮粉碎粉碎轮？！"
@@ -494,6 +491,12 @@
 		"它不会攻击你，只是等着你把&a十六种颜色的羊毛&r凑齐，全部交给它，你就会获得你想要的奖励。"
 	]
 	quest.27219131E0E42F88.quest_desc: ["用&a热带鱼&r喂食幼年利维坦可以驯服它，然后它就能用不成熟的深渊之力帮助你战斗。"]
+	quest.2740A375D6EBCB05.quest_desc: [
+		"Aspect crystals are too quiet — so quiet they hardly seem like aspects at all. Give them enough heat, then enough pressure, and they will speak again: returning the aspects they sealed away, in the form of a fluid."
+		"{@pagebreak}"
+		"For that conversation to happen, you must first prepare liquid source. It is not a fuel so much as a medium: the source bears the heat and the pressure on the crystal's behalf, then guides the aspect smoothly out of the crystal so it does not re-condense halfway."
+		"This is the first time you have set an aspect free from its solid form. From now on it can be piped, measured, and used by machines as a genuine resource."
+	]
 	quest.2740A375D6EBCB05.title: "要素流体"
 	quest.276452D7404A158A.quest_desc: ["使用&a罗纳扎通灵术&r制作。"]
 	quest.27F647FAFC46B251.quest_desc: [
@@ -708,6 +711,11 @@
 		"放在背包内的&a时间之瓶&r会记录并存储你在游戏中度过的时间，存储的时间可以在你需要时释放出来。"
 		""
 		"对准一个方块右键，可以暂时&a加速&r该方块的更新速度，多次右键效果可以叠加，但同时消耗的时间也会翻倍。"
+	]
+	quest.3E14BCC55E258B2F.quest_desc: [
+		"杂酚油可以用来制作&a防腐木板&r，一种非常结实的木板。"
+		""
+		"它是一种重要的合成材料。"
 	]
 	quest.3E2DFA7DE032E3E8.quest_desc: [
 		"烈焰竞技场坐落在&a下界&r，虽然已经废弃多年，但其间的烈焰从未熄灭。"
@@ -986,6 +994,16 @@
 	quest.5971AA7E8234AA79.title: "压力室"
 	quest.5A00C69798692D1B.quest_desc: ["天境的木材制作的木质工具，虽然耐久很低，但是可以&a加倍掉落&r。"]
 	quest.5A00C69798692D1B.title: "天境木材"
+	quest.5AA560228973D274.quest_desc: [
+		"The fallen star never handed you a method of manufacture. All it left was a record sealed between ore, runes and broken structures."
+		"You corrected the aura with traces of six dimensions, caught the response with magical source, sustained the pulses with machines, and rearranged scattered materials, energies and rules — until at last the silent relic revealed a language that could be read."
+		"{@pagebreak}"
+		"The Inscriber Presses are not the end. They prove that you can now take an accidental discovery apart into stable knowledge, and reassemble that knowledge into a structure that can be repeated, connected and extended."
+		"{@pagebreak}"
+		"From this moment on, storage is no longer merely holding items, and a network is no longer merely passing signals. You begin to establish a new order for this world: letting the traces nature leaves behind be recorded, letting the rules magic reveals be invoked, letting machines complete processes that should by rights be brief, chaotic and irreproducible."
+		"{@pagebreak}"
+		"The inscription of the fallen star has been read. And every component in your hands will be the first stroke in casting the world."
+	]
 	quest.5AA560228973D274.title: "重塑应用能源"
 	quest.5B27D2BA57349AAF.quest_desc: ["看看资源生产多了什么东西"]
 	quest.5CB6EA2A68A9037C.quest_desc: ["改良高炉支持&a输入输出自动化&r，同时还能通过外加&a高炉预热器&r加速精炼过程。"]

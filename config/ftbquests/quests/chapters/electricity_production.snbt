@@ -70,13 +70,15 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["28FA8A95CEE8A4FF"]
+			hide_until_deps_complete: true
 			id: "71355FBA43088A3F"
 			tasks: [{
 				id: "2C1AB38A5FF50D5D"
 				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: 5.5d
 		}
 		{
@@ -115,7 +117,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0A2D3B4F6D9CCB87"]
+			dependencies: [
+				"0A2D3B4F6D9CCB87"
+				"481ECA1B87829938"
+				"6BA679217AD6DBB8"
+			]
 			icon: {
 				id: "immersiveengineering:hammer"
 			}
@@ -179,6 +185,20 @@
 			}]
 			x: -2.0d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0A2D3B4F6D9CCB87"
+				"00C3498874CCAB65"
+			]
+			id: "27AE0FD323DF2FD0"
+			tasks: [{
+				id: "711CD8793E8BFC7B"
+				item: { count: 1, id: "powah:furnator_starter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
 		}
 	]
 }
