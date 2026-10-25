@@ -297,14 +297,14 @@ ServerEvents.recipes(event=>{
 
         [
             [
-                "#pneumaticcraft:smooth_plastic_bricks",
                 "immersiveengineering:plate_duroplast",
+                "industrialforegoing:gold_gear",
                 "kubejs:empowered_emeradic_crystal_dust",
                 "aether:quicksoil_glass",
                 "#pneumaticcraft:smooth_plastic_bricks",
                 "aether:quicksoil_glass",
                 "kubejs:empowered_emeradic_crystal_dust",
-                "immersiveengineering:plate_duroplast",
+                "industrialforegoing:gold_gear",
             ],
             "starbunclemania:fluid_jar",
             "starbunclemania:source_condenser",

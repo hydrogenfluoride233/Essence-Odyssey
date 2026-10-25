@@ -20,6 +20,13 @@ ServerEvents.recipes(event=>{
     event.remove({id: /^immersiveengineering:crafting\/stick_(?!treated$)/})
     event.remove({id:/^create:cutting\/compat\/immersiveengineering\//})
     event.remove({id:"immersiveengineering:crafting/redstone_acid"})                //红石酸
+    event.remove({id:"engineeredcompatibility:mixer/etching_acid_renewable"})       //蚀刻酸
+    event.remove({id:"immersiveengineering:crafting/treated_wood_horizontal"})      //防腐木板
+    event.remove({id:"engineeredcompatibility:crafting_compat/pcb_blueprint"})      //工程师蓝图
+    event.remove({id:"engineeredcompatibility:blueprint/pneumaticcraft/pcb"})
+    event.remove({id:"engineeredcompatibility:blueprint/pneumaticcraft/capacitor"})
+    event.remove({id:"engineeredcompatibility:blueprint/pneumaticcraft/empty_pcb"})
+    event.remove({id:"engineeredcompatibility:blueprint/pneumaticcraft/circuit_backplane"})
 
     //工作台配方
     event.replaceInput(
@@ -66,6 +73,21 @@ ServerEvents.recipes(event=>{
             B:"kubejs:steel_gear"
         }
     )//流体管道
+
+    event.shaped(
+        'immersiveengineering:blueprint[immersiveengineering:blueprint="pcb"]',
+        [
+            "LKL",
+            "DDD",
+            "PPP"
+        ],
+        {
+            L: "pneumaticcraft:printed_circuit_board",
+            K: "pneumaticcraft:pcb_blueprint",
+            D: "#c:dyes/blue",
+            P: "#c:paper"
+        }
+    )//工程师蓝图
 
     //熔炼配方
     event.blasting("immersiveengineering:slag","#c:gravels",0.5,600)
@@ -239,7 +261,7 @@ ServerEvents.recipes(event=>{
             [
                 "actuallyadditions:basic_coil"
             ],
-            "kubejs:ordo_fluid",
+            "actuallyadditions:crystallized_oil",
             500
         ],//高级线圈
     ]
@@ -303,26 +325,96 @@ ServerEvents.recipes(event=>{
         event.custom(recipe)//挤压机
     })
 
-    //临时内容
-    event.remove({id:"engineeredcompatibility:crafting_compat/pcb_blueprint"})
-    event.shaped(
-        'immersiveengineering:blueprint[immersiveengineering:blueprint="pcb"]',
+    //工程师装配台
+    //格式:[类目,"Nx 输出",输入]；不写 N 默认 1
+    const BlueprintList = [
         [
-            "LKL",
-            "DDD",
-            "PPP"
-        ],
-        {
-            L: "#c:ingots/compressed_iron",
-            K: "#c:plates/plastic",
-            D: "#c:dyes/blue",
-            P: "#c:paper"
-        }
-    )
+            "pcb",
+            "pneumaticcraft:printed_circuit_board",
+            [
+                "pneumaticcraft:unassembled_pcb",
+                "immersiveengineering:electron_tube",
+                "pneumaticcraft:transistor",
+                "pneumaticcraft:capacitor"
+            ]
+        ],//印刷电路板
+
+        [
+            "pcb",
+            "pneumaticcraft:transistor",
+            [
+                "3x #pneumaticcraft:wiring",
+                "1x #c:dusts/redstone",
+                "pneumaticcraft:plastic"
+            ]
+        ],//晶体管
+
+        [
+            "pcb",
+            "pneumaticcraft:capacitor",
+            [
+                "2x #pneumaticcraft:wiring",
+                "1x #c:slimeballs",
+                "pneumaticcraft:plastic"
+            ]
+        ],//电容
+
+        [
+            "pcb",
+            "3x pneumaticcraft:empty_pcb",
+            [
+                "2x minecraft:redstone_torch",
+                "3x #pneumaticcraft:wiring",
+                "pneumaticcraft:plastic"
+            ]
+        ],//空印刷电路板
+
+        [
+            "pcb",
+            "kubejs:energy_capacitor",
+            [
+                "2x #pneumaticcraft:wiring",
+                "actuallyadditions:restonia_crystal",
+                "justdirethings:ferricore_ingot"
+            ]
+        ],//聚能电容
+
+        [
+            "pcb",
+            "create:precision_mechanism",
+            [
+                "1x #c:plates/gold",
+                "5x create:cogwheel",
+                "5x create:large_cogwheel",
+                "5x #c:nuggets/iron"
+            ]
+        ],//精密构件
+    ]
+
+    BlueprintList.forEach(([category,output,inputs])=>{
+        const outParts = output.split("x ")
+        const outCount = outParts.length > 1 ? Number(outParts[0]) : 1
+        const outId = outParts.length > 1 ? outParts[1] : output
+
+        event.custom({
+            "type":"immersiveengineering:blueprint",
+            "category":category,
+            "inputs":inputs.map(value=>{
+                const parts = value.split("x ")
+                const size = parts.length > 1 ? Number(parts[0]) : 1
+                const id = parts.length > 1 ? parts[1] : value
+                return {
+                    "basePredicate":id.startsWith("#") ? {"tag":id.slice(1)} : {"item":id},
+                    "count":size
+                }
+            }),
+            "result":{"id":outId,"count":outCount}
+        })
+    })
 
     //沉浸原油
     event.remove({id:"immersivepetroleum:distillationtower/oil"})       //原油蒸馏
-    event.remove({id:"immersivepetroleum:distillationtower/kerosene"})  //煤油裂解：并入蒸馏塔
+    event.remove({id:"immersivepetroleum:distillationtower/kerosene"})  //煤油裂解
 
     event.custom({
         "type":"immersivepetroleum:distillation",

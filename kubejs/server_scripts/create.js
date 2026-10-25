@@ -433,6 +433,26 @@ ServerEvents.recipes(event=>{
     )//没那么神秘的方块
 
     event.recipes.create.sequenced_assembly(
+        "pneumaticcraft:printed_circuit_board",
+        "pneumaticcraft:unassembled_pcb",
+        [
+            event.recipes.create.deploying(
+                "pneumaticcraft:unassembled_pcb",
+                ["pneumaticcraft:unassembled_pcb","immersiveengineering:electron_tube"]
+            ),
+            event.recipes.create.deploying(
+                "pneumaticcraft:unassembled_pcb",
+                ["pneumaticcraft:unassembled_pcb","pneumaticcraft:transistor"]
+            ),
+            event.recipes.create.deploying(
+                "pneumaticcraft:unassembled_pcb",
+                ["pneumaticcraft:unassembled_pcb","pneumaticcraft:capacitor"]
+            )
+        ],
+        "pneumaticcraft:unassembled_pcb",2
+    )//印刷电路板
+
+    event.recipes.create.sequenced_assembly(
         "immersiveengineering:plate_steel",
         "mekanism:ingot_steel",
         [
@@ -551,6 +571,26 @@ ServerEvents.recipes(event=>{
     )//铁质方块制造机
 
     event.recipes.create.mechanical_crafting(
+        "actuallyadditions:empowerer",
+        [
+            "  F  ",
+            "  D  ",
+            " AEA ",
+            "BBCBB",
+            "GGGGG"
+        ],
+        {
+            A:"pneumaticcraft:printed_circuit_board",
+            B:"immersiveengineering:circuit_board",
+            C:"createaddition:modular_accumulator",
+            D:"actuallyadditions:restonia_crystal_cluster",
+            E:"actuallyadditions:display_stand",
+            F:"actuallyadditions:double_battery",
+            G:"actuallyadditions:smooth_black_quartz_block"
+        }
+    )//充能台
+
+    event.recipes.create.mechanical_crafting(
         "3x immersiveengineering:cokebrick",
         ["ABA","BCB","ABA"],
         {
@@ -614,6 +654,17 @@ ServerEvents.recipes(event=>{
         }
     )//液体压缩机
 
+    event.recipes.create.mechanical_crafting(
+        "pneumaticcraft:uv_light_box",
+        ["AAA","BCD","BBB"],
+        {
+            A:"immersiveengineering:light_bulb",
+            B:"pneumaticcraft:ingot_iron_compressed",
+            C:"pneumaticcraft:pcb_blueprint",
+            D:"pneumaticcraft:pressure_tube"
+        }
+    )//紫外线灯箱
+
     //有序合成=>动力合成
     const ShapedMechanicalList = [
             "actuallyadditions:crusher_double",
@@ -649,7 +700,8 @@ ServerEvents.recipes(event=>{
 
             "pneumaticcraft:flux_compressor",
             "pneumaticcraft:electrostatic_compressor",
-            "pneumaticcraft:solar_compressor"
+            "pneumaticcraft:solar_compressor",
+            "pneumaticcraft:etching_tank"
         ]
 
     function toCreateIngredient(ing){

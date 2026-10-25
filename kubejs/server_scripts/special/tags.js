@@ -102,6 +102,9 @@ ServerEvents.tags("item",event=>{
     event.add("pneumaticcraft:advanced_compressor","pneumaticcraft:electrostatic_compressor")
     event.add("pneumaticcraft:advanced_compressor","pneumaticcraft:advanced_air_compressor")
     event.add("pneumaticcraft:advanced_compressor","pneumaticcraft:advanced_liquid_compressor")
+
+    //升级矩阵
+    event.remove("pneumaticcraft:upgrade_components","minecraft:lapis_lazuli")
 })
 
 ServerEvents.tags("block",event=>{

@@ -22,6 +22,16 @@ ServerEvents.recipes(event=>{
     event.remove({id:"pneumaticcraft:refinery"})//精炼厂控制器
     event.remove({id:"pneumaticcraft:refinery_output"})//精炼厂输出端
     event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_biodiesel"})//生物柴油产塑料
+    event.remove({id:"pneumaticcraft:uv_light_box"})//紫外线灯箱
+
+    event.remove({id:"pneumaticcraft:printed_circuit_board"})//印刷电路板
+
+    event.remove({id:"pneumaticcraft:assembly_controller"})//装配台
+    event.remove({id:"pneumaticcraft:assembly_drill"})
+    event.remove({id:"pneumaticcraft:assembly_io_unit_export"})
+    event.remove({id:"pneumaticcraft:assembly_io_unit_import"})
+    event.remove({id:"pneumaticcraft:assembly_laser"})
+    event.remove({id:"pneumaticcraft:assembly_platform"})
 
     //工作台配方
     event.replaceInput(
@@ -129,7 +139,7 @@ ServerEvents.recipes(event=>{
             "pneumaticcraft:turbine_blade",
             [
                 "immersiveengineering:ingot_hop_graphite",
-                "2x kubejs:empowered_void_crystal_dust",
+                "2x kubejs:empowered_enori_crystal_dust",
                 "kubejs:empowered_restonia_crystal_dust"
             ],
             2

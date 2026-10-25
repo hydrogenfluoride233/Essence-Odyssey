@@ -7,21 +7,10 @@ ServerEvents.recipes(event=>{
     event.remove({id:"actuallyadditions:crusher"})                  //磨粉机
     event.remove({id:"actuallyadditions:atomic_reconstructor"})     //原子再构机
     event.remove({id:"actuallyadditions:canola_press"})             //油菜压榨机
+    event.remove({id:"actuallyadditions:empowerer"})                //充能台
 
 
     //工作台配方
-    event.replaceInput(
-        {id:"actuallyadditions:display_stand"},
-        "actuallyadditions:advanced_coil",
-        "actuallyadditions:basic_coil"
-    )//物品展示台
-
-    event.replaceInput(
-        {id:"actuallyadditions:empowerer"},
-        "actuallyadditions:double_battery",
-        "createaddition:modular_accumulator"
-    )//充能台
-
     event.shaped(
         "actuallyadditions:basic_coil",
         ["ABA","BCB","ABA"],
