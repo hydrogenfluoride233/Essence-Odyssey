@@ -2014,7 +2014,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
+hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2118,7 +2118,7 @@ hash = "dc133eef88efaf559729b8ed129b843f59705c5b5cd9bbb81e2b0dd9bf0fc29f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "384583387c1f761df14c0f33939b6f198692666c7f6d7c402f9abac167d582c0"
+hash = "09332b5c2a739a244ec4d41434fd67d5af181fd5ba439c94a085a8af7e59257a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
@@ -2146,7 +2146,7 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity_production.snbt"
-hash = "a8230bb6d831572452bc87e2e7dcb1e19278dbe5702e141070398bc9f86e24c6"
+hash = "25a7040e33c10cb6f01ffb426d53ca24b365138ba778fec8412fd1f5f5c1111b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
@@ -2154,7 +2154,7 @@ hash = "3d0e802be7955499e5605e19f9380ab1fb71f4800893cba8e64f8c1fef7cffe4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
-hash = "ece0b1528e72270b94a9bd11dd732eb726e675653c1375b719d58afbf9196e78"
+hash = "fe0199e6b366013d0085837b23849b5138c7576e6d2dfdb4ae666b6f99b0b66c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
@@ -2182,7 +2182,7 @@ hash = "4ca8b6c9247557309fe16a37b2081e42fc122d3ea96ae019d10b2dc65a63b586"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "99cd6c140b6b5f7428bf30618c940d6d6a857ccd9c23f4be0f49ce841c4c2652"
+hash = "cf0c9b10eb8efc87d47d0f2242bf9c1fa66c18ff0d1696412f75aa4f09ddba34"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -5082,7 +5082,7 @@ hash = "0cad7f06fc7be1e1186f0c41d5c51796a092ac8cba1ed62d370d001e13f65f40"
 
 [[files]]
 file = "kubejs/server_scripts/powah.js"
-hash = "4224a451e0c0a736f8e1fdc67a26f9e8b747af83bda6442208e390612817fa0a"
+hash = "b6b90bf75a7ba6d3bcc95a31b8833237775c797fd33f4a86685d1a0b29850d69"
 
 [[files]]
 file = "kubejs/server_scripts/sanguine_networks.js"
@@ -6695,11 +6695,15 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "de8a25a7bfbd6f1d0adc7b5eecdb6e8162e59be618337c380e25be59917fa1c3"
+hash = "455f043d9a83bc378cf1139bac8da58037cddd3114e11cbf7c43f6d694d3d7f3"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
 hash = "c151e61ff8cd64c0b03e0fefce0d94af85fbb1b4185846479c2101f145e010a8"
+
+[[files]]
+file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"
+hash = "38f77428acdc42fcf90f4061e7d0b4fa857a5381421a4905bb9cecb3a8482c22"
 
 [[files]]
 file = "resourcepacks/ie-reimmersed.pw.toml"
