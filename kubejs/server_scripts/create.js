@@ -85,36 +85,6 @@ ServerEvents.recipes(event=>{
             "kubejs:paradox_collapser",
             "create:crushing_wheel"
         ],//悖论物质
-
-        [
-            "kubejs:empowered_restonia_crystal_dust",
-            "actuallyadditions:empowered_restonia_crystal"
-        ],//充能红石水晶粉
-
-        [
-            "kubejs:empowered_palis_crystal_dust",
-            "actuallyadditions:empowered_palis_crystal"
-        ],//充能青金石水晶粉
-
-        [
-            "kubejs:empowered_diamatine_crystal_dust",
-            "actuallyadditions:empowered_diamatine_crystal"
-        ],//充能钻石水晶粉
-
-        [
-            "kubejs:empowered_void_crystal_dust",
-            "actuallyadditions:empowered_void_crystal"
-        ],//充能煤晶粉
-
-        [
-            "kubejs:empowered_enori_crystal_dust",
-            "actuallyadditions:empowered_enori_crystal"
-        ],//充能铁晶粉
-
-        [
-            "kubejs:empowered_emeradic_crystal_dust",
-            "actuallyadditions:empowered_emeradic_crystal"
-        ],//充能绿宝石水晶粉
     ]
    
     CrushList.forEach(([output,input])=>

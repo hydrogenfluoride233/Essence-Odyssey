@@ -65,6 +65,12 @@ ServerEvents.recipes(event=>{
         "twilightforest:wrought_iron_bar"
     )//工程师装配台
 
+    event.replaceInput(
+        {id:"immersiveengineering:crafting/cloche"},
+        "immersiveengineering:component_iron",
+        "botanypots:terracotta_botany_pot"
+    )//园艺玻璃罩
+
     event.shaped(
         "8x immersiveengineering:fluid_pipe",
         ["AAA","ABA","AAA"],

@@ -105,6 +105,9 @@ ServerEvents.tags("item",event=>{
 
     //升级矩阵
     event.remove("pneumaticcraft:upgrade_components","minecraft:lapis_lazuli")
+
+    //锻铁锭
+    event.add("c:ingots","twilightforest:wrought_iron_bar")
 })
 
 ServerEvents.tags("block",event=>{

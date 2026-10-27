@@ -98,6 +98,7 @@ ServerEvents.recipes(event=>{
         [
             "immersiveengineering:heavy_engineering",
             [
+                "create:brass_casing",
                 "immersiveengineering:sheetmetal_steel",
                 "4x immersiveengineering:component_steel",
                 "4x twilightforest:wrought_iron_bar"
@@ -108,6 +109,7 @@ ServerEvents.recipes(event=>{
         [
             "immersiveengineering:rs_engineering",
             [
+                "create:copper_casing",
                 "immersiveengineering:sheetmetal_iron",
                 "4x minecraft:redstone",
                 "4x twilightforest:wrought_iron_bar"
@@ -118,6 +120,7 @@ ServerEvents.recipes(event=>{
         [
             "immersiveengineering:light_engineering",
             [
+                "create:andesite_casing",
                 "immersiveengineering:sheetmetal_iron",
                 "4x immersiveengineering:component_iron",
                 "4x twilightforest:wrought_iron_bar"
