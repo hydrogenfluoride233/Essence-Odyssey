@@ -343,6 +343,11 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "32BFE1A9ED6B5EB1"
+					item: { count: 1, id: "immersiveengineering:mold_gear" }
+					type: "item"
+				}
 			]
 			x: 6.0d
 			y: -3.0d
@@ -425,8 +430,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -5.0d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["22BBDE618BB134FE"]
@@ -459,8 +464,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -5.0d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2CC22C2203005BFF"]
@@ -493,8 +498,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -5.0d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2CC8F070EF7584BD"]
@@ -551,8 +556,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -3.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["75FB247B07C3BF7B"]
@@ -585,8 +590,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -3.0d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["796BB04761A96F35"]
@@ -597,8 +602,8 @@
 				item: { count: 1, id: "immersiveengineering:ingot_hop_graphite" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -3.0d
+			x: 12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1ECEECDD3F1DBB34"]
@@ -620,8 +625,8 @@
 				item: { count: 1, id: "immersiveengineering:plate_duroplast" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -5.0d
+			x: 14.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["096875F870AB8F0B"]
@@ -660,8 +665,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -3.0d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["72207EFC62718B7D"]
@@ -854,13 +859,23 @@
 		{
 			dependencies: ["51A60EA75894B027"]
 			hide_dependent_lines: true
+			icon: {
+				id: "powah:energizing_orb"
+			}
 			id: "00C3498874CCAB65"
 			shape: "gear"
-			tasks: [{
-				id: "37A83C05E5E72666"
-				item: { count: 1, id: "powah:energizing_orb" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "37A83C05E5E72666"
+					item: { count: 1, id: "powah:energizing_orb" }
+					type: "item"
+				}
+				{
+					id: "0F338206D30B91F4"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energizing_rods)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: -11.0d
 		}

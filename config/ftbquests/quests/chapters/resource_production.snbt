@@ -47,6 +47,7 @@
 		}
 		{
 			dependencies: ["06A39A8F4765BAE9"]
+			hide_dependent_lines: true
 			id: "3E138E3EDB6E96AA"
 			tasks: [{
 				id: "48D5D640A61003DC"
@@ -148,7 +149,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:advanced_beehives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -181,7 +182,7 @@
 				item: { count: 1, id: "occultism:miner_ancient_eldritch" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -5.5d
 			y: 2.5d
 		}
 		{
@@ -192,7 +193,7 @@
 				item: { count: 1, id: "hostilenetworks:sim_chamber" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.5d
 			y: 0.5d
 		}
 		{
@@ -203,27 +204,29 @@
 				item: { count: 1, id: "kubejs:eternal_starlight_prediction" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -10.0d
 			y: 0.5d
 		}
 		{
+			dependencies: ["3E138E3EDB6E96AA"]
 			id: "6EFA9AA1F54CD9ED"
 			tasks: [{
 				id: "49F0B6A8D719354C"
 				item: { count: 1, id: "apotheosis:spawner_rune" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			x: -7.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["309A88B1C29136BA"]
 			id: "0C01F72A7AC05502"
 			tasks: [{
 				id: "673C73B21C495BCF"
 				item: { count: 1, id: "immersiveengineering:cloche" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -3.5d
 			y: -1.5d
 		}
 	]

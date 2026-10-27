@@ -31,14 +31,37 @@
 		}
 		{
 			dependencies: ["722B83DF6BDAAE12"]
+			icon: {
+				id: "immersiveengineering:diesel_generator"
+			}
 			id: "4D55DD74B097B6DE"
-			tasks: [{
-				id: "60717A642114EFAD"
-				item: { count: 1, id: "immersiveengineering:diesel_generator" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:diesel_generator"
+					}
+					id: "2A26FA2C6E957BAD"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:diesel_generator"
+					type: "observation"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbteams:textures/accept.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "60717A642114EFAD"
+					item: { count: 1, id: "immersiveengineering:diesel_generator" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 3.5d
-			y: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["722B83DF6BDAAE12"]
@@ -49,7 +72,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0A2D3B4F6D9CCB87"]
@@ -78,8 +101,8 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -103,7 +126,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["722B83DF6BDAAE12"]
@@ -114,7 +137,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -131,7 +154,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0A2D3B4F6D9CCB87"]
@@ -161,8 +184,8 @@
 				id: "6A61A658028B8319"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A2D3B4F6D9CCB87"]
@@ -172,33 +195,109 @@
 				item: { count: 1, id: "sanguine_networks:virtual_sacrificer" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0A2D3B4F6D9CCB87"]
 			id: "0285D9D3BFC5CBEA"
+			tasks: [
+				{
+					id: "4EE2977DAD876666"
+					item: { count: 1, id: "mekanism:resistive_heater" }
+					type: "item"
+				}
+				{
+					id: "5492B75A559F06B8"
+					item: { count: 1, id: "pneumaticcraft:vortex_tube" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5545CCB773B47F77"]
+			id: "27AE0FD323DF2FD0"
 			tasks: [{
-				id: "4EE2977DAD876666"
-				item: { count: 1, id: "mekanism:resistive_heater" }
+				id: "711CD8793E8BFC7B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:furnators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5545CCB773B47F77"]
+			id: "5873288A13B6DEDC"
+			tasks: [{
+				id: "4EC3AB0EF207BB8D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:solar_panels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5545CCB773B47F77"]
+			id: "0F52CE10BD2F157D"
+			tasks: [{
+				id: "538FBEF22D552E2A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:magmators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5545CCB773B47F77"]
+			id: "03D6F2CF2AF87190"
+			tasks: [{
+				id: "2811D6BF31B7B7D5"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:reactors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5545CCB773B47F77"]
+			id: "7B395641661FEA69"
+			tasks: [{
+				id: "7C561763837B0B38"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:thermo_generators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: [
+				"51A60EA75894B027"
 				"0A2D3B4F6D9CCB87"
-				"00C3498874CCAB65"
 			]
-			id: "27AE0FD323DF2FD0"
+			icon: {
+				id: "powah:wrench"
+			}
+			id: "5545CCB773B47F77"
 			tasks: [{
-				id: "711CD8793E8BFC7B"
-				item: { count: 1, id: "powah:furnator_starter" }
+				id: "7012B85CD37949F4"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35B0B8A07957E4FB"]
+			hide_until_deps_complete: true
+			id: "4D239511F8B752BD"
+			tasks: [{
+				id: "381C232FE152E19E"
+				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 2.0d
 		}
 	]
 }

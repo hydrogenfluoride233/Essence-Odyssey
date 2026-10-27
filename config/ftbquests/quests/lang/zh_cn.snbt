@@ -26,6 +26,7 @@
 		"黄铜与安山合金相比具有更加优异的性能，能够合成更为精密的设备，承担更加复杂的合成任务。"
 	]
 	quest.00402EA6B1870ECF.title: "黄铜时代"
+	quest.00C3498874CCAB65.title: "充能台"
 	quest.00D52A4B60E3BCAB.quest_desc: [
 		"为&a榧木&r去皮后有概率获得&a粗绯夜脂&r。它有很多功能：可以作为燃料使用，也可用于给某些物品打蜡。"
 		""
@@ -73,6 +74,7 @@
 		"在这里，用瓶与塞可以收集到瓶装曙光。"
 	]
 	quest.0258FA1C2F0406EA.title: "天境"
+	quest.0285D9D3BFC5CBEA.quest_desc: ["&o（解锁于后续章节，待开发）&r"]
 	quest.0285D9D3BFC5CBEA.title: "电力与热量"
 	quest.02B0BF4F271034FE.quest_desc: [
 		"The meteor structure answers outside energy with a faint response, but the answer is far too brief to record. An amplifier driven by magical source can widen that echo, until a signal hidden deep inside the blocks becomes discernible for the first time."
@@ -92,6 +94,8 @@
 		"在这里，用瓶与塞可以收集到瓶装鬼魂。"
 	]
 	quest.031C571BBFFCE0B6.title: "下界"
+	quest.03D6F2CF2AF87190.quest_desc: ["&o（解锁于后续章节，待开发）&r"]
+	quest.03D6F2CF2AF87190.title: "反应堆"
 	quest.0447158FB18F70D5.quest_desc: [
 		"现在压印模板无法来源于神秘方块，&m你甚至不能破坏神秘方块&r。"
 		"整合包中的频道数是默认的两倍。"
@@ -131,7 +135,13 @@
 		"于是你得到火之精华：它不再记得自己烧过什么，只记得&#FF5A01释放&r、&#FF5A01转化&r、&#FF5A01燃烧&r。"
 	]
 	quest.08C5BA5D71D244AF.title: "火之精华"
+	quest.094F8DB5315BE376.quest_desc: ["&o（解锁于后续章节，待开发）&r"]
 	quest.094F8DB5315BE376.title: "电力与生命源质"
+	quest.096875F870AB8F0B.quest_desc: [
+		"工业挤压机利用一个大活塞将有机材料中的汁或油&a压榨&r出来。"
+		""
+		"除此之外，它还可以将八份焦煤粉（石油焦粉）压缩为一份&a高定向热解石墨粉&r。"
+	]
 	quest.096875F870AB8F0B.title: "工业挤压机"
 	quest.09A2129D419DDC49.quest_desc: ["&o&m河电，轻而易举啊！&r"]
 	quest.09A2129D419DDC49.quest_subtitle: "河动力"
@@ -189,6 +199,11 @@
 		"&o&7你看不出这一块巨大的陨石和它里面的东西对你有什么用。&r"
 	]
 	quest.0C963B7BCA20460B.title: "发现陨石"
+	quest.0CE9557BA608CA22.quest_desc: [
+		"这些高级的压缩机能够承受&a更大的压力&r，同时产生压缩空气的&a效率&r也更高。"
+		""
+		"&o在后面的章节能够解锁它们。&r"
+	]
 	quest.0CE9557BA608CA22.title: "高级压缩机"
 	quest.0DB2CD482BA01F58.quest_desc: ["在主世界中，将紫水晶碎片丢进装有水的炼药锅中。"]
 	quest.0DE6FE73C42F8CA2.quest_desc: [
@@ -210,6 +225,7 @@
 		""
 		"但与此同时，不同质地的天境工具各有一些其独特的功能与特性。"
 	]
+	quest.0E1DB2F236A70179.quest_desc: ["&o（解锁于后续章节，待开发）&r"]
 	quest.0E1DB2F236A70179.title: "电力与压力"
 	quest.0EAD190E24BC4DAD.quest_desc: [
 		"&a搅拌机&r用于将固体溶解于流体中，将它们混合在一起。"
@@ -217,6 +233,12 @@
 		"其能制作的东西，包括了……&a巧克力&r？"
 	]
 	quest.0EAD190E24BC4DAD.title: "搅拌机"
+	quest.0F52CE10BD2F157D.quest_desc: [
+		"岩浆发电机通过燃烧&a液体燃料&r产出电力。"
+		""
+		"等级的提升可以带来更高的&a存储容量&r、&a产出效率&r和&a输出效率&r，但相同燃料的总发电量是固定的。"
+	]
+	quest.0F52CE10BD2F157D.title: "岩浆发电机"
 	quest.0F98658FB39A828A.quest_desc: ["狂瞳龙卷苏醒后会在中央露庭上空沿波浪状轨迹飞行。当其任意身体部件被摧毁后，会&a分裂&r为独立个体并自主攻击；龙首被摧毁时，后续龙身短暂僵直后将成为新龙首。"]
 	quest.0FF0A4AD565E2758.quest_desc: [
 		"&a末影傀儡&r作为废弃堡垒的守卫者，沉睡在它的第一层和第二层。一旦入侵者出现，它们便会苏醒并与之战斗。"
@@ -313,6 +335,11 @@
 		""
 		"&a幻影骑士&r在基座后徘徊；让它安息，你才能操纵&a黑暗高塔&r里的砷铅铁机关。"
 	]
+	quest.155EDED095DCAE6B.quest_desc: [
+		"工程塑胶由&a酚醛树脂&r合成而来，这种材料具有硬度高、不燃、绝缘的特性，是电气工程中理想的绝缘材料。 "
+		""
+		"在&a灌装机&r中，将树脂注入合适的模具，通过机器施加高温高压，促使树脂硬化，从而制成工程塑胶板。"
+	]
 	quest.15A06B3385469BF5.quest_desc: [
 		"&o&6咒翼灵骸，苦寒之地昔日的传奇战士，后来的暴虐统领，今日的诅咒亡灵。&r"
 		""
@@ -367,6 +394,11 @@
 		"&a牛头人迷宫&r藏在暮光沼泽的湿地之下，牛头人们在黑暗里守着一条通往火焰沼泽的路。 "
 		""
 		"迷宫深处的&a米诺菇&r守着它的蘑菇与沙拉酱，那酱肉能让身体适应&a火焰沼泽&r的高温。"
+	]
+	quest.1A72CFCDBF3ABF73.quest_desc: [
+		"灌装机可以将流体装入容器。"
+		""
+		"它可以用于灌装药水，也可以给混凝土粉末注水使其固化，但更重要的用途是向各类模具中装填&a酚醛树脂&r，或是向&a高定向热解石墨粉&r中注入杂酚油以使其成型。"
 	]
 	quest.1A72CFCDBF3ABF73.title: "灌装机"
 	quest.1B2329D67EC21B7B.quest_desc: [
@@ -444,6 +476,11 @@
 	]
 	quest.22998D294F7048E2.quest_desc: ["这些&a塔&r各有其不同的功能，使用时可以参照对应描述，并配合相应的物品或&a过滤卡&r使用。"]
 	quest.22998D294F7048E2.title: "塔"
+	quest.22BBDE618BB134FE.quest_desc: [
+		"工业发酵机通过发酵过程，从某些水果、谷物和蔬菜中提取&a乙醇&r。"
+		""
+		"&l这可不能喝！&r"
+	]
 	quest.22BBDE618BB134FE.title: "工业发酵机"
 	quest.23110CF42C7F4E33.quest_desc: [
 		"&a传送机&r与&a传送机框架&r配合使用组成传送器：传送机放在底部，传送框架围出一个中间空出两个方块的门形。"
@@ -464,6 +501,7 @@
 		""
 		"用三样材料与火之精华在祭坛上刻下这一笔：从此，&#FF5A01燃烧&r本身可以被仪式唤起。"
 	]
+	quest.23F9C2FC3B036985.quest_desc: ["高定向热解石墨（HOP Graphite）是石墨的一种复杂的同素异形体，用于&a特殊工程建造&r。 "]
 	quest.24015ACDFF37D790.quest_desc: ["用瓶与塞从主世界的灵气场里收集来的。"]
 	quest.242542377899CEDB.quest_desc: [
 		"&a灵魂镭射钻基座&r与镭射钻基座用法相同，在其中放入&a蓝色镭射聚焦透镜&r，其下方如果有监守者，则可以通过给监守者造成伤害获取&a灵魂&r。"
@@ -499,6 +537,12 @@
 	]
 	quest.2740A375D6EBCB05.title: "要素流体"
 	quest.276452D7404A158A.quest_desc: ["使用&a罗纳扎通灵术&r制作。"]
+	quest.27AE0FD323DF2FD0.quest_desc: [
+		"熔炉发电机通过燃烧&a固体燃料&r产出电力。"
+		""
+		"等级的提升可以带来更高的&a存储容量&r、&a产出效率&r和&a输出效率&r，但相同燃料的总发电量是固定的。"
+	]
+	quest.27AE0FD323DF2FD0.title: "熔炉发电机"
 	quest.27F647FAFC46B251.quest_desc: [
 		"&a深渊祭品&r可以用于召唤利维坦。"
 		""
@@ -534,6 +578,11 @@
 		"欢迎来到&a天境&r，这里是主世界之上的澄澈长空。这片天空被某种神秘而强大的邪恶力量所影响，太阳悬在天顶&a永不落下&r。"
 		""
 		"初次进入天境时，你会获得一本名为&a天境传说&r的指南书。去读一读它吧，聆听这片天空讲述它自己的故事与传奇。"
+	]
+	quest.2CC22C2203005BFF.quest_desc: [
+		"精炼厂可以将一种或两种流体提炼成另一种流体。"
+		""
+		"一些精炼过程需要&a催化剂&r的参与，催化剂不会被消耗，但没有催化剂反应无法进行。"
 	]
 	quest.2CC22C2203005BFF.title: "精炼厂"
 	quest.2CC8F070EF7584BD.quest_desc: [
@@ -828,10 +877,11 @@
 		"&o&m但是为什么是砧板？！&r"
 	]
 	quest.477C7D68B338367C.title: "安山时代"
+	quest.47B79E15AB741060.quest_desc: ["给自动化工程师装配台提供&a材料&r和&a电力&r，它就能按照&a蓝图&r中设定的指令，自动化组装出选定的物品。"]
 	quest.47B79E15AB741060.title: "自动化工程师装配台"
 	quest.47FCF20CC8A5E09D.quest_desc: ["在&a天赐块&r上放置一个&a雕刻月螟仙人掌果实&r可以召唤&a天赐傀儡&r，它可以拦截砸向地面的陨石，防止它们摧毁地表上的建筑。"]
 	quest.47FCF20CC8A5E09D.title: "天赐傀儡"
-	quest.481ECA1B87829938.quest_desc: ["这是一个更好的&a获得钢&r的方法&m（吗？）&r。除此之外，它还能精炼一些&a其他的材料&r。"]
+	quest.481ECA1B87829938.quest_desc: ["这是一个更好的&a获得钢&r的方法&m&o（吗？）&r。除此之外，它还能精炼一些&a其他的材料&r。"]
 	quest.481ECA1B87829938.title: "粗制高炉"
 	quest.48407C982D11D8DC.quest_desc: [
 		"刚玉是优良的魔法材料，能吸收环境信息。"
@@ -862,6 +912,11 @@
 		"机壳的骨架不能随便找块木头，它要在灵气里长期不变形，只有苍灰树做得到。"
 	]
 	quest.4A540375BBDC6D05.title: "安山机壳"
+	quest.4AB4F5A68509FE2D.quest_desc: [
+		"把&a核源铁锭&r送进高炉，精炼过后，就成了&a锻铁锭&r。"
+		""
+		"它比铁和钢都更加结实。&a工程师装配台&r要用它做骨架，搭建各类重型机械的&a工程块&r也离不开它。"
+	]
 	quest.4B699022B1FD8A00.quest_desc: [
 		"似乎你已经注意到了紫水晶碎片的异样。"
 		""
@@ -885,6 +940,8 @@
 		"当星光傀儡的&a剩余血量≤20%&r时，它会失去无敌被动，且永久不会切换充能状态与破防状态，从这里开始，你可以随意使用正常手段攻击星光傀儡并造成伤害。"
 	]
 	quest.4CF8C2A8077F34B8.title: "击杀星光傀儡"
+	quest.4D239511F8B752BD.quest_desc: ["##（占位用）"]
+	quest.4D55DD74B097B6DE.title: "柴油发电机"
 	quest.4D69672AA9A6CB0D.quest_desc: [
 		"沉沦之城出现在&a主世界&r深海的海面上，这是一座建筑技巧极其高超的古代遗址。"
 		""
@@ -917,7 +974,7 @@
 		"登上卫城的顶层，你就来到了boss所在的建筑。准备好以后&a右击正中心的船锚&r，便可唤来斯库拉开始战斗。"
 	]
 	quest.516C33B1C8134654.title: "斯库拉的试炼"
-	quest.526331691A38FD42.quest_desc: ["&o预留给植物魔法的位置。&r"]
+	quest.526331691A38FD42.quest_desc: ["&o（解锁于后续章节，待开发）&r"]
 	quest.526FED59584C6513.quest_desc: [
 		"&a巫妖怪塔&r是一座哥特式的尖塔，塔身的砖石被咒语护着，连塔周围的空气都带着压迫感。"
 		""
@@ -948,6 +1005,7 @@
 	]
 	quest.54CC0D96675F33E8.title: "紫水晶碎片"
 	quest.5538B917632BBC54.quest_desc: ["用瓶与塞从暮色森林的灵气场里收集来的。"]
+	quest.5545CCB773B47F77.quest_desc: ["&o这一支为Powah模组添加的发电方式。&r"]
 	quest.56952889BA57C65D.quest_desc: [
 		"&o&6远古遗魂，一具巨大的棘龙骨架，沉睡在诅咒金字塔的最深处，静待挑战者的来临。&r"
 		""
@@ -981,6 +1039,12 @@
 		""
 		"用三样材料与水之精华在祭坛上刻下这一笔：从此，&#3EDCFF流动&r本身可以被仪式唤起。"
 	]
+	quest.5873288A13B6DEDC.quest_desc: [
+		"太阳能板在&a太阳光&r存在时会产出电力。"
+		""
+		"等级的提升可以带来更高的&a存储容量&r、&a产出效率&r和&a输出效率&r。"
+	]
+	quest.5873288A13B6DEDC.title: "太阳能板"
 	quest.589AA6E963E29909.quest_desc: [
 		"&a天辉星门&r结构可用于在两地之间快速传送，可跨维度。"
 		""
@@ -1008,6 +1072,7 @@
 	quest.5B27D2BA57349AAF.quest_desc: ["看看资源生产多了什么东西"]
 	quest.5CB6EA2A68A9037C.quest_desc: ["改良高炉支持&a输入输出自动化&r，同时还能通过外加&a高炉预热器&r加速精炼过程。"]
 	quest.5CB6EA2A68A9037C.title: "改良高炉"
+	quest.5D16935DC546D2E1.quest_desc: ["##整章隐藏，和第三章一起写"]
 	quest.5D6FDC17D4284E3A.quest_desc: [
 		"为五彩脉冲水晶提供&a魔源&r，它同时会消耗周围灵气场中的&a灵气&r，产出电力。"
 		""
@@ -1216,6 +1281,7 @@
 		"它们还可以用于制作一些饰品。"
 	]
 	quest.708C965D7191F1FF.title: "紫晶石和穹玉晶石"
+	quest.71355FBA43088A3F.quest_desc: ["##（占位用）"]
 	quest.71F2C2CF724481F9.quest_desc: [
 		"合金炉生成于&a傀儡锻造厂&r的特定房间，它是一种专门用于冶炼合金或增产矿物的大型设备。"
 		""
@@ -1265,6 +1331,11 @@
 	]
 	quest.75A85A3EB42EA77D.quest_desc: ["用瓶与塞从下界的灵气场里收集来的。"]
 	quest.75CBBA83CDDDFB00.quest_desc: ["用瓶与塞从末地的灵气场里收集来的。"]
+	quest.75FB247B07C3BF7B.quest_desc: [
+		"如同粉碎轮，&a粉碎机&r可以用于粉碎矿物使其增产；但它还能粉碎一些粉碎轮无法粉碎的东西，比如焦煤。"
+		""
+		"&l小心不要掉进去了！&r"
+	]
 	quest.75FB247B07C3BF7B.title: "粉碎机"
 	quest.7692932667CF698E.quest_desc: [
 		"黑暗高塔的机关被要塞深处的数股魔力压制着，不受任何人控制。 "
@@ -1309,7 +1380,20 @@
 		"向它们的巢穴中放入&a种子&r赠予它们，它们会接受你的礼物，并给予你回礼，其中便包含此种珍贵的材料。"
 	]
 	quest.791B7C1CD2D53F4E.title: "星火鸟的礼物"
+	quest.796BB04761A96F35.quest_desc: [
+		"电弧炉是用来快速熔化金属的大型结构。它由一个钢制大缸和上方的加热电极构成。 产生的&a炉渣&r需及时移出电弧炉，否则会停止运作。降解的&a电极&r也需要按时进行交换。"
+		""
+		"石墨电极在&a灌装机&r中加工而成。"
+	]
 	quest.796BB04761A96F35.title: "电弧炉"
+	quest.7B395641661FEA69.quest_desc: [
+		"热力发电机被放置于&a热源&r上方时会产出电力，但同时需要消耗&a冷却剂&r。"
+		""
+		"等级的提升可以带来更高的&a存储容量&r、&a产出效率&r和&a输出效率&r。"
+		""
+		"热源与冷却剂的温度共同决定了&a产出倍率&r。"
+	]
+	quest.7B395641661FEA69.title: "热力发电机"
 	quest.7BF679E3CD97A80C.quest_desc: [
 		"忧伤沉下去，就成了悲痛。"
 		""
@@ -1367,6 +1451,7 @@
 	]
 	quest.7DB027710EA5DD66.quest_desc: ["占位用"]
 	quest.7DD5555C7BFD4CB4.quest_desc: ["占位用"]
+	quest.7DD5555C7BFD4CB4.title: "高级蜂箱"
 	quest.7F19D8E7C6B231AF.quest_desc: ["占位用"]
 	quest.7F2312EB5A2653DB.quest_desc: ["在暮色森林中，用紫水晶碎片右键活根等方块获取。"]
 	quest.7F56175670CB6E0A.quest_desc: ["将紫水晶碎片丢入末地传送门中获取。"]
@@ -1395,6 +1480,7 @@
 	task.0C3BC7C3DCD4C737.title: "天境"
 	task.0CE38A58F6210D0C.title: "搭建提示"
 	task.0DB4F6E60318D8B1.title: "搭建提示"
+	task.0F338206D30B91F4.title: "充能棒"
 	task.0FE69EFC07C3F37B.title: "造访白银地牢"
 	task.1020B179D4A103E8.title: "建筑小帮手"
 	task.10592E63525168AF.title: "电力生产"
@@ -1413,8 +1499,10 @@
 	task.24999E6DE4A1459F.title: "造访青铜地牢"
 	task.24FE31B570989116.title: "异变"
 	task.26F5A19DA793B3CA.title: "关于生命上限"
+	task.2811D6BF31B7B7D5.title: "反应堆"
 	task.28F99E7393821F8D.title: "搭建提示"
 	task.28FCFA1AAE2720F6.title: "造访黄铜地牢"
+	task.2A26FA2C6E957BAD.title: "观察：柴油发电机"
 	task.2AEC8E8240A9E4C3.title: "搭建提示"
 	task.2C0E687C81089841.title: "灵气生产"
 	task.2F25F6E4CB25B4AC.title: "天境工具"
@@ -1433,7 +1521,7 @@
 	task.4169278B721935AA.title: "暮色传送门"
 	task.4187313DDDBF9184.title: "造访星光维度"
 	task.42FC38BAB37B938E.title: "搭建提示"
-	task.46EFD3F234E4B55C.title: "Any #productivebees:advanced_beehives"
+	task.46EFD3F234E4B55C.title: "高级蜂箱"
 	task.4798C07EB708E686.title: "击杀永冻"
 	task.4949CEE6599F4ECE.title: "暮色森林"
 	task.4957F257EAD47780.title: "搭建提示"
@@ -1441,6 +1529,7 @@
 	task.4C19EFA8BF153159.title: "认识这个世界"
 	task.4C3D832DFA013D0A.title: "苦寒监牢"
 	task.4E664F0AFCBB4293.title: "开端"
+	task.4EC3AB0EF207BB8D.title: "太阳能板"
 	task.4F2A964E7E3DFD96.title: "沉沦之城"
 	task.4F45886C24B2B9F2.title: "搭建提示"
 	task.4FE49AA5D75A0251.title: "观察：改良高炉"
@@ -1451,6 +1540,7 @@
 	task.524B216B8280FA17.title: "新的一页"
 	task.52F7FD6FA9E4B929.title: "领取一张唱片"
 	task.53413AAB9034897F.title: "对不起我没用上这个，我无所畏惧"
+	task.538FBEF22D552E2A.title: "岩浆发电机"
 	task.5625D5350E3BC657.title: "造访诅咒花园"
 	task.58FBFED05322F7D4.title: "沉浸工程"
 	task.58FC5CA8599FE323.title: "造访黄金地牢"
@@ -1462,6 +1552,7 @@
 	task.5E53E9F84C08B55C.title: "造访傀儡锻造厂"
 	task.5FFB3987D788C033.title: "永恒星光"
 	task.602D6817A35C870F.title: "观察：精炼厂"
+	task.60717A642114EFAD.title: "搭建提示"
 	task.61D450BF8318F2E6.title: "未解之谜"
 	task.61DE08540FEA7353.title: "观察：电弧炉"
 	task.63AF354B2500B7C6.title: "基础压缩机"
@@ -1472,12 +1563,15 @@
 	task.6A61A658028B8319.title: "电力与魔力"
 	task.6E927BFCDAC25C8F.title: "观察：金属冲压机"
 	task.7008DF5E949ABB24.title: "观察：粉碎机"
+	task.7012B85CD37949F4.title: "Powah"
+	task.711CD8793E8BFC7B.title: "熔炉发电机"
 	task.71C8B83C37C6DF3B.title: "异“梦”"
 	task.7364963D50029ACA.title: "搭建提示"
 	task.73B7DE094D9C8EE8.title: "AE2"
 	task.74A6BFF77446A183.title: "烈焰竞技场"
 	task.75BFDE05DC02A082.title: "初始套装"
 	task.79A3CE6CA5DB4E9A.title: "搭建提示"
+	task.7C561763837B0B38.title: "热力发电机"
 	task.7D2F04B3382958EC.title: "对不起我并没有打它，我逃课了"
 	task.7D64FAEDE0146D56.title: "传送石碑"
 	task.7E6F682B99D230E1.title: "任意原木"
