@@ -2118,11 +2118,11 @@ hash = "dc133eef88efaf559729b8ed129b843f59705c5b5cd9bbb81e2b0dd9bf0fc29f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "09332b5c2a739a244ec4d41434fd67d5af181fd5ba439c94a085a8af7e59257a"
+hash = "edcccba1736441506b14223db66de34af43d2d3c49db7142d446bc7dd9be7252"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
-hash = "b4184114f45cb2ccab9e4b49e2885c1acb1132a77572863a255068c296081ae7"
+hash = "2ce28c980170b7686e9bd804c8cd4cf503798f0f78965ffee6c709e2d6f9fb76"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_4.snbt"
@@ -2146,7 +2146,7 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity_production.snbt"
-hash = "25a7040e33c10cb6f01ffb426d53ca24b365138ba778fec8412fd1f5f5c1111b"
+hash = "2f8169283121d28e829dc8baf518882ddf48501d0b55a901ff2bdb92ebd4357c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
@@ -2154,7 +2154,7 @@ hash = "3d0e802be7955499e5605e19f9380ab1fb71f4800893cba8e64f8c1fef7cffe4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
-hash = "fe0199e6b366013d0085837b23849b5138c7576e6d2dfdb4ae666b6f99b0b66c"
+hash = "20db6ac6e92486e1e97e775ed412bda7cc4a116cd049fee04f9535dd97437dc0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
@@ -2182,7 +2182,7 @@ hash = "4ca8b6c9247557309fe16a37b2081e42fc122d3ea96ae019d10b2dc65a63b586"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "cf0c9b10eb8efc87d47d0f2242bf9c1fa66c18ff0d1696412f75aa4f09ddba34"
+hash = "309f8af81b368b8cc14bbd317827e86dc7a7b5ec5edf6b21ac3407dbaebda501"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2826,7 +2826,7 @@ hash = "99f8f5db3e8242ff4fba2c7bb96d176377b6862fe63c8362b44544b3d9fac595"
 
 [[files]]
 file = "kubejs/assets/actuallyadditions/lang/zh_cn.json"
-hash = "00b274ab70d913b3a11c467fea7c60f6fb112508b09d48e661ab6ba21fde96a8"
+hash = "45a1084a990497b5d49527d6ce88e8abc326b7f9f9474f219932f0f0479662f2"
 
 [[files]]
 file = "kubejs/assets/ae2/ae2guide/_zh_cn/items-blocks-machines/mysterious_cube.md"
@@ -5002,7 +5002,7 @@ hash = "f86891ee90043320b8c00b7af164f2c481bfc5808b136e21d387595caf6c896d"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "c196820fdab88362bf03fe6c7211bae4888d4333b1139197393b2a2973f48e43"
+hash = "0e2ce9f3da0345f35462374f8f2b8368ebd20d4c628ad4d6bf5181dc6151d676"
 
 [[files]]
 file = "kubejs/server_scripts/createaddition.js"
@@ -5030,7 +5030,7 @@ hash = "7b4ac1e692d6a24f1df455031fec4b22b197ca04d6c30ab27f005dd4fc2c742a"
 
 [[files]]
 file = "kubejs/server_scripts/immersiveengineering.js"
-hash = "f0619b78a8c722cad286bf86938783f72f6d48c0a32db0bd20c33824cced7c8a"
+hash = "ca6d11b131c741450e2ecbc92041947b74cf99383f1a2f2da8d713d76da06f1d"
 
 [[files]]
 file = "kubejs/server_scripts/industrialforegoing.js"
@@ -5074,7 +5074,7 @@ hash = "fce61c05e578903534388459a3d641d760b79ef877684e6589dbda8fa75eefc3"
 
 [[files]]
 file = "kubejs/server_scripts/pneumaticcraft.js"
-hash = "36e95b43138a1d55f1a05d946ef0757ef4b45005d91f1493427260946007295f"
+hash = "bdf964c20f12c2c02faf73b93189fd207de1e3df0006a6de690da123c458e3a8"
 
 [[files]]
 file = "kubejs/server_scripts/portaltransform.js"
@@ -5106,7 +5106,7 @@ hash = "76ab7e601864330e55810c2b7bf4dd9b96d2159f4005afb7bef40f7fed77394f"
 
 [[files]]
 file = "kubejs/server_scripts/special/tags.js"
-hash = "9dac92fcbc71742023e8257bc68a6d1cd6422829c87ca7a0d0768af5950a44f4"
+hash = "5d7a6248e6228b94c5c3bd2ac264951ff78ff939ab0a8678275366e77bee9586"
 
 [[files]]
 file = "kubejs/server_scripts/special/villagers.js"
@@ -5881,11 +5881,6 @@ metafile = true
 [[files]]
 file = "mods/hostile-neural-networks.pw.toml"
 hash = "d8d964dfe772806533fde01d62bcc029e2232fe325d9097865a7397e5f598cf4"
-metafile = true
-
-[[files]]
-file = "mods/i18nupdatemod.pw.toml"
-hash = "76bc3487ee8c8c9296d1ea0469f98806bfb3bec8fbedb0db381b9fb864174952"
 metafile = true
 
 [[files]]
@@ -6703,7 +6698,7 @@ hash = "c151e61ff8cd64c0b03e0fefce0d94af85fbb1b4185846479c2101f145e010a8"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"
-hash = "38f77428acdc42fcf90f4061e7d0b4fa857a5381421a4905bb9cecb3a8482c22"
+hash = "cf88562d97bde6b08f0c01ac7ae38309b0959cb5cf07018f324f05efc1005370"
 
 [[files]]
 file = "resourcepacks/ie-reimmersed.pw.toml"
