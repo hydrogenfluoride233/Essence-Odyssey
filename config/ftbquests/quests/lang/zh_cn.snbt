@@ -26,6 +26,13 @@
 		"黄铜与安山合金相比具有更加优异的性能，能够合成更为精密的设备，承担更加复杂的合成任务。"
 	]
 	quest.00402EA6B1870ECF.title: "黄铜时代"
+	quest.00C3498874CCAB65.quest_desc: [
+		"&a充能台&r和&a充能棒&r共同用于为物品充能。"
+		""
+		"充能的速度取决于充能棒的等级和数量，更高等级的充能棒拥有更大的输入输出速率。"
+		""
+		"&o关于Powah的更多内容参见「电力生产」一章。&r"
+	]
 	quest.00C3498874CCAB65.title: "充能台"
 	quest.00D52A4B60E3BCAB.quest_desc: [
 		"为&a榧木&r去皮后有概率获得&a粗绯夜脂&r。它有很多功能：可以作为燃料使用，也可用于给某些物品打蜡。"
@@ -205,6 +212,7 @@
 		"&o在后面的章节能够解锁它们。&r"
 	]
 	quest.0CE9557BA608CA22.title: "高级压缩机"
+	quest.0D56A0E086A7FA9D.quest_desc: ["在未组装的印刷电路板上安装&a电容&r、&a晶体管&r和&a真空管&r，便可以获得&a组装好的印刷电路板&r。"]
 	quest.0DB2CD482BA01F58.quest_desc: ["在主世界中，将紫水晶碎片丢进装有水的炼药锅中。"]
 	quest.0DE6FE73C42F8CA2.quest_desc: [
 		"&o森林仪式记下了生命面对这个维度时留下的情绪。&r"
@@ -225,7 +233,7 @@
 		""
 		"但与此同时，不同质地的天境工具各有一些其独特的功能与特性。"
 	]
-	quest.0E1DB2F236A70179.quest_desc: ["&o（解锁于后续章节，待开发）&r"]
+	quest.0E1DB2F236A70179.quest_desc: ["通量压缩机与气动能源炉，能将&a电力&r与&a压力&r互相转化。"]
 	quest.0E1DB2F236A70179.title: "电力与压力"
 	quest.0EAD190E24BC4DAD.quest_desc: [
 		"&a搅拌机&r用于将固体溶解于流体中，将它们混合在一起。"
@@ -258,13 +266,14 @@
 		"{@pagebreak}"
 		"（1）六个孤立的维度间的通路被彻底打通，以前只能交换物品的传送门，现在&n&l允许生物穿越&r到另一边的维度。"
 		""
-		"（2）以前只会安静待在灵气场里的要素，现在在某些地方&l&n外溢&r到物质世界。它们似乎可以与某些物质&l&n共振&r，并凝结为&n&l物质形态&r。"
+		"（2）以前只会安静待在灵气场里的要素，现在在某些地方&l&n外溢&r到物质世界。外溢的要素似乎可以被某些&l&n&a物质承载&r，并凝结为&l&n&a物质形态&r。"
 		""
 		"（3）观察到元始要素变得活泼，通过不同的手段，可以得到相应的&n&l衍生物&r。"
 		""
 		"（4）&k元始要素间不再孤立存在，而是可以两两化合，得到若干&l&n二级要素&r。"
 		"&o&7似乎还有些内容，但你现在不知道是什么含义。&r"
 	]
+	quest.11F05068792402E5.quest_subtitle: "The Change"
 	quest.1217093AA675C1E8.quest_desc: ["&a纠缠方块&r可以“吸收”被纠缠方块的各种能力，对这个方块的各种操作，如漏斗输入物品，相当于对被纠缠方块的操作。"]
 	quest.1217950B47119C27.quest_desc: [
 		"&6&o灾变（L_Ender's Cataclysm）&r&o是一个增加了多种不同的困难的地牢、各种具有挑战性的Boss和强大装备的模组。&r"
@@ -329,6 +338,11 @@
 		""
 		"&#626262混沌&r之印记里是茫然——让生命失去确定与方向。"
 	]
+	quest.147568389F8D910A.quest_desc: [
+		"印刷电路板（PCB）是许多高阶机器和工具所使用的重要组件，制作一块需要经过几个步骤。"
+		""
+		"空印刷电路板在压力室中制造而成。接下来，将其放入&a紫外线灯箱&r中进行化学显影。"
+	]
 	quest.1529F9460D2A49FE.quest_desc: ["&a工程师装配台&r可用于组装&a工程师蓝图&r中记载的物品，也可用于&a改装与配置&r一些工具。"]
 	quest.1553D272E3538E31.quest_desc: [
 		"黑松骑士要塞是黑暗森林里的一片废墟，穿骑士盔甲的哥布林守在外面，废墟深处有一座放奖杯的基座。"
@@ -390,6 +404,7 @@
 	quest.19047323B0DB5C28.quest_desc: ["烧炼来自于青铜地牢的&a海皇套装&r获得。"]
 	quest.19B7F9090EBCABF9.quest_desc: ["使用&a动力合成器&r制作。"]
 	quest.1A2BE9B2D68901FA.quest_desc: ["使用&a附魔装置&r制作。"]
+	quest.1A31F4BEA09D1AF9.quest_desc: ["熔融塑料只需&a倒入世界&r中即可凝固为&a一块塑料片&r。而将将一桶或一储罐熔融塑料放入一个安装有&a导热框架&r的容器，并对其进行冷却，便有机会&a额外获得&r塑料片。"]
 	quest.1A64E09306C5EC80.quest_desc: [
 		"&a牛头人迷宫&r藏在暮光沼泽的湿地之下，牛头人们在黑暗里守着一条通往火焰沼泽的路。 "
 		""
@@ -438,7 +453,11 @@
 		"启动后，晶生催化器会自动选取并破坏以自身为中心、周围一定范围内离自身最近的自然方块（泥土、石头、矿石等，优先破坏矿石），留下&a晶藓块&r或&a晶砂&r补位。"
 	]
 	quest.1EA7CB9F4E022E6E.quest_desc: ["在下界中，将紫水晶碎片丢入火焰中。"]
-	quest.1ECEECDD3F1DBB34.quest_desc: ["主要用于为水晶赋能。"]
+	quest.1ECEECDD3F1DBB34.quest_desc: [
+		"充能台主要用于&a为水晶赋能&r。"
+		""
+		"将要充能的物品放置在充能台上，再将其他的物品摆放在物品展示台上，为物品展示台提供电力，即可激活合成。"
+	]
 	quest.1F294AEF1621DA65.quest_desc: [
 		"&a旅行锚&r允许你传送至其他旅行锚。它可以被&a喷涂机&r喷涂&o&m（虽然貌似有点奇妙的渲染问题）&r，右击以打开配置界面，可以配置显示的图标与名称。"
 		""
@@ -529,12 +548,7 @@
 		"它不会攻击你，只是等着你把&a十六种颜色的羊毛&r凑齐，全部交给它，你就会获得你想要的奖励。"
 	]
 	quest.27219131E0E42F88.quest_desc: ["用&a热带鱼&r喂食幼年利维坦可以驯服它，然后它就能用不成熟的深渊之力帮助你战斗。"]
-	quest.2740A375D6EBCB05.quest_desc: [
-		"Aspect crystals are too quiet — so quiet they hardly seem like aspects at all. Give them enough heat, then enough pressure, and they will speak again: returning the aspects they sealed away, in the form of a fluid."
-		"{@pagebreak}"
-		"For that conversation to happen, you must first prepare liquid source. It is not a fuel so much as a medium: the source bears the heat and the pressure on the crystal's behalf, then guides the aspect smoothly out of the crystal so it does not re-condense halfway."
-		"This is the first time you have set an aspect free from its solid form. From now on it can be piped, measured, and used by machines as a genuine resource."
-	]
+	quest.2740A375D6EBCB05.quest_desc: ["##第二章的终点。我觉得可以像第一章一样总结收束一下"]
 	quest.2740A375D6EBCB05.title: "要素流体"
 	quest.276452D7404A158A.quest_desc: ["使用&a罗纳扎通灵术&r制作。"]
 	quest.27AE0FD323DF2FD0.quest_desc: [
@@ -567,7 +581,11 @@
 		"为进行森林仪式，你需要制作一些金叶粉。你的第一份金叶粉由&a下落的铁砧&r砸中黄金叶获得。你还需要准备一些木基座，在&a砧板&r上用闪耀纤维右键去皮橡木原木以获取。"
 	]
 	quest.2A90934B95C717BC.title: "森林仪式"
-	quest.2B008EB17CABF755.quest_desc: ["所以为什么有这么多种塑料？"]
+	quest.2B008EB17CABF755.quest_desc: [
+		"魔源凝聚器用于将魔源凝聚为流体。要素在灵气场中被灵气所承载，而当其凝结为物质时"
+		""
+		"重型机械与小型机械，电、压力和热，在此处第一次交汇。"
+	]
 	quest.2C4674EF49DCE846.quest_desc: [
 		"这个包里已经调好了常用设置：&a小地图&r在右上角，&aHUD&r摆在该在的位置，&a按键&r也尽量避开了互相冲突。"
 		""
@@ -604,6 +622,7 @@
 		"当你走向下界合金巨兽&a所在的平台&r中央时，它便会从沉睡中苏醒。"
 	]
 	quest.2D9A7BCB69358AFC.title: "下界合金巨兽的试炼"
+	quest.2E310FFF64E11756.quest_desc: ["##救命我想不出来第三章可以怎么衔接，文笔好烂啊，起的名字也怪怪的"]
 	quest.2E5D92132F9FA3DC.quest_desc: [
 		"&o你利用&a自然祭坛&r&o和&a特斯拉线圈&r&o，炼出了第一块钢锭。从这块钢开始，机器的部件才真正称得上精密。&r"
 		""
@@ -662,6 +681,8 @@
 		""
 		"&m&o众所周知魔豆曾经把开心消消乐的村长顶上了天，现在还没下来。&r"
 	]
+	quest.3276C4FA6F80293A.quest_desc: ["##模块化机械从这里开始，后面内容我觉得要体现叙事感"]
+	quest.33FB481FD8A71455.quest_desc: ["升级矩阵由青金石制作，用于制作各类&a升级&r。"]
 	quest.34164812034BC9A0.quest_desc: [
 		"&o&6末影守卫盘踞在废弃堡垒的最深处，用末影与虚空之力惩罚入侵者。&r"
 		""
@@ -774,6 +795,11 @@
 		"这个结构可用&a烈焰之眼&r寻找。"
 	]
 	quest.3E2DFA7DE032E3E8.title: "烈焰竞技场"
+	quest.3E533BD41513A354.quest_desc: [
+		"&a亚马龙平板电脑&r可以通过雄蜂配送来订购物品和流体。"
+		""
+		"&o这很酷，不是吗？&r"
+	]
 	quest.3F1CCBCFEECF80F1.quest_desc: [
 		"&a方块制造机&r在侧面识别流体，从下方读取目标产物，并向上方容器输出产物。"
 		""
@@ -788,6 +814,11 @@
 	]
 	quest.3F64EB93903B0250.title: "刚玉"
 	quest.3F8681ECC0F4EC99.quest_desc: ["烈焰竞技场被&a炽燃遗魂&r守卫着，击杀其中一只，你便可以获得唤醒焰魔的资格——&a炽燃余烬&r。"]
+	quest.3FFA638D5CDEBF1B.quest_desc: [
+		"热气动加工机使用&a压力&r和/或&a热量&r来处理材料。"
+		""
+		"热量可以由热源提供，&a烈焰人燃烧室&r不失为一种好的供热方式，当然&a涡流管&r也不错。"
+	]
 	quest.400F9EA8BED6E390.quest_desc: [
 		"风帆需要使用坚韧布料制作。"
 		""
@@ -831,15 +862,17 @@
 	quest.431A6B56EE43ADEE.quest_desc: [
 		"你收集到了来自主世界的灵气，连同其中承载的&l&n环境信息&r与&l&n要素信息&r。"
 		""
-		"接下来，继续这场远征，踏足其他维度，去回应来自那些维度的呼唤。"
+		"&o接下来，继续这场远征，踏足其他维度，去回应来自那些维度的呼唤。"
+		"{@pagebreak}"
+		"&o注：&a环境信息&r&o即是某个维度的规律，它来自于灵气场所在的维度本身；而&a要素信息&r是要素承载的、可收集、可凝结、可提纯的内容，它来自于灵气所承载的要素。&r"
 		""
-		"&o注：本章任务线仅围绕主世界的&#3EDCFF水&r&o展开，另有&l&a「维度，要素和这个世界」&r&o一章单列所有元始要素的相关内容。&r"
+		"&o本章任务线仅围绕主世界的&#3EDCFF水&r&o展开，另有&l&a「维度，要素和这个世界」&r&o一章单列所有元始要素的相关内容。&r"
 	]
 	quest.431A6B56EE43ADEE.title: "六重要素"
 	quest.4363AE8363EC43A6.quest_desc: [
 		"有些配方只能在&a动力合成器&r上做，工作台做不出来。"
 		""
-		"&o尤其是有一些小工具需要动力合成器制作，可以查看这张任务卡有哪些后续任务。&r"
+		"&o尤其是有一些小工具需要动力合成器制作，参见「妙妙工具」一章。&r"
 	]
 	quest.4363AE8363EC43A6.title: "动力合成器"
 	quest.44B6CBFAD6C215C0.quest_desc: ["暮色森林传送门的形状可以任意，只要有&a至少四格&r连续的水源，并且每个水源相邻的草方块上都有&a植物&r，然后丢入一颗&a钻石&r，传送门即可开启。"]
@@ -901,6 +934,7 @@
 		"使用&a炽燃余烬&r右键点击烈焰竞技场顶层中心的&a烈焰祭坛&r召唤焰魔。"
 	]
 	quest.4882FCF67676C010.title: "焰魔的试炼"
+	quest.4920E66F0E157926.title: "星空之下"
 	quest.499464A11D38D71F.quest_desc: [
 		"将&a钢锭&r丢在地上，然后在旁边引发一场&a爆炸&r，就可以获得&m&o压缩钢锭&r&a压缩铁锭&r。"
 		""
@@ -917,12 +951,17 @@
 		""
 		"它比铁和钢都更加结实。&a工程师装配台&r要用它做骨架，搭建各类重型机械的&a工程块&r也离不开它。"
 	]
+	quest.4B3A4AC1A56E5A22.quest_desc: [
+		"这台磨粉机很&a小巧&r。"
+		""
+		"&o（对不起，但是我真的只能想到这句话，它真的很不好用，没办法加装升级，也不能主动设置输入输出。我给它加了粉碎黄金叶和六种充能水晶的配方，除此之外真的没了。）&r"
+	]
 	quest.4B699022B1FD8A00.quest_desc: [
 		"似乎你已经注意到了紫水晶碎片的异样。"
 		""
-		"受异变的影响，紫水晶碎片在与灵气场中的要素&l&n共振&r&r。"
+		"受异变的影响，紫水晶碎片能接住并承载灵气场中外溢的要素。"
 		""
-		"跟随紫水晶碎片的指引，去寻找&l&n回应物&r&r，让紫水晶与外溢的要素接触，或许会得到你想要的收获。"
+		"跟随紫水晶碎片的指引，去寻找&l&n回应物&r，让紫水晶与外溢的要素接触，或许会得到你想要的收获。"
 	]
 	quest.4BB8027A2703FC28.quest_desc: ["&o&m以灾变的风格，这个船锚居然不是一把镐子？&r"]
 	quest.4C173E38BEDFEB4A.quest_desc: [
@@ -958,6 +997,11 @@
 		"在这里，用瓶与塞可以收集到瓶装黑暗。"
 	]
 	quest.4E8041B1FBD6669F.title: "末地"
+	quest.4EAF62A177AAAEE9.quest_desc: [
+		"速度升级可以&a加快&r各类气动设备的运行速度。"
+		""
+		"&o速度升级在整合包中得到了加强：提升的倍率提高，额外消耗的空气量降低。&r"
+	]
 	quest.4F1594D45E71BD67.quest_desc: ["材料中承载的要素信息与环境信息，被一同灌注入苍灰树苗中，森林仪式记录下了生命面对世界时留下的情绪，将其具象化为一种木质的雕像，也就是&a印记&r。"]
 	quest.4F1594D45E71BD67.title: "印记"
 	quest.505D9FE85D283F43.quest_desc: [
@@ -974,6 +1018,12 @@
 		"登上卫城的顶层，你就来到了boss所在的建筑。准备好以后&a右击正中心的船锚&r，便可唤来斯库拉开始战斗。"
 	]
 	quest.516C33B1C8134654.title: "斯库拉的试炼"
+	quest.51A60EA75894B027.quest_desc: [
+		"绝缘覆层是一种重要的基础材料，用于制作与电力生产相关的各类物品。"
+		""
+		"&oPowah 的机器配方基本无魔改，改动集中在材料、燃料和等级，与&a阶段性限制&r&o。&r"
+	]
+	quest.51A60EA75894B027.quest_subtitle: "安全生产"
 	quest.526331691A38FD42.quest_desc: ["&o（解锁于后续章节，待开发）&r"]
 	quest.526FED59584C6513.quest_desc: [
 		"&a巫妖怪塔&r是一座哥特式的尖塔，塔身的砖石被咒语护着，连塔周围的空气都带着压迫感。"
@@ -1054,22 +1104,21 @@
 		""
 		"使用&a染料&r可以更改颜色，使用&a铁砧&r可以为星门重命名。"
 	]
-	quest.5971AA7E8234AA79.quest_desc: ["压力室"]
+	quest.5971AA7E8234AA79.quest_desc: [
+		"压力室是一种多方块结构，用于将各种材料压缩成其他材料。"
+		""
+		"压力室至少需要一个&a压力室气阀&r，且压力室气阀的种类决定了压力室能容纳的最大压力。&a压力室接口&r用于传输物品，并且每传输一个物品都要消耗一定量的空气。"
+	]
 	quest.5971AA7E8234AA79.title: "压力室"
 	quest.5A00C69798692D1B.quest_desc: ["天境的木材制作的木质工具，虽然耐久很低，但是可以&a加倍掉落&r。"]
 	quest.5A00C69798692D1B.title: "天境木材"
-	quest.5AA560228973D274.quest_desc: [
-		"The fallen star never handed you a method of manufacture. All it left was a record sealed between ore, runes and broken structures."
-		"You corrected the aura with traces of six dimensions, caught the response with magical source, sustained the pulses with machines, and rearranged scattered materials, energies and rules — until at last the silent relic revealed a language that could be read."
-		"{@pagebreak}"
-		"The Inscriber Presses are not the end. They prove that you can now take an accidental discovery apart into stable knowledge, and reassemble that knowledge into a structure that can be repeated, connected and extended."
-		"{@pagebreak}"
-		"From this moment on, storage is no longer merely holding items, and a network is no longer merely passing signals. You begin to establish a new order for this world: letting the traces nature leaves behind be recorded, letting the rules magic reveals be invoked, letting machines complete processes that should by rights be brief, chaotic and irreproducible."
-		"{@pagebreak}"
-		"The inscription of the fallen star has been read. And every component in your hands will be the first stroke in casting the world."
-	]
+	quest.5AA560228973D274.quest_desc: ["##陨星从未给过你启示？这个方向如何？"]
 	quest.5AA560228973D274.title: "重塑应用能源"
-	quest.5B27D2BA57349AAF.quest_desc: ["看看资源生产多了什么东西"]
+	quest.5B27D2BA57349AAF.quest_desc: [
+		"为原子再构机提供电力，它便能向前方发出激光，&a转换&r方块与掉落物形式的物品。贴上透镜以后还能实现一些特殊的功能。"
+		""
+		"&o它可以用于制作&a植物盆栽&r&o，参见「资源生产」一章。&r"
+	]
 	quest.5CB6EA2A68A9037C.quest_desc: ["改良高炉支持&a输入输出自动化&r，同时还能通过外加&a高炉预热器&r加速精炼过程。"]
 	quest.5CB6EA2A68A9037C.title: "改良高炉"
 	quest.5D16935DC546D2E1.quest_desc: ["##整章隐藏，和第三章一起写"]
@@ -1113,7 +1162,7 @@
 		""
 		"&o这个世界由六大维度组成。六个维度各富集一种&l&n元始要素&r&o——主世界奔流的&#3EDCFF水&r&o、下界燃烧的&#FF5A01火&r&o、暮色森林沉眠的&#56C000地&r&o、天境回荡的&#FFFF7E风&r&o、末地无序的&#626262混沌&r&o，与永恒星光中恒定的&#D8D7F0秩序&r&o。&r"
 		"{@pagebreak}"
-		"&o这些要素&l&n没有物质实体&r&o，只是安静地充盈于各自维度的&l&n灵气场&r&o中，并在其中稳定存在。&r"
+		"&o这些要素&l&n&a没有物质实体&r&o，&l&n&a由灵气承载&r&o。它们安静地充盈于各自维度的&l&n灵气场&r&o中，并在其中稳定存在。&r"
 		""
 		"&o不同维度之间互不联系，互不影响。存在连接各个维度间的传送门，但这种连接实在是太不稳定，只能勉强支持物品通过。&r"
 		""
@@ -1164,6 +1213,7 @@
 		"&o&m其实这是灾变里最像小怪的小boss。&r"
 	]
 	quest.6576FFF207EECE9E.title: "击杀沧溟巡守"
+	quest.6579EF18AD18A044.quest_desc: ["印刷电路板蓝图通过亚马龙平板电脑&a交易&r获得。"]
 	quest.66005447331600B1.quest_desc: ["&a无伤&r击败武神女王获得。"]
 	quest.66F862C570D8DC96.quest_desc: ["金琥珀获得自金橡树的树干，使用天境的&a高级斧头&r（紫晶、穹玉、重力晶、云母钢斧等）采伐或去皮以获得。"]
 	quest.675FAAEE78133EB5.quest_desc: [
@@ -1219,6 +1269,11 @@
 	]
 	quest.6CDE0F370C954563.quest_desc: ["用闪耀纤维右键树叶，即可将树叶转化为&a黄金树叶&r。黄金树叶可以侵染周围的树叶，一段时间后收获，即可得到大量的黄金叶。"]
 	quest.6CDE0F370C954563.title: "黄金叶"
+	quest.6CE9715E9B2AA79C.quest_desc: [
+		"将经&a紫外线灯箱&r曝光后的空印刷电路板放入&a蚀刻器&r，便能将其蚀刻为&a未组装的印刷电路板&r。"
+		""
+		"如果空印刷电路板在紫外线灯箱中没有完全曝光，蚀刻过程就有失败的几率。在高炉中可以回收&a失效的印刷电路板&r。"
+	]
 	quest.6D0337DB8C14104E.quest_desc: [
 		"这只是一个普通的方块世界，而你，是这个世界的一个普通人。"
 		""
@@ -1268,10 +1323,7 @@
 		""
 		"在这里，你可以见到神庙的守护人，武神一族的高级统治者，白银钥匙的保管者——&a武神女王&r。"
 	]
-	quest.704148E137D62A82.quest_desc: [
-		"The outer layer of the Mysterious Cube is not ordinary meteor rock, but a sealed protective structure. Stable capacitors and controlled machining can strip away its useless shell step by step while preserving the circuitry inside that has not yet been destroyed."
-		"This mainboard still cannot read any information, but it has provided the first operable interface for the deciphering to come."
-	]
+	quest.704148E137D62A82.quest_desc: ["##陨石线还没写，明天接着做，参照第一章的探索线的风格"]
 	quest.708C965D7191F1FF.quest_desc: [
 		"紫晶石和穹玉晶石制成的工具和装备，性质&a恰好相反&r："
 		""
@@ -1286,6 +1338,11 @@
 		"合金炉生成于&a傀儡锻造厂&r的特定房间，它是一种专门用于冶炼合金或增产矿物的大型设备。"
 		""
 		"使用合金炉时需要同时输入燃料和&a冷却剂&r，如果长时间进行物品加工的合金炉没有冷却剂供应，那么合金炉将有&l&a过热自爆&r&r的风险。"
+	]
+	quest.72207EFC62718B7D.quest_desc: [
+		"精炼厂使用热量将石油精炼成不同馏分，温度越高，精炼速度就越快。"
+		""
+		"它由&a精炼厂控制器&r和&a精炼厂输出端&r两部分组成，输出端的数量不同会有不同的产出。 "
 	]
 	quest.72207EFC62718B7D.title: "精炼厂"
 	quest.722B83DF6BDAAE12.quest_desc: ["&o这一支为沉浸工程模组添加的发电方式。&r"]
@@ -1508,6 +1565,7 @@
 	task.2F25F6E4CB25B4AC.title: "天境工具"
 	task.30303ED505A60181.title: "引入"
 	task.34B7BAC412F11B4E.title: "搭建提示"
+	task.35A2C6DE2EFDE9E3.title: "血、汗和泪"
 	task.36D154543D52C43C.title: "启程前的提示"
 	task.37323CAD55A73AC6.title: "电梯"
 	task.37D4E500A111FB20.title: "主世界"
@@ -1560,6 +1618,7 @@
 	task.652218963A103A1D.title: "下界"
 	task.65587729DFF5CEC4.title: "观察：搅拌机"
 	task.6634D131AE9072E3.title: "观察：工业发酵机"
+	task.6660C67CD734CA01.title: "星空之下"
 	task.6A61A658028B8319.title: "电力与魔力"
 	task.6E927BFCDAC25C8F.title: "观察：金属冲压机"
 	task.7008DF5E949ABB24.title: "观察：粉碎机"
