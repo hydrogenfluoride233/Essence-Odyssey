@@ -24,7 +24,11 @@
 
 **游戏内汉化资源包**
 
-`Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip` 是 CFPA 社区汉化包，由玩家通过 I18nUpdateMod 自行下载安装，不由本整合包分发。它按资源包机制生效，署名与许可见包内的 `LICENSE` / `README.txt` 与 <https://cfpa.site/>。
+`resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip`（CFPA 社区汉化包，约 5.2 MB）**随整合包分发**，并在 `options.txt` 的 `resourcePacks` 里默认启用。
+
+之所以改成随包分发：0.2.5 的测试版里有玩家反馈「每次更新都要重新弄汉化」——查下来是整合包分发的默认设置引用了这个包、包本身却没发，玩家端指向一个不存在的文件。2026-10-27 起改为随包分发，同时移除了原先负责下载它的 `I18nUpdateMod`（该模组会在启动阶段同步下载资源包，镜像失效时会把游戏卡在 Bootstrapping）。
+
+它按资源包机制生效，包内自带 `LICENSE` 与 `README.txt`；署名与许可另见 <https://cfpa.site/>。按 CC BY-NC-SA 4.0 的要求，使用这些文件时需署名原作者与 CFPA、附协议链接、标明是否修改，并以相同协议发布改编版。
 
 **建议署名文字**
 
