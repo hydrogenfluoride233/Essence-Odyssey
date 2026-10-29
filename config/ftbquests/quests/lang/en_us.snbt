@@ -625,6 +625,15 @@
 		"Three materials and the Water Essence carve this one stroke: from now on, &#3EDCFFflowing&r itself can be called up by ritual."
 	]
 	quest.5971AA7E8234AA79.title: "Pressure Chamber"
+	quest.4F8FD0BAF765BFF8.title: "Meteor Components"
+	quest.4F8FD0BAF765BFF8.quest_desc: [
+		"&oThe blueprint continues:&r",
+		"",
+		"Once you have the mainboard, five components must be soldered onto it, one after another.",
+		"",
+		"&oTheir recipes are recorded in JEI — go and take a look.&r"
+	]
+
 	quest.5AA560228973D274.quest_desc: [
 		"Calculation, engineering, logic, silicon — four Inscriber Presses. They can be used to make every kind of processor.",
 		"",
