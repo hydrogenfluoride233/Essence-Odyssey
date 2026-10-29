@@ -30,7 +30,8 @@ PCL.ini
 usercache.json
 usernamecache.json
 command_history.txt
-# options.txt 属于整合包内容（决定默认启用哪些材质包）→ 跟踪
+# options.txt 不进库也不进包：默认值由 Default Options 模组给（config\defaultoptions\）
+/options.txt
 optionsof.txt
 # FancyMenu 的窗口标题、modpack_mode 等设置存在这里，属于整合包内容 → 破例跟踪
 !config/fancymenu/options.txt
