@@ -163,6 +163,26 @@ ServerEvents.recipes(event=>{
             "pressure":3.0,
         })//热气动加工机：固=>液
 
+        event.custom({
+            "type":"pneumaticcraft:thermo_plant",
+            "inputs":{
+                "fluid":{"amount":250,"fluid":`kubejs:${ess}_fluid`},
+                "item":{"item":"minecraft:amethyst_shard"}
+            },
+            "outputs":{"item":{"item":`kubejs:crystal_${ess}`}},
+            "temperature":{"min":303},
+        })//热气动加工机：液=>固
+
+        event.custom({
+            "type":"pneumaticcraft:thermo_plant",
+            "inputs":{
+                "fluid":{"amount":1000,"fluid":`kubejs:${ess}_fluid`},
+                "item":{"item":"minecraft:amethyst_block"}
+            },
+            "outputs":{"item":{"item":`kubejs:block_${ess}`}},
+            "temperature":{"min":303},
+        })//热气动加工机：液=>固
+
         event.recipes.immersiveengineering.mixer(
             Fluid.of(`kubejs:${ess}_fluid`,250),
             Fluid.of("sauce:source_fluid",250),
