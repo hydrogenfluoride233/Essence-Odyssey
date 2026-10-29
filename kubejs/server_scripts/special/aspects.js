@@ -169,8 +169,8 @@ ServerEvents.recipes(event=>{
                 "fluid":{"amount":250,"fluid":`kubejs:${ess}_fluid`},
                 "item":{"item":"minecraft:amethyst_shard"}
             },
-            "outputs":{"item":{"item":`kubejs:crystal_${ess}`}},
-            "temperature":{"min":303},
+            "outputs":parseThermoPlantOutput(`kubejs:crystal_${ess}`),
+            "temperature":{"max":263},
         })//热气动加工机：液=>固
 
         event.custom({
@@ -179,8 +179,8 @@ ServerEvents.recipes(event=>{
                 "fluid":{"amount":1000,"fluid":`kubejs:${ess}_fluid`},
                 "item":{"item":"minecraft:amethyst_block"}
             },
-            "outputs":{"item":{"item":`kubejs:block_${ess}`}},
-            "temperature":{"min":303},
+            "outputs":parseThermoPlantOutput(`kubejs:block_${ess}`),
+            "temperature":{"max":253},
         })//热气动加工机：液=>固
 
         event.recipes.immersiveengineering.mixer(
@@ -195,7 +195,7 @@ ServerEvents.recipes(event=>{
             Fluid.of("sauce:source_fluid",1000),
             [IngredientWithSizeJS.ofItemStack(`kubejs:block_${ess}`)],
             12800
-        )//搅拌机：块=>液
+        )//搅拌机：固=>液
 
         event.recipes.immersiveengineering.bottling_machine(
             TagOutputJS.ofItemStack(`kubejs:crystal_${ess}`),
