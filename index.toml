@@ -2014,7 +2014,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
+hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2114,19 +2114,19 @@ hash = "6327d32707a02ebeb35d5479ba1cf3f1f4da5b780a7f17a0ebfe0de9b2f00c1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_1.snbt"
-hash = "dc133eef88efaf559729b8ed129b843f59705c5b5cd9bbb81e2b0dd9bf0fc29f"
+hash = "825e4a2e9c15e8463c287436630af9cfc0401fa17ef7a0fb1617f42d2456788a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "edcccba1736441506b14223db66de34af43d2d3c49db7142d446bc7dd9be7252"
+hash = "f48ec88dc63105eea61cc3b7ae9261a3273434a2bbb7c52b62b58451eff89c7e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
-hash = "2ce28c980170b7686e9bd804c8cd4cf503798f0f78965ffee6c709e2d6f9fb76"
+hash = "a3f6c3d2e96cfca32f27b4dc0855a24e65a6be8f593821f90794bf9ffa6eb4a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_4.snbt"
-hash = "eb554dc9fc2dcc876c51b3bffd015236653dc12a4e8183223bee5137ced0ed53"
+hash = "c02edb8dbd76cf15ea80e1ccf7d6f21273f766a0f902e0291f808b99d42bcc0c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_5.snbt"
@@ -2178,11 +2178,11 @@ hash = "949b9834ffc264fecf4169823427b51c306ab97444fc8782ec57c51dd12c65bb"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "4ca8b6c9247557309fe16a37b2081e42fc122d3ea96ae019d10b2dc65a63b586"
+hash = "3a3ec687b1bc10deffef8f009cbc1c6738a29f78b1f5a42264e3e4ca6e625b30"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "309f8af81b368b8cc14bbd317827e86dc7a7b5ec5edf6b21ac3407dbaebda501"
+hash = "1d501d3053c3a9c4226d643bb75c2ec1d9dd88fa03ec5d38dfeb96d2a7106b87"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -4962,7 +4962,7 @@ hash = "d1279417a67397a7f5927ab868e676c30ac454b7b69e3cf8f70f9727b6e3fe95"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR-recipes.js"
-hash = "d14aa80a0a3a20118af28ccfe282075f7d1bbe96a35423802dc3a13bd355dcd4"
+hash = "a9e5d3c08bbc805375f9cb3039fc960a12a522901df33669af8be0182344c098"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR-structures.js"
@@ -4994,7 +4994,7 @@ hash = "863ee056f0ade8f19e6ea02e2f5a705391eb64bcc01d1847d52887761d86a82b"
 
 [[files]]
 file = "kubejs/server_scripts/botany_pots.js"
-hash = "5d7b01ce23ffa2700854ecbaf65d1edadfe9dbbb83804b78fbb3d7dd8f1b14e7"
+hash = "178395a8369fa8929fb07c64564389a268cadc4a1923c64d828da040326e79e1"
 
 [[files]]
 file = "kubejs/server_scripts/cataclysm.js"
@@ -5030,7 +5030,7 @@ hash = "7b4ac1e692d6a24f1df455031fec4b22b197ca04d6c30ab27f005dd4fc2c742a"
 
 [[files]]
 file = "kubejs/server_scripts/immersiveengineering.js"
-hash = "ca6d11b131c741450e2ecbc92041947b74cf99383f1a2f2da8d713d76da06f1d"
+hash = "6aa11f1b98ad7b7a1da24df8a43c990d3d887ff7aef727e21a3a04b3405e9052"
 
 [[files]]
 file = "kubejs/server_scripts/industrialforegoing.js"
@@ -5090,7 +5090,7 @@ hash = "f1bfad3d05aa191b38bd24ec6057c626bcc899a879c6efce36369d814f4e72b3"
 
 [[files]]
 file = "kubejs/server_scripts/special/aspects.js"
-hash = "2b75df0f87408ecfe5b1f9b3579f2f4ce2191a80c04cea1907c591cbd64155a5"
+hash = "e568a361a5c5d75a728540f4b8ea93328100085816e013e57d211391ff5f97ba"
 
 [[files]]
 file = "kubejs/server_scripts/special/energy.js"
@@ -5114,7 +5114,7 @@ hash = "240f2e3e49f7424c36b73f9cfcd226251eb33058e4e4e732dc8cf712988c0dd0"
 
 [[files]]
 file = "kubejs/server_scripts/special/临时内容.js"
-hash = "2cc3bed1218ae631f0603c9070b44b243399f2a0de9f302b3ab70095d9ce739e"
+hash = "4a6ddcb10cebc89f14d54656b804d22fb938cdbb4db87291aa4955ce1bc489b5"
 
 [[files]]
 file = "kubejs/server_scripts/thaumon.js"
@@ -6690,7 +6690,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "455f043d9a83bc378cf1139bac8da58037cddd3114e11cbf7c43f6d694d3d7f3"
+hash = "c42d7aabaefd004cb2d8bd60e3520ae163af9d0032412f086f85be1409902167"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
