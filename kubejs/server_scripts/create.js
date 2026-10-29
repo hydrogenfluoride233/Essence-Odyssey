@@ -56,6 +56,16 @@ ServerEvents.recipes(event=>{
         "create:precision_mechanism"
     )//蒸汽引擎
 
+    event.shapeless("create:andesite_alloy",[
+        "minecraft:andesite",
+        "minecraft:iron_ingot"
+    ])//安山合金（铁）
+
+    event.shapeless("create:andesite_alloy",[
+        "minecraft:andesite",
+        "create:zinc_ingot"
+    ])//安山合金（锌）
+
     //动力冲压机
     //格式:[输出,输入]
     const PressList = [
@@ -263,6 +273,22 @@ ServerEvents.recipes(event=>{
                 "mmcr:modularium"
             ]
         ],//基础机器外壳
+
+        [
+            "naturesaura:wood_stand",
+            [
+                "minecraft:stripped_oak_log",
+                "naturesaura:gold_fiber"
+            ]
+        ],//木基座
+
+        [
+            "naturesaura:gold_brick",
+            [
+                "minecraft:stone_bricks",
+                "naturesaura:gold_fiber"
+            ]
+        ],//黄金石砖
     ]
 
     ApplicationList.forEach(([output,input])=>
@@ -718,8 +744,4 @@ ServerEvents.recipes(event=>{
             event.remove({id:recipeId})
         }))
 
-    //木基座与黄金石砖：用闪耀纤维手动应用（Create 物品应用，消耗纤维）
-    event.recipes.create.item_application("naturesaura:wood_stand",["minecraft:stripped_oak_log","naturesaura:gold_fiber"])//木基座
-
-    event.recipes.create.item_application("naturesaura:gold_brick",["minecraft:stone_bricks","naturesaura:gold_fiber"])//黄金石砖
 })
