@@ -83,10 +83,6 @@
 	quest.0258FA1C2F0406EA.title: "天境"
 	quest.0285D9D3BFC5CBEA.quest_desc: ["&o（解锁于后续章节，待开发）&r"]
 	quest.0285D9D3BFC5CBEA.title: "电力与热量"
-	quest.02B0BF4F271034FE.quest_desc: [
-		"The meteor structure answers outside energy with a faint response, but the answer is far too brief to record. An amplifier driven by magical source can widen that echo, until a signal hidden deep inside the blocks becomes discernible for the first time."
-		"What you need is not a stronger spell, but a precise enough way of listening."
-	]
 	quest.02CA2F9CD0E2AE8A.quest_desc: [
 		"&o手捧紫水晶碎片的你，指尖忽然感受到一阵刺痛。或许有什么特殊含义？&r"
 		""
@@ -124,10 +120,6 @@
 		"&o&6如今，它们仍然成群结队地在迷宫中游荡，拖着它们由植物形成的新躯体，随时准备用带毒的利爪撕碎入侵者。&r"
 		""
 		"&a藤骸&r会大量生成于诅咒花园中，击败它可以获得&a灵魂露珠&r。"
-	]
-	quest.0734386F2C539298.quest_desc: [
-		"The six primary aspects are not naturally compatible. Each comes from a different dimension, carrying an environment and a set of rules that contradict the others. Calibration Gel soothes that conflict for a while, letting them hold a brief, stable resonance inside one structure."
-		"It is not a fuel. It is the precondition that makes a single act of deciphering possible."
 	]
 	quest.074A2E5B400DF699.quest_desc: [
 		"你初始只有六颗红心。但不要太担心，每吃10种不同的食物你都将获得2颗红心（一开始是五种），通过吃多种不同的食物你最多可以拥有40颗红心。"
@@ -266,7 +258,7 @@
 		"{@pagebreak}"
 		"（1）六个孤立的维度间的通路被彻底打通，以前只能交换物品的传送门，现在&n&l允许生物穿越&r到另一边的维度。"
 		""
-		"（2）以前只会安静待在灵气场里的要素，现在在某些地方&l&n外溢&r到物质世界。外溢的要素似乎可以被某些&l&n&a物质承载&r，并凝结为&l&n&a物质形态&r。"
+		"（2）以前只会安静待在灵气场里的要素，现在在某些地方&l&n外溢&r到物质世界。外溢的要素似乎可以被某些&l&n&a物质&r接住，并凝结为&l&n&a物质形态&r。"
 		""
 		"（3）观察到元始要素变得活泼，通过不同的手段，可以得到相应的&n&l衍生物&r。"
 		""
@@ -466,7 +458,6 @@
 		"旅行锚也可以如电梯一般垂直放置使用。"
 	]
 	quest.1F37C07E86AB1EAC.quest_desc: ["&a无伤&r击败烈阳巨灵获得。"]
-	quest.1FBA99E5D96BD893.quest_desc: ["An ordinary circuit can carry energy, but it cannot preserve the traces left behind by aura, source and resonating aspects. The Arcane Wafer combines the stability of minerals, the activity of nature and the perception of magic into a medium capable of recording anomalous signals."]
 	quest.203DC11C3D09AFA2.quest_desc: [
 		"&o&6远古文明留下的机械造物，拥有导弹发射器和圆形电锯，是古代工厂中心的强力守卫。&r"
 		""
@@ -549,8 +540,8 @@
 	]
 	quest.27219131E0E42F88.quest_desc: ["用&a热带鱼&r喂食幼年利维坦可以驯服它，然后它就能用不成熟的深渊之力帮助你战斗。"]
 	quest.2740A375D6EBCB05.quest_desc: [
-		"继紫水晶之后，液态魔源是让要素变成物质的第二种媒介。将要素结晶浸于液态魔源，就可以得到&l&n&a要素流体&r。",
-		"",
+		"将要素结晶浸于液态魔源，就可以得到&l&n&a要素流体&r。"
+		""
 		"浸过之后，魔源失去了颜色，化作一缕苍白的烟，散在空气里。"
 	]
 	quest.2740A375D6EBCB05.title: "要素流体"
@@ -572,7 +563,7 @@
 		"对重力晶矿石附神可以得到神炼重力晶矿，用其制作的工具具有&a反重力&r属性。"
 	]
 	quest.2A0D63839EC06CB6.quest_desc: [
-		"&o&7昨夜又做了那个梦：三块互不相同的要素结晶，连同红石，用燧石捣碎，拿碗装起来。&r"
+		"&o&7昨夜又做了那个梦：三块互不相同的元始要素结晶，连同红石，用燧石捣碎，拿碗装起来。&r"
 		""
 		"&o&7醒来时我尝试复刻这个配方，于是得到了一撮发着微光的粉末。&r"
 		""
@@ -626,7 +617,6 @@
 		"当你走向下界合金巨兽&a所在的平台&r中央时，它便会从沉睡中苏醒。"
 	]
 	quest.2D9A7BCB69358AFC.title: "下界合金巨兽的试炼"
-	quest.2E310FFF64E11756.quest_desc: ["##救命我想不出来第三章可以怎么衔接，文笔好烂啊，起的名字也怪怪的"]
 	quest.2E5D92132F9FA3DC.quest_desc: [
 		"&o你利用&a自然祭坛&r&o和&a特斯拉线圈&r&o，炼出了第一块钢锭。从这块钢开始，机器的部件才真正称得上精密。&r"
 		""
@@ -671,6 +661,8 @@
 		"&o这里曾孕育了十分繁荣的文明，但是你未能亲眼目睹。如今永恒之夜笼罩着这里，森林中仅存着一些遗迹、葱郁的树木及奇怪的生物。&r"
 	]
 	quest.31208139567F93AE.quest_desc: [
+		"&o&6“借由他人，寻找自我。”&r"
+		""
 		"陨石中这个神秘的方块，用任何现有的手段都无法破坏——镐子撬不动它，爆炸也伤不到它。"
 		""
 		"&l但是肯定有什么办法能把它带回去。&r"
@@ -691,7 +683,11 @@
 		""
 		"&m&o众所周知魔豆曾经把开心消消乐的村长顶上了天，现在还没下来。&r"
 	]
-	quest.3276C4FA6F80293A.quest_desc: ["##模块化机械从这里开始，后面内容我觉得要体现叙事感"]
+	quest.3276C4FA6F80293A.quest_desc: [
+		"这是一条能一直开着的产线。一份一份做的魔法精华，到这里可以批量生产了。"
+		""
+		"&o（文案与合成表均为临时内容，后续将进行修改）&r"
+	]
 	quest.33FB481FD8A71455.quest_desc: ["升级矩阵由青金石制作，用于制作各类&a升级&r。"]
 	quest.34164812034BC9A0.quest_desc: [
 		"&o&6末影守卫盘踞在废弃堡垒的最深处，用末影与虚空之力惩罚入侵者。&r"
@@ -703,7 +699,13 @@
 	quest.34164812034BC9A0.title: "末影守卫的试炼"
 	quest.34172736AC658A51.quest_desc: ["通过对应的&a下界合金套装&r加上&a锻造模板（咒魂升级）&r和咒魂锭在锻造台升级而成。"]
 	quest.34172736AC658A51.title: "咒魂套装"
-	quest.3453F3AF03FF04C4.quest_desc: ["&o&m（没有人觉得这个章节排布看起来很像有丝分裂吗）&r"]
+	quest.3453F3AF03FF04C4.quest_desc: [
+		"&o&6“近在咫尺，却邈以山河。”&r"
+		""
+		"&o将元件一个个焊接至主板上后，你惊奇地发现它变了副模样。&r"
+		""
+		"&o它与神秘方块并无二致，蓝色的光芒仍旧在表面流淌，但这次你能读懂它了，&a像一首写完的诗&r&o。&r"
+	]
 	quest.348FD640D0B99AE2.quest_desc: [
 		"&o&6卫城的高级守卫，手持巨斧的巨型鳌虾，拥有无与伦比的力量。&r"
 		""
@@ -734,10 +736,6 @@
 		"被诅咒的金字塔内部错综复杂，藏有无数的宝藏。但探索的同时要小心看守此处的骷髅狗头人，以及无处不在的陷阱。"
 		""
 		"使用刷子刷扫诅咒金字塔中的&a可疑的沙子&r有概率获得沙漠项链，它可以用来唤醒远古遗魂。"
-	]
-	quest.3686997CB148E9BF.quest_desc: [
-		"The deciphering process cannot rely on a steady, brutal supply of power. The structure inside the relic is more like a precision instrument: it needs the right single pulse of energy at the right moment."
-		"The Energy Capacitor stores and releases that energy, so that no calibration is ruined by an uncontrolled surge."
 	]
 	quest.368C96B399AD1368.quest_desc: [
 		"&o符文祭坛把要素“写”了下来——不是装进瓶子，而是变成一条可以携带、可以调用的规则。&r"
@@ -774,7 +772,7 @@
 		""
 		"&o笔记中夹着的那几页里还有一行小字：&r"
 		"{@pagebreak}"
-		"&a陨石的外壳&r和内部包裹的&a赛特斯石英&r似乎对这个世界有特殊的回应。把它们分别&a磨成粉&r，再与&a世界盐&r在工作盆中混合，加入&a熔岩&r，并&a冲压塑形&r，会得到一种&l&a未知的粉末&r。"
+		"&a陨石的外壳&r和内部包裹的&a赛特斯石英&r似乎对这个世界有特殊的回应。把它们分别&a磨成粉&r，再与&a世界盐&r在工作盆中混合，加入&a熔岩&r，并用动力冲压机&a塑形&r，会得到一种&l&a未知的粉末&r。"
 		""
 		"&o先照着做吧，看看会得到什么东西。"
 	]
@@ -836,10 +834,6 @@
 	]
 	quest.400F9EA8BED6E390.quest_subtitle: "大风车"
 	quest.400F9EA8BED6E390.title: "应力生产（其一）"
-	quest.40501041AF4EBAA3.quest_desc: [
-		"The aura of the six dimensions follows different rules, and when they come near one another they usually only interfere. The Aura Diode splits them apart, corrects them, and guides them into a single stable observation line."
-		"Now, at last, you can let aura from different worlds take part in the same experiment at the same time."
-	]
 	quest.40A0FF3C16F17A99.quest_desc: [
 		"&o森林仪式记下了生命面对这个维度时留下的情绪。&r"
 		""
@@ -965,7 +959,7 @@
 	quest.4B699022B1FD8A00.quest_desc: [
 		"似乎你已经注意到了紫水晶碎片的异样。"
 		""
-		"受异变的影响，紫水晶碎片能接住并承载灵气场中外溢的要素。"
+		"受异变的影响，紫水晶碎片能接住灵气场中外溢的要素。"
 		""
 		"跟随紫水晶碎片的指引，去寻找&l&n回应物&r，让紫水晶与外溢的要素接触，或许会得到你想要的收获。"
 	]
@@ -1010,6 +1004,14 @@
 	]
 	quest.4F1594D45E71BD67.quest_desc: ["材料中承载的要素信息与环境信息，被一同灌注入苍灰树苗中，森林仪式记录下了生命面对世界时留下的情绪，将其具象化为一种木质的雕像，也就是&a印记&r。"]
 	quest.4F1594D45E71BD67.title: "印记"
+	quest.4F8FD0BAF765BFF8.quest_desc: [
+		"&o图纸接着写道：&r"
+		""
+		"获得了主板以后，还需要依次往上焊接&a五个元件&r。"
+		""
+		"&oJEI里详细记载了它们的合成方法，去看看吧。&r"
+	]
+	quest.4F8FD0BAF765BFF8.title: "陨星零件"
 	quest.505D9FE85D283F43.quest_desc: [
 		"卫城是生成于&a主世界&r暖水海洋生物群系的宏伟建筑群。"
 		""
@@ -1118,7 +1120,13 @@
 	quest.5971AA7E8234AA79.title: "压力室"
 	quest.5A00C69798692D1B.quest_desc: ["天境的木材制作的木质工具，虽然耐久很低，但是可以&a加倍掉落&r。"]
 	quest.5A00C69798692D1B.title: "天境木材"
-	quest.5AA560228973D274.quest_desc: ["##陨星从未给过你启示？这个方向如何？"]
+	quest.5AA560228973D274.quest_desc: [
+		"运算、工程、逻辑、硅——四张压印模板。它们可以用来制作各类处理器。"
+		""
+		"&o陨星从未给过你启示，也从未向你赠予过制造的方法，它只是留下了&a一颗陨石&r&o，&a一张图纸&r&o，和&a一条你自己走出来的路&r&o。&r"
+		""
+		"&o笔记没有解释更多，但未知的科技已在你眼前展开。接下来的路，要靠你自己探索了。更多内容记载于「未知科技」一章。&r"
+	]
 	quest.5AA560228973D274.title: "重塑应用能源"
 	quest.5B27D2BA57349AAF.quest_desc: [
 		"为原子再构机提供电力，它便能向前方发出激光，&a转换&r方块与掉落物形式的物品。贴上透镜以后还能实现一些特殊的功能。"
@@ -1329,7 +1337,13 @@
 		""
 		"在这里，你可以见到神庙的守护人，武神一族的高级统治者，白银钥匙的保管者——&a武神女王&r。"
 	]
-	quest.704148E137D62A82.quest_desc: ["##陨石线还没写，明天接着做，参照第一章的探索线的风格"]
+	quest.704148E137D62A82.quest_desc: [
+		"&o&7借助那撮粉末把它取下来以后，你才看清楚它表面流溢的纹路，和闪烁的光芒，像一行行没写完的字。&r"
+		""
+		"&o笔记中留下了一张加工图纸：&r"
+		""
+		"将整个方块送入流水线，安装&a电容&r、&a福鲁伊克斯水晶&r、&a控制芯片&r，再切割与冲压，可以得到几张主板。"
+	]
 	quest.708C965D7191F1FF.quest_desc: [
 		"紫晶石和穹玉晶石制成的工具和装备，性质&a恰好相反&r："
 		""
@@ -1571,7 +1585,6 @@
 	task.2F25F6E4CB25B4AC.title: "天境工具"
 	task.30303ED505A60181.title: "引入"
 	task.34B7BAC412F11B4E.title: "搭建提示"
-	task.35A2C6DE2EFDE9E3.title: "血、汗和泪"
 	task.36D154543D52C43C.title: "启程前的提示"
 	task.37323CAD55A73AC6.title: "电梯"
 	task.37D4E500A111FB20.title: "主世界"

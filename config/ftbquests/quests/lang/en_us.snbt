@@ -923,4 +923,10 @@
 	task.7D2F04B3382958EC.title: "Sorry, I never fought it — I skipped that lesson."
 	task.7E6F682B99D230E1.title: "Any Log"
 	task.7F97A016ABC3B040.title: "Ruined Citadel"
+	quest.3276C4FA6F80293A.title: "Industrial Imbuement Chamber"
+	quest.3276C4FA6F80293A.quest_desc: [
+		"This is a production line that can stay running. Essence that had to be made one at a time can now be produced in batches.",
+		"",
+		"&o(Both the text and the recipes are provisional and will be revised later.)&r"
+	]
 }
