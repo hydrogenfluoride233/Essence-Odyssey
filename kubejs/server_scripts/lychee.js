@@ -294,54 +294,6 @@ ServerEvents.recipes(event=>{
                 }
             ]
         ],//工作盆
-
-        [
-            "naturesaura:gold_fiber",
-            "minecraft:stripped_oak_log",
-            null,
-            [
-                "place naturesaura:wood_stand",
-                {
-                    type:"execute",
-                    command:"clear @s naturesaura:gold_fiber 1",
-                    hide:true
-                },
-                {
-                    type:"execute",
-                    command:"particle minecraft:block{block_state:\"minecraft:gold_block\"} ~ ~1 ~ 0.4 0.4 0.4 0.1 15",
-                    hide:true
-                },
-                {
-                    type:"execute",
-                    command:"playsound minecraft:block.amethyst_block.chime block @a ~ ~ ~ 0.8 1.2",
-                    hide:true
-                }
-            ]
-        ],//木基座
-
-        [
-            "naturesaura:gold_fiber",
-            "minecraft:stone_bricks",
-            null,
-            [
-                "place naturesaura:gold_brick",
-                {
-                    type:"execute",
-                    command:"clear @s naturesaura:gold_fiber 1",
-                    hide:true
-                },
-                {
-                    type:"execute",
-                    command:"particle minecraft:block{block_state:\"minecraft:gold_block\"} ~ ~1 ~ 0.4 0.4 0.4 0.1 15",
-                    hide:true
-                },
-                {
-                    type:"execute",
-                    command:"playsound minecraft:block.amethyst_block.chime block @a ~ ~ ~ 0.8 1.2",
-                    hide:true
-                }
-            ]
-        ],//黄金石砖
     ]
 
     blockInteractingRecipes.forEach(([item,block,condition,action])=>{

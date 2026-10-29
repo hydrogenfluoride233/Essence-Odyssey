@@ -717,4 +717,9 @@ ServerEvents.recipes(event=>{
             )
             event.remove({id:recipeId})
         }))
+
+    //木基座与黄金石砖：用闪耀纤维手动应用（Create 物品应用，消耗纤维）
+    event.recipes.create.item_application("naturesaura:wood_stand",["minecraft:stripped_oak_log","naturesaura:gold_fiber"])//木基座
+
+    event.recipes.create.item_application("naturesaura:gold_brick",["minecraft:stone_bricks","naturesaura:gold_fiber"])//黄金石砖
 })
