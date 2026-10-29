@@ -1813,6 +1813,18 @@ file = "config/deep_aether-server.toml"
 hash = "6863697a9b7c6e47acffd1fb36674cf57520473399889d1133d84e415f0a50f7"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+hash = "4c5290f5eadac4f84afaf57fe181ac302e0d2193e13d9b0ac399c6c21ba6f4d9"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "1a7ef8fc8defe4faaf65671364222860f2176810b2dea08dbadd7f049fd55bc8"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "828a5890055e0fe4dcef0129fb93eb115372248e28e0ef2e5483134a7869fa1a"
+
+[[files]]
 file = "config/elevatorid-server.toml"
 hash = "8a44f65bb1d0d1b7a7b6e012b8f329756db98dd4e2f882f3d7620cbd188c5c13"
 
@@ -2014,7 +2026,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
+hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2106,7 +2118,7 @@ hash = "aab3d7ded50a0d5e432cec3eab83225b931c4a92b1dc010ae9580eebef60aa1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/before_the_start.snbt"
-hash = "374f8e25c109803da39ecaccf2f99a53e20b746dd60be1dc7f5d05b6f1b96869"
+hash = "f360bc25745a7996feea8b632e70a0d4c66a49e9cc2ba4a231666d6d710d921a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
@@ -2182,7 +2194,7 @@ hash = "3a3ec687b1bc10deffef8f009cbc1c6738a29f78b1f5a42264e3e4ca6e625b30"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "1d501d3053c3a9c4226d643bb75c2ec1d9dd88fa03ec5d38dfeb96d2a7106b87"
+hash = "2a9019498ab839c66e0e87b3fe79db6e7b25721a9f5e53acb1a1a7257c924c4e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2198,7 +2210,7 @@ hash = "147a38645eda41c75721eb6825585f7af00b19bd3ae7e948779635747b8840e9"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
-hash = "5bd7b51a19e26a0da910d2cd3908cda0f56cc42396db00fc6d9f242ee9aeca6e"
+hash = "9faaecd36d881715e8a89d2c4c092c78f9e24ae0b107531f182c19f5a00a70be"
 
 [[files]]
 file = "config/functionalstorage/functionalstorage-common.toml"
@@ -2590,7 +2602,7 @@ hash = "fb2c34b189e36da996e241abc7e73078fe2ed31ad81c7170c2f0ad1c13628981"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "8af44e4f04acd44d751829ab339e17f7398bb5355af0b0430db33f1c75ed7b43"
+hash = "f85c079c0095c938e0dcb493bfc63d408dd1943ad406a4ca203d2cd45e35afbe"
 
 [[files]]
 file = "config/repurposed_structures-neoforge/modded_loot.toml"
@@ -6005,7 +6017,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "10b3806965691bfa3d0de63b563c45077bbede9963a096d094fee88d39fa25a4"
+hash = "ac24af27d32121d4627596d799bf50b1a21388c8ee3146c97c8d39c8db56e0e4"
 metafile = true
 
 [[files]]
@@ -6692,10 +6704,6 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "a3071ec7db02fb86edd8e56e97be1a04e49d5e02f8580cdc92912197a6b30a03"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"

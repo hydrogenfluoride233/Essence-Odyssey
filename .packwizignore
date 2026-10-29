@@ -216,3 +216,6 @@ sync-and-play.command
 packwiz-installer-bootstrap.jar
 preset/
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
+
+# 默认值改由 Default Options 模组给，options.txt 不进包
+/options.txt
