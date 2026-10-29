@@ -297,7 +297,7 @@
 	quest.26C4569F0CA4E7D7.title: "Crushing Wheels"
 	quest.27219131E0E42F88.quest_desc: ["Feeding a Baby Leviathan with a &aTropical Fish&r tames it; it will then fight for you with its unripe abyssal power."]
 	quest.2740A375D6EBCB05.quest_desc: [
-		"After amethyst, liquid source is the second carrier of aspects in material form. Immerse an aspect crystal in liquid source, and you will obtain &l&n&aaspect fluid&r."
+		"After amethyst, liquid source is the second medium that turns aspects into matter. Immerse an aspect crystal in liquid source, and you will obtain &l&n&aaspect fluid&r."
 		"{@pagebreak}"
 		"For that conversation to happen, you must first prepare liquid source. It is not a fuel so much as a medium: the source bears the heat and the pressure on the crystal's behalf, then guides the aspect smoothly out of the crystal so it does not re-condense halfway."
 		"This is the first time you have set an aspect free from its solid form. From now on it can be piped, measured, and used by machines as a genuine resource."
@@ -355,7 +355,13 @@
 		""
 		"Unlike an anvil, it &adoes not fall&r when there is nothing under it, and using it &adoes not damage it or cost experience&r."
 	]
-	quest.30B6340921229929.quest_desc: ["&o&7The amethyst leads you to &r&o&aa cauldron full of water&r&o&7.&r"]
+	quest.30B6340921229929.quest_desc: [
+		"&o&7The amethyst leads you to &r&o&aa cauldron full of water&r&o&7.&r",
+		"",
+		"The amethyst has revealed to you the &#3EDCFFwater&r hidden in the Overworld's aura field. You received its answer, and an &l&n&aaspect crystal&r condensed.",
+		"",
+		"Once it has condensed, the light on the amethyst surface fades; all that is left is a film of grey, which crumbles to powder at a touch."
+	]
 	quest.30B6340921229929.title: "Water Crystal"
 	quest.31208139567F93AE.quest_desc: [
 		"No tool you have can break the mysterious block in the meteorite — no pick pries it loose, no explosion leaves a mark."
