@@ -68,10 +68,6 @@
 		"Here, a Bottle and Cork collects Bottled Dawn."
 	]
 	quest.0258FA1C2F0406EA.title: "Visit the Aether"
-	quest.02B0BF4F271034FE.quest_desc: [
-		"The meteor structure answers outside energy with a faint response, but the answer is far too brief to record. An amplifier driven by magical source can widen that echo, until a signal hidden deep inside the blocks becomes discernible for the first time."
-		"What you need is not a stronger spell, but a precise enough way of listening."
-	]
 	quest.02CA2F9CD0E2AE8A.quest_desc: [
 		"&oYour fingers tingle strangely as you handle the amethyst shard. What does that mean?&r"
 		""
@@ -101,10 +97,6 @@
 		"What remains is the Chaos Essence: it no longer remembers what it broke apart, only &#626262possibility not yet fixed&r."
 	]
 	quest.05491F312D2EDBAB.quest_desc: ["In Eternal Starlight, right-click a blooming Starlit Lily Pad or a similar block with an Amethyst Shard."]
-	quest.0734386F2C539298.quest_desc: [
-		"The six primary aspects are not naturally compatible. Each comes from a different dimension, carrying an environment and a set of rules that contradict the others. Calibration Gel soothes that conflict for a while, letting them hold a brief, stable resonance inside one structure."
-		"It is not a fuel. It is the precondition that makes a single act of deciphering possible."
-	]
 	quest.074A2E5B400DF699.quest_desc: [
 		"You begin with only six hearts. Do not worry too much, though: every 10 different foods you eat grant you 2 more hearts (five foods at first), and by eating a wide enough variety you can reach 40 hearts in total."
 		"On top of that, Life Shards from the Aether dimension grant you 10 extra hearts."
@@ -260,7 +252,6 @@
 		"&#56C000Earth&r makes life face the unknown — terror gives the unknown a border."
 	]
 	quest.1EA7CB9F4E022E6E.quest_desc: ["In the Nether, drop an Amethyst Shard into fire."]
-	quest.1FBA99E5D96BD893.quest_desc: ["An ordinary circuit can carry energy, but it cannot preserve the traces left behind by aura, source and resonating aspects. The Arcane Wafer combines the stability of minerals, the activity of nature and the perception of magic into a medium capable of recording anomalous signals."]
 	quest.203DC11C3D09AFA2.quest_desc: [
 		"&o&6A machine left behind by an ancient civilisation, armed with missile launchers and a circular saw — a powerful guard at the heart of the Ancient Factory.&r"
 		""
@@ -297,8 +288,8 @@
 	quest.26C4569F0CA4E7D7.title: "Crushing Wheels"
 	quest.27219131E0E42F88.quest_desc: ["Feeding a Baby Leviathan with a &aTropical Fish&r tames it; it will then fight for you with its unripe abyssal power."]
 	quest.2740A375D6EBCB05.quest_desc: [
-		"Immerse an aspect crystal in liquid source, and you will obtain &l&n&aaspect fluid&r.",
-		"",
+		"Immerse an aspect crystal in liquid source, and you will obtain &l&n&aaspect fluid&r."
+		""
 		"Once it has soaked a crystal, the source loses its colour and rises as a wisp of pale smoke, gone into the air."
 	]
 	quest.2740A375D6EBCB05.title: "Aspect Fluid Buckets"
@@ -355,10 +346,10 @@
 		"Unlike an anvil, it &adoes not fall&r when there is nothing under it, and using it &adoes not damage it or cost experience&r."
 	]
 	quest.30B6340921229929.quest_desc: [
-		"&o&7The amethyst leads you to &r&o&aa cauldron full of water&r&o&7.&r",
-		"",
-		"The amethyst has revealed to you the &#3EDCFFwater&r hidden in the Overworld's aura field. You received its answer, and an &l&n&aaspect crystal&r condensed.",
-		"",
+		"&o&7The amethyst leads you to &r&o&aa cauldron full of water&r&o&7.&r"
+		""
+		"The amethyst has revealed to you the &#3EDCFFwater&r hidden in the Overworld's aura field. You received its answer, and an &l&n&aaspect crystal&r condensed."
+		""
 		"Once it has condensed, the light on the amethyst surface fades; all that is left is a film of grey, which crumbles to powder at a touch."
 	]
 	quest.30B6340921229929.title: "Water Crystal"
@@ -387,11 +378,11 @@
 	quest.34172736AC658A51.quest_desc: ["Upgrade your matching &aNetherite armor&r with a &aSmithing Template (Cursium Upgrade)&r and a Cursium Ingot at a smithing table."]
 	quest.34172736AC658A51.title: "Cursium Set"
 	quest.3453F3AF03FF04C4.quest_desc: [
-		"The mainboard establishes the interface, the diode observes, the amplifier and the capacitor sustain the signal, the gel reconciles the aspects, and the wafer records the result. Once all six assemblies are connected at the same time, the patterns on the Mysterious Cube finally begin to make sense. It still comes from an unknown civilization, but at least it is no longer entirely silent."
-		""
-		"{@pagebreak}"
-		"You did not create this knowledge. You only gave a record sleeping inside a fallen star the chance to be read again."
-		"And that record already holds the method for building more complex devices."
+		"&o&6\"So far, no matter how close.\"&r",
+		"",
+		"&oAfter you solder the components onto the mainboard one by one, you find that it has changed shape.&r",
+		"",
+		"&oIt looks no different from the Mysterious Cube, the blue light still flowing across its surface — but this time you can read it, &alike a finished poem&r&o.&r"
 	]
 	quest.348FD640D0B99AE2.quest_desc: [
 		"&o&6A senior guard of the acropolis — a giant crayfish with a great axe, and strength without equal.&r"
@@ -417,10 +408,6 @@
 		"The inside of Desert Pyramid Revamped is a maze holding countless treasures. But as you explore, beware the skeletal jackal-headed guards and the traps that are everywhere."
 		""
 		"Brushing the &aSuspicious Sand&r inside the pyramid may yield the Necklace of the Desert, which can wake the Ancient Remnant."
-	]
-	quest.3686997CB148E9BF.quest_desc: [
-		"The deciphering process cannot rely on a steady, brutal supply of power. The structure inside the relic is more like a precision instrument: it needs the right single pulse of energy at the right moment."
-		"The Energy Capacitor stores and releases that energy, so that no calibration is ruined by an uncontrolled surge."
 	]
 	quest.368C96B399AD1368.quest_desc: [
 		"&oThe rune altar writes the aspect down — not into a bottle, but into a rule you can carry and call upon.&r"
@@ -482,10 +469,6 @@
 	]
 	quest.400F9EA8BED6E390.quest_subtitle: ["Windmill"]
 	quest.400F9EA8BED6E390.title: "Stress Production (1)"
-	quest.40501041AF4EBAA3.quest_desc: [
-		"The aura of the six dimensions follows different rules, and when they come near one another they usually only interfere. The Aura Diode splits them apart, corrects them, and guides them into a single stable observation line."
-		"Now, at last, you can let aura from different worlds take part in the same experiment at the same time."
-	]
 	quest.40A0FF3C16F17A99.quest_desc: [
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
 		""
@@ -643,14 +626,11 @@
 	]
 	quest.5971AA7E8234AA79.title: "Pressure Chamber"
 	quest.5AA560228973D274.quest_desc: [
-		"The fallen star never handed you a method of manufacture. All it left was a record sealed between ore, runes and broken structures."
-		"You corrected the aura with traces of six dimensions, caught the response with magical source, sustained the pulses with machines, and rearranged scattered materials, energies and rules — until at last the silent relic revealed a language that could be read."
-		"{@pagebreak}"
-		"The Inscriber Presses are not the end. They prove that you can now take an accidental discovery apart into stable knowledge, and reassemble that knowledge into a structure that can be repeated, connected and extended."
-		"{@pagebreak}"
-		"From this moment on, storage is no longer merely holding items, and a network is no longer merely passing signals. You begin to establish a new order for this world: letting the traces nature leaves behind be recorded, letting the rules magic reveals be invoked, letting machines complete processes that should by rights be brief, chaotic and irreproducible."
-		"{@pagebreak}"
-		"The inscription of the fallen star has been read. And every component in your hands will be the first stroke in casting the world."
+		"Calculation, engineering, logic, silicon — four Inscriber Presses. They can be used to make every kind of processor.",
+		"",
+		"&oThe fallen star never gave you revelation, nor handed you a method of manufacture: it left only &aa meteor&r&o, &aa blueprint&r&o, and &aa path you walked yourself&r&o.&r",
+		"",
+		"&oThe notebook explains no more, but the unknown technology has already opened before you. From here on, the road is yours to explore.&r"
 	]
 	quest.5AA560228973D274.title: "Reshaping Applied Energistics"
 	quest.5E4647B964AD82A1.quest_desc: [
@@ -773,8 +753,11 @@
 		"&#626262Chaos&r takes away direction — in delirium, even the question \"where am I going?\" is gone."
 	]
 	quest.704148E137D62A82.quest_desc: [
-		"The outer layer of the Mysterious Cube is not ordinary meteor rock, but a sealed protective structure. Stable capacitors and controlled machining can strip away its useless shell step by step while preserving the circuitry inside that has not yet been destroyed."
-		"This mainboard still cannot read any information, but it has provided the first operable interface for the deciphering to come."
+		"&o&7After you work it loose with that pinch of powder, you finally see the patterns flowing across its surface, and the flickering light — like lines of characters left unfinished.&r",
+		"",
+		"&oThe notebook leaves a machining blueprint:&r",
+		"",
+		"Send the whole block into the assembly line: fit &acapacitors&r, &afluix crystals&r and &acontrol chips&r, then cut and press. What comes out is a few mainboards."
 	]
 	quest.72207EFC62718B7D.title: "Refinery"
 	quest.724CFEFED2FB7209.quest_desc: [
