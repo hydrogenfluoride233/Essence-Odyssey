@@ -219,3 +219,7 @@ preset/
 
 # 默认值改由 Default Options 模组给，options.txt 不进包
 /options.txt
+
+# 光影包：只跟踪 CF 元数据
+shaderpacks/*
+!shaderpacks/*.pw.toml

@@ -1,0 +1,13 @@
+name = "BSL Shaders"
+filename = "BSL_v10.1.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6975d0161f22a5f6abf01a51fd9eedbd50c96cc3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7588844
+project-id = 322506

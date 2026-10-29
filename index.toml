@@ -2026,7 +2026,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
+hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -6721,4 +6721,14 @@ metafile = true
 [[files]]
 file = "resourcepacks/natures-aura-altered.pw.toml"
 hash = "93cde9b654f25ddd814e81fa19b6eb6aef7ea217eb251eb83623f543e47ff494"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "4a5ea44fb3e87c430dbb19df9587ec93bd189ea1a12a15ed190dde3cf5a5cf13"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "fe2fb19ba4d0fec45626237b701d857ac3c7c961efd5b4b7ccfff6cd512872f8"
 metafile = true

@@ -14,7 +14,9 @@ logs/
 crash-reports/
 saves/
 screenshots/
-shaderpacks/
+# 光影包：只跟踪 CF 元数据，zip 由启动器下载
+shaderpacks/*
+!shaderpacks/*.pw.toml
 moddata/
 netherlink/
 defaultconfigs_backup/
