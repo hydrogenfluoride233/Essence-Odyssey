@@ -297,10 +297,9 @@
 	quest.26C4569F0CA4E7D7.title: "Crushing Wheels"
 	quest.27219131E0E42F88.quest_desc: ["Feeding a Baby Leviathan with a &aTropical Fish&r tames it; it will then fight for you with its unripe abyssal power."]
 	quest.2740A375D6EBCB05.quest_desc: [
-		"After amethyst, liquid source is the second medium that turns aspects into matter. Immerse an aspect crystal in liquid source, and you will obtain &l&n&aaspect fluid&r."
-		"{@pagebreak}"
-		"For that conversation to happen, you must first prepare liquid source. It is not a fuel so much as a medium: the source bears the heat and the pressure on the crystal's behalf, then guides the aspect smoothly out of the crystal so it does not re-condense halfway."
-		"This is the first time you have set an aspect free from its solid form. From now on it can be piped, measured, and used by machines as a genuine resource."
+		"After amethyst, liquid source is the second medium that turns aspects into matter. Immerse an aspect crystal in liquid source, and you will obtain &l&n&aaspect fluid&r.",
+		"",
+		"Once it has soaked a crystal, the source loses its colour and rises as a wisp of pale smoke, gone into the air."
 	]
 	quest.2740A375D6EBCB05.title: "Aspect Fluid Buckets"
 	quest.27F647FAFC46B251.quest_desc: [
