@@ -1,3 +1,4 @@
+version:3955
 lang:zh_cn
 resourcePacks:["vanilla","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","file/Natures Aura Altered v1.0.zip","file/[Neoforge] IE Reimmersed v1.1.zip","mod/mmcr:optional/arrow_interfaces"]
 incompatibleResourcePacks:[]
