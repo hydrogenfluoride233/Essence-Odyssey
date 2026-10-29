@@ -20,7 +20,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			id: "285EB6506FEA658A"
@@ -99,8 +99,8 @@
 				item: { count: 1, id: "enderio:grains_of_infinity" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.0d
+			x: 8.5d
+			y: 0.0d
 		}
 	]
 }

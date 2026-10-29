@@ -536,6 +536,7 @@
 			}
 			id: "54CC0D96675F33E8"
 			rewards: [{
+				count: 4
 				id: "6F1D070A973D8B50"
 				item: {
 					count: 1

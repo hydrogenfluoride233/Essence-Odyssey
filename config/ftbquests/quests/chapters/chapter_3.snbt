@@ -30,7 +30,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			id: "52445941353FAD96"
@@ -43,8 +43,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["52445941353FAD96"]
-			hide_until_deps_complete: true
 			id: "477958E4569C3D6B"
 			tasks: [{
 				id: "4F3AD035C3B6110C"
@@ -52,17 +50,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.0d
-		}
-		{
-			id: "2153454C1A2A919F"
-			tasks: [{
-				id: "2149A2BDB70814E8"
-				item: { count: 1, id: "enderio:grains_of_infinity" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			id: "544E258E66294DA0"
@@ -71,8 +59,8 @@
 				item: { count: 1, id: "hostilenetworks:deep_learner" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			id: "7C100513F342FBC4"
@@ -102,7 +90,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -142,7 +130,30 @@
 				}
 			]
 			x: 3.0d
-			y: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5AA560228973D274"
+				"2740A375D6EBCB05"
+			]
+			id: "4920E66F0E157926"
+			tasks: [{
+				id: "6660C67CD734CA01"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "5FB333558E3BBE5D"
+			tasks: [{
+				id: "2D3475F2515B2F37"
+				item: { count: 1, id: "astralsorcery:astrolabe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
 		}
 	]
 }

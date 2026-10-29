@@ -60,7 +60,7 @@
 				item: { count: 1, id: "ae2:mysterious_cube" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -5.0d
 		}
 		{
@@ -72,78 +72,12 @@
 				item: { count: 1, id: "kubejs:sky_stone_mainboard" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -7.5d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["31208139567F93AE"]
+			dependencies: ["4F8FD0BAF765BFF8"]
 			hide_until_deps_complete: true
-			id: "0734386F2C539298"
-			tasks: [{
-				id: "19C60FE9500173FB"
-				item: { count: 1, id: "kubejs:calibration_gel" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["31208139567F93AE"]
-			hide_until_deps_complete: true
-			id: "02B0BF4F271034FE"
-			tasks: [{
-				id: "13A7ADB7B39480D0"
-				item: { count: 1, id: "kubejs:source_amplifier" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["31208139567F93AE"]
-			hide_until_deps_complete: true
-			id: "1FBA99E5D96BD893"
-			tasks: [{
-				id: "5E65476E67A28F76"
-				item: { count: 1, id: "kubejs:arcane_wafer" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["31208139567F93AE"]
-			hide_until_deps_complete: true
-			id: "40501041AF4EBAA3"
-			tasks: [{
-				id: "4B2E50D40FA460EE"
-				item: { count: 1, id: "kubejs:aura_diode" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["31208139567F93AE"]
-			hide_until_deps_complete: true
-			id: "3686997CB148E9BF"
-			tasks: [{
-				id: "1B45901E78BC40B6"
-				item: { count: 1, id: "kubejs:energy_capacitor" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"40501041AF4EBAA3"
-				"02B0BF4F271034FE"
-				"704148E137D62A82"
-				"0734386F2C539298"
-				"1FBA99E5D96BD893"
-				"3686997CB148E9BF"
-			]
 			id: "3453F3AF03FF04C4"
 			tasks: [{
 				id: "5BD3FFF014064772"
@@ -155,6 +89,7 @@
 		}
 		{
 			dependencies: ["3453F3AF03FF04C4"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "ae2:certus_quartz_wrench"
 			}
@@ -194,7 +129,7 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
+			x: -10.0d
 			y: -5.0d
 		}
 		{
@@ -848,6 +783,27 @@
 				"00C3498874CCAB65"
 			]
 			id: "216FDC1A803B60AC"
+			rewards: [
+				{
+					id: "740A933057DB6D4B"
+					item: {
+						components: {
+							"patchouli:book": "mmcr:modular_guide"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
+					id: "6C7DE39FEA3BA0FB"
+					item: {
+						count: 1
+						id: "mmcr:terminal"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "52A870C58F7F8B67"
 				item: { count: 1, id: "mmcr:modularium" }
@@ -1113,6 +1069,40 @@
 			}]
 			x: 2.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["704148E137D62A82"]
+			hide_until_deps_complete: true
+			id: "4F8FD0BAF765BFF8"
+			tasks: [
+				{
+					id: "1BC599ABB73E3017"
+					item: { count: 1, id: "kubejs:aura_diode" }
+					type: "item"
+				}
+				{
+					id: "61394F4D1734155A"
+					item: { count: 1, id: "kubejs:source_amplifier" }
+					type: "item"
+				}
+				{
+					id: "775C1BE432CB842D"
+					item: { count: 1, id: "kubejs:energy_capacitor" }
+					type: "item"
+				}
+				{
+					id: "419D4F9C78648BB2"
+					item: { count: 1, id: "kubejs:calibration_gel" }
+					type: "item"
+				}
+				{
+					id: "692484B1B4534DA1"
+					item: { count: 1, id: "kubejs:arcane_wafer" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -5.0d
 		}
 	]
 }
