@@ -1,13 +1,13 @@
 name = "FTB XMod Compat"
-filename = "ftb-xmod-compat-neoforge-21.1.13.jar"
+filename = "ftb-xmod-compat-neoforge-21.1.14.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e4a88bb2eae8f98c6d25ca861175aa515e705d28"
+hash = "8dc3db7b8aa93eabac54237c5d53bfea15f92ba5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9267870
+file-id = 9344504
 project-id = 889915

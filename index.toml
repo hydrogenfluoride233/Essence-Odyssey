@@ -2014,7 +2014,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
+hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -5240,7 +5240,7 @@ hash = "11b07fce5c69682290106fc1c79fc447606791239a18965f71114f360e8a947e"
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "c71a37f05849d41b3b2a883c55afc4d32de7e05beff02b6f94a833be0c59635c"
+hash = "e511d068e43fd6d1f3e1db102a5e54906342e052b97baf9bc46b86fe0232bd3d"
 metafile = true
 
 [[files]]
@@ -5335,7 +5335,7 @@ metafile = true
 
 [[files]]
 file = "mods/appliedas.pw.toml"
-hash = "1cdd59cf8c9926affefe2131ba995a81afafdc55e94db3d33b236a2913dbfe12"
+hash = "26157bdc291e371268900347db3c1372cc41d77d893aa7c81264e21f26a3f351"
 metafile = true
 
 [[files]]
@@ -5644,6 +5644,11 @@ hash = "183f4532b3c853915ec256a6dd57ef582cb6dd1b08cf593101d99ff6dd75be0b"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "12602d5c4952c42a2390b1d78869777d81e37f0393188a3bb409ded91e18f373"
+metafile = true
+
+[[files]]
 file = "mods/ender-io-conduit-optimizer.pw.toml"
 hash = "e643da2919468346bd42cef9c5196d252eddb1ada9e5898eead0c132e52d7306"
 metafile = true
@@ -5820,7 +5825,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "19d86081a1c7654a91f437d85ea34af4e3f2b899c8e0e50d48a04ca97babf7b4"
+hash = "df64ca595f6f0f79e3a4a844fd0a887b44f5e007f5deb9ac011b5cf67b3a2127"
 metafile = true
 
 [[files]]
@@ -5840,7 +5845,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "96b8df58491c7190b35bf1c5115f029df6464ec276244557becad1613c5f5125"
+hash = "2cfad52dbc5bd12df95bf3b3f8de574bb7d185a90caaf32829a9b19bc98aebe8"
 metafile = true
 
 [[files]]
@@ -5855,7 +5860,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "c6aba607b0c335394c38e9e20fdff3d27c494d944099e6770629e907eaf7e47e"
+hash = "0431771ba664f762587b1d876b0cd0ef4ca0751aed1a5604dfb5f4190f29d409"
 metafile = true
 
 [[files]]
@@ -5875,7 +5880,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "d37a576e8345f7c7fe6ad9364d8da15309a7085bfda05f91558556791e33f24c"
+hash = "253fdc7ff789fb53519914b19e9d05a088323b9df7159e0c9d38d69a9ce33487"
 metafile = true
 
 [[files]]
@@ -6000,7 +6005,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "d59efc266bf1949c2834fd05448ff6ca06f602f15633d5aea03390173157ac5b"
+hash = "10b3806965691bfa3d0de63b563c45077bbede9963a096d094fee88d39fa25a4"
 metafile = true
 
 [[files]]
@@ -6180,7 +6185,7 @@ metafile = true
 
 [[files]]
 file = "mods/lychee.pw.toml"
-hash = "61dd173f6a47a14255bed5a5bf22f202299fb4ca0fd7177cdc2ac501f4090dba"
+hash = "8a5c24948ff4353690a7cc0af6fdd0d3c1dddcf745ccb5afb410cc9b4233fb81"
 metafile = true
 
 [[files]]
@@ -6275,7 +6280,7 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "fbda79a507db8950e0cb1366bf6bab367b2fdb661781c79bee87706019874c5b"
+hash = "979e104caf64333b445d16decfa96ae3777d77a26901c828803ea03324862b09"
 metafile = true
 
 [[files]]
@@ -6285,7 +6290,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "05ae8fe4bb6fce4f94017872d827691aa9de506c27fd8c341876f1d34d8ded54"
+hash = "c9ed4d8d48e3bf7e151e2f98bca39bb6a194099ddccb26ff511551b9f0b98465"
 metafile = true
 
 [[files]]
@@ -6345,7 +6350,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-recipe-book-system.pw.toml"
-hash = "c32c72d83e528a5a94c63c0fda18c11c3d46e459707b6aeb723ec6df5213f8e1"
+hash = "ac1b023e6e098add275f4ac66716193c2310da84b98010f4366ab692b216c224"
 metafile = true
 
 [[files]]
@@ -6365,7 +6370,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "0f50947005dda918ee83c306efd22a2af5dae9c4325cbc089f439e13ca9be97a"
+hash = "6723317c7741229eaa630dac654fb109fdad393495dea84e7265fae0dcd1a051"
 metafile = true
 
 [[files]]
@@ -6460,7 +6465,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "42d8254f9bed8da6e08cabe7fa2606dbe2091141a8aa2e885affcafc4a4d5c20"
+hash = "e9ae31ca87412a2a03b00a13e0c73ac122cad510c8cb9b93511345cc15d91ee1"
 metafile = true
 
 [[files]]
@@ -6535,7 +6540,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "1f879739b8ea01784133a004b34d8895c0f18a737501b4d3546bf33673384707"
+hash = "bfff2b5c76c93c09a4f24ec353dff03a9f26d491f522c77431d53f71a1b75670"
 metafile = true
 
 [[files]]
@@ -6550,12 +6555,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "e71aedefbc645a4c7081af6fd02e49ef4bda9f4ee2b8371300f3614a12cc4813"
+hash = "538e9c6dab75c9f2f8b029fe74014edad7cbf8d06df910b2a4c16d14c1c32ced"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "88f9a977f852f416f10c36cec9383cd933202a9c55308f6db01c3b5f078940e7"
+hash = "4190fffc52da4f2a053849ad4971abe1e7dbe1cddb52415c8a604c91d0d23dd3"
 metafile = true
 
 [[files]]
@@ -6565,7 +6570,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "0e1b01e2153e21799c09d48a49850c694a83674d63c9f47ec32c288325f45878"
+hash = "33a983b383f0035c9ae2856f88118e42ce97c2d3d4a0b85df217c451b99d3da0"
 metafile = true
 
 [[files]]
@@ -6595,7 +6600,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "bb48f46b7273421f7b80fb7a1abe1e778b9329bbfb615dca0b9efb61a67297f6"
+hash = "52036d766eeb1b639503d237987878e7409933d5577d411b55b8b7a6633b5510"
 metafile = true
 
 [[files]]
@@ -6640,7 +6645,7 @@ metafile = true
 
 [[files]]
 file = "mods/twilights-flavors-delight.pw.toml"
-hash = "4f0b940f378b3cfe5bbd2c150c36703751ac29b0c98e39646c995ee65af9c664"
+hash = "bdd326371471d9335cb0a193dc33d0c263e210535eb19f2ce50bc903d984fa62"
 metafile = true
 
 [[files]]
@@ -6690,7 +6695,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "c42d7aabaefd004cb2d8bd60e3520ae163af9d0032412f086f85be1409902167"
+hash = "a3071ec7db02fb86edd8e56e97be1a04e49d5e02f8580cdc92912197a6b30a03"
 
 [[files]]
 file = "resourcepacks/BDcraft Sound Pack MC121.zip"
