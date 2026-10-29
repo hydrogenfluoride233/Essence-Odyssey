@@ -228,5 +228,20 @@
 			x: 1.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["01E75843E7AA2555"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "4F9A961452C2462B"
+			tasks: [{
+				id: "636B4278F491A81C"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
 	]
 }
