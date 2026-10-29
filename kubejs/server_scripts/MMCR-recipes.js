@@ -13,10 +13,10 @@ ServerEvents.recipes(event=>{
     event.remove({id:"mmcr:modularium"})    //模块化合金锭
     event.remove({id:"mmcr:basic_casing"})  //基础机器外壳
 
-    //工业灌注室控制器：外壳围一圈、中间压一块印刷电路板
+    //工业灌注室控制器（临时）
     event.shaped("mmcr:industrial_imbuement_controller",[
         " A ",
-        "BCB",
+        "CBC",
         " A "
     ],{
         A:"mmcr:modularium",

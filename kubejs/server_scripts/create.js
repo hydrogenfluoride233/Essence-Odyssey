@@ -671,7 +671,12 @@ ServerEvents.recipes(event=>{
             "pneumaticcraft:flux_compressor",
             "pneumaticcraft:electrostatic_compressor",
             "pneumaticcraft:solar_compressor",
-            "pneumaticcraft:etching_tank"
+            "pneumaticcraft:etching_tank",
+            "pneumaticcraft:thermal_lagging",
+            "pneumaticcraft:heat_sink",
+            "pneumaticcraft:vortex_tube",
+            "pneumaticcraft:charging_station",
+            "pneumaticcraft:heat_frame"
         ]
 
     function toCreateIngredient(ing){

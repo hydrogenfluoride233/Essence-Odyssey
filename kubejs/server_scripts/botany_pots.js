@@ -33,6 +33,10 @@ ServerEvents.recipes(event=>{
     event.remove({id:"botanypotstiers:pots/mega_terracotta_botany_pot"})
     event.remove({id:"botanypotstiers:pots/mega_terracotta_hopper_botany_pot_upgrade"})
     event.remove({id:"botanypotstiers:pots/mega_terracotta_hopper_botany_pot_upgrade_quick"})
+    event.remove({id:"botanypotstiers:elite_upgrade"})
+    event.remove({id:"botanypotstiers:pots/elite_terracotta_botany_pot_same_material"})
+    event.remove({id:"botanypotstiers:pots/elite_terracotta_hopper_botany_pot_upgrade_quick_same_material"})
+    event.remove({id:"botanypotstiers:pots/elite_terracotta_hopper_botany_pot_upgrade_same_material"})
 
     const soil = (block) =>
         event.custom({

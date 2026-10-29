@@ -8,10 +8,6 @@ ServerEvents.recipes(event=>{
 
     event.remove({id:"mysticalagriculture:infusion_altar"})
 
-    event.remove({id:"botanypotstiers:pots/elite_terracotta_botany_pot_same_material"})
-    event.remove({id:"botanypotstiers:pots/elite_terracotta_hopper_botany_pot_upgrade_quick_same_material"})
-    event.remove({id:"botanypotstiers:pots/elite_terracotta_hopper_botany_pot_upgrade_same_material"})
-
     event.remove({output:"productivebees:honey_treat"})
 
     event.remove({id:"naturesaura:offering_table"})

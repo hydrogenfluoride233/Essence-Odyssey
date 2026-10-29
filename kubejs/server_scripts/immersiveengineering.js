@@ -395,6 +395,16 @@ ServerEvents.recipes(event=>{
                 "5x #c:nuggets/iron"
             ]
         ],//精密构件
+
+        [
+            "pcb",
+            "create_connected:control_chip",
+            [
+                "1x #c:plates/gold",
+                "3x create:electron_tube",
+                "3x #c:dusts/redstone"
+            ]
+        ],//精密构件
     ]
 
     BlueprintList.forEach(([category,output,inputs])=>{
