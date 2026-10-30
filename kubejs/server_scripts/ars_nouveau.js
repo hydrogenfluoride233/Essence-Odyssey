@@ -338,6 +338,21 @@ ServerEvents.recipes(event=>{
             "#c:clusters",
             "enigmaticunity:iridescent_source_generator",5000
         ],//五彩脉冲水晶
+
+        [
+            [
+                "ars_nouveau:water_essence",
+                "ars_nouveau:fire_essence",
+                "ars_nouveau:earth_essence",
+                "ars_nouveau:air_essence",
+                "kubejs:perditio_essence",
+                "kubejs:ordo_essence",
+                "sauce:anima_essence",
+                "pneumaticcraft:printed_circuit_board"
+            ],
+            "ars_nouveau:smooth_sourcestone_large_bricks",
+            "mmcr:industrial_imbuement_controller",50000
+        ],//工业灌注室控制器
     ]
 
     EnchantList.forEach(([pedestal,input,output,source])=>
