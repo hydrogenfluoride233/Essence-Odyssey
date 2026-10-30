@@ -1,6 +1,6 @@
 {
-  "max_length": 6,
+  "max_length": 7,
   "ores": "mekanism:fluorite_ore",
-  "size_variation": 0.6,
-  "weight": 15
+  "size_variation": 0.7,
+  "weight": 26
 }

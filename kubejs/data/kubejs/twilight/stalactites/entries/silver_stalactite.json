@@ -1,6 +1,6 @@
 {
-  "max_length": 6,
+  "max_length": 7,
   "ores": "occultism:silver_ore",
-  "size_variation": 0.6,
-  "weight": 20
+  "size_variation": 0.7,
+  "weight": 28
 }

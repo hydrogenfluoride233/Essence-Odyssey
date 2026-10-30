@@ -1,6 +1,6 @@
 {
-  "max_length": 6,
+  "max_length": 5,
   "ores": "powah:uraninite_ore_dense",
-  "size_variation": 0.6,
-  "weight": 5
+  "size_variation": 0.5,
+  "weight": 12
 }

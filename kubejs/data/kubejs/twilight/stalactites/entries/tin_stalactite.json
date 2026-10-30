@@ -1,6 +1,6 @@
 {
-  "max_length": 6,
+  "max_length": 8,
   "ores": "mekanism:tin_ore",
-  "size_variation": 0.6,
-  "weight": 35
+  "size_variation": 0.7,
+  "weight": 40
 }

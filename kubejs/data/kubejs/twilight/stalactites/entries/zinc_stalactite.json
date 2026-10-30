@@ -1,6 +1,6 @@
 {
-  "max_length": 6,
+  "max_length": 8,
   "ores": "create:zinc_ore",
-  "size_variation": 0.6,
-  "weight": 40
+  "size_variation": 0.7,
+  "weight": 45
 }

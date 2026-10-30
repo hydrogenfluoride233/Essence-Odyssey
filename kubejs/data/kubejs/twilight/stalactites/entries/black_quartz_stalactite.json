@@ -1,6 +1,6 @@
 {
-  "max_length": 6,
+  "max_length": 7,
   "ores": "actuallyadditions:black_quartz_ore",
-  "size_variation": 0.6,
-  "weight": 25
+  "size_variation": 0.7,
+  "weight": 30
 }
