@@ -1,0 +1,19 @@
+{
+  "name": "无人机条件：实体组件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_entity_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个 $(l:programming/conditions)条件/$ 组件。$(p)$(thing)无人机条件：实体/$ 组件可让你检查这个 $(l:tools/drone)无人机/$ 当前正在携带的实体。你还可以添加一个可选的 $(l:programming/text)文本/$ 组件，并为其设置 $(l:base_concepts/entity_filter)实体过滤器/$，以筛选要检查的实体。若没有 $(thing)文本/$ 组件，只要携带的是 $(italic)任意/$ 实体，该条件就会成立。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_entity_piece.png"
+      ],
+      "text": "$(italic)无人机条件：实体控件/$"
+    }
+  ]
+}

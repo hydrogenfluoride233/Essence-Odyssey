@@ -1,0 +1,23 @@
+{
+  "name": "流体输入组件",
+  "icon": "pneumaticcraft:textures/progwidgets/liquid_import_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)流体导入组件/$会让$(l:tools/drone)雄蜂/$移动到指定$(l:programming/area)区域/$内最近的储罐，从该储罐中抽取流体并将其放入自身的储罐中。$(p)它还可以从世界中的流体方块里吸取流体，使$(item)雄蜂/$能够充当便携式泵。"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)右击/$该组件以打开设置GUI，你可以在其中指定雄蜂应从哪些侧面抽取流体，以及每次操作导入的最大流体量（单位：mB）。$(p)你还可以$(ttcolor)$(t:Connect on the right to whitelist, on the left to blacklist)连接/$一个$(l:programming/liquid_filter)流体过滤器/$，以限制雄蜂可导入的内容。$(p)当$(item)雄蜂的/$储罐已满，或在储罐中找不到更多（适用的）液体时，该组件即完成工作。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/liquid_import_piece.png"
+      ],
+      "text": "$(italic)啜饮/$"
+    }
+  ]
+}

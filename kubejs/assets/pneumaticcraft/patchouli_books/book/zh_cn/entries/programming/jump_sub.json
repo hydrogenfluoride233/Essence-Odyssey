@@ -1,0 +1,19 @@
+{
+  "name": "跳转子程序控件",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_sub_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这个组件的行为和 $(thing)跳跃/$ 类似，但当子程序执行完成后，程序会继续从连接在 $(thing)跳转子程序/$ 组件底部的组件处执行。$(thing)跳转子程序/$ 组件非常适合复用常用代码，也可以通过在跳转到子程序前先设置变量，从而以任意参数调用子程序。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/jump_sub_piece.png"
+      ],
+      "text": "$(italic)跳转子程序组件/$"
+    }
+  ]
+}

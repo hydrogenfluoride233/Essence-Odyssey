@@ -1,0 +1,17 @@
+{
+  "name": "管道跨接点",
+  "icon": "pneumaticcraft:tube_junction",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)管道跨接点/$ 是一种非常简单的装置，可以让两根 $(l:tubes/pressure_tubes)压力管道/$（任意 $(l:base_concepts/pressure_tiers)压力等级/$）彼此交叉而不会连接在一起。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成管道跨接点",
+      "recipe": "pneumaticcraft:tube_junction"
+    }
+  ]
+}

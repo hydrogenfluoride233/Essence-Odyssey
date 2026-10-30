@@ -1,0 +1,7 @@
+{
+  "name": "条件组件",
+  "description": "用于判断条件的元件。",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_block_piece.png",
+  "parent": "pneumaticcraft:programming",
+  "sortnum": 3
+}

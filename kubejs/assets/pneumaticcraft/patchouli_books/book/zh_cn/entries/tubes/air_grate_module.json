@@ -1,0 +1,36 @@
+{
+  "name": "空气栅管道模块",
+  "icon": "pneumaticcraft:air_grate_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "该模块用于将实体吸引到模块附近，或将其从模块附近排斥开。在正$(l:base_concepts/pressure)压/$下，管道会将实体吹开；而在 $(thing)负/$压下，则会将实体吸向自身。负压可通过 $(l:machines/vacuum_pump)真空泵/$ 产生。当实体物品足够接近时，它们会自动被插入任意相邻容器中，并遵守容器的面向规则（例如熔炉）。"
+    },
+    {
+      "type": "text",
+      "text": "该模块的作用范围可用以下公式表示：$(p)在正气压下：$(p)  $(#272)范围 = 4 x 气压（bar）/$$(p)在负气压下：$(p)  $(#272)范围 = -16 x 气压（bar）/$$(p)例如，在 2 bar 时，它会在 4x2=8 格的范围内排斥；在 -0.5 bar 时，它会在 -16x-0.5=8 格的范围内吸引。"
+    },
+    {
+      "type": "text",
+      "text": "空气格栅只会影响其朝向方向上一个立方区域内的实体。该模块还必须与实体保持视线接触。$(p)你可以右击该模块，使其显示受影响的范围，持续几秒钟。"
+    },
+    {
+      "type": "text",
+      "title": "散热片主动散热",
+      "anchor": "active_cooling",
+      "text": "空气格栅模块也可用于主动冷却$(l:machines/heat_sink)散热片/$。空气格栅前方会形成一个 3x3x3 的立方体区域，其中的散热片会被冷却。放置该模块时，会显示这一区域。$(p)只有当空气格栅的作用距离达到 3 格或以上时，它才会冷却散热片（即 0.75 bar）。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "当你安装 $(l:tubes/module_expansion_card)模块拓展卡/$ 后，你就可以控制哪些实体会受到该模块的影响。$(p)例如，你可以设置成只影响某位特定玩家，或者只影响苦力怕，或者只影响物品。要做到这一点，只需右键点击已升级的模块，打开 GUI，并在其中定义一个 $(l:base_concepts/entity_filter)实体过滤器/$。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成空气格栅模块",
+      "recipe": "pneumaticcraft:air_grate_module"
+    }
+  ]
+}

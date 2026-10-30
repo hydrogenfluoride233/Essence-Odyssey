@@ -1,0 +1,17 @@
+{
+  "name": "人力压缩机",
+  "icon": "pneumaticcraft:manual_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)人力压缩机/$ 是一种游戏前期的压缩机，通过人力和饥饿值来产生 $(l:base_concepts/pressure)压缩空气/$。按住右键操作压缩机即可向内泵入空气并进行压缩。压缩机压力越高，每次泵气所需时间就越长，直到最终再也无法继续泵入空气。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成一个 $(item)人力压缩机/$",
+      "recipe": "pneumaticcraft:manual_compressor"
+    }
+  ]
+}

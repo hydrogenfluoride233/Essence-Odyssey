@@ -1,0 +1,19 @@
+{
+  "name": "去往位置小部件",
+  "icon": "pneumaticcraft:textures/progwidgets/goto_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)去往位置/$ 非常直观：$(l:tools/drone)雄蜂/$会前往指定$(l:programming/area)区域/$内最近且可到达的位置。$(p)当 $(ttcolor)$(t:You can configure the widget to be 'done' immediately; right-click for the setup GUI)雄蜂已到达该区域时/$，或者该区域无法到达时，这个组件就会结束。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/goto_piece.png"
+      ],
+      "text": "$(italic)去往位置控件/$"
+    }
+  ]
+}

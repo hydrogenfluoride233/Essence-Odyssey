@@ -1,0 +1,30 @@
+{
+  "name": "散热片",
+  "icon": "pneumaticcraft:heat_sink",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)散热片/$是一种用于散发$(l:base_concepts/heat)热量/$的方块。$(p)注意，如果$(item)散热片/$温度高于 60°C 或低于 -60°C，接触时会对你造成伤害！$(p)$(item)散热片/$只能散发与其直接连接的方块中的热量。要连接多个$(item)散热片/$，请使用$(l:machines/heat_pipe)热管/$来提供更多表面。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/heat_sinks.png"
+      ],
+      "border": "true",
+      "text": "$(italic)一台$(l:compressors/advanced_liquid_compressor)高级液体压缩机/$$(italic)，带有多个散热片/$"
+    },
+    {
+      "type": "text",
+      "title": "主动散热",
+      "text": "你可以将 $(item)散热片/$ 放置在 $(l:tubes/air_grate_module#active_cooling)Air Grate Module/$ 的作用范围内，以提高其效果。将该模块安装到 $(l:tubes/pressure_tubes)压力管道/$ 上时，会显示模块的作用范围。使用多个 Air Grate Module 还可以叠加冷却效果。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成散热片",
+      "recipe": "pneumaticcraft:heat_sink"
+    }
+  ]
+}

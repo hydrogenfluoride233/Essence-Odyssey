@@ -1,0 +1,58 @@
+{
+  "name": "电梯",
+  "icon": "pneumaticcraft:elevator_base",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)升降机/$是一种可用于垂直运输任何实体的机器，无论是物品、生物、动物还是玩家。$(p)你需要在底部放置一个 $(item)电梯基座/$。你可以将多个基座向上堆叠放置。$(p)在其上方放置 $(item)电梯框架/$，它们可作为升降机的支撑结构。"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)升降机/$可延伸的高度由 $(item)电梯基座/$ 的数量和 $(item)电梯框架/$ 的数量共同决定。$(thing)升降机/$的最大高度取以下两者中的较小值：$(li)垂直堆叠的 $(item)电梯框架/$ 数量的 1 倍，或$(li)$(ttcolor)$(t:You can change this multiplier in mod config - see 'I:elevatorBaseBlocksPerBase')垂直堆叠的 $(item)电梯基座/$ 数量的 6 倍/$"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)电梯/$可以以以下两种模式之一运行：$(li)$(bold)红石/$：对任意一个$(item)电梯基座/$施加$(#f00)红石信号/$，即可控制电梯的高度，且与信号强度成正比（无信号 = 0% 延伸，满信号 = 100% 延伸）。$(li)$(bold)电梯呼叫器/$：$(l:machines/elevators#caller)电梯呼叫器/$可以为电梯提供更复杂的控制。"
+    },
+    {
+      "type": "text",
+      "title": "多方块电梯",
+      "text": "你可以将更多$(item)电梯基座/$水平并排放置，以建造更大的$(thing)电梯/$。当每个相连$(thing)电梯/$顶部的$(item)电梯基座/$处于同一高度时，这些$(thing)电梯/$将共享楼层（由$(l:machines/elevators#caller)电梯呼叫器/$定义）和红石输入，因此会作为一个多方块结构运作。"
+    },
+    {
+      "type": "text",
+      "title": "回收空气",
+      "text": "$(item)电梯基座/$最多可接受四个$(l:base_concepts/upgrades#charging)充气升级/$，使其能够在电梯下降时回收已消耗的空气（通常下降不消耗空气，但也不会恢复空气）。$(p)代价是下降速度会变慢；安装 4 个升级后，回收的空气量相当于上升相同距离所消耗空气的 60%，但下降速度会降低 40%。"
+    },
+    {
+      "type": "text",
+      "anchor": "caller",
+      "title": "电梯呼叫器",
+      "text": "放置在 $(item)电梯框架/$ 旁边的 $(item)电梯呼叫器/$ 用于控制 $(thing)电梯/$ 的高度。放下一个 $(item)电梯框架/$ 时，它会根据其他 $(item)电梯呼叫器/$ 来计算共有多少个 $(thing)楼层/$。$(p)$(thing)楼层/$ 可以在 $(item)电梯基座/$ 的 GUI 中命名；楼层名称会显示为每个 $(item)电梯呼叫器/$ 上的按钮。点击这些按钮即可将 $(thing)电梯/$ 呼叫到对应楼层。"
+    },
+    {
+      "type": "text",
+      "title": "电梯呼叫器 (续)",
+      "text": "此外，当$(thing)升降机/$位于其所在楼层时，$(item)电梯呼叫器/$会发出$(#f00)红石信号/$；而向呼叫器提供一个$(#f00)红石脉冲/$，则会将$(thing)升降机/$呼叫到该楼层。$(p)最后，可以使用$(l:tools/camo_applicator)伪装涂覆器/$工具将$(item)电梯呼叫器/$伪装成其他方块的外观。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/elevator.png"
+      ],
+      "border": "true",
+      "text": "$(italic)一个 3x3 的升降机，带有两个可见的电梯呼叫器/$"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:elevator_base_1",
+      "recipe2": "pneumaticcraft:elevator_frame"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:elevator_caller"
+    }
+  ]
+}

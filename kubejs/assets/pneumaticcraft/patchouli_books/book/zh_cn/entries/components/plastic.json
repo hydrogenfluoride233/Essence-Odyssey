@@ -1,0 +1,69 @@
+{
+  "name": "塑料",
+  "icon": "pneumaticcraft:plastic_bucket",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)塑料/$是 $(pncr) 中重要的合成材料。$(p)$(item)熔融塑料/$可在 $(l:manufacturing/thermopneumatic_processing_plant)热气动加工机/$ 中由 $(l:manufacturing/refinery)液化石油气/$ 和 $(item)煤炭/$，或 $(l:renewables/biodiesel)生物柴油/$ 和 $(item)木炭/$ 制成。"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/plastic_from_lpg"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/plastic_from_biodiesel"
+    },
+    {
+      "type": "spotlight",
+      "title": "塑料片",
+      "item": "pneumaticcraft:plastic",
+      "flag": "pneumaticcraft:inWorldPlasticSolidification",
+      "text": "$(item)熔融塑料/$只需倒入世界中即可凝固；大约半秒后，它就会变成一块$(item)塑料片/$。使用带有$(l:base_concepts/upgrades#dispenser)发射器升级/$的$(l:machines/liquid_hopper)流体漏斗/$和一个$(l:machines/omnidirectional_hopper)全向漏斗/$，就能非常轻松地实现自动化。"
+    },
+    {
+      "type": "spotlight",
+      "title": "塑料片",
+      "item": "pneumaticcraft:plastic",
+      "flag": "!pneumaticcraft:inWorldPlasticSolidification",
+      "text": "$(item)塑料片/$的生产方式是：将一桶或一$(l:machines/tanks)储罐/$$(item)熔融塑料/$放入一个连接了$(l:semiblocks/heat_frame)导热框架/$的容器中，并对导热框架进行冷却，最好冷却到 -80C 以下（越冷越好）。$(item)熔融塑料/$会从桶或储罐中被消耗，每消耗 1000mB 的熔融塑料，你都有机会额外获得一份$(item)塑料片/$。"
+    },
+    {
+      "type": "text",
+      "title": "提升产量",
+      "flag": "pneumaticcraft:inWorldPlasticSolidification",
+      "text": "另一种使 $(item)塑料片/$ 固化的方法，是将一桶或一$(l:machines/tanks)储罐/$的 $(item)熔融塑料/$ 放入一个装有 $(l:semiblocks/heat_frame)导热框架/$ 的容器中，并对导热框架进行冷却，最好降到 -80C 以下（越冷越好）。桶或储罐中的 $(item)熔融塑料/$ 会被消耗，而每消耗 1000mB 的熔融塑料，你都有机会额外获得一张 $(item)塑料片/$。"
+    },
+    {
+      "type": "text",
+      "title": "关于储罐的说明",
+      "text": "虽然$(pncr)流体储罐有容器槽位，并且允许在其上放置$(thing)热量框架/$，但仅仅把热量框架装在装满熔融塑料的储罐上并不起作用；流体储罐必须以物品形式存在于某个容器中（如箱子等），并且已附加热量框架。"
+    },
+    {
+      "type": "spotlight",
+      "title": "塑料砖块™",
+      "item": "pneumaticcraft:plastic_brick_red",
+      "text": "这些砖块由 $(item)塑料片/$ 和任意染料制成，很适合用于建筑。$(p)不过别光脚踩在上面，因为会疼得离谱！$(p)$(italic)兼容其他主流品牌的积木。/$"
+    },
+    {
+      "type": "spotlight",
+      "title": "平整塑料砖块™",
+      "item": "pneumaticcraft:smooth_plastic_brick_red",
+      "text": "$(item)塑料建筑砖/$ 的光滑版本同样适合用于建筑。$(p)这些砖块还有个优点，就是作为地板非常出色，因为它们会提高你的行走速度！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:plastic_brick_red",
+      "recipe2": "pneumaticcraft:smooth_plastic_brick_red",
+      "text": "你可以自己推测出其他颜色的配方"
+    },
+    {
+      "type": "smelting",
+      "recipe": "pneumaticcraft:plastic_sheet_from_brick",
+      "recipe2": "pneumaticcraft:plastic_sheet_from_smooth_brick",
+      "text": "你可以将砖块重新冶炼成塑料片"
+    }
+  ]
+}

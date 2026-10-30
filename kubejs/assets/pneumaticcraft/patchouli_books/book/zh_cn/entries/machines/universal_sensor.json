@@ -1,0 +1,32 @@
+{
+  "name": "万能传感器",
+  "icon": "pneumaticcraft:universal_sensor",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)万能传感器/$顾名思义，是一种可用于多种场景的传感器；它会测量世界中的各种状态，并根据这些状态输出$(#f00)红石信号/$。$(p)通用性并非没有代价：在$(ttcolor)$(t:The Constant Redstone Emitter is free to use)几乎所有/$情况下，该传感器运行都需要消耗$(l:base_concepts/pressure)空气/$（1 mL/tick），而且传感器还需要安装特定的$(l:base_concepts/upgrades)升级卡/$才能工作。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:universal_sensor",
+      "text": "目前，传感器可测量的条件已有 15 种以上，从检查某个坐标上是否有方块，到判断是否有 Twitch 主播正在直播。打开 $(thing)万能传感器/$ 的 GUI 查看可用选项及其说明。"
+    },
+    {
+      "type": "text",
+      "title": "升级",
+      "text": "你需要插入 $(l:base_concepts/upgrades#entity_tracker)实体追踪器/$、$(l:base_concepts/upgrades#dispenser)发射器/$ 或 $(l:base_concepts/upgrades#block_tracker)方块追踪器/$，再加上 $(l:tools/gps_tool)定位工具/$，才能选择对应类别的传感器。例如，要统计范围内的实体数量，需要安装 $(item)实体追踪升级/$。"
+    },
+    {
+      "type": "text",
+      "title": "示例：实体计数",
+      "text": "假设你有一个装满动物的围栏，想要杀掉其中一些，但前提是数量必须足够多。$(p)添加一个 $(l:base_concepts/upgrades#entity_tracker)实体追踪升级/$，并加入足够的 $(l:base_concepts/upgrades#range)范围升级/$ 以覆盖整个围栏的大小。$(p)然后在 GUI 中，先选择 $(thing)实体/$ 按钮，再选择 $(thing)范围内/$，最后输入一个与动物类型匹配的 $(l:base_concepts/entity_filter)实体过滤器/$（例如“cow”）。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成万能传感器",
+      "recipe": "pneumaticcraft:universal_sensor"
+    }
+  ]
+}

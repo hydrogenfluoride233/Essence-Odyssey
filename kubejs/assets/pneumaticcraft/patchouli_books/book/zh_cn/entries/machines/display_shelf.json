@@ -1,0 +1,17 @@
+{
+  "name": "展示台",
+  "icon": "pneumaticcraft:display_shelf",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)展示台/$的功能与它的大哥 $(l:machines/display_table)展示桌/$ 完全相同，但只有半格高。此外，如果其下方的方块顶部表面不坚实，它将不会渲染桌腿。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成展示台",
+      "recipe": "pneumaticcraft:display_shelf"
+    }
+  ]
+}

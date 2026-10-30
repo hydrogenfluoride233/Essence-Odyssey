@@ -1,0 +1,29 @@
+{
+  "name": "合成",
+  "icon": "pneumaticcraft:textures/progwidgets/craft_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)雄蜂/$会使用其容器中的物品来合成物品。要指定合成配方，请将 $(l:programming/item_filter)物品过滤器/$ 按照合成配方的图案放置在合成组件右侧。$(p)你不必正好使用 9 个 $(thing)物品过滤器/$：只要能摆出配方图案，就可以生效。"
+    },
+    {
+      "type": "text",
+      "text": "默认情况下，合成组件会尽可能合成更多物品；你可以在组件 GUI 中通过 $(thing)使用计数/$ 设置来限制这一点。$(p)你大概会想给 $(item)无人机/$ 安装一些 $(l:base_concepts/upgrades#dispenser)物品栏升级/$，以便让它拥有更大的物品栏。"
+    },
+    {
+      "type": "text",
+      "flag": "mod:jei",
+      "title": "JEI扩展",
+      "text": "可以使用 JEI 为合成组件快速轻松地设置物品过滤器；更多信息请参见$(l:programming/programmer#jei)此页面/$。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/craft_piece.png"
+      ],
+      "text": "$(italic)合成组件/$"
+    }
+  ]
+}

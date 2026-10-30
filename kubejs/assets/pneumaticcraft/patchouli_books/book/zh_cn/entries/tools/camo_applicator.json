@@ -1,0 +1,21 @@
+{
+  "name": "伪装涂覆器",
+  "icon": "pneumaticcraft:camo_applicator[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)伪装涂覆器/$可用于伪装某些$(pncr)方块：$(li)$(l:tubes/pressure_tubes)压力管道/$$(li)$(l:machines/pneumatic_door)气动门基座/$$(li)$(l:machines/elevators)电梯基座和呼叫器/$$(li)$(l:machines/charging_station)充气站/$$(li)$(l:machines/heat_pipe)热管/$$(p)$(thing)右击/$任意实心方块，即可将其外观复制到涂覆器中，或$(thing)潜行右击/$以清除已复制的方块。"
+    },
+    {
+      "type": "text",
+      "text": "然后，$(thing)右击/$任意可添加迷彩的方块（见上文），即可添加或移除迷彩。$(p)要将某个方块用作迷彩，你需要在物品栏中实际拥有该方块，并且它会被消耗掉（不过移除迷彩时会返还给你）。$(p)你也可以用镐或其他合适的工具破坏带有迷彩的方块来去除迷彩；这样被破坏的将是迷彩层本身。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成伪装涂覆器",
+      "recipe": "pneumaticcraft:camo_applicator"
+    }
+  ]
+}

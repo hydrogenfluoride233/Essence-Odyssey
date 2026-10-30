@@ -1,0 +1,19 @@
+{
+  "name": "注释",
+  "icon": "pneumaticcraft:textures/progwidgets/comment_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这个组件可以在你的程序中添加 $(thing)注释/$，且没有任何功能性效果。使用它也不消耗任何 $(l:programming/puzzle_pieces)拼图/$。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/comment_piece.png"
+      ],
+      "text": "$(italic)注释控件/$"
+    }
+  ]
+}

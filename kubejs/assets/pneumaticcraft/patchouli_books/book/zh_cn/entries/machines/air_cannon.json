@@ -1,0 +1,22 @@
+{
+  "name": "空气炮",
+  "icon": "pneumaticcraft:air_cannon",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)空气炮/$是一种可用于通过空气将物品运输到相当远距离的装置。它使用$(l:base_concepts/pressure)压缩空气/$作为推进剂。$(p)你还需要一个$(l:tools/gps_tool)定位工具/$来瞄准$(item)空气炮/$（不过一旦大炮瞄准完成，定位工具就可以取下并重复使用）。$(p)一个$(#f00)红石脉冲/$会触发大炮开火。"
+    },
+    {
+      "type": "text",
+      "title": "升级",
+      "text": "安装 $(l:base_concepts/upgrades#dispenser)发射器升级/$ 后，$(item)空气炮/$ 对某些物品的行为会像原版的 $(item)发射器/$ 一样，例如 TNT 或火焰弹。$(p)安装 $(l:base_concepts/upgrades#entity_tracker)实体追踪升级/$ 后，$(item)空气炮/$ 被触发时将不会从其容器中发射物品，而是会发射最近的实体（包括你自己！）。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成空气炮",
+      "recipe": "pneumaticcraft:air_cannon"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "压力管道",
+  "icon": "pneumaticcraft:pressure_tube",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:root",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "压力管道是 $(pncr) 中用于在压缩机与机器之间传输压缩空气的主要装置。$(p)未连接的管道会漏气！不过，使用 $(l:tools/pneumatic_wrench)气动扳手/$ 右键单击即可切换管道各侧的开启或关闭状态。其他模组的扳手也可能有效。"
+    },
+    {
+      "type": "image",
+      "title": "导管！",
+      "text": "$(italic)两根带有$(l:tubes/pressure_gauge_module)压力表/$的压力管道，$(italic)连接着$(l:compressors/air_compressor)空气压缩机/$ $(italic)和$(l:machines/air_cannon)空气炮/$",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pressure_tubes.png"
+      ],
+      "border": "true"
+    },
+    {
+      "type": "text",
+      "text": "压力管道可以安装 $(l:tubes/tube_modules)管道模块/$，这些可附加的组件会为管道增加各种功能。有关各个模块的更多信息，请参阅其对应页面。$(p)压力管道还可以使用 $(l:tools/camo_applicator)伪装涂覆器/$ 进行伪装。"
+    },
+    {
+      "type": "text",
+      "text": "管道共有三种$(l:base_concepts/pressure_tiers)等级/$：$(br)$(li)1 级管道最多可承受 5 bar 压力，空气容量为 1000mL。$(li)1.5 级（强化）管道最多可承受 10 bar 压力，容量同样为 1000mL。$(li)2 级（高级）管道最多可承受 20 bar 压力，空气容量为 4000mL。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成压力管道",
+      "recipe": "pneumaticcraft:pressure_tube"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/reinforced_pressure_tube"
+    },
+    {
+      "anchor": "advanced",
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/advanced_pressure_tube"
+    }
+  ]
+}

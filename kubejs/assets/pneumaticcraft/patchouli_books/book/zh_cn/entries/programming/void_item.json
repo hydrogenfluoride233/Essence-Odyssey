@@ -1,0 +1,19 @@
+{
+  "name": "销毁物品",
+  "icon": "pneumaticcraft:textures/progwidgets/void_item_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这会立即且永久地销毁无人机物品栏中的物品——请务必小心！强烈建议将它与 $(l:programming/item_filter)物品过滤器/$ 配合使用。使用过滤器后，只有被过滤器允许的物品才会被清除。$(p)当 $(item)无人机/$ 的物品栏中不再有任何符合条件的物品时，此组件就会执行完成。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/void_item_piece.png"
+      ],
+      "text": "$(italic)反正我也不想要/$"
+    }
+  ]
+}

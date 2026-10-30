@@ -1,0 +1,19 @@
+{
+  "name": "传送",
+  "icon": "pneumaticcraft:textures/progwidgets/teleport_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)传送/$是$(l:programming/goto)前往/$组件的更昂贵版本（以消耗的$(l:base_concepts/pressure)空气/$而言），但同样简单直接：$(l:tools/drone)雄蜂/$会传送到指定$(l:programming/area)区域/$内最近的可到达位置。$(p)$(item)雄蜂/$每次传送会消耗 10000mL 空气，这几乎就是未升级的$(item)雄蜂/$的大部分容量，因此推荐安装$(l:base_concepts/upgrades#volume)容量升级/$。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/teleport_piece.png"
+      ],
+      "text": "$(italic)我刚还在这儿，转眼又到那儿了。/$"
+    }
+  ]
+}

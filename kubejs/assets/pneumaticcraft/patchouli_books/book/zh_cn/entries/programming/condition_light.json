@@ -1,0 +1,19 @@
+{
+  "name": "条件：轻型部件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_light_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：光照/$组件可让你（远程）检查已连接的$(l:programming/area)区域/$组件中的方块光照等级是否符合已配置的光照阈值。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_light_piece.png"
+      ],
+      "text": "$(italic)条件：光照控件/$"
+    }
+  ]
+}

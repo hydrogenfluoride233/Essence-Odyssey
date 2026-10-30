@@ -1,0 +1,49 @@
+{
+  "name": "温差压缩机",
+  "icon": "pneumaticcraft:thermal_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)温差压缩机/$是一种简单的压缩机，它利用两侧相对的（水平方向）$(l:base_concepts/heat)温度/$差来产生$(l:base_concepts/pressure)压缩空气/$。温度梯度越大，产生的空气就越多。$(p)注意：如果试图仅靠一台$(l:machines/vortex_tube)涡流管/$来运行这台压缩机，是行不通的；你会出现净压力损失。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/thermal_compressor.png"
+      ],
+      "border": "true",
+      "text": "$(italic)使用熔岩和浮冰提供温差的热力压缩机/$"
+    },
+    {
+      "type": "text",
+      "text": "$(item)温差压缩机/$的南北两侧在热力上彼此连通，东西两侧也是如此，但南北与东西之间没有交叉连通，因此你可以在一台压缩机上形成两组彼此独立的温度梯度。$(p)热量会在这些连接之间趋于均衡，因此要维持有用的温差还需要花些功夫。"
+    },
+    {
+      "type": "text",
+      "title": "应用",
+      "text": "$(item)温差压缩机/$主要可在三种情况下派上用场：$(li)利用$(item)涡流管/$$(italic)一侧/$产生的废热（或冷量！）。通常，你只会使用涡流管的热侧或冷侧，并通过$(l:machines/heat_sink)散热片/$将另一侧排出。不过，$(item)温差压缩机/$提供了一个机会，可以将这部分废热或冷量回收并转化为空气压力。"
+    },
+    {
+      "type": "text",
+      "title": "应用 (续)",
+      "text": "$(li)用于利用诸如 $(l:compressors/advanced_air_compressor)高级空气压缩机/$ 之类的高级压缩机产生的余热。通常你会使用一个或多个 $(l:tools/heat_sink)散热片/$ 将这些热量排放到大气中，但有了温差压缩机，也可以将其中一部分余热回收为气压。"
+    },
+    {
+      "type": "text",
+      "title": "应用 (续)",
+      "text": "$(li)如果你有办法获取大量天然的高温或低温物质，例如$(l:base_concepts/heat_sources)熔岩或来自其他模组的方块/$，你就可以利用它们来产生一些气压。你大概还需要能够自动放置和移除热源以及耗尽的热源；$(l:tools/drone)无人机/$和许多其他模组提供的方案都能做到这一点。"
+    },
+    {
+      "type": "text",
+      "title": "红石控制",
+      "text": "这台压缩机可以通过$(#f00)红石信号/$控制；若被禁用，将停止产生压力，同时南北面与东西面之间的热阻会大幅增加（仍然会有少量热量泄漏，但远少于压缩机运行时）。当你不需要压力时，这一点可用于将能量以温差的形式储存起来，例如当你的气动管网已经完全充压时。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成一个 $(item)温差压缩机/$",
+      "recipe": "pneumaticcraft:thermal_compressor"
+    }
+  ]
+}

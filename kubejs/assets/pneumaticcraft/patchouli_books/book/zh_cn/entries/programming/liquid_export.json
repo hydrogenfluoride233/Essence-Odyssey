@@ -1,0 +1,23 @@
+{
+  "name": "流体输出部件",
+  "icon": "pneumaticcraft:textures/progwidgets/liquid_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "与 $(l:programming/liquid_import)流体导入/$ 相反：$(l:tools/drone)雄蜂/$会移动到指定$(l:programming/area)区域/$内最近的储罐，将自身储罐中的流体卸下。$(p)此外，$(item)雄蜂/$还可以在世界中放置流体：要这样做，请在该组件的 GUI 中勾选 $(thing)放置流体/$ 选项。注意，$(item)雄蜂/$在这样做时很容易把自己困住！"
+    },
+    {
+      "type": "text",
+      "text": "你可以在该小部件的 GUI 中指定雄蜂应将物品输出到储罐的哪一侧；你也可以指定导出流体的最大数量（单位：mB）。$(p)你还可以 $(ttcolor)$(t:Connect on the right to whitelist, on the left to blacklist)连接/$ 一个 $(l:programming/liquid_filter)流体过滤器/$，以限制雄蜂可导出的内容。$(p)当 $(item)雄蜂的/$储罐为空（没有适用的流体），或作用范围内没有可接受该流体的储罐时，此小部件即完成。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/liquid_export_piece.png"
+      ],
+      "text": "$(italic)流体输出部件/$"
+    }
+  ]
+}

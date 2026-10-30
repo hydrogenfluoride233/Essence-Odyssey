@@ -1,0 +1,25 @@
+{
+  "name": "导热框架",
+  "icon": "pneumaticcraft:heat_frame",
+  "category": "pneumaticcraft:semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "该物品可以放置在任何$(thing)容器/$上。当它被相邻的$(l:base_concepts/heat)热源/$加热时，会尝试冶炼容器中的任意物品（或在冷却时将其冰冻）。只有当容器中有足够空间容纳产出物时，它才会成功。施加的热量越多，冶炼速度就越快，最快可达到每秒 1 个物品。同样地，冷却得越强，它冰冻物体的速度也就越快。"
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "矿石工艺",
+      "text": "$(thing)导热框架/$支持通过 $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$ 添加冷却相关内容（烧炼则直接使用普通的 $(item)熔炉/$ 配方）：配方可以添加或移除。更多信息请查看下方链接。",
+      "url": "https://crafttweaker.readthedocs.io/en/latest/#Mods/PneumaticCraft_Repressurized/Heat_Frame_Cooling/",
+      "link_text": "矿石工艺文档"
+    },
+    {
+      "type": "crafting",
+      "text": "合成导热框架",
+      "recipe": "pneumaticcraft:heat_frame"
+    }
+  ]
+}

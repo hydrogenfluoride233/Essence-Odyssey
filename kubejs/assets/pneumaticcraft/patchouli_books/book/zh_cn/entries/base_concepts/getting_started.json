@@ -1,0 +1,16 @@
+{
+  "name": "开始",
+  "icon": "pneumaticcraft:textures/gui/icon/gui_no_problem.png",
+  "category": "pneumaticcraft:base_concepts",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "欢迎来到气动工艺！$(li)先准备一些 $(thing)铁/$ 和一些 $(thing)石头/$。刚开始时，你大约需要各一组，铁可能稍微少一点也行。$(li)把铁扔到地上，然后把它炸掉。没错，真的。$(li)收集爆炸后得到的 $(thing)压缩铁/$（爆炸中会损失一点）。$(li)制作一些 $(l:tubes/pressure_tubes)压力管道/$。$(li)制作一些 $(l:base_concepts/building_materials)强化石头/$。$(li)搭建一个 $(l:manufacturing/pressure_chamber)压力室/$。"
+    },
+    {
+      "type": "text",
+      "text": "从这里开始，本手册会根据你在 $(pncr) 的推进过程中获得的$(thing)进度/$，逐步解锁更多章节。记得查看该模组的进度页面，了解你接下来应该制作什么（而且解锁某些进度时，你还会获得一点$(thing)经验值/$，这也挺不错的）。"
+    }
+  ]
+}

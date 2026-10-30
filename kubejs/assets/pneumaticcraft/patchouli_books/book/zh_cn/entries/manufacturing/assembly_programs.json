@@ -1,0 +1,18 @@
+{
+  "name": "装配程序",
+  "icon": "pneumaticcraft:assembly_program_laser",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "必须将 $(thing)装配程序/$ 插入 $(l:manufacturing/assembly_system)装配台/$ 中，以告知它需要执行哪种操作。它们无法合成，只能通过交易获得；可以向 $(thing)机械师村民/$ 交易，或通过 $(l:tools/amadron_tablet)亚马龙平板电脑/$ 获取。"
+    },
+    {
+      "type": "spotlight",
+      "title": "钻孔机与镭射器",
+      "item": "pneumaticcraft:assembly_program_drill_laser",
+      "text": "$(item)装配程序：钻孔与镭射/$有点特殊。它并不能同时处理钻孔和镭射配方；相反，它为包含钻孔$(italic)和/$镭射两个步骤的两步配方提供了单程序处理方式，例如 $(l:tubes/pressure_tubes#advanced)高级压力管道/$。"
+    }
+  ]
+}

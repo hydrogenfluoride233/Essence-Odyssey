@@ -1,0 +1,37 @@
+{
+  "name": "采集无人机",
+  "icon": "pneumaticcraft:collector_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)采集无人机/$是一种专门的、不可编程的$(l:tools/drone)雄蜂/$，应部署在任意容器方块（如箱子等）上或其旁边。它会收集附近的物品并将其放入该容器中。"
+    },
+    {
+      "type": "spotlight",
+      "title": "自动充气",
+      "item": "pneumaticcraft:charging_station",
+      "text": "与所有类型的雄蜂一样，这些雄蜂需要 $(l:base_concepts/pressure)压力/$ 才能运作，并且在气压不足时会自动寻找 $(l:tools/drone#charging)装有发射器升级的充气站/$。"
+    },
+    {
+      "type": "text",
+      "title": "物品过滤",
+      "text": "$(thing)采集无人机/$具备一些基础的物品筛选功能。如果将其$(italic)紧贴着/$一个容器方块部署，它会根据该容器中已有的物品进行筛选。如果将其部署在地面上，并放在容器$(italic)旁边/$（或部署在一个空的容器方块上），它$(italic)不会/$筛选物品。$(p)如果你想更改无人机的筛选条件，就需要用扳手拆下它并重新部署。"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)采集无人机/$的默认范围是一个以其放置位置方块为中心的 17x17x17 立方体。添加最多 16 个 $(l:base_concepts/upgrades#range)范围升级/$ 可扩大该范围。"
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:collector_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "crafting",
+      "text": "合成采集无人机",
+      "recipe": "pneumaticcraft:collector_drone"
+    }
+  ]
+}

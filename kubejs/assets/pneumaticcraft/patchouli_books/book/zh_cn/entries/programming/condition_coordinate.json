@@ -1,0 +1,23 @@
+{
+  "name": "条件：坐标部件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：坐标/$组件会比较两个$(l:programming/coordinate)坐标/$。你可以对这些坐标进行不同的测试，更具体地说，还可以分别对坐标的每个轴（X/Y/Z）进行测试。你可以检查两组坐标中是否只有一个轴相同，或两个轴相同，或三个轴全部相同。"
+    },
+    {
+      "type": "text",
+      "text": "要比较的坐标轴由该组件 GUI 中的复选框定义。同样，要使用的条件（“=”、\">=\"）也由 GUI 中的单选按钮定义。$(p)你的坐标比较结果也会在 GUI 中以文字形式显示出来（例如：$(thing)x1 <= x2 and z1 <= z2/$）。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png"
+      ],
+      "text": "$(italic)条件：坐标控件/$"
+    }
+  ]
+}

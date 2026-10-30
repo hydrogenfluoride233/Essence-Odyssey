@@ -1,0 +1,17 @@
+{
+  "name": "深渊锭",
+  "icon": "naturesaura:depth_ingot",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:sky_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "在最初的构想问世多年之后，魔法植物学家终于找到了一种能以全新方式驾驭$(aura-zh-cn)之力的材料——神秘而难觅的$(item)下界合金$()。用它可以炼出一种极其强大的材料：$(item)深渊锭$()。不出所料，这种锭同样能做成$(l:items/depth_armor)盔甲$()与$(l:items/depth_tools)工具$()。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作$(item)深渊锭$()",
+      "recipe": "naturesaura:depth_ingot_creation"
+    }
+  ]
+}

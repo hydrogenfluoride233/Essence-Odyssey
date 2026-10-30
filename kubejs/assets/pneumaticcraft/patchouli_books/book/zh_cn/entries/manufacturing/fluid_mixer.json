@@ -1,0 +1,17 @@
+{
+  "name": "流体混合器",
+  "icon": "pneumaticcraft:fluid_mixer",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)流体混合器/$使用$(l:base_concepts/pressure)气压/$将两种流体混合为一种结果流体和/或物品。它的主要用途是生产 $(l:renewables/biodiesel)生物柴油/$。$(p)提供的气压越高，流体混合器运行得越快（但也会更快消耗空气）。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成流体混合器",
+      "recipe": "pneumaticcraft:fluid_mixer"
+    }
+  ]
+}

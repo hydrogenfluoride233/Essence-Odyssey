@@ -1,0 +1,27 @@
+{
+  "name": "压力",
+  "icon": "pneumaticcraft:pressure_tube",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "压缩空气是这种$(pncr)$(thing)动力系统/$，其运作基于现实世界中的压力机制。$(li)压缩空气由一类名为 $(thing)压缩机/$ 的机器$(italic)产生/$，其中又分为好几种类型。$(li)所有可加压的机器和工具都有一个$(thing)容积/$（以 mL 为单位），表示它们在标准大气压下，也就是 $(ttcolor)$(t:This mod uses 0 bar to represent standard atmospheric pressure, also known as Gauge Pressure)0 bar/$ 时能够储存的空气量。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)机器或工具的$(thing)压力 P/$可以按下式计算：$(p)  $(formula)P = (A / V) - 1/$$(p)其中，$(formula)V/$表示$(thing)容量/$，$(formula)A/$表示机器内当前存储的$(thing)空气/$。例如，一台容量为 5000mL 的机器$(thing)容量/$中存储了 20000mL 的$(thing)空气/$，其压力为$(thing)3 bar/$。$(li)大多数机器的容量都可以通过$(l:base_concepts/upgrades#volume)容量升级/$来提升，这意味着在消耗空气时压力下降会更小。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)空气会从高压方块流向低压方块。若让$(l:tubes/pressure_tubes)气压管/$或机器未连接，就会造成巨大的$(thing)漏气/$，从而导致压力损失！漏气时会发出嘶嘶声，并且能看到粒子流从方块中逸出。$(li)压力会尝试趋于平衡。将小型机器连接到大容量储气设备（例如$(l:manufacturing/pressure_chamber)压力室/$）时，会导致机器内的压力逐渐升高。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)压力会作用于机器或$(l:tubes/pressure_tubes)压力管道/$的内壁上。施加过高的压力会导致$(thing)失控快速空气释放事件/$，也就是所谓的$(thing)爆炸/$。机器会在何种压力下发生爆炸，会在任意机器 GUI 的压力表中以红色区域显示，但机器究竟会在何时爆炸，无法准确预测。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)需要明白的一点是，虽然许多机器都需要达到$(thing)最低压力/$才能运行，但机器执行操作时消耗的是$(thing)空气/$，而不是$(thing)压力/$；压力只是储存空气量与容积共同作用的结果。"
+    }
+  ]
+}

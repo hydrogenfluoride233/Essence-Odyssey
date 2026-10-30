@@ -1,0 +1,24 @@
+{
+  "name": "逐个物品控件",
+  "icon": "pneumaticcraft:textures/progwidgets/for_each_item.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这个高级组件会为每个已连接的 $(l:programming/item_filter)物品过滤器/$ 执行一个子程序。对于每个过滤器，它都会将指定变量设为该过滤器，并跳转到与已连接的 $(l:programming/text)文本/$ 组件相匹配的 $(l:programming/label)标签/$。当该流程执行完毕后（即到达程序末尾，而通常此时会跳回到 $(l:programming/start)开始/$），它会返回到这个组件，并对下一个 $(thing)物品过滤器/$ 执行同样的操作。"
+    },
+    {
+      "type": "text",
+      "title": "破甲",
+      "text": "你可以通过将 $(thing)For Each Item/$ 所使用的物品变量设为空过滤器来跳出循环（使用 $(l:programming/item_assign)Item Assign/$ 组件即可做到这一点）。下次当程序跳回到 $(thing)For Each Item/$ 时，它会注意到这一点，并取消对过滤器的后续遍历。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/for_each_item.png"
+      ],
+      "text": "$(italic)对于每个物品控件/$"
+    }
+  ]
+}

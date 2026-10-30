@@ -1,0 +1,19 @@
+{
+  "name": "待机",
+  "icon": "pneumaticcraft:textures/progwidgets/standby_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "当执行这个组件时，$(l:tools/drone)雄蜂/$会关闭其螺旋桨并从空中坠落。这个组件可用于节省$(l:base_concepts/pressure)空气/$，因为雄蜂在待机模式下不会消耗任何空气。$(p)不过，$(thing)雄蜂/$仍会继续执行其他组件；一旦它执行了任何需要实际工作的组件，$(thing)雄蜂/$就会再次开启螺旋桨。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/standby_piece.png"
+      ],
+      "text": "$(italic)睡美人/$"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "物流无人机",
+  "icon": "pneumaticcraft:logistics_drone",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)物流无人机/$ 是一种特殊类型的 $(l:tools/drone)无人机/$。它属于较低等级的 $(thing)无人机/$，因为它们不能编程，只能执行 $(italic)仅限/$ 物流相关的任务。"
+    },
+    {
+      "type": "spotlight",
+      "title": "自动充气",
+      "item": "pneumaticcraft:charging_station",
+      "text": "与所有类型的雄蜂一样，这些雄蜂需要 $(l:base_concepts/pressure)压力/$ 才能运作，并且在气压不足时会自动寻找 $(l:tools/drone#charging)装有发射器升级的充气站/$。"
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:logistics_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "text": "一旦部署，$(item)物流无人机/$就会在以其部署位置所在方块为中心、33x33x33 立方体范围内，对任何带有 $(l:logistics/frames)物流框架/$的容器/储罐进行运作。$(p)由于这些无人机经常需要搬运物品，建议安装 $(l:base_concepts/upgrades#speed)速度/$ 和 $(l:base_concepts/upgrades#inventory)容器/$升级，以提升移动速度和携带容量。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:logistics_drone",
+      "text": "合成物流无人机"
+    }
+  ]
+}

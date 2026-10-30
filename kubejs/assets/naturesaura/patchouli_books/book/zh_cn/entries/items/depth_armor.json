@@ -1,0 +1,22 @@
+{
+  "name": "灵魂行者盔甲",
+  "icon": "naturesaura:depth_chest",
+  "category": "naturesaura:items",
+  "advancement": "naturesaura:depth_ingot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "穿上$(item)灵魂行者盔甲$()时，魔法植物学家能感到黑暗能量在体内涌动。这套盔甲与它的$(l:items/sky_armor)同类$()一样可以修复，此外还带$(thing)套装效果$()：穿齐全套（或把胸甲换成$(item)鞘翅$()）后，一旦受到攻击，盔甲会让附近所有敌人与地面融为一体数秒，使它们$(thing)完全无法动弹$()。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:depth_helmet",
+      "recipe2": "naturesaura:depth_chest"
+    },
+    {
+      "type": "crafting",
+      "recipe": "naturesaura:depth_pants",
+      "recipe2": "naturesaura:depth_shoes"
+    }
+  ]
+}

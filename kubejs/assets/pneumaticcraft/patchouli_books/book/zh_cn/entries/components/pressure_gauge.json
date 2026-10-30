@@ -1,0 +1,17 @@
+{
+  "name": "压力表",
+  "icon": "pneumaticcraft:pressure_gauge",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是用于制作其他设备的合成组件。它本身没有用途。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成压力表",
+      "recipe": "pneumaticcraft:pressure_gauge"
+    }
+  ]
+}

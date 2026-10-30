@@ -1,0 +1,23 @@
+{
+  "name": "坐标",
+  "icon": "pneumaticcraft:textures/progwidgets/coordinate_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)坐标/$是一个仅用作$(l:programming/coordinate_operator)坐标运算符/$和$(l:programming/condition_coordinate)条件：坐标/$组件参数的组件。$(p)这个组件可以类比为$(l:programming/area)区域/$组件：使用$(thing)区域/$组件时，你需要提供$(italic)两个/$坐标来组成一个区域，而使用这个组件时，你只需提供$(italic)一个/$。提供坐标有两种方式："
+    },
+    {
+      "type": "text",
+      "text": "$(bold)固定/$$(br)固定坐标，顾名思义……就是固定不变的。你可以通过选择一个 $(l:tools/gps_tool)定位工具/$ 来选定坐标，或者直接在文本框中输入 X/Y/Z 的值。$(p)$(bold)变量/$$(br)选择“变量”后，你可以将存储在 $(l:programming/variables)变量/$ 中的值作为坐标返回。请记住，这样你只能提供一个坐标，不能修改该变量！"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/coordinate_piece.png"
+      ],
+      "text": "$(italic)坐标小部件/$"
+    }
+  ]
+}

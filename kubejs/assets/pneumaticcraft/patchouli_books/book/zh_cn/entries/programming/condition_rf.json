@@ -1,0 +1,19 @@
+{
+  "name": "条件：RF部件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_rf_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个 $(l:programming/conditions)条件/$组件。$(p)$(thing)条件：RF/$ 组件可让你（远程）检查已连接的 $(l:programming/area)区域/$ 组件中的方块，其 $(thing)FE/RF 能量/$ 水平是否符合已配置的 FE 阈值。$(p)$(italic)尽管它叫这个名字，但这个组件检查的是 FE，而不是 RF（Redstone Flux，红石通量）。这个名称只是历史遗留。/$"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_rf_piece.png"
+      ],
+      "text": "$(italic)条件：RF控件/$"
+    }
+  ]
+}

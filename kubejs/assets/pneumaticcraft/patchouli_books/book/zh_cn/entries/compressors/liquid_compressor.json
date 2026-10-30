@@ -1,0 +1,17 @@
+{
+  "name": "液体压缩机",
+  "icon": "pneumaticcraft:liquid_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)液体压缩机/$是一种简单的机器，可以产生$(l:base_concepts/pressure)压缩空气/$。它通过燃烧液体燃料来实现这一点；要查看你可以使用哪些燃料及其效果，请打开液体压缩机 GUI 中的$(bold)可用燃料/$选项卡。注意，这也包括诸如熔岩之类的高温流体。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成一个 $(item)液体压缩机/$",
+      "recipe": "pneumaticcraft:liquid_compressor"
+    }
+  ]
+}

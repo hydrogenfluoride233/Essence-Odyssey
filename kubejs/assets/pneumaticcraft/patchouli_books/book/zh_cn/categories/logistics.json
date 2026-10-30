@@ -1,0 +1,6 @@
+{
+  "name": "物流",
+  "description": "物流系统是一种强大的物品与流体运输方式，还能让容器和储罐始终保持存量充足。",
+  "icon": "pneumaticcraft:logistics_drone[pneumaticcraft:air=120000]",
+  "sortnum": 8
+}

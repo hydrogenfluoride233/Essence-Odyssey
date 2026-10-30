@@ -1,0 +1,19 @@
+{
+  "name": "条件：物品组件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_item_inventory_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：物品/$组件会检查容器中是否有一定数量的物品。它会统计所有匹配的物品（由连接的$(l:programming/item_filter)物品过滤器/$指定；如果不使用过滤器，则会统计所有物品）。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_item_inventory_piece.png"
+      ],
+      "text": "$(italic)条件：物品控件/$"
+    }
+  ]
+}

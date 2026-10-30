@@ -1,0 +1,6 @@
+{
+  "name": "可再生",
+  "description": "$(pncr) 提供了一系列可用于生产部分可再生资源的工艺，其中尤其包括生物柴油。",
+  "icon": "pneumaticcraft:biodiesel_bucket",
+  "sortnum": 11
+}

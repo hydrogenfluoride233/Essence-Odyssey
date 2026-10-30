@@ -1,0 +1,16 @@
+{
+  "name": "蚀刻酸",
+  "icon": "pneumaticcraft:etching_acid_bucket",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "蚀刻酸用于对$(l:components/pcb)电路板/$进行化学蚀刻。蚀刻酸在$(l:manufacturing/pressure_chamber)压力室/$中制造，并在$(l:manufacturing/etching_tank)蚀刻器/$中使用。$(p)有关电路板生产的更多信息，请参阅$(l:components/pcb)电路板/$词条。"
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/etching_acid"
+    }
+  ]
+}

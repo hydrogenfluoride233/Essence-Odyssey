@@ -1,0 +1,23 @@
+{
+  "name": "跳转",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这个组件完全专注于$(l:programming/flow_control)程序流程/$。当程序运行到 $(thing)跳跃/$组件时，它会查看所连接的 $(l:programming/text)文本/$组件，并尝试跳转到名称匹配的 $(l:programming/label)标签/$组件。如果因任何原因失败，执行将返回到 $(l:programming/start)开始/$组件。（这种回退行为正常情况下永远不应发生。）"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)跳跃/$控件可用于在程序流中合并多个$(italic)分支/$（方法是使用两个或更多跳跃，让它们都跳转到同一个$(l:programming/label)标签/$），也可以单纯用来整理程序，将不同部分拆分成各自的“子程序”。一个实用技巧是勾选$(l:programming/programmer)编程器/$界面左下角的$(bold)显示程序流/$复选框；这样会显示同名的 $(thing)跳跃/条件/标签/$ 控件之间的连线。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/jump_piece.png"
+      ],
+      "text": "$(italic)不妨这样吧/$"
+    }
+  ]
+}

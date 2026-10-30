@@ -1,0 +1,73 @@
+{
+  "name": "气动头盔",
+  "icon": "pneumaticcraft:pneumatic_helmet",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)气动头盔/$是四件$(thing)气动装甲/$之一。$(p)在很长一段时间里，它都是唯一可用的部件。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_helmet",
+      "text": "合成气动头盔"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "entity_tracker",
+      "item": "pneumaticcraft:entity_tracker_upgrade",
+      "text": "安装了 $(l:base_concepts/upgrades#entity_tracker)实体追踪升级/$ 后，16 格范围内的生物会被自动追踪，即使隔着墙也不例外。若该实体是敌对生物，并将你设为目标，你就会收到警告。这让你能够提前准备战斗（或是逃跑！）。你还可以在 GUI 中使用 $(l:base_concepts/entity_filter)实体过滤器/$ 来筛选需要追踪的实体。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:block_tracker_upgrade",
+      "text": "安装了 $(l:base_concepts/upgrades#block_tracker)方块追踪升级/$ 后，30 格范围内的特殊方块都会被追踪，即使隔着墙也一样。可追踪的方块如下：$(li)任何容器（会显示其内容）$(li)刷怪箱（会显示生成时间）$(li)蠹虫方块$(li)末地传送门框架$(li)TNT$(li)绊线钩"
+    },
+    {
+      "type": "text",
+      "title": "方块追踪器（续）",
+      "text": "由于其中一些方块相当常见（例如玩家家中的容器、要塞中的蠹虫方块），当某种类型的方块数量达到一定程度时，HUD 会自动停止显示其标签。不过，你仍然可以通过用准星对准已追踪的方块来获取其信息。你也可以在配置GUI中取消勾选某些方块，以指定你想要追踪的方块。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:coordinate_tracker_upgrade",
+      "text": "$(l:base_concepts/upgrades#coordinate_tracker)坐标追踪升级/$会利用 Minecraft 自身的寻路功能，计算前往所选位置的最短路径。$(p)当你在洞穴中迷路并想要出去时，这个功能非常有用：打开选项菜单（按下 $(thing)$(k:pneumaticcraft.armor.options)/$），然后选择 $(bold)导向到地表……/$。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:search_upgrade",
+      "text": "你是否也遇到过这样的麻烦：基地里箱子多得数不清，想找某个物品却怎么都找不到？如果是这样，那么 $(l:base_concepts/upgrades#item_searcher)搜索升级/$ 就很适合你。你可以在 GUI 中搜索物品：要么用滚动条浏览，找到你想要的物品，要么在搜索框中输入物品名称。找到物品后，将它放入目标槽位。"
+    },
+    {
+      "type": "text",
+      "title": "物品搜寻器（续）",
+      "text": "现在，位于 16 格范围内、掉落在地上或存在于任意容器中的任何选定物品，都会获得 $(thing)绿色光晕/$。光晕的大小取决于该位置的物品数量与找到的物品总数之间的比例。$(p)请注意，你还需要在头盔中安装 $(l:base_concepts/upgrades#entity_tracker)实体追踪器/$（用于地上的物品）和/或 $(l:base_concepts/upgrades#block_tracker)方块追踪器/$（用于容器中的物品）。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:dispenser_upgrade",
+      "text": "一个$(l:base_concepts/upgrades#dispenser)发射器升级/$与$(l:base_concepts/upgrades#entity_tracker)实体追踪升级/$一同安装后，你就可以监视/调试$(l:tools/drone)雄蜂/$。只需在看着一个$(item)雄蜂/$时按下 $(thing)$(k:pneumaticcraft.helmet.debugging.drone)/$。此时，追踪动画将会出现红色边框。现在按下 $(thing)$(k:pneumaticcraft.armor.options)/$ 打开头盔的选项窗口，并切换到 $(bold)无人机调试/$ 面板。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:range_upgrade",
+      "text": "$(l:base_concepts/upgrades#range)范围升级/$可使 $(l:base_concepts/upgrades#entity_tracker)实体追踪器/$ 的范围每个升级增加 16 格，使 $(l:base_concepts/upgrades#block_tracker)方块追踪器/$ 的范围每个升级增加 5 格。最多可安装 5 个升级。$(p)请注意，这个升级会增加头盔的空气消耗。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:night_vision_upgrade",
+      "text": "$(l:base_concepts/upgrades#night_vision)夜视升级/$的作用正如其名：让你在黑暗中也能看清，只会消耗极少量的$(l:base_concepts/pressure)空气/$。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:scuba_upgrade",
+      "text": "$(l:base_concepts/upgrades#scuba)水肺升级/$可让你在水下呼吸，它会使用头盔储备中的空气来为你供氧。额外的好处是，它还会提供一个面罩，让你在水下看得更清楚；若再配合 $(l:base_concepts/upgrades#night_vision)夜视升级/$，视野效果会相当惊艳。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:ender_visor_upgrade",
+      "text": "$(l:base_concepts/upgrades#ender_visor)末影眼罩升级/$建立在先进的 $(thing)南瓜/$ 研究基础上，提供了一种可切换的方式来避免激怒 $(thing)末影人/$，同时减轻把头塞进真正南瓜里通常会带来的视线问题。"
+    }
+  ]
+}

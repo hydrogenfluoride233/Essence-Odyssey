@@ -1,0 +1,17 @@
+{
+  "name": "高级液体压缩机",
+  "icon": "pneumaticcraft:advanced_liquid_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)高级液体压缩机/$是$(l:compressors/liquid_compressor)液体压缩机/$的$(l:base_concepts/pressure_tiers)阶段2/$版本，最大安全压力为 20 bar。它的基础产气速度为 50mL/tick，并且可以安装$(l:base_concepts/upgrades#speed)速度升级/$。$(p)不过，这台机器必须$(l:base_concepts/heat)冷却/$，因为随着温度升高，它的效率会下降，严重时甚至会完全无法产生空气。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成一个 $(item)高级液体压缩机/$",
+      "recipe": "pneumaticcraft:advanced_liquid_compressor"
+    }
+  ]
+}

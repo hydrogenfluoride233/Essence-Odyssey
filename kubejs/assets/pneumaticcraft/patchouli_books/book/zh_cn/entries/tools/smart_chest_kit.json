@@ -1,0 +1,21 @@
+{
+  "name": "智能箱子升级组件",
+  "icon": "pneumaticcraft:smart_chest_kit",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)智能箱子升级组件/$是一种便利用品，可让你在保留箱内物品的同时，直接将任意木制箱子或 $(l:machines/reinforced_chest)强化箱子/$原地升级为 $(l:machines/smart_chest)智能箱子/$。只需手持升级组件对任意可升级的箱子执行 $(thing)潜行右击/$ 即可完成升级。"
+    },
+    {
+      "type": "text",
+      "text": "$(p)注意：如果对 $(item)强化箱子/$ 使用，你会以掉落物形式拿回一个强化箱子。如果对 $(item)木箱/$ 使用，你会以掉落物形式拿回那个箱子。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成一个智能箱子升级套件。$(p)请注意，智能箱子必须完全清空且未进行任何配置。",
+      "recipe": "pneumaticcraft:smart_chest_kit"
+    }
+  ]
+}
