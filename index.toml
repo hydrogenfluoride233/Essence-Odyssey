@@ -2194,7 +2194,7 @@ hash = "3a3ec687b1bc10deffef8f009cbc1c6738a29f78b1f5a42264e3e4ca6e625b30"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "3a8916beab27beb4390a21647995d97f88dacb2897b51002f7a157072dc450c8"
+hash = "48a4a131f612192240ca42cffb5fae9fc1cd1a38d9fb6f695149352d413d957e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2777,6 +2777,30 @@ file = "config/waystones-common.toml"
 hash = "a56b1c9a2ba4f1bf630c0152428a85c51b0a356eeaef2d7f2867c0908afb647e"
 
 [[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "2eac404656d9bff651954c0e36d78ead3b38115f44c86bf8f4bbceed1849c8e4"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "da484d16e61bbd9255a323d9e340ecad4a7eccc03dcba3a2372c1d02d5483472"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "353b1d3f3abd8c3bf5deef9f21e031afd422aa18ff90454e1ee97440ae1c7a50"
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf"
+
+[[files]]
 file = "config/zeta-common.toml"
 hash = "d985bfc68899c91aa642736400472f6ab876dedaaef4b8c31f38b52d48de633d"
 
@@ -2817,8 +2841,16 @@ file = "defaultconfigs/jei/client/recipe-category-sort-order.ini"
 hash = "aeb635e1da5f7f0513dab62389213eea850cf977a34fb727abf3f232858b34db"
 
 [[files]]
+file = "defaultconfigs/sodium-extra-options.json"
+hash = "8200b99866cd9c00ba44ba1b26219fb09a28d0757f5de315cbab4f1a4942d426"
+
+[[files]]
 file = "defaultconfigs/xaero/minimap/client.cfg"
 hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "defaultconfigs/xaero/minimap/profiles/default.cfg"
+hash = "2eac404656d9bff651954c0e36d78ead3b38115f44c86bf8f4bbceed1849c8e4"
 
 [[files]]
 file = "defaultconfigs/xaerohud.txt"
@@ -4974,7 +5006,7 @@ hash = "d1279417a67397a7f5927ab868e676c30ac454b7b69e3cf8f70f9727b6e3fe95"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR-recipes.js"
-hash = "a9e5d3c08bbc805375f9cb3039fc960a12a522901df33669af8be0182344c098"
+hash = "d14aa80a0a3a20118af28ccfe282075f7d1bbe96a35423802dc3a13bd355dcd4"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR-structures.js"
@@ -4998,7 +5030,7 @@ hash = "e98567a695b7a5d494d741227efa33573456e66dcf6b55106a9d301a86596217"
 
 [[files]]
 file = "kubejs/server_scripts/ars_nouveau.js"
-hash = "0e2619b1fda7bd6ce24d468a3810d6063f41db09d55d2df576d61efb9f81d168"
+hash = "77183f8c83735f69ebc54b9bff442c004517d5ad91dea30519b10b5933f8d6bc"
 
 [[files]]
 file = "kubejs/server_scripts/astralsorcery.js"
@@ -5014,7 +5046,7 @@ hash = "f86891ee90043320b8c00b7af164f2c481bfc5808b136e21d387595caf6c896d"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "0e2ce9f3da0345f35462374f8f2b8368ebd20d4c628ad4d6bf5181dc6151d676"
+hash = "5cf6af8fa7442540173ceaa617bccf0dca7440c135da1dbd42a4ebd7acfb2b81"
 
 [[files]]
 file = "kubejs/server_scripts/createaddition.js"
@@ -5038,7 +5070,7 @@ hash = "6c348738db366b7c74865e90f0eafc04e0840ca9a0a24795e7b65db1e45f84ed"
 
 [[files]]
 file = "kubejs/server_scripts/farmersdelight.js"
-hash = "7b4ac1e692d6a24f1df455031fec4b22b197ca04d6c30ab27f005dd4fc2c742a"
+hash = "3ec96617603c596b6bb1b928cc282aff1c3cc870ed659788bcceba1bbfca4696"
 
 [[files]]
 file = "kubejs/server_scripts/immersiveengineering.js"

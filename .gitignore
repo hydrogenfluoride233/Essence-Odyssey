@@ -96,17 +96,16 @@ packwiz.json
 #  4. 机器专属的本地数据（换电脑就不该带过去）
 # ---------------------------------------------------------------------
 # 小地图路点、探索记录
-# 注意：不能直接写 config/xaero/ —— 整个目录被忽略后，子文件的 ! 例外一律无效。
-# 下面逐层放行两个"观感预设"文件（Xaero 不读 defaultconfigs 的深层路径，实测无效）。
-config/xaero/*
-!config/xaero/minimap/
-config/xaero/minimap/*
-!config/xaero/minimap/profiles/
-config/xaero/minimap/profiles/*
-!config/xaero/minimap/profiles/default.cfg
-!config/xaero/minimap/profiles/info_display_config/
-config/xaero/minimap/profiles/info_display_config/*
-!config/xaero/minimap/profiles/info_display_config/default.cfg.txt
+# Xaero：只发两个"观感预设"文件（profiles/default.cfg 与 info_display_config/default.cfg.txt），
+# 其余留本地。不要写 config/xaero/* 再配 ! 例外：packwiz 不认否定规则，
+# 整个目录排掉后 index.toml 里就没有那条，导出包里也就没有（2026-10-30 踩到）。
+config/xaero/lib/
+config/xaero/minimap/client.cfg
+config/xaero/minimap/common.cfg
+config/xaero/minimap/server_profiles/
+config/xaero/minimap/default_radar_categories_client.json
+config/xaero/minimap/default_radar_categories_server.json
+config/xaero/world-map/server_profiles/
 config/xaerominimap/
 config/xaeroworldmap/
 # 原来写的是不带斜杠的 xaero/，会连 config/xaero/ 一起吃掉，导致上面的 ! 例外失效
