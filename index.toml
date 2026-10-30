@@ -2113,6 +2113,10 @@ file = "config/ftbessentials.snbt"
 hash = "586b35a2681e6326a6ecde72509d6c1554f5b18b41defb768d6d1570b7c71f8e"
 
 [[files]]
+file = "config/ftblibrary-client.snbt"
+hash = "c8a56878042b2a7b677357f11be7371a1e327d2fd40845c83dade9e1fc06c48d"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "aab3d7ded50a0d5e432cec3eab83225b931c4a92b1dc010ae9580eebef60aa1c"
 
@@ -2643,6 +2647,10 @@ hash = "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
 [[files]]
 file = "config/sliceanddice-common.toml"
 hash = "8c17330d9f9804cd1540b0f442c7f7b7d1dbd3ccb3e22f6c4af222753ffd49ac"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "8200b99866cd9c00ba44ba1b26219fb09a28d0757f5de315cbab4f1a4942d426"
 
 [[files]]
 file = "config/sodium-extra.properties"

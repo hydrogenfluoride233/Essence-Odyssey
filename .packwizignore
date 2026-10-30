@@ -143,6 +143,7 @@ fancymenu_data/
 **/*-[Cc]lient.yaml
 config/sodium-options.json
 config/sodium-extra-options.json
+!config/sodium-extra-options.json
 config/inventoryhud-client.toml
 config/ModernUI/
 config/configured-client.properties
@@ -153,6 +154,7 @@ config/xaeropatreon.txt
 # （上面的 **/*-[Cc]lient.toml 会连它一起排掉）
 !defaultconfigs/inventoryhud-client.toml
 !defaultconfigs/ftblibrary-client.snbt
+!config/ftblibrary-client.snbt
 !defaultconfigs/ModernUI/client.toml
 
 # Jade 面板排序（本地状态，每次开游戏都会变）
