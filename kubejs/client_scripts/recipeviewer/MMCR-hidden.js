@@ -7,7 +7,7 @@ const HiddenPortPatterns = [
     /^mmcr:fluid_(input|output)_hatch_vacuum$/,            //终极流体仓
     /^mmcr:energy_(input|output)_hatch_ultimate$/,         //究极能量仓
     /^mmcr:parallel_controller_(pro|elite|fantasy|max|ultimate)$/, //高级并行器
-    /^mmcr:upgrade_bus_(reinforced|elite|super|ultimate)$/,//高级升级总线
+    /^mmcr:upgrade_bus_/,//升级总线（本包不做升级系统）
     /^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)/ //EAE 扩展接口（保留 ME扩展样板接口）
 ]
 

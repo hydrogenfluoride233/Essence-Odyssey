@@ -36,8 +36,8 @@ pushDirections(io=>[`fluid_${io}_hatch_vacuum`,`energy_${io}_hatch_ultimate`])
 //并行器：只留普通 / 进阶 / 强化
 pushIds(["pro","elite","fantasy","max","ultimate"].map(tier=>`parallel_controller_${tier}`))
 
-//升级总线：只留普通
-pushIds(["reinforced","elite","super","ultimate"].map(tier=>`upgrade_bus_${tier}`))
+//升级总线：本包不做升级系统，全部禁用
+pushIds(["normal","reinforced","elite","super","ultimate"].map(tier=>`upgrade_bus_${tier}`))
 
 //EAE 扩展接口（保留 ME扩展样板接口）
 pushIds([

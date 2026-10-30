@@ -12,9 +12,9 @@ ServerEvents.recipes(event=>{
     event.remove({id:/^mmcr:energy_(input|output)_hatch_ultimate$/})//究极能量仓
     event.remove({id:/^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)/})//EAE 扩展接口（保留 ME扩展样板接口）
 
-    //部件：并行器只留普通 / 进阶 / 强化，升级总线只留普通
+    //部件：并行器只留普通 / 进阶 / 强化；升级总线整族禁用
     event.remove({id:/^mmcr:parallel_controller_(pro|elite|fantasy|max|ultimate)$/})//高级并行器
-    event.remove({id:/^mmcr:upgrade_bus_(reinforced|elite|super|ultimate)$/})//高级升级总线
+    event.remove({id:/^mmcr:upgrade_bus_/})//升级总线（本包不做升级系统）
 
     //高级功能部件：本包暂无对应机器，整件禁用
     const DisabledParts = ["smart_interface","data_storage","network_interface","module_bridge","key_card"]
