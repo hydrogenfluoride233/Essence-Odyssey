@@ -231,5 +231,6 @@
   "kubejs.info.blueprint_special_bullet":"与军火商村民交易，或在工程师小屋箱子中获得。",
   "kubejs.info.mmcr_imbuement_ports":"在多方块结构中，上下两个面的边框可以换成物品输入/输出总线或魔源输入接口。",
   "kubejs.info.mmcr_imbuement_parallel":"奥术核心下方的那一格可以换成并行器。",
-  "kubejs.mmcr.disabled":"此内容在本包被禁用。"
+  "kubejs.mmcr.disabled":"此内容在本包被禁用。",
+  "kubejs.mmcr.eae_note":"本包只保留 ME扩展样板接口；扩展输入/输出接口、超大接口与扩展库存输入接口均未提供。"
 }

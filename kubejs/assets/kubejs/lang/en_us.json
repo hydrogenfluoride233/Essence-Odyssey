@@ -229,5 +229,7 @@
   "kubejs.info.blueprint_automatons":"Found in Vaults in Trial Chambers.",
   "kubejs.info.blueprint_special_bullet":"Traded with a Gunsmith villager, or found in chests in an Engineer's House.",
   "kubejs.info.mmcr_imbuement_ports":"In the multiblock structure, the rim of both the top and bottom faces can be replaced with an Item Input/Output Bus or a Source Input Interface.",
-  "kubejs.info.mmcr_imbuement_parallel":"The block below the Arcane Core can be replaced with a Parallel Controller."
+  "kubejs.info.mmcr_imbuement_parallel":"The block below the Arcane Core can be replaced with a Parallel Controller.",
+  "kubejs.mmcr.disabled":"This feature is disabled in this pack.",
+  "kubejs.mmcr.eae_note":"Only the Extended Pattern Interface is available in this pack; the extended input/output, oversize and extended stocking input interfaces are not provided."
 }
