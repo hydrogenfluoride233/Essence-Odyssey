@@ -1,8 +1,13 @@
-//MMCR 隐藏：超出本包规模的端口与暂不启用的高级功能部件（配方在 MMCR/MMCR-machine.js 一并删掉）
+//MMCR 隐藏：精简掉的端口与部件（配方在 MMCR/MMCR-machine.js 一并删掉）
 const HiddenPortPatterns = [
     /^mmcr:extended_item_(input|output)_bus_/,             //扩展物品总线
     /^mmcr:(extended_)?combined_(input|output)_/,          //组合端口
     /^mmcr:extended_(fluid|energy)_(input|output)_hatch_/, //扩展流体仓与扩展能量仓
+    /^mmcr:(item_(input|output)_bus|fluid_(input|output)_hatch|energy_(input|output)_hatch)_(tiny|small)$/, //微型与小型端口
+    /^mmcr:fluid_(input|output)_hatch_vacuum$/,            //终极流体仓
+    /^mmcr:energy_(input|output)_hatch_ultimate$/,         //究极能量仓
+    /^mmcr:parallel_controller_(pro|elite|fantasy|max|ultimate)$/, //高级并行器
+    /^mmcr:upgrade_bus_(reinforced|elite|super|ultimate)$/,//高级升级总线
     /^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)/ //EAE 扩展接口（保留 ME扩展样板接口）
 ]
 

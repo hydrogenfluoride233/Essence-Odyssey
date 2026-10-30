@@ -15,7 +15,7 @@ MMCREvents.server(event => {
         ))
         .set('E', api.anyOf(
             api.block('ars_nouveau:smooth_sourcestone_large_bricks'),   //平滑魔源石大砖块（占位）
-            api.parallelControllers()                                   //并行仓
+            api.tag('kubejs:parallel_controllers')                      //并行器（普通 / 进阶 / 强化）
         ))
         .set('B', api.block('ars_nouveau:smooth_sourcestone_large_bricks'))   //平滑魔源石大砖块（固定）
         .set('X', api.block('mekanism:structural_glass'))
