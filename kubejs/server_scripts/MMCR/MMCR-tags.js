@@ -1,11 +1,19 @@
 ServerEvents.tags("block",event=>{
-    //物品端口：标准等级输入/输出总线（微型→超级）；extended 系列不在包内，故不入标签
-    const ItemPortLevels = ["tiny","small","","reinforced","big","huge","ludicrous"]
+    //扩展物品总线：从模组全部相关标签里移除（配方与 JEI 那边同时不提供）
+    //这样 anyOfItemInput() / anyOfItemOutput() / mmcr:ports 之类的内置谓词都不会再匹配到它们
+    const ExtendedItemBuses = ["basic","reinforced","advanced","ultimate"]
+    const MmcrPortTags = [
+        "mmcr:item_input_ports",
+        "mmcr:item_output_ports",
+        "mmcr:item_ports",
+        "mmcr:ports",
+        "mmcr:machines"
+    ]
 
-    ItemPortLevels.forEach(level=>{
-        const suffix = level ? `_${level}` : ""
-
-        event.add("kubejs:mmcr_item_ports",`mmcr:item_input_bus${suffix}`)
-        event.add("kubejs:mmcr_item_ports",`mmcr:item_output_bus${suffix}`)
+    MmcrPortTags.forEach(tag=>{
+        ["input","output"].forEach(io=>{
+            ExtendedItemBuses.forEach(tier=>
+                event.remove(tag,`mmcr:extended_item_${io}_bus_${tier}`))
+        })
     })
 })
