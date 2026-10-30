@@ -64,6 +64,7 @@ ServerEvents.tags("item",event=>{
 
     //钢齿轮
     event.add("c:gears/steel","kubejs:steel_gear")
+    event.add("c:gears","kubejs:steel_gear")
 
     //污染黄金
     event.add("c:ingots","naturesaura:tainted_gold")
@@ -111,7 +112,7 @@ ServerEvents.tags("item",event=>{
 })
 
 ServerEvents.tags("block",event=>{
-    //神圣陨星只落 neovitae:quarry_blocks 里的方块（不在标签里的加权项会被丢掉）
+    //神圣陨星
     const QuarryBlockList = [
         "aqua"      ,//水
         "ignis"     ,//火
