@@ -1,0 +1,6 @@
+{
+  "max_length": 6,
+  "ores": "immersiveengineering:ore_aluminum",
+  "size_variation": 0.6,
+  "weight": 30
+}

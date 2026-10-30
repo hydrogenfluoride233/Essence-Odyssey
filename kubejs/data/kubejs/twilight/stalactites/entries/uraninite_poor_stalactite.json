@@ -1,0 +1,6 @@
+{
+  "max_length": 6,
+  "ores": "powah:uraninite_ore_poor",
+  "size_variation": 0.6,
+  "weight": 20
+}

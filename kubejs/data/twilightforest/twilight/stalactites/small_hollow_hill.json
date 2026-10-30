@@ -1,0 +1,39 @@
+{
+  "type": "small_hollow_hill",
+  "base_stalactites": [
+    "twilightforest:entries/hill_stone_stalactite"
+  ],
+  "ore_chance": 0.12,
+  "ore_stalactites": [
+    "twilightforest:entries/iron_stalactite",
+    "twilightforest:entries/coal_stalactite",
+    "twilightforest:entries/copper_stalactite",
+    "twilightforest:entries/glowstone_stalactite",
+    "twilightforest:entries/gold_stalactite",
+    "twilightforest:entries/redstone_stalactite",
+    "twilightforest:entries/diamond_stalactite",
+    "twilightforest:entries/lapis_stalactite",
+    "twilightforest:entries/emerald_stalactite",
+    "kubejs:entries/black_quartz_stalactite",
+    "kubejs:entries/silver_stalactite",
+    "kubejs:entries/zinc_stalactite",
+    "kubejs:entries/aluminum_stalactite",
+    "kubejs:entries/nickel_stalactite",
+    "kubejs:entries/tin_stalactite",
+    "kubejs:entries/osmium_stalactite",
+    "kubejs:entries/uranium_stalactite",
+    "kubejs:entries/fluorite_stalactite",
+    "kubejs:entries/lead_stalactite",
+    "kubejs:entries/prosperity_stalactite",
+    "kubejs:entries/inferium_stalactite",
+    "kubejs:entries/uraninite_poor_stalactite",
+    "kubejs:entries/uraninite_stalactite",
+    "kubejs:entries/uraninite_dense_stalactite"
+  ],
+  "replace": false,
+  "stalactite_chance": 1.0,
+  "stalagmite_chance": 0.8,
+  "stalagmites": [
+    "twilightforest:entries/hill_stone_stalactite"
+  ]
+}
