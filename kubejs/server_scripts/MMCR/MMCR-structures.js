@@ -10,8 +10,7 @@ MMCREvents.server(event => {
         .pattern("AACAA", "BXXXB", "BXXXB", "BXXXB", "AAAAA")
         .set('A', api.anyOf(
             api.block('ars_nouveau:smooth_sourcestone_large_bricks'),   //平滑魔源石大砖块（占位）
-            api.anyOfItemInput(),                                       //物品输入总线（含 ME / EAE 接口）
-            api.anyOfItemOutput(),                                      //物品输出总线（含 ME / EAE 接口）
+            api.tag('mmcr:item_ports'),                                 //物品端口（MMCR 标签，扩展总线已从中移除）
             api.anyOfSourceInput()                                      //魔源输入接口
         ))
         .set('E', api.anyOf(
