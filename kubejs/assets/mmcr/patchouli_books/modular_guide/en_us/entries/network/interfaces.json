@@ -1,0 +1,14 @@
+{
+  "name": "guide.mmcr_patchouli.entry.network.interfaces.name",
+  "category": "mmcr:network",
+  "icon": "mmcr:network_interface",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "kubejs.mmcr.disabled"
+      }
+    }
+  ]
+}

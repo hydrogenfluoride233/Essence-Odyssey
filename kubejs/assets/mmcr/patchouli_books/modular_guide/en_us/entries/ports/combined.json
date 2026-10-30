@@ -1,0 +1,14 @@
+{
+  "name": "guide.mmcr_patchouli.entry.ports.combined.name",
+  "category": "mmcr:ports",
+  "icon": "mmcr:combined_input_basic",
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "kubejs.mmcr.disabled"
+      }
+    }
+  ]
+}

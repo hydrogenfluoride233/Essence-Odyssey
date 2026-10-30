@@ -1,0 +1,14 @@
+{
+  "name": "guide.mmcr_patchouli.entry.components.upgrades.name",
+  "category": "mmcr:components",
+  "icon": "mmcr:upgrade_bus_normal",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "kubejs.mmcr.disabled"
+      }
+    }
+  ]
+}

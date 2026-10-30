@@ -2026,7 +2026,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
+hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -3601,16 +3601,64 @@ file = "kubejs/assets/justdirethings/lang/zh_cn.json"
 hash = "5680bccc93bdfd041971546eb11acede265cf4c18a475032f3760df6d816003c"
 
 [[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/categories/justdynathings.json"
+hash = "6091238688e4125e80a4e0b0f72255487a22a3e799f438dbfd4a70d03b683dd4"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/anvils.json"
+hash = "ec7de340a7e0887d390022403e7cd0e7dfedfb61272e247e8adb32bc60e4c1f0"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/blackhole.json"
+hash = "70f48100940bc889619b472a098804caeada8e5a596ea8ed1075811980586dfd"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/buddings.json"
+hash = "fa4a1e54fb62b57e3c89b8f09503f0e4934cd2ef0b253680ecc7508a83a6103d"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/ferricore_clock.json"
+hash = "6591dac9c38dc389465c4a36cb4ead545fe3bc58673f0db1fab986ec24706ac6"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/goo.json"
+hash = "8c5b179426aeeaa6fefd406c5209a41623542fb5c775bcefa148e89b1a480792"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/phasebox.json"
+hash = "6b6e9eabadd5fb4cb07fcfc049129200d2b9951dc1edda312481322d610ac038"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/reforger.json"
+hash = "f8cf8215bcaf47c1776e00fededb773276fa90de1668796d617523ebd74ffc45"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/revitalizer.json"
+hash = "fcb1b4666b753b0e1d085732cb416ca460c1947df3a55c4914959ef419622865"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/solar_panels.json"
+hash = "9c4a54d40fa6735248fcd215b3089f55a67d33096ad5149a4ef280d1a865016d"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/thermogen.json"
+hash = "1d550d1535cb4139c703d5e1f2a5ec2112e495f0fab357aec04a65fcc652a10b"
+
+[[files]]
+file = "kubejs/assets/justdirethings/patchouli_books/justdirethingsbook/zh_cn/entries/justdynathings/wands.json"
+hash = "7430660d0c7d3634bcf08053ab3d0cd292caa326e6fb7854f737b89b1581ff02"
+
+[[files]]
 file = "kubejs/assets/kiwi/lang/zh_cn.json"
 hash = "83d18d181ba416df87bb2ff9bbcbe6cc92489e2bdc83159a2e4adecd631d847f"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "5dc9bfe33d91a83f1a5a3b0509e5eb559223d20f11085e90334345a938553687"
+hash = "d7c4870676d56ba1a5b4037f618cb57eedd4402db150265bacf709883357d4b8"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "5edf0aac627d15faa5d3ee30d3e583df56b5101be7a8dc8892211ac5528e2219"
+hash = "6e62858236e6893cdaa9bf254feb6547556ef2def3036c6f0818de8ba11c30d3"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/altar_1.json"
@@ -4481,6 +4529,54 @@ file = "kubejs/assets/mmcr/lang/zh_cn.json"
 hash = "d261f22c53434d579dc8f46f0afd219a2eb9876be43bcbfd42c51987948c45eb"
 
 [[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/components/data_storage.json"
+hash = "e843765a0c07f43a53c5896f6f78c49d0e9a8ee5a98720d55e6e33733fe8c361"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/components/modules.json"
+hash = "dc8644e7af084dff0fe9af384c8d4784cde243a3103f1c004cfa4c8c24b709d8"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/components/smart_interface.json"
+hash = "d113d3518459e938323a0076168a94c9c4deb458e7f3356ecc1615d24e891174"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/components/upgrades.json"
+hash = "a6f9d59171e7104fb7ca3a24166e541eed15441e4df95391f2dd9847b591c688"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/extendedae/interfaces.json"
+hash = "8f89131004f0aa809400e56f39a9570aa50fe13bb741408c0743f9935cba7d7f"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/network/interfaces.json"
+hash = "0788ca566534e3aad23eda0146a78bb4f507409f1d9bb1e18fa7b8a268374461"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/network/key_card.json"
+hash = "ef1ed1cbe0e7995b4065e13832fc1c56a25cde2b0626af2f09301a8071d2bc36"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/ports/combined.json"
+hash = "fbd9ba6194e404205620b04f4ef23ae1da41bbe33a3ec4a9fc71d5ff2a2b4f59"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/ports/extended_combined.json"
+hash = "ad16f3a5b502b4cc6b90a9cb4148c46eef3a749310911a9889995f651119d20f"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/ports/extended_energy.json"
+hash = "90525173c4f4959e05449bcbb568056cd4bdfb72be10b19544e0c9dedb21ccbd"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/ports/extended_fluids.json"
+hash = "1424eeab457a35666e9a10b83ec45df601b9ef1fbb43f4bf529355396d43730f"
+
+[[files]]
+file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/ports/extended_items.json"
+hash = "488455f06a0e69089de8b4f207f8848575543e07800103494ad8fac8b4c0037c"
+
+[[files]]
 file = "kubejs/assets/modernfix/lang/zh_cn.json"
 hash = "c8352e458803f2c21340987fb4e09594f19b019226ca251215cdaafaff8385c6"
 
@@ -4509,6 +4605,26 @@ file = "kubejs/assets/naturesaura/lang/zh_cn.json"
 hash = "2c9b59f0493f71cd80d2edadc898c0871028d244261a05ba1bfd881eee52ac54"
 
 [[files]]
+file = "kubejs/assets/naturesaura/patchouli_books/book/zh_cn/entries/items/depth_armor.json"
+hash = "e835c17bf27cb836fb89013e64c175a842610ae564676d4b2de86cf93c231b2b"
+
+[[files]]
+file = "kubejs/assets/naturesaura/patchouli_books/book/zh_cn/entries/items/depth_ingot.json"
+hash = "890bd78bccd3d816bd040bf4784502ed1f0c0da64357f7edd829c420b566cb2f"
+
+[[files]]
+file = "kubejs/assets/naturesaura/patchouli_books/book/zh_cn/entries/items/depth_tools.json"
+hash = "d42be52e3893edb9d7e3effbd8d7c553f0c14b8ad37c62eb77b9af0e4c08a557"
+
+[[files]]
+file = "kubejs/assets/naturesaura/patchouli_books/book/zh_cn/entries/practices/gold_trees.json"
+hash = "ff769302dda754ad5c442f62057564a37c385ef4c4e9f972724abc15abb6825a"
+
+[[files]]
+file = "kubejs/assets/naturesaura/patchouli_books/book/zh_cn/entries/using/lower_limiter.json"
+hash = "e92e7b4b0a447360172846d2beb5ce33eb60f3cb9df582123fafd12479ef2cb3"
+
+[[files]]
 file = "kubejs/assets/neovitae/lang/zh_cn.json"
 hash = "0f883da75cd8440c1c7d0944c6848aa1d7cfd75631a30456cf275052a01314f8"
 
@@ -4535,6 +4651,930 @@ hash = "3a6dbb111b523034c0e94196a8208d5355aac32a3b3d60e5f86141f7f266641b"
 [[files]]
 file = "kubejs/assets/pneumaticcraft/lang/zh_cn.json"
 hash = "bd45b1e7e661d79a724e88b7c9c132d61b128a50ad15c71a3788d3601278a5d5"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/armor.json"
+hash = "a355d4102fea2c0b7e495a3086873f6fe31195634317a58ae66e1453f98c82d7"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/base_concepts.json"
+hash = "4a6a7ec9335a9bcafc75882fd73d5a8c88441ed6c86e5e03c1bdfb726ff92d5f"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/components.json"
+hash = "186a6cd9a45f61ad70383f5e15ce8e1bc2e2f4131e50483f8473d288a4591224"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/compressors.json"
+hash = "848ed9e1ac8e9cdbde6e1d4ce254101eeecc61d08b3659d4ea71b35a937cc070"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/logistics.json"
+hash = "c5cb441ab86e548a165c15986baee0dffeee351b545dbe58f6b8969fba933add"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/machines.json"
+hash = "f86c9bb0d975dd9fe45ea6d7bfd6c092250a13dd4d15cab47658b78dd9f1c534"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/manufacturing.json"
+hash = "06e598866602b1c0bf4662e0bdaf35b7c594c9e756b7a57ec28c9863df0aa7c7"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/programming.json"
+hash = "dddd60e04994e4e80ed73b5cf63faa5c0550e1ef3a66dc271f802d16742a64d7"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/renewables.json"
+hash = "1b2aa143437024dd167efb419fb175b4655cb0bae3d3264873c89e4d5f6b0869"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/semiblocks.json"
+hash = "fbe7ac777917c0ae90232d3def9b8d0de02a5af6b64c52d3b60abaab9af954e8"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/spawning.json"
+hash = "c3ee73ef956969aa0cd8358a02a4a79827a6f7964910244a941cf38677c4da66"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/tools.json"
+hash = "7e64433a893f5759622b254d1120e6f38eb029bd6efd6b0c6c4fcc27137cc4f4"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/tubes.json"
+hash = "08f99c6e805c3e3239d8ab3cb50ef244b51fb6042bcad0fb88dd7bbecb4f8870"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/widget_cond.json"
+hash = "6af2f6f30934f2676f999d171dcac5dfe38483438afe465a4d0bfa0f713e59e5"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/widget_flow.json"
+hash = "5af98517db79bedd9f49b5da372f875aeff8468e93ebae71f59c5376c10c175b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/widget_interact.json"
+hash = "6eb5474a59fc0eabad4d483517acce7394ef5668c96405e5a8aa2283f5ba5f3b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/categories/widget_other.json"
+hash = "f640d2335533fa1b72b311529b4e4c4b45f1311c0b09c0ee273f83f6340b6492"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/armor/compressed_iron_armor.json"
+hash = "bd00a3522e883486f1f595106f6204a2d926fb228dda83c911df0934c573bf62"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/armor/overview.json"
+hash = "2bac2508f203f8153a6dea6cc8a8394ff8aa86fdf2947bdcd63169c771581f04"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/armor/pneumatic_boots.json"
+hash = "5f0ef25544e40c8f0973c836328dd0df28bd988624985c0157d50852afe9a273"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/armor/pneumatic_chestplate.json"
+hash = "ffe20ba5bab1c50cff5c13f077fa0e8ffe0c4a0b8f4fd882730cf8bf5254baf5"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/armor/pneumatic_helmet.json"
+hash = "681ca791deeecb6fa81c1c53253db5bfb11ef017fb4328b68fc6e46b7a4635e9"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/armor/pneumatic_leggings.json"
+hash = "c8b56f98672546fe7d6c9410d335c1174f0bd63f1d2bb41cd394533db1cd1d94"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/basic_materials.json"
+hash = "b373f329867831a0b71b4746d33a251129a415aa0fcf38bf8fc877d3964c738e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/building_materials.json"
+hash = "3216f5377e1daa81b300697ee5aa9360514a89c632cc73ca9a6410726f0f42dc"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/cc_oc_integration.json"
+hash = "43df61a9e32bdc3aeaa1bed8a2848f897d7f588b8f7f0088f460778857bfd0b9"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/chunkloading.json"
+hash = "519b225446d5ac76a2ac82e945cfa7b3f6522839951fc628a65b9f50d057e4e0"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/entity_filter.json"
+hash = "998dfaaf10f73e002844b77a2910e0523dec0cf51dcc341bbc34e7c31bffe3cc"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/getting_started.json"
+hash = "02bc35a0e1b9759fa340afe1169f2d5534f452854741d1b5542df64bf495c233"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/gui.json"
+hash = "fde5188da1cbeecae6b56090d3c7f693aac74cdb255c84e62b3fa485240897ad"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/heat.json"
+hash = "4783055f9b5456e55ac69bb49a702de38c7e2c1f42def07454e2d22b518987be"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/heat_sources.json"
+hash = "2c282c076b456f1730f4a917b0a3486586acc70e03a50dbbf3a785ab80183a3b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/memory_essence.json"
+hash = "efbcbc6648bf3ed936de8de54df1b916fce3eece5308c30d4cead6c067a01668"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/oil.json"
+hash = "cad1e11486fa01eb10114f292e85732a7e88957799e32793946328070a0b3e77"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/pressure.json"
+hash = "905ac08c4f82c5b5fbb9b9153a2bb8ddea288b679bacb3dd0059ce06a5ea5d0b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/pressure_tiers.json"
+hash = "781b1c595247e52402c5c504919a12dc2bcca68373070819444180bd71149411"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/upgrades.json"
+hash = "04dbdc7ad32b04d6fcd0ece2959da19549b7b1da7d0f9501624ec458c578850a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/base_concepts/villagers.json"
+hash = "065503aea84c57f22866287fc001f5a2059920364e7e0dd02ae0b7caa8498e2e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/air_canister.json"
+hash = "1e094ab15e558442b0708d03a24eafd45a4fb77127afc634c5f913cfabeb4844"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/cannon_barrel.json"
+hash = "8c01ab96c1754afeadad110661a4ece49bcf00d058fe9b9206677b64a1cad32b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/capacitor.json"
+hash = "6885ed719d09da877965c5c00f19679b78533005a6d9ae0f15252cb03a0bc320"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/compressed_iron_block.json"
+hash = "374687b3ae77030b308b04af34270b7d94a8aab50acf4b41cfcdd99441732862"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/compressed_iron_ingot.json"
+hash = "0d15bde56ece33939bf4cdaec520397cb53f484064ca4157c5be1a80cf317b6a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/drill_pipe.json"
+hash = "010998fca9a31ea264fa69bda2fe24bf9a6646c05081af105c901a02ac1f663f"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/lubricant.json"
+hash = "6155fcde9327a94b6a3bb7257bb6694d2277f5d78b41c22dcffff49a4948777f"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/network_components.json"
+hash = "1f1505825b44f0c31846c1e4cea6868b00f5b280e051904a7281e01c459c0c3b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/nuke_virus.json"
+hash = "ca894bde043a32225111160d97f73058a70eec0389b7d86dd8ea52c26bb2bb54"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/pcb.json"
+hash = "bc48ddc85cb75023fbddda339e1db026e7c820b15a1b65c3243246da20bbd9bf"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/pcb_blueprint.json"
+hash = "8b7c4937103f89ab25cdf28f57394932192ee3b44f0097c78b2c26e34300920e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/plastic.json"
+hash = "8848da3ab450b2d2c513c0dbff611ab7217b239363a14ede70dc0cfb5db80d88"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/pneumatic_cylinder.json"
+hash = "0b32c6232850e420f6dfa6eb59ae46ab01bad8785e1f8f612eab150137433808"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/pressure_gauge.json"
+hash = "6000a9d00dc976006606b702aa4351b03aeb01a90e089ef30e3cebd8e93ed4b9"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/reinforced_air_canister.json"
+hash = "dfce0ad48103ac2ec0703ac4e6d8c5db68835bcee8f67d79647f6bb217fde66e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/solar_cell.json"
+hash = "c19ef58b09becbcfc6099c7de1dc4f02e3a83da33d7438a8a701fa6ce9a725b4"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/solar_wafer.json"
+hash = "904baec9857f9e421c0188f73516855284d7410a833c19060f9f710423764fd2"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/stone_base.json"
+hash = "24f09dd2d319c32822f11b03ea0d46262debbde29a1eea9cbbc3c48757b6282c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/stop_worm.json"
+hash = "0c113adee4d95d58d3600b1ae1e1a5b3b4391d5ffc287f029a795a3f44cee1f6"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/transistor.json"
+hash = "ca6d3a2ce5dc5d3d773be348dd5cdb6589cbb65d9c559284c4bcee96b9d96480"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/turbine_blade.json"
+hash = "6301f9767cec4ae631644afcdb209e99c463f2eef10d1e44959c7806d02c620c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/turbine_rotor.json"
+hash = "bad837549efb37e123c14cdf96f80a52f90ce9e48e45c1e63cd48a5b9e5d13f7"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/components/upgrade_matrix.json"
+hash = "93a3c303b4136df0af5fc6668b4c46102b79b615ed3f665c25e15fec5842a35e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/advanced_air_compressor.json"
+hash = "b5ff4f10ede90ca6ed88fc3d62d655397a7ee57dd54b367b58a0e9ceca1f411b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/advanced_liquid_compressor.json"
+hash = "9f4c76a0a12af0bd1b6f5c5aae3b90c36aeae0dabdb7ce6728bb374ac39ddd6a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/air_compressor.json"
+hash = "595688d1093b8a082be8fa3d81885e1fa2a99600c0cdf52e1885b10d4019fb49"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/creative_compressor.json"
+hash = "b61d10850b2779f7e33822b4e166a67a5b8701352779369fea0618637398371e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/electric_compressor.json"
+hash = "63994558de90f4d8967ecd059b8f1753df7c1beba1972c8d6eaad632ef02a5f6"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/electrostatic_compressor.json"
+hash = "528f356a8a0e0944f48936cae147067b45ad472bc281ece07429d5e45eff570c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/flux_compressor.json"
+hash = "2c2a73e9d2680e1b5d7732b266fd31f37124e1fb55cfed4809fc20c5e81214bb"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/liquid_compressor.json"
+hash = "deb62d8e230cf9be869bed371d86c08fca173ccd50117e42d4fda78b203fa340"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/maunal_compressor.json"
+hash = "b64dedb2aaba95e6146b493d204596e77127d617c72a39b663e95982d607b49e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/solar_compressor.json"
+hash = "c3fd1a5f0a914d7bb52d19e12884c020164e9cced18efc7b73bb1f314e266af4"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/compressors/thermal_compressor.json"
+hash = "a19b45049e7bd64f36511d7bddce4024f66d17ccd2ace2ea3b43977774e7a1fc"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/logistics/frames.json"
+hash = "f695e62aff413ccabf374f2fc108ea60b7b6273bec7576d1bdec95b0ddb5c3a4"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/logistics/logistics_configurator.json"
+hash = "7dbb0efb881e086c9fc2477c7bf697fe4250f98d7d5da75bb658afd2f9de2be1"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/logistics/logistics_core.json"
+hash = "b7c5b9a640e2c79792523fff46913e6bea7e88d96dd0c4814ce7c6dfc335177a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/logistics/logistics_drone.json"
+hash = "0773aceca72967f1a2af9d7b7474b0534b3e75a4e8bec83774195d2e88b7e69b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/logistics/logistics_module.json"
+hash = "7254ff4e5f4e4db3061a5334d5c7a597227a3b3063709455ca9aec6d0edaabc0"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/logistics/overview.json"
+hash = "3c192616f5baecbd4e1932dc33bb485d68155c660424df0395f37af037db779a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/aerial_interface.json"
+hash = "05ff9c3e6813c2608b63264a10b6551852b1c0af5d123980afdaec8f8a279f11"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/air_cannon.json"
+hash = "6006c8316f2f63fc9049b19d6573d6cf92791ac48bc37aba0f45bacd160932e3"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/aphorism_tile.json"
+hash = "eb930244ad4df122941eae4df5985d2216e5bf02b5d208bf1289a5b7ababc091"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/charging_station.json"
+hash = "b2a267e2ac00226a34966ae03eb70d53e5f7dd77506cb62bb04ae9b93f128760"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/display_shelf.json"
+hash = "6064d389e0be13c693d2b216aae3b7cc0b8b7078d4dae0a8ba8f51713103b2bf"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/display_table.json"
+hash = "c7398c8b74bc505248c883094d364d281d8af1c5456ec50cdf6ca45c81d09c80"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/drone_interface.json"
+hash = "aa16b6af1f1ce3382dbf63d8ea10705a05a1034e2d5f21da7e212411bd87e94e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/elevators.json"
+hash = "491ce39dfa57a0d5d7aa9c3e9d99d09a4d4166693b147fae7735e75fae352a26"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/gas_lift.json"
+hash = "51f91bfbccc2a50799a3207a9c4781993d8ec12479a43e7cbfd48e17c7a850ba"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/heat_pipe.json"
+hash = "e8d9c6112a341c2fbfa19a04113d7746aecd822422250928f0505aecd7c4e088"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/heat_sink.json"
+hash = "7658cbca9dde0f0895fd97c06c260d74c2ee62fb9c6010ed3d6a694220935d4a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/kerosene_lamp.json"
+hash = "7b958109be689d3c71da1cd788c7f0e673b2473f1a711c5de2240e31dce073e4"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/liquid_hopper.json"
+hash = "c2a2cb7712101538090e61b9a444e42cf96a7cf9176ad68c7de055367bc62ba1"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/omnidirectional_hopper.json"
+hash = "1f6d365d619c2c7b4eb7a7decbd85f1a3d187cd060676c29638e06edce5e4095"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/pneumatic_door.json"
+hash = "fbe8e17e062c1596bcf01b1d89a37fe34a7dab04312adeb02e4302c4d1233a2d"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/pneumatic_dynamo.json"
+hash = "ef1e8f0d7dc2674284f3a3dcf1de1c2190b6a3b2a4e4019dc419e5f3056c1975"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/pneumatic_generator.json"
+hash = "ee4e3685e8b370a0e68805b19886a0d9da7f26f9c676e61d00c9b6effd75eb92"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/reinforced_chest.json"
+hash = "cb95c69cd6db8989d7b26399b4573cf37ba165045f1e4c00e95147f6a33d68a5"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/security_station.json"
+hash = "fddffa2d5108ad99f6b1b6d57381c17f7b8db41eab187b5e885d8a74aee7e872"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/sentry_turret.json"
+hash = "572694423d80295ed390dd2bcec71177a3d45f3dcbc542ded29172c09fe35b1f"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/smart_chest.json"
+hash = "8255f076455ac6e735d26150979dc430c153694fd08250b09d3eb141eae377a4"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/tag_workbench.json"
+hash = "2d5b284eb38b258e9926592f41dfcabe0c2968c80f0aa93cae648ddc3f1cc6bc"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/tanks.json"
+hash = "e6212c4164b7ff5d2d30cfd33a2a326b9e0938bc26962643ecdd21287c52d26a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/thermal_lagging.json"
+hash = "35ba206e1f6373d9f9f44809d34a5eb6e5f3f6f7ec3eefd82cec614c111cce9c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/universal_sensor.json"
+hash = "d934ed25cb1ebdc96741c5cd1e6b11713db84d709467b7b8ade7c46350e995fd"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/vacuum_pump.json"
+hash = "dbaf98c0308ad90a7d212cfe6f6359311c58044e9ceba38646036e157e152ab4"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/machines/vortex_tube.json"
+hash = "a47f6c0f6c6105d520dbf6e9fbb288357ccd0431e89713c7307339418767d4c7"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/manufacturing/assembly_programs.json"
+hash = "1aa53aca3d17a015a370129027997244ea9e51ba6032ef2f3d1fe1682ea31616"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/manufacturing/assembly_system.json"
+hash = "f50e5cb23a95036db0f037ceadc184c0fbb473004b9a1ca078b853f0a78b8b6a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/manufacturing/etching_acid.json"
+hash = "44592cfd4783aa16106be492ae3c8b2fd18825c94482c43e2521263dd1229c9c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/manufacturing/etching_tank.json"
+hash = "5305dc932e932d71575e734852bed4c78289a7db9a6d519778b31872e5ba3e18"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/manufacturing/fluid_mixer.json"
+hash = "6bdb91cfc5098017f1b6aefd03e3c6e7cd45062035a4a2d8c8f4a9b664691856"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/manufacturing/pressure_chamber.json"
+hash = "1a9c2cc234c3d34868b041551d8031606f9819e74c7ff86fb50ab2a70a144728"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/manufacturing/refinery.json"
+hash = "57d819a900a81a8146a005913620ece7eba33c0d8cafd41008b159284ec2c42e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/manufacturing/thermopneumatic_processing_plant.json"
+hash = "c6ec4588074181f58c897c1a8dbc44b6f3cbdf6dfe1f39b841f3a74182cdeefc"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/manufacturing/uv_light_box.json"
+hash = "c321ae04a6ec2d1839422440474cbea08c2a06373024c24ae9e6b465b41c8cee"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/area.json"
+hash = "c897c81c3bf176b22b74ac4dd85331c382997c7b870924c56d77f644b5125498"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/block_right_click.json"
+hash = "aeefac5cf7e96e168eb2f7b241d04cc23c703b5a3e15e1728016a9c4eca0b347"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/comment.json"
+hash = "f1e935395264e4e90a82f635dc368017227480fbe5e9878b500fe3908a395a59"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/computer_control.json"
+hash = "026d7c8ffb0cb29e6956e4160d5f03974c52a71dab97360d7bc2e033621edede"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_block.json"
+hash = "d2e4a812cc374aa9ad0d0de7a8ceb3d7d71a578f9b1c80f5864e20f81787698e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_coordinate.json"
+hash = "80296d50f9a9849fbbf9f82754021b8f09407adecaaa1c726c97a88a951502ad"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_entity.json"
+hash = "699c5810dd34e6845829efd0bd2dc2957b6918dbc755a46086f7fd967e5a0019"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_item.json"
+hash = "835188924ad50624698ed958a2e2a0d985519260584c326cda71240499bc1878"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_item_inventory.json"
+hash = "2c83c3d9f3f24b7b8356a38f08fc588a64f5ac9d47caf45144cd550619351e83"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_light.json"
+hash = "ed0c7c250d094a907a01883da139850e1802478ecb389b7d13011fea547e3295"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_liquid_inventory.json"
+hash = "0aebc6356b0edaf226c76e5fbf824b04a1c0fafcc5626d033952eebda3db0d6c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_pressure.json"
+hash = "b38d5109dfc07b9b444bf0466b503b92ed3f80450003c3b3d01898816b76258b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_redstone.json"
+hash = "dc1aa74f413503a9eef84164b45856a12d67761f2546f4c735450f375e28cf3c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/condition_rf.json"
+hash = "5e827ffc57724adc54b3ccde259ecf8039880b4525937d37028b870326545b2f"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/conditions.json"
+hash = "55db09014692b47b9c904d65d6334d6d8936c17c642f5a105c76aabae0b94fdd"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/coordinate.json"
+hash = "db31bdd2db4ea6a7f89eca86b35da6aa76fd496cc46003fcd2b7d7c22ed5b006"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/coordinate_operator.json"
+hash = "87482f17fba9e1fe81a5c255084a3f831bf8a906f2281ed40e3eafcd8fb6b5c5"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/crafting.json"
+hash = "a16aa4348eab8ea328f399ede1d1d994b31d6e9420c973061dc1d28a10d44ab1"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/dig.json"
+hash = "25e2e73a153c197bf0db05e12932931430cd94c1bd5c4b761e703743a8ba1bb8"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/drone_condition_entity.json"
+hash = "86d6f383c2e06a6c321f5ecdb7baa027d64743c5a9f9f1914703cf41a8072022"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/drone_condition_item.json"
+hash = "105baacbc89576f217c5811a1fcce367ad22e0fc2f24bc271e0cede32db3c376"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/drone_condition_liquid.json"
+hash = "b9ecb3791a649999250fa9f8bb3174b2e79066c0d33aa8f6966e3d57e1744b4e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/drone_condition_pressure.json"
+hash = "d905e78d86c8e659860afca7e88375848ef6f919c6b65dcb598ce306601d265c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/drone_condition_rf.json"
+hash = "b49ac306551d1c96cc7f2ad536ad9ebafbdd196e630854ed6216944e01abe4f5"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/drone_condition_upgrades.json"
+hash = "6526162dd4d412132d8a837b80fa6f6538092f46a622e98c2dbd5b6f98edaa4a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/drop_item.json"
+hash = "3f4d6eae91f72c5e8dda37106aa28d343964a03a7d611ec3f85b7e0be4533e53"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/edit_sign.json"
+hash = "cb36c516ee92fab2bcf0580efa02010b86a385dac3fabfd8f4be3cbdf5b1b4d9"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/emit_redstone.json"
+hash = "983bfea6a7e2d3b66b6a6d676c091d919fee19a553549ce5285c90cd65e336b8"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/entity_attack.json"
+hash = "7aa31339dab4533fed17b196cbc0f71f5ae9da5da8682cb1234bd674d70e2a6a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/entity_export.json"
+hash = "3081d9df9c0757670517d2f85776e311d0f8b506207f30868fd11ed07d227097"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/entity_import.json"
+hash = "70c882f031b102d045f26def7c8a4ec431523c48c0ec554bd979368aa14caf59"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/entity_right_click.json"
+hash = "31648f3128eb05307538ea7148e71a9781bf67a783ff74c50cf889b1e898e19d"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/external_program.json"
+hash = "daddc8419edaaba1f36ddd92933ff6791076f884e2e727ce82dfbefe51f63d5b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/flow_control.json"
+hash = "9e1abc371bc53c85c104dd42e0a710516776113b42c07637ea97a430442c5928"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/for_each_coordinate.json"
+hash = "d65f29da70155524e31a880f4865aa53d021751c63daacda55eefb6954b9933c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/for_each_item.json"
+hash = "ba37dc471973d2b516a68fcb3c21784f71df0eaaa01f33ac7ee5d477569b8ccb"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/goto.json"
+hash = "df2f0a85e7fa11098b49c8b13674e838c3dbda5a269596077341f90ac47a7a8f"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/harvest.json"
+hash = "b14f157a5e5259d21f877c42c5e310ac5d1db816f9d65b8fc91fec974b4e233b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/inventory_export.json"
+hash = "7327702031e3347540dbff63bfa942c82e376c4769fd496a8dbe2e85e2a576a4"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/inventory_import.json"
+hash = "e404ecc4ecfc35e46be88c7135420715c4b0facc2ed20e91b0d07886ca2003ef"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/item_assign.json"
+hash = "54fd652a829c1f78400b345174fef9c6e59621c1ce4feadc4c91c493296fbec2"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/item_filter.json"
+hash = "f1cc06f11087431f335b8e8e3a29782280fdfdaf6f823191cf6b804c0e668e65"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/jump.json"
+hash = "4e34044ff34d540c4f607f2d6c074d29f44a9677adb15a6aeb00e96db8a7dce8"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/jump_sub.json"
+hash = "464c920f536e75f9f44e021d8453b4cbf5c03673babbe096300a5e6348e11a5d"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/label.json"
+hash = "fd88b79402eb05dd61e0c51e30b8c56a196609991866baca8109ce34e38b0efb"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/liquid_export.json"
+hash = "44061cdeb5ed008c2de58814a73ed80c9b41b6d4672cb6bcac566b2185b31dfa"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/liquid_filter.json"
+hash = "0e5a3de632123bf756f683544e102d31cad1f4efbb1334b7ffa1c3da8bd1fd1f"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/liquid_import.json"
+hash = "4a083cfaa1ba3d40b987df7f5fe1fc9736bb242e44dd975c4e0a229d4fb85bad"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/logistics.json"
+hash = "e2b266526dd3ee324bfcd27b6749af6fbe88aa63b70c2df619a1c25cc4a34b9e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/pickup_item.json"
+hash = "fe07521e24c4bfbd310295b94f12d43544033edc2241789066d10f77df9656a6"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/place.json"
+hash = "b3b2206b6ff704a7ff4d2ce145a3204e620befad79f37f889766f5adf63186a6"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/programmable_controller.json"
+hash = "6a74c86f382dcbbf46bfff67271157fd3f7b98f7f40bc25798b89a0d97ae6285"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/programmer.json"
+hash = "9d73a4c3f075903b511a3108fa8c154f8a8061a756df3e6e42bb0ae26c974104"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/puzzle_pieces.json"
+hash = "b3f9997d591c3a82a1b957d24fff85b3069aee701267333d264b9aa2aa0a1e81"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/rename.json"
+hash = "4509a6c345e76de41181adec901cf05e09b47587282bd087b7cd2bcf563c909d"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/rf_export.json"
+hash = "e7b2bea5b815e46b19d460424ffce7bcdce43bfdfdfb9ff473e6098abbe17665"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/rf_import.json"
+hash = "628ebd15d704effac35bc660c83b9fe748085030bb9cfe24f3aa54c39fa8c1a5"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/standby.json"
+hash = "a6f438f99279f2254d0f9ae60f164d5467d614562ae448441ac599fa8887949f"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/start.json"
+hash = "9f3f5257e728831643429e18e97d4d8e31beaf54c6ad1a5db344f1ed25e5d46a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/suicide.json"
+hash = "3462dcea8b79d72d26e3e80e1f26286805f8b8eb9966c73c9b173b34e7bd1806"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/teleport.json"
+hash = "af49681e2b12e200823fcb40fab790287967f35897b607d3fd36c453a18961a1"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/text.json"
+hash = "6183991bdc74e2014838b2f2c0dbaae20f4756e7611a53d26ddf8b663aa86178"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/tutorial_1.json"
+hash = "5800afd579b75b165c44acf656bb04c09f5661d06d646d04c476a74c98525f4d"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/variables.json"
+hash = "f5f5b16c474739b1ccfde41e76ec43b62b2f583715478b72c1888ad5287d2a0a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/void_item.json"
+hash = "e17e050b81860fab754c688fcba08a68e08303b168bbe144aad9169b215be5a9"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/void_liquid.json"
+hash = "e9bc99dce3254f9c485b4e62a9a6cde234b1790f7ef1bf469726d83a755fb6e6"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/programming/wait.json"
+hash = "fff040ae6ae2e01b1be8bf47948a60e3d15c9efbe1b203c42c2bbbc4ed164302"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/renewables/biodiesel.json"
+hash = "4d8774209ef87beab1f8de8865ece76fbc2532421b1f04d1e406edf9308820c7"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/renewables/ethanol.json"
+hash = "d654c1298f1f4ca6c7bbccf1301895d68f5da35dc6299de26baf7d60f722d63b"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/renewables/glycerol.json"
+hash = "1d780eeafb879feb952cc991bc3425a7b5005188681ed8f3c838c6ba0b8a6285"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/renewables/overview.json"
+hash = "de0084cb40ad0052fa792033a0d543a2635982bb6457e16d295e075b934902e8"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/renewables/sourdough.json"
+hash = "4b7eef98509f8915888ee7a72e04c9a29204e177ff3d9094334a771300e72cb3"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/renewables/vegetable_oil.json"
+hash = "7a17c8bef33a9beddfa93e1d988c170a5b8f3e7124eb4e421f27a8c677b13130"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/renewables/yeast_culture.json"
+hash = "f5881c949528253f3d965692be93187e86f509b9ec8cd3eaf899bdff4024be22"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/semiblocks/crop_support.json"
+hash = "cd7e7fd6704b5ffc23733805f6d7f3db99cd17e8900f51a0733d02e76f6df8b8"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/semiblocks/heat_frame.json"
+hash = "7fd85e3082fd5428cb2b13e3663293b369c87acffa4e960be731e774bca11f77"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/semiblocks/transfer_gadget.json"
+hash = "bf80c1bf8b85478641dc4b27ebea789e1fc1dc9673473a2c91193b2eb2a541a4"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/spawning/pressurized_spawner.json"
+hash = "7c8050ecc6f87f8f2b2be4888e44480ee84410a248d9ce59eb891a0e61225e47"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/spawning/spawner_agitator.json"
+hash = "65276d960f5eb157d1980f40906b431cbb82dda3d2f606615a63a2e796b0012d"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/spawning/spawner_core.json"
+hash = "17f89befab04763345f4bbed43c7aaf60b1a32fb5f20b13a07f435e9d78d1f4e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/spawning/spawner_extractor.json"
+hash = "717d4f49ccff2164cdf3416de926ca86f2b75c64f51164452e24330571a08c38"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/spawning/vacuum_trap.json"
+hash = "29dcb8921df3ea04a7d58d145bc1138b5b0b816b04c98494fa80f6960fcd55f7"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/amadron_tablet.json"
+hash = "043235ebf23337f6561d1defb886a271e43422c4d6d158fa84fc84a2596ac347"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/camo_applicator.json"
+hash = "e39411e95e9a3340123db0a86e66a91410ddf660a270acd07de90855acbd15e0"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/collector_drone.json"
+hash = "008afcb7296150a2354a29855ad8940dc00250946a240b020e66e7421ba7c6c8"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/drone.json"
+hash = "cb7c223921d423d3a0b6904568d05b0e913427b4673585e9b67d7ecf0b51f9a8"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/gps_area_tool.json"
+hash = "ee166356efe914262989def7b52738dbe8dbec365520d760bc3ff5b05a2b1e07"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/gps_tool.json"
+hash = "d9504ca6afeb1b9b26574c375f1377f80b736ec71c9486cb1d4fc5e599785cfa"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/guard_drone.json"
+hash = "c4c72b981d387f257fcc6922ed43465d2e6ef578b706079bd9dce4db7e0e54d7"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/harvesting_drone.json"
+hash = "e5e0ec4d2f59ce00f53fdc2093e2e14623ab739831c19a670d45ef4104c981e2"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/jackhammer.json"
+hash = "e58b8d2c253254f41c3607f91e754d793854ad9a17d1c1fef508f4f5f9bf5fb0"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/manometer.json"
+hash = "a82a4b80f6677dc9be319c64ea197d58a6d892c94ba854ebe37d37b69e7f48c5"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/memory_stick.json"
+hash = "a0055213ef6514cb221c966f9079f8bcf2e2a72d3392a2f034f5f8a597936998"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/micromissiles.json"
+hash = "f6c0cc60a7d83d2cc4abec9ba5b7af94c3214921260a2f5d1b28f75700f9b3ba"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/minigun.json"
+hash = "91a179d4bd8b2b7752979ae1889558ff06ec92a58b27f21535fa4161658b6f3e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/minigun_ammo.json"
+hash = "a65d3d0c7bf3947bedefada97fc62538b18d6ec8e7a82f8ecdc36aae8824831a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/pneumatic_wrench.json"
+hash = "29fa07ac00adbe3a6219abdc72c2bbd0d7800ff00f93f08d1624d259369488f8"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/reinforced_chest_kit.json"
+hash = "eb2da6a16e028ebf8706c5de5ea9dfe608539c3a03fbb556a2196dd3c57596ac"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/remote.json"
+hash = "735e984be6e01d6dc5f150c366d4d6f28280f9525a0002e42ad2413935bd5e57"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/seismic_sensor.json"
+hash = "9ba5207306eddd2a05c208782bada03cd813d31b6b9cdbf327c98e4cddc0b4f6"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/smart_chest_kit.json"
+hash = "fea93e40758ed1fedface14235a8610e6565ac9a66fb07fa13d0487d4ade285e"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/tag_filter.json"
+hash = "bf7798e3bd1a9f2436f9eb33af63935f4f9997b582bfeb834be38fe279fb48a3"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tools/vortex_cannon.json"
+hash = "0da5d1847d13249aa8209165bcfbff0d9efb6c17245438bd4c7af4dae4be6713"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/air_grate_module.json"
+hash = "8f221bab8a087e43de2d0ad1ab638707d272f155534ddc005fcbcc20063ecc47"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/charging_module.json"
+hash = "ee1f5d84f8c58a66e82b255ec786bdd9bc50f68c009451c4942a846c1d5c2a29"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/flow_detector_module.json"
+hash = "5e2596e0b31ae6046142d8f2d356b70e3bc415d757c176fef3b66c35828524ba"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/logistics_module.json"
+hash = "0dc62838cc6b5e40d6a52422d1fe2ad3fc38daa999607cdef468dde3c76ed71d"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/module_expansion_card.json"
+hash = "b83d89325c2be8bf36a6bd04030141b698074ac5615cc789d8471efe1619d517"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/pressure_gauge_module.json"
+hash = "3f66025f89f09e8336c02bc61c9eac3b157a105147d35eaeb1b9955c6bd51c8a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/pressure_tubes.json"
+hash = "6cc095f4555115d967fd9f80b21a0200a7edfa5ca7ac16a91730a119a6d12161"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/redstone_module.json"
+hash = "cb8cead95fec88522d1a0010b7fc6d29c82f1b8123321c564b69fea156f91299"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/regulator_module.json"
+hash = "686dc174564466a961285a985354bce0d0721734381c9916a0c2e036e4a2e160"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/safety_module.json"
+hash = "6df9684ed6c857cd27f7bbae52bd6e456bf8340e66f61a03ff8b20a9199a0980"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/thermostat_module.json"
+hash = "77154d6a544e4c62d6abf85875af0863a02d315421c2f5cda31b7210086ff092"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/tube_junction.json"
+hash = "f81594bf1c4b6ba9554ba99f4fc00d974c6eb58507fc0f40e88eafb7a590a98a"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/tube_modules.json"
+hash = "f436772a67d074c749ace38f66e252b280a034b5c2bb7dd26ef8e1b798598118"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/patchouli_books/book/zh_cn/entries/tubes/vacuum_module.json"
+hash = "8b9d260702866e001ece0d305dd41dde27d2a2cb9992260464cbac9b1200d404"
 
 [[files]]
 file = "kubejs/assets/probejs/lang/zh_cn.json"
@@ -4663,6 +5703,10 @@ hash = "6021e716aedc0101a926d601211c57c899af78c9829dad373c6d809fac2dc16a"
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "d2a13306c453d92e9fe31b499b657a16a5083b1471850216a5a22d9876520e17"
+
+[[files]]
+file = "kubejs/client_scripts/recipeviewer/MMCR-hidden.js"
+hash = "c50d030f4cc8ae091722944c8325067cad6b698090a2b0c7415cf1bf268388bf"
 
 [[files]]
 file = "kubejs/client_scripts/recipeviewer/hidden.js"
@@ -5109,19 +6153,27 @@ file = "kubejs/package.json"
 hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR-models.js"
+file = "kubejs/server_scripts/MMCR/MMCR-machine.js"
+hash = "f624a553dd311730ab0d6367323172e3e1b013e2cd57509ae67272ac29549f75"
+
+[[files]]
+file = "kubejs/server_scripts/MMCR/MMCR-models.js"
 hash = "d1279417a67397a7f5927ab868e676c30ac454b7b69e3cf8f70f9727b6e3fe95"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR-recipes.js"
-hash = "d14aa80a0a3a20118af28ccfe282075f7d1bbe96a35423802dc3a13bd355dcd4"
+file = "kubejs/server_scripts/MMCR/MMCR-recipes.js"
+hash = "f93e8a7c50ad0f5b8974b9f1c02d9685f1ab0ec355036ac3187eac0ef12196df"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR-structures.js"
-hash = "7769a2d51f3bcb79c4b1a67adc6a5ef6ac8bde70adfc22091c5627d4168c3740"
+file = "kubejs/server_scripts/MMCR/MMCR-structures.js"
+hash = "6f4256540efb7a3fe30cdefd8634fcb596b30cb02078d9d80f0b8f6cf38fc89e"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR-tooltips.js"
+file = "kubejs/server_scripts/MMCR/MMCR-tags.js"
+hash = "945d688ff4b89f241166baee771d0b68f9deb4493197ea659c2d9460821e4086"
+
+[[files]]
+file = "kubejs/server_scripts/MMCR/MMCR-tooltips.js"
 hash = "73549eb21e7cd7c888e456b89eb5a63c8eb8b84b2a95f93c0ca1f27ffec91779"
 
 [[files]]
@@ -5277,12 +6329,12 @@ file = "kubejs/server_scripts/twilightforest.js"
 hash = "e31178bdbea076deb047a816a215902c10ae49531bb53c158c343da9d4e07bdc"
 
 [[files]]
-file = "kubejs/startup_scripts/MMCR-models.js"
+file = "kubejs/startup_scripts/MMCR/MMCR-models.js"
 hash = "89b23aa71e649fe72bc9a03a223fc31490b0b829f78b5a1739b7eada36925dad"
 
 [[files]]
-file = "kubejs/startup_scripts/MMCR-startup.js"
-hash = "506c5bdaed3795d79d921dfe1d2c190dc26c782b8183ce70abbed6f476dc8bbd"
+file = "kubejs/startup_scripts/MMCR/MMCR-startup.js"
+hash = "88899b11a7dbfb78a1694e8295745e967ef09646013ebb2f715f72239e6948ca"
 
 [[files]]
 file = "kubejs/startup_scripts/block_modify.js"
@@ -5294,7 +6346,7 @@ hash = "c598d8f9710af7a23f92cdd9061894afa84b2380377a66e15d293e769c998f97"
 
 [[files]]
 file = "kubejs/startup_scripts/pack_info.js"
-hash = "2f0f6f4aa71cbbf953d0b5059483e632401e36a81ea098fb59095883ea5fb655"
+hash = "ec34404feddbfd0da70e409fea06ddf6b65496677d74d8121c8d19a0e24d9d1c"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/blocks.js"

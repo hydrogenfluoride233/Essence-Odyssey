@@ -1,0 +1,14 @@
+{
+  "name": "guide.mmcr_patchouli.entry.extendedae.interfaces.name",
+  "category": "mmcr:extendedae",
+  "icon": "mmcr:eae_me_extended_input_interface",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "kubejs.mmcr.eae_note"
+      }
+    }
+  ]
+}

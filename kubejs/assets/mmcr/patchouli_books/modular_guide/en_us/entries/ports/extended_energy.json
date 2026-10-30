@@ -1,0 +1,14 @@
+{
+  "name": "guide.mmcr_patchouli.entry.ports.extended_energy.name",
+  "category": "mmcr:ports",
+  "icon": "mmcr:extended_energy_input_hatch_reinforced",
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "kubejs.mmcr.disabled"
+      }
+    }
+  ]
+}

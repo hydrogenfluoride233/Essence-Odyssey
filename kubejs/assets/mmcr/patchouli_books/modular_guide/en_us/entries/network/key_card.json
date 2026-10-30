@@ -1,0 +1,14 @@
+{
+  "name": "guide.mmcr_patchouli.entry.network.key_card.name",
+  "category": "mmcr:network",
+  "icon": "mmcr:key_card",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "kubejs.mmcr.disabled"
+      }
+    }
+  ]
+}

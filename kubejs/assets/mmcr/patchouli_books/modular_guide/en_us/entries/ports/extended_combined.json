@@ -1,0 +1,14 @@
+{
+  "name": "guide.mmcr_patchouli.entry.ports.extended_combined.name",
+  "category": "mmcr:ports",
+  "icon": "mmcr:extended_combined_input_advanced",
+  "sortnum": 35,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "kubejs.mmcr.disabled"
+      }
+    }
+  ]
+}

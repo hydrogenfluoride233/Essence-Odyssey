@@ -1,0 +1,14 @@
+{
+  "name": "guide.mmcr_patchouli.entry.ports.extended_fluids.name",
+  "category": "mmcr:ports",
+  "icon": "mmcr:extended_fluid_input_hatch_basic",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": {
+        "translate": "kubejs.mmcr.disabled"
+      }
+    }
+  ]
+}

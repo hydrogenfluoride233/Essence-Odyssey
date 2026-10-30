@@ -53,7 +53,7 @@ mods/*.jar
 !mods/aethersdelight-0.1.4.2-1.21.1.jar
 resourcepacks/*.zip
 !resourcepacks/BDcraft Sound Pack MC121.zip
-patchouli_books/
+config/patchouli_books/
 schematics/
 
 # 整合包本体 jar 与元数据（由构建流程生成，不入库）
