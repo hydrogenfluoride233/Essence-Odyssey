@@ -102,3 +102,6 @@ net.minecraft.client.gui.screens.ShareToLanScreen {
 betteradvancements.common.gui.BetterAdvancementsScreen {
 }
 
+net.minecraft.client.gui.screens.ConfirmScreen {
+}
+
