@@ -84,21 +84,3 @@ RecipeViewerEvents.removeRecipes(event=>{
         "create:kjs/paradox_collapser", //悖论物质
     ])
 })
-//超出本包规模的 MMCR 端口（与 MMCR-recipes.js 的 RemovedPorts 保持一致）
-RecipeViewerEvents.removeEntries("item",event=>{
-    const RemovedMmcrPorts = [
-        "extended_item_input_bus_basic", "extended_item_input_bus_reinforced", "extended_item_input_bus_advanced", "extended_item_input_bus_ultimate",
-        "extended_item_output_bus_basic", "extended_item_output_bus_reinforced", "extended_item_output_bus_advanced", "extended_item_output_bus_ultimate",
-        "extended_fluid_input_hatch_basic", "extended_fluid_input_hatch_reinforced", "extended_fluid_input_hatch_advanced", "extended_fluid_input_hatch_ultimate",
-        "extended_fluid_output_hatch_basic", "extended_fluid_output_hatch_reinforced", "extended_fluid_output_hatch_advanced", "extended_fluid_output_hatch_ultimate",
-        "extended_energy_input_hatch_reinforced", "extended_energy_input_hatch_ultimate",
-        "extended_energy_output_hatch_reinforced", "extended_energy_output_hatch_ultimate",
-        "extended_combined_input_reinforced", "extended_combined_input_advanced", "extended_combined_input_ultimate",
-        "extended_combined_output_reinforced", "extended_combined_output_advanced", "extended_combined_output_ultimate",
-        "eae_me_extended_input_interface", "eae_me_extended_output_interface", "eae_me_extended_pattern_interface", "eae_me_extended_stocking_input_interface",
-        "eae_me_oversize_input_interface", "eae_me_oversize_output_interface", "eae_me_oversize_stocking_input_interface",
-        "eaep_me_mirror_pattern_interface"
-    ]
-
-    RemovedMmcrPorts.forEach(id=>event.remove(`mmcr:${id}`))//超大吞吐端口
-})
