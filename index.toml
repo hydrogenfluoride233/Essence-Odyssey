@@ -2006,7 +2006,7 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "bf4386b3e0cf04dea6d411d831d38b5ea37c59230258ab16048d9cf46d0b6605"
+hash = "a37ed1e7ed5d1d4d03d728220cffde2a47e091617ba5fe9c0fb1ce9cf9ae2df9"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
@@ -4985,6 +4985,70 @@ file = "kubejs/data/hostilenetworks/data_models/upgrade_aquatic/nautilus.json"
 hash = "ad43f7eb47bf20d1137c02fc09454e231a326b7fca05eca312671c8686071494"
 
 [[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/aluminum_stalactite.json"
+hash = "0d18296eed3911394ac0feacdeb8b95101e6b41f1febaee3b4ec45b6d328b831"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/black_quartz_stalactite.json"
+hash = "ecd2148abfb49b432bd1b0a8ab4244166067bc2f3e16ed78bde639d0b35652cc"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/fluorite_stalactite.json"
+hash = "02e2de32ef8dfeb544d3834075cf58884f4fc807e7a753a8395c65f0a15173ff"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/inferium_stalactite.json"
+hash = "0a47e1d11e8b002c0514c28c75840b9fce1d6bdb6eba290cbb1a5d80043196dc"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/lead_stalactite.json"
+hash = "f8c418016f5984eee29936235b30cf034b3e0491c0f0ddb54d01ecd55b467acc"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/liveroot_stalactite.json"
+hash = "b1934b66b0c0602b0a46b7d37bdbe5c35d768d3cc37581e0b5c5cd0e849eb778"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/nickel_stalactite.json"
+hash = "428a726093a68f66458b46128814919d9cb0990f7e4fa707fc9b072d489d9169"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/osmium_stalactite.json"
+hash = "4c721eb599edf862fe817dd55967d5c448e27759e3ec19564d49be7c318674ff"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/prosperity_stalactite.json"
+hash = "1fb2915d5e52d2c4f70d87a4ea351ade98205e861153cf50f90c6df1f78fbe40"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/silver_stalactite.json"
+hash = "26325fe2bcb18cade3d218c1276e10e1fe940104af2268df28963ea363b1e1df"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/tin_stalactite.json"
+hash = "dadb9c2abf6e78b05e56a50bda070e378c2935bda39bc889a4c79c136f17f082"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/uraninite_dense_stalactite.json"
+hash = "064a4c10b23ba6744b0068c215733a964377342a40a93a0ca5fd4e66718182a6"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/uraninite_poor_stalactite.json"
+hash = "11ba83bf5134463ca61efd35383630a359e5b3147c7f2d0f185d9442e09fc407"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/uraninite_stalactite.json"
+hash = "8f1c8846aa8cb2c9d08f9ad3c0a507319b06a0336a87c7fcd0400756ae3eb5dd"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/uranium_stalactite.json"
+hash = "f8c6d7768242782e2017e970236f922a96a130097b3bb89ad69a9885cd47ffb0"
+
+[[files]]
+file = "kubejs/data/kubejs/twilight/stalactites/entries/zinc_stalactite.json"
+hash = "bccd61070a5ac43d46570d772a739263004296d65107b9730779f28e63763462"
+
+[[files]]
 file = "kubejs/data/mekaweapons/recipe/bow_limb.json"
 hash = "c969cfd1ceacd9484986f193405bf16ada986090abaec769d01abfbf07e5852d"
 
@@ -4999,6 +5063,38 @@ hash = "4472f1c262176d7d487767d5ab374364a5e632cb186e9b879d4247a1ca34c575"
 [[files]]
 file = "kubejs/data/pneumaticcraft/loot_table/custom/uncommon_dungeon_loot.json"
 hash = "32c83562934ee6406032568390efc475a565b6fa451b11bac026dffcf5c77932"
+
+[[files]]
+file = "kubejs/data/twilightforest/twilight/stalactites/entries/diamond_stalactite.json"
+hash = "4528e53a0e8b0fb5b97259cdd994296050fa091461410ad8ec1ff4887939c755"
+
+[[files]]
+file = "kubejs/data/twilightforest/twilight/stalactites/entries/emerald_stalactite.json"
+hash = "085b06f538c3e5a7e7c55eb2471a549f77c492c13268a8693252161a3ed0715a"
+
+[[files]]
+file = "kubejs/data/twilightforest/twilight/stalactites/entries/gold_stalactite.json"
+hash = "6bbd3600998d7a8d98d2164bd41a560348d46819031fec132b4629e364ae7df0"
+
+[[files]]
+file = "kubejs/data/twilightforest/twilight/stalactites/entries/lapis_stalactite.json"
+hash = "8b51cb32ec99e1a5170c00bb859284e147df6e3d3937cbbbd4e292c0806e587c"
+
+[[files]]
+file = "kubejs/data/twilightforest/twilight/stalactites/entries/redstone_stalactite.json"
+hash = "561b7f3a8240ac1392516cbfc35056098e1439d450959b69b00cf99a01dd0bb5"
+
+[[files]]
+file = "kubejs/data/twilightforest/twilight/stalactites/large_hollow_hill.json"
+hash = "3127cd71d583d4dc8ebf0f795b9228e1927bfea7447994b2f4dd2267b8358f81"
+
+[[files]]
+file = "kubejs/data/twilightforest/twilight/stalactites/medium_hollow_hill.json"
+hash = "4c3dfb64e22d7ddc13aca6e91f02c292d84276edfac0d253143937ba2dfb4299"
+
+[[files]]
+file = "kubejs/data/twilightforest/twilight/stalactites/small_hollow_hill.json"
+hash = "94569dad5cac675dc49e256fce2261f6741d6e351ad854f1235add42cd9ce3a5"
 
 [[files]]
 file = "kubejs/package.json"
