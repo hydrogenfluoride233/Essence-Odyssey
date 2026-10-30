@@ -28,7 +28,8 @@
     "kubejs:entries/inferium_stalactite",
     "kubejs:entries/uraninite_poor_stalactite",
     "kubejs:entries/uraninite_stalactite",
-    "kubejs:entries/uraninite_dense_stalactite"
+    "kubejs:entries/uraninite_dense_stalactite",
+    "kubejs:entries/liveroot_stalactite"
   ],
   "replace": false,
   "stalactite_chance": 1.0,
