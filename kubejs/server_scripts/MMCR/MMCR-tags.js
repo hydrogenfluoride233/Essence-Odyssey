@@ -34,6 +34,15 @@ RemovedPortIds.push(
     "mmcr:eae_me_oversize_stocking_input_interface"
 )
 
+//高级功能部件（本包暂无对应机器）
+RemovedPortIds.push(
+    "mmcr:smart_interface",
+    "mmcr:data_storage",
+    "mmcr:network_interface",
+    "mmcr:module_bridge",
+    "mmcr:key_card"
+)
+
 
 const RemoveDisabledPorts = event=>{
     RemovedPortIds.forEach(id=>event.removeAllTagsFrom(id))//从该方块所在的全部标签里摘掉

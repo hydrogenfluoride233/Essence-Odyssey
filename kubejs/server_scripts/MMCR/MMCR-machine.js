@@ -6,4 +6,9 @@ ServerEvents.recipes(event=>{
     event.remove({id:/^mmcr:(extended_)?combined_(input|output)_/})//组合端口（物品与流体混用，本包不做）
     event.remove({id:/^mmcr:extended_(fluid|energy)_(input|output)_hatch_/})//扩展流体仓与扩展能量仓
     event.remove({id:/^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)/})//EAE 扩展接口（保留 ME扩展样板接口）
+
+    //高级功能部件：本包暂无对应机器，整件禁用
+    const DisabledParts = ["smart_interface","data_storage","network_interface","module_bridge","key_card"]
+
+    DisabledParts.forEach(id=>event.remove({output:`mmcr:${id}`}))
 })
