@@ -2829,6 +2829,10 @@ file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "e63fbc2d25ccd2d86eb887562d3f5f544dadcb75b0c68dd7cc152f7197a1e2d7"
 
 [[files]]
+file = "defaultconfigs/ftblibrary-client.snbt"
+hash = "c8a56878042b2a7b677357f11be7371a1e327d2fd40845c83dade9e1fc06c48d"
+
+[[files]]
 file = "defaultconfigs/inventoryhud-client.toml"
 hash = "734855b2094cc554ce0332c8ec2591f1ac6421ebf66c178c538d91e79f411223"
 
