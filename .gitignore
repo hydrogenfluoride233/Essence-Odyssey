@@ -152,6 +152,8 @@ config/xaeropatreon.txt
 # 例外：defaultconfigs 是发给玩家的"预设"，必须进包
 # （上面的 **/*-[Cc]lient.toml 会连它一起排掉）
 !defaultconfigs/inventoryhud-client.toml
+!defaultconfigs/ftblibrary-client.snbt
+!defaultconfigs/ModernUI/client.toml
 
 # Jade 面板排序（本地状态，每次开游戏都会变）
 config/jade/sort-order.json
