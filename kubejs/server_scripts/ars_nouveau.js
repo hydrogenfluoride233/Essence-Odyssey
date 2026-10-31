@@ -24,11 +24,11 @@ ServerEvents.recipes(event=>{
     event.remove({id:"starbunclemania:source_condenser"})           //魔源凝聚器
     event.remove({id:"enigmaticunity:iridescent_source_generator"}) //五彩脉冲水晶
     event.remove({id:"enigmaticunity:iridescent_source_producer"})  //五彩共鸣水晶
-    event.remove({id:"ars_nouveau:thread_spellpower"})               //法术强度
+    event.remove({id:"ars_nouveau:thread_spellpower"})               //法术强度纤维
     event.remove({id:"ars_nouveau:reactive_2"})                      //反应 II
     event.remove({id:"ars_elemental:mirror_shield_2"})               //法术反弹 II
     event.remove({id:"ars_elemental:invincible_book"})               //法术书下界升级
-    event.remove({id:"ars_elemental:mark_of_mastery"})               //精通之印（改到附魔装置）
+    event.remove({id:"ars_elemental:mark_of_mastery"})               //精通之印
     
     //灌注室
     //格式:[输入,输出,魔源,基座材料]
@@ -86,7 +86,7 @@ ServerEvents.recipes(event=>{
                 "minecraft:oxidized_copper_grate",
                 "minecraft:end_crystal"
             ]
-        ],//混沌精华
+        ],//混沌之精华
 
         [
             "kubejs:crystal_ordo",
@@ -97,7 +97,7 @@ ServerEvents.recipes(event=>{
                 "minecraft:chiseled_quartz_block",
                 "eternal_starlight:starlight_flower"
             ]
-        ],//秩序精华
+        ],//秩序之精华
 
         [
             "mekanism:ingot_bronze",
@@ -371,11 +371,12 @@ ServerEvents.recipes(event=>{
                 "ars_nouveau:air_essence",
                 "kubejs:perditio_essence",
                 "kubejs:ordo_essence",
+                "ars_nouveau:magebloom",
                 "ars_nouveau:magebloom"
             ],
             "ars_nouveau:blank_thread",
             "ars_nouveau:thread_spellpower",0
-        ],//法术强度
+        ],//法术强度之纤维
     ]
 
     //附魔类配方：基础四要素 + 混沌与秩序
@@ -421,6 +422,10 @@ ServerEvents.recipes(event=>{
         "sourceCost":2000
     })//法术书下界升级（invincible_book）
 
+    EnchantList.forEach(([pedestal,input,output,source])=>
+        event.recipes.ars_nouveau.enchanting_apparatus(pedestal,input,output,source))
+
+    //附魔装置：精通之印（十件基座，需荒野供物）
     event.custom({
         "type":"ars_nouveau:enchanting_apparatus",
         "keepNbtOfReagent":false,
@@ -437,10 +442,7 @@ ServerEvents.recipes(event=>{
         "reagent":{"item":"ars_nouveau:wilden_tribute"},
         "result":{"count":5,"id":"ars_elemental:mark_of_mastery"},
         "sourceCost":10000
-    })//精通之印（附魔装置，需荒野供物）
-
-    EnchantList.forEach(([pedestal,input,output,source])=>
-        event.recipes.ars_nouveau.enchanting_apparatus(pedestal,input,output,source))
+    })
 
     //附魔装置收容生物
     const mobJar = entityId => Item.of("ars_nouveau:mob_jar",{
