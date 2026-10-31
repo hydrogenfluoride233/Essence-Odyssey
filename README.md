@@ -6,7 +6,7 @@
 
 </div>
 
-[![版本](https://img.shields.io/badge/版本-0.2.5.2-blue.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
+[![版本](https://img.shields.io/badge/版本-0.2.6-blue.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
 [![NeoForge](https://img.shields.io/badge/NeoForge-21.1-EA6E1E.svg)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
 [![下载](https://img.shields.io/badge/CurseForge-下载-F16436.svg?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
