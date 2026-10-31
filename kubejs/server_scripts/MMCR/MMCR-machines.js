@@ -94,6 +94,22 @@ ServerEvents.recipes(event=>{
             ]
         },
         {
+            prefix: "ae2_me",
+            form: "interface",
+            top: "ae2:interface",
+            tiers: [
+                {suffix: "", store: "ae2:fluix_crystal"}
+            ]
+        },
+        {
+            prefix: "appflux_me_flux",
+            form: "interface",
+            top: "appflux:flux_accessor",
+            tiers: [
+                {suffix: "", store: "appflux:energy_processor"}
+            ]
+        },
+        {
             prefix: "heat",
             form: "hatch",
             top: "pneumaticcraft:vortex_tube",
@@ -123,17 +139,6 @@ ServerEvents.recipes(event=>{
         })
     })
 
-    //其余端口：只做输入输出互转，材料照上游
-    const SwapPairs = [
-        ["ae2_me_input_interface","ae2_me_output_interface"],
-        ["appflux_me_flux_input_interface","appflux_me_flux_output_interface"]
-    ]
-
-    SwapPairs.forEach(([input,output])=>{
-        event.shapeless(`mmcr:${input}`,`mmcr:${output}`)
-        event.shapeless(`mmcr:${output}`,`mmcr:${input}`)
-    })
-
     //旧端口配方全部移除，统一重写
     event.remove({id:/^mmcr:item_(input|output)_bus(_reinforced|_big|_huge|_ludicrous)?$/})
     event.remove({id:/^mmcr:fluid_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/})
@@ -141,6 +146,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:/^mmcr:chemical_(input|output)_hatch_(basic|advanced|elite|ultimate)$/})
     event.remove({id:/^mmcr:(ars_source|create_stress|pneumaticcraft_air)_(input|output)_interface$/})
     event.remove({id:/^mmcr:(heat|radioactive_chemical)_(input|output)_hatch$/})
+    event.remove({id:/^mmcr:(ae2_me|appflux_me_flux)_(input|output)_interface$/})
 
     //禁用内容
     event.remove({id:/^mmcr:extended_item_(input|output)_bus_/})//扩展物品总线
