@@ -6799,7 +6799,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-more-machines.pw.toml"
-hash = "7bd8885bcae3e0e04e0f56aef0d566bae36335ee66389118e4b901e8e9a5d80d"
+hash = "3bae6f208566545843f23a6f9da3eb40f2529a86798091b95582997198a226b8"
 metafile = true
 
 [[files]]
@@ -7084,7 +7084,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "253fdc7ff789fb53519914b19e9d05a088323b9df7159e0c9d38d69a9ce33487"
+hash = "62637d9fa6059eee6042ffe48185a94621d4f45e0c3e77397b4e19cbbcbc59fb"
 metafile = true
 
 [[files]]
@@ -7484,7 +7484,7 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "979e104caf64333b445d16decfa96ae3777d77a26901c828803ea03324862b09"
+hash = "b14f9aadd362f3670639afffc6ab2a8a02876e3eb37799f412dcde7f54c1952d"
 metafile = true
 
 [[files]]
@@ -7604,7 +7604,7 @@ metafile = true
 
 [[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
-hash = "582b26125348a32a2c70a5b9fdd512c8e446be975db4790842f0471ee7f34505"
+hash = "91398d6341806e725e8d177880accf5348ad1792ffdff53dd7d58c355be4e2fb"
 metafile = true
 
 [[files]]
