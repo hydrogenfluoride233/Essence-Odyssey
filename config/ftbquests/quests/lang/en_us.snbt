@@ -419,8 +419,12 @@
 		"&o&7The notebook falls open at this page; the handwriting is messier than anywhere else.&r"
 		""
 		"Redstone Acid is even stronger than I imagined. I tried dissolving these completely unrelated metals together, then sprinkled in that pinch of &l&aUnknown Mixture&r. Once it cooled, they had turned into a &aspecial alloy&r."
-		""
+		"{@pagebreak}"
 		"&o&7The notebook records this mysterious recipe. But why?&r"
+		""
+		"&kLet us add a block of obfuscation here as well — I have no idea why, but it feels like it would be fun. A little more: &athis sentence is too short&r&k, and it looks odd sitting here alone.&r"
+		""
+		"&oNote: more about modular machinery is told in the &lMeteorite Creations&r&o chapter.&r"
 	]
 	quest.217A0236C9312C68.quest_desc: [
 		"The Twilight Forest's aspect is &#56C000earth&r. It &#56C000settles&r, draws &#56C000boundaries&r, and &#56C000grows&r upon them."
@@ -516,7 +520,6 @@
 		"Settings you change by hand will not be overwritten by updates."
 		""
 		"Players using the &aPCL2&r launcher, please note: PCL2 writes the language setting automatically on first launch, and this disables all of this pack's default options. Start the game once, quit right away, delete &aoptions.txt&r from the instance's root folder, then start again to switch to this pack's default preset."
-		"&7&o(Once deleted, PCL2 will not generate it again, and later updates will not overwrite your settings.)&r"
 	]
 	quest.2C4674EF49DCE846.title: "About the Default Options"
 	quest.2C96F0369D75B59D.quest_desc: [
