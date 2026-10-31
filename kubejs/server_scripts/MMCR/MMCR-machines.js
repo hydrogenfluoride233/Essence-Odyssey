@@ -14,7 +14,7 @@ ServerEvents.recipes(event=>{
 
     //端口统一形状：A / BCB / DBD —— A 顶部材料、B 模块化合金锭、C 上一档、D 容器
     const portShape = (id,top,base,store)=>{
-        event.shaped(`mmcr:${id}`,["A","BCB","DBD"],{
+        event.shaped(`mmcr:${id}`,[" A ","BCB","DBD"],{
             A: top,
             B: "mmcr:modularium",
             C: base,
