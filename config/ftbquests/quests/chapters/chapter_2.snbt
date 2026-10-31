@@ -803,6 +803,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3AA3AAF01D826B9C"
+					item: {
+						count: 1
+						id: "mmcr:blueprint"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "52A870C58F7F8B67"

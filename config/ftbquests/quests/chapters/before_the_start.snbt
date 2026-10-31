@@ -203,6 +203,18 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5ED62698260B28A0"
+					item: {
+						components: {
+							"sophisticatedcore:number_of_inventory_slots": 108
+							"sophisticatedcore:number_of_upgrade_slots": 5
+						}
+						count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 1.25d
