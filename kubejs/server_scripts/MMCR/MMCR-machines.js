@@ -12,15 +12,13 @@ ServerEvents.recipes(event=>{
 
     RemoveList.forEach(id=>event.remove({id}))
 
-    //物品、流体、能量：本包档位 → 通用机械档位，输入输出可互转
-    //[种类, 形态, 普通档原材料, 通用机械储物方块后缀]
+    //物品、流体、能量
     const PortList = [
         ["item","bus","#c:chests","bin"],
         ["fluid","hatch","minecraft:bucket","fluid_tank"],
         ["energy","hatch","minecraft:redstone","energy_cube"]
     ]
 
-    //[本包档位, 通用机械档位]
     const TierList = [
         ["reinforced","basic"],
         ["big","advanced"],
@@ -35,14 +33,33 @@ ServerEvents.recipes(event=>{
             ["input","output"].forEach(io=>{
                 event.replaceInput({id:port(io,tier)},vanilla,`mekanism:${mekTier}_${mekPart}`)
                 event.shapeless(port(io,tier),port(io==="input" ? "output" : "input",tier))
-            }))
+            }));
 
-        //普通档：把小型档换成基础外壳
         ;["input","output"].forEach(io=>
             event.replaceInput({id:port(io)},port(io,"small"),"mmcr:basic_casing"))
 
         event.shapeless(port("input"),port("output"))
         event.shapeless(port("output"),port("input"))
+    })
+
+    //其余端口：只做输入输出互转，材料照上游
+    const SwapPairs = [
+        ["ae2_me_input_interface","ae2_me_output_interface"],
+        ["appflux_me_flux_input_interface","appflux_me_flux_output_interface"],
+        ["create_stress_input_interface","create_stress_output_interface"],
+        ["ars_source_input_interface","ars_source_output_interface"],
+        ["pneumaticcraft_air_input_interface","pneumaticcraft_air_output_interface"],
+        ["heat_input_hatch","heat_output_hatch"],
+        ["radioactive_chemical_input_hatch","radioactive_chemical_output_hatch"],
+        ["chemical_input_hatch_basic","chemical_output_hatch_basic"],
+        ["chemical_input_hatch_advanced","chemical_output_hatch_advanced"],
+        ["chemical_input_hatch_elite","chemical_output_hatch_elite"],
+        ["chemical_input_hatch_ultimate","chemical_output_hatch_ultimate"]
+    ]
+
+    SwapPairs.forEach(([input,output])=>{
+        event.shapeless(`mmcr:${input}`,`mmcr:${output}`)
+        event.shapeless(`mmcr:${output}`,`mmcr:${input}`)
     })
 
     //禁用内容
