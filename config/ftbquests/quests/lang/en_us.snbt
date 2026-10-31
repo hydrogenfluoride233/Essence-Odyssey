@@ -322,6 +322,7 @@
 		"There are many different ways to obtain source — you can collect it with the various &aSourcelinks&r. Perhaps there are other methods?"
 	]
 	quest.1655971899AF0256.title: "Source Production"
+	quest.174B54B184FBBA69.quest_desc: ["The Encased Fan can handle a lot of bulk work for you — perhaps most importantly, bulk smelting &aSlag&r and bulk washing &aSlag Gravel&r."]
 	quest.177F832B5872D164.quest_desc: [
 		"&o&7You retreat to a safe distance and light the fuse.&r"
 		""
@@ -746,11 +747,7 @@
 		""
 		"In the &#56C000earth&r token is fear — it makes life face the dark and the unknown."
 	]
-	quest.424A36FF905942D5.quest_desc: [
-		"The amethyst has revealed the &#3EDCFFwater&r held in the Overworld's aura field, and you have received its response."
-		""
-		"Next, try collecting aura from the Overworld with a &aBottle and Cork&r, and see what happens."
-	]
+	quest.424A36FF905942D5.quest_desc: ["Next, try collecting aura from the Overworld with a &aBottle and Cork&r, and see what happens."]
 	quest.424A36FF905942D5.title: "Bottled Sunlight"
 	quest.4253B342CB49E078.quest_desc: [
 		"&o&7The notebook turns to a new page.&r"
@@ -774,8 +771,10 @@
 		"You have collected aura from the Overworld, together with the &l&nenvironmental information&r and &l&naspect information&r it carries."
 		""
 		"Now continue the expedition: set foot in the other dimensions, and answer the calls that come from them."
+		"{@pagebreak}"
+		"&oNote: &aenvironmental information&r&o is the law of a dimension — it comes from the dimension where the aura field sits. &aaspect information&r&o is what an aspect carries: collectable, condensable and purifiable, and it comes from the aspect the aura carries.&r"
 		""
-		"&oNote: the quest line of this chapter revolves around the &#3EDCFFwater&r&o of the Overworld only. Another chapter, &l\"Dimensions, Aspects, and This World\"&r&o, collects the related content of every primary aspect.&r"
+		"&oThe quest line of this chapter revolves around the &#3EDCFFwater&r&o of the Overworld only. Another chapter, &l\"Dimensions, Aspects, and This World\"&r&o, collects everything about every primary aspect.&r"
 	]
 	quest.431A6B56EE43ADEE.title: "The Six Primary Aspects"
 	quest.4363AE8363EC43A6.quest_desc: [
@@ -805,13 +804,7 @@
 		""
 		"&#FFFF7EAir&r lets life feel light — euphoria is light enough to forget that it still has to land."
 	]
-	quest.477C7D68B338367C.quest_desc: [
-		"Andesite Alloy is made from andesite and an Iron Ingot or a Zinc Ingot on a &aCutting Board&r. It is lighter than iron, yet it carries rotation steadily."
-		""
-		"&o&7You put together your first Andesite Alloy.&r"
-		""
-		"&o&mBut why a cutting board?!&r"
-	]
+	quest.477C7D68B338367C.quest_desc: ["Andesite Alloy is made from &aAndesite&r and an &aIron Ingot&r or a &aZinc Ingot&r. It is lighter than iron, yet it carries rotation steadily."]
 	quest.477C7D68B338367C.title: "Andesite Alloy"
 	quest.47B79E15AB741060.quest_desc: ["Give the Automated Engineer's Workbench &amaterials&r and &apower&r, and it will assemble the selected item automatically, following the instructions set in the &ablueprint&r."]
 	quest.47B79E15AB741060.title: "Automated Engineer's Workbench"
