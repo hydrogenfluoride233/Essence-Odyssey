@@ -2,5 +2,13 @@
   "machine.mmcr.industrial_imbuement":"工业灌注室",
   "recipe_pool.mmcr.industrial_imbuement":"工业灌注室",
   "item.mmcr.industrial_imbuement_controller":"工业灌注室控制器",
-  "block.mmcr.industrial_imbuement_controller":"工业灌注室控制器"
+  "block.mmcr.industrial_imbuement_controller":"工业灌注室控制器",
+  "block.mmcr.chemical_input_hatch_basic":"基础化学品输入仓",
+  "block.mmcr.chemical_output_hatch_basic":"基础化学品输出仓",
+  "block.mmcr.chemical_input_hatch_advanced":"高级化学品输入仓",
+  "block.mmcr.chemical_output_hatch_advanced":"高级化学品输出仓",
+  "block.mmcr.chemical_input_hatch_elite":"精英化学品输入仓",
+  "block.mmcr.chemical_output_hatch_elite":"精英化学品输出仓",
+  "block.mmcr.chemical_input_hatch_ultimate":"终极化学品输入仓",
+  "block.mmcr.chemical_output_hatch_ultimate":"终极化学品输出仓"
 }
