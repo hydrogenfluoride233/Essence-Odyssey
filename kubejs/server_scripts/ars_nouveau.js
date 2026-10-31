@@ -28,7 +28,6 @@ ServerEvents.recipes(event=>{
     event.remove({id:"ars_nouveau:reactive_2"})                      //反应 II
     event.remove({id:"ars_elemental:mirror_shield_2"})               //法术反弹 II
     event.remove({id:"ars_elemental:invincible_book"})               //法术书下界升级
-    event.remove({id:"ars_elemental:mark_of_mastery"})               //精通之印（改到工业灌注室）
     
     //灌注室
     //格式:[输入,输出,魔源,基座材料]
@@ -356,6 +355,7 @@ ServerEvents.recipes(event=>{
                 "ars_nouveau:abjuration_essence",
                 "ars_nouveau:conjuration_essence",
                 "ars_nouveau:manipulation_essence",
+                "ars_elemental:mark_of_mastery",
                 "pneumaticcraft:printed_circuit_board"
             ],
             "ars_nouveau:smooth_sourcestone_large_bricks",
