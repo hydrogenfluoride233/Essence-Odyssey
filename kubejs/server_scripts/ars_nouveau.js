@@ -170,18 +170,6 @@ ServerEvents.recipes(event=>{
     ImbuementList.forEach(([input,output,source,pedestal])=>
         event.recipes.ars_nouveau.imbuement(input,output,source,pedestal))
 
-    //基础四要素 + 混沌与秩序
-    const EssenceSix = [
-        "ars_nouveau:water_essence",
-        "ars_nouveau:fire_essence",
-        "ars_nouveau:earth_essence",
-        "ars_nouveau:air_essence",
-        "kubejs:perditio_essence",
-        "kubejs:ordo_essence"
-    ]
-
-    const Pedestal = items => items.map(item=>({"item":item}))
-
     //附魔装置
     //格式:[基座材料,输入,输出,魔源]
     const EnchantList = [
@@ -419,15 +407,27 @@ ServerEvents.recipes(event=>{
                 "minecraft:blaze_powder",
                 "minecraft:blaze_powder",
                 "minecraft:blaze_powder",
-                "minecraft:blaze_powder"
-            ].concat(EssenceSix),
+                "minecraft:blaze_powder",
+                "ars_nouveau:water_essence",
+                "ars_nouveau:fire_essence",
+                "ars_nouveau:earth_essence",
+                "ars_nouveau:air_essence",
+                "kubejs:perditio_essence",
+                "kubejs:ordo_essence"
+            ],
             "ars_nouveau:reactive",2,6000
         ],//反应 II
 
         [
             [
-                "ars_elemental:spell_mirror"
-            ].concat(EssenceSix),
+                "ars_elemental:spell_mirror",
+                "ars_nouveau:water_essence",
+                "ars_nouveau:fire_essence",
+                "ars_nouveau:earth_essence",
+                "ars_nouveau:air_essence",
+                "kubejs:perditio_essence",
+                "kubejs:ordo_essence"
+            ],
             "ars_elemental:mirror_shield",2,5000
         ],//法术反弹 II
     ]
@@ -438,9 +438,15 @@ ServerEvents.recipes(event=>{
     event.custom({
         "type":"ars_elemental:netherite_upgrade",
         "keepNbtOfReagent":true,
-        "pedestalItems":Pedestal([
-            "minecraft:netherite_ingot"
-        ].concat(EssenceSix)),
+        "pedestalItems":[
+            {"item":"minecraft:netherite_ingot"},
+            {"item":"ars_nouveau:water_essence"},
+            {"item":"ars_nouveau:fire_essence"},
+            {"item":"ars_nouveau:earth_essence"},
+            {"item":"ars_nouveau:air_essence"},
+            {"item":"kubejs:perditio_essence"},
+            {"item":"kubejs:ordo_essence"}
+        ],
         "reagent":{"tag":"ars_nouveau:spellbook"},
         "sourceCost":2000
     })//法术书下界升级（invincible_book）
