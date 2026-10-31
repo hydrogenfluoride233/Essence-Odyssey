@@ -348,6 +348,9 @@ ServerEvents.recipes(event=>{
                 "kubejs:perditio_essence",
                 "kubejs:ordo_essence",
                 "sauce:anima_essence",
+                "ars_nouveau:abjuration_essence",
+                "ars_nouveau:conjuration_essence",
+                "ars_nouveau:manipulation_essence",
                 "pneumaticcraft:printed_circuit_board"
             ],
             "ars_nouveau:smooth_sourcestone_large_bricks",
