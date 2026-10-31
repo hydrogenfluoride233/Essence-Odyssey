@@ -20,10 +20,10 @@ pushDirections(io=>["reinforced","ultimate"].map(tier=>`extended_energy_${io}_ha
 pushDirections(io=>["basic","advanced","reinforced","ultimate"].map(tier=>`combined_${io}_${tier}`))
 
 //扩展组合端口
-pushDirections(io=>["advanced","reinforced","ultimate"].map(tier=>`extended_combined_${io}_${tier}`))
+pushDirections(io=>["advanced","reinforced","ultimate"].map(tier=>`extended_combined_${io}_${tier}`));
 
 //低档端口
-;["item","fluid","energy"].forEach(kind=>{
+["item","fluid","energy"].forEach(kind=>{
     const port = kind==="item" ? "bus" : "hatch"
 
     pushDirections(io=>["tiny","small"].map(tier=>`${kind}_${io}_${port}_${tier}`))
@@ -37,16 +37,6 @@ pushIds(["pro","elite","fantasy","max","ultimate"].map(tier=>`parallel_controlle
 
 //升级总线
 pushIds(["normal","reinforced","elite","super","ultimate"].map(tier=>`upgrade_bus_${tier}`))
-
-//EAE联动
-pushIds([
-    "eae_me_extended_input_interface",
-    "eae_me_extended_stocking_input_interface",
-    "eae_me_extended_output_interface",
-    "eae_me_oversize_input_interface",
-    "eae_me_oversize_output_interface",
-    "eae_me_oversize_stocking_input_interface"
-])
 
 //高级功能部件
 pushIds(["smart_interface","data_storage","network_interface","module_bridge","key_card"])

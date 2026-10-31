@@ -8,7 +8,6 @@ const HiddenPortPatterns = [
     /^mmcr:energy_(input|output)_hatch_ultimate$/,         //究极能量仓
     /^mmcr:parallel_controller_(pro|elite|fantasy|max|ultimate)$/, //高级并行器
     /^mmcr:upgrade_bus_/,//升级总线（本包不做升级系统）
-    /^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)/ //EAE 扩展接口（保留 ME扩展样板接口）
 ]
 
 const DisabledParts = ["smart_interface","data_storage","network_interface","module_bridge","key_card"]//智能接口 / 数据存储器 / 网络接口 / 模块桥接器 / 网络密钥卡

@@ -144,6 +144,14 @@ ServerEvents.recipes(event=>{
         {id: "fluxnetworks_energy_input_interface",  top: "fluxnetworks:flux_point",           store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
         {id: "fluxnetworks_energy_output_interface", top: "fluxnetworks:flux_plug",            store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
         {id: "ae2_me_pattern_interface",             top: "ae2:pattern_provider",              store: "ae2:fluix_crystal",      base: "mmcr:basic_casing"},
+        {id: "ae2_me_stocking_input_interface",          top: "ae2:storage_bus",               store: "ae2:fluix_crystal", base: "mmcr:ae2_me_input_interface"},
+        {id: "ae2_me_async_output_interface",            top: "mmcr:thread_disperser",         store: "ae2:fluix_crystal", base: "mmcr:ae2_me_output_interface"},
+        {id: "eae_me_extended_input_interface",          top: "extendedae:ex_interface",       store: "ae2:fluix_crystal", base: "mmcr:ae2_me_input_interface"},
+        {id: "eae_me_oversize_input_interface",          top: "extendedae:oversize_interface", store: "ae2:fluix_crystal", base: "mmcr:ae2_me_input_interface"},
+        {id: "eae_me_extended_stocking_input_interface", top: "extendedae:ex_interface",       store: "ae2:fluix_crystal", base: "mmcr:ae2_me_stocking_input_interface"},
+        {id: "eae_me_oversize_stocking_input_interface", top: "extendedae:oversize_interface", store: "ae2:fluix_crystal", base: "mmcr:ae2_me_stocking_input_interface"},
+        {id: "eae_me_extended_output_interface",         top: "extendedae:ex_interface",       store: "ae2:fluix_crystal", base: "mmcr:ae2_me_output_interface"},
+        {id: "eae_me_oversize_output_interface",         top: "extendedae:oversize_interface", store: "ae2:fluix_crystal", base: "mmcr:ae2_me_output_interface"},
         {id: "eae_me_extended_pattern_interface",    top: "extendedae:pattern_provider_upgrade", store: "ae2:fluix_crystal",     base: "mmcr:ae2_me_pattern_interface"}
     ]
 
@@ -166,6 +174,8 @@ ServerEvents.recipes(event=>{
     event.remove({id:/^mmcr:(ae2_me|appflux_me_flux)_(input|output)_interface$/})
     event.remove({id:/^mmcr:fluxnetworks_energy_(input|output)_interface$/})
     event.remove({id:/^mmcr:(ae2_me_pattern_interface|eae_me_extended_pattern_interface)$/})
+    event.remove({id:/^mmcr:(ae2_me_stocking_input_interface|ae2_me_async_output_interface)$/})
+    event.remove({id:/^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)$/})
 
     //禁用内容
     event.remove({id:/^mmcr:extended_item_(input|output)_bus_/})//扩展物品总线
@@ -174,7 +184,6 @@ ServerEvents.recipes(event=>{
     event.remove({id:/^mmcr:(item_(input|output)_bus|fluid_(input|output)_hatch|energy_(input|output)_hatch)_(tiny|small)$/})//微型与小型端口
     event.remove({id:/^mmcr:fluid_(input|output)_hatch_vacuum$/})//终极流体仓
     event.remove({id:/^mmcr:energy_(input|output)_hatch_ultimate$/})//究极能量仓
-    event.remove({id:/^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)/})//EAE 扩展接口（保留 ME扩展样板接口）
     event.remove({id:/^mmcr:parallel_controller_(pro|elite|fantasy|max|ultimate)$/})//高级并行器
     event.remove({id:/^mmcr:upgrade_bus_/})//升级总线
 
