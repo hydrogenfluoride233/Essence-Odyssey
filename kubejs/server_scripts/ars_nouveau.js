@@ -408,6 +408,9 @@ ServerEvents.recipes(event=>{
         ],//精通之印
     ]
 
+    EnchantList.forEach(([pedestal,input,output,source])=>
+        event.recipes.ars_nouveau.enchanting_apparatus(pedestal,input,output,source))
+
     //附魔装置的附魔
     //格式:[基座材料,附魔,等级,魔源]
     const EnchantmentList = [
@@ -441,10 +444,6 @@ ServerEvents.recipes(event=>{
         "reagent":{"tag":"ars_nouveau:spellbook"},
         "sourceCost":2000
     })//法术书下界升级（invincible_book）
-
-    EnchantList.forEach(([pedestal,input,output,source])=>
-        event.recipes.ars_nouveau.enchanting_apparatus(pedestal,input,output,source))
-
 
     //附魔装置收容生物
     const mobJar = entityId => Item.of("ars_nouveau:mob_jar",{
