@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6e7bb2d7e7e89fca"
+	group: "3F4D8FC0357D0EBB"
+	icon: {
+		id: "mmcr:thread_disperser"
+	}
+	id: "6E7BB2D7E7E89FCA"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["32CEBFC9E6C72BEC"]
+			id: "3276C4FA6F80293A"
+			tasks: [{
+				id: "4886451BC00CBD7D"
+				item: { count: 1, id: "mmcr:industrial_imbuement_controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["216FDC1A803B60AC"]
+			icon: {
+				components: {
+					"patchouli:book": "mmcr:modular_guide"
+				}
+				id: "patchouli:guide_book"
+			}
+			id: "32CEBFC9E6C72BEC"
+			rewards: [{
+				id: "71341CC7B33D10D2"
+				item: {
+					count: 1
+					id: "mmcr:blueprint"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0774830FD378BC5B"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["32CEBFC9E6C72BEC"]
+			icon: {
+				id: "mmcr:blueprint"
+			}
+			id: "3C78F8B945C3EF39"
+			optional: true
+			repeat_cooldown: 600
+			rewards: [{
+				id: "7386214CCFF8BDB4"
+				item: {
+					count: 1
+					id: "mmcr:blueprint"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				id: "476FD2C62E6BFEFA"
+				item: { count: 1, id: "mmcr:modularium" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32CEBFC9E6C72BEC"]
+			icon: {
+				id: "mmcr:factory_controller"
+			}
+			id: "5E8DFF947CFCC692"
+			tasks: [
+				{
+					id: "22F3E860DF2E56AF"
+					item: { count: 1, id: "mmcr:factory_controller" }
+					type: "item"
+				}
+				{
+					id: "1DC478E144A1AC98"
+					item: { count: 1, id: "mmcr:thread_disperser" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32CEBFC9E6C72BEC"]
+			id: "61AABA492C292435"
+			tasks: [{
+				id: "42EBA5EE46BD6229"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:parallel_controllers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32CEBFC9E6C72BEC"]
+			id: "141AAA010C85DF05"
+			tasks: [{
+				id: "676F7C76629B226C"
+				item: { count: 1, id: "mmcr:terminal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+}

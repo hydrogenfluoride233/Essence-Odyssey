@@ -698,17 +698,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["216FDC1A803B60AC"]
-			id: "3276C4FA6F80293A"
-			tasks: [{
-				id: "4886451BC00CBD7D"
-				item: { count: 1, id: "mmcr:industrial_imbuement_controller" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["4253B342CB49E078"]
 			id: "499464A11D38D71F"
 			tasks: [{
@@ -783,35 +772,18 @@
 				"00C3498874CCAB65"
 			]
 			id: "216FDC1A803B60AC"
-			rewards: [
-				{
-					id: "740A933057DB6D4B"
-					item: {
-						components: {
-							"patchouli:book": "mmcr:modular_guide"
-						}
-						count: 1
-						id: "patchouli:guide_book"
+			rewards: [{
+				id: "740A933057DB6D4B"
+				item: {
+					components: {
+						"patchouli:book": "mmcr:modular_guide"
 					}
-					type: "item"
+					count: 1
+					id: "patchouli:guide_book"
 				}
-				{
-					id: "6C7DE39FEA3BA0FB"
-					item: {
-						count: 1
-						id: "mmcr:terminal"
-					}
-					type: "item"
-				}
-				{
-					id: "3AA3AAF01D826B9C"
-					item: {
-						count: 1
-						id: "mmcr:blueprint"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "52A870C58F7F8B67"
 				item: { count: 1, id: "mmcr:modularium" }

@@ -79,8 +79,8 @@
 				item: { count: 1, id: "mysticalagradditions:creative_essence" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 }
