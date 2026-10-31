@@ -12,34 +12,42 @@ ServerEvents.recipes(event=>{
 
     RemoveList.forEach(id=>event.remove({id}))
 
-    //物品、流体、能量
-    const PortList = [
-        ["item","bus","#c:chests","bin"],
-        ["fluid","hatch","minecraft:bucket","fluid_tank"],
-        ["energy","hatch","minecraft:redstone","energy_cube"]
+    //端口统一形状：A / BCB / DBD —— A 顶部材料、B 模块化合金锭、C 上一档、D 容器
+    const portShape = (id,top,base,store)=>{
+        event.shaped(`mmcr:${id}`,["A","BCB","DBD"],{
+            A: top,
+            B: "mmcr:modularium",
+            C: base,
+            D: store
+        })
+    }
+
+    //[前缀, 形态, 顶部材料, 档位后缀（首个为空串）, 各档容器]
+    const PortFamily = [
+        ["item","bus","minecraft:hopper",
+            ["","_reinforced","_big","_huge","_ludicrous"],
+            ["#c:chests","mekanism:basic_bin","mekanism:advanced_bin","mekanism:elite_bin","mekanism:ultimate_bin"]],
+        ["fluid","hatch","minecraft:hopper",
+            ["","_reinforced","_big","_huge","_ludicrous"],
+            ["minecraft:bucket","mekanism:basic_fluid_tank","mekanism:advanced_fluid_tank","mekanism:elite_fluid_tank","mekanism:ultimate_fluid_tank"]],
+        ["energy","hatch","immersiveengineering:capacitor_hv",
+            ["","_reinforced","_big","_huge","_ludicrous"],
+            ["minecraft:redstone_block","mekanism:basic_energy_cube","mekanism:advanced_energy_cube","mekanism:elite_energy_cube","mekanism:ultimate_energy_cube"]],
+        ["chemical","hatch","minecraft:hopper",
+            ["_basic","_advanced","_elite","_ultimate"],
+            ["mekanism:basic_chemical_tank","mekanism:advanced_chemical_tank","mekanism:elite_chemical_tank","mekanism:ultimate_chemical_tank"]]
     ]
 
-    const TierList = [
-        ["reinforced","basic"],
-        ["big","advanced"],
-        ["huge","elite"],
-        ["ludicrous","ultimate"]
-    ]
+    PortFamily.forEach(([prefix,form,top,levels,stores])=>{
+        levels.forEach((suffix,index)=>{
+            const input = `mmcr:${prefix}_input_${form}${suffix}`
+            const output = `mmcr:${prefix}_output_${form}${suffix}`
+            const base = index === 0 ? "mmcr:basic_casing" : `mmcr:${prefix}_input_${form}${levels[index-1]}`
 
-    PortList.forEach(([kind,form,vanilla,mekPart])=>{
-        const port = (io,tier)=>`mmcr:${kind}_${io}_${form}${tier ? `_${tier}` : ""}`
-
-        TierList.forEach(([tier,mekTier])=>
-            ["input","output"].forEach(io=>{
-                event.replaceInput({id:port(io,tier)},vanilla,`mekanism:${mekTier}_${mekPart}`)
-                event.shapeless(port(io,tier),port(io==="input" ? "output" : "input",tier))
-            }));
-
-        ;["input","output"].forEach(io=>
-            event.replaceInput({id:port(io)},port(io,"small"),"mmcr:basic_casing"))
-
-        event.shapeless(port("input"),port("output"))
-        event.shapeless(port("output"),port("input"))
+            portShape(`${prefix}_input_${form}${suffix}`,top,base,stores[index])
+            event.shapeless(input,output)
+            event.shapeless(output,input)
+        })
     })
 
     //其余端口：只做输入输出互转，材料照上游
@@ -61,6 +69,12 @@ ServerEvents.recipes(event=>{
         event.shapeless(`mmcr:${input}`,`mmcr:${output}`)
         event.shapeless(`mmcr:${output}`,`mmcr:${input}`)
     })
+
+    //旧端口配方全部移除，统一重写
+    event.remove({id:/^mmcr:item_(input|output)_bus(_reinforced|_big|_huge|_ludicrous)?$/})
+    event.remove({id:/^mmcr:fluid_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/})
+    event.remove({id:/^mmcr:energy_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/})
+    event.remove({id:/^mmcr:chemical_(input|output)_hatch_(basic|advanced|elite|ultimate)$/})
 
     //禁用内容
     event.remove({id:/^mmcr:extended_item_(input|output)_bus_/})//扩展物品总线
