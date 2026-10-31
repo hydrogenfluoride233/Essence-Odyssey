@@ -24,6 +24,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"starbunclemania:source_condenser"})           //魔源凝聚器
     event.remove({id:"enigmaticunity:iridescent_source_generator"}) //五彩脉冲水晶
     event.remove({id:"enigmaticunity:iridescent_source_producer"})  //五彩共鸣水晶
+    event.remove({id:"ars_nouveau:thread_spellpower"})               //法术强度
     
     //灌注室
     //格式:[输入,输出,魔源,基座材料]
@@ -356,6 +357,19 @@ ServerEvents.recipes(event=>{
             "ars_nouveau:smooth_sourcestone_large_bricks",
             "mmcr:industrial_imbuement_controller",50000
         ],//工业灌注室控制器
+
+        [
+            [
+                "ars_nouveau:water_essence",
+                "ars_nouveau:fire_essence",
+                "ars_nouveau:earth_essence",
+                "ars_nouveau:air_essence",
+                "kubejs:perditio_essence",
+                "kubejs:ordo_essence"
+            ],
+            "ars_nouveau:blank_thread",
+            "ars_nouveau:thread_spellpower",0
+        ],//法术强度
     ]
 
     EnchantList.forEach(([pedestal,input,output,source])=>
