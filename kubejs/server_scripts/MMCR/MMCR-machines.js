@@ -141,18 +141,27 @@ ServerEvents.recipes(event=>{
 
     //单方向端口：形状同上，各写一条（不互换）
     const SinglePorts = [
-        {id: "fluxnetworks_energy_input_interface",  top: "fluxnetworks:flux_point",           store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
-        {id: "fluxnetworks_energy_output_interface", top: "fluxnetworks:flux_plug",            store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
-        {id: "ae2_me_pattern_interface",             top: "ae2:pattern_provider",              store: "ae2:fluix_crystal",      base: "mmcr:basic_casing"},
+        //通量网络：取电点给机器供电、送电点把机器发的电送回网络
+        {id: "fluxnetworks_energy_input_interface",  top: "fluxnetworks:flux_point", store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
+        {id: "fluxnetworks_energy_output_interface", top: "fluxnetworks:flux_plug",  store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
+
+        //样板接口：基础 → 扩展
+        {id: "ae2_me_pattern_interface",          top: "ae2:pattern_provider",               store: "ae2:fluix_crystal", base: "mmcr:basic_casing"},
+        {id: "eae_me_extended_pattern_interface", top: "extendedae:pattern_provider_upgrade", store: "ae2:fluix_crystal", base: "mmcr:ae2_me_pattern_interface"},
+
+        //输入线：基础 → 扩展 → 超大；库存从两级分叉
         {id: "ae2_me_stocking_input_interface",          top: "ae2:storage_bus",               store: "ae2:fluix_crystal", base: "mmcr:ae2_me_input_interface"},
-        {id: "ae2_me_async_output_interface",            top: "mmcr:thread_disperser",         store: "ae2:fluix_crystal", base: "mmcr:ae2_me_output_interface"},
         {id: "eae_me_extended_input_interface",          top: "extendedae:ex_interface",       store: "ae2:fluix_crystal", base: "mmcr:ae2_me_input_interface"},
-        {id: "eae_me_oversize_input_interface",          top: "extendedae:oversize_interface", store: "ae2:fluix_crystal", base: "mmcr:ae2_me_input_interface"},
+        {id: "eae_me_oversize_input_interface",          top: "extendedae:oversize_interface", store: "ae2:fluix_crystal", base: "mmcr:eae_me_extended_input_interface"},
+        {id: "eae_me_extended_stocking_input_interface", top: "ae2:storage_bus",               store: "ae2:fluix_crystal", base: "mmcr:eae_me_extended_input_interface"},
         {id: "eae_me_extended_stocking_input_interface", top: "extendedae:ex_interface",       store: "ae2:fluix_crystal", base: "mmcr:ae2_me_stocking_input_interface"},
-        {id: "eae_me_oversize_stocking_input_interface", top: "extendedae:oversize_interface", store: "ae2:fluix_crystal", base: "mmcr:ae2_me_stocking_input_interface"},
-        {id: "eae_me_extended_output_interface",         top: "extendedae:ex_interface",       store: "ae2:fluix_crystal", base: "mmcr:ae2_me_output_interface"},
-        {id: "eae_me_oversize_output_interface",         top: "extendedae:oversize_interface", store: "ae2:fluix_crystal", base: "mmcr:ae2_me_output_interface"},
-        {id: "eae_me_extended_pattern_interface",    top: "extendedae:pattern_provider_upgrade", store: "ae2:fluix_crystal",     base: "mmcr:ae2_me_pattern_interface"}
+        {id: "eae_me_oversize_stocking_input_interface", top: "ae2:storage_bus",               store: "ae2:fluix_crystal", base: "mmcr:eae_me_oversize_input_interface"},
+        {id: "eae_me_oversize_stocking_input_interface", top: "extendedae:oversize_interface", store: "ae2:fluix_crystal", base: "mmcr:eae_me_extended_stocking_input_interface"},
+
+        //输出线：基础 → 扩展 → 超大；异步从基础分叉
+        {id: "ae2_me_async_output_interface",    top: "mmcr:thread_disperser",         store: "ae2:fluix_crystal", base: "mmcr:ae2_me_output_interface"},
+        {id: "eae_me_extended_output_interface", top: "extendedae:ex_interface",       store: "ae2:fluix_crystal", base: "mmcr:ae2_me_output_interface"},
+        {id: "eae_me_oversize_output_interface", top: "extendedae:oversize_interface", store: "ae2:fluix_crystal", base: "mmcr:eae_me_extended_output_interface"}
     ]
 
     SinglePorts.forEach(port=>{
