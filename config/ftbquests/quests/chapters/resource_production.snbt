@@ -48,6 +48,7 @@
 		{
 			dependencies: ["06A39A8F4765BAE9"]
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "3E138E3EDB6E96AA"
 			tasks: [{
 				id: "48D5D640A61003DC"
