@@ -19,6 +19,7 @@
 	chapter.572A55A700B05B5A.subtitle: "Meteor Engraving, Forging the World"
 	chapter.572A55A700B05B5A.title: "Chapter 2"
 	chapter.69D614063602F65E.title: "Dimensions, Aspects, and This World"
+	chapter.6E7BB2D7E7E89FCA.title: "Meteorite Creations"
 	chapter.7BE58E7C6030198B.title: "Resource Production"
 	chapter.7FE4693A264FF39A.subtitle: "Even the Stars Are Not the End"
 	chapter.7FE4693A264FF39A.title: "Chapter 6"
@@ -288,6 +289,11 @@
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
 		""
 		"In the &#626262chaos&r token is confusion — it takes away certainty and direction."
+	]
+	quest.141AAA010C85DF05.quest_desc: [
+		"&kWell, there is a description here. But it is &ahidden&r&k. &lWhy?&r&k How should I know. What? You say I was simply too lazy to write it? 那绝对不可能！&r"
+		""
+		"&o&7(The narrator has gone on strike.)&r"
 	]
 	quest.147568389F8D910A.quest_desc: [
 		"Printed circuit boards (PCBs) are important components used by many high-end machines and tools, and making one takes several steps."
@@ -610,11 +616,27 @@
 		"&m&oEveryone knows a boy named Jack once traded a cow for a handful of these. He has been up there ever since.&r"
 	]
 	quest.3276C4FA6F80293A.quest_desc: [
-		"This is a production line that can stay running. Essence that had to be made one at a time can now be produced in batches.",
-		"",
-		"&o(Both the text and the recipes are provisional and will be revised later.)&r"
+		"&kThis is the Industrial Imbuement Chamber Controller. The player cannot see a word of what I am writing here, but a card this empty would look wrong, so I am dutifully filling it. Oh, fine — I am &aseriously making things up&r&k. I am padding the word count.&r"
+		""
+		"&kThis obfuscation is genuinely fun, so here is one more paragraph, to make the card look like it says a great deal while the player sees nothing at all. 哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈。Let me throw in some &l&nrandom formatting&r&k too, like &athis&r&k, &athis&r&k and &athis&r&k. 嗯，试试中文？汉字的混淆方式和英文不一样，挺好玩。&r"
+		"{@pagebreak}"
+		"&oYou stare at it for a long time. The words scatter and gather again before your eyes, and never once form a sentence.&r"
+		""
+		"&oYou give up and let your eyes slide down — and there, at least, the recipes are clear. JEI records in full what the &aIndustrial Imbuement Chamber&r&o can process; go and look.&r"
+		""
+		"&kWell, let us have a block of nonsense here as well. Is this nonsense loud? Who knows. I think it is fun.&r"
 	]
-	quest.3276C4FA6F80293A.title: "Industrial Imbuement Chamber"
+	quest.3276C4FA6F80293A.title: "Industrial Imbuement Chamber Controller"
+	quest.32CEBFC9E6C72BEC.quest_desc: [
+		"&oA blueprint is tucked between the pages of the notebook.&r"
+		""
+		"&kThis block is the notebook's own voice. What does the notebook want to say? How should I know — I do not know what I want to say either, &aso I write whatever comes&r&k. 嗯，试试中文？汉字的混淆方式和英文不一样。太好了！&r"
+		"{@pagebreak}"
+		"&oThis blueprint does not look like anything made in this world. Not a single word is written on it — but bind it &ato a controller&r&o, and the knowledge of that machine spreads across the paper.&r"
+		""
+		"&o&7What is the notebook even talking about?&r"
+	]
+	quest.32CEBFC9E6C72BEC.title: "Meteorite Legacy"
 	quest.33FB481FD8A71455.quest_desc: ["The Upgrade Matrix is made from lapis lazuli and is used to make all kinds of &aupgrades&r."]
 	quest.34164812034BC9A0.quest_desc: [
 		"&o&6The Ender Guardian lurks in the deepest part of the Ruined Citadel, punishing intruders with the power of Ender and Void.&r"
@@ -705,6 +727,12 @@
 		"Three materials and the Earth Essence carve this one stroke: from now on, &#56C000settling&r and &#56C000growing&r can be called up by ritual."
 	]
 	quest.3BBB6BA364026473.quest_desc: ["There seems to be a &a&lhidden room&r in the Soul Forge. Go and look?"]
+	quest.3C78F8B945C3EF39.quest_desc: [
+		"&kLet this card have some words too — one lonely sentence would look &aso lonely&r&k, would it not? A few more lines, then. Two or three at the very least.&r"
+		""
+		"&o(In case you lose the blueprint by accident.)&r"
+	]
+	quest.3C78F8B945C3EF39.title: "Blueprint"
 	quest.3E14BCC55E258B2F.quest_desc: [
 		"Creosote Oil can be used to make &aTreated Wood Planks&r, a very sturdy kind of plank."
 		""
@@ -1021,6 +1049,24 @@
 		""
 		"What remains is the Water Essence: it no longer remembers which cauldron it came from, only &#3EDCFFflowing&r, &#3EDCFFholding&r, &#3EDCFFcarrying on&r."
 	]
+	quest.5E8DFF947CFCC692.quest_desc: [
+		"&kMultithreading is something else: it is not doing one thing many times, it is doing many different things at once. It took me a long time to work that out, because at first glance the two look exactly the same.&r"
+		""
+		"&kThe first time I heard the word 'thread' I thought it meant thread. Later I thought it meant thread. Then I found out both were wrong: it is neither a thread nor a thread, it is an 'at the same time'. There I go again, talking nonsense.&r"
+		"{@pagebreak}"
+		"&o&7Oh, stop. Nobody wants to read another wall of unreadable notes."
+		""
+		"&o&aFactory Controller&r&o, once placed at a particular spot in the structure, lets the machine run different recipes on several threads at once. Each &aThread Ripper&r&o you drop in adds more threads it can handle at once — and you can fit more than one.&r"
+		""
+		"&oBoth of them are crafted at the &aIridescent Crafting Altar&r&o.&r"
+		"{@pagebreak}"
+		"&kIf this block looks long, that is because it is long: three metaphors, two jokes, one fit of self-doubt, half a lyric, and one question I have never resolved — why the Factory Controller is cheaper than the Parallel Controller. I dare not think about it.&r"
+		""
+		"&k(This block was grey italic, to show that I was speaking quietly, but the author deleted it.) When those threads run, what I hear is not a sound; it is the feeling that something is happening.&r"
+		""
+		"&kThe author has one thing to add: 工厂控制器并不会比并行器便宜，至少我是这样想的。&r"
+	]
+	quest.5E8DFF947CFCC692.title: "Multithreading"
 	quest.5E9797FB5209D7ED.quest_desc: [
 		"&aThe Hydra's Lair&r sits at the heart of the Fire Swamp, and the air around it smells of char."
 		""
@@ -1049,6 +1095,22 @@
 		"&oThe six primary aspects write the six dimensions, each in its own posture, reaching through heaven and earth and making up every part of this world.&r"
 	]
 	quest.6133B55F3B880EC1.quest_desc: ["Inside the Quartz Temple stands a mysterious &aAltar of Amethyst&r. It turns Amethyst Crab Meat into Blessed Amethyst Crab Meat, which will help you in the fight against the Leviathan."]
+	quest.61AABA492C292435.quest_desc: [
+		"&oThe &aParallel Controller&r&o lets the machine process the same recipe in parallel, raising how much one recipe can handle at a time.&r"
+		""
+		"&oIts tier decides how many extra parallels it adds, but how many the machine actually reaches still depends on input supply, output space and so on.&r"
+		""
+		"&o&7Everything below is unreadable. Do not bother.&r"
+		"{@pagebreak}"
+		"&kI meant to write three sentences about parallelism. I am on page seven now. One: parallel does not make one thing faster, it makes the same thing happen many times at once; the speed is incidental. Two: I have counted 4, 16 and 64, and by 4096 my eyes hurt. Three: see above.&r"
+		""
+		"&kAs for why the machine agrees to this, I do not know. I took it apart once. There was nothing inside but a piece of paper, and the paper said: don't.&r"
+		"{@pagebreak}"
+		"&kWhile I am at it, about formatting: &l&nthis part is bold and underlined&r&k, &athis part is green&r&k, &mthis part is struck through&r&k. They all end the moment they end, leaving nothing behind, exactly like this text.&r"
+		""
+		"&k哦！并行就是机器同时把同一件事做很多遍！我想。我问了机器，它什么都没说，因为机器不会说话。&r"
+	]
+	quest.61AABA492C292435.title: "Parallel Processing"
 	quest.6256F04D11B48E39.quest_desc: [
 		"The Mechanical Press presses metal ingots into &asheets&r."
 		""
