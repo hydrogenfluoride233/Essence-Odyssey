@@ -531,6 +531,8 @@
 		"This pack comes with some default options already set up: the &aminimap&r sits in the top-right corner, the &aHUD&r is where it should be, and &akey bindings&r avoid clashing with each other as far as possible."
 		""
 		"Settings you change by hand will not be overwritten by updates."
+		""
+		"Players using the &aPCL2&r launcher, please note: PCL2 writes the language setting automatically on first launch, and this disables all of this pack's default options. Start the game once, quit right away, delete &aoptions.txt&r from the instance's root folder, then start again to switch to this pack's default preset."
 	]
 	quest.2C4674EF49DCE846.title: "About the Default Options"
 	quest.2C96F0369D75B59D.quest_desc: [
