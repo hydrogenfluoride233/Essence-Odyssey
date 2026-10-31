@@ -53,3 +53,7 @@ ServerEvents.tags("block",event=>{
     ["normal","plus","reinforced"].forEach(tier=>
         event.add("kubejs:parallel_controllers",`mmcr:parallel_controller_${tier}`))
 })
+ServerEvents.tags("item",event=>{
+    ["normal","plus","reinforced"].forEach(tier=>
+        event.add("kubejs:parallel_controllers",`mmcr:parallel_controller_${tier}`))
+})

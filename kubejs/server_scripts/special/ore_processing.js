@@ -1,4 +1,7 @@
 ServerEvents.recipes(event=>{
+    event.remove({id:"ironfurnaces:upgrades/upgrade_vibranium"})
+    event.remove({id:"ironfurnaces:upgrades/upgrade_unobtainium"})
+    
     const registerCreateDissolution = (output,input)=>
         event.recipes.mekanism.dissolution(`1000x ${output}`,`2x ${input}`,"1x mekanism:sulfuric_acid").perTickUsage(true)
 

@@ -3,6 +3,7 @@ ServerEvents.recipes(event=>{
     const RemoveList = [
         "mmcr:modularium",                  //模块化合金锭
         "mmcr:basic_casing",                //基础机器外壳
+        "mmcr:blueprint",                   //蓝图
         "mmcr:factory_controller",          //工厂控制器
         "mmcr:thread_disperser",            //线程撕裂者
         "mmcr:parallel_controller_normal",  //并行器
@@ -12,6 +13,19 @@ ServerEvents.recipes(event=>{
 
     RemoveList.forEach(id=>event.remove({id}))
 
+    //工作台配方
+    event.shaped(
+        "mmcr:parallel_controller_normal",
+        ["ABA","CDC","ABA"],
+        {
+            A:"minecraft:netherite_ingot",
+            B:"kubejs:paradox_collapser",
+            C:"ae2:singularity",
+            D:"mmcr:basic_casing",
+        }
+    )//普通并行器
+
+    //统一端口配方
     const PortList = [
         {
             prefix: "item",

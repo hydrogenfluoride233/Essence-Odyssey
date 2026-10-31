@@ -1,6 +1,7 @@
 ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"entangled:block"})//纠缠方块
+    event.remove({output:"astralsorcery:astrolabe"})//星盘
 
     //星能物品嬗变
 
@@ -27,7 +28,8 @@ ServerEvents.recipes(event=>{
             " CAGG",
             " E B ",
             " HFD ",
-            "H    "])
+            "H    "]
+        )
         .copyComponents("grid",4)
         .additional("neovitae:tabula_aetherea")
         .additional("neovitae:tabula_aetherea")
@@ -47,4 +49,32 @@ ServerEvents.recipes(event=>{
             C:"actuallyadditions:iron_casing"
         })
         .chain()//纠缠方块
+
+    event.recipes.astralsorcery.altar_crafting(
+        "mmcr:factory_controller",
+        [" A ","ACA"," A "],
+        {
+            A:"neovitae:rune_acceleration",
+            B:"justdirethings:time_crystal",
+            C:"#industrialforegoing:machine_frame/supreme",
+            X:"mmcr:modularium",
+            Y:"astralsorcery:resonating_gem"
+        })
+        .type("radiance")
+        .relay([
+            "XXYXX",
+            "XYBYX",
+            "YB BY",
+            "XYBYX",
+            "XXYXX"]
+        )
+        .duration(300)
+        .additional("naturesaura:clock_hand")
+        .additional("modularrouters:speed_upgrade")
+        .additional("modularrouters:speed_upgrade")
+        .additional("pneumaticcraft:speed_upgrade")
+        .additional("pneumaticcraft:speed_upgrade")
+        .fluid("create_enchantment_industry:apotheotic_essence",1000)
+        .fluid("create_enchantment_industry:apotheotic_essence",1000)
+        .lumen("astralsorcery:aion",500)//工厂控制器
 })
