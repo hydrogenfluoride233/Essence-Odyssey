@@ -1,27 +1,27 @@
 {
 	chapter.07790A767C847C57.title: "Cataclysm"
-	chapter.0BA7C5B351EC2475.subtitle: "Secondary Aspects, Linking the World"
+	chapter.0BA7C5B351EC2475.chapter_subtitle: "Secondary Aspects, Linking the World"
 	chapter.0BA7C5B351EC2475.title: "Chapter 4"
 	chapter.17482BD4DB583890.title: "Before the Beginning"
-	chapter.18D6D677C375F38F.subtitle: "The Six Primary Aspects, Writing the World"
+	chapter.18D6D677C375F38F.chapter_subtitle: "The Six Primary Aspects, Writing the World"
 	chapter.18D6D677C375F38F.title: "Chapter 1"
 	chapter.2005A8ABF505A870.title: "Nifty Gadgets"
-	chapter.20392DD40E1EED8C.subtitle: "&kA stretch of garbled text&r"
+	chapter.20392DD40E1EED8C.chapter_subtitle: "&kA stretch of garbled text&r"
 	chapter.20392DD40E1EED8C.title: "Chapter 7"
-	chapter.2E61D6C20298F803.subtitle: "Pairing and Combining, Reshaping the World"
+	chapter.2E61D6C20298F803.chapter_subtitle: "Pairing and Combining, Reshaping the World"
 	chapter.2E61D6C20298F803.title: "Chapter 5"
 	chapter.2FC62A29C3E61A5E.title: "Eternal Starlight"
-	chapter.35BD379C9EA94AEA.subtitle: "Blood Pact and Star Guidance, Weaving the World"
+	chapter.35BD379C9EA94AEA.chapter_subtitle: "Blood Pact and Star Guidance, Weaving the World"
 	chapter.35BD379C9EA94AEA.title: "Chapter 3"
 	chapter.496B807D8BE0B3FE.title: "Twilight Forest"
 	chapter.5196E500B38ADA0E.title: "Unknown Technology"
 	chapter.569E4BE55E1C440F.title: "The Aether"
-	chapter.572A55A700B05B5A.subtitle: "Meteor Engraving, Forging the World"
+	chapter.572A55A700B05B5A.chapter_subtitle: "Meteor Engraving, Forging the World"
 	chapter.572A55A700B05B5A.title: "Chapter 2"
 	chapter.69D614063602F65E.title: "Dimensions, Aspects, and This World"
 	chapter.6E7BB2D7E7E89FCA.title: "Meteorite Creations"
 	chapter.7BE58E7C6030198B.title: "Resource Production"
-	chapter.7FE4693A264FF39A.subtitle: "Even the Stars Are Not the End"
+	chapter.7FE4693A264FF39A.chapter_subtitle: "Even the Stars Are Not the End"
 	chapter.7FE4693A264FF39A.title: "Chapter 6"
 	chapter_group.3F4D8FC0357D0EBB.title: "Additional Chapters"
 	chapter_group.5D4B0C6183F5C265.title: "Journeys of Exploration"
@@ -518,8 +518,6 @@
 		"This pack comes with some default options already set up: the &aminimap&r sits in the top-right corner, the &aHUD&r is where it should be, and &akey bindings&r avoid clashing with each other as far as possible."
 		""
 		"Settings you change by hand will not be overwritten by updates."
-		""
-		"Players using the &aPCL2&r launcher, please note: PCL2 writes the language setting automatically on first launch, and this disables all of this pack's default options. Start the game once, quit right away, delete &aoptions.txt&r from the instance's root folder, then start again to switch to this pack's default preset."
 	]
 	quest.2C4674EF49DCE846.title: "About the Default Options"
 	quest.2C96F0369D75B59D.quest_desc: [
@@ -621,7 +619,7 @@
 	quest.3276C4FA6F80293A.quest_desc: [
 		"&kThis is the Industrial Imbuement Chamber Controller. The player cannot see a word of what I am writing here, but a card this empty would look wrong, so I am dutifully filling it. Oh, fine — I am &aseriously making things up&r&k. I am padding the word count.&r"
 		""
-		"&kThis obfuscation is genuinely fun, so here is one more paragraph, to make the card look like it says a great deal while the player sees nothing at all. 哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈。Let me throw in some &l&nrandom formatting&r&k too, like &athis&r&k, &athis&r&k and &athis&r&k.&r"
+		"&kThis obfuscation is genuinely fun, so here is one more paragraph, to make the card look like it says a great deal while the player sees nothing at all. 哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈。Let me throw in some &l&nrandom formatting&r&k too, like &athis&r&k, &athis&r&k and &athis&r&k. 嗯，试试中文？汉字的混淆方式和英文不一样，挺好玩。&r"
 		"{@pagebreak}"
 		"&oYou stare at it for a long time. The words scatter and gather again before your eyes, and never once form a sentence.&r"
 		""
@@ -633,7 +631,7 @@
 	quest.32CEBFC9E6C72BEC.quest_desc: [
 		"&oA blueprint is tucked between the pages of the notebook.&r"
 		""
-		"&kThis block is the notebook's own voice. What does the notebook want to say? How should I know — I do not know what I want to say either, &aso I write whatever comes&r&k. 嗯，试试中文？汉字的混淆方式和英文不一样。太好了！&r"
+		"&kThis block is the notebook's own voice. What does the notebook want to say? How should I know — I do not know what I want to say either, &aso I write whatever comes&r&k. 嗯，试试中文？汉字的混淆方式和英文不一样。有意思。&r"
 		"{@pagebreak}"
 		"&oThis blueprint does not look like anything made in this world. Not a single word is written on it — but bind it &ato a controller&r&o, and the knowledge of that machine spreads across the paper.&r"
 		""
@@ -652,10 +650,10 @@
 	quest.34172736AC658A51.quest_desc: ["Upgrade your matching &aNetherite armor&r with a &aSmithing Template (Cursium Upgrade)&r and a Cursium Ingot at a smithing table."]
 	quest.34172736AC658A51.title: "Cursium Set"
 	quest.3453F3AF03FF04C4.quest_desc: [
-		"&o&6\"So far, no matter how close.\"&r",
-		"",
-		"&oAfter you solder the components onto the mainboard one by one, you find that it has changed shape.&r",
-		"",
+		"&o&6\"So far, no matter how close.\"&r"
+		""
+		"&oAfter you solder the components onto the mainboard one by one, you find that it has changed shape.&r"
+		""
 		"&oIt looks no different from the Mysterious Cube, the blue light still flowing across its surface — but this time you can read it, &alike a finished poem&r&o.&r"
 	]
 	quest.348FD640D0B99AE2.quest_desc: [
@@ -929,10 +927,10 @@
 	quest.4F1594D45E71BD67.quest_desc: ["The aspect information and environmental information held in the materials are imbued into an Ashen Sapling together. The forest ritual records the emotion that life leaves behind when it faces the world, and gives it form as a wooden statue — a &atoken&r."]
 	quest.4F1594D45E71BD67.title: "Tokens"
 	quest.4F8FD0BAF765BFF8.quest_desc: [
-		"&oThe blueprint continues:&r",
-		"",
-		"Once you have the mainboard, five components must be soldered onto it, one after another.",
-		"",
+		"&oThe blueprint continues:&r"
+		""
+		"Once you have the mainboard, five components must be soldered onto it, one after another."
+		""
 		"&oTheir recipes are recorded in JEI — go and take a look.&r"
 	]
 	quest.4F8FD0BAF765BFF8.title: "Meteor Components"
@@ -1255,10 +1253,10 @@
 		"Here you meet the temple's guardian, the high ruler of the Valkyries, keeper of the Silver Key: &athe Valkyrie Queen&r."
 	]
 	quest.704148E137D62A82.quest_desc: [
-		"&o&7After you work it loose with that pinch of powder, you finally see the patterns flowing across its surface, and the flickering light — like lines of characters left unfinished.&r",
-		"",
-		"&oThe notebook leaves a machining blueprint:&r",
-		"",
+		"&o&7After you work it loose with that pinch of powder, you finally see the patterns flowing across its surface, and the flickering light — like lines of characters left unfinished.&r"
+		""
+		"&oThe notebook leaves a machining blueprint:&r"
+		""
 		"Send the whole block into the assembly line: fit &acapacitors&r, &afluix crystals&r and &acontrol chips&r, then cut and press. What comes out is a few mainboards."
 	]
 	quest.708C965D7191F1FF.quest_desc: [
