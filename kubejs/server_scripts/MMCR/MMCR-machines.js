@@ -139,6 +139,23 @@ ServerEvents.recipes(event=>{
         })
     })
 
+    //单方向端口：形状同上，各写一条（不互换）
+    const SinglePorts = [
+        {id: "fluxnetworks_energy_input_interface",  top: "fluxnetworks:flux_point",           store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
+        {id: "fluxnetworks_energy_output_interface", top: "fluxnetworks:flux_plug",            store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
+        {id: "ae2_me_pattern_interface",             top: "ae2:pattern_provider",              store: "ae2:fluix_crystal",      base: "mmcr:basic_casing"},
+        {id: "eae_me_extended_pattern_interface",    top: "extendedae:pattern_provider_upgrade", store: "ae2:fluix_crystal",     base: "mmcr:ae2_me_pattern_interface"}
+    ]
+
+    SinglePorts.forEach(port=>{
+        event.shaped(`mmcr:${port.id}`,[" A ","BCB","DBD"],{
+            A: port.top,
+            B: "mmcr:modularium",
+            C: port.base,
+            D: port.store
+        })
+    })
+
     //旧端口配方全部移除，统一重写
     event.remove({id:/^mmcr:item_(input|output)_bus(_reinforced|_big|_huge|_ludicrous)?$/})
     event.remove({id:/^mmcr:fluid_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/})
@@ -147,6 +164,8 @@ ServerEvents.recipes(event=>{
     event.remove({id:/^mmcr:(ars_source|create_stress|pneumaticcraft_air)_(input|output)_interface$/})
     event.remove({id:/^mmcr:(heat|radioactive_chemical)_(input|output)_hatch$/})
     event.remove({id:/^mmcr:(ae2_me|appflux_me_flux)_(input|output)_interface$/})
+    event.remove({id:/^mmcr:fluxnetworks_energy_(input|output)_interface$/})
+    event.remove({id:/^mmcr:(ae2_me_pattern_interface|eae_me_extended_pattern_interface)$/})
 
     //禁用内容
     event.remove({id:/^mmcr:extended_item_(input|output)_bus_/})//扩展物品总线
