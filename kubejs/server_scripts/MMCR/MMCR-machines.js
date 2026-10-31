@@ -152,16 +152,14 @@ ServerEvents.recipes(event=>{
         //输入线：基础 → 扩展 → 超大；库存从两级分叉
         {id: "ae2_me_stocking_input_interface",          top: "ae2:storage_bus",               store: "ae2:logic_processor", base: "mmcr:ae2_me_input_interface"},
         {id: "eae_me_extended_input_interface",          top: "extendedae:ex_interface",       store: "extendedae:concurrent_processor", base: "mmcr:ae2_me_input_interface"},
-        {id: "eae_me_oversize_input_interface",          top: "extendedae:oversize_interface", store: "extendedae:concurrent_processor", base: "mmcr:eae_me_extended_input_interface"},
+        {id: "eae_me_oversize_input_interface",          top: "extendedae:oversize_interface", store: "megacells:accumulation_processor", base: "mmcr:eae_me_extended_input_interface"},
         {id: "eae_me_extended_stocking_input_interface", top: "ae2:storage_bus",               store: "extendedae:concurrent_processor", base: "mmcr:eae_me_extended_input_interface"},
         {id: "eae_me_extended_stocking_input_interface", top: "extendedae:ex_interface",       store: "extendedae:concurrent_processor", base: "mmcr:ae2_me_stocking_input_interface"},
-        {id: "eae_me_oversize_stocking_input_interface", top: "ae2:storage_bus",               store: "extendedae:concurrent_processor", base: "mmcr:eae_me_oversize_input_interface"},
-        {id: "eae_me_oversize_stocking_input_interface", top: "extendedae:oversize_interface", store: "extendedae:concurrent_processor", base: "mmcr:eae_me_extended_stocking_input_interface"},
+        {id: "eae_me_oversize_stocking_input_interface", top: "ae2:storage_bus",               store: "megacells:accumulation_processor", base: "mmcr:eae_me_oversize_input_interface"},
+        {id: "eae_me_oversize_stocking_input_interface", top: "extendedae:oversize_interface", store: "megacells:accumulation_processor", base: "mmcr:eae_me_extended_stocking_input_interface"},
 
         //输出线：基础 → 扩展 → 超大；异步从基础分叉
         {id: "ae2_me_async_output_interface",    top: "mmcr:thread_disperser",         store: "ae2:logic_processor", base: "mmcr:ae2_me_output_interface"},
-        {id: "eae_me_extended_output_interface", top: "extendedae:ex_interface",       store: "extendedae:concurrent_processor", base: "mmcr:ae2_me_output_interface"},
-        {id: "eae_me_oversize_output_interface", top: "extendedae:oversize_interface", store: "extendedae:concurrent_processor", base: "mmcr:eae_me_extended_output_interface"}
     ]
 
     SinglePorts.forEach(port=>{
