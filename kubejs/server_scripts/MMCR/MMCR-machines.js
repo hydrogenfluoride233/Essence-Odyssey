@@ -146,8 +146,8 @@ ServerEvents.recipes(event=>{
         {id: "fluxnetworks_energy_output_interface", top: "fluxnetworks:flux_plug",  store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
 
         //样板接口：基础 → 扩展
-        {id: "ae2_me_pattern_interface",          top: "ae2:pattern_provider",               store: "ae2:fluix_crystal", base: "mmcr:basic_casing"},
-        {id: "eae_me_extended_pattern_interface", top: "extendedae:pattern_provider_upgrade", store: "ae2:fluix_crystal", base: "mmcr:ae2_me_pattern_interface"},
+        {id: "ae2_me_pattern_interface",          top: "ae2:pattern_provider",           store: "ae2:fluix_crystal", base: "mmcr:basic_casing"},
+        {id: "eae_me_extended_pattern_interface", top: "extendedae:ex_pattern_provider", store: "ae2:fluix_crystal", base: "mmcr:ae2_me_pattern_interface"},
 
         //输入线：基础 → 扩展 → 超大；库存从两级分叉
         {id: "ae2_me_stocking_input_interface",          top: "ae2:storage_bus",               store: "ae2:fluix_crystal", base: "mmcr:ae2_me_input_interface"},
@@ -171,6 +171,17 @@ ServerEvents.recipes(event=>{
             C: port.base,
             D: port.store
         })
+    })
+
+    //扩展/超大接口也存在对称件，给它们补上输入输出互转（库存、异步、样板没有配对件，不互换）
+    const SingleSwaps = [
+        ["eae_me_extended_input_interface","eae_me_extended_output_interface"],
+        ["eae_me_oversize_input_interface","eae_me_oversize_output_interface"]
+    ]
+
+    SingleSwaps.forEach(([input,output])=>{
+        event.shapeless(`mmcr:${input}`,`mmcr:${output}`)
+        event.shapeless(`mmcr:${output}`,`mmcr:${input}`)
     })
 
     //旧端口配方全部移除，统一重写
