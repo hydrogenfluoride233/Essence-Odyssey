@@ -408,14 +408,29 @@ ServerEvents.recipes(event=>{
         ],//精通之印
     ]
 
-    event.recipes.ars_nouveau.enchantment([
-        "minecraft:blaze_powder","minecraft:blaze_powder",
-        "minecraft:blaze_powder","minecraft:blaze_powder"
-    ].concat(EssenceSix),"ars_nouveau:reactive",2,6000)//反应（reactive II）
+    //附魔装置的附魔
+    //格式:[基座材料,附魔,等级,魔源]
+    const EnchantmentList = [
+        [
+            [
+                "minecraft:blaze_powder",
+                "minecraft:blaze_powder",
+                "minecraft:blaze_powder",
+                "minecraft:blaze_powder"
+            ].concat(EssenceSix),
+            "ars_nouveau:reactive",2,6000
+        ],//反应 II
 
-    event.recipes.ars_nouveau.enchantment([
-        "ars_elemental:spell_mirror"
-    ].concat(EssenceSix),"ars_elemental:mirror_shield",2,5000)//法术反弹（mirror_shield II）
+        [
+            [
+                "ars_elemental:spell_mirror"
+            ].concat(EssenceSix),
+            "ars_elemental:mirror_shield",2,5000
+        ],//法术反弹 II
+    ]
+
+    EnchantmentList.forEach(([pedestal,enchantment,level,source])=>
+        event.recipes.ars_nouveau.enchantment(pedestal,enchantment,level,source))
 
     event.custom({
         "type":"ars_elemental:netherite_upgrade",
