@@ -1,4 +1,4 @@
 {
-  "block.fluxnetworks.flux_point":"通量网络输入点",
-  "block.fluxnetworks.flux_plug":"通量网络输出点"
+  "block.fluxnetworks.flux_point":"通量网络输出点",
+  "block.fluxnetworks.flux_plug":"通量网络输入点"
 }
