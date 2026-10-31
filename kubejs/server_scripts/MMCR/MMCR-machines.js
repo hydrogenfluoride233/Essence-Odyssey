@@ -13,38 +13,71 @@ ServerEvents.recipes(event=>{
     RemoveList.forEach(id=>event.remove({id}))
 
     //端口统一形状：A / BCB / DBD —— A 顶部材料、B 模块化合金锭、C 上一档、D 容器
-    const portShape = (id,top,base,store)=>{
-        event.shaped(`mmcr:${id}`,[" A ","BCB","DBD"],{
-            A: top,
-            B: "mmcr:modularium",
-            C: base,
-            D: store
-        })
-    }
-
-    //[前缀, 形态, 顶部材料, 档位后缀（首个为空串）, 各档容器]
-    const PortFamily = [
-        ["item","bus","minecraft:hopper",
-            ["","_reinforced","_big","_huge","_ludicrous"],
-            ["#c:chests","mekanism:basic_bin","mekanism:advanced_bin","mekanism:elite_bin","mekanism:ultimate_bin"]],
-        ["fluid","hatch","minecraft:hopper",
-            ["","_reinforced","_big","_huge","_ludicrous"],
-            ["minecraft:bucket","mekanism:basic_fluid_tank","mekanism:advanced_fluid_tank","mekanism:elite_fluid_tank","mekanism:ultimate_fluid_tank"]],
-        ["energy","hatch","immersiveengineering:capacitor_hv",
-            ["","_reinforced","_big","_huge","_ludicrous"],
-            ["minecraft:redstone_block","mekanism:basic_energy_cube","mekanism:advanced_energy_cube","mekanism:elite_energy_cube","mekanism:ultimate_energy_cube"]],
-        ["chemical","hatch","minecraft:hopper",
-            ["_basic","_advanced","_elite","_ultimate"],
-            ["mekanism:basic_chemical_tank","mekanism:advanced_chemical_tank","mekanism:elite_chemical_tank","mekanism:ultimate_chemical_tank"]]
+    const PortList = [
+        {
+            prefix: "item",
+            form: "bus",
+            top: "minecraft:hopper",
+            tiers: [
+                {suffix: "",            store: "#c:chests"},
+                {suffix: "_reinforced", store: "mekanism:basic_bin"},
+                {suffix: "_big",        store: "mekanism:advanced_bin"},
+                {suffix: "_huge",       store: "mekanism:elite_bin"},
+                {suffix: "_ludicrous",  store: "mekanism:ultimate_bin"}
+            ]
+        },
+        {
+            prefix: "fluid",
+            form: "hatch",
+            top: "minecraft:hopper",
+            tiers: [
+                {suffix: "",            store: "minecraft:bucket"},
+                {suffix: "_reinforced", store: "mekanism:basic_fluid_tank"},
+                {suffix: "_big",        store: "mekanism:advanced_fluid_tank"},
+                {suffix: "_huge",       store: "mekanism:elite_fluid_tank"},
+                {suffix: "_ludicrous",  store: "mekanism:ultimate_fluid_tank"}
+            ]
+        },
+        {
+            prefix: "energy",
+            form: "hatch",
+            top: "immersiveengineering:capacitor_hv",
+            tiers: [
+                {suffix: "",            store: "minecraft:redstone_block"},
+                {suffix: "_reinforced", store: "mekanism:basic_energy_cube"},
+                {suffix: "_big",        store: "mekanism:advanced_energy_cube"},
+                {suffix: "_huge",       store: "mekanism:elite_energy_cube"},
+                {suffix: "_ludicrous",  store: "mekanism:ultimate_energy_cube"}
+            ]
+        },
+        {
+            prefix: "chemical",
+            form: "hatch",
+            top: "minecraft:hopper",
+            tiers: [
+                {suffix: "_basic",    store: "mekanism:basic_chemical_tank"},
+                {suffix: "_advanced", store: "mekanism:advanced_chemical_tank"},
+                {suffix: "_elite",    store: "mekanism:elite_chemical_tank"},
+                {suffix: "_ultimate", store: "mekanism:ultimate_chemical_tank"}
+            ]
+        }
     ]
 
-    PortFamily.forEach(([prefix,form,top,levels,stores])=>{
-        levels.forEach((suffix,index)=>{
-            const input = `mmcr:${prefix}_input_${form}${suffix}`
-            const output = `mmcr:${prefix}_output_${form}${suffix}`
-            const base = index === 0 ? "mmcr:basic_casing" : `mmcr:${prefix}_input_${form}${levels[index-1]}`
+    PortList.forEach(family=>{
+        family.tiers.forEach((tier,index)=>{
+            const input = `mmcr:${family.prefix}_input_${family.form}${tier.suffix}`
+            const output = `mmcr:${family.prefix}_output_${family.form}${tier.suffix}`
+            const base = index === 0
+                ? "mmcr:basic_casing"
+                : `mmcr:${family.prefix}_input_${family.form}${family.tiers[index-1].suffix}`
 
-            portShape(`${prefix}_input_${form}${suffix}`,top,base,stores[index])
+            event.shaped(input,[" A ","BCB","DBD"],{
+                A: family.top,
+                B: "mmcr:modularium",
+                C: base,
+                D: tier.store
+            })
+
             event.shapeless(input,output)
             event.shapeless(output,input)
         })
