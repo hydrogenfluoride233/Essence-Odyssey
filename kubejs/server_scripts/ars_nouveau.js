@@ -1,11 +1,21 @@
 ServerEvents.recipes(event=>{
     //配方移除
-    event.remove({id:"ars_nouveau:imbuement_chamber"})              //灌注室
-    event.remove({id:"ars_nouveau:enchanting_apparatus"})           //附魔装置
-    event.remove({id:"ars_nouveau:arcane_core"})                    //奥术核心
-    event.remove({id:"ars_nouveau:source_jar"})                     //魔源罐
-    event.remove({id:"ars_nouveau:mob_jar"})                        //收容罐
-    event.remove({id:"starbunclemania:fluid_jar"})                  //流体罐
+    event.remove({id:"ars_nouveau:imbuement_chamber"})//灌注室
+    event.remove({id:"ars_nouveau:enchanting_apparatus"})//附魔装置
+    event.remove({id:"ars_nouveau:arcane_core"})//奥术核心
+    event.remove({id:"ars_nouveau:source_jar"})//魔源罐
+    event.remove({id:"ars_nouveau:mob_jar"})//收容罐
+    event.remove({id:"starbunclemania:fluid_jar"})//流体罐
+    event.remove({id:"ars_nouveau:relay"})//魔源中转器
+    event.remove({id:"starbunclemania:source_condenser"})//魔源凝聚器
+    event.remove({id:"enigmaticunity:iridescent_source_generator"})//五彩脉冲水晶
+    event.remove({id:"enigmaticunity:iridescent_source_producer"})//五彩共鸣水晶
+    event.remove({id:"ars_nouveau:thread_spellpower"})//法术强度之纤维
+    event.remove({id:"ars_nouveau:reactive_2"})//反应 II
+    event.remove({id:"ars_elemental:mirror_shield_2"})//法术反弹 II
+    event.remove({id:"ars_elemental:invincible_book"})//法术书下界升级
+    event.remove({id:"ars_elemental:mark_of_mastery"})//精通之印
+
     event.remove({id:"ars_nouveau:imbuement_water_essence"})        //水之精华
     event.remove({id:"ars_nouveau:imbuement_fire_essence"})         //火之精华
     event.remove({id:"ars_nouveau:imbuement_earth_essence"})        //土之精华
@@ -14,21 +24,13 @@ ServerEvents.recipes(event=>{
     event.remove({id:"ars_nouveau:imbuement_conjuration_essence"})  //召唤之精华
     event.remove({id:"ars_nouveau:imbuement_abjuration_essence"})   //防护之精华
     event.remove({id:"ars_elemental:imbuement_anima_essence"})      //灵魂之精华
-    event.remove({id:"ars_nouveau:relay"})                          //魔源中转器
+
     event.remove({id:"ars_nouveau:agronomic_sourcelink"})           //农艺魔源通道
     event.remove({id:"ars_nouveau:volcanic_sourcelink"})            //火山魔源通道
     event.remove({id:"ars_nouveau:alchemical_sourcelink"})          //炼金魔源通道
     event.remove({id:"ars_nouveau:vitalic_sourcelink"})             //生死魔源通道
     event.remove({id:"ars_nouveau:mycelial_sourcelink"})            //菌丝魔源通道
     event.remove({id:"starbunclemania:fluid_sourcelink"})           //流体魔源通道
-    event.remove({id:"starbunclemania:source_condenser"})           //魔源凝聚器
-    event.remove({id:"enigmaticunity:iridescent_source_generator"}) //五彩脉冲水晶
-    event.remove({id:"enigmaticunity:iridescent_source_producer"})  //五彩共鸣水晶
-    event.remove({id:"ars_nouveau:thread_spellpower"})               //法术强度纤维
-    event.remove({id:"ars_nouveau:reactive_2"})                      //反应 II
-    event.remove({id:"ars_elemental:mirror_shield_2"})               //法术反弹 II
-    event.remove({id:"ars_elemental:invincible_book"})               //法术书下界升级
-    event.remove({id:"ars_elemental:mark_of_mastery"})               //精通之印
     
     //灌注室
     //格式:[输入,输出,魔源,基座材料]
@@ -346,18 +348,14 @@ ServerEvents.recipes(event=>{
 
         [
             [
-                "ars_nouveau:water_essence",
-                "ars_nouveau:fire_essence",
-                "ars_nouveau:earth_essence",
-                "ars_nouveau:air_essence",
-                "kubejs:perditio_essence",
-                "kubejs:ordo_essence",
-                "sauce:anima_essence",
-                "ars_nouveau:abjuration_essence",
-                "ars_nouveau:conjuration_essence",
-                "ars_nouveau:manipulation_essence",
+                "mmcr:modularium",
                 "ars_elemental:mark_of_mastery",
-                "pneumaticcraft:printed_circuit_board"
+                "mmcr:modularium",
+                "pneumaticcraft:printed_circuit_board",
+                "mmcr:modularium",
+                "pneumaticcraft:printed_circuit_board",
+                "mmcr:modularium",
+                "ars_elemental:mark_of_mastery"
             ],
             "ars_nouveau:smooth_sourcestone_large_bricks",
             "mmcr:industrial_imbuement_controller",50000

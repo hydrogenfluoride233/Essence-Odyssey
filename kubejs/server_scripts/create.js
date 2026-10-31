@@ -20,6 +20,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"create:crafting/kinetics/white_sail"})                        //风帆
     event.remove({id:"starbunclemania:mixing/liquid_source_1000"})                  //液态魔源
     event.remove({id:"create:pressing/compat/immersiveengineering/plate_steel"})    //钢板
+    event.remove({id:"engineeredcompatibility:crushing/slag_gravel"})               //矿渣沙砾
     event.remove({id:"cobblegengalore:crafting/block_gen_copper"})                  //方块制造机
     event.remove({id:"cobblegengalore:crafting/block_gen_iron"})
     event.remove({id:"cobblegengalore:crafting/block_gen_gold"})
@@ -112,6 +113,26 @@ ServerEvents.recipes(event=>{
             "eternal_starlight:dusted_shard",
             "eternal_starlight:dusted_gravel"
         ],//尘蒙碎片
+
+        [
+            "eternal_starlight:dusted_gravel",
+            "eternal_starlight:cobbled_radianite"
+        ],//尘蒙砂砾
+
+        [
+            "eternal_starlight:dusted_gravel",
+            "eternal_starlight:cobbled_grimstone"
+        ],//尘蒙砂砾
+
+        [
+            "eternal_starlight:dusted_gravel",
+            "eternal_starlight:cobbled_voidstone"
+        ],//尘蒙砂砾
+
+        [
+            "immersiveengineering:slag_gravel",
+            "immersiveengineering:slag"
+        ],//矿渣沙砾
     ]
 
     MillstoneList.forEach(([output,input])=>
@@ -366,6 +387,39 @@ ServerEvents.recipes(event=>{
             recipe.keepHeldItem()
         }
     })
+
+    //批量洗涤
+    //格式:[输出,输入]
+    const SplashList = [
+        [
+            [
+                CreateItem.of("eternal_starlight:dusted_shard",0.25),
+                CreateItem.of("eternal_starlight:deepsilver_nugget",0.12),
+                CreateItem.of("eternal_starlight:oxidized_golem_steel_nugget",0.12)
+            ],
+            "eternal_starlight:dusted_gravel"
+        ],//蒙尘砂砾
+
+        [
+            [
+                CreateItem.of("minecraft:iron_nugget",0.1),
+                CreateItem.of("minecraft:copper_nugget",0.1),
+                CreateItem.of("minecraft:gold_nugget",0.1),
+                CreateItem.of("create:zinc_nugget",0.1),
+                CreateItem.of("occultism:silver_nugget",0.1),
+                CreateItem.of("immersiveengineering:nugget_aluminum",0.1),
+                CreateItem.of("immersiveengineering:nugget_nickel",0.1),
+                CreateItem.of("mekanism:nugget_osmium",0.1),
+                CreateItem.of("mekanism:nugget_tin",0.1),
+                CreateItem.of("mekanism:nugget_lead",0.1),
+                CreateItem.of("mekanism:nugget_uranium",0.1),
+            ],
+            "immersiveengineering:slag_gravel"
+        ],//矿渣砂砾
+    ]
+
+    SplashList.forEach(([output,input])=>
+        event.recipes.create.splashing(output,input))
 
     //序列组装
     event.recipes.create.sequenced_assembly(

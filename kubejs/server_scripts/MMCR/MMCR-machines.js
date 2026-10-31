@@ -12,7 +12,6 @@ ServerEvents.recipes(event=>{
 
     RemoveList.forEach(id=>event.remove({id}))
 
-    //端口统一形状：A / BCB / DBD —— A 顶部材料、B 模块化合金锭、C 上一档、D 容器
     const PortList = [
         {
             prefix: "item",
@@ -139,17 +138,13 @@ ServerEvents.recipes(event=>{
         })
     })
 
-    //单方向端口：形状同上，各写一条（不互换）
     const SinglePorts = [
-        //通量网络：取电点给机器供电、送电点把机器发的电送回网络
         {id: "fluxnetworks_energy_input_interface",  top: "fluxnetworks:flux_point", store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
         {id: "fluxnetworks_energy_output_interface", top: "fluxnetworks:flux_plug",  store: "fluxnetworks:flux_core", base: "mmcr:basic_casing"},
 
-        //样板接口：基础 → 扩展
         {id: "ae2_me_pattern_interface",          top: "ae2:pattern_provider",           store: "ae2:logic_processor", base: "mmcr:basic_casing"},
         {id: "eae_me_extended_pattern_interface", top: "extendedae:ex_pattern_provider", store: "extendedae:concurrent_processor", base: "mmcr:ae2_me_pattern_interface"},
 
-        //输入线：基础 → 扩展 → 超大；库存从两级分叉
         {id: "ae2_me_stocking_input_interface",          top: "ae2:storage_bus",               store: "ae2:logic_processor", base: "mmcr:ae2_me_input_interface"},
         {id: "eae_me_extended_input_interface",          top: "extendedae:ex_interface",       store: "extendedae:concurrent_processor", base: "mmcr:ae2_me_input_interface"},
         {id: "eae_me_oversize_input_interface",          top: "extendedae:oversize_interface", store: "megacells:accumulation_processor", base: "mmcr:eae_me_extended_input_interface"},
@@ -158,7 +153,6 @@ ServerEvents.recipes(event=>{
         {id: "eae_me_oversize_stocking_input_interface", top: "ae2:storage_bus",               store: "megacells:accumulation_processor", base: "mmcr:eae_me_oversize_input_interface"},
         {id: "eae_me_oversize_stocking_input_interface", top: "extendedae:oversize_interface", store: "megacells:accumulation_processor", base: "mmcr:eae_me_extended_stocking_input_interface"},
 
-        //输出线：基础 → 扩展 → 超大；异步从基础分叉
         {id: "ae2_me_async_output_interface",    top: "mmcr:thread_disperser",         store: "ae2:logic_processor", base: "mmcr:ae2_me_output_interface"},
     ]
 
@@ -171,7 +165,6 @@ ServerEvents.recipes(event=>{
         })
     })
 
-    //扩展/超大接口也存在对称件，给它们补上输入输出互转（库存、异步、样板没有配对件，不互换）
     const SingleSwaps = [
         ["eae_me_extended_input_interface","eae_me_extended_output_interface"],
         ["eae_me_oversize_input_interface","eae_me_oversize_output_interface"]
@@ -182,7 +175,7 @@ ServerEvents.recipes(event=>{
         event.shapeless(`mmcr:${output}`,`mmcr:${input}`)
     })
 
-    //旧端口配方全部移除，统一重写
+    //旧端口配方移除
     event.remove({id:/^mmcr:item_(input|output)_bus(_reinforced|_big|_huge|_ludicrous)?$/})
     event.remove({id:/^mmcr:fluid_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/})
     event.remove({id:/^mmcr:energy_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/})
@@ -196,14 +189,14 @@ ServerEvents.recipes(event=>{
     event.remove({id:/^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)$/})
 
     //禁用内容
-    event.remove({id:/^mmcr:extended_item_(input|output)_bus_/})//扩展物品总线
-    event.remove({id:/^mmcr:(extended_)?combined_(input|output)_/})//组合端口
-    event.remove({id:/^mmcr:extended_(fluid|energy)_(input|output)_hatch_/})//扩展流体仓与扩展能量仓
-    event.remove({id:/^mmcr:(item_(input|output)_bus|fluid_(input|output)_hatch|energy_(input|output)_hatch)_(tiny|small)$/})//微型与小型端口
-    event.remove({id:/^mmcr:fluid_(input|output)_hatch_vacuum$/})//终极流体仓
-    event.remove({id:/^mmcr:energy_(input|output)_hatch_ultimate$/})//究极能量仓
-    event.remove({id:/^mmcr:parallel_controller_(pro|elite|fantasy|max|ultimate)$/})//高级并行器
-    event.remove({id:/^mmcr:upgrade_bus_/})//升级总线
+    event.remove({id:/^mmcr:extended_item_(input|output)_bus_/})
+    event.remove({id:/^mmcr:(extended_)?combined_(input|output)_/})
+    event.remove({id:/^mmcr:extended_(fluid|energy)_(input|output)_hatch_/})
+    event.remove({id:/^mmcr:(item_(input|output)_bus|fluid_(input|output)_hatch|energy_(input|output)_hatch)_(tiny|small)$/})
+    event.remove({id:/^mmcr:fluid_(input|output)_hatch_vacuum$/})
+    event.remove({id:/^mmcr:energy_(input|output)_hatch_ultimate$/})
+    event.remove({id:/^mmcr:parallel_controller_(pro|elite|fantasy|max|ultimate)$/})
+    event.remove({id:/^mmcr:upgrade_bus_/})
 
     const DisabledParts = ["smart_interface","data_storage","network_interface","module_bridge","key_card"]
 

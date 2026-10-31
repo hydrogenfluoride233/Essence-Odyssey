@@ -72,6 +72,24 @@ ServerEvents.recipes(event=>{
             4000,"anima"
         ],//灵魂之精华
 
+        [
+            "8x minecraft:amethyst_shard",
+            "8x ars_nouveau:source_gem",
+            4000,"source_gem_1"
+        ],//魔源宝石
+
+        [
+            "8x minecraft:lapis_lazuli",
+            "8x ars_nouveau:source_gem",
+            4000,"source_gem_2"
+        ],//魔源宝石
+
+        [
+            "2x minecraft:amethyst_block",
+            "2x ars_nouveau:source_gem_block",
+            4000,"source_gem_block"
+        ],//魔源宝石块
+
     ]
 
     ImbuementList.forEach(([input,output,source,name])=>

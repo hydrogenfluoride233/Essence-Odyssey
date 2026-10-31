@@ -96,7 +96,7 @@ ServerEvents.recipes(event=>{
     )//工程师蓝图
 
     //熔炼配方
-    event.blasting("immersiveengineering:slag","#c:gravels",0.5,600)
+    event.blasting("immersiveengineering:slag","#c:gravels",0.5,200)
 
     //金属冲压机
     //格式:[输出,输入,模具]
