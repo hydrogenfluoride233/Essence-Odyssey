@@ -25,10 +25,10 @@ ServerEvents.recipes(event=>{
     event.remove({id:"enigmaticunity:iridescent_source_generator"}) //五彩脉冲水晶
     event.remove({id:"enigmaticunity:iridescent_source_producer"})  //五彩共鸣水晶
     event.remove({id:"ars_nouveau:thread_spellpower"})               //法术强度
-    event.remove({id:"ars_nouveau:reactive_2"})                      //反应护甲 II
-    event.remove({id:"ars_elemental:mirror_shield_2"})               //镜盾 II
-    event.remove({id:"ars_elemental:invincible_book"})               //不灭法术书
-    event.remove({id:"ars_elemental:mark_of_mastery"})               //大师印记（改到工业灌注室）
+    event.remove({id:"ars_nouveau:reactive_2"})                      //反应 II
+    event.remove({id:"ars_elemental:mirror_shield_2"})               //法术反弹 II
+    event.remove({id:"ars_elemental:invincible_book"})               //法术书下界升级
+    event.remove({id:"ars_elemental:mark_of_mastery"})               //精通之印（改到工业灌注室）
     
     //灌注室
     //格式:[输入,输出,魔源,基座材料]
@@ -398,7 +398,7 @@ ServerEvents.recipes(event=>{
             "minecraft:blaze_powder","minecraft:blaze_powder"
         ].concat(EssenceSix)),
         "sourceCost":6000
-    })//反应护甲 II
+    })//反应（reactive II）
 
     event.custom({
         "type":"ars_nouveau:enchantment",
@@ -408,7 +408,7 @@ ServerEvents.recipes(event=>{
             "ars_elemental:spell_mirror"
         ].concat(EssenceSix)),
         "sourceCost":5000
-    })//镜盾 II
+    })//法术反弹（mirror_shield II）
 
     event.custom({
         "type":"ars_elemental:netherite_upgrade",
@@ -418,7 +418,7 @@ ServerEvents.recipes(event=>{
         ].concat(EssenceSix)),
         "reagent":{"tag":"ars_nouveau:spellbook"},
         "sourceCost":2000
-    })//不灭法术书
+    })//法术书下界升级（invincible_book）
 
     EnchantList.forEach(([pedestal,input,output,source])=>
         event.recipes.ars_nouveau.enchanting_apparatus(pedestal,input,output,source))
