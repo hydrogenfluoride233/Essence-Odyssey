@@ -408,26 +408,14 @@ ServerEvents.recipes(event=>{
         ],//精通之印
     ]
 
-    event.custom({
-        "type":"ars_nouveau:enchantment",
-        "enchantment":"ars_nouveau:reactive",
-        "level":2,
-        "pedestalItems":Pedestal([
-            "minecraft:blaze_powder","minecraft:blaze_powder",
-            "minecraft:blaze_powder","minecraft:blaze_powder"
-        ].concat(EssenceSix)),
-        "sourceCost":6000
-    })//反应（reactive II）
+    event.recipes.ars_nouveau.enchantment([
+        "minecraft:blaze_powder","minecraft:blaze_powder",
+        "minecraft:blaze_powder","minecraft:blaze_powder"
+    ].concat(EssenceSix),"ars_nouveau:reactive",2,6000)//反应（reactive II）
 
-    event.custom({
-        "type":"ars_nouveau:enchantment",
-        "enchantment":"ars_elemental:mirror_shield",
-        "level":2,
-        "pedestalItems":Pedestal([
-            "ars_elemental:spell_mirror"
-        ].concat(EssenceSix)),
-        "sourceCost":5000
-    })//法术反弹（mirror_shield II）
+    event.recipes.ars_nouveau.enchantment([
+        "ars_elemental:spell_mirror"
+    ].concat(EssenceSix),"ars_elemental:mirror_shield",2,5000)//法术反弹（mirror_shield II）
 
     event.custom({
         "type":"ars_elemental:netherite_upgrade",
