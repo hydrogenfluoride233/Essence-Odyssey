@@ -71,6 +71,12 @@ ServerEvents.recipes(event=>{
             "4x sauce:anima_essence",
             4000,"anima"
         ],//灵魂之精华
+
+        [
+            "1x ars_nouveau:wilden_tribute",
+            "5x ars_elemental:mark_of_mastery",
+            4000,"mark_of_mastery"
+        ],//大师印记（需要荒野供物）
     ]
 
     ImbuementList.forEach(([input,output,source,name])=>

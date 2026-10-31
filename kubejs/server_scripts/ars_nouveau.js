@@ -25,6 +25,10 @@ ServerEvents.recipes(event=>{
     event.remove({id:"enigmaticunity:iridescent_source_generator"}) //五彩脉冲水晶
     event.remove({id:"enigmaticunity:iridescent_source_producer"})  //五彩共鸣水晶
     event.remove({id:"ars_nouveau:thread_spellpower"})               //法术强度
+    event.remove({id:"ars_nouveau:reactive_2"})                      //反应护甲 II
+    event.remove({id:"ars_elemental:mirror_shield_2"})               //镜盾 II
+    event.remove({id:"ars_elemental:invincible_book"})               //不灭法术书
+    event.remove({id:"ars_elemental:mark_of_mastery"})               //大师印记（改到工业灌注室）
     
     //灌注室
     //格式:[输入,输出,魔源,基座材料]
@@ -365,12 +369,56 @@ ServerEvents.recipes(event=>{
                 "ars_nouveau:earth_essence",
                 "ars_nouveau:air_essence",
                 "kubejs:perditio_essence",
-                "kubejs:ordo_essence"
+                "kubejs:ordo_essence",
+                "ars_nouveau:magebloom"
             ],
             "ars_nouveau:blank_thread",
             "ars_nouveau:thread_spellpower",0
         ],//法术强度
     ]
+
+    //附魔类配方：基础四要素 + 混沌与秩序
+    const EssenceSix = [
+        "ars_nouveau:water_essence",
+        "ars_nouveau:fire_essence",
+        "ars_nouveau:earth_essence",
+        "ars_nouveau:air_essence",
+        "kubejs:perditio_essence",
+        "kubejs:ordo_essence"
+    ]
+
+    const Pedestal = items => items.map(item=>({"item":item}))
+
+    event.custom({
+        "type":"ars_nouveau:enchantment",
+        "enchantment":"ars_nouveau:reactive",
+        "level":2,
+        "pedestalItems":Pedestal([
+            "minecraft:blaze_powder","minecraft:blaze_powder",
+            "minecraft:blaze_powder","minecraft:blaze_powder"
+        ].concat(EssenceSix)),
+        "sourceCost":6000
+    })//反应护甲 II
+
+    event.custom({
+        "type":"ars_nouveau:enchantment",
+        "enchantment":"ars_elemental:mirror_shield",
+        "level":2,
+        "pedestalItems":Pedestal([
+            "ars_elemental:spell_mirror"
+        ].concat(EssenceSix)),
+        "sourceCost":5000
+    })//镜盾 II
+
+    event.custom({
+        "type":"ars_elemental:netherite_upgrade",
+        "keepNbtOfReagent":true,
+        "pedestalItems":Pedestal([
+            "minecraft:netherite_ingot"
+        ].concat(EssenceSix)),
+        "reagent":{"tag":"ars_nouveau:spellbook"},
+        "sourceCost":2000
+    })//不灭法术书
 
     EnchantList.forEach(([pedestal,input,output,source])=>
         event.recipes.ars_nouveau.enchanting_apparatus(pedestal,input,output,source))
