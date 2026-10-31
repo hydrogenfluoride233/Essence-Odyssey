@@ -28,6 +28,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"ars_nouveau:reactive_2"})                      //反应 II
     event.remove({id:"ars_elemental:mirror_shield_2"})               //法术反弹 II
     event.remove({id:"ars_elemental:invincible_book"})               //法术书下界升级
+    event.remove({id:"ars_elemental:mark_of_mastery"})               //精通之印（改到附魔装置）
     
     //灌注室
     //格式:[输入,输出,魔源,基座材料]
@@ -419,6 +420,24 @@ ServerEvents.recipes(event=>{
         "reagent":{"tag":"ars_nouveau:spellbook"},
         "sourceCost":2000
     })//法术书下界升级（invincible_book）
+
+    event.custom({
+        "type":"ars_nouveau:enchanting_apparatus",
+        "keepNbtOfReagent":false,
+        "pedestalItems":Pedestal([
+            "ars_nouveau:earth_essence",
+            "ars_nouveau:fire_essence",
+            "ars_nouveau:water_essence",
+            "ars_nouveau:air_essence",
+            "ars_nouveau:abjuration_essence",
+            "ars_nouveau:conjuration_essence",
+            "ars_nouveau:manipulation_essence",
+            "sauce:anima_essence"
+        ].concat(EssenceSix.filter(x=>x.indexOf("perditio")>=0||x.indexOf("ordo")>=0))),
+        "reagent":{"item":"ars_nouveau:wilden_tribute"},
+        "result":{"count":5,"id":"ars_elemental:mark_of_mastery"},
+        "sourceCost":10000
+    })//精通之印（附魔装置，需荒野供物）
 
     EnchantList.forEach(([pedestal,input,output,source])=>
         event.recipes.ars_nouveau.enchanting_apparatus(pedestal,input,output,source))
