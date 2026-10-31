@@ -392,17 +392,19 @@ ServerEvents.recipes(event=>{
 
         [
             [
-                "ars_nouveau:earth_essence",
-                "ars_nouveau:fire_essence",
                 "ars_nouveau:water_essence",
+                "ars_nouveau:fire_essence",
+                "ars_nouveau:earth_essence",
                 "ars_nouveau:air_essence",
+                "kubejs:perditio_essence",
+                "kubejs:ordo_essence",
                 "ars_nouveau:abjuration_essence",
                 "ars_nouveau:conjuration_essence",
                 "ars_nouveau:manipulation_essence",
                 "sauce:anima_essence"
-            ].concat(EssenceSix.filter(x=>x.indexOf("perditio")>=0||x.indexOf("ordo")>=0)),
+            ],
             "ars_nouveau:wilden_tribute",
-            Item.of("ars_elemental:mark_of_mastery",5),10000
+            "5x ars_elemental:mark_of_mastery",10000
         ],//精通之印
     ]
 
