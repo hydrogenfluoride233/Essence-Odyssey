@@ -2026,7 +2026,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b0aa5c46b6397be1fd04134092d35509cbfcf56045d75c96316a3b061977ebed"
+hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2174,7 +2174,7 @@ hash = "3d0e802be7955499e5605e19f9380ab1fb71f4800893cba8e64f8c1fef7cffe4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
-hash = "74e665bc8ed49ed0ad99a237ae8e7e49308b922b3d0e547635c4a0cbbf9a330d"
+hash = "b68a2a69b83a72640570f8742f72b5f66f4b118bb91677a5571c07770913e0db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
@@ -2198,11 +2198,11 @@ hash = "949b9834ffc264fecf4169823427b51c306ab97444fc8782ec57c51dd12c65bb"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "eb9fc6374b28550a5093ed1ef9993a3448efa71849ca73bdc37922469082c321"
+hash = "845ddbc37f5d4648d2fb193ea83733fd3c2a1cb24caa8788dbd0b3548417dc42"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "abf7a3e3b20d8e422e98ef8b63db229159f916d2ba9a2c852385545721f83af9"
+hash = "fce7fcc1010eac745465d507a100a5fee146e8c0740e4c02a791b37b3911e7c0"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
