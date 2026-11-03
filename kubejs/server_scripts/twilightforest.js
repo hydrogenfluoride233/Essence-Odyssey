@@ -32,4 +32,24 @@ ServerEvents.recipes(event=>{
         event.shapeless(trophy,[trophy])
     )
 
+    //放置转化：巧克力放在暮色森林里 → 凝血块
+    event.custom({
+        "type": "aether:placement_conversion",
+        "biome": "#kubejs:twilight_forest",
+        "ingredient": {"block": "create:chocolate"},
+        "result": {"block": "kubejs:blood_clot"}
+    })
+
+    //凝血块 → 炽热的血液（加热搅拌）
+    event.recipes.create.mixing(
+        [Fluid.of("kubejs:molten_blood",250)],
+        ["kubejs:blood_clot"]
+    ).heated()
+
+    //注液器：炽热的血液 + 玻璃瓶 → 炽热的血液
+    event.recipes.create.filling(
+        "twilightforest:fiery_blood",
+        ["minecraft:glass_bottle", Fluid.of("kubejs:molten_blood",250)]
+    )
+
 })
