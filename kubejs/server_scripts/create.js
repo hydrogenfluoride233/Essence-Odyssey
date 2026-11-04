@@ -205,6 +205,13 @@ ServerEvents.recipes(event=>{
             ],
             "superheated"
         ],//模块化合金锭
+
+        [
+            "100x kubejs:fiery_blood",
+            "kubejs:blood_clot",
+            "superheated"
+        ],//炽热的血液
+
     ]
 
     MixList.forEach(([output,input,heat])=>{
@@ -235,6 +242,52 @@ ServerEvents.recipes(event=>{
 
     CompactList.forEach(([output,input])=>
         event.recipes.create.compacting(output,input))
+
+    //注液
+    //格式:[输出,[输入物品,输入流体]]
+    const FillList = [
+        [
+            "twilightforest:fiery_blood",
+            [
+                "minecraft:glass_bottle",
+                "250x kubejs:fiery_blood"
+            ]
+        ],//炽热的血液
+
+        [
+            "twilightforest:fiery_tears",
+            [
+                "naturesaura:bottle_two_the_rebottling",
+                "250x kubejs:fiery_blood"
+            ]
+        ],//炽热之泪
+    ]
+
+    FillList.forEach(([output,input])=>
+        event.recipes.create.filling(output,input))
+
+    //分液
+    //格式:[[输出流体,输出物品],输入]
+    const EmptyingList = [
+        [
+            [
+                "250x kubejs:fiery_blood",
+                "minecraft:glass_bottle"
+            ],
+            "twilightforest:fiery_blood"
+        ],//炽热的血液
+
+        [
+            [
+                "250x kubejs:fiery_blood",
+                "naturesaura:bottle_two_the_rebottling"
+            ],
+            "twilightforest:fiery_tears"
+        ],//炽热之泪
+    ]
+
+    EmptyingList.forEach(([output,input])=>
+        event.recipes.create.emptying(output,input))
 
     //手动物品使用
     //格式:[输出,[输入方块,输入物品]]
@@ -797,5 +850,4 @@ ServerEvents.recipes(event=>{
             )
             event.remove({id:recipeId})
         }))
-
 })

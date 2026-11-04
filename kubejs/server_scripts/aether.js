@@ -41,6 +41,24 @@ ServerEvents.recipes(event=>{
             "result":{"count":1,"id":output}})
     )
 
+    //放置转化
+    //格式:[生物群系,输入,输出]
+    const ConversionList = [
+        [
+            "#kubejs:twilight_forest",
+            "create:chocolate",
+            "kubejs:blood_clot"
+        ]
+    ]
+
+    ConversionList.forEach(([biome,input,output])=>
+        event.custom({
+            "type":"aether:placement_conversion",
+            "biome":biome,
+            "ingredient":{"block":input},
+            "result":{"block":output}})
+        )
+
     //通用天境预测产物相关
     event.shapeless(
         "8x aether:blue_berry",

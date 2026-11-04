@@ -54,15 +54,15 @@ ServerEvents.recipes(event=>{
     )//无限水元件
 
     //世界交互-爆炸
-    //格式:[输入,输出]
+    //格式:[输入,输出,数量]
     const ExplosionList = [
-        ["minecraft:raw_iron_block","ae2:item_storage_cell_1k"],            //1k物品存储元件
-        ["minecraft:raw_copper_block","ae2:fluid_storage_cell_1k"],         //1k流体存储元件
-        ["ae2:quartz_fiber","ae2:white_glass_cable"],                       //线缆
-        ["sophisticatedstorage:diamond_chest","ae2:drive"],                 //ME驱动器
-        ["sophisticatedbackpacks:crafting_upgrade","ae2:crafting_terminal"] //ME合成终端
+        ["minecraft:raw_iron_block","ae2:item_storage_cell_1k",1],            //1k物品存储元件
+        ["minecraft:raw_copper_block","ae2:fluid_storage_cell_1k",1],         //1k流体存储元件
+        ["ae2:quartz_fiber","ae2:white_glass_cable",8],                       //线缆
+        ["sophisticatedstorage:diamond_chest","ae2:drive",1],                 //ME驱动器
+        ["sophisticatedbackpacks:crafting_upgrade","ae2:crafting_terminal",1] //ME合成终端
     ]
 
-    ExplosionList.forEach(([input,output])=>
-        AE2Recipes.transformExplosion(event,[input,"kubejs:unknown_mixture"],output,1))
+    ExplosionList.forEach(([input,output,count])=>
+        AE2Recipes.transformExplosion(event,[input,"kubejs:unknown_mixture"],output,count))
 })

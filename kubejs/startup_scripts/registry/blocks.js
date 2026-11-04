@@ -20,7 +20,7 @@ StartupEvents.registry("block",event=>{
         // ["altar_1","pickaxe","stone","stone",3,3],
         // ["altar_2","pickaxe","stone","stone",3,3],
         // ["altar_3","pickaxe","stone","stone",3,3],
-        ["sky_stone_starmetal_ore","pickaxe","diamond","stone",5,5]//陨石星辉金属矿石（占位，后续进陨星仪式）
+        ["sky_stone_starmetal_ore","pickaxe","diamond","stone",5,5]//陨石星辉金属矿石
     ]
     block.forEach(([id,type,level,sound,hardness,resistance])=>
         event.create(id)
@@ -30,4 +30,19 @@ StartupEvents.registry("block",event=>{
             .hardness(hardness)
             .resistance(resistance)
             .requiresTool(true))
+
+    event.create("blood_clot")
+    .soundType("honey_block")
+    .hardness(0.5)
+    .resistance(0.5)
+    .slipperiness(0.8)
+    .speedFactor(0.4)
+    .jumpFactor(0.5)
+    .parentModel("minecraft:block/cube_bottom_top")
+    .textures({
+        particle:"kubejs:block/blood_clot_side",
+        side:"kubejs:block/blood_clot_side",
+        top:"kubejs:block/blood_clot_top",
+        bottom:"kubejs:block/blood_clot_bottom"
+    })
 })
