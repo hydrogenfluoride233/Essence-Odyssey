@@ -64,4 +64,12 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("kubejs:crystal_perditio", [
         Text.translate("essenceodyssey.info.crystal_perditio.detail")
     ])//crystal_perditio
+
+    event.add("kubejs:blood_clot", [
+        Text.translate("essenceodyssey.info.blood_clot.detail")
+    ])//blood_clot
+
+    event.add("naturesaura:vacuum_bottle", [
+        Text.translate("essenceodyssey.info.vacuum_bottle.detail")
+    ])//vacuum_bottle
 })

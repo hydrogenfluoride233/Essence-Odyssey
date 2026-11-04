@@ -232,7 +232,7 @@
   "kubejs.mmcr.disabled":"This feature is disabled in this pack.",
   "kubejs.mmcr.eae_note":"Only the Extended Pattern Interface is available in this pack; the extended input/output, oversize and extended stocking input interfaces are not provided.",
   "block.kubejs.blood_clot":"Blood Clot",
-  "block.kubejs.molten_blood":"Molten Blood",
-  "fluid_type.kubejs.molten_blood":"Molten Blood",
-  "item.kubejs.molten_blood_bucket":"Molten Blood Bucket"
+  "block.kubejs.fiery_blood":"Fiery Blood",
+  "fluid_type.kubejs.fiery_blood":"Fiery Blood",
+  "item.kubejs.fiery_blood_bucket":"Fiery Blood Bucket"
 }
