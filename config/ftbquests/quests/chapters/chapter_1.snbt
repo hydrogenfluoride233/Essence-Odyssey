@@ -758,8 +758,8 @@
 		}
 		{
 			dependencies: ["3ADEEEDFEED6AFAA"]
+			hide_until_deps_complete: true
 			id: "7BF7847A3ED73423"
-			invisible: true
 			tasks: [{
 				id: "637EFFF0BAC3A32E"
 				item: { count: 1, id: "kubejs:unknown_mixture" }
@@ -903,6 +903,19 @@
 				type: "item"
 			}]
 			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3582A8AFBE363D4B"]
+			id: "468B402CE37113E6"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "65697C1FFB9E1A6F"
+				item: { count: 1, id: "create:chocolate_bucket" }
+				type: "item"
+			}]
+			x: -0.5d
 			y: 5.0d
 		}
 	]
