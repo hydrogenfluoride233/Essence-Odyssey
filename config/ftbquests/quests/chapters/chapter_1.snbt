@@ -364,7 +364,6 @@
 				"5E4647B964AD82A1"
 				"236B9D3A654D936D"
 			]
-			hide_until_deps_complete: true
 			id: "2E5D92132F9FA3DC"
 			tasks: [{
 				id: "0D96B993EC6ED6BE"
