@@ -1,5 +1,5 @@
 {
-  "configVersion": 11,
+  "configVersion": 12,
   "animationSmoothingSpeed": 0.2,
   "holdingItems": [
     "quad-mstv-mtv:pale_oak_torch",
@@ -85,10 +85,6 @@
   "clampCrossbowAnimations": false,
   "burningAnimation": true,
   "hideItemsForTheseBows": [],
-  "mapHolding": [
-    "minecraft:filled_map",
-    "antiqueatlas:antique_atlas"
-  ],
   "animateLanterns": true,
   "lanternItems": [
     "minecraft:waxed_copper_lantern",

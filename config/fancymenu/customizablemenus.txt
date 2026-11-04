@@ -105,3 +105,12 @@ betteradvancements.common.gui.BetterAdvancementsScreen {
 net.minecraft.client.gui.screens.ConfirmScreen {
 }
 
+cool.muyucloud.netherlink.client.NetherLinkTermsScreen {
+}
+
+cool.muyucloud.netherlink.client.NetherLinkFriendsScreen {
+}
+
+dev.latvian.mods.kubejs.client.KubeJSErrorScreen {
+}
+
