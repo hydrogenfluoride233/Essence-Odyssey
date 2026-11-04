@@ -33,8 +33,8 @@ StartupEvents.registry("block",event=>{
 
     event.create("blood_clot")
     .soundType("honey_block")
-    .hardness(0.5)
-    .resistance(0.5)
+    .hardness(0)
+    .resistance(0)
     .slipperiness(0.8)
     .speedFactor(0.4)
     .jumpFactor(0.5)
