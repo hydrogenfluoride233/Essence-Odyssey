@@ -1,0 +1,13 @@
+name = "NetherLink(NLI)"
+filename = "netherlink-1.21.1-neoforge-0.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8468b68947ddc12954942a74e4cfd56ec86bfd6c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8385618
+project-id = 1548571

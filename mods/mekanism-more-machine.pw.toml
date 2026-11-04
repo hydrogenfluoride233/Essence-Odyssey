@@ -1,13 +1,13 @@
 name = "Mekanism:More Machine"
-filename = "mekmm-1.21.1-1.4.1.jar"
+filename = "mekmm-1.21.1-1.4.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0b07480e12cb0f0d55283d9373495ee9db7ed010"
+hash = "7f5ad79707022186dfc5ffd0120150cabd3d333e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8724947
+file-id = 9393169
 project-id = 1275257

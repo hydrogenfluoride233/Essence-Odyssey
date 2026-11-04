@@ -1,13 +1,13 @@
 name = "FTB Quests (NeoForge)"
-filename = "ftb-quests-neoforge-2101.1.37.jar"
+filename = "ftb-quests-neoforge-2101.1.38.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "770938e5907cc91be2f89ac00aea2e87b51e1c87"
+hash = "389fb269d338ed4c7f14f945a07759b6d444af40"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9298629
+file-id = 9405148
 project-id = 289412
