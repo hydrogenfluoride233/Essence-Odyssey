@@ -72,4 +72,8 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("naturesaura:vacuum_bottle", [
         Text.translate("essenceodyssey.info.vacuum_bottle.detail")
     ])//vacuum_bottle
+
+    event.add("actuallyadditions:restonia_crystal", [
+        Text.translate("essenceodyssey.info.restonia_crystal.detail")
+    ])//restonia_crystal
 })
