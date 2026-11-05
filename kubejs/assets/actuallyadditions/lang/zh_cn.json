@@ -47,5 +47,6 @@
   "actuallyadditions.configuration.noColoredItemNames":"物品名称不显示颜色",
   "actuallyadditions.configuration.verticalDiggerExtraWhitelist":"垂直挖矿机额外白名单",
   "actuallyadditions.configuration.generateRice":"生成稻米",
-  "item.actuallyadditions.empowered_palis_crystal":"充能青金石水晶"
+  "item.actuallyadditions.empowered_palis_crystal":"充能青金石水晶",
+  "block.actuallyadditions.diamatine_crystal_cluster":"淡蓝色晶簇"
 }

@@ -76,4 +76,24 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("actuallyadditions:restonia_crystal", [
         Text.translate("essenceodyssey.info.restonia_crystal.detail")
     ])//restonia_crystal
+
+    event.add("actuallyadditions:enori_crystal", [
+        Text.translate("essenceodyssey.info.enori_crystal.detail")
+    ])//enori_crystal
+
+    event.add("actuallyadditions:palis_crystal", [
+        Text.translate("essenceodyssey.info.palis_crystal.detail")
+    ])//palis_crystal
+
+    event.add("actuallyadditions:diamatine_crystal", [
+        Text.translate("essenceodyssey.info.diamatine_crystal.detail")
+    ])//diamatine_crystal
+
+    event.add("actuallyadditions:void_crystal", [
+        Text.translate("essenceodyssey.info.void_crystal.detail")
+    ])//void_crystal
+
+    event.add("actuallyadditions:emeradic_crystal", [
+        Text.translate("essenceodyssey.info.emeradic_crystal.detail")
+    ])//emeradic_crystal
 })

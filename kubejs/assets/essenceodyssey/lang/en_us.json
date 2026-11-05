@@ -59,5 +59,10 @@
   "essenceodyssey.info.crystal_perditio.detail":"Throw an Amethyst Shard into an End Portal from the Overworld side to condense a Chaos Crystal.",
   "essenceodyssey.info.blood_clot.detail":"Formed by placing chocolate in the Twilight Forest.",
   "essenceodyssey.info.vacuum_bottle.detail":"drain most of the aura, then right-click with a Bottle and Cork to collect bottled vacuum.",
-  "essenceodyssey.info.restonia_crystal.detail":"Spreading Goo onto redstone ore grows a Red Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Red Crystal Shards."
+  "essenceodyssey.info.restonia_crystal.detail":"Spreading Goo onto redstone ore grows a Red Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Red Crystal Shards.",
+  "essenceodyssey.info.enori_crystal.detail":"Spreading Goo onto iron ore grows a White Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 White Crystal Shards.",
+  "essenceodyssey.info.palis_crystal.detail":"Spreading Goo onto lapis ore grows a Blue Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Blue Crystal Shards.",
+  "essenceodyssey.info.diamatine_crystal.detail":"Spreading Goo onto diamond ore grows a Light Blue Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Light Blue Crystal Shards.",
+  "essenceodyssey.info.void_crystal.detail":"Spreading Goo onto coal ore grows a Black Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Black Crystal Shards.",
+  "essenceodyssey.info.emeradic_crystal.detail":"Spreading Goo onto emerald ore grows a Green Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Green Crystal Shards."
 }
