@@ -1,4 +1,3 @@
-// 机器定义：改这里必须重启游戏，/reload 不生效
 MMCREvents.startup(event => {
     event.createMachine("mmcr:industrial_imbuement")
         .displayNameKey("machine.mmcr.industrial_imbuement")
@@ -11,5 +10,16 @@ MMCREvents.startup(event => {
         .factoryThreads(4)                                                              //工厂线程数（线程撕裂者可增加）
         .recipeBehavior(b=>b.recipeTick(ctx=>global.machineModelWork(ctx)))             //动态模型：配方在跑时报到（模型见 server_scripts/MMCR-models.js）
         .postServerTick(ctx=>global.machineModelTick(ctx))                              //动态模型：每 tick 报到成型状态与朝向
+        .register()
+
+    event.createMachine("mmcr:past_astral_altar")
+        .displayNameKey("machine.mmcr.past_astral_altar")
+        .recipePool("mmcr:past_astral_altar")
+        .controllerBaseTexture("astralsorcery:block/marble_bricks")
+        .formedPortBaseTexture("astralsorcery:block/marble_bricks")
+        .allowParallelism()
+        .maxParallelAmount(64)
+        .allowMultithreading()
+        .factoryThreads(4)
         .register()
 })
