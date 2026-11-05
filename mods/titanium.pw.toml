@@ -1,13 +1,13 @@
 name = "Titanium"
-filename = "titanium-1.21-4.0.51.jar"
+filename = "titanium-1.21-4.0.52.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "aeb581ba5bdaac3bf3d48bee78488151e9c3dfd1"
+hash = "b46f625333c9c570eed9962a355f37687d39e731"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9129904
+file-id = 9439122
 project-id = 287342

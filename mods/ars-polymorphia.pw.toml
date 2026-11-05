@@ -1,13 +1,13 @@
 name = "Ars Polymorphia"
-filename = "ars_polymorphia-1.0.3.jar"
+filename = "ars_polymorphia-1.0.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8cce819e83f6360ab9aa8b44ac841511172a6a79"
+hash = "a846a4945c0a0b4cecf171f7d1b352d8a69f43c5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6219409
+file-id = 9433369
 project-id = 1197614
