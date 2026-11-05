@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_3"
@@ -23,34 +22,25 @@
 			y: -1.0d
 		}
 		{
-			id: "7ED687D24B1848B3"
-			tasks: [{
-				id: "6072A807A5B0E718"
-				item: { components: { "modonomicon:book_id": "neovitae:guide" }, count: 1, id: "neovitae:guide_book" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
 			id: "52445941353FAD96"
 			tasks: [{
 				id: "75489E2B7769EC6A"
 				item: { count: 1, id: "naturesaura:offering_table" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
+			dependencies: ["5FB333558E3BBE5D"]
 			id: "477958E4569C3D6B"
 			tasks: [{
 				id: "4F3AD035C3B6110C"
 				item: { count: 1, id: "astralsorcery:altar_illumination" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			id: "544E258E66294DA0"
@@ -59,8 +49,8 @@
 				item: { count: 1, id: "hostilenetworks:deep_learner" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			id: "7C100513F342FBC4"
@@ -79,11 +69,23 @@
 				item: { count: 1, id: "naturesaura:crushing_catalyst" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["4920E66F0E157926"]
 			id: "0F0C983509723C0E"
+			rewards: [{
+				id: "626A6D37D0E536E7"
+				item: {
+					components: {
+						"modonomicon:book_id": "neovitae:guide"
+					}
+					count: 1
+					id: "neovitae:guide_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "11FFCCFC95E57F43"
 				item: { count: 1, id: "neovitae:ara_vitae" }
@@ -129,31 +131,38 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 3.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"5AA560228973D274"
 				"2740A375D6EBCB05"
 			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
 			id: "4920E66F0E157926"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "6660C67CD734CA01"
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["0F0C983509723C0E"]
 			id: "5FB333558E3BBE5D"
 			tasks: [{
 				id: "2D3475F2515B2F37"
 				item: { count: 1, id: "astralsorcery:astrolabe" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 }
