@@ -6846,11 +6846,6 @@ hash = "8913bb244d45ff085d444bd9c0ea236ffb3414a608554766140a208ac973a5a6"
 metafile = true
 
 [[files]]
-file = "mods/createjeicompat.pw.toml"
-hash = "7d46beda7bd22976a0af9bb4383d78fd0b6be39e67ef3b1f1d7c3a63b4d50b14"
-metafile = true
-
-[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "c76891545fb28fbcd2c280cf451ad98a463f8a17a50e0eee8a33b3b410743711"
 metafile = true
@@ -7292,7 +7287,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
-hash = "dadcd2e83c760401ab87a67923a6bfa990bb5eeaaed31e4bebff0ff6a269e5f1"
+hash = "397f35d7eccfd938827dc2e16fad9619213604b5e9f81d0d54f0674b1d3df6b6"
 metafile = true
 
 [[files]]
@@ -7422,7 +7417,7 @@ metafile = true
 
 [[files]]
 file = "mods/lychee.pw.toml"
-hash = "8a5c24948ff4353690a7cc0af6fdd0d3c1dddcf745ccb5afb410cc9b4233fb81"
+hash = "761b7c87db4310e834d7bf53ebc6e60e05846ee223d424f9cbff1049e25bbc68"
 metafile = true
 
 [[files]]
@@ -7497,7 +7492,7 @@ metafile = true
 
 [[files]]
 file = "mods/mezzconfig.pw.toml"
-hash = "8d7d77cb3b4b9d8d30f963c2c125a030e3bdcdcb3b85f63ea61f587d185578fa"
+hash = "b0c3d1ba984a9188d074634f45f17e3e2a248d5324b438f2ba4d18b3894b360e"
 metafile = true
 
 [[files]]
@@ -7527,7 +7522,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "3e121ddfc447ccc93bc19803c910388418dd7b239645cc525f0be2d46b62422f"
+hash = "f0a1d86271f3faf5fdf994ff363da037dd217e3f769cae8c1a5e7c848bfe7b43"
 metafile = true
 
 [[files]]
@@ -7612,7 +7607,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "86f847d02cea419de57b14dd546fe95a12049b4827c889614fef7fde8ec4772b"
+hash = "e4b51bc201b9e21b34c194ffafd8040ca622fb5ce5ab1ae5770871204e6fb614"
 metafile = true
 
 [[files]]
