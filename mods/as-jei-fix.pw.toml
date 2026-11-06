@@ -1,0 +1,13 @@
+name = "Astral Sorcery JEI Fix"
+filename = "as_jei_fix-neoforge-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "68c9d08654d67a0c4ab2d2b54221c1f3e6f38175"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9472636
+project-id = 1786904
