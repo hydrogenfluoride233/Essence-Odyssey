@@ -39,7 +39,7 @@
 				item: { count: 1, id: "astralsorcery:altar_illumination" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -50,16 +50,6 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
-		}
-		{
-			id: "7C100513F342FBC4"
-			tasks: [{
-				id: "11B1893B0E26E27F"
-				item: { count: 1, id: "naturesaura:conversion_catalyst" }
-				type: "item"
-			}]
-			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -131,7 +121,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -154,15 +144,167 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0F0C983509723C0E"]
 			id: "5FB333558E3BBE5D"
 			tasks: [{
 				id: "2D3475F2515B2F37"
 				item: { count: 1, id: "astralsorcery:astrolabe" }
 				type: "item"
 			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F0C983509723C0E"]
+			id: "225096AFDEC20E93"
+			tasks: [{
+				id: "6A3663FC24A706C8"
+				item: { count: 1, id: "neovitae:blood_orb_weak" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 3.0d
+		}
+		{
+			id: "75974C68D94AAD63"
+			tasks: [{
+				id: "08CAB83D8D37823B"
+				item: { count: 1, id: "neovitae:hellfire_forge" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "60A27933A4B85169"
+			tasks: [{
+				id: "6531E99B8116E1AD"
+				item: { count: 1, id: "neovitae:athanor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "22405AE327EF04A2"
+			tasks: [{
+				id: "08BF863C2C9B474E"
+				item: { count: 1, id: "neovitae:tabula_vitae" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "neovitae:sanguine_crafter"
+			}
+			id: "0051C3E6D07C7C5F"
+			tasks: [
+				{
+					id: "1567613845C9A9F5"
+					item: { count: 1, id: "neovitae:sanguine_crafter" }
+					type: "item"
+				}
+				{
+					id: "6E8B9ED904657B33"
+					item: { count: 1, id: "neovitae:sanguine_casing" }
+					type: "item"
+				}
+				{
+					id: "4F22AA4534470C4C"
+					item: { count: 1, id: "neovitae:hellforged_sanguine_casing" }
+					type: "item"
+				}
+				{
+					id: "075418C546003CE3"
+					item: { count: 1, id: "neovitae:swift_sanguine_casing" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "53346A9B386BE388"
+			tasks: [{
+				id: "71AE83920A64EB81"
+				item: { count: 1, id: "sanguine_networks:suffering_incorporated" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "4460F1707D15A65A"
+			tasks: [{
+				id: "17EA2263338EE54D"
+				item: { count: 1, id: "sanguine_networks:virtual_sacrificer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["258F3BBF92677C79"]
+			id: "6DF68BEEE006AF6B"
+			tasks: [{
+				id: "78050D89797B04B5"
+				item: { count: 1, id: "pneumaticcraft:vacuum_pump" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "21817F75CF3A665F"
+			tasks: [{
+				id: "2FB31239B5E36E1A"
+				item: { count: 1, id: "neovitae:vitae_link" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "7F8018D45F77A309"
+			tasks: [{
+				id: "75449A6E7B4D21F6"
+				item: { count: 1, id: "neovitae:orb_filling_link" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["225096AFDEC20E93"]
+			id: "301DCA1D6BB35670"
+			tasks: [{
+				id: "6436C0A280AB5448"
+				item: { count: 1, id: "neovitae:rune_blank" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "13A7FD8383CB4DD4"
+			tasks: [{
+				id: "775E588526073D1F"
+				item: { count: 1, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "5C9C5D9F42BB31FF"
+			tasks: [{
+				id: "09F97E779FEE8A15"
+				item: { count: 1, id: "neovitae:blood_orb_apprentice" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
 		}
 	]
 }

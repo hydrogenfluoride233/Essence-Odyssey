@@ -20,10 +20,11 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["216FDC1A803B60AC"]
+			hide_until_deps_complete: true
 			icon: {
 				components: {
 					"patchouli:book": "mmcr:modular_guide"
@@ -115,6 +116,37 @@
 			}]
 			x: 2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["32CEBFC9E6C72BEC"]
+			id: "2849F6E4E0C92340"
+			tasks: [{
+				id: "1D8D773F4FBCF591"
+				item: { count: 1, id: "mmcr:past_astral_altar_controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "10EDAE6B16424C33"
+			tasks: [{
+				id: "70CD8738CE59B4E6"
+				item: { count: 1, id: "mmcr:data_extractor_controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "5C76846A2A4CACE1"
+			tasks: [{
+				id: "2EC970396E2AC11B"
+				item: { count: 1, id: "mmcr:packaged_tree_ritual_controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
 		}
 	]
 }

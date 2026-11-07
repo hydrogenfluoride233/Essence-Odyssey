@@ -584,7 +584,7 @@
 					observation_type: "block"
 					observe_type: 0
 					timer: 0L
-					to_observe: "immersiveengineering:arc_furnance"
+					to_observe: "immersiveengineering:arc_furnace"
 					type: "observation"
 				}
 				{
@@ -678,17 +678,6 @@
 		{
 			dependencies: ["0EAD190E24BC4DAD"]
 			id: "5EDF156392CA0C8F"
-			rewards: [{
-				id: "090EA728F14F5B63"
-				item: {
-					components: {
-						"patchouli:book": "mmcr:modular_guide"
-					}
-					count: 1
-					id: "patchouli:guide_book"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "179E12E8569AEC46"
 				item: { count: 1, id: "immersiveengineering:redstone_acid_bucket" }
@@ -895,19 +884,6 @@
 		}
 		{
 			dependencies: ["5B27D2BA57349AAF"]
-			id: "4B3A4AC1A56E5A22"
-			optional: true
-			shape: "rsquare"
-			tasks: [{
-				id: "3AB6080F6AD96BA9"
-				item: { count: 1, id: "actuallyadditions:crusher" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["5B27D2BA57349AAF"]
 			id: "73E1CE96E3F14EF5"
 			tasks: [{
 				id: "4B0694854054F110"
@@ -1084,6 +1060,17 @@
 			]
 			x: -6.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["5B27D2BA57349AAF"]
+			id: "7C100513F342FBC4"
+			tasks: [{
+				id: "11B1893B0E26E27F"
+				item: { count: 1, id: "naturesaura:conversion_catalyst" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
 		}
 	]
 }

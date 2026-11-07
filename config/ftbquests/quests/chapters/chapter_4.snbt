@@ -63,16 +63,6 @@
 			y: -4.0d
 		}
 		{
-			id: "13A7FD8383CB4DD4"
-			tasks: [{
-				id: "775E588526073D1F"
-				item: { count: 1, id: "integrateddynamics:cable" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: -4.0d
-		}
-		{
 			id: "35B0B8A07957E4FB"
 			tasks: [{
 				id: "6B2CB504C4FD109B"
@@ -101,6 +91,16 @@
 			}]
 			x: 8.5d
 			y: 0.0d
+		}
+		{
+			id: "6A33B6E07068A20E"
+			tasks: [{
+				id: "50E5100B1C8E8DA3"
+				item: { count: 1, id: "productivebees:advanced_oak_beehive" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
 		}
 	]
 }

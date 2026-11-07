@@ -105,6 +105,7 @@
 			y: 2.0d
 		}
 		{
+			hide_until_deps_complete: true
 			icon: {
 				id: "mekanismgenerators:wind_generator"
 			}

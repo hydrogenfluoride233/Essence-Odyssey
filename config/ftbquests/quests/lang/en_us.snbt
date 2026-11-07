@@ -878,11 +878,6 @@
 		""
 		"It is sturdier than both iron and steel. The &aEngineer's Workbench&r needs it for its frame, and the &aEngineering Blocks&r used to build all kinds of heavy machinery depend on it too."
 	]
-	quest.4B3A4AC1A56E5A22.quest_desc: [
-		"This Crusher is very &acompact&r."
-		""
-		"&o(Sorry, but this really is all I can come up with. It is genuinely awkward to use: no upgrades, and no way to set its inputs and outputs. I added recipes for crushing Gold Leaf and the six Empowered Crystals, and honestly, that's it.)&r"
-	]
 	quest.4B699022B1FD8A00.quest_desc: [
 		"It seems you have noticed something strange about the amethyst shard."
 		""
