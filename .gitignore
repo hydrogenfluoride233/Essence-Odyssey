@@ -49,6 +49,8 @@ backups/
 downloads/
 mods/*.jar
 !mods/aethersdelight-0.1.4.2-1.21.1.jar
+# 本地停用的模组（只在本机，不进仓库也不进包）
+mods.disabled/
 resourcepacks/*.zip
 !resourcepacks/BDcraft Sound Pack MC121.zip
 config/patchouli_books/
