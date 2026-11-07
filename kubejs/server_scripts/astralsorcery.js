@@ -1,7 +1,6 @@
 ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"entangled:block"})//纠缠方块
-    event.remove({output:"astralsorcery:astrolabe"})//星盘
 
     //星能物品嬗变
 

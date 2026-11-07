@@ -51,7 +51,7 @@ ServerEvents.recipes(event=>{
     )
 
     //投入流体
-    //格式:[催化剂,输入流体,输出流体]
+    //格式:[id,催化剂,输入流体,输出流体]
     event.recipes.justdirethings.fluiddrop(
         "justdirethings:polymorphic_fluid",
         "justdirethings:polymorphic_catalyst",

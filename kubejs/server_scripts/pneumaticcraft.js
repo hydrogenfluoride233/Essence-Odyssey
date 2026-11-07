@@ -23,15 +23,18 @@ ServerEvents.recipes(event=>{
     event.remove({id:"pneumaticcraft:refinery_output"})//精炼厂输出端
     event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_biodiesel"})//生物柴油产塑料
     event.remove({id:"pneumaticcraft:uv_light_box"})//紫外线灯箱
+    event.remove({id:"pneumaticcraft:vacuum_pump"})//真空泵
 
     event.remove({id:"pneumaticcraft:printed_circuit_board"})//印刷电路板
 
+    /*
     event.remove({id:"pneumaticcraft:assembly_controller"})//装配台
     event.remove({id:"pneumaticcraft:assembly_drill"})
     event.remove({id:"pneumaticcraft:assembly_io_unit_export"})
     event.remove({id:"pneumaticcraft:assembly_io_unit_import"})
     event.remove({id:"pneumaticcraft:assembly_laser"})
     event.remove({id:"pneumaticcraft:assembly_platform"})
+    */
 
     //工作台配方
     event.replaceInput(

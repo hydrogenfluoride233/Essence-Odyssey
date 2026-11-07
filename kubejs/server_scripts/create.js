@@ -768,6 +768,17 @@ ServerEvents.recipes(event=>{
         }
     )//紫外线灯箱
 
+    event.recipes.create.mechanical_crafting(
+        "pneumaticcraft:vacuum_pump",
+        ["ABA","CBC","DDD"],
+        {
+            A:"pneumaticcraft:pressure_gauge",
+            B:"pneumaticcraft:turbine_rotor",
+            C:"pneumaticcraft:advanced_pressure_tube",
+            D:"pneumaticcraft:reinforced_stone_slab"
+        }
+    )//真空泵
+
     //有序合成=>动力合成
     const ShapedMechanicalList = [
             "actuallyadditions:crusher_double",

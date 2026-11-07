@@ -14,23 +14,27 @@ ServerEvents.recipes(event=>{
     event.remove({id:"neovitae:meteor/ae2"})
     event.remove({id:"neovitae:ritual_diviner_deus"})   //仪式占卜杖[神圣]
 
+    event.replaceInput({mod:"neovitae"},"minecraft:deepslate","pneumaticcraft:reinforced_stone")
     //命血祭坛
-    //格式:[输出,输入,祭坛等级,EV]
+    //格式:[输出,输入,祭坛等级,EV,消耗速率,回退速率]
+    event.replaceInput({id:"neovitae:ara_vitae/weak_blood_orb"},"minecraft:diamond","cataclysm:lacrima")
+
     const AraList = [
         [
             "neovitae:guide_book",
             "minecraft:book",
-            0,1000
+            0,1000,5,0
         ],//命血手札
 
         [
             "mysticalagriculture:infusion_crystal",
             "mysticalagriculture:prosperity_gemstone",
-            4,50000
+            4,50000,25,50
         ],//注魔水晶
     ]
-    AraList.forEach(([output,input,tier,blood])=>
-        event.recipes.neovitae.ara_vitae_recipe(output,input,tier,blood,25,50))
+
+    AraList.forEach(([output,input,tier,blood,cost,back])=>
+        event.recipes.neovitae.ara_vitae_recipe(output,input,tier,blood,cost,back))
 
     //陨星仪式
     //格式:[输入,生命源质,爆炸半径,陨石层]
