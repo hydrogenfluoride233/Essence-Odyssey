@@ -119,7 +119,7 @@ MMCREvents.server(event => {
         .set('D', api.block('naturesaura:wood_stand'))
         .set('E', api.block('minecraft:oak_planks'))
         .set('F', api.block('naturesaura:gold_powder'))
-        .set('G', api.block('astralsorcery:tree_beacon'))
+        .set('G', api.block('kubejs:packaged_tree_beacon'))
         .controller('C')
         .build()
 
@@ -155,6 +155,37 @@ MMCREvents.server(event => {
         .set('G', api.state('enigmaticunity:iridescent_source_producer[facing=up]'))
         .set('H', api.block('minecraft:chiseled_stone_bricks'))
         .set('I', api.block('naturesaura:nature_altar'))
+        .controller('C')
+        .build()
+
+    event.createStructure("mmcr:packaged_offering_table")
+        .pattern("AYYYYYYYYYA", "AXXXXXXXXXA", "AXXXXXXXXXA", "AXXXXXXXXXA", "AXXXXXXXXXA", "AYYYYYYYYYA")
+        .pattern("YBBBBBBBBBY", "X  DDDDD  X", "X         X", "X         X", "X         X", "YXXXXXXXXXY")
+        .pattern("YBBBBBBBBBY", "X D     D X", "X         X", "X         X", "X         X", "YXXXXXXXXXY")
+        .pattern("YBBBEEEBBBY", "XD  DDD  DX", "X         X", "X         X", "X         X", "YXXXXXXXXXY")
+        .pattern("YBBEEEEEBBY", "XD D   D DX", "X         X", "X         X", "X         X", "YXXXXXXXXXY")
+        .pattern("YBBEEEEEBBY", "XD D F D DX", "X         X", "X         X", "X         X", "YXXXXXXXXXY")
+        .pattern("YBBEEEEEBBY", "XD D   D DX", "X         X", "X         X", "X         X", "YXXXXXXXXXY")
+        .pattern("YBBBEEEBBBY", "XD  DDD  DX", "X         X", "X         X", "X         X", "YXXXXXXXXXY")
+        .pattern("YBBBBBBBBBY", "X D     D X", "X         X", "X         X", "X         X", "YXXXXXXXXXY")
+        .pattern("YBBBBBBBBBY", "X  DDDDD  X", "X         X", "X         X", "X         X", "YXXXXXXXXXY")
+        .pattern("AYYYZCZYYYA", "AXXXXXXXXXA", "AXXXXXXXXXA", "AXXXXXXXXXA", "AXXXXXXXXXA", "AYYYYYYYYYA")
+        .set('X', api.block('mekanism:structural_glass'))
+        .set('Y', api.anyOf(
+            api.block('createmoremachines:end_casing'),
+            api.tag('mmcr:item_ports'),                                 //物品接口
+            api.tag('mmcr:neoforge_energy_input_ports')                 //能量输入接口
+        ))
+        .set('Z', api.anyOf(
+            api.block('createmoremachines:end_casing'),
+            api.tag('kubejs:parallel_controllers'),                     //并行器
+            api.block('mmcr:factory_controller')                        //工厂控制器
+        ))
+        .set('A', api.block('createmoremachines:end_casing'))
+        .set('B', api.block('astralsorcery:infused_wood_infused'))
+        .set('D', api.block('minecraft:potted_poppy'))
+        .set('E', api.block('mekanism:steel_casing'))
+        .set('F', api.block('naturesaura:offering_table'))
         .controller('C')
         .build()
 })

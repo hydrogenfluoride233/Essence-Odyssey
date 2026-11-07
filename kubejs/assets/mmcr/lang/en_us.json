@@ -22,5 +22,10 @@
   "machine.mmcr.packaged_nature_altar":"Packaged Natural Altar",
   "recipe_pool.mmcr.packaged_nature_altar":"Packaged Natural Altar",
   "item.mmcr.packaged_nature_altar_controller":"Packaged Natural Altar Controller",
-  "block.mmcr.packaged_nature_altar_controller":"Packaged Natural Altar Controller"
+  "block.mmcr.packaged_nature_altar_controller":"Packaged Natural Altar Controller",
+
+  "machine.mmcr.packaged_offering_table":"Packaged Offering Table",
+  "recipe_pool.mmcr.packaged_offering_table":"Packaged Offering Table",
+  "item.mmcr.packaged_offering_table_controller":"Packaged Offering Table Controller",
+  "block.mmcr.packaged_offering_table_controller":"Packaged Offering Table Controller"
 }

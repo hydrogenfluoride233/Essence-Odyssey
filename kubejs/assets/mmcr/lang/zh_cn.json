@@ -24,6 +24,11 @@
   "item.mmcr.packaged_nature_altar_controller":"封装自然祭坛控制器",
   "block.mmcr.packaged_nature_altar_controller":"封装自然祭坛控制器",
 
+  "machine.mmcr.packaged_offering_table":"封装祭祀台",
+  "recipe_pool.mmcr.packaged_offering_table":"封装祭祀台",
+  "item.mmcr.packaged_offering_table_controller":"封装祭祀台控制器",
+  "block.mmcr.packaged_offering_table_controller":"封装祭祀台控制器",
+
   "block.mmcr.chemical_input_hatch_basic":"基础化学品输入仓",
   "block.mmcr.chemical_output_hatch_basic":"基础化学品输出仓",
   "block.mmcr.chemical_input_hatch_advanced":"高级化学品输入仓",
