@@ -7437,7 +7437,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-extras.pw.toml"
-hash = "69486ec13c1760ed233275a6cd92219a435826806e4a668131cc06e7ec3b5d07"
+hash = "efbfbadc52ed321056cb43a7a70a521ed9657640e6132c63ed81741a4feb3f91"
 metafile = true
 
 [[files]]
@@ -7797,7 +7797,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d40a69f11492c5d836cf1391b02edf806abd739c1b41e39aff7151d28369a99d"
+hash = "8ea22b52142b97ea8b5bd0d732c5a59e9184b2b999d3d448c74186466d0e1e06"
 metafile = true
 
 [[files]]
