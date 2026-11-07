@@ -10,12 +10,15 @@ ServerEvents.recipes(event=>{
     event.remove({output:"naturesaura:token_anger"})                //愤怒印记
     event.remove({output:"naturesaura:token_fear"})                 //恐惧印记
     event.remove({output:"naturesaura:token_joy"})                  //愉悦印记
+    event.remove({output:"naturesaura:crushing_catalyst"})          //崩坏催化器
     event.remove({id:"naturesaura:altar/infused_iron"})             //灌注铁锭
     event.remove({id:"naturesaura:altar/infused_iron_block"})       //灌注铁块
     event.remove({id:"naturesaura:altar/infused_stone"})            //灌注之石
     event.remove({id:"naturesaura:altar/tainted_gold"})             //污染黄金
     event.remove({id:"naturesaura:altar/tainted_gold_block"})       //污染金块
     event.remove({id:"naturesaura:altar/soul_sand_crushing"})       //灵魂土
+    event.remove({id:"naturesaura:altar/gold_powder"})              //金叶粉
+    event.remove({id:"naturesaura:altar/amethyst"})                 //紫水晶碎片
     event.remove({id:"naturesaura:lower_limiter"})                  //灵气失衡区
     event.remove({id:"naturesaura:generator_limit_remover"})        //制造催化剂
     event.remove({id:"naturesaura:spring"})                         //永恒之泉
@@ -54,96 +57,6 @@ ServerEvents.recipes(event=>{
             ],
             "minecraft:oak_sapling",20
         ],//黄金叶
-
-        [ 
-            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'naturesaura:overworld'}]",
-            [
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "kubejs:crystal_aqua",
-                "kubejs:crystal_aqua",
-                "kubejs:crystal_aqua",
-                "kubejs:crystal_aqua",
-            ],
-            "integrateddynamics:menril_sapling",40
-        ],//瓶装阳光
-
-        [
-            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'naturesaura:nether'}]",
-            [
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "kubejs:crystal_ignis",
-                "kubejs:crystal_ignis",
-                "kubejs:crystal_ignis",
-                "kubejs:crystal_ignis",
-            ],
-            "integrateddynamics:menril_sapling",40
-        ],//瓶装鬼魂
-
-        [
-            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'kubejs:twilight_forest'}]",
-            [
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "kubejs:crystal_terra",
-                "kubejs:crystal_terra",
-                "kubejs:crystal_terra",
-                "kubejs:crystal_terra",
-            ],
-            "integrateddynamics:menril_sapling",40
-        ],//瓶装暮光
-
-        [
-            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'kubejs:aether'}]",
-            [
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "kubejs:crystal_aer",
-                "kubejs:crystal_aer",
-                "kubejs:crystal_aer",
-                "kubejs:crystal_aer",
-            ],
-            "integrateddynamics:menril_sapling",40
-        ],//瓶装曙光
-
-        [
-            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'naturesaura:end'}]",
-            [
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "kubejs:crystal_perditio",
-                "kubejs:crystal_perditio",
-                "kubejs:crystal_perditio",
-                "kubejs:crystal_perditio",
-            ],
-            "integrateddynamics:menril_sapling",40
-        ],//瓶装黑暗
-
-        [
-            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'kubejs:starlight'}]",
-            [
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "naturesaura:bottle_two_the_rebottling",
-                "kubejs:crystal_ordo",
-                "kubejs:crystal_ordo",
-                "kubejs:crystal_ordo",
-                "kubejs:crystal_ordo",
-            ],
-            "integrateddynamics:menril_sapling",40
-        ],//瓶装星光
 
         [
             "ars_nouveau:imbuement_chamber",
@@ -321,10 +234,10 @@ ServerEvents.recipes(event=>{
         [
             "starbunclemania:fluid_sourcelink",
             [
-                "sauce:source_fluid_bucket",
+                "minecraft:lava_bucket",
                 "ars_nouveau:source_gem_block",
-                "sauce:source_fluid_bucket",
-                "sauce:source_fluid_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
                 "createaddition:gold_rod",
                 "createaddition:gold_rod",
                 "createaddition:gold_rod",
@@ -540,7 +453,7 @@ ServerEvents.recipes(event=>{
         [
             "neovitae:ara_vitae",
             [
-                "#twilightforest:fiery_vial",
+                "kubejs:fiery_blood_bucket",
                 "naturesaura:nature_altar",
                 "kubejs:aqua_fluid_bucket",
                 "kubejs:terra_fluid_bucket",
@@ -551,50 +464,38 @@ ServerEvents.recipes(event=>{
             ],
             "minecraft:poplar_sapling",200
         ],//命血祭坛
+
+        [
+            "naturesaura:crushing_catalyst",
+            [
+                "naturesaura:gold_brick",
+                "naturesaura:infused_stone",
+                "create:mechanical_piston",
+                "naturesaura:infused_iron",
+                "ars_nouveau:glyph_crush",
+                "create:crushing_wheel",
+                "naturesaura:token_anger",
+                "kubejs:token_confusion"
+            ],
+            "minecraft:acacia_sapling",100
+        ],//崩坏催化器
     ]
 
     TreeRitualList.forEach(([output,input,sapling,time])=>{
         event.recipes.naturesaura.tree_ritual(output,input,sapling,time)
-
-        event.recipes.occultism.ritual(
-            output,
-            [
-                "naturesaura:gold_powder",
-                "naturesaura:gold_powder",
-                "naturesaura:gold_powder",
-                "naturesaura:gold_powder"
-            ].concat(input),
-            sapling,
-            "occultism:ritual_tree",
-            30
-        ).ritualDummy("kubejs:ritual_tree")
+        packagedTreeRitual(event,output,input,sapling)
     })
 
-    //封装森林仪式
     event.forEachRecipe({type:"naturesaura:tree_ritual"},recipe=>{
-        const source=JSON.parse(recipe.json)
-        const ingredients=source.ingredients
-        const sapling=source.sapling || source.input
-        const output=source.output || source.result
+        const source = JSON.parse(recipe.json)
 
-        if(!output || !ingredients || ingredients.length===0 || !sapling) return
+        if(!source.ingredients || source.ingredients.length===0) return
 
-        event.recipes.occultism.ritual(
-            output,
-            [
-                "naturesaura:gold_powder",
-                "naturesaura:gold_powder",
-                "naturesaura:gold_powder",
-                "naturesaura:gold_powder"
-            ].concat(ingredients),
-            sapling,
-            "occultism:ritual_tree",
-            30
-        ).ritualDummy("kubejs:ritual_tree")
+        packagedTreeRitual(event,source.output || source.result,source.ingredients,source.sapling || source.input)
     })
 
     //自然祭坛
-    //格式:[输出,输入,灵气消耗,时间];时间单位为 tick
+    //格式:[输出,输入,灵气消耗,时间,催化剂];时间单位为 tick,催化剂可选
     const AltarList = [
         [
             "naturesaura:infused_iron",
@@ -625,10 +526,33 @@ ServerEvents.recipes(event=>{
             "immersiveengineering:storage_electrum",
             90000,50
         ],//污染金块
+
+        [
+            "8x naturesaura:gold_powder",
+            "naturesaura:gold_leaf",
+            1500,10,"naturesaura:crushing_catalyst"
+        ],//金叶粉
+
+        [
+            "4x minecraft:amethyst_shard",
+            "minecraft:amethyst_block",
+            20000,100,"naturesaura:crushing_catalyst"
+        ],//紫水晶碎片
     ]
 
-    AltarList.forEach(([output,input,aura,time])=>{
-        event.recipes.naturesaura.altar(output,input,aura,time)
+    AltarList.forEach(([output,input,aura,time,catalyst])=>{
+        if(catalyst) event.recipes.naturesaura.altar(output,input,aura,time,catalyst)
+        else event.recipes.naturesaura.altar(output,input,aura,time)
+
+        packagedNatureAltar(event,output,input,aura)
+    })
+
+    event.forEachRecipe({type:"naturesaura:altar"},recipe=>{
+        const source = JSON.parse(recipe.json)
+
+        if(!source.input || !source.output || !source.aura) return
+
+        packagedNatureAltar(event,source.output,source.input,source.aura)
     })
 
     //祭祀台

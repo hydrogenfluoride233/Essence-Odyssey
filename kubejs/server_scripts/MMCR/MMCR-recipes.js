@@ -1,13 +1,3 @@
-const parseImbuementInput = ingredient=>{
-    if(typeof ingredient!=="string") return ingredient
-
-    const {count,id}=parseCounted(ingredient)
-
-    return id.startsWith("#") ?
-        {"count":count,"item":{"tag":id.substring(1)}} :
-        {"count":count,"item":{"item":id}}
-}
-
 ServerEvents.recipes(event=>{
     //工业灌注室
     //格式:[输入,输出,魔源,配方名]
@@ -92,20 +82,23 @@ ServerEvents.recipes(event=>{
 
     ]
 
-    ImbuementList.forEach(([input,output,source,name])=>
+    ImbuementList.forEach(([input,output,source,name],index)=>{
+        const ingredient = packagedIngredient(input)
+        const stack = packagedStack(output)
+
+        if(!ingredient || !stack) return
+
+        const requirement = {"type":"minecraft:item","io":"input","count":ingredient.count || 1,"item":ingredient.item}
+
+        if(ingredient.components) requirement.components = ingredient.components
+
         event.custom({
             "type":"mmcr:machine_recipe",
             "recipe_pool":"mmcr:industrial_imbuement",
             "tick_time":40,
             "parallelized":true,
             "requirements":[
-                Object.assign(
-                    {
-                        "type":"minecraft:item",
-                        "io":"input"
-                    },
-                    parseImbuementInput(input)          //{count, item:{item|tag}}
-                ),
+                requirement,
                 {
                     "type":"ars_nouveau:source",
                     "io":"input",
@@ -114,10 +107,71 @@ ServerEvents.recipes(event=>{
                 {
                     "type":"minecraft:item",
                     "io":"output",
-                    "stack":toItemStack(output)
+                    "stack":stack
                 }
             ]
-        }).id(`mmcr:industrial_imbuement/${name}`)
-    )
+        }).id(`mmcr:industrial_imbuement/${name || index+1}`)
+    })
+
+    //封装森林仪式：
+    //格式:[输出,原料数组,树苗,配方名]；4 份金叶粉与耗电自动补
+    const PackagedList = [
+        [
+            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'naturesaura:overworld'}]",
+            [
+                "4x naturesaura:bottle_two_the_rebottling",
+                "4x kubejs:crystal_aqua"
+            ],
+            "integrateddynamics:menril_sapling","bottled_aqua"
+        ],//瓶装阳光
+
+        [
+            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'naturesaura:nether'}]",
+            [
+                "4x naturesaura:bottle_two_the_rebottling",
+                "4x kubejs:crystal_ignis"
+            ],
+            "integrateddynamics:menril_sapling","bottled_ignis"
+        ],//瓶装鬼魂
+
+        [
+            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'kubejs:twilight_forest'}]",
+            [
+                "4x naturesaura:bottle_two_the_rebottling",
+                "4x kubejs:crystal_terra"
+            ],
+            "integrateddynamics:menril_sapling","bottled_terra"
+        ],//瓶装暮光
+
+        [
+            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'kubejs:aether'}]",
+            [
+                "4x naturesaura:bottle_two_the_rebottling",
+                "4x kubejs:crystal_aer"
+            ],
+            "integrateddynamics:menril_sapling","bottled_aer"
+        ],//瓶装曙光
+
+        [
+            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'naturesaura:end'}]",
+            [
+                "4x naturesaura:bottle_two_the_rebottling",
+                "4x kubejs:crystal_perditio"
+            ],
+            "integrateddynamics:menril_sapling","bottled_perditio"
+        ],//瓶装黑暗
+
+        [
+            "4x naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:'kubejs:starlight'}]",
+            [
+                "4x naturesaura:bottle_two_the_rebottling",
+                "4x kubejs:crystal_ordo"
+            ],
+            "integrateddynamics:menril_sapling","bottled_ordo"
+        ],//瓶装星光
+    ]
+
+    PackagedList.forEach(([output,input,sapling,name])=>
+        packagedTreeRitual(event,output,input,sapling,name))
 })
 

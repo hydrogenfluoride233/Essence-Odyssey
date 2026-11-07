@@ -56,11 +56,6 @@ function generatePentacleEntry(ritual_name, x_placement, y_placement, parents, i
 }
 
 ServerEvents.tags("block",event=>{
-    //星辉系祭坛的标签：随星辉魔法正式加入移除，要复用就放开
-    // event.add("kubejs:altar_1",["kubejs:altar_1","kubejs:altar_2","kubejs:altar_3"])
-    // event.add("kubejs:altar_2",["kubejs:altar_2","kubejs:altar_3"])
-    // event.add("kubejs:altar_3",["kubejs:altar_3"])
-    // event.add("kubejs:altar_base",["create:cut_limestone_bricks","create:polished_cut_scorchia"])
     event.add("occultism:pentacle_materials",
         [
             "minecraft:obsidian",
@@ -68,21 +63,6 @@ ServerEvents.tags("block",event=>{
             "minecraft:lapis_block",
             "integrateddynamics:crystalized_menril_brick",
             "minecraft:stone_bricks",
-            "create:cut_limestone_bricks",
-            "create:cut_limestone",
-            "create:polished_cut_limestone",
-            "create:limestone_pillar",
-            "create:small_limestone_bricks",
-            "create:polished_cut_scorchia",
-            "minecraft:oak_planks",
-            "mekanism:steel_casing",
-            "mekanism:structural_glass",
-            "create:brass_casing",
-            "naturesaura:wood_stand",
-            "naturesaura:gold_powder",
-            // "kubejs:altar_1",       //星辉魔法占位祭坛：随正式版加入移除
-            // "kubejs:altar_2",
-            // "kubejs:altar_3",
         ])
     })
 
@@ -94,21 +74,6 @@ ServerEvents.tags("item",event=>{
             "minecraft:lapis_block",
             "integrateddynamics:crystalized_menril_brick",
             "minecraft:stone_bricks",
-            "create:cut_limestone_bricks",
-            "create:cut_limestone",
-            "create:polished_cut_limestone",
-            "create:limestone_pillar",
-            "create:small_limestone_bricks",
-            "create:polished_cut_scorchia",
-            "minecraft:oak_planks",
-            "mekanism:steel_casing",
-            "mekanism:structural_glass",
-            "create:brass_casing",
-            "naturesaura:wood_stand",
-            "naturesaura:gold_powder",
-            // "kubejs:altar_1",       //星辉魔法占位祭坛：随正式版加入移除
-            // "kubejs:altar_2",
-            // "kubejs:altar_3",
         ])
     })
 
@@ -145,139 +110,6 @@ ServerEvents.generateData("after_mods",event=>{
                 }
             ]
         },//符文祭坛
-
-        /*星辉系三座祭坛：随星辉魔法正式加入移除，要复用就整段放开
-        {
-            name: "ritual_astral_1",
-            icon: "kubejs:altar_1",
-            mapping: {
-                "0": pentacleSymbols.mid,
-                "1":{type:"modonomicon:tag",display:"kubejs:altar_1",tag:"#kubejs:altar_1"},
-                "a":{type:"modonomicon:block",block:"create:cut_limestone_bricks"},
-                "b":{type:"modonomicon:block",block:"create:cut_limestone"},
-                "c":{type:"modonomicon:block",block:"create:polished_cut_limestone"},
-                "d":{type:"modonomicon:block",block:"create:limestone_pillar"},
-                "e":{type:"modonomicon:block",block:"create:small_limestone_bricks"},
-                "f":{type:"modonomicon:block",block:"create:polished_cut_scorchia"},
-                "g":{type:"modonomicon:tag",display:"create:cut_limestone_bricks",tag:"#kubejs:altar_base"}
-            },
-            pattern:[
-                ["___________","_e_______e_","___________","___________","___________","___________","___________","___________","___________","_e_______e_","___________"],
-                ["___________","_d_______d_","___________","___________","___________","___________","___________","___________","___________","_d_______d_","___________"],
-                ["___________","_d_______d_","___________","___________","___________","_____0_____","___________","___________","___________","_d_______d_","___________"],
-                ["___________","_c_______c_","___________","___________","___________","_____1_____","___________","___________","___________","_c_______c_","___________"],
-                ["aaa_____aaa","abbaaaaabba","abgggggggba","_agffgffga_","_agfffffga_","_aggfffgga_","_agfffffga_","_agffgffga_","abgggggggba","abbaaaaabba","aaa_____aaa"]
-            ],
-            x_placement: -15,
-            y_placement: -2,
-            parents: [
-                {
-                    draw_arrow: true,
-                    entry: "pentacles/pentacle_overview",
-                    line_enabled: true,
-                    line_reversed: false
-                }
-            ]
-        },//星辉祭坛
-
-        {
-            name: "ritual_astral_2",
-            icon: "kubejs:altar_2",
-            mapping: {
-                "0": pentacleSymbols.mid,
-                "1":{type:"modonomicon:tag",display:"kubejs:altar_2",tag:"#kubejs:altar_2"},
-                "a":{type:"modonomicon:block",block:"create:cut_limestone_bricks"},
-                "b":{type:"modonomicon:block",block:"create:cut_limestone"},
-                "c":{type:"modonomicon:block",block:"create:polished_cut_limestone"},
-                "d":{type:"modonomicon:block",block:"create:limestone_pillar"},
-                "e":{type:"modonomicon:block",block:"create:small_limestone_bricks"},
-                "f":{type:"modonomicon:block",block:"create:polished_cut_scorchia"},
-                "g":{type:"modonomicon:tag",display:"create:cut_limestone_bricks",tag:"#kubejs:altar_base"}
-            },
-            pattern:[
-                ["___________","_ea_____ae_","_a_______a_","___________","___________","___________","___________","___________","_a_______a_","_ea_____ae_","___________"],
-                ["___________","_d_______d_","___________","___________","___________","___________","___________","___________","___________","_d_______d_","___________"],
-                ["___________","_d_______d_","___________","___________","___________","_____0_____","___________","___________","___________","_d_______d_","___________"],
-                ["___________","_c_______c_","___________","___________","___________","_____1_____","___________","___________","___________","_c_______c_","___________"],
-                ["aaa_____aaa","abbaaaaabba","abffgggffba","_afffffffa_","_agfffffga_","_agfffffga_","_agfffffga_","_afffffffa_","abffgggffba","abbaaaaabba","aaa_____aaa"]
-            ],
-            x_placement: -15,
-            y_placement: 1,
-            parents: [
-                {
-                    draw_arrow: true,
-                    entry: "pentacles/ritual_astral_1",
-                    line_enabled: true,
-                    line_reversed: false
-                }
-            ]
-        },//天辉祭坛
-
-        {
-            name: "ritual_astral_3",
-            icon: "kubejs:altar_3",
-            mapping: {
-                "0": pentacleSymbols.mid,
-                "1":{type:"modonomicon:tag",display:"kubejs:altar_3",tag:"#kubejs:altar_3"},
-                "a":{type:"modonomicon:block",block:"create:cut_limestone_bricks"},
-                "b":{type:"modonomicon:block",block:"create:cut_limestone"},
-                "c":{type:"modonomicon:block",block:"create:polished_cut_limestone"},
-                "d":{type:"modonomicon:block",block:"create:limestone_pillar"},
-                "e":{type:"modonomicon:block",block:"create:small_limestone_bricks"},
-                "f":{type:"modonomicon:block",block:"create:polished_cut_scorchia"},
-            },
-            pattern:[
-                ["___________","___________","__aaa_aaa__","__a_____a__","__a_____a__","___________","__a_____a__","__a_____a__","__aaa_aaa__","___________","___________"],
-                ["___________","_ea_____ae_","_a_______a_","___________","___________","___________","___________","___________","_a_______a_","_ea_____ae_","___________"],
-                ["___________","_d_______d_","___________","___________","___________","___________","___________","___________","___________","_d_______d_","___________"],
-                ["___________","_d_______d_","___________","___________","___________","_____0_____","___________","___________","___________","_d_______d_","___________"],
-                ["___________","_c_______c_","___________","___________","___________","_____1_____","___________","___________","___________","_c_______c_","___________"],
-                ["aaa_____aaa","abbaaaaabba","abfffffffba","_afffffffa_","_afffffffa_","_afffffffa_","_afffffffa_","_afffffffa_","abfffffffba","abbaaaaabba","aaa_____aaa"]
-            ],
-            x_placement: -15,
-            y_placement: 4,
-            parents: [
-                {
-                    draw_arrow: true,
-                    entry: "pentacles/ritual_astral_2",
-                    line_enabled: true,
-                    line_reversed: false
-                }
-            ]
-        },//五彩祭坛
-        */
-
-        {
-            name: "ritual_tree",
-            icon: "naturesaura:gold_leaf",
-            mapping: {
-                "0": pentacleSymbols.mid,
-                "1":{type:"modonomicon:block",block:"minecraft:oak_planks"},
-                "a":{type:"modonomicon:block",block:"mekanism:steel_casing"},
-                "b":{type:"modonomicon:block",block:"mekanism:structural_glass"},
-                "c":{type:"modonomicon:block",block:"create:brass_casing"},
-                "d":{type:"modonomicon:block",block:"naturesaura:wood_stand"},
-                "e":{type:"modonomicon:block",block:"naturesaura:gold_powder"},
-            },
-            pattern:[
-                ["ccccccccccc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","cbbbbbbbbbc","ccccccccccc"],
-                ["cbbbbbbbbbc","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","cbbbbbbbbbc"],
-                ["cbbbbbbbbbc","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","cbbbbbbbbbc"],
-                ["cbbbbbbbbbc","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","b_________b","cbbbbbbbbbc"],
-                ["cbbbbbbbbbc","b____d____b","b_d_____d_b","b___eee___b","b__ee_ee__b","bd_e_0_e_db","b__ee_ee__b","b___eee___b","b_d_____d_b","b____d____b","cbbbbbbbbbc"],
-                ["ccccccccccc","caaaaaaaaac","caaaaaaaaac","caaa111aaac","caa11111aac","caa11111aac","caa11111aac","caaa111aaac","caaaaaaaaac","caaaaaaaaac","ccccccccccc"]
-            ],
-            x_placement: -10,
-            y_placement: -8,
-            parents: [
-                {
-                    draw_arrow: false,
-                    entry: "pentacles/pentacle_overview",
-                    line_enabled: false,
-                    line_reversed: false
-                }
-            ]
-        },//封装森林仪式
     ]
 
     pentacles.forEach((pentacle) => {
@@ -400,6 +232,4 @@ ServerEvents.recipes(event=>{
             20
         ).ritualDummy("kubejs:ritual_rune")
     )
-
-    //五彩祭坛：占位祭坛已随星辉魔法正式版移除
 })
