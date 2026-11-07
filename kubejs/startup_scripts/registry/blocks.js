@@ -31,14 +31,13 @@ StartupEvents.registry("block",event=>{
             .resistance(resistance)
             .requiresTool(true))
 
-    //封装树木信标：玻璃外壳里嵌星辉的树木信标模型，只当结构方块用（无方块实体、无工作范围）
+    //封装树木信标：注星木台座上长着星辉的树木信标，只当结构方块用（无方块实体、无工作范围）
     event.create("packaged_tree_beacon")
-        .tagBlock(toolType.pickaxe)
-        .tagBlock(miningLevel.stone)
-        .soundType("glass")
-        .hardness(1)
+        .copyPropertiesFrom("minecraft:glass")//继承 canOcclude=false，否则模型比整格窄时四周缝里会看见虚空
+        .soundType("wood")
+        .hardness(2)
         .resistance(3)
-        .requiresTool(true)
+        .tagBlock(toolType.axe)
 
     event.create("blood_clot")
     .soundType("honey_block")
