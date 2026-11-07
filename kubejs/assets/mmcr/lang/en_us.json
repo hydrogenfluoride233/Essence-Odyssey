@@ -2,5 +2,25 @@
   "machine.mmcr.industrial_imbuement":"Industrial Imbuement Chamber",
   "recipe_pool.mmcr.industrial_imbuement":"Industrial Imbuement Chamber",
   "item.mmcr.industrial_imbuement_controller":"Industrial Imbuement Chamber Controller",
-  "block.mmcr.industrial_imbuement_controller":"Industrial Imbuement Chamber Controller"
+  "block.mmcr.industrial_imbuement_controller":"Industrial Imbuement Chamber Controller",
+
+  "machine.mmcr.past_astral_altar":"Iridescent Altar in Memory",
+  "recipe_pool.mmcr.past_astral_altar":"Iridescent Altar in Memory",
+  "item.mmcr.past_astral_altar_controller":"Iridescent Altar Controller",
+  "block.mmcr.past_astral_altar_controller":"Iridescent Altar Controller",
+
+  "machine.mmcr.data_extractor":"Data Extraction Chamber",
+  "recipe_pool.mmcr.data_extractor":"Data Extraction Chamber",
+  "item.mmcr.data_extractor_controller":"Data Extraction Chamber Controller",
+  "block.mmcr.data_extractor_controller":"Data Extraction Chamber Controller",
+
+  "machine.mmcr.packaged_tree_ritual":"Packaged Tree Ritual",
+  "recipe_pool.mmcr.packaged_tree_ritual":"Packaged Tree Ritual",
+  "item.mmcr.packaged_tree_ritual_controller":"Packaged Tree Ritual Controller",
+  "block.mmcr.packaged_tree_ritual_controller":"Packaged Tree Ritual Controller",
+
+  "machine.mmcr.packaged_nature_altar":"Packaged Natural Altar",
+  "recipe_pool.mmcr.packaged_nature_altar":"Packaged Natural Altar",
+  "item.mmcr.packaged_nature_altar_controller":"Packaged Natural Altar Controller",
+  "block.mmcr.packaged_nature_altar_controller":"Packaged Natural Altar Controller"
 }

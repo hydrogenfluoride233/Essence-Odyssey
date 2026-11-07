@@ -2,9 +2,5 @@
     "book.occultism.dictionary_of_spirits.pentacles.ritual_rune.name": "符文祭坛",
     "book.occultism.dictionary_of_spirits.pentacles.ritual_rune.intro.title": "符文祭坛",
     "book.occultism.dictionary_of_spirits.pentacles.ritual_rune.intro.text": "来自精灵国度的神秘力量将帮助你合成符文。",
-    "multiblock.occultism.ritual_rune": "符文祭坛",
-    "book.occultism.dictionary_of_spirits.pentacles.ritual_tree.name": "封装森林仪式",
-    "book.occultism.dictionary_of_spirits.pentacles.ritual_tree.intro.title": "封装森林仪式",
-    "book.occultism.dictionary_of_spirits.pentacles.ritual_tree.intro.text": "把森林仪式封进玻璃温室：金粉法阵借助仍在生长的生命，把投入的材料所描述的规律写回现实。",
-    "multiblock.occultism.ritual_tree": "封装森林仪式"
+    "multiblock.occultism.ritual_rune": "符文祭坛"
 }

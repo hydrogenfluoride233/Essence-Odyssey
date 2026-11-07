@@ -3,10 +3,27 @@
   "recipe_pool.mmcr.industrial_imbuement":"工业灌注室",
   "item.mmcr.industrial_imbuement_controller":"工业灌注室控制器",
   "block.mmcr.industrial_imbuement_controller":"工业灌注室控制器",
+
   "machine.mmcr.past_astral_altar":"记忆中的五彩祭坛",
   "recipe_pool.mmcr.past_astral_altar":"记忆中的五彩祭坛",
-  "item.mmcr.past_astral_altar_controller":"记忆中的五彩祭坛控制器",
-  "block.mmcr.past_astral_altar_controller":"记忆中的五彩祭坛控制器",
+  "item.mmcr.past_astral_altar_controller":"五彩祭坛控制器",
+  "block.mmcr.past_astral_altar_controller":"五彩祭坛控制器",
+
+  "machine.mmcr.data_extractor":"数据提取室",
+  "recipe_pool.mmcr.data_extractor":"数据提取室",
+  "item.mmcr.data_extractor_controller":"数据提取室控制器",
+  "block.mmcr.data_extractor_controller":"数据提取室控制器",
+
+  "machine.mmcr.packaged_tree_ritual":"封装森林仪式",
+  "recipe_pool.mmcr.packaged_tree_ritual":"封装森林仪式",
+  "item.mmcr.packaged_tree_ritual_controller":"封装森林仪式控制器",
+  "block.mmcr.packaged_tree_ritual_controller":"封装森林仪式控制器",
+
+  "machine.mmcr.packaged_nature_altar":"封装自然祭坛",
+  "recipe_pool.mmcr.packaged_nature_altar":"封装自然祭坛",
+  "item.mmcr.packaged_nature_altar_controller":"封装自然祭坛控制器",
+  "block.mmcr.packaged_nature_altar_controller":"封装自然祭坛控制器",
+
   "block.mmcr.chemical_input_hatch_basic":"基础化学品输入仓",
   "block.mmcr.chemical_output_hatch_basic":"基础化学品输出仓",
   "block.mmcr.chemical_input_hatch_advanced":"高级化学品输入仓",
