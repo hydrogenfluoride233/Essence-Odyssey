@@ -1,0 +1,15 @@
+{
+  "loader": "neoforge:composite",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "minecraft:block/glass"
+  },
+  "children": {
+    "beacon": {
+      "parent": "astralsorcery:block/tree_beacon"
+    },
+    "shell": {
+      "parent": "minecraft:block/glass"
+    }
+  }
+}

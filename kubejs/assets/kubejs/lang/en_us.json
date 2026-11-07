@@ -232,5 +232,6 @@
   "block.kubejs.blood_clot":"Blood Clot",
   "block.kubejs.fiery_blood":"Fiery Blood",
   "fluid_type.kubejs.fiery_blood":"Fiery Blood",
-  "item.kubejs.fiery_blood_bucket":"Fiery Blood Bucket"
+  "item.kubejs.fiery_blood_bucket":"Fiery Blood Bucket",
+  "block.kubejs.packaged_tree_beacon":"Packaged Tree Beacon"
 }

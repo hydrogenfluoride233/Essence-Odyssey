@@ -231,5 +231,6 @@
   "block.kubejs.blood_clot":"凝血块",
   "block.kubejs.fiery_blood":"炽热的血液",
   "fluid_type.kubejs.fiery_blood":"炽热的血液",
-  "item.kubejs.fiery_blood_bucket":"炽热的血液桶"
+  "item.kubejs.fiery_blood_bucket":"炽热的血液桶",
+  "block.kubejs.packaged_tree_beacon":"封装树木信标"
 }

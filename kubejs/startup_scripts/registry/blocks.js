@@ -31,6 +31,15 @@ StartupEvents.registry("block",event=>{
             .resistance(resistance)
             .requiresTool(true))
 
+    //封装树木信标：玻璃外壳里嵌星辉的树木信标模型，只当结构方块用（无方块实体、无工作范围）
+    event.create("packaged_tree_beacon")
+        .tagBlock(toolType.pickaxe)
+        .tagBlock(miningLevel.stone)
+        .soundType("glass")
+        .hardness(1)
+        .resistance(3)
+        .requiresTool(true)
+
     event.create("blood_clot")
     .soundType("honey_block")
     .hardness(0)
