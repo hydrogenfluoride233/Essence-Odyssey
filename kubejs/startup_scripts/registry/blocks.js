@@ -34,6 +34,7 @@ StartupEvents.registry("block",event=>{
     //封装树木信标：注星木台座上长着星辉的树木信标，只当结构方块用（无方块实体、无工作范围）
     event.create("packaged_tree_beacon")
         .copyPropertiesFrom("minecraft:glass")//继承 canOcclude=false，否则模型比整格窄时四周缝里会看见虚空
+        .box(3, 0, 3, 13, 16, 13)//碰撞箱与星辉树木信标一致：xz 各 10 像素、满高
         .soundType("wood")
         .hardness(2)
         .resistance(3)
