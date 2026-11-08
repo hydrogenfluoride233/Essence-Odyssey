@@ -227,6 +227,8 @@ const packagedNatureAltar = (event,output,input,aura)=>{
 
 //工业灌注室：原料 + 魔源 + 产物，40 tick
 const mmcrImbuement = (event,input,output,source)=>{
+    if(!input || !output || !source) return                          //魔源省不得，缺了就整条不出
+
     const requirements = [mmcrItemInput(input),mmcrSourceInput(source),mmcrItemOutput(output)]
 
     if(requirements.some(value=>!value)) return

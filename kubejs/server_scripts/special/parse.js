@@ -103,8 +103,11 @@ const squeezerJson = (type,input,output,chances,fluid,duration)=>{
     }
 
     const outputs = output ? [squeezerStack(output)] : []
+    const chanceList = asRecipeArray(chances || [])
+    const pairs = (typeof chanceList[0]==="number" ? [chanceList] : chanceList)
+        .filter(pair=>Array.isArray(pair) && typeof pair[0]==="number" && pair[1])   //只写一对时不用再套一层
 
-    asRecipeArray(chances || []).slice(0,2).forEach(([chance,item])=>
+    pairs.slice(0,2).forEach(([chance,item])=>
         outputs.push(Object.assign(squeezerStack(item),{"chance":chance})))
 
     if(outputs.length===0 && !fluid) return null                      //挤压机至少要有一个产物
