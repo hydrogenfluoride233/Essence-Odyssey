@@ -1,3 +1,10 @@
+//宝典：星盘的配方页原本指向工作台配方（已删），去掉这一页，合成看 JEI
+AstralSorcery.research(event=>{
+    event.modify("astralsorcery:astrolabe",node=>{
+        node.removePage(2)
+    })
+})
+
 ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"entangled:block"})//纠缠方块
