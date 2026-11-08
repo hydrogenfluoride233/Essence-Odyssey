@@ -2,7 +2,42 @@ ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"entangled:block"})//纠缠方块
 
+    event.remove({id:"astralsorcery:astrolabe"})
+    event.remove({id:"astralsorcery:altar/astrolabe"})//星盘
+    event.remove({id:"astralsorcery:focal_combine/altar_illumination"})//启明工作台
+    event.remove({id:"astralsorcery:focal_combine/wand"})//共振星杖
+
     //星能物品嬗变
+    //格式:[输出,输入]；id 沿用模组原来的 focal_combine/<输出名>，等于把那两条改成我们的配方
+    const FocalCombineList = [
+        [
+            "astralsorcery:altar_illumination",
+            [
+                "astralsorcery:marble_raw",
+                "astralsorcery:marble_raw",
+                "astralsorcery:marble_raw",
+                "astralsorcery:marble_raw",
+                "craftingstation:crafting_station",
+                "ae2:not_so_mysterious_cube"
+            ]
+        ],//启明工作台
+
+        [
+            "astralsorcery:wand",
+            [
+                "astralsorcery:marble_raw",
+                "astralsorcery:marble_raw",
+                "kubejs:crystal_ignis",
+                "kubejs:crystal_aer",
+                "minecraft:echo_shard",
+                "astralsorcery:aquamarine"
+            ]
+        ],//共振星杖
+    ]
+
+    FocalCombineList.forEach(([output,input])=>
+        event.recipes.astralsorcery.focal_combine(output,input)
+            .id(`astralsorcery:focal_combine/${parseCounted(output).id.split(":")[1]}`))
 
     //祭坛合成
     event.recipes.astralsorcery.altar_crafting(
@@ -22,13 +57,7 @@ ServerEvents.recipes(event=>{
             K:"neovitae:tabula_aetherea"
         })
         .type("luminance")
-        .relay([
-            "   GG",
-            " CAGG",
-            " E B ",
-            " HFD ",
-            "H    "]
-        )
+        .relay(["   GG"," CAGG"," E B "," HFD ","H    "])
         .copyComponents("grid",4)
         .additional("neovitae:tabula_aetherea")
         .additional("neovitae:tabula_aetherea")
@@ -60,13 +89,7 @@ ServerEvents.recipes(event=>{
             Y:"astralsorcery:resonating_gem"
         })
         .type("radiance")
-        .relay([
-            "XXYXX",
-            "XYBYX",
-            "YB BY",
-            "XYBYX",
-            "XXYXX"]
-        )
+        .relay(["XXYXX","XYBYX","YB BY","XYBYX","XXYXX"])
         .duration(300)
         .additional("naturesaura:clock_hand")
         .additional("modularrouters:speed_upgrade")
@@ -76,4 +99,20 @@ ServerEvents.recipes(event=>{
         .fluid("create_enchantment_industry:apotheotic_essence",1000)
         .fluid("create_enchantment_industry:apotheotic_essence",1000)
         .lumen("astralsorcery:aion",500)//工厂控制器
+
+    event.recipes.astralsorcery.altar_crafting(
+        "integrateddynamics:mechanical_squeezer",
+        [" B ","DED"," B "],
+        {
+            A:"immersiveengineering:stick_treated",
+            B:"integrateddynamics:energy_battery",
+            C:"astralsorcery:infused_wood_enriched",
+            D:"immersiveengineering:capacitor_hv",
+            E:"integrateddynamics:squeezer"
+        })
+        .type("resonance")
+        .relay([""," A A "," A A "," CCC ",""])
+        .additional("astralsorcery:stardust")
+        .additional("astralsorcery:stardust")
+        .additional("astralsorcery:stardust")//电动挤压机
 })
