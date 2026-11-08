@@ -207,8 +207,11 @@ const packagedRecipe = (event,pool,output,inputs,extra)=>{
 //========== 各机器 ==========
 
 //封装森林仪式：原料 + 树苗 + 4 份金叶粉
-const packagedTreeRitual = (event,output,inputs,sapling)=>
+const packagedTreeRitual = (event,output,inputs,sapling)=>{
+    if(!sapling) throw new Error(`封装森林仪式缺树苗：${output}`)
+
     packagedRecipe(event,"mmcr:packaged_tree_ritual",output,inputs.concat([sapling]),["4x naturesaura:gold_powder"])
+}
 
 //封装自然祭坛：原料 + 魔源（灵气 ÷ 30 后向上取整到 50）+ 机器运转电
 const packagedNatureAltar = (event,output,input,aura)=>{
