@@ -140,8 +140,8 @@ const packagedNextIndex = pool=>{
     return packagedCounters[pool]
 }
 
-//mmcrRecipe(event,配方池,需求数组,时长,配方名)：所有 MMCR 配方最后都走这里
-const mmcrRecipe = (event,pool,requirements,tick,name)=>{
+//mmcrRecipe(event,配方池,需求数组,时长)：所有 MMCR 配方最后都走这里，id 按配方池各自从 1 编号
+const mmcrRecipe = (event,pool,requirements,tick)=>{
     if(!requirements || requirements.length===0) return
 
     const poolPath = String(pool).replace(/^mmcr:/,"")
@@ -152,12 +152,12 @@ const mmcrRecipe = (event,pool,requirements,tick,name)=>{
         "tick_time":tick,
         "parallelized":true,
         "requirements":requirements
-    }).id(`mmcr:${poolPath}/${name}`)
+    }).id(`mmcr:${poolPath}/${packagedNextIndex(pool)}`)
 }
 
-//packagedRecipe(event,配方池,产物,原料数组,追加原料数组,配方名)
+//packagedRecipe(event,配方池,产物,原料数组,追加原料数组)
 //追加原料指每台机器都要额外吃的那几样（如森林仪式的 4 份金叶粉），不给就传 []；同一种原料自动合并数量
-const packagedRecipe = (event,pool,output,inputs,extra,name)=>{
+const packagedRecipe = (event,pool,output,inputs,extra)=>{
     const stack = packagedStack(output)
 
     if(!stack || !inputs || inputs.length===0) return
@@ -196,27 +196,24 @@ const packagedRecipe = (event,pool,output,inputs,extra,name)=>{
 
     if(keys.length===0) return
 
-    const index = packagedNextIndex(pool)
-
     mmcrRecipe(
         event,
         pool,
         keys.map(key=>slots[key])
             .concat(raw)
             .concat([mmcrEnergyInput(PackagedEnergy), mmcrStackOutput(stack)]),
-        PackagedTime,
-        name || index
+        PackagedTime
     )
 }
 
 //========== 各机器 ==========
 
 //封装森林仪式：原料 + 树苗 + 4 份金叶粉
-const packagedTreeRitual = (event,output,inputs,sapling,name)=>
-    packagedRecipe(event,"mmcr:packaged_tree_ritual",output,inputs.concat([sapling]),["4x naturesaura:gold_powder"],name)
+const packagedTreeRitual = (event,output,inputs,sapling)=>
+    packagedRecipe(event,"mmcr:packaged_tree_ritual",output,inputs.concat([sapling]),["4x naturesaura:gold_powder"])
 
 //封装自然祭坛：原料 + 魔源（灵气 ÷ 30 后向上取整到 50）+ 机器运转电
-const packagedNatureAltar = (event,output,input,aura,name)=>{
+const packagedNatureAltar = (event,output,input,aura)=>{
     const source = Math.max(50, Math.ceil(Math.ceil(aura / 30) / 50) * 50)   //取整到 50 的倍数
 
     return packagedRecipe(
@@ -224,16 +221,15 @@ const packagedNatureAltar = (event,output,input,aura,name)=>{
         "mmcr:packaged_nature_altar",
         output,
         [input],
-        [{"type":"ars_nouveau:source","io":"input","amount":source}],
-        name
+        [{"type":"ars_nouveau:source","io":"input","amount":source}]
     )
 }
 
 //工业灌注室：原料 + 魔源 + 产物，40 tick
-const mmcrImbuement = (event,input,output,source,name)=>{
+const mmcrImbuement = (event,input,output,source)=>{
     const requirements = [mmcrItemInput(input),mmcrSourceInput(source),mmcrItemOutput(output)]
 
     if(requirements.some(value=>!value)) return
 
-    mmcrRecipe(event,"mmcr:industrial_imbuement",requirements,40,name)
+    mmcrRecipe(event,"mmcr:industrial_imbuement",requirements,40)
 }
