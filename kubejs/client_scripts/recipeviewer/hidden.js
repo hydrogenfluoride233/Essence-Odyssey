@@ -84,3 +84,12 @@ RecipeViewerEvents.removeRecipes(event=>{
         "create:kjs/paradox_collapser", //悖论物质
     ])
 })
+
+//分类隐藏
+RecipeViewerEvents.removeCategories(event=>{
+    event.remove([
+        "ironfurnaces:generator_regular",  //强化组件：发电机
+        "ironfurnaces:generator_blasting", //发电机 | 高炉
+        "ironfurnaces:generator_smoking",  //发电机 | 烟熏炉
+    ])
+})
