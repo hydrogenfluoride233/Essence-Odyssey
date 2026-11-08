@@ -35,7 +35,6 @@ MMCREvents.startup(event => {
         .displayNameKey("machine.mmcr.packaged_tree_ritual")
         .recipePool("mmcr:packaged_tree_ritual")
         .appearance("create:andesite_casing")
-        .controllerBaseTexture("createmoremachines:block/end_casing")                    //控制器用陨星材质
         .allowParallelism()
         .maxParallelAmount(64)
         .allowMultithreading()
@@ -46,7 +45,6 @@ MMCREvents.startup(event => {
         .displayNameKey("machine.mmcr.packaged_nature_altar")
         .recipePool("mmcr:packaged_nature_altar")
         .appearance("create:brass_casing")
-        .controllerBaseTexture("createmoremachines:block/end_casing")                    //控制器用陨星材质
         .allowParallelism()
         .maxParallelAmount(64)
         .allowMultithreading()
@@ -57,7 +55,6 @@ MMCREvents.startup(event => {
         .displayNameKey("machine.mmcr.packaged_offering_table")
         .recipePool("mmcr:packaged_offering_table")
         .appearance("createmoremachines:end_casing")
-        .controllerBaseTexture("createmoremachines:block/end_casing")                    //控制器用陨星材质
         .allowParallelism()
         .maxParallelAmount(64)
         .allowMultithreading()
