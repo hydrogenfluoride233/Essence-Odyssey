@@ -104,13 +104,10 @@ const squeezerJson = (type,input,output,chances,fluid,duration)=>{
 
     const outputs = output ? [squeezerStack(output)] : []
     const chanceList = asRecipeArray(chances || [])
-    const pairs = (typeof chanceList[0]==="number" ? [chanceList] : chanceList)
-        .filter(pair=>Array.isArray(pair) && typeof pair[0]==="number" && pair[1])   //只写一对时不用再套一层
+    const pairs = typeof chanceList[0]==="number" ? [chanceList] : chanceList   //只写一对时不用再套一层
 
     pairs.slice(0,2).forEach(([chance,item])=>
         outputs.push(Object.assign(squeezerStack(item),{"chance":chance})))
-
-    if(outputs.length===0 && !fluid) return null                      //挤压机至少要有一个产物
 
     if(outputs.length) recipe.output_items = outputs
     if(fluid) recipe.output_fluid = toFluidJson(fluid)
@@ -123,16 +120,10 @@ const SqueezerTime = 100                                                //电动
 
 //挤压机：主产物 + 概率副产物 + 流体
 //格式:[输入,主产物,副产物数组,流体]；副产物写 [[概率,"Nx 物品id"],…]，最多两种；不需要的填 null
-const squeezer = (event,input,output,chances,fluid)=>{
-    const recipe = squeezerJson("integrateddynamics:squeezer",input,output,chances,fluid)
-
-    if(recipe) event.custom(recipe)
-}
+const squeezer = (event,input,output,chances,fluid)=>
+    event.custom(squeezerJson("integrateddynamics:squeezer",input,output,chances,fluid))
 
 //电动挤压机：同上，末位多一个时长（tick）
-const mechanicalSqueezer = (event,input,output,chances,fluid,duration)=>{
-    const recipe = squeezerJson("integrateddynamics:mechanical_squeezer",input,output,chances,fluid,duration || SqueezerTime)
-
-    if(recipe) event.custom(recipe)
-}
+const mechanicalSqueezer = (event,input,output,chances,fluid,duration)=>
+    event.custom(squeezerJson("integrateddynamics:mechanical_squeezer",input,output,chances,fluid,duration || SqueezerTime))
 

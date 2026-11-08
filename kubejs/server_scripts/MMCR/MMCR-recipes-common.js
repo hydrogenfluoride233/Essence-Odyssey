@@ -142,8 +142,6 @@ const packagedNextIndex = pool=>{
 
 //mmcrRecipe(event,配方池,需求数组,时长)：所有 MMCR 配方最后都走这里，id 按配方池各自从 1 编号
 const mmcrRecipe = (event,pool,requirements,tick)=>{
-    if(!requirements || requirements.length===0) return
-
     const poolPath = String(pool).replace(/^mmcr:/,"")
 
     event.custom({
@@ -226,12 +224,5 @@ const packagedNatureAltar = (event,output,input,aura)=>{
 }
 
 //工业灌注室：原料 + 魔源 + 产物，40 tick
-const mmcrImbuement = (event,input,output,source)=>{
-    if(!input || !output || !source) return                          //魔源省不得，缺了就整条不出
-
-    const requirements = [mmcrItemInput(input),mmcrSourceInput(source),mmcrItemOutput(output)]
-
-    if(requirements.some(value=>!value)) return
-
-    mmcrRecipe(event,"mmcr:industrial_imbuement",requirements,40)
-}
+const mmcrImbuement = (event,input,output,source)=>
+    mmcrRecipe(event,"mmcr:industrial_imbuement",[mmcrItemInput(input),mmcrSourceInput(source),mmcrItemOutput(output)],40)
