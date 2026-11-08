@@ -14,12 +14,6 @@ ServerEvents.recipes(event=>{
     event.remove({id:"neovitae:meteor/ae2"})
     event.remove({id:"neovitae:ritual_diviner_deus"})   //仪式占卜杖[神圣]
 
-    //配方修改
-    event.replaceInput({mod:"neovitae"},"minecraft:deepslate","pneumaticcraft:reinforced_stone")
-    //金锭、铁锭换成烈焰金锭与核源铁锭；athanor 是把铁锭拆成铁粉的，排除掉
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:gold_ingot","justdirethings:blazegold_ingot")
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:iron_ingot","justdirethings:ferricore_ingot")
-
     //命血祭坛
     //格式:[输出,输入,祭坛等级,EV,消耗速率,回退速率]
     const AraList = [
@@ -56,6 +50,18 @@ ServerEvents.recipes(event=>{
         "minecraft:gold_block",
         "cataclysm:lacrima"
     )//巫师生命宝珠
+
+    //配方修改：全模组替换，写在具体条目之后，免得抢掉上面那几条
+    event.replaceInput({mod:"neovitae"},"minecraft:deepslate","pneumaticcraft:reinforced_stone")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:gold_ingot","justdirethings:blazegold_ingot")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:iron_ingot","justdirethings:ferricore_ingot")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:diamond","justdirethings:celestigem")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:netherite_ingot","justdirethings:eclipsealloy_ingot")
+    //块状形态
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:iron_block","justdirethings:ferricore_block")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:gold_block","justdirethings:blazegold_block")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:diamond_block","justdirethings:celestigem_block")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:netherite_block","justdirethings:eclipsealloy_block")
 
     //陨星仪式
     //格式:[输入,生命源质,爆炸半径,陨石层]

@@ -1,10 +1,3 @@
-//宝典：星盘的配方页原本指向工作台配方（已删），去掉这一页，合成看 JEI
-AstralSorcery.research(event=>{
-    event.modify("astralsorcery:astrolabe",node=>{
-        node.removePage(2)
-    })
-})
-
 ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"entangled:block"})//纠缠方块
@@ -13,38 +6,51 @@ ServerEvents.recipes(event=>{
     event.remove({id:"astralsorcery:altar/astrolabe"})//星盘
     event.remove({id:"astralsorcery:focal_combine/altar_illumination"})//启明工作台
     event.remove({id:"astralsorcery:focal_combine/wand"})//共振星杖
+    event.remove({id:"astralsorcery:glass_lens"})//玻璃透镜
+
+    //配方修改
+    event.replaceInput({mod:"astralsorcery"},"minecraft:gold_ingot","justdirethings:blazegold_ingot")
+    event.replaceInput({mod:"appliedas"},"minecraft:gold_ingot","justdirethings:blazegold_ingot")
+    event.replaceInput({mod:"astralsorcery"},"minecraft:iron_ingot","justdirethings:ferricore_ingot")
+    event.replaceInput({mod:"appliedas"},"minecraft:iron_ingot","justdirethings:ferricore_ingot")
+    event.replaceInput({mod:"astralsorcery"},"minecraft:diamond","justdirethings:celestigem")
+    event.replaceInput({mod:"appliedas"},"minecraft:diamond","justdirethings:celestigem")
+    event.replaceInput({mod:"astralsorcery"},"minecraft:netherite_ingot","justdirethings:eclipsealloy_ingot")
+    event.replaceInput({mod:"appliedas"},"minecraft:netherite_ingot","justdirethings:eclipsealloy_ingot")
+    //块状形态
+    event.replaceInput({mod:"astralsorcery"},"minecraft:iron_block","justdirethings:ferricore_block")
+    event.replaceInput({mod:"appliedas"},"minecraft:iron_block","justdirethings:ferricore_block")
+    event.replaceInput({mod:"astralsorcery"},"minecraft:gold_block","justdirethings:blazegold_block")
+    event.replaceInput({mod:"appliedas"},"minecraft:gold_block","justdirethings:blazegold_block")
+    event.replaceInput({mod:"astralsorcery"},"minecraft:diamond_block","justdirethings:celestigem_block")
+    event.replaceInput({mod:"appliedas"},"minecraft:diamond_block","justdirethings:celestigem_block")
+    event.replaceInput({mod:"astralsorcery"},"minecraft:netherite_block","justdirethings:eclipsealloy_block")
+    event.replaceInput({mod:"appliedas"},"minecraft:netherite_block","justdirethings:eclipsealloy_block")
 
     //星能物品嬗变
-    //格式:[输出,输入]；id 沿用模组原来的 focal_combine/<输出名>，等于把那两条改成我们的配方
-    const FocalCombineList = [
+    event.recipes.astralsorcery.focal_combine(
+        "astralsorcery:altar_illumination",
         [
-            "astralsorcery:altar_illumination",
-            [
-                "astralsorcery:marble_raw",
-                "astralsorcery:marble_raw",
-                "astralsorcery:marble_raw",
-                "astralsorcery:marble_raw",
-                "craftingstation:crafting_station",
-                "ae2:not_so_mysterious_cube"
-            ]
-        ],//启明工作台
+            "astralsorcery:marble_raw",
+            "astralsorcery:marble_raw",
+            "astralsorcery:marble_raw",
+            "astralsorcery:marble_raw",
+            "craftingstation:crafting_station",
+            "ae2:not_so_mysterious_cube"
+        ]
+    ).id("astralsorcery:focal_combine/altar_illumination")//启明工作台
 
+    event.recipes.astralsorcery.focal_combine(
+        "astralsorcery:wand",
         [
-            "astralsorcery:wand",
-            [
-                "astralsorcery:marble_raw",
-                "astralsorcery:marble_raw",
-                "kubejs:crystal_ignis",
-                "kubejs:crystal_aer",
-                "minecraft:echo_shard",
-                "astralsorcery:aquamarine"
-            ]
-        ],//共振星杖
-    ]
-
-    FocalCombineList.forEach(([output,input])=>
-        event.recipes.astralsorcery.focal_combine(output,input)
-            .id(`astralsorcery:focal_combine/${parseCounted(output).id.split(":")[1]}`))
+            "astralsorcery:marble_raw",
+            "astralsorcery:marble_raw",
+            "kubejs:crystal_ignis",
+            "kubejs:crystal_aer",
+            "minecraft:echo_shard",
+            "astralsorcery:aquamarine"
+        ]
+    ).id("astralsorcery:focal_combine/wand")//共振星杖
 
     //祭坛合成
     event.recipes.astralsorcery.altar_crafting(
@@ -122,4 +128,11 @@ ServerEvents.recipes(event=>{
         .additional("astralsorcery:stardust")
         .additional("astralsorcery:stardust")
         .additional("astralsorcery:stardust")//电动挤压机
+})
+
+//宝典修改
+AstralSorcery.research(event=>{
+    event.modify("astralsorcery:astrolabe",node=>{
+        node.removePage(2)
+    })
 })
