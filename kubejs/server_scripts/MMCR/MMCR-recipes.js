@@ -82,36 +82,8 @@ ServerEvents.recipes(event=>{
 
     ]
 
-    ImbuementList.forEach(([input,output,source,name],index)=>{
-        const ingredient = packagedIngredient(input)
-        const stack = packagedStack(output)
-
-        if(!ingredient || !stack) return
-
-        const requirement = {"type":"minecraft:item","io":"input","count":ingredient.count || 1,"item":ingredient.item}
-
-        if(ingredient.components) requirement.components = ingredient.components
-
-        event.custom({
-            "type":"mmcr:machine_recipe",
-            "recipe_pool":"mmcr:industrial_imbuement",
-            "tick_time":40,
-            "parallelized":true,
-            "requirements":[
-                requirement,
-                {
-                    "type":"ars_nouveau:source",
-                    "io":"input",
-                    "amount":source
-                },
-                {
-                    "type":"minecraft:item",
-                    "io":"output",
-                    "stack":stack
-                }
-            ]
-        }).id(`mmcr:industrial_imbuement/${name || index+1}`)
-    })
+    ImbuementList.forEach(([input,output,source,name],index)=>
+        mmcrImbuement(event,input,output,source,name || index+1))
 
     //封装森林仪式：
     //格式:[输出,原料数组,树苗,配方名]；4 份金叶粉与耗电自动补

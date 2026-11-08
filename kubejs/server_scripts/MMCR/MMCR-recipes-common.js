@@ -1,5 +1,5 @@
-//MMCR 封装机器的配方件：解析（组件 / 原料 / 产物）→ 生成器（原料 + 追加原料 + 耗电 + 时长）→ 各机器的封装
-//解析给下面两台机器与 MMCR-recipes.js 共用；新增机器照「各机器」那两段的样子往下加
+//MMCR 配方的公用件：解析（组件 / 原料 / 产物）→ 需求件（物品 / 魔源 / 能量）→ 生成器 → 各机器的封装
+//配方条目仍由各机器的列表提供（MMCR-recipes.js 等），这里只放写法；新增机器照「各机器」的样子加
 
 //========== 解析 ==========
 
@@ -99,8 +99,36 @@ const packagedStack = value=>{
     return null
 }
 
-//========== 生成器 ==========
+//========== 需求件 ==========
+//MMCR 的 requirements 一项一件：{type,io,…}；物品输入/产物、魔源、能量各一条
 
+//物品输入：{type,io,count,item,components?}
+const mmcrItemInput = value=>{
+    const parsed = packagedIngredient(value)
+
+    if(!parsed) return null
+
+    const requirement = {"type":"minecraft:item","io":"input","count":parsed.count || 1,"item":parsed.item}
+
+    if(parsed.components) requirement.components = parsed.components
+
+    return requirement
+}
+
+//物品输出：{type,io,stack}
+const mmcrStackOutput = stack=>({"type":"minecraft:item","io":"output","stack":stack})
+
+const mmcrItemOutput = value=>{
+    const stack = packagedStack(value)
+
+    return stack ? mmcrStackOutput(stack) : null
+}
+
+//魔源、能量
+const mmcrSourceInput = amount=>({"type":"ars_nouveau:source","io":"input","amount":amount})
+const mmcrEnergyInput = fe=>({"type":"neoforge:energy","io":"input","fe_per_tick":fe})
+
+//========== 生成器 ==========
 const PackagedEnergy = 1280                                             //每 tick 输入 FE
 const PackagedTime = 50                                                 //统一 tick
 
@@ -112,8 +140,23 @@ const packagedNextIndex = pool=>{
     return packagedCounters[pool]
 }
 
+//mmcrRecipe(event,配方池,需求数组,时长,配方名)：所有 MMCR 配方最后都走这里
+const mmcrRecipe = (event,pool,requirements,tick,name)=>{
+    if(!requirements || requirements.length===0) return
+
+    const poolPath = String(pool).replace(/^mmcr:/,"")
+
+    event.custom({
+        "type":"mmcr:machine_recipe",
+        "recipe_pool":pool,
+        "tick_time":tick,
+        "parallelized":true,
+        "requirements":requirements
+    }).id(`mmcr:${poolPath}/${name}`)
+}
+
 //packagedRecipe(event,配方池,产物,原料数组,追加原料数组,配方名)
-//追加原料指每台机器都要额外吃的那几样（如森林仪式的 4 份金叶粉），不给就传 []
+//追加原料指每台机器都要额外吃的那几样（如森林仪式的 4 份金叶粉），不给就传 []；同一种原料自动合并数量
 const packagedRecipe = (event,pool,output,inputs,extra,name)=>{
     const stack = packagedStack(output)
 
@@ -132,11 +175,10 @@ const packagedRecipe = (event,pool,output,inputs,extra,name)=>{
 
         if(slots[key]) slots[key].count += count
         else {
-            const requirement = {"type":"minecraft:item","io":"input","count":count,"item":parsed.item}
+            slots[key] = {"type":"minecraft:item","io":"input","count":count,"item":parsed.item}
 
-            if(parsed.components) requirement.components = parsed.components
+            if(parsed.components) slots[key].components = parsed.components
 
-            slots[key] = requirement
             keys.push(key)
         }
     }
@@ -144,8 +186,8 @@ const packagedRecipe = (event,pool,output,inputs,extra,name)=>{
     inputs.forEach(push)
 
     const raw = []                                                      //原样追加的需求（魔源之类）
-
     const extras = extra || []
+
     extras.forEach(value=>{
         if(value && typeof value==="object" && value.type){ raw.push(value); return }
 
@@ -156,18 +198,15 @@ const packagedRecipe = (event,pool,output,inputs,extra,name)=>{
 
     const index = packagedNextIndex(pool)
 
-    const poolPath = String(pool).replace(/^mmcr:/,"")
-
-    event.custom({
-        "type":"mmcr:machine_recipe",
-        "recipe_pool":pool,
-        "tick_time":PackagedTime,
-        "parallelized":true,
-        "requirements":keys.map(key=>slots[key])
+    mmcrRecipe(
+        event,
+        pool,
+        keys.map(key=>slots[key])
             .concat(raw)
-            .concat({"type":"neoforge:energy","io":"input","fe_per_tick":PackagedEnergy})
-            .concat({"type":"minecraft:item","io":"output","stack":stack})
-    }).id(`mmcr:${poolPath}/${name || index}`)
+            .concat([mmcrEnergyInput(PackagedEnergy), mmcrStackOutput(stack)]),
+        PackagedTime,
+        name || index
+    )
 }
 
 //========== 各机器 ==========
@@ -188,4 +227,13 @@ const packagedNatureAltar = (event,output,input,aura,name)=>{
         [{"type":"ars_nouveau:source","io":"input","amount":source}],
         name
     )
+}
+
+//工业灌注室：原料 + 魔源 + 产物，40 tick
+const mmcrImbuement = (event,input,output,source,name)=>{
+    const requirements = [mmcrItemInput(input),mmcrSourceInput(source),mmcrItemOutput(output)]
+
+    if(requirements.some(value=>!value)) return
+
+    mmcrRecipe(event,"mmcr:industrial_imbuement",requirements,40,name)
 }
