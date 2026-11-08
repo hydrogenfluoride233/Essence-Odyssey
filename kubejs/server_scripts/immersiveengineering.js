@@ -95,6 +95,18 @@ ServerEvents.recipes(event=>{
         }
     )//工程师蓝图
 
+    event.replaceInput(
+        {id:"immersiveengineering:crafting/capacitor_mv"},
+        "immersiveengineering:basic_engineering",
+        "immersiveengineering:capacitor_lv"
+    )//中压蓄电池
+
+    event.replaceInput(
+        {id:"immersiveengineering:crafting/capacitor_hv"},
+        "immersiveengineering:basic_engineering",
+        "immersiveengineering:capacitor_mv"
+    )//高压蓄电池
+
     //熔炼配方
     event.blasting("immersiveengineering:slag","#c:gravels",0.5,200)
 
@@ -407,26 +419,21 @@ ServerEvents.recipes(event=>{
         ],//精密构件
     ]
 
-    BlueprintList.forEach(([category,output,inputs])=>{
-        const outParts = output.split("x ")
-        const outCount = outParts.length > 1 ? Number(outParts[0]) : 1
-        const outId = outParts.length > 1 ? outParts[1] : output
-
+    BlueprintList.forEach(([category,output,inputs])=>
         event.custom({
             "type":"immersiveengineering:blueprint",
             "category":category,
             "inputs":inputs.map(value=>{
-                const parts = value.split("x ")
-                const size = parts.length > 1 ? Number(parts[0]) : 1
-                const id = parts.length > 1 ? parts[1] : value
+                const {count,id}=parseCounted(value)
+
                 return {
-                    "basePredicate":id.startsWith("#") ? {"tag":id.slice(1)} : {"item":id},
-                    "count":size
+                    "basePredicate":id.startsWith("#") ? {"tag":id.substring(1)} : {"item":id},
+                    "count":count
                 }
             }),
-            "result":{"id":outId,"count":outCount}
+            "result":toItemStack(output)
         })
-    })
+    )
 
     //沉浸原油
     event.remove({id:"immersivepetroleum:distillationtower/oil"})       //原油蒸馏

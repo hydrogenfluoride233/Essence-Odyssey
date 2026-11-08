@@ -29,6 +29,15 @@ const toIngredient = text=>{
         {"count":count,"item":id}
 }
 
+//原料 JSON（不带数量）：{item}/{tag}，给只认 Ingredient 的配方用
+const toIngredientJson = text=>{
+    if(typeof text!=="string") return text
+
+    const {id}=parseCounted(text)
+
+    return id.startsWith("#") ? {"tag":id.substring(1)} : {"item":id}
+}
+
 //流体栈
 const toFluidStack = text=>{
     const {count,id}=parseCounted(text,1000)
@@ -88,11 +97,9 @@ const squeezerStack = text=>{
 
 //挤压机配方 JSON：主产物 + 概率副产物（最多两种）+ 可选流体
 const squeezerJson = (type,input,output,chances,fluid,duration)=>{
-    const {id}=parseCounted(input)
-
     const recipe = {
         "type":type,
-        "input_item":id.startsWith("#") ? {"tag":id.substring(1)} : {"item":id}
+        "input_item":toIngredientJson(input)
     }
 
     const outputs = output ? [squeezerStack(output)] : []

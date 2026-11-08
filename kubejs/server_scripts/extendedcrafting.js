@@ -99,36 +99,13 @@ ServerEvents.recipes(event=>{
         ],//充能油菜种子
     ]
 
-    const parseCombinationIngredient = ingredient=>{
-        if(typeof ingredient!=="string") return ingredient
-
-        const {id}=parseCounted(ingredient)
-
-        return id.startsWith("#") ?
-            {tag:id.substring(1)} :
-            {item:id}
-    }
-
-    const parseCombinationInput = input=>parseCombinationIngredient(input)
-
-    const parseCombinationIngredients = ingredients=>
-        ingredients.map(parseCombinationIngredient)
-
-    const parseCombinationResult = result=>{
-        if(typeof result!=="string") return result
-
-        return {
-            id:parseCounted(result).id
-        }
-    }
-
     CombinationList.forEach(([output,input,ingredients,energy])=>
         event.custom({
             "type":"extendedcrafting:combination",
             "power_cost":energy,
-            "input":parseCombinationInput(input),
-            "ingredients":parseCombinationIngredients(ingredients),
-            "result":parseCombinationResult(output)
+            "input":toIngredientJson(input),
+            "ingredients":asRecipeArray(ingredients).map(toIngredientJson),
+            "result":{"id":parseCounted(output).id}
         })
     )
 })
