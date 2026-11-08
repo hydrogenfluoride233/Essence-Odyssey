@@ -14,11 +14,14 @@ ServerEvents.recipes(event=>{
     event.remove({id:"neovitae:meteor/ae2"})
     event.remove({id:"neovitae:ritual_diviner_deus"})   //仪式占卜杖[神圣]
 
+    //配方修改
     event.replaceInput({mod:"neovitae"},"minecraft:deepslate","pneumaticcraft:reinforced_stone")
+    //金锭、铁锭换成烈焰金锭与核源铁锭；athanor 是把铁锭拆成铁粉的，排除掉
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:gold_ingot","justdirethings:blazegold_ingot")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:iron_ingot","justdirethings:ferricore_ingot")
+
     //命血祭坛
     //格式:[输出,输入,祭坛等级,EV,消耗速率,回退速率]
-    event.replaceInput({id:"neovitae:ara_vitae/weak_blood_orb"},"minecraft:diamond","cataclysm:lacrima")
-
     const AraList = [
         [
             "neovitae:guide_book",
@@ -35,6 +38,24 @@ ServerEvents.recipes(event=>{
 
     AraList.forEach(([output,input,tier,blood,cost,back])=>
         event.recipes.neovitae.ara_vitae_recipe(output,input,tier,blood,cost,back))
+
+    event.replaceInput(
+        {id:"neovitae:ara_vitae/weak_blood_orb"},
+        "minecraft:diamond",
+        "minecraft:ghast_tear"
+    )//见习生生命宝珠
+
+    event.replaceInput(
+        {id:"neovitae:ara_vitae/apprentice_blood_orb"},
+        "minecraft:redstone_block",
+        "astralsorcery:starmetal_ingot"
+    )//学徒生命宝珠
+
+    event.replaceInput(
+        {id:"neovitae:ara_vitae/magician_blood_orb"},
+        "minecraft:gold_block",
+        "cataclysm:lacrima"
+    )//巫师生命宝珠
 
     //陨星仪式
     //格式:[输入,生命源质,爆炸半径,陨石层]
