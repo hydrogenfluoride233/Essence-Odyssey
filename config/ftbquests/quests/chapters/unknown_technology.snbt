@@ -43,5 +43,15 @@
 			x: -1.5d
 			y: 1.5d
 		}
+		{
+			id: "4B9130F91887490E"
+			tasks: [{
+				id: "0C79A0AAD0C3D391"
+				item: { count: 1, id: "appliedas:starlight_transmutation_chamber" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
 	]
 }

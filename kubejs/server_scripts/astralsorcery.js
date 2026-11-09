@@ -8,10 +8,7 @@ ServerEvents.recipes(event=>{
     event.remove({id:"astralsorcery:focal_combine/wand"})//共振星杖
     event.remove({id:"astralsorcery:glass_lens"})//玻璃透镜
 
-    //原料替换：星辉与 Applied AstralSorcery 配方里的铁锭／金锭／钻石（两边共 16 条，都写成 tag）
-    //必须带 exact：不带时 KubeJS 会把配方里每条原料 getItems() 展开再比对，星辉的 astralsorcery:is_stable_artifact 展开时读服务端配置 ArtifactConfig，
-    //冷启动时配方事件跑在服务端配置加载之前，那里一抛，这次 replaceInput 就停在那条配方上，后面的全没换（/reload 时配置已就绪才正常）
-    //exact 只比 tag 本身、不展开原料，所以只认原样写着这个 tag 的原料，写成具体物品的不会被换
+    //配方修改
     const ReplaceMods = ["astralsorcery","appliedas"]
     const ReplaceList = [
         ["#c:ingots/iron","justdirethings:ferricore_ingot"],//核源铁锭
@@ -121,7 +118,30 @@ ServerEvents.recipes(event=>{
         .relay([""," A A "," A A "," CCC ",""])
         .additional("astralsorcery:stardust")
         .additional("astralsorcery:stardust")
-        .additional("astralsorcery:stardust")//电动挤压机
+        .additional("astralsorcery:stardust")
+        .lumen("astralsorcery:evorsio",200)//电动挤压机
+
+    event.recipes.astralsorcery.altar_crafting(
+        "integrateddynamics:mechanical_drying_basin",
+        [" B ","DED"," B "],
+        {
+            A:"neovitae:tabula_animata",
+            B:"integrateddynamics:energy_battery",
+            C:"astralsorcery:infused_wood_enriched",
+            D:"immersiveengineering:capacitor_hv",
+            E:"integrateddynamics:drying_basin"
+        })
+        .type("resonance")
+        .relay(["","  A  "," A A ","A   A","CCCCC"])
+        .additional("astralsorcery:stardust")
+        .additional("astralsorcery:stardust")
+        .additional("astralsorcery:stardust")
+        .fluid("integrateddynamics:liquid_chorus",1000)
+        .fluid("integrateddynamics:liquid_chorus",1000)
+        .fluid("integrateddynamics:liquid_chorus",1000)
+        .fluid("integrateddynamics:liquid_chorus",1000)
+        .fluid("integrateddynamics:liquid_chorus",1000)
+        .lumen("astralsorcery:armara",200)//电动烘干池
 
 })
 

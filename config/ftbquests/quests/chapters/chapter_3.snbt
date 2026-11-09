@@ -28,8 +28,8 @@
 				item: { count: 1, id: "naturesaura:offering_table" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5FB333558E3BBE5D"]
@@ -187,14 +187,15 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["4DCF55864EE23512"]
 			id: "60A27933A4B85169"
 			tasks: [{
 				id: "6531E99B8116E1AD"
 				item: { count: 1, id: "neovitae:athanor" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			id: "22405AE327EF04A2"
@@ -268,24 +269,26 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["301DCA1D6BB35670"]
 			id: "21817F75CF3A665F"
 			tasks: [{
 				id: "2FB31239B5E36E1A"
 				item: { count: 1, id: "neovitae:vitae_link" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["21817F75CF3A665F"]
 			id: "7F8018D45F77A309"
 			tasks: [{
 				id: "75449A6E7B4D21F6"
 				item: { count: 1, id: "neovitae:orb_filling_link" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["225096AFDEC20E93"]
@@ -309,24 +312,26 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["301DCA1D6BB35670"]
 			id: "5C9C5D9F42BB31FF"
 			tasks: [{
 				id: "09F97E779FEE8A15"
 				item: { count: 1, id: "neovitae:blood_orb_apprentice" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -6.5d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["5C895E557E257EF5"]
 			id: "4DCF55864EE23512"
 			tasks: [{
 				id: "0E9B898C06BF88B3"
 				item: { count: 1, id: "neovitae:blood_orb_magician" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.5d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			id: "6DE88BAD01B240BF"
@@ -335,8 +340,8 @@
 				item: { count: 1, id: "neovitae:blood_orb_archmage" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -6.5d
+			x: 17.0d
+			y: 1.0d
 		}
 		{
 			id: "1C4F04D35B0668DA"
@@ -345,8 +350,8 @@
 				item: { count: 1, id: "neovitae:blood_orb_master" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.5d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			id: "142E7CE45F2545D3"
@@ -355,8 +360,8 @@
 				item: { count: 1, id: "neovitae:blood_orb_transcendent" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.5d
+			x: 21.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["225096AFDEC20E93"]
@@ -370,16 +375,21 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["39423412B885C6B9"]
 			id: "6FB9FAF8B211DC7A"
 			tasks: [{
 				id: "02260B7D67C49695"
 				item: { count: 1, id: "integrateddynamics:mechanical_squeezer" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: 7.0d
 		}
 		{
+			dependencies: [
+				"3F4E8E60A314611B"
+				"6FB9FAF8B211DC7A"
+			]
 			id: "41136DBB34E76DDE"
 			tasks: [{
 				id: "29B4BF57E62FF3C8"
@@ -406,7 +416,7 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -495,6 +505,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["5613BE48C7A0ABBC"]
 			id: "1C313EE05D54B6F2"
 			tasks: [{
 				id: "54CCDB2F035676A7"
@@ -505,6 +516,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["1C313EE05D54B6F2"]
 			id: "3F4E8E60A314611B"
 			tasks: [{
 				id: "3CDC7FC7D3F169FC"
@@ -513,6 +525,90 @@
 			}]
 			x: 9.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["3F4E8E60A314611B"]
+			id: "7EC32C085BAD4839"
+			tasks: [{
+				id: "77982FD0EC8F718B"
+				item: { count: 1, id: "astralsorcery:altar_luminance" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5613BE48C7A0ABBC"]
+			id: "39423412B885C6B9"
+			tasks: [{
+				id: "48EA12940808F0B3"
+				item: { count: 1, id: "astralsorcery:lumen_array" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5C9C5D9F42BB31FF"]
+			id: "5C895E557E257EF5"
+			tasks: [{
+				id: "525EDDE841F2FE5E"
+				item: { count: 1, id: "neovitae:blood_stained_glass" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DCF55864EE23512"]
+			id: "29513739A22B88BF"
+			tasks: [{
+				id: "011325E256523B97"
+				item: { count: 1, id: "neovitae:master_ritual_stone" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "5AC6D90FB8BD48C1"
+			tasks: [{
+				id: "3AE4BD0B894F3831"
+				item: { count: 1, id: "neovitae:strong_tau" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "7A707D1951254CEE"
+			tasks: [{
+				id: "0D127B1093F79137"
+				item: { count: 1, id: "neovitae:weak_blood_shard" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "7CB29194A784FD17"
+			tasks: [{
+				id: "239BE1612F3A3C0A"
+				item: { count: 1, id: "neovitae:ingot_hellforged" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			id: "41468E1CE593184C"
+			tasks: [{
+				id: "0D4C79158B5A2911"
+				item: { count: 1, id: "neovitae:crystal_cluster" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
 		}
 	]
 }
