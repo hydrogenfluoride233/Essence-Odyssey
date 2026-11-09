@@ -2122,7 +2122,7 @@ hash = "aab3d7ded50a0d5e432cec3eab83225b931c4a92b1dc010ae9580eebef60aa1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/before_the_start.snbt"
-hash = "0edef2d336ec8ffee5868acf3239a1c2143fd74cfdf9cf9ef4859b96d6feacf7"
+hash = "db0719979aa1711b697e2e660c8880dd43b7d0b8fbef9d7539d1b2481f5e7563"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
@@ -2130,19 +2130,19 @@ hash = "6327d32707a02ebeb35d5479ba1cf3f1f4da5b780a7f17a0ebfe0de9b2f00c1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_1.snbt"
-hash = "6de75ee7fb776230e5b3bd92d00cfd66b08da80a0d23f2fc89a6ce2ffac9983b"
+hash = "bab321992b874b62ea5673ff04504160ea7b832922dc363a9dee17c1f0422dd6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "712b98d8a56888e84cc425997a5a27e0fa33a11b663bcb2241207ba414b3caa9"
+hash = "da3c0313ba00c1698a9d92517842dfa601cac83827e3980e3e4bfdc0977f1566"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
-hash = "42f3a8ed5ceb68827cdc50ec03d3f69ba29e04c9c89adf98e8b98080cb71b281"
+hash = "8498ca04ea431f0f0db33cc937a14c07db1e86904a7b675176e634a803ca2843"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_4.snbt"
-hash = "468f7e5980995eaef149193091723ebdabb881195e7943ca7c874840e6d3cc8c"
+hash = "cbe08746dd1610adbb417d2e707e74c3d5520ef43247fdc5d36c44d509658a8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_5.snbt"
@@ -2162,7 +2162,7 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity_production.snbt"
-hash = "38644b8cc9cfa668383544c4453cfa1911f374d7c2af0e60e9ebb8961acf4861"
+hash = "7e88d92bb3c6b46b6a5dabc73c6d916900b979547c2b0ac48337d81236344421"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
@@ -2170,7 +2170,7 @@ hash = "3d0e802be7955499e5605e19f9380ab1fb71f4800893cba8e64f8c1fef7cffe4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/meteorite_creations.snbt"
-hash = "c9a30240744d3e2126d2ee2b7372c21a624ba165171de62c66fdcd3180bc2d34"
+hash = "8fd493258f791e561f799bcf3abc946de85ec3330d79f2c31dfedae48851771f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_production.snbt"
@@ -2190,7 +2190,7 @@ hash = "99e83bc4d91875b6ad66d63a2bb51090c730c987c14f131e9ff085ad40853f03"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/useful_gadgets.snbt"
-hash = "5890e2e0701de096589f264d5a48c33878789fe1c03032411b9e47678bd5aa95"
+hash = "1d5d7d75c42dd0660e8b8f764820468566ee7af7230617ce47f9c54b9cee7946"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2198,11 +2198,11 @@ hash = "949b9834ffc264fecf4169823427b51c306ab97444fc8782ec57c51dd12c65bb"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "845ddbc37f5d4648d2fb193ea83733fd3c2a1cb24caa8788dbd0b3548417dc42"
+hash = "115502741ea43bcdb7bfbe8fa504a3ae316590274de20a84a95f6e207a9e1677"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "d061027508e5c47bd1a4c85c038e53676aaba5363c55b0c4bc2332ab93ec98a0"
+hash = "e24d8e199c54187adc1a5e9375cb1c75e6eb02c7415111c023dbc315bb424dfa"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2654,7 +2654,7 @@ hash = "8c17330d9f9804cd1540b0f442c7f7b7d1dbd3ccb3e22f6c4af222753ffd49ac"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "8200b99866cd9c00ba44ba1b26219fb09a28d0757f5de315cbab4f1a4942d426"
+hash = "9dcbdd6d1d7c4ccd7735a42d0cba0aa3ff46fa1824243b527a421000d2e4e7a7"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -2790,11 +2790,11 @@ hash = "a56b1c9a2ba4f1bf630c0152428a85c51b0a356eeaef2d7f2867c0908afb647e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "2eac404656d9bff651954c0e36d78ead3b38115f44c86bf8f4bbceed1849c8e4"
+hash = "2cccee9bbcf4e7aee1cf864d2a7a53d0452d1f1f8d4f65b9ad64f80d9f3a6573"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "da484d16e61bbd9255a323d9e340ecad4a7eccc03dcba3a2372c1d02d5483472"
+hash = "b4cae825a9fbee594507e2b8346ac1927d6cfcdcadeaa2dc090bbac968791310"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -3661,28 +3661,24 @@ file = "kubejs/assets/kiwi/lang/zh_cn.json"
 hash = "83d18d181ba416df87bb2ff9bbcbe6cc92489e2bdc83159a2e4adecd631d847f"
 
 [[files]]
+file = "kubejs/assets/kubejs/blockstates/packaged_tree_beacon.json"
+hash = "ad78ef009ed7caa77bd5ca6cc648f1e481fe621dad389caa86a3aa773590cfc4"
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "ace6fb2fe0f08a62df26ff58411e8a72cb61322e1a278cbcd9a91adcad1264c8"
+hash = "dc524936588020c6572ada3c7752ec4479e3a837dceb5bdbcf82224a6939f0a6"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "b16d6c5efe6ef76ba7a480ca48a3b75a22ef1f52fe8be3da50eb877de444ead7"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/altar_1.json"
-hash = "2c09468014fd2a3f0b8ae94f363b9d32d05aedb31e43c5bd568aee5c3acb1bc6"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/altar_2.json"
-hash = "cf60d9e7d1ee5c8a7e269a0889beed7a3d6ef61cb64f47b4cad15513d83f2209"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/altar_3.json"
-hash = "ef4115f4a6b6f0086cd326fdfdbc9c1a56b6967f5a5cf4b68d442d7d659f6048"
+hash = "cc925fce7fe1c740b0b3d79c4058930d4586778ac666d5cd39343629794953c8"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/golden_bowl.json"
 hash = "8945b197cca6645db4f4750526218b5aa2527cd5ab380834526adb2ed74faf06"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/packaged_tree_beacon.json"
+hash = "de976f9a8db582f0c331ba87c99bbf79e2936e73f26ec506279a89c70a0761a5"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/sky_stone_starmetal_ore.json"
@@ -3717,8 +3713,8 @@ file = "kubejs/assets/kubejs/models/item/machine_model/star_ring_3_top.json"
 hash = "e00bb5e9d66a935202be8d8dbf9a848e57f64565d1667ec6be02e30fdd01c034"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_1_ledge.png"
-hash = "0bab705779b69608c1f96a6040e0a054cf8a8abe3f91ad8b605087e01f90af34"
+file = "kubejs/assets/kubejs/models/item/packaged_tree_beacon.json"
+hash = "2fd1c8d877a949629866a4ec83b0cc41178dd34dd2f9a4cb23a40524952bf576"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/altar_1_ring_0.png"
@@ -3727,34 +3723,6 @@ hash = "fa4a069c41574d2c88b0c18641fb7e0df5da1abdd83558313e92f5170cd7ad05"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/altar_1_ring_0.png.mcmeta"
 hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_1_side.png"
-hash = "a7d6f2743c04f480f9a1d7ae10b59e21b8c5152ea9d1286d2f47aa54f9517c49"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_1_side_glow.png"
-hash = "0f6da1bbd2a7cd39c7f7afc5b22b0376ef20e7cd646ed542dac48128d14725a9"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_1_side_glow.png.mcmeta"
-hash = "4e4dc7d973bb284c1558d6d2bca26a36699b9b11954e12085c632cc3e4ae97f1"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_1_top.png"
-hash = "d8642f14f107485513a64efbe56283e8bf8703642038b041e0db6bd2bb3642f3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_1_top_glow.png"
-hash = "dbf0f650bec9f59d602e3359dc9e93ed00d5fbecf0fe94af3371d831f8c95161"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_1_top_glow.png.mcmeta"
-hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_ledge.png"
-hash = "d130166e989d52357af39507e45cf8cbd2976b24a1dac3e5863ef501a7b12e3c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/altar_2_ring_0.png"
@@ -3771,34 +3739,6 @@ hash = "f6bde57947783411191d0c7298fea47669ab9e5c31dd93e3a31521086a8455be"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/altar_2_ring_1.png.mcmeta"
 hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_side.png"
-hash = "2220c6600662fbe4aa7c6ac05479354a24bdd0cdcb76baf66613e97606548584"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_side_glow.png"
-hash = "43b07867ac61b52e27ad509dd47c4fbd76713484461f4458e39823e709d76c2d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_side_glow.png.mcmeta"
-hash = "4e4dc7d973bb284c1558d6d2bca26a36699b9b11954e12085c632cc3e4ae97f1"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_top.png"
-hash = "fcdb8bfac5ca16cf712f8a7663699d476a4c3bd8e476f28f7f3221c6a6c150b3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_top_glow.png"
-hash = "077a2b887b4870baa967471ed80ad0fa2d6868646139087a1bf96faf55a86c5a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_2_top_glow.png.mcmeta"
-hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_ledge.png"
-hash = "c63f88ba1545c83f6ba41b914655f3eec7c8f30316e36dd0a4060962b841fcea"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/altar_3_ring_0.png"
@@ -3822,30 +3762,6 @@ hash = "21df620d7281e81fc8df1226e11a3047d737ef5afe6a12ac3009680a164f10de"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/altar_3_ring_2.png.mcmeta"
-hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_side.png"
-hash = "4f35e91ed952cb790880bb02112a535447ec40770d893ac5d815360a82189359"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_side_glow.png"
-hash = "dbf9d2ab2c794120ea8f8e7f45bef55c7bd5b49c2b52c279168581b3812e675c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_side_glow.png.mcmeta"
-hash = "4e4dc7d973bb284c1558d6d2bca26a36699b9b11954e12085c632cc3e4ae97f1"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_top.png"
-hash = "26bc45b9307a361bacc9ce173c7b6b5b0a73a63c2dada829694646bf03a3c229"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_top_glow.png"
-hash = "896aa4d17c2d68cfcaa13b3c37bb64252f955e0d1d5e3d6980722ae0cb81b73d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/altar_3_top_glow.png.mcmeta"
 hash = "3abed9ed53c0812b3fb70ecb7bd3562be4a6ee9634987f5a4a63c3ce209a8644"
 
 [[files]]
@@ -4354,7 +4270,7 @@ hash = "e98c330e545a85426b576e3cf13c217034793f5c85ad3c841ec6bbc1eaa30d11"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/infinity_lava_cell.png"
-hash = "b6efddecc964c30912a42731e9832af077f2010eb1fda9ea4c73693d2c9e1a09"
+hash = "6fcadea91c4d17fad25ebfa9251226e2da78f89eea1b2e0206a8617e6faf554c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/ordo_essence.png"
@@ -4497,6 +4413,10 @@ file = "kubejs/assets/kubejs/textures/item/unknown_mixture.png.mcmeta"
 hash = "5456a768c3771cb149976ffb11529ee3caf3904bfa6c1bbf5bf45ae4f48c450d"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/quest/abandoned_camp_map.png"
+hash = "f1fdebb2a83fa2868db187bb1782dbd0349b51e6a1e498955e30be88036df1ed"
+
+[[files]]
 file = "kubejs/assets/kubejs/tips/aether_is_yellow.json"
 hash = "9299dca7668a9530b89c0fb9ad3032388b2ef0b80268dac9c56a98aa1261d01b"
 
@@ -4542,11 +4462,11 @@ hash = "c4461dc69095f0ba33861bce4e76ec43b17a6305ac95872b56ec27bb03b2bc34"
 
 [[files]]
 file = "kubejs/assets/mmcr/lang/en_us.json"
-hash = "c0b57e60ca8ffb027edab9750843c8d7931ec71b91166d7eb0d5f4d93b06765c"
+hash = "7b8ce01804ff7f568018e69728521b204ea968cc98b196bdbbd6e58d3ba23b1d"
 
 [[files]]
 file = "kubejs/assets/mmcr/lang/zh_cn.json"
-hash = "885660b19cfd7e4d2cf83f78267e1fb42757f46dbbd3da45af9b5728037ce184"
+hash = "d93c71de4720316549c661884c25bf9ca826d75a81e42ba4eece40af47ce6f5e"
 
 [[files]]
 file = "kubejs/assets/mmcr/patchouli_books/modular_guide/en_us/entries/components/data_storage.json"
@@ -4650,11 +4570,11 @@ hash = "8999ca09e0a6a7cbb56b00f9d41b218f2aba60ff1ff5b6d515ebf215678284ac"
 
 [[files]]
 file = "kubejs/assets/occultism/lang/en_us.json"
-hash = "428a9a81cae9738669b92c057b7cfb11e6dc50134a7f489de0cfe7268af5e984"
+hash = "be5f3c75f7fe16965c56c518249db21fd08e6ab28bf000814299d5cd05b17223"
 
 [[files]]
 file = "kubejs/assets/occultism/lang/zh_cn.json"
-hash = "1d41f065729007a5bac5d39065532f95cf794453e6d5f666b688dd3e14c361e2"
+hash = "31d3d3067d244e3eb920af892418d003d93ed966c7134a692fd753491f4a9f32"
 
 [[files]]
 file = "kubejs/assets/owo/lang/zh_cn.json"
@@ -5726,7 +5646,7 @@ hash = "cd8022f057481d36f1d790e02ef49c08a6cb6e4ab210cf17367467812815349e"
 
 [[files]]
 file = "kubejs/client_scripts/recipeviewer/hidden.js"
-hash = "dfa179e217404da0ab0dac3a7262e618f07580bbc46964182609cc5858412783"
+hash = "13dded7c14e486b00f4a7b51cf5b954656b69eb0f9c506f15a52c1178def8abf"
 
 [[files]]
 file = "kubejs/client_scripts/recipeviewer/info.js"
@@ -6178,15 +6098,19 @@ hash = "10cc99e89ccc195d85c93985d31046e161ec8148de07a2446b7adfd53f1af0b0"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR-models.js"
-hash = "d1279417a67397a7f5927ab868e676c30ac454b7b69e3cf8f70f9727b6e3fe95"
+hash = "aab12a13a285e26354f51d9bf561d9e3f829859ffa4b612b8008e9bec564d2bb"
+
+[[files]]
+file = "kubejs/server_scripts/MMCR/MMCR-recipes-common.js"
+hash = "18eec006d9fb9ffacb35df0f6d2b8fe826eba7abd3d2dff21b8c11e9395eaa22"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR-recipes.js"
-hash = "a3d0bbf4e77916d467142919026d588cc84d9c51a0b3224cab3f053b119fde3e"
+hash = "adadb5f3fe664851cfefb98e74904e5025ed445a0c97df2c47204a4a5c11c586"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR-structures.js"
-hash = "0a2388d6f198249e20cd8bb7cd281cf33a06ae66e7555b40e8d20d6898c1be91"
+hash = "b70c3deec4e60b279c60a80c3abf05c713b9afcbeac6e974422dbbbbd187bf68"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR-tags.js"
@@ -6206,11 +6130,11 @@ hash = "6c6570c7f216f5149d54f1eeca2d1dd051d02a0fb4efff2892826799651bfc2f"
 
 [[files]]
 file = "kubejs/server_scripts/ars_nouveau.js"
-hash = "e0daaa70069e55820eef5f49c6882b029e7cdb1f50b78a9bd2466d2d4fd22a7c"
+hash = "aa81ce5c844a8890275db81d4940f5a1099e5bedbf8b325382274a0944387aaf"
 
 [[files]]
 file = "kubejs/server_scripts/astralsorcery.js"
-hash = "5056744117a256ba02e0dcbb3651548bbc85e2c152a7f5c9b8c72a0708d952fe"
+hash = "c215c39fcbb1faeaf0f0738429756f635d8a1b041e27baea35869b2619649c2b"
 
 [[files]]
 file = "kubejs/server_scripts/botany_pots.js"
@@ -6242,7 +6166,7 @@ hash = "485edf79fc62fb7567040f311717d44b875cf465a615e90212f0e13e859ebd2d"
 
 [[files]]
 file = "kubejs/server_scripts/extendedcrafting.js"
-hash = "6c348738db366b7c74865e90f0eafc04e0840ca9a0a24795e7b65db1e45f84ed"
+hash = "58b82c8d9c9779bf73047ddf9426e8b0ab547a0c66b39138385649c1455c4cae"
 
 [[files]]
 file = "kubejs/server_scripts/farmersdelight.js"
@@ -6254,11 +6178,15 @@ hash = "29a2d355dd6b94103038166b2e325293fb3d9a5c31a2fe24e119441d1c6c9192"
 
 [[files]]
 file = "kubejs/server_scripts/immersiveengineering.js"
-hash = "508a8ed132d0392f1879a5bd92c3ae93ae96b67ab7ccee15f505bfd8f445cf98"
+hash = "b253893abc4c3fbb534d9be05a5e214640a797b159379ec2f29a0b5e7128a655"
 
 [[files]]
 file = "kubejs/server_scripts/industrialforegoing.js"
 hash = "c6d5dd4f60c14ff51d8e4af50d5d8041124c5396111bdd8b93cc3d1746d7cee1"
+
+[[files]]
+file = "kubejs/server_scripts/integrateddynamics.js"
+hash = "25756e1b9af9e46e044242df9441d8cf13369c87ac233ee333d77ae4800dd50c"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -6266,7 +6194,7 @@ hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
 
 [[files]]
 file = "kubejs/server_scripts/justdirethings.js"
-hash = "ba8ed5d726135f864fe69368d1705ea6f112d5b2748c3b0a5d5423667820ba63"
+hash = "091edd805c04272f31943ac62f870e171f46feeffdef7ce9afd0a4eee685c82c"
 
 [[files]]
 file = "kubejs/server_scripts/lychee.js"
@@ -6282,11 +6210,11 @@ hash = "d4e5a213032bed103a5d4a5a2f1ec6ccfe898679e725661d1797f9253b81ab7d"
 
 [[files]]
 file = "kubejs/server_scripts/naturesaura.js"
-hash = "568c369575ac1b2c5fdff4ebfc7f78d01aadf21e2e5b8a91a13ec9484ff682cb"
+hash = "1c4f8b38544cd9378065094e55eeaf6c554993ea8d633bd42acdac13ae74e282"
 
 [[files]]
 file = "kubejs/server_scripts/neovitae.js"
-hash = "d73837ec8f7d67ec75a1692abf8b190922d8658f6a1cfafbe13be8bd11ccb984"
+hash = "8d8e026638aa11e072d284b9da74144edae68333562fb6b184ea152c17984708"
 
 [[files]]
 file = "kubejs/server_scripts/occultism-recipes.js"
@@ -6294,11 +6222,11 @@ hash = "249341c85527820d82841c002b0115e408cda49f406aae58fb80a8074c298ae8"
 
 [[files]]
 file = "kubejs/server_scripts/occultism-rituals.js"
-hash = "fce61c05e578903534388459a3d641d760b79ef877684e6589dbda8fa75eefc3"
+hash = "c8c32a54bb89b613321ab1496f643ba940ae8bfa48d48618c719702f1e2583e9"
 
 [[files]]
 file = "kubejs/server_scripts/pneumaticcraft.js"
-hash = "f6e852cbee6895a6d9d0a446a067f304e3a7dc4d7632142976e1b7d2048cc790"
+hash = "4c57ae4f394b510bbb6b1068e2d816c1718df1f9458582131e450d0a0137b67f"
 
 [[files]]
 file = "kubejs/server_scripts/portaltransform.js"
@@ -6310,7 +6238,7 @@ hash = "b6b90bf75a7ba6d3bcc95a31b8833237775c797fd33f4a86685d1a0b29850d69"
 
 [[files]]
 file = "kubejs/server_scripts/sanguine_networks.js"
-hash = "f1bfad3d05aa191b38bd24ec6057c626bcc899a879c6efce36369d814f4e72b3"
+hash = "7b88e9e41130f80a51bf1428086fcd9a508cbe27a8461fe6c6fade6d9a81bcd4"
 
 [[files]]
 file = "kubejs/server_scripts/special/aspects.js"
@@ -6318,7 +6246,7 @@ hash = "e568a361a5c5d75a728540f4b8ea93328100085816e013e57d211391ff5f97ba"
 
 [[files]]
 file = "kubejs/server_scripts/special/energy.js"
-hash = "d2198ce5f853b303296a47c59ec5edf3ad8afc310c12625437829759e0451c68"
+hash = "e4cec92b13fbfb203aecdc66bb8610e5d18933618dbee0cf9ed3c1218e042089"
 
 [[files]]
 file = "kubejs/server_scripts/special/ore_processing.js"
@@ -6326,7 +6254,7 @@ hash = "5f57c8814b2e411f7135b467a9093f049bcc1ebcecafec327d722db6d5a87834"
 
 [[files]]
 file = "kubejs/server_scripts/special/parse.js"
-hash = "76ab7e601864330e55810c2b7bf4dd9b96d2159f4005afb7bef40f7fed77394f"
+hash = "d0969081c4a18fe0bbccb2a04c55a7699710cd313743f1c165be79c98d8a4562"
 
 [[files]]
 file = "kubejs/server_scripts/special/tags.js"
@@ -6338,7 +6266,7 @@ hash = "240f2e3e49f7424c36b73f9cfcd226251eb33058e4e4e732dc8cf712988c0dd0"
 
 [[files]]
 file = "kubejs/server_scripts/special/临时内容.js"
-hash = "c95ab831506803f97a68727d45f3798f0e5ff53aa5c81e28ae589d923ddf1ac0"
+hash = "63d4dd2986a40a9a3fcfe38a5990511a19634daa4d428bdb759903ca785c498c"
 
 [[files]]
 file = "kubejs/server_scripts/thaumon.js"
@@ -6354,7 +6282,7 @@ hash = "89b23aa71e649fe72bc9a03a223fc31490b0b829f78b5a1739b7eada36925dad"
 
 [[files]]
 file = "kubejs/startup_scripts/MMCR/MMCR-startup.js"
-hash = "8b8f4d9b0ce2c2521cb5939279e01a5b2422c9bc586632d942d242cf03a39356"
+hash = "351eb1e4e30a55e90012221b7f48a4d311d02f92ba71b717df5d188a740271c9"
 
 [[files]]
 file = "kubejs/startup_scripts/block_modify.js"
@@ -6378,7 +6306,7 @@ hash = "7d01ff3f992f4d2ee26a23f62b6abb353da42d3de450b3217d939ab6820b5175"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/blocks.js"
-hash = "b21c910e9950a22517b3b2bfbb1080c59981a6bc125c96f76fe887fd4e3fb07f"
+hash = "1abb3dde4aae1d4406efe26d8521bd8a48a3ef76dda0cf4dd3863bec9bc2ff39"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/chemicals.js"
@@ -6390,7 +6318,7 @@ hash = "84d63e34b57c8c7a96f4c8da7811a67c6683eba318cf1a699809b0d6db99ce13"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/items.js"
-hash = "7f7d430455937b84b645d141db43d1f0c1f71534467d229dd6e48e3007a111e0"
+hash = "ecec8ba744f78390fe26c8334272671228d39bb32337a452088771ec327605fd"
 
 [[files]]
 file = "mods.disabled/ae2utility-1.8.0.jar"
