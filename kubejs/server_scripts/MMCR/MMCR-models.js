@@ -15,12 +15,26 @@ const ModelStale = 40                                   //控制器 40 tick 没�
 //部件：model = 载体物品的模型编号（models/item/machine_model.json 里的顺序）；item = 直接摆一个现成物品，display 是它的摆法（默认 none）
 //      offset 偏移、tilt 固定倾斜 [绕x,绕z]（度）、spin 自转、turn 绕竖轴公转（度/tick，写 [待机,工作]，别超过 30）
 //      bob 上下浮动 [幅度,周期tick]、scale 大小 [待机,工作]（0 = 藏起来）、glow 工作时全亮
+//光点 sparkle：成型后在一片方块的顶面上随机冒粒子，不发实体。照星辉祭坛结构成立后炭黑大理石上的白光点复刻
+//      （星辉 TileAltar.playActiveSparkle：每 tick 按「炭黑大理石格数 / 200」的期望值，随机挑一格，在顶面上随机一点放一个白色光点）
+//      from / to 方块范围的两个角（含两端，坐标同上）、skip 范围里不冒的格子、particle 粒子
+//      rate 频率倍率 [待机,工作]（1 = 星辉原版）、rise 冒出来时离顶面的高度 [最低,最高]（格）
 const MachineModels = {
     "mmcr:industrial_imbuement":{                       //工业灌注室（结构见 MMCR-structures.js）
         anchor:[0,2,2],                                 //灌注室本身那一格的中心，环套着灌注室转
         parts:[
             {model:4,scale:[0,2],tilt:[20,0],spin:[0,6],turn:[0,2],glow:true}                                    //三阶星轨外环：待机藏起来，工作时斜着绕灌注室转、全亮（2 倍宽约 1.9 格，转起来对角不碰玻璃）
         ]
+    },
+    "mmcr:past_astral_altar":{                          //记忆中的五彩祭坛（结构见 MMCR-structures.js）：没有模型部件，只有光点
+        anchor:[0,1,4],                                 //中间那座真的五彩祭坛
+        parts:[],
+        sparkle:{
+            from:[-3,0,1],to:[3,0,7],skip:[[0,0,4]],    //7×7 炭黑大理石地面（与控制器同层）；正中那格压在祭坛下面，不冒
+            particle:"minecraft:end_rod",               //白色、自发光，约 3 秒淡掉，边淡边往下飘约 0.35 格
+            rate:[1,1],                                 //星辉原版只在待机时冒（合成时换成配方特效）；这台合成时没有别的效果，就照样冒。48 格 ≈ 每 10 tick 2.4 个
+            rise:[0.35,0.65]                            //起点比 end_rod 下沉的距离高，落到地面附近正好淡完，不沉进方块
+        }
     }
     // "mmcr:xxx":{
     //     anchor:[0,0,2],
@@ -196,6 +210,47 @@ const modelUpdatePart = (machine,part,i,base,yaw,now)=>{
     slot.lit = pose.lit
 }
 
+const ModelSparkleCells = {}                            //光点范围里的格子，每台机器种类算一次（/reload 时脚本重跑，跟着重算）
+
+const modelSparkleCells = (id,sparkle)=>{
+    if (ModelSparkleCells[id]) return ModelSparkleCells[id]
+    const skip = (sparkle.skip || []).map(cell=>cell.join(","))
+    const cells = []
+    let x, y, z
+    for (x = Math.min(sparkle.from[0],sparkle.to[0]); x <= Math.max(sparkle.from[0],sparkle.to[0]); x++) {
+        for (y = Math.min(sparkle.from[1],sparkle.to[1]); y <= Math.max(sparkle.from[1],sparkle.to[1]); y++) {
+            for (z = Math.min(sparkle.from[2],sparkle.to[2]); z <= Math.max(sparkle.from[2],sparkle.to[2]); z++) {
+                if (skip.indexOf(`${x},${y},${z}`) < 0) cells.push([x,y,z])
+            }
+        }
+    }
+    ModelSparkleCells[id] = cells
+    return cells
+}
+
+//这一步（ModelStep tick）该冒几个：期望值 = 格子数 × 倍率 / 200 × 步长，小数部分按概率进位（同星辉的 MiscUtil.roundChanced）
+const modelSparkleCount = (cells,rate)=>{
+    const want = cells.length*rate/200*ModelStep
+    const count = Math.floor(want)
+    return Math.random() < want-count ? count+1 : count
+}
+
+const modelSparkleOne = (machine,sparkle,cells,yaw)=>{
+    const cell = cells[Math.floor(Math.random()*cells.length)]
+    const rise = sparkle.rise || [0.01,0.01]
+    const height = rise[0]+Math.random()*(rise[1]-rise[0])
+    const offset = modelTurnY([cell[0]+Math.random()-0.5,cell[1]+0.5+height,cell[2]+Math.random()-0.5],yaw)    //相对控制器方块中心；y 落在这一格顶面上方
+    machine.level.spawnParticles(sparkle.particle,false,machine.x+0.5+offset[0],machine.y+0.5+offset[1],machine.z+0.5+offset[2],0,0,0,0,0)   //数量 0 = 只放一个、初速度为 0
+}
+
+const modelSparkle = (machine,def,yaw)=>{
+    const sparkle = def.sparkle
+    const cells = modelSparkleCells(machine.id,sparkle)
+    const count = cells.length ? modelSparkleCount(cells,modelPick(sparkle.rate,machine.working,1)) : 0
+    let i
+    for (i = 0; i < count; i++) modelSparkleOne(machine,sparkle,cells,yaw)
+}
+
 const modelUpdate = (machine,def,now)=>{
     const yaw = ModelFacing[machine.facing] || 0
     const anchor = modelTurnY(def.anchor || [0,0,0],yaw)
@@ -205,6 +260,7 @@ const modelUpdate = (machine,def,now)=>{
     machine.working = now-machine.worked <= ModelStep*2
     if (machine.load != ModelState.load || machine.parts.some(slot=>slot.entity && slot.entity.isRemoved())) modelAdopt(machine,def,base)
     def.parts.forEach((part,i)=>modelUpdatePart(machine,part,i,base,yaw,now))
+    if (def.sparkle) modelSparkle(machine,def,yaw)
 }
 
 const modelTickMachine = (key,now)=>{
