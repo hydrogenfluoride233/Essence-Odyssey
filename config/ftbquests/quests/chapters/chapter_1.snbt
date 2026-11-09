@@ -917,5 +917,16 @@
 			x: -0.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["5E4647B964AD82A1"]
+			id: "34B327378BAE36AC"
+			tasks: [{
+				id: "36DE8D8972EC7D34"
+				item: { count: 1, id: "naturesaura:crushing_catalyst" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
 	]
 }

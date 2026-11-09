@@ -20,7 +20,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["216FDC1A803B60AC"]
@@ -126,7 +126,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			id: "10EDAE6B16424C33"
@@ -135,8 +135,8 @@
 				item: { count: 1, id: "mmcr:data_extractor_controller" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			id: "5C76846A2A4CACE1"
@@ -146,7 +146,27 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "098A3975E4A5056C"
+			tasks: [{
+				id: "64186748B7A4131F"
+				item: { count: 1, id: "mmcr:packaged_nature_altar_controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "4C410D662829D95A"
+			tasks: [{
+				id: "58FAEE618F0271B6"
+				item: { count: 1, id: "mmcr:packaged_offering_table_controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 }

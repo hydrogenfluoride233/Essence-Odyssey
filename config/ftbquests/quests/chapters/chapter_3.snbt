@@ -18,8 +18,8 @@
 				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			id: "52445941353FAD96"
@@ -28,42 +28,43 @@
 				item: { count: 1, id: "naturesaura:offering_table" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5FB333558E3BBE5D"]
+			icon: {
+				id: "astralsorcery:altar_illumination"
+			}
 			id: "477958E4569C3D6B"
-			tasks: [{
-				id: "4F3AD035C3B6110C"
-				item: { count: 1, id: "astralsorcery:altar_illumination" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 3.0d
+			tasks: [
+				{
+					id: "4F3AD035C3B6110C"
+					item: { count: 1, id: "astralsorcery:altar_illumination" }
+					type: "item"
+				}
+				{
+					id: "190E0FB19BDA3A4A"
+					item: { count: 1, id: "astralsorcery:wand" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
 		}
 		{
+			dependencies: ["1DDBB6C999CE9C59"]
 			id: "544E258E66294DA0"
 			tasks: [{
 				id: "61B478115A7D7DB7"
 				item: { count: 1, id: "hostilenetworks:deep_learner" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
-			id: "34B327378BAE36AC"
-			tasks: [{
-				id: "36DE8D8972EC7D34"
-				item: { count: 1, id: "naturesaura:crushing_catalyst" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4920E66F0E157926"]
+			dependencies: ["3656CA98EE5EABED"]
 			id: "0F0C983509723C0E"
 			rewards: [{
 				id: "626A6D37D0E536E7"
@@ -82,7 +83,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -121,8 +122,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 1.0d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -144,13 +145,24 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["3656CA98EE5EABED"]
+			icon: {
+				id: "astralsorcery:astrolabe"
+			}
 			id: "5FB333558E3BBE5D"
-			tasks: [{
-				id: "2D3475F2515B2F37"
-				item: { count: 1, id: "astralsorcery:astrolabe" }
-				type: "item"
-			}]
-			x: 5.0d
+			tasks: [
+				{
+					id: "2D3475F2515B2F37"
+					item: { count: 1, id: "astralsorcery:astrolabe" }
+					type: "item"
+				}
+				{
+					id: "26599C4E7B8315F9"
+					item: { count: 1, id: "astralsorcery:constellation_paper" }
+					type: "item"
+				}
+			]
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -162,7 +174,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			id: "75974C68D94AAD63"
@@ -171,8 +183,8 @@
 				item: { count: 1, id: "neovitae:hellfire_forge" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 9.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			id: "60A27933A4B85169"
@@ -181,8 +193,8 @@
 				item: { count: 1, id: "neovitae:athanor" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			id: "22405AE327EF04A2"
@@ -191,8 +203,8 @@
 				item: { count: 1, id: "neovitae:tabula_vitae" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			icon: {
@@ -221,8 +233,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 7.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			id: "53346A9B386BE388"
@@ -231,8 +243,8 @@
 				item: { count: 1, id: "sanguine_networks:suffering_incorporated" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			id: "4460F1707D15A65A"
@@ -241,8 +253,8 @@
 				item: { count: 1, id: "sanguine_networks:virtual_sacrificer" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["258F3BBF92677C79"]
@@ -252,8 +264,8 @@
 				item: { count: 1, id: "pneumaticcraft:vacuum_pump" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			id: "21817F75CF3A665F"
@@ -262,8 +274,8 @@
 				item: { count: 1, id: "neovitae:vitae_link" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "7F8018D45F77A309"
@@ -272,8 +284,8 @@
 				item: { count: 1, id: "neovitae:orb_filling_link" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["225096AFDEC20E93"]
@@ -284,7 +296,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			id: "13A7FD8383CB4DD4"
@@ -293,8 +305,8 @@
 				item: { count: 1, id: "integrateddynamics:cable" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			id: "5C9C5D9F42BB31FF"
@@ -303,7 +315,203 @@
 				item: { count: 1, id: "neovitae:blood_orb_apprentice" }
 				type: "item"
 			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "4DCF55864EE23512"
+			tasks: [{
+				id: "0E9B898C06BF88B3"
+				item: { count: 1, id: "neovitae:blood_orb_magician" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			id: "6DE88BAD01B240BF"
+			tasks: [{
+				id: "303462F4B94B8C63"
+				item: { count: 1, id: "neovitae:blood_orb_archmage" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			id: "1C4F04D35B0668DA"
+			tasks: [{
+				id: "5DE9BE89C304A6FF"
+				item: { count: 1, id: "neovitae:blood_orb_master" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			id: "142E7CE45F2545D3"
+			tasks: [{
+				id: "4022E445B25BF15E"
+				item: { count: 1, id: "neovitae:blood_orb_transcendent" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["225096AFDEC20E93"]
+			id: "7694C67866BE3B68"
+			tasks: [{
+				id: "1B72A0F648996B4A"
+				item: { count: 1, id: "neovitae:incense_altar" }
+				type: "item"
+			}]
 			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "6FB9FAF8B211DC7A"
+			tasks: [{
+				id: "02260B7D67C49695"
+				item: { count: 1, id: "integrateddynamics:mechanical_squeezer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "41136DBB34E76DDE"
+			tasks: [{
+				id: "29B4BF57E62FF3C8"
+				item: { count: 1, id: "integrateddynamics:mechanical_drying_basin" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			id: "147F81CD373BD7AE"
+			tasks: [{
+				id: "3C662201F976FBA1"
+				item: { count: 1, id: "integrateddynamics:variable" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "5EE096F611F3232E"
+			tasks: [{
+				id: "4FC0B1B7DDEAF0D5"
+				item: { count: 1, id: "justdirethings:gooblock_tier3" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "0DF88A5D00808AD0"
+			tasks: [{
+				id: "2C78834E2AC3FFD8"
+				item: { count: 1, id: "justdirethings:gooblock_tier4" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4920E66F0E157926"]
+			id: "3656CA98EE5EABED"
+			tasks: [{
+				id: "27FD81D08F1C8433"
+				item: { count: 1, id: "justdirethings:gooblock_tier2" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "1DDBB6C999CE9C59"
+			tasks: [{
+				id: "7CC4C787A569BD84"
+				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FB333558E3BBE5D"]
+			id: "41D993E84196FAB2"
+			tasks: [{
+				id: "71836BBE3B3E025F"
+				item: { count: 1, id: "astralsorcery:starmetal_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0951E09C713AACC4"]
+			id: "5D61EDD53CA72CE7"
+			tasks: [{
+				id: "17EE6A332CBEDE1A"
+				item: { count: 1, id: "astralsorcery:chisel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0951E09C713AACC4"]
+			icon: {
+				id: "astralsorcery:altar_resonance"
+			}
+			id: "5613BE48C7A0ABBC"
+			tasks: [
+				{
+					id: "54F2B2ACEE84F156"
+					item: { count: 1, id: "astralsorcery:altar_resonance" }
+					type: "item"
+				}
+				{
+					id: "11538B1E4AEF7AB8"
+					item: { count: 1, id: "astralsorcery:focus_relay" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["477958E4569C3D6B"]
+			id: "0951E09C713AACC4"
+			tasks: [{
+				id: "247F8C4424BE3434"
+				item: { count: 1, id: "astralsorcery:lightwell" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "1C313EE05D54B6F2"
+			tasks: [{
+				id: "54CCDB2F035676A7"
+				item: { count: 1, id: "astralsorcery:infuser" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "3F4E8E60A314611B"
+			tasks: [{
+				id: "3CDC7FC7D3F169FC"
+				item: { count: 1, id: "astralsorcery:chalice" }
+				type: "item"
+			}]
+			x: 9.0d
 			y: 5.0d
 		}
 	]

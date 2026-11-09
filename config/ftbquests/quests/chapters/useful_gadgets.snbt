@@ -313,5 +313,23 @@
 			x: 1.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["7D30D0CD5F0F151E"]
+			id: "462FE3205DB1B0B6"
+			tasks: [
+				{
+					id: "00497A05D881B636"
+					item: { count: 1, id: "enderstorage:ender_chest" }
+					type: "item"
+				}
+				{
+					id: "7295ED35C5AD062D"
+					item: { count: 1, id: "enderstorage:ender_tank" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
 	]
 }
