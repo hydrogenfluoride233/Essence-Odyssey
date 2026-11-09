@@ -11,6 +11,7 @@ ServerEvents.recipes(event=>{
     event.remove({output:"naturesaura:token_fear"})                 //恐惧印记
     event.remove({output:"naturesaura:token_joy"})                  //愉悦印记
     event.remove({output:"naturesaura:crushing_catalyst"})          //崩坏催化器
+    event.remove({output:"naturesaura:conversion_catalyst"})        //嬗变催化器
     event.remove({id:"naturesaura:altar/infused_iron"})             //灌注铁锭
     event.remove({id:"naturesaura:altar/infused_iron_block"})       //灌注铁块
     event.remove({id:"naturesaura:altar/infused_stone"})            //灌注之石
@@ -443,8 +444,8 @@ ServerEvents.recipes(event=>{
                 "kubejs:ignis_fluid_bucket",
                 "kubejs:ignis_fluid_bucket",
                 "minecraft:blaze_powder",
-                "minecraft:blaze_powder",
                 "minecraft:nether_wart",
+                "minecraft:blaze_powder",
                 "minecraft:nether_wart"
             ],
             "quark:red_blossom_sapling",50
@@ -457,10 +458,10 @@ ServerEvents.recipes(event=>{
                 "naturesaura:nature_altar",
                 "kubejs:aqua_fluid_bucket",
                 "kubejs:terra_fluid_bucket",
-                "minecraft:gold_ingot",
-                "minecraft:deepslate",
-                "minecraft:gold_ingot",
-                "minecraft:deepslate"
+                "justdirethings:blazegold_ingot",
+                "pneumaticcraft:reinforced_stone",
+                "justdirethings:blazegold_ingot",
+                "pneumaticcraft:reinforced_stone"
             ],
             "minecraft:poplar_sapling",200
         ],//命血祭坛
@@ -477,8 +478,23 @@ ServerEvents.recipes(event=>{
                 "naturesaura:token_anger",
                 "kubejs:token_confusion"
             ],
-            "minecraft:acacia_sapling",100
+            "minecraft:birch_sapling",100
         ],//崩坏催化器
+
+        [
+            "naturesaura:conversion_catalyst",
+            [
+                "naturesaura:gold_brick",
+                "naturesaura:infused_stone",
+                "minecraft:brewing_stand",
+                "naturesaura:tainted_gold",
+                "ars_nouveau:glyph_intangible",
+                "actuallyadditions:atomic_reconstructor",
+                "naturesaura:token_joy",
+                "kubejs:token_serenity"
+            ],
+            "minecraft:birch_sapling",100
+        ],//嬗变催化器
     ]
 
     TreeRitualList.forEach(([output,input,sapling,time])=>{
@@ -538,6 +554,12 @@ ServerEvents.recipes(event=>{
             "minecraft:amethyst_block",
             20000,100,"naturesaura:crushing_catalyst"
         ],//紫水晶碎片
+
+        [
+            "kubejs:packaged_tree_beacon",
+            "astralsorcery:tree_beacon",
+            20000,100,"astralsorcery:infused_wood_infused"
+        ]
     ]
 
     AltarList.forEach(([output,input,aura,time,catalyst])=>{

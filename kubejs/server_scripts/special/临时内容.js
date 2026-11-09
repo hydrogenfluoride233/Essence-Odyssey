@@ -12,7 +12,5 @@ ServerEvents.recipes(event=>{
     event.remove({id:"ae2:network/blocks/crystal_processing_charger"})
     event.remove({id:"ae2:network/blocks/inscribers"})
 
-    event.remove({id:"integrateddynamics:crafting/variable"})
-
     event.remove({id:"ars_ocultas:altar"})
 })

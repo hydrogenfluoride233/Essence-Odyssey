@@ -14,6 +14,30 @@ ServerEvents.recipes(event=>{
     event.remove({id:"neovitae:meteor/ae2"})
     event.remove({id:"neovitae:ritual_diviner_deus"})   //仪式占卜杖[神圣]
 
+    //配方修改
+    event.replaceInput(
+        {id:"neovitae:ara_vitae/weak_blood_orb"},
+        "minecraft:diamond",
+        "minecraft:ghast_tear"
+    )//见习生生命宝珠
+    event.replaceInput(
+        {id:"neovitae:ara_vitae/apprentice_blood_orb"},
+        "minecraft:redstone_block",
+        "astralsorcery:starmetal_ingot"
+    )//学徒生命宝珠
+    event.replaceInput(
+        {id:"neovitae:ara_vitae/magician_blood_orb"},
+        "minecraft:gold_block",
+        "cataclysm:lacrima"
+    )//巫师生命宝珠
+    event.replaceInput({mod:"neovitae"},"minecraft:deepslate","pneumaticcraft:reinforced_stone")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"#c:ingots/iron","justdirethings:ferricore_ingot")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"#c:ingots/gold","justdirethings:blazegold_ingot")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"#c:gems/diamond","justdirethings:celestigem")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"#c:ingots/netherite","justdirethings:eclipsealloy_ingot")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"#c:storage_blocks/iron","justdirethings:ferricore_block")
+    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"#c:storage_blocks/gold","justdirethings:blazegold_block")
+
     //命血祭坛
     //格式:[输出,输入,祭坛等级,EV,消耗速率,回退速率]
     const AraList = [
@@ -32,36 +56,6 @@ ServerEvents.recipes(event=>{
 
     AraList.forEach(([output,input,tier,blood,cost,back])=>
         event.recipes.neovitae.ara_vitae_recipe(output,input,tier,blood,cost,back))
-
-    event.replaceInput(
-        {id:"neovitae:ara_vitae/weak_blood_orb"},
-        "minecraft:diamond",
-        "minecraft:ghast_tear"
-    )//见习生生命宝珠
-
-    event.replaceInput(
-        {id:"neovitae:ara_vitae/apprentice_blood_orb"},
-        "minecraft:redstone_block",
-        "astralsorcery:starmetal_ingot"
-    )//学徒生命宝珠
-
-    event.replaceInput(
-        {id:"neovitae:ara_vitae/magician_blood_orb"},
-        "minecraft:gold_block",
-        "cataclysm:lacrima"
-    )//巫师生命宝珠
-
-    //配方修改：全模组替换，写在具体条目之后，免得抢掉上面那几条
-    event.replaceInput({mod:"neovitae"},"minecraft:deepslate","pneumaticcraft:reinforced_stone")
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:gold_ingot","justdirethings:blazegold_ingot")
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:iron_ingot","justdirethings:ferricore_ingot")
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:diamond","justdirethings:celestigem")
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:netherite_ingot","justdirethings:eclipsealloy_ingot")
-    //块状形态
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:iron_block","justdirethings:ferricore_block")
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:gold_block","justdirethings:blazegold_block")
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:diamond_block","justdirethings:celestigem_block")
-    event.replaceInput({mod:"neovitae",not:{type:"neovitae:athanor"}},"minecraft:netherite_block","justdirethings:eclipsealloy_block")
 
     //陨星仪式
     //格式:[输入,生命源质,爆炸半径,陨石层]

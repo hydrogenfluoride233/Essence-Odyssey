@@ -19,8 +19,12 @@ ServerEvents.recipes(event=>{
 
     //挤压机
     //格式:[输入,主产物,副产物数组,流体]；不需要的填 null
-    //例:["integrateddynamics:menril_log","2x integrateddynamics:crystalized_menril_chunk",[[0.5,"integrateddynamics:crystalized_menril_chunk"]],"1000x integrateddynamics:menril_resin"]
     const SqueezerList = [
+        [
+            "integrateddynamics:menril_log",
+            "2x integrateddynamics:crystalized_menril_chunk",
+            [0.5,"2x integrateddynamics:crystalized_menril_chunk"]
+        ],//门瑞欧结晶碎块
     ]
 
     SqueezerList.forEach(([input,output,chances,fluid])=>

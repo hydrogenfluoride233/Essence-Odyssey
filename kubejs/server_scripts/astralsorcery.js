@@ -8,25 +8,6 @@ ServerEvents.recipes(event=>{
     event.remove({id:"astralsorcery:focal_combine/wand"})//共振星杖
     event.remove({id:"astralsorcery:glass_lens"})//玻璃透镜
 
-    //配方修改
-    event.replaceInput({mod:"astralsorcery"},"minecraft:gold_ingot","justdirethings:blazegold_ingot")
-    event.replaceInput({mod:"appliedas"},"minecraft:gold_ingot","justdirethings:blazegold_ingot")
-    event.replaceInput({mod:"astralsorcery"},"minecraft:iron_ingot","justdirethings:ferricore_ingot")
-    event.replaceInput({mod:"appliedas"},"minecraft:iron_ingot","justdirethings:ferricore_ingot")
-    event.replaceInput({mod:"astralsorcery"},"minecraft:diamond","justdirethings:celestigem")
-    event.replaceInput({mod:"appliedas"},"minecraft:diamond","justdirethings:celestigem")
-    event.replaceInput({mod:"astralsorcery"},"minecraft:netherite_ingot","justdirethings:eclipsealloy_ingot")
-    event.replaceInput({mod:"appliedas"},"minecraft:netherite_ingot","justdirethings:eclipsealloy_ingot")
-    //块状形态
-    event.replaceInput({mod:"astralsorcery"},"minecraft:iron_block","justdirethings:ferricore_block")
-    event.replaceInput({mod:"appliedas"},"minecraft:iron_block","justdirethings:ferricore_block")
-    event.replaceInput({mod:"astralsorcery"},"minecraft:gold_block","justdirethings:blazegold_block")
-    event.replaceInput({mod:"appliedas"},"minecraft:gold_block","justdirethings:blazegold_block")
-    event.replaceInput({mod:"astralsorcery"},"minecraft:diamond_block","justdirethings:celestigem_block")
-    event.replaceInput({mod:"appliedas"},"minecraft:diamond_block","justdirethings:celestigem_block")
-    event.replaceInput({mod:"astralsorcery"},"minecraft:netherite_block","justdirethings:eclipsealloy_block")
-    event.replaceInput({mod:"appliedas"},"minecraft:netherite_block","justdirethings:eclipsealloy_block")
-
     //星能物品嬗变
     event.recipes.astralsorcery.focal_combine(
         "astralsorcery:altar_illumination",
@@ -128,6 +109,7 @@ ServerEvents.recipes(event=>{
         .additional("astralsorcery:stardust")
         .additional("astralsorcery:stardust")
         .additional("astralsorcery:stardust")//电动挤压机
+
 })
 
 //宝典修改

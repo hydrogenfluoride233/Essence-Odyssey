@@ -24,8 +24,8 @@ ServerEvents.recipes(event=>{
     event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_biodiesel"})//生物柴油产塑料
     event.remove({id:"pneumaticcraft:uv_light_box"})//紫外线灯箱
     event.remove({id:"pneumaticcraft:vacuum_pump"})//真空泵
-
     event.remove({id:"pneumaticcraft:printed_circuit_board"})//印刷电路板
+    event.remove({id:"appliedpneumatics:assembly/not_so_mysterious_cube_to_mysterious_cube"})//神秘方块
 
     /*
     event.remove({id:"pneumaticcraft:assembly_controller"})//装配台

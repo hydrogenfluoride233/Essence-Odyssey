@@ -1,4 +1,7 @@
 ServerEvents.recipes(event=>{
+    //配方移除
+    event.remove({id:"sanguine_networks:catalyst/barrier"})//屏障
+
     const catalystList = [
         "kubejs:aether_prediction",
         "kubejs:eternal_starlight_prediction",

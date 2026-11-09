@@ -392,6 +392,21 @@ ServerEvents.recipes(event=>{
             "ars_nouveau:wilden_tribute",
             "5x ars_elemental:mark_of_mastery",10000
         ],//精通之印
+
+        [
+            [
+                "astralsorcery:aquamarine",
+                "kubejs:aer_fluid_bucket",
+                "eternal_starlight:flowglaze_pane",
+                "justdirethings:blazegold_ingot",
+                "astralsorcery:aquamarine",
+                "justdirethings:blazegold_ingot",
+                "eternal_starlight:flowglaze_pane",
+                "kubejs:ignis_fluid_bucket",
+            ],
+            "minecraft:spyglass",
+            "astralsorcery:astrolabe",2500
+        ],//星盘
     ]
 
     EnchantList.forEach(([pedestal,input,output,source])=>
@@ -589,7 +604,9 @@ ServerEvents.recipes(event=>{
         ["naturesaura:projectile_generator",1000],
         ["naturesaura:chorus_generator",1000],
         ["naturesaura:slime_split_generator",1000],
-        ["tiab:time_in_a_bottle",10000]
+        ["tiab:time_in_a_bottle",10000],
+        ["naturesaura:aura_cache",1500],
+        ["naturesaura:aura_trove",5000]
     ]
 
     ShapedEnchantList.forEach(([recipeId,source])=>

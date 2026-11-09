@@ -33,6 +33,7 @@ ServerEvents.recipes(event=>{
 
     //更多熔炉
     event.remove({id:"ironfurnaces:augment_generator"})
+    event.remove({type:"ironfurnaces:generator_blasting"})
 
     //可怖之物
     event.remove({output:"justdirethings:generatort1"})
