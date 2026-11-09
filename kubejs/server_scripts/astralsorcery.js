@@ -8,6 +8,19 @@ ServerEvents.recipes(event=>{
     event.remove({id:"astralsorcery:focal_combine/wand"})//共振星杖
     event.remove({id:"astralsorcery:glass_lens"})//玻璃透镜
 
+    //原料替换：星辉与 Applied AstralSorcery 配方里的铁锭／金锭／钻石（两边共 16 条，都写成 tag）
+    //必须带 exact：不带时 KubeJS 会把配方里每条原料 getItems() 展开再比对，星辉的 astralsorcery:is_stable_artifact 展开时读服务端配置 ArtifactConfig，
+    //冷启动时配方事件跑在服务端配置加载之前，那里一抛，这次 replaceInput 就停在那条配方上，后面的全没换（/reload 时配置已就绪才正常）
+    //exact 只比 tag 本身、不展开原料，所以只认原样写着这个 tag 的原料，写成具体物品的不会被换
+    const ReplaceMods = ["astralsorcery","appliedas"]
+    const ReplaceList = [
+        ["#c:ingots/iron","justdirethings:ferricore_ingot"],//核源铁锭
+        ["#c:ingots/gold","justdirethings:blazegold_ingot"],//烈焰金锭
+        ["#c:gems/diamond","justdirethings:celestigem"]//苍穹晶
+    ]
+    ReplaceMods.forEach(mod=>ReplaceList.forEach(([from,to])=>
+        event.replaceInput({mod:mod},{match:from,exact:true},to)))
+
     //星能物品嬗变
     event.recipes.astralsorcery.focal_combine(
         "astralsorcery:altar_illumination",

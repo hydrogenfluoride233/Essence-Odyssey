@@ -19,6 +19,8 @@ MMCREvents.startup(event => {
         .maxParallelAmount(64)
         .allowMultithreading()
         .factoryThreads(4)
+        .recipeBehavior(b=>b.recipeTick(ctx=>global.machineModelWork(ctx)))             //动态模型（成型光点）
+        .postServerTick(ctx=>global.machineModelTick(ctx))                              //动态模型（成型光点）
         .register()
 
     event.createMachine("mmcr:data_extractor")
