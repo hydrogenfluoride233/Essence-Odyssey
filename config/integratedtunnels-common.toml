@@ -73,3 +73,5 @@
 		ejectItemsOnInconsistentSimulationMovement = true
 		#If the version checker should be enabled.
 		versionChecker = true
+		#The maximum network item transfer rate.
+		itemRateLimit = 64

@@ -133,6 +133,8 @@
 		valueEncodingMaxLength = 65536
 		#The maximum nesting depth of an encoded value, both when encoding and when decoding.
 		valueEncodingMaxDepth = 512
+		#The maximum length of the text of an expression in the logic programmer.
+		expressionMaxLength = 8192
 
 	[machine.coal_generator]
 		#The energy production rate (in RF/t) of the coal generator.

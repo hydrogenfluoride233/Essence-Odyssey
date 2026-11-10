@@ -92,12 +92,12 @@ evolution_upgrade_points = 300
 #Blood Attribute Configuration
 #Configure EV multipliers for Blood Siphon and Blood Shield attributes.
 [blood_attributes]
-	#EV multiplier when Blood Siphon drains from a player target
-	# Default: 100
+	#EV per point of damage converted by Blood Siphon against a player target, also drained from that player
+	# Default: 250
 	# Range: 1 ~ 10000
 	siphon_player_multiplier = 100
-	#EV multiplier when Blood Siphon drains from a non-player target
-	# Default: 10
+	#EV per point of damage converted by Blood Siphon against a non-player target
+	# Default: 50
 	# Range: 1 ~ 10000
 	siphon_mob_multiplier = 10
 	#EV cost per point of damage prevented by Blood Shield
@@ -112,6 +112,26 @@ evolution_upgrade_points = 300
 	# Default: 200
 	# Range: 0 ~ 100000
 	sanguine_ward_min_ev = 200
+	#Highest percentage of damage dealt that Blood Siphon can convert into EV. Each point of Blood Siphon is 1%.
+	# Default: 95.0
+	# Range: 0.0 ~ 100.0
+	siphon_cap = 95.0
+	#Highest percentage of incoming damage that Blood Shield can prevent, from any source. Each point of Blood Shield is 1%.
+	# Default: 95.0
+	# Range: 0.0 ~ 100.0
+	shield_cap = 95.0
+	#Ticks between training credits for the Deus Sanguinis upgrade.
+	# Default: 200
+	# Range: 1 ~ 72000
+	deus_sanguinis_cooldown = 200
+	#EV the network must spend between credits for Deus Sanguinis to earn one.
+	# Default: 500
+	# Range: 0 ~ 100000000
+	deus_sanguinis_min_ev = 500
+	#Experience Deus Sanguinis gains per training credit.
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	deus_sanguinis_exp_per_credit = 1.0
 
 #Torment Nexus Configuration
 #Controls the EV upkeep and EV-yield modifier for the Torment Nexus ritual,
@@ -225,3 +245,80 @@ evolution_upgrade_points = 300
 	# Default: 64
 	# Range: 1 ~ 128
 	range = 64
+
+#Hellforged Equipment Configuration
+#Applies to Sentient Armor, Sentient tools and the Lex Vitae upgraded by the Ritual of Hellforging.
+[hellforged]
+	#Upgrade Points of capacity a Hellforged chestplate gains on top of the Deus Sentient Evolution cap.
+	# Default: 100
+	# Range: 0 ~ 10000
+	upgrade_points = 100
+	#Multiplier on experience a Hellforged chestplate gains from training. Tomes and rituals are not affected.
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	training_multiplier = 1.5
+	#Armor added to a Hellforged Sentient helmet.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	armor_helmet = 1.0
+	#Armor added to a Hellforged Sentient chestplate.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	armor_chestplate = 2.0
+	#Armor added to Hellforged Sentient leggings.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	armor_leggings = 1.0
+	#Armor added to Hellforged Sentient boots.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	armor_boots = 1.0
+	#Armor toughness added to each Hellforged Sentient armor piece.
+	# Default: 3.0
+	# Range: 0.0 ~ 100.0
+	armor_toughness = 3.0
+	#Knockback resistance added to each Hellforged Sentient armor piece.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	knockback_resistance = 0.1
+	#Multiplier on attack damage while holding a Hellforged Sentient tool or Lex Vitae.
+	# Default: 1.3
+	# Range: 0.0 ~ 100.0
+	damage_multiplier = 1.3
+	#Flat attack damage added to Hellforged Sentient tools, before the damage multiplier. Requires netherite_floor.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	floor_damage = 2.0
+	#Multiplier on the Spiritus a Hellforged Sentient tool or Lex Vitae drains per swing.
+	# Default: 0.75
+	# Range: 0.0 ~ 100.0
+	drain_multiplier = 0.75
+	#Hellforged Sentient tools mine, drop and last like Netherite even without Spiritus. Applied when the ritual runs.
+	netherite_floor = true
+	#Hellforged items do not burn in fire or lava. Applied when the ritual runs.
+	fire_resistant = true
+	#Multiplier on growth experience a Hellforged Lex Vitae gains.
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	lex_growth_multiplier = 1.5
+	#A Hellforged Lex Vitae can switch between Fortune and Silk Touch with sneak and the Cycle Mode key.
+	lex_silk_toggle = true
+
+#Hellforged Sentient Tool Overcharge
+#Above the soft cap, Hellforged Sentient tool and Lex Vitae bonuses keep growing with diminishing returns until the maximum.
+#Each doubling of carried Spiritus adds the same amount.
+[sentient_tools]
+	#Carried Spiritus where overcharge scaling begins.
+	# Default: 4000.0
+	# Range: 1.0 ~ 1.0E9
+	spiritus_soft_cap = 4000.0
+	#Carried Spiritus where overcharge scaling stops.
+	# Default: 32000.0
+	# Range: 1.0 ~ 1.0E9
+	spiritus_max = 32000.0
+	#Extra fraction of each bonus gained at the maximum. 0.5 means +50% of the top bracket's value.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	overcharge_bonus = 0.5
+	#Spiritus drain per swing rises with overcharge too.
+	overcharge_drain = true
