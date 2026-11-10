@@ -64,5 +64,6 @@
   "essenceodyssey.info.palis_crystal.detail":"Spreading Goo onto lapis ore grows a Blue Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Blue Crystal Shards.",
   "essenceodyssey.info.diamatine_crystal.detail":"Spreading Goo onto diamond ore grows a Light Blue Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Light Blue Crystal Shards.",
   "essenceodyssey.info.void_crystal.detail":"Spreading Goo onto coal ore grows a Black Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Black Crystal Shards.",
-  "essenceodyssey.info.emeradic_crystal.detail":"Spreading Goo onto emerald ore grows a Green Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Green Crystal Shards."
+  "essenceodyssey.info.emeradic_crystal.detail":"Spreading Goo onto emerald ore grows a Green Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Green Crystal Shards.",
+  "essenceodyssey.info.infused_wood.detail":"Drop a log into a pool of Liquid Starlight, and what floats back up is Infused Wood."
 }

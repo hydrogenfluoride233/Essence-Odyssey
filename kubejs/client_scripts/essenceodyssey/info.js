@@ -96,4 +96,8 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("actuallyadditions:emeradic_crystal", [
         Text.translate("essenceodyssey.info.emeradic_crystal.detail")
     ])//emeradic_crystal
+
+    event.add("astralsorcery:infused_wood", [
+        Text.translate("essenceodyssey.info.infused_wood.detail")
+    ])//infused_wood
 })

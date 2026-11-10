@@ -1,6 +1,4 @@
 ServerEvents.recipes(event=>{
-    event.remove({id:"justdirethings:gooblock_tier3"})
-
     event.remove({id:"occultism:crafting/chalk_white_impure"})
     event.remove({id:"occultism:crafting/chalk_white_impure2"})
 
