@@ -820,7 +820,9 @@ ServerEvents.recipes(event=>{
             "pneumaticcraft:heat_sink",
             "pneumaticcraft:vortex_tube",
             "pneumaticcraft:charging_station",
-            "pneumaticcraft:heat_frame"
+            "pneumaticcraft:heat_frame",
+
+            "laserio:logic_chip_raw"
         ]
 
     function toCreateIngredient(ing){
