@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createaddition"
+    }
+  ],
+  "type": "pneumaticcraft:heat_properties",
+  "block": "createaddition:liquid_blaze_burner",
+  "temperature": 1700,
+  "thermalResistance": 50
+}
