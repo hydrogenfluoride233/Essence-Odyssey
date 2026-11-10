@@ -109,6 +109,12 @@ ServerEvents.tags("item",event=>{
 
     //锻铁锭
     event.add("c:ingots","twilightforest:wrought_iron_bar")
+
+    //核源铁和烈焰金
+    event.add("c:nuggets","kubejs:ferricore_nugget")
+    event.add("c:nuggets/ferricore","kubejs:ferricore_nugget")
+    event.add("c:nuggets","kubejs:blazegold_nugget")
+    event.add("c:nuggets/blazegold","kubejs:blazegold_nugget")
 })
 
 ServerEvents.tags("block",event=>{

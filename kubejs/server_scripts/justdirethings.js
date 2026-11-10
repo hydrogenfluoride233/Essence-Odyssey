@@ -4,6 +4,12 @@ ServerEvents.recipes(event=>{
     event.remove({id:"justdirethings:gooblock_tier2"})
     event.remove({id:"justdirethings:polymorphic_fluid_block-fluiddrop"})
 
+    //工作台配方
+    event.shapeless("9x kubejs:ferricore_nugget","justdirethings:ferricore_ingot")
+    event.shapeless("9x kubejs:blazegold_nugget","justdirethings:blazegold_ingot")
+    event.shaped("justdirethings:ferricore_ingot",["AAA","AAA","AAA"],{A:"kubejs:ferricore_nugget"})
+    event.shaped("justdirethings:blazegold_ingot",["AAA","AAA","AAA"],{A:"kubejs:blazegold_nugget"})
+
     //凝胶蔓延
     //格式:[输出方块,输入方块,凝胶等级]
     const GoospreadList = [

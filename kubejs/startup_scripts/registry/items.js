@@ -79,4 +79,6 @@ StartupEvents.registry("item",event=>{
          .tooltip(Text.translate("item.kubejs.twilight_holy_grail.tooltip"))
     event.create("kubejs:twilight_ingot").rarity("uncommon").glow(true)
     event.create("kubejs:paradox_collapser").rarity("epic")
+    event.create("kubejs:ferricore_nugget")
+    event.create("kubejs:blazegold_nugget")
 })
