@@ -12,31 +12,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "28FA8A95CEE8A4FF"
-			tasks: [{
-				id: "73365E369632C11E"
-				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -4.5d
-		}
-		{
-			id: "52445941353FAD96"
-			tasks: [{
-				id: "75489E2B7769EC6A"
-				item: { count: 1, id: "naturesaura:offering_table" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["5FB333558E3BBE5D"]
 			icon: {
 				id: "astralsorcery:altar_illumination"
 			}
 			id: "477958E4569C3D6B"
+			shape: "gear"
 			tasks: [
 				{
 					id: "4F3AD035C3B6110C"
@@ -77,6 +58,7 @@
 				}
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "11FFCCFC95E57F43"
 				item: { count: 1, id: "neovitae:ara_vitae" }
@@ -177,14 +159,15 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["5C9C5D9F42BB31FF"]
 			id: "75974C68D94AAD63"
 			tasks: [{
 				id: "08CAB83D8D37823B"
 				item: { count: 1, id: "neovitae:hellfire_forge" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4DCF55864EE23512"]
@@ -204,8 +187,8 @@
 				item: { count: 1, id: "neovitae:tabula_vitae" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -323,7 +306,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["5C895E557E257EF5"]
 			id: "4DCF55864EE23512"
 			tasks: [{
 				id: "0E9B898C06BF88B3"
@@ -375,7 +357,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["39423412B885C6B9"]
+			dependencies: [
+				"39423412B885C6B9"
+				"1C313EE05D54B6F2"
+			]
 			id: "6FB9FAF8B211DC7A"
 			tasks: [{
 				id: "02260B7D67C49695"
@@ -426,8 +411,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier4" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.5d
+			x: 13.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4920E66F0E157926"]
@@ -478,6 +463,7 @@
 				id: "astralsorcery:altar_resonance"
 			}
 			id: "5613BE48C7A0ABBC"
+			shape: "gear"
 			tasks: [
 				{
 					id: "54F2B2ACEE84F156"
@@ -527,8 +513,12 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3F4E8E60A314611B"]
+			dependencies: [
+				"3F4E8E60A314611B"
+				"785B07AB4B523531"
+			]
 			id: "7EC32C085BAD4839"
+			shape: "gear"
 			tasks: [{
 				id: "77982FD0EC8F718B"
 				item: { count: 1, id: "astralsorcery:altar_luminance" }
@@ -547,17 +537,6 @@
 			}]
 			x: 5.0d
 			y: 7.0d
-		}
-		{
-			dependencies: ["5C9C5D9F42BB31FF"]
-			id: "5C895E557E257EF5"
-			tasks: [{
-				id: "525EDDE841F2FE5E"
-				item: { count: 1, id: "neovitae:blood_stained_glass" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["4DCF55864EE23512"]
@@ -609,6 +588,43 @@
 			}]
 			x: 19.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["7EC32C085BAD4839"]
+			id: "79B7D080F98AE87E"
+			tasks: [{
+				id: "0EE8BFBA5262226B"
+				item: { count: 1, id: "naturesaura:offering_table" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41136DBB34E76DDE"]
+			id: "785B07AB4B523531"
+			tasks: [{
+				id: "0B13C67F5F575A73"
+				item: { count: 1, id: "integrateddynamics:crystalized_chorus_block" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"225096AFDEC20E93"
+				"3656CA98EE5EABED"
+				"477958E4569C3D6B"
+			]
+			id: "473F7F431CF0649D"
+			tasks: [{
+				id: "088D2A3DAC99D3A5"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 }
