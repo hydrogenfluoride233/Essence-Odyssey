@@ -8,6 +8,12 @@ ServerEvents.recipes(event=>{
     event.remove({id:"actuallyadditions:atomic_reconstructor"})     //原子再构机
     event.remove({id:"actuallyadditions:canola_press"})             //油菜压榨机
     event.remove({id:"actuallyadditions:empowerer"})                //充能台
+    event.remove({id:"actuallyadditions:laser/crystalize_void_crystal_block"})
+    event.remove({id:"actuallyadditions:laser/crystalize_enori_crystal_block"})
+    event.remove({id:"actuallyadditions:laser/crystalize_palis_crystal_block"})
+    event.remove({id:"actuallyadditions:laser/crystalize_emeradic_crystal_block"})
+    event.remove({id:"actuallyadditions:laser/crystalize_restonia_crystal_block"})
+    event.remove({id:"actuallyadditions:laser/crystalize_diamatine_crystal_block"})
 
 
     //工作台配方

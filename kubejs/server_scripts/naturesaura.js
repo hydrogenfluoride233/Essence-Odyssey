@@ -558,8 +558,44 @@ ServerEvents.recipes(event=>{
         [
             "kubejs:packaged_tree_beacon",
             "astralsorcery:tree_beacon",
-            20000,100,"astralsorcery:infused_wood_infused"
-        ]
+            20000,100,"naturesaura:conversion_catalyst"
+        ],//封装树木信标
+
+        [
+            "actuallyadditions:void_crystal_block",
+            "minecraft:coal_block",
+            120000,150,"naturesaura:conversion_catalyst"
+        ],//煤晶块
+
+        [
+            "actuallyadditions:enori_crystal_block",
+            "minecraft:iron_block",
+            120000,150,"naturesaura:conversion_catalyst"
+        ],//铁晶块
+
+        [
+            "actuallyadditions:palis_crystal_block",
+            "minecraft:lapis_block",
+            120000,150,"naturesaura:conversion_catalyst"
+        ],//青金石水晶块
+
+        [
+            "actuallyadditions:emeradic_crystal_block",
+            "minecraft:emerald_block",
+            120000,150,"naturesaura:conversion_catalyst"
+        ],//绿宝石水晶块
+
+        [
+            "actuallyadditions:restonia_crystal_block",
+            "minecraft:redstone_block",
+            120000,150,"naturesaura:conversion_catalyst"
+        ],//红石水晶块
+
+        [
+            "actuallyadditions:diamatine_crystal_block",
+            "minecraft:diamond_block",
+            120000,150,"naturesaura:conversion_catalyst"
+        ],//钻石水晶块
     ]
 
     AltarList.forEach(([output,input,aura,time,catalyst])=>{
