@@ -2,7 +2,7 @@ ServerEvents.recipes(event=>{
     //配方移除
     event.remove({id:"industrialforegoing:machine_frame_pity"})     //机器框架
 
-    //化学溶解室
+    //溶解成型机
     //格式:[输入物品,输入流体,输出]
 
     const DissolutionList = [

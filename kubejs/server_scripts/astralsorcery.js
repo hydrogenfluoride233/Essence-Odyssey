@@ -7,16 +7,8 @@ ServerEvents.recipes(event=>{
     event.remove({id:"astralsorcery:focal_combine/altar_illumination"})//启明工作台
     event.remove({id:"astralsorcery:focal_combine/wand"})//共振星杖
     event.remove({id:"astralsorcery:glass_lens"})//玻璃透镜
-
-    //配方修改
-    const ReplaceMods = ["astralsorcery","appliedas"]
-    const ReplaceList = [
-        ["#c:ingots/iron","justdirethings:ferricore_ingot"],//核源铁锭
-        ["#c:ingots/gold","justdirethings:blazegold_ingot"],//烈焰金锭
-        ["#c:gems/diamond","justdirethings:celestigem"]//苍穹晶
-    ]
-    ReplaceMods.forEach(mod=>ReplaceList.forEach(([from,to])=>
-        event.replaceInput({mod:mod},{match:from,exact:true},to)))
+    event.remove({id:"astralsorcery:altar/lightwell"})//聚星缸
+    event.remove({id:"astralsorcery:altar/altar_luminance"})//辉光合成祭坛
 
     //星能物品嬗变
     event.recipes.astralsorcery.focal_combine(
@@ -44,6 +36,8 @@ ServerEvents.recipes(event=>{
     ).id("astralsorcery:focal_combine/wand")//共振星杖
 
     //祭坛合成
+
+    
     event.recipes.astralsorcery.altar_crafting(
         "neovitae:ritual_diviner_deus",
         [" J ","JIJ"," J "],
@@ -94,7 +88,6 @@ ServerEvents.recipes(event=>{
         })
         .type("radiance")
         .relay(["XXYXX","XYBYX","YB BY","XYBYX","XXYXX"])
-        .duration(300)
         .additional("naturesaura:clock_hand")
         .additional("modularrouters:speed_upgrade")
         .additional("modularrouters:speed_upgrade")
@@ -115,10 +108,10 @@ ServerEvents.recipes(event=>{
             E:"integrateddynamics:squeezer"
         })
         .type("resonance")
-        .relay([""," A A "," A A "," CCC ",""])
-        .additional("astralsorcery:stardust")
-        .additional("astralsorcery:stardust")
-        .additional("astralsorcery:stardust")
+        .relay(["     "," A A "," A A "," CCC ","     "])
+        .additional("kubejs:empowered_palis_crystal_dust")
+        .additional("kubejs:empowered_palis_crystal_dust")
+        .additional("kubejs:empowered_restonia_crystal_dust")
         .lumen("astralsorcery:evorsio",200)//电动挤压机
 
     event.recipes.astralsorcery.altar_crafting(
@@ -127,22 +120,70 @@ ServerEvents.recipes(event=>{
         {
             A:"neovitae:tabula_animata",
             B:"integrateddynamics:energy_battery",
-            C:"astralsorcery:infused_wood_enriched",
+            C:"astralsorcery:infused_wood_infused",
             D:"immersiveengineering:capacitor_hv",
             E:"integrateddynamics:drying_basin"
         })
         .type("resonance")
-        .relay(["","  A  "," A A ","A   A","CCCCC"])
-        .additional("astralsorcery:stardust")
-        .additional("astralsorcery:stardust")
-        .additional("astralsorcery:stardust")
+        .relay(["AAAAA","A   A","A   A","A   A","CCCCC"])
+        .additional("kubejs:empowered_emeradic_crystal_dust")
+        .additional("kubejs:empowered_emeradic_crystal_dust")
+        .additional("kubejs:empowered_emeradic_crystal_dust")
+        .additional("kubejs:empowered_emeradic_crystal_dust")
+        .additional("kubejs:empowered_diamatine_crystal_dust")
+        .additional("kubejs:empowered_diamatine_crystal_dust")
+        .additional("kubejs:empowered_diamatine_crystal_dust")
         .fluid("integrateddynamics:liquid_chorus",1000)
         .fluid("integrateddynamics:liquid_chorus",1000)
         .fluid("integrateddynamics:liquid_chorus",1000)
-        .fluid("integrateddynamics:liquid_chorus",1000)
-        .fluid("integrateddynamics:liquid_chorus",1000)
+        .fluid("integrateddynamics:menril_resin",1000)
+        .fluid("integrateddynamics:menril_resin",1000)
         .lumen("astralsorcery:armara",200)//电动烘干池
 
+    event.recipes.astralsorcery.altar_crafting(
+        "astralsorcery:lightwell",
+        ["BAD","ECE","EEE"],
+        {
+            A:"astralsorcery:aquamarine",
+            B:"naturesaura:token_anger",
+            C:"#astralsorcery:crystal",
+            D:"naturesaura:token_joy",
+            E:"astralsorcery:marble_runed"
+        })
+        .chain()
+        .id("astralsorcery:altar/lightwell")//聚星缸
+
+    event.recipes.astralsorcery.altar_crafting(
+        "astralsorcery:altar_luminance",
+        ["F F","FBF","CCC"],
+        {
+            A:"justdirethings:blazegold_ingot",
+            B:"#astralsorcery:celestial_crystal",
+            C:"integrateddynamics:crystalized_chorus_brick",
+            D:"astralsorcery:marble_pillar",
+            E:"astralsorcery:marble_runed",
+            F:"astralsorcery:starmetal_ingot"
+        })
+        .type("resonance")
+        .relay(["A   A","A   A"," D D "," D D ","EEEEE"])
+        .researchTier("luminance")
+        .upgradesTo("astralsorcery:altar_luminance")
+        .additional("astralsorcery:stardust")
+        .additional("astralsorcery:resonating_gem")
+        .additional("astralsorcery:stardust")
+        .additional("astralsorcery:resonating_gem")
+        .additional("astralsorcery:stardust")
+        .fluid("kubejs:ignis_fluid",1000)
+        .fluid("kubejs:ignis_fluid",1000)
+        .fluid("astralsorcery:liquid_starlight",1000)
+        .fluid("kubejs:aer_fluid",1000)
+        .fluid("kubejs:aer_fluid",1000)
+        .lumen("astralsorcery:aevitas",500)
+        .lumen("astralsorcery:armara",500)
+        .lumen("astralsorcery:vicio",500)
+        .lumen("astralsorcery:discidia",500)
+        .lumen("astralsorcery:evorsio",500)
+        .id("astralsorcery:altar/altar_luminance")//辉光合成祭坛
 })
 
 //宝典修改
