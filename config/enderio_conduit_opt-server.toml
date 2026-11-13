@@ -5,6 +5,8 @@
 	enableFluidCustomFrequency = true
 	#是否允许玩家自定义【化学品导管】的抽取频率（1~200 tick）。
 	enableChemicalCustomFrequency = true
+	#限制自定义抽取频率，使其不能低于当前导管类型/档位的原生速度（如普通物品导管 20 tick、流体导管 5 tick）。开启后，低于下限的值会自动提升到原生速度，旧存档中的此类数值也会在载入时自动纠正；关闭后不做任何频率限制，最低可设为 1 tick。
+	restrictFrequencyToNative = true
 
 [Optimization]
 	#物品导管在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。

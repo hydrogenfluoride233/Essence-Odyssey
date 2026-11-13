@@ -99,6 +99,10 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "eio_more_conduits": {
+    "pressure_conduit_info": true,
+    "source_conduit_info": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -218,11 +222,11 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "enderio_conduit_opt": {
+    "conduit_info": true
+  },
   "jadeaddons.lootr": {
     "info": true
-  },
-  "enderio_conduit_opt": {
-    "item_conduit_info": true
   },
   "mysticalagradditions": {
     "infused_farmland": true

@@ -1,13 +1,13 @@
 name = "AE2 Utility"
-filename = "ae2utility-1.8.0.jar"
+filename = "ae2utility-1.8.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6a1c933f5cfdf95503d9a3bfa773e9e0eab70323"
+hash = "0f4ec37c28cc0c585c281b7bb5a47fedf16c964c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8973751
+file-id = 9538182
 project-id = 1521605

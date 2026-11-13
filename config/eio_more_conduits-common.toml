@@ -1,0 +1,14 @@
+[PressureConduit]
+	#气压导管连接到超过其承压极限的机器时是否会发生爆炸。
+	#爆炸会摧毁导管束中对应的气压导管实体。
+	enablePressureConduitExplosion = true
+
+[SmartSleep]
+	#魔源导管在无传输需求时的最大休眠时间（tick，需安装末影接口导管优化器）。0 = 永不休眠。
+	# Default: 40
+	# Range: 0 ~ 1200
+	sourceMaxSleep = 40
+	#气压导管在无传输需求时的最大休眠时间（tick，需安装末影接口导管优化器）。0 = 永不休眠。
+	# Default: 40
+	# Range: 0 ~ 1200
+	pressureMaxSleep = 40
