@@ -19,7 +19,7 @@
   "item.kubejs.crystal_metallum":"金属结晶",
   "item.kubejs.crystal_vacuos":"虚空结晶",
   "item.kubejs.crystal_motus":"移动结晶",
-  "item.kubejs.crystal_permutatio":"变化结晶",
+  "item.kubejs.crystal_permutatio":"交换结晶",
 
   "block.kubejs.block_aqua":"水之结晶块",
   "block.kubejs.block_ignis":"火之结晶块",
@@ -41,7 +41,7 @@
   "block.kubejs.block_metallum":"金属结晶块",
   "block.kubejs.block_vacuos":"虚空结晶块",
   "block.kubejs.block_motus":"移动结晶块",
-  "block.kubejs.block_permutatio":"变化结晶块",
+  "block.kubejs.block_permutatio":"交换结晶块",
 
   "fluid_type.kubejs.aqua_fluid":"渊流之清泉",
   "fluid_type.kubejs.ignis_fluid":"焚空之烈火",
@@ -129,7 +129,7 @@
   "chemical.kubejs.metallum_chemical":"金属精粹",
   "chemical.kubejs.vacuos_chemical":"虚空精粹",
   "chemical.kubejs.motus_chemical":"移动精粹",
-  "chemical.kubejs.permutatio_chemical":"变化精粹",
+  "chemical.kubejs.permutatio_chemical":"交换精粹",
 
   "item.kubejs.rune_aqua":"水之符文",
   "item.kubejs.rune_ignis":"火之符文",
