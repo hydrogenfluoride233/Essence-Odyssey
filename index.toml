@@ -5602,7 +5602,7 @@ hash = "696185ccfdc547c090c00c57483281033d2dab52a74504b2fa9380e54fda4fed"
 
 [[files]]
 file = "kubejs/client_scripts/recipe_viewer/hidden_recipes.js"
-hash = "8b7affe1a89db886928ccdceccb4c2abd7ca5411fb62d880354700c817042b5a"
+hash = "8e88486907d9301cb29e84ab4e84692fe085276cc587cfb2c27e536acfb5f3da"
 
 [[files]]
 file = "kubejs/client_scripts/recipe_viewer/info.js"

@@ -1,7 +1,7 @@
 RecipeViewerEvents.removeRecipes(event=>{
     const HideList = [
-        "create:kjs/unknown_mixture",
-        "create:kjs/paradox_collapser",
+        "essenceodyssey:create/compacting/unknown_mixture",
+        "essenceodyssey:create/crushing/paradox_collapser",
     ]
 
     HideList.forEach(recipe=>
