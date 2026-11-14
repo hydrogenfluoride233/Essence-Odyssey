@@ -11,7 +11,7 @@ ServerEvents.recipes(event=>{
             id:`${id_prefix}crystallized_oil`,
         },
         {
-            output:"1000x actuallyadditions:empowered_oil",
+            fluid_output:"1000x actuallyadditions:empowered_oil",
             fluid_input:"1000x actuallyadditions:crystallized_oil",
             item_input:"actuallyadditions:empowered_canola_seed",
             time:3200,

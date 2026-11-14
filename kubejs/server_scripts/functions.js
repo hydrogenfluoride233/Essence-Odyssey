@@ -99,15 +99,13 @@ const inWeather = weather=>({
 
 //========== 沉浸工程：TagOutput ==========
 
-//沉浸工程的 TagOutput：物品 {item,count}，标签 {tag}；没有产物时列表里写 []；recipes/immersiveengineering/ 各配方文件用
+//沉浸工程的 TagOutput：要的是真 TagOutput 实例，JS 的 {item,count} 对象转不过去（TagOutputJS 是 server 端全局）；recipes/immersiveengineering/ 各配方文件用
 const toTagOutput = text=>{
     if(typeof text !== "string") return text
 
     const {count,id} = toCounted(text)
 
-    return id.startsWith("#") ?
-        {"tag":id.substring(1)} :
-        {"item":id,"count":count}
+    return TagOutputJS.ofItemStack(Item.of(id,count))
 }
 
 //========== 气动工艺：热气动加工机 ==========

@@ -191,7 +191,7 @@ ServerEvents.recipes(event=>{
         })
 
         if(recipe.extra_conditions){
-            const extra = recipe.extra_conditions
+            let extra = recipe.extra_conditions
 
             if(extra.copy_components) builder.copyComponents(extra.copy_components[0],extra.copy_components[1])
             if(extra.chain) builder.chain()

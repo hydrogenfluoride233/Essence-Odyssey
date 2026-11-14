@@ -160,7 +160,7 @@ ServerEvents.recipes(event=>{
     for(let first = 0;first<PrimaryAspects.length-2;first++){
         for(let second = first+1;second<PrimaryAspects.length-1;second++){
             for(let third = second+1;third<PrimaryAspects.length;third++){
-                const essences = [PrimaryAspects[first].id,PrimaryAspects[second].id,PrimaryAspects[third].id]
+                let essences = [PrimaryAspects[first].id,PrimaryAspects[second].id,PrimaryAspects[third].id]
 
                 event.shapeless(
                     "thaumon:mutagen",

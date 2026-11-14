@@ -6086,7 +6086,7 @@ hash = "4c8255439fd7fda1a4da37f2fe9cf581ff39a30bcdc61cdb94dbb9536c94e2bb"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
-hash = "4a2334e8f547d732b6eb95ea035128913b29b004cf084cbfb51ee8e6456bc08d"
+hash = "846f66a75f1f4826c184134b0710f735b57277b9df320bffcd450b64be1ee4a9"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -6134,7 +6134,7 @@ hash = "f8691bbd6fc9bc407835dfa524ee944d262b75861d05922c7984f7a3e5941244"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/astralsorcery/altar_crafting.js"
-hash = "631ad3053b21f646e37f9ded0639e974ece7ed65a1cdb564917e09abc2d42e99"
+hash = "1fb079b7b432b401593b9ad4709315951ad6be803a1d4812b56d725c4c353598"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/astralsorcery/focal_combine.js"
@@ -6282,7 +6282,7 @@ hash = "5683f7667d06ec48056b22eb8d99282631b021f7a3bc20cf0a93760ced2dfedb"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/mixer.js"
-hash = "c005fa0112877f56fa8ebf1d8b4e3b96a798b29cdc63ee8bc86eff70f496796c"
+hash = "b417eb5c612c7c6000d27a18695fb0c0985f1eda95e86508379acc2902ecde7a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/potion_warmup.js"
@@ -6470,7 +6470,7 @@ hash = "9f1a92cc74866cd24348a86a8bc54869b7cf8d654bf2f95c8a39fa386dd5e111"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/portaltransform/item_transform.js"
-hash = "eba42b77b9e98527c36429a51dc684828a1d441e906838f4aef74119e95e8842"
+hash = "f2ec0858ab219f812f719ef5e7101fed5f5203b44c67a787df1d24e3136e666f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/powah/coolants.js"
@@ -6506,7 +6506,7 @@ hash = "6165dc6605b34b4f1bd7f9aa50401793150aea9cb160fda6bbce6db226f37e0e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
-hash = "7ea4dd14817ada6cc25bb0c5895e40f922a2372ab254b7d82b052d8badc23afd"
+hash = "ee9598bf99eed0481f44ea7afa706f28a032b18f9048844590767c5971cb307e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/smelting.js"
