@@ -208,7 +208,7 @@ ServerEvents.recipes(event=>{
     checkRecipes(recipes,Required)
 
     recipes.forEach(recipe=>{
-        const [namespace,rawPath] = parseCounted(recipe.output).id.split(":")
+        const [namespace,rawPath] = toCounted(recipe.output).id.split(":")
         const path = rawPath.split("[")[0]
 
         event.shaped(

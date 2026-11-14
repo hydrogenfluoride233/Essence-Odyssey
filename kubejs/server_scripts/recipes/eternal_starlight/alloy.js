@@ -40,8 +40,8 @@ ServerEvents.recipes(event=>{
             "type":"eternal_starlight:alloy",
             "burn_time":recipe.time,
             "ingredients":recipe.input.map(toIngredientJson),
-            "results":asRecipeArray(recipe.output).map(value=>{
-                const {count,id} = parseCounted(value)
+            "results":toRecipeArray(recipe.output).map(value=>{
+                const {count,id} = toCounted(value)
 
                 return {"amount":count,"item":{"id":id}}
             })

@@ -26,7 +26,7 @@ ServerEvents.recipes(event=>{
     checkRecipes(recipes,Required)
 
     recipes.forEach(recipe=>{
-        const {count,id} = parseCounted(recipe.output)
+        const {count,id} = toCounted(recipe.output)
 
         event.recipes.powah.energizing(
             recipe.input,

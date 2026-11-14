@@ -3,13 +3,13 @@ ServerEvents.recipes(event=>{
     const Required = ["id","output","input","ignore_multiplier"]
 
     const parseResult = result=>{
-        const {count,id} = parseCounted(result)
+        const {count,id} = toCounted(result)
 
         return RecipeResult.of(id,count)
     }
 
     const parseInput = ingredient=>{
-        const {count,id} = parseCounted(ingredient)
+        const {count,id} = toCounted(ingredient)
 
         if(count !== 1) throw new Error("神秘学粉碎配方不支持多个输入物品")
 

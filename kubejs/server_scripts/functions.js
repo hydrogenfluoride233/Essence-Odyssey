@@ -12,7 +12,7 @@ const checkRecipes = (recipes,fields)=>{
     })
 }
 
-const parseCounted = (text,defaultCount = 1)=>{
+const toCounted = (text,defaultCount = 1)=>{
     const match = text.match(/^(\d+)x\s+(.+)$/)
 
     return {"count":match ? parseInt(match[1]) : defaultCount,"id":match ? match[2] : text}
@@ -22,7 +22,7 @@ const parseCounted = (text,defaultCount = 1)=>{
 const toItemStack = text=>{
     if(typeof text !== "string") return text
 
-    const {count,id} = parseCounted(text)
+    const {count,id} = toCounted(text)
 
     return {"count":count,"id":id}
 }
@@ -31,7 +31,7 @@ const toItemStack = text=>{
 const toIngredient = text=>{
     if(typeof text !== "string") return text
 
-    const {count,id} = parseCounted(text)
+    const {count,id} = toCounted(text)
 
     return id.startsWith("#") ?
         {"count":count,"tag":id.substring(1)} :
@@ -42,21 +42,21 @@ const toIngredient = text=>{
 const toIngredientJson = text=>{
     if(typeof text !== "string") return text
 
-    const {id} = parseCounted(text)
+    const {id} = toCounted(text)
 
     return id.startsWith("#") ? {"tag":id.substring(1)} : {"item":id}
 }
 
 //流体栈
 const toFluidStack = text=>{
-    const {count,id} = parseCounted(text,1000)
+    const {count,id} = toCounted(text,1000)
 
     return Fluid.of(id,count)
 }
 
 //流体 JSON
 const toFluidJson = text=>{
-    const {count,id} = parseCounted(text,1000)
+    const {count,id} = toCounted(text,1000)
 
     return {"amount":count,"id":id}
 }
@@ -65,7 +65,7 @@ const toFluidJson = text=>{
 const toFluidIngredient = text=>{
     if(typeof text !== "string") return text
 
-    const {count,id} = parseCounted(text,1000)
+    const {count,id} = toCounted(text,1000)
 
     return id.startsWith("#") ?
         {"amount":count,"tag":id.substring(1)} :
@@ -75,13 +75,13 @@ const toFluidIngredient = text=>{
 //概率产物：条目统一写 [概率,"Nx 物品id"]，转 {chance,output:{id[,count]}}（NeoForge ChanceResult 风格）
 const toChanceOutput = entry=>{
     const [chance,text] = entry
-    const {count,id} = parseCounted(text)
+    const {count,id} = toCounted(text)
 
     return {"chance":chance,"output":count === 1 ? {"id":id} : {"count":count,"id":id}}
 }
 
 //单值转数组
-const asRecipeArray = value=>Array.isArray(value) ? value : [value]
+const toRecipeArray = value=>Array.isArray(value) ? value : [value]
 
 //========== Lychee：条件构造 ==========
 
@@ -103,7 +103,7 @@ const inWeather = weather=>({
 const toTagOutput = text=>{
     if(typeof text !== "string") return text
 
-    const {count,id} = parseCounted(text)
+    const {count,id} = toCounted(text)
 
     return id.startsWith("#") ?
         {"tag":id.substring(1)} :
@@ -113,7 +113,7 @@ const toTagOutput = text=>{
 //========== 气动工艺：热气动加工机 ==========
 
 //热气动加工机输出：物品走 item_output，流体走 fluid_output；recipes/pneumaticcraft/thermo_plant.js 用
-const parseThermoPlantOutput = output=>{
+const toThermoPlantOutput = output=>{
     if(typeof output === "string") return {"item_output":toItemStack(output)}
 
     if(output.fluid) return {
@@ -130,7 +130,7 @@ const parseThermoPlantOutput = output=>{
 
 //挤压机的产物：物品 {item:{id,count}}，标签 {tag:{tag,count}}
 const squeezerStack = text=>{
-    const {count,id} = parseCounted(text)
+    const {count,id} = toCounted(text)
 
     return id.startsWith("#") ?
         {"tag":{"tag":id.substring(1),"count":count}} :
@@ -145,7 +145,7 @@ const squeezerJson = (type,input,output,chances,fluid,duration)=>{
     }
 
     const outputs = output ? [squeezerStack(output)] : []
-    const chanceList = asRecipeArray(chances || [])
+    const chanceList = toRecipeArray(chances || [])
     const pairs = typeof chanceList[0] === "number" ? [chanceList] : chanceList   //只写一对时不用再套一层
 
     pairs.slice(0,2).forEach(([chance,item])=>

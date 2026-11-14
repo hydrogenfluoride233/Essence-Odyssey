@@ -109,7 +109,7 @@ ServerEvents.recipes(event=>{
             "power_cost":recipe.energy,
             "input":toIngredientJson(recipe.main_input),
             "ingredients":recipe.extra_input.map(toIngredientJson),
-            "result":{"id":parseCounted(recipe.output).id}
+            "result":{"id":toCounted(recipe.output).id}
         })
         .id(recipe.id))
 })

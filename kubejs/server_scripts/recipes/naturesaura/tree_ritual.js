@@ -410,7 +410,7 @@ ServerEvents.recipes(event=>{
         const inputs = []
 
         recipe.input.forEach(value=>{
-            const {count,id}=parseCounted(value)
+            const {count,id}=toCounted(value)
 
             for(let i=0;i<count;i++) inputs.push(id)
         })

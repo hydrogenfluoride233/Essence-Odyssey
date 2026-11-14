@@ -202,7 +202,7 @@ ServerEvents.recipes(event=>{
         const extra_input = []
 
         recipe.extra_input.forEach(value=>{
-            const {count,id}=parseCounted(value)
+            const {count,id}=toCounted(value)
 
             for(let i=0;i<count;i++) extra_input.push(id)
         })

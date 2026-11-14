@@ -84,7 +84,7 @@ ServerEvents.recipes(event=>{
             "type":"immersiveengineering:blueprint",
             "category":recipe.category,
             "inputs":recipe.input.map(value=>{
-                const {count,id} = parseCounted(value)
+                const {count,id} = toCounted(value)
 
                 return {
                     "basePredicate":id.startsWith("#") ? {"tag":id.substring(1)} : {"item":id},

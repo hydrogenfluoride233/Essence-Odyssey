@@ -164,7 +164,7 @@ ServerEvents.recipes(event=>{
 
     recipes.forEach(recipe=>{
         const builder = event.recipes.astralsorcery.altar_crafting(
-            asRecipeArray(recipe.output).map(value=>toItemStack(value)),
+            toRecipeArray(recipe.output).map(value=>toItemStack(value)),
             recipe.pattern,
             recipe.key
         )
@@ -173,19 +173,19 @@ ServerEvents.recipes(event=>{
         if(recipe.relay) builder.relay(recipe.relay)
 
         if(recipe.extra_item) recipe.extra_item.forEach(value=>{
-            const {count,id} = parseCounted(value)
+            const {count,id} = toCounted(value)
 
             for(let i = 0;i<count;i++) builder.additional(id)
         })
 
         if(recipe.extra_fluid) recipe.extra_fluid.forEach(value=>{
-            const {count,id} = parseCounted(value)
+            const {count,id} = toCounted(value)
 
             for(let i = 0;i<count;i++) builder.fluid(id,1000)
         })
 
         if(recipe.extra_lumen) recipe.extra_lumen.forEach(value=>{
-            const {count,id} = parseCounted(value)
+            const {count,id} = toCounted(value)
 
             builder.lumen(id,count)
         })

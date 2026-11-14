@@ -1,10 +1,9 @@
 ServerEvents.tags("block",event=>{
     //神圣陨星
-    const aspects = ["aqua","ignis","terra","aer","perditio","ordo"]
-    aspects.forEach(aspect=>
+    PrimaryAspects.forEach(({id:aspect})=>
         event.get("neovitae:quarry_blocks").add(`kubejs:block_${aspect}`))
 
-    event.get("neovitae:quarry_blocks").add("minecraft:amethyst_block")//紫水晶块
+    event.get("neovitae:quarry_blocks").add("minecraft:amethyst_block")
 
     //符文祭坛材料
     event.get("occultism:pentacle_materials").add([
@@ -16,12 +15,12 @@ ServerEvents.tags("block",event=>{
     ])
 
     //要素
-    Aspects.forEach(({id:ess})=>
-        event.get("kubejs:essence_block").add(`kubejs:block_${ess}`))
+    Aspects.forEach(({id:aspect})=>
+        event.get("kubejs:aspect_block").add(`kubejs:block_${aspect}`))
 
-    PrimaryAspects.forEach(({id:ess})=>
-        event.get("kubejs:primary_essence_block").add(`kubejs:block_${ess}`))
+    PrimaryAspects.forEach(({id:aspect})=>
+        event.get("kubejs:primary_aspect_block").add(`kubejs:block_${aspect}`))
 
-    SecondaryAspects.forEach(({id:ess})=>
-        event.get("kubejs:secondary_essence_block").add(`kubejs:block_${ess}`))
+    SecondaryAspects.forEach(({id:aspect})=>
+        event.get("kubejs:secondary_aspect_block").add(`kubejs:block_${aspect}`))
 })

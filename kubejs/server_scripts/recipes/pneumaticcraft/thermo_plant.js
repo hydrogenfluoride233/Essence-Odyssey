@@ -4,7 +4,7 @@ ServerEvents.recipes(event=>{
 
     //热气动加工机的流体输入：{amount,fluid} 或 {amount,tag}
     const parseFluidInput = text=>{
-        const {count,id}=parseCounted(text)
+        const {count,id}=toCounted(text)
 
         return id.startsWith("#") ?
             {"amount":count,"tag":id.substring(1)} :
@@ -69,7 +69,7 @@ ServerEvents.recipes(event=>{
                 "fluid":{"amount":250,"fluid":"sauce:source_fluid"},
                 "item":{"item":`kubejs:crystal_${ess}`}
             },
-            "outputs":parseThermoPlantOutput({fluid:`kubejs:${ess}_fluid`, amount:250}),
+            "outputs":toThermoPlantOutput({fluid:`kubejs:${ess}_fluid`, amount:250}),
             "temperature":{"min":473},
             "pressure":2.0
         })
@@ -81,7 +81,7 @@ ServerEvents.recipes(event=>{
                 "fluid":{"amount":1000,"fluid":"sauce:source_fluid"},
                 "item":{"item":`kubejs:block_${ess}`}
             },
-            "outputs":parseThermoPlantOutput({fluid:`kubejs:${ess}_fluid`, amount:1000}),
+            "outputs":toThermoPlantOutput({fluid:`kubejs:${ess}_fluid`, amount:1000}),
             "temperature":{"min":573},
             "pressure":3.0
         })
@@ -93,7 +93,7 @@ ServerEvents.recipes(event=>{
                 "fluid":{"amount":250,"fluid":`kubejs:${ess}_fluid`},
                 "item":{"item":"minecraft:amethyst_shard"}
             },
-            "outputs":parseThermoPlantOutput(`kubejs:crystal_${ess}`),
+            "outputs":toThermoPlantOutput(`kubejs:crystal_${ess}`),
             "temperature":{"max":263}
         })
         .id(`essenceodyssey:pneumaticcraft/thermo_plant/${ess}_fluid_to_crystal`)
@@ -104,7 +104,7 @@ ServerEvents.recipes(event=>{
                 "fluid":{"amount":1000,"fluid":`kubejs:${ess}_fluid`},
                 "item":{"item":"minecraft:amethyst_block"}
             },
-            "outputs":parseThermoPlantOutput(`kubejs:block_${ess}`),
+            "outputs":toThermoPlantOutput(`kubejs:block_${ess}`),
             "temperature":{"max":253}
         })
         .id(`essenceodyssey:pneumaticcraft/thermo_plant/${ess}_fluid_to_block`)

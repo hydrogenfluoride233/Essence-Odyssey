@@ -24,7 +24,7 @@ ServerEvents.recipes(event=>{
             "type":"pneumaticcraft:explosion_crafting",
             "input":toIngredient(recipe.input),
             "loss_rate":recipe.loss_rate,
-            "results":asRecipeArray(recipe.output).map(toItemStack)
+            "results":toRecipeArray(recipe.output).map(toItemStack)
         })
         .id(recipe.id))
 })

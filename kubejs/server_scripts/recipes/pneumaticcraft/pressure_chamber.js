@@ -128,9 +128,9 @@ ServerEvents.recipes(event=>{
     recipes.forEach(recipe=>
         event.custom({
             "type":"pneumaticcraft:pressure_chamber",
-            "inputs":asRecipeArray(recipe.input).map(toIngredient),
+            "inputs":toRecipeArray(recipe.input).map(toIngredient),
             "pressure":recipe.pressure,
-            "results":asRecipeArray(recipe.output).map(toItemStack)
+            "results":toRecipeArray(recipe.output).map(toItemStack)
         })
         .id(recipe.id))
 })

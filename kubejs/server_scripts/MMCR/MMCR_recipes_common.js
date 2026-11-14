@@ -53,7 +53,7 @@ const packagedIngredient = value=>{
     if(!raw) return null
 
     if(typeof raw === "string"){
-        const {count,id} = parseCounted(raw)
+        const {count,id} = toCounted(raw)
 
         if(id.startsWith("#")) return {"item":{"tag":id.substring(1)},"count":count}
 
@@ -86,7 +86,7 @@ const packagedIngredient = value=>{
 //产物 → ItemStack JSON
 const packagedStack = value=>{
     if(typeof value === "string"){
-        const {count,id} = parseCounted(value)
+        const {count,id} = toCounted(value)
         const parsed = packagedComponents(id)
 
         return parsed ?

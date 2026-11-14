@@ -1,6 +1,4 @@
 ServerEvents.tags("item",event=>{
-//标签添加
-
     //金属
     event.get("c:ingots").add([
         "naturesaura:tainted_gold",
@@ -101,23 +99,21 @@ ServerEvents.tags("item",event=>{
     event.get("constructionstick:template").add(/^constructionstick:template/)
     event.get("pylons:pylon").add(/^pylons:.*_pylon$/)
 
+    //要素
+    Aspects.forEach(({id:aspect})=>{
+        event.get("kubejs:aspect_crystal").add(`kubejs:crystal_${aspect}`)
+        event.get("kubejs:aspect_block").add(`kubejs:block_${aspect}`)
+    })
 
-//标签移除
+    PrimaryAspects.forEach(({id:aspect})=>{
+        event.get("kubejs:primary_aspect_crystal").add(`kubejs:crystal_${aspect}`)
+        event.get("kubejs:primary_aspect_block").add(`kubejs:block_${aspect}`)
+    })
 
-    event.get("c:gems/certus_quartz").remove("ae2:charged_certus_quartz_crystal")
-    event.get("ae2:all_certus_quartz").remove("ae2:charged_certus_quartz_crystal")
-    event.get("c:gears/iron").remove("enderio:iron_gear")
-    event.get("pneumaticcraft:upgrade_components").remove("minecraft:lapis_lazuli")
-
-    //botanypots
-    event.removeAll("botanypotstiers:regular_botany_pots")
-    event.removeAll("botanypotstiers:elite_botany_pots")
-    event.removeAll("botanypotstiers:ultra_botany_pots")
-    event.removeAll("botanypotstiers:mega_botany_pots")
-    event.removeAll("botanypotstiers:regular_hopper_botany_pots")
-    event.removeAll("botanypotstiers:elite_hopper_botany_pots")
-    event.removeAll("botanypotstiers:ultra_hopper_botany_pots")
-    event.removeAll("botanypotstiers:mega_hopper_botany_pots")
+    SecondaryAspects.forEach(({id:aspect})=>{
+        event.get("kubejs:secondary_aspect_crystal").add(`kubejs:crystal_${aspect}`)
+        event.get("kubejs:secondary_aspect_block").add(`kubejs:block_${aspect}`)
+    })
 
     //符文祭坛材料
     event.get("occultism:pentacle_materials").add([
@@ -128,19 +124,18 @@ ServerEvents.tags("item",event=>{
         "minecraft:stone_bricks",
     ])
 
-    //要素
-    Aspects.forEach(({id:ess})=>{
-        event.get("kubejs:essence_crystal").add(`kubejs:crystal_${ess}`)
-        event.get("kubejs:essence_block").add(`kubejs:block_${ess}`)
-    })
+    //标签移除
+    event.get("c:gems/certus_quartz").remove("ae2:charged_certus_quartz_crystal")
+    event.get("ae2:all_certus_quartz").remove("ae2:charged_certus_quartz_crystal")
+    event.get("c:gears/iron").remove("enderio:iron_gear")
+    event.get("pneumaticcraft:upgrade_components").remove("minecraft:lapis_lazuli")
 
-    PrimaryAspects.forEach(({id:ess})=>{
-        event.get("kubejs:primary_essence_crystal").add(`kubejs:crystal_${ess}`)
-        event.get("kubejs:primary_essence_block").add(`kubejs:block_${ess}`)
-    })
-
-    SecondaryAspects.forEach(({id:ess})=>{
-        event.get("kubejs:secondary_essence_crystal").add(`kubejs:crystal_${ess}`)
-        event.get("kubejs:secondary_essence_block").add(`kubejs:block_${ess}`)
-    })
+    event.removeAll("botanypotstiers:regular_botany_pots")
+    event.removeAll("botanypotstiers:elite_botany_pots")
+    event.removeAll("botanypotstiers:ultra_botany_pots")
+    event.removeAll("botanypotstiers:mega_botany_pots")
+    event.removeAll("botanypotstiers:regular_hopper_botany_pots")
+    event.removeAll("botanypotstiers:elite_hopper_botany_pots")
+    event.removeAll("botanypotstiers:ultra_hopper_botany_pots")
+    event.removeAll("botanypotstiers:mega_hopper_botany_pots")
 })
