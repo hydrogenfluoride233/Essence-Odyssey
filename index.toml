@@ -1825,6 +1825,10 @@ file = "config/defaultoptions/options.txt"
 hash = "98880b82d31ace961081c55c771cd2fee673960c3fbba26127a1353cbf17c604"
 
 [[files]]
+file = "config/eio_more_conduits-common.toml"
+hash = "b50177417897c8a786c774ccfaab202be43d6573b1590823ae033826e0ff3bde"
+
+[[files]]
 file = "config/elevatorid-server.toml"
 hash = "8a44f65bb1d0d1b7a7b6e012b8f329756db98dd4e2f882f3d7620cbd188c5c13"
 
@@ -1850,7 +1854,7 @@ hash = "16b611c3293a17dbecf634a37776507fd102c200c3075b360534ab373d4713b7"
 
 [[files]]
 file = "config/enderio_conduit_opt-server.toml"
-hash = "5366547ef0b518b5194a05b20390a22154929dba07042dc932e84a60dc5688b8"
+hash = "25c6d18b04edc76728bc21ac689cf77c94ec407f7d1679cb7743282bf8fb2a50"
 
 [[files]]
 file = "config/enderio_evolution/capacitors.toml"
@@ -2026,7 +2030,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "b2d9dda58f34e4a8c27071c1bdf9e06d5ff7beb240f0db89d4017efa2f525674"
+hash = "295b97131535e62449b461c3c4b9cb5efaf97029e492777c7c28a8d364aa2250"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2134,11 +2138,11 @@ hash = "bab321992b874b62ea5673ff04504160ea7b832922dc363a9dee17c1f0422dd6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "da3c0313ba00c1698a9d92517842dfa601cac83827e3980e3e4bfdc0977f1566"
+hash = "cb2164409997df33b846f6843a98cdc207088c4ea5b402643619ae821a3ec683"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
-hash = "62d05bbb83916e2402eda0ece848ebce00c3d418b126d4c05a12c243e85ca788"
+hash = "0f909bb52a980338b6cbc893f448a9ce4a11191f68d91eb794abeafd58571813"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_4.snbt"
@@ -2162,7 +2166,7 @@ hash = "81482dcc96235917bbac59e9d30866b8d5554613cf0533d6e8cd45705e75261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity_production.snbt"
-hash = "dbc1858f4c5522a29d9cef0fe2c2f3417167a02605c416d79fa73c0da7fdb4fa"
+hash = "cdb2cde40e44c07dc4c92a68abb860a4b04936b2aa4099252cfdeb0c5abd375a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
@@ -2202,7 +2206,7 @@ hash = "115502741ea43bcdb7bfbe8fa504a3ae316590274de20a84a95f6e207a9e1677"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "32c87d3fec39437a34f7befe4de594c6e1bd44408d7cd4e4a623131d7f2a4267"
+hash = "dab2f55180907821badd812116149918355e186b2932effe5b96e3e5952748b3"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/23fdf0dd49f0c68c.snbt"
@@ -2338,7 +2342,7 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "650b81e0abcdba02946cb7ae74043cdc1a1a4020898aa9c4efcca4331aabc9d9"
+hash = "943456f9507f87b6a42ab18988fa3ee0eb8d21854b8516b2a64ab27f12462429"
 
 [[files]]
 file = "config/jea.json5"
@@ -2686,7 +2690,7 @@ hash = "4bb6ae91ea7700c64dd00baf7fe90f77eceb7b4b5fef970796faeb86f76aaa23"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "f78e6d84bea58019b622ddfeaef804ecbff871c951e597f7068a346159963d00"
+hash = "cb0e96810d7931cb4b1cdfa7fc2c868801a6a3ef6fcc5e458fbc510390906df1"
 
 [[files]]
 file = "config/sophisticatedstorage-common.toml"
@@ -2694,7 +2698,7 @@ hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
 
 [[files]]
 file = "config/sophisticatedstorage-server.toml"
-hash = "f1782c9607509e3afccec9bb773acff652859b573bec169d5a7ff544a2a8595f"
+hash = "633ee6510abd71cb246274b15b5a4b3fdb22c423deb696f6a79a0be672918338"
 
 [[files]]
 file = "config/starbunclemania-common.toml"
@@ -3678,11 +3682,11 @@ hash = "ad78ef009ed7caa77bd5ca6cc648f1e481fe621dad389caa86a3aa773590cfc4"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "b62707cb24a740f1fc91fb577cbdb53e8cfb08b51dff01bf6cf205305d4db02d"
+hash = "f93a6ab7e83b5b2611a85f400fc9b48f2299531c72984380a57acfcd18d2d968"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "c6181811eb2e2900a88aa768d4976a05cdfe155bd55705ef0a019640399ddb26"
+hash = "de304db632d21a96f450112b353a8784b99e033cd9d46935e1046d8ac1daaa86"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/packaged_tree_beacon.json"
@@ -3690,7 +3694,7 @@ hash = "de976f9a8db582f0c331ba87c99bbf79e2936e73f26ec506279a89c70a0761a5"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/machine_model.json"
-hash = "f9e92a2a1f27f818fcb8bccaba86fcb7e7e7d345f186112ad4451c88189272c6"
+hash = "e6d53abaec48aabcdd8876f64eac93f90d6d9b0cd6bfab35233363205f5a4b18"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/machine_model/star_ring_1.json"
@@ -5578,23 +5582,31 @@ hash = "9b9493228bd73fd586170000652c8325cc3adcf58d3fca4dc41e1cf7625c8b04"
 
 [[files]]
 file = "kubejs/client_scripts/essenceodyssey/info.js"
-hash = "d22c533708a6ed1fee1eabbdca545647934591af7d51dfc4313b4677d46eda7b"
+hash = "40436f884e2bbb7caa1d09bfb3c4363b2f248c6298a9acfd92f16c36cf679b3a"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "d2a13306c453d92e9fe31b499b657a16a5083b1471850216a5a22d9876520e17"
 
 [[files]]
-file = "kubejs/client_scripts/recipeviewer/MMCR-hidden.js"
-hash = "cd8022f057481d36f1d790e02ef49c08a6cb6e4ab210cf17367467812815349e"
+file = "kubejs/client_scripts/recipe_viewer/hidden_categories.js"
+hash = "be154c0d4045e3e823033c293077b2d7237409e47100df3f484a152842e120f1"
 
 [[files]]
-file = "kubejs/client_scripts/recipeviewer/hidden.js"
-hash = "13dded7c14e486b00f4a7b51cf5b954656b69eb0f9c506f15a52c1178def8abf"
+file = "kubejs/client_scripts/recipe_viewer/hidden_fluids.js"
+hash = "ae7008b5843240241619531881a87136a94f23db5209d7614917429ef3aa8335"
 
 [[files]]
-file = "kubejs/client_scripts/recipeviewer/info.js"
-hash = "26064412438c088577b7b09cef19c26ad57068fb5ca263dfc7b5b7addf6968e2"
+file = "kubejs/client_scripts/recipe_viewer/hidden_items.js"
+hash = "696185ccfdc547c090c00c57483281033d2dab52a74504b2fa9380e54fda4fed"
+
+[[files]]
+file = "kubejs/client_scripts/recipe_viewer/hidden_recipes.js"
+hash = "8b7affe1a89db886928ccdceccb4c2abd7ca5411fb62d880354700c817042b5a"
+
+[[files]]
+file = "kubejs/client_scripts/recipe_viewer/info.js"
+hash = "4ac0575496caa387a803436e1dec9f5fb5ceea112d5fc4563263954d846a1893"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -6037,204 +6049,496 @@ file = "kubejs/package.json"
 hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR/MMCR-machines.js"
-hash = "10cc99e89ccc195d85c93985d31046e161ec8148de07a2446b7adfd53f1af0b0"
+file = "kubejs/server_scripts/MMCR/MMCR_machines.js"
+hash = "35e4d18c733b0c9943e4c0640c2557cdb1eeddd52cbae0af4acc2eb6ed1f6977"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR/MMCR-models.js"
-hash = "aab12a13a285e26354f51d9bf561d9e3f829859ffa4b612b8008e9bec564d2bb"
+file = "kubejs/server_scripts/MMCR/MMCR_models.js"
+hash = "ed5eb19ae74bc16d35fd438d1f5a3a22e31c5da0eb0c353e21baac2d8b80d5bf"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR/MMCR-recipes-common.js"
-hash = "18eec006d9fb9ffacb35df0f6d2b8fe826eba7abd3d2dff21b8c11e9395eaa22"
+file = "kubejs/server_scripts/MMCR/MMCR_recipes.js"
+hash = "ad8c1d8da557ce92ad871232aeeffd5d9e220f38630823555f9b5cb8783e2ae9"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR/MMCR-recipes.js"
-hash = "adadb5f3fe664851cfefb98e74904e5025ed445a0c97df2c47204a4a5c11c586"
+file = "kubejs/server_scripts/MMCR/MMCR_recipes_common.js"
+hash = "4eb139feb4a98b166e593b5195acfb01ab1ab9c6751209c668da22378d1700f8"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR/MMCR-structures.js"
+file = "kubejs/server_scripts/MMCR/MMCR_structures.js"
 hash = "b70c3deec4e60b279c60a80c3abf05c713b9afcbeac6e974422dbbbbd187bf68"
 
 [[files]]
-file = "kubejs/server_scripts/MMCR/MMCR-tags.js"
-hash = "655d8caaa805d68dc2d5381ee8444be370792f05c40b76dccd74a95cb2afb60d"
+file = "kubejs/server_scripts/MMCR/MMCR_tags.js"
+hash = "a782a6801179d1fafbbaa2fa9caff393763783195ba3e6da74ab136d9d0a1492"
 
 [[files]]
-file = "kubejs/server_scripts/actuallyadditions.js"
-hash = "059f1d18fa1c1d416d0ac3f3fbddd8bf8dd8cef6f80cf2a138eef8ff1fd18fb4"
+file = "kubejs/server_scripts/data.js"
+hash = "eaaeb774971d0c9e8018f35f228343ff549b108047ee5cd8075fefe86e364506"
 
 [[files]]
-file = "kubejs/server_scripts/ae2.js"
-hash = "28998f55aedbc1f69e7050967392308b4a5924162f448761a6df1c3a49618648"
-
-[[files]]
-file = "kubejs/server_scripts/aether.js"
-hash = "6c6570c7f216f5149d54f1eeca2d1dd051d02a0fb4efff2892826799651bfc2f"
-
-[[files]]
-file = "kubejs/server_scripts/ars_nouveau.js"
-hash = "aa81ce5c844a8890275db81d4940f5a1099e5bedbf8b325382274a0944387aaf"
-
-[[files]]
-file = "kubejs/server_scripts/astralsorcery.js"
-hash = "4693e0e8654419e1b50db68766958bada83fa300202c721c4d0704ba455949c5"
-
-[[files]]
-file = "kubejs/server_scripts/botany_pots.js"
-hash = "178395a8369fa8929fb07c64564389a268cadc4a1923c64d828da040326e79e1"
-
-[[files]]
-file = "kubejs/server_scripts/cataclysm.js"
-hash = "f86891ee90043320b8c00b7af164f2c481bfc5808b136e21d387595caf6c896d"
-
-[[files]]
-file = "kubejs/server_scripts/create.js"
-hash = "4195780ce9971e09e12afb7bc5bdc06484bcb09964157faef8972dd9b1c4bb03"
-
-[[files]]
-file = "kubejs/server_scripts/createaddition.js"
-hash = "53b5ed6fb8707519e327da1ddbfdf45881b0b74cb0710b611f31db9e827f7659"
-
-[[files]]
-file = "kubejs/server_scripts/enderio.js"
-hash = "a66fb54d02d07027e7ecc5b2fa0a547b24bdf6b793a6c6721d59029b444ea63b"
+file = "kubejs/server_scripts/essenceodyssey/temporary.js"
+hash = "dfa6bef5b4f06d9091baeb7c39bbdb00f1ce3543598930a2d119092cc2cba989"
 
 [[files]]
 file = "kubejs/server_scripts/essenceodyssey/tooltips.js"
 hash = "4c8255439fd7fda1a4da37f2fe9cf581ff39a30bcdc61cdb94dbb9536c94e2bb"
 
 [[files]]
-file = "kubejs/server_scripts/eternal_starlight.js"
-hash = "485edf79fc62fb7567040f311717d44b875cf465a615e90212f0e13e859ebd2d"
-
-[[files]]
-file = "kubejs/server_scripts/extendedcrafting.js"
-hash = "58b82c8d9c9779bf73047ddf9426e8b0ab547a0c66b39138385649c1455c4cae"
-
-[[files]]
-file = "kubejs/server_scripts/farmersdelight.js"
-hash = "402b322434b90b71ee115c8171e7dc3b129a1074966813eb2c00a432ed1c6f9c"
-
-[[files]]
-file = "kubejs/server_scripts/hostilenetworks.js"
-hash = "29a2d355dd6b94103038166b2e325293fb3d9a5c31a2fe24e119441d1c6c9192"
-
-[[files]]
-file = "kubejs/server_scripts/immersiveengineering.js"
-hash = "b253893abc4c3fbb534d9be05a5e214640a797b159379ec2f29a0b5e7128a655"
-
-[[files]]
-file = "kubejs/server_scripts/industrialforegoing.js"
-hash = "29de25f4856ff1fbf311dafbd149e9be375256c0558ce9062e2a8dcde316127d"
-
-[[files]]
-file = "kubejs/server_scripts/integrateddynamics.js"
-hash = "909baecb3ecdfeb1a3d55a2146822c978fedcd31c92f55b6dbd1c5c1db064b75"
+file = "kubejs/server_scripts/functions.js"
+hash = "8e8db82d62988ece362de3495498a6d67030c45df74a90978305b41a3d35e305"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
 hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
 
 [[files]]
-file = "kubejs/server_scripts/justdirethings.js"
-hash = "9ddd978e030264ed7683b46410ee05a4126df98c25ca823b681505d4e40964a5"
+file = "kubejs/server_scripts/recipes/actuallyadditions/crushing.js"
+hash = "243c04dd05a690695b572a242bc6e9249857f4fa39c1a86cf677ebb49f65b459"
 
 [[files]]
-file = "kubejs/server_scripts/lychee.js"
-hash = "5773c9452296fc01522d6fe345f7e82554a8017775d3d97a81a520064e4cb182"
+file = "kubejs/server_scripts/recipes/actuallyadditions/empowering.js"
+hash = "ee4063ff9ff1f759917fb8780bdba677004f491f0f2f188d40da6790c29b7af1"
 
 [[files]]
-file = "kubejs/server_scripts/mekanism.js"
-hash = "6bbecfeeaefa59df9c4893070b94a4ee5a22d5805a7c38b7b7559b7a50547742"
+file = "kubejs/server_scripts/recipes/actuallyadditions/laser.js"
+hash = "5712942bbf1d1981982c16c1c0fd4a2c0b3d263b5d79bb73621e3876dfd68139"
 
 [[files]]
-file = "kubejs/server_scripts/mysticalagriculture.js"
-hash = "d4e5a213032bed103a5d4a5a2f1ec6ccfe898679e725661d1797f9253b81ab7d"
+file = "kubejs/server_scripts/recipes/ae2/transform_explosion.js"
+hash = "950993f6fa2821e08e807681b8737df0498ab98f743f341283af2c393a8b7588"
 
 [[files]]
-file = "kubejs/server_scripts/naturesaura.js"
-hash = "c8ddc38d912fc9fb574c5dd02937d8d8f22e991f6e15a95a771bdf42d04df0e2"
+file = "kubejs/server_scripts/recipes/aether/placement_conversion.js"
+hash = "f01328967ee2c805107d2b2f6c986b56eca43022df04f7c1e03573c1bd83af2b"
 
 [[files]]
-file = "kubejs/server_scripts/neovitae.js"
-hash = "de3ae144f7b90c3ad8ba2b9b1e2ad623bfa915b7385a37d0e495d860068491ab"
+file = "kubejs/server_scripts/recipes/ars_elemental/netherite_upgrade.js"
+hash = "40edcde262fb4122f580fb47f5536065ee32431f6c7bc1921db17df32212fff1"
 
 [[files]]
-file = "kubejs/server_scripts/occultism-recipes.js"
-hash = "249341c85527820d82841c002b0115e408cda49f406aae58fb80a8074c298ae8"
+file = "kubejs/server_scripts/recipes/ars_nouveau/budding_conversion.js"
+hash = "cca58fe979dacca299e23bab8ad8018121ce11220bb549fd2224faa6a6ef6843"
 
 [[files]]
-file = "kubejs/server_scripts/occultism-rituals.js"
-hash = "c8c32a54bb89b613321ab1496f643ba940ae8bfa48d48618c719702f1e2583e9"
+file = "kubejs/server_scripts/recipes/ars_nouveau/enchanting_apparatus.js"
+hash = "dc74d585d67bbaa48664169caea728fc11c06c4a147871919999f94f00e2b0e8"
 
 [[files]]
-file = "kubejs/server_scripts/pneumaticcraft.js"
-hash = "4c57ae4f394b510bbb6b1068e2d816c1718df1f9458582131e450d0a0137b67f"
+file = "kubejs/server_scripts/recipes/ars_nouveau/enchantment.js"
+hash = "2bdf3c4d693fdac7ba1f37fba9400aca9c9bf38e347ccd1de0de098556b0bc13"
 
 [[files]]
-file = "kubejs/server_scripts/portaltransform.js"
-hash = "0cad7f06fc7be1e1186f0c41d5c51796a092ac8cba1ed62d370d001e13f65f40"
+file = "kubejs/server_scripts/recipes/ars_nouveau/imbuement.js"
+hash = "5a6c6e971813dded7fa892d8b619af4d31d0f7d75012061dee07620426f03b9d"
 
 [[files]]
-file = "kubejs/server_scripts/powah.js"
-hash = "b6b90bf75a7ba6d3bcc95a31b8833237775c797fd33f4a86685d1a0b29850d69"
+file = "kubejs/server_scripts/recipes/astralsorcery/altar_crafting.js"
+hash = "c6bb1bc5c6b6907a6284e1cd89d3217dcdb6fe61434e62d0f3c3ef660315b9d9"
 
 [[files]]
-file = "kubejs/server_scripts/sanguine_networks.js"
-hash = "7b88e9e41130f80a51bf1428086fcd9a508cbe27a8461fe6c6fade6d9a81bcd4"
+file = "kubejs/server_scripts/recipes/astralsorcery/focal_combine.js"
+hash = "b46feb38cd69c3b6dc00745f3fa02403617bcd91a5202cb4908f8f216cb84e9e"
 
 [[files]]
-file = "kubejs/server_scripts/special/aspects.js"
-hash = "e568a361a5c5d75a728540f4b8ea93328100085816e013e57d211391ff5f97ba"
+file = "kubejs/server_scripts/recipes/astralsorcery/research.js"
+hash = "a8fb518f2f1724dfe6ac22311311b4a050f4ad259df4e32deeffc9523a88e9d1"
 
 [[files]]
-file = "kubejs/server_scripts/special/energy.js"
-hash = "e4cec92b13fbfb203aecdc66bb8610e5d18933618dbee0cf9ed3c1218e042089"
+file = "kubejs/server_scripts/recipes/blasting.js"
+hash = "fef771617f54461e6b1ffb5fad2296c188150eabf3657893e6e98a0f75fe98f2"
 
 [[files]]
-file = "kubejs/server_scripts/special/material_replace.js"
-hash = "e8c1f1b84ceff3579bb7ea9802c3b7b2473141f07ef99a6eccff7763737d11a9"
+file = "kubejs/server_scripts/recipes/botanypots/crop.js"
+hash = "85e9c3ac99d88cb64199c8e2886229c4c854a4c131c856d50a67e38bf4e1dcee"
 
 [[files]]
-file = "kubejs/server_scripts/special/ore_processing.js"
-hash = "5f57c8814b2e411f7135b467a9093f049bcc1ebcecafec327d722db6d5a87834"
+file = "kubejs/server_scripts/recipes/botanypots/remove.js"
+hash = "dd1c363b43bebab5fdfe86a46da6225c0d9be42ac6a9aa63e60ec86bd293c817"
 
 [[files]]
-file = "kubejs/server_scripts/special/parse.js"
-hash = "f0f6a6be2576e6dda4b59c2389510f81258b6ba0149885fad5f19d011c4ccf19"
+file = "kubejs/server_scripts/recipes/botanypots/soil.js"
+hash = "4ccd6853d1bef4c0b4c5ea97686529d812ad1fbf839c37cf1046894bdbddec37"
 
 [[files]]
-file = "kubejs/server_scripts/special/tags.js"
-hash = "43dcf980f8fbc6b1b8108cc8da6444d72595efa27ab3bfeeede0ac4e6d895a07"
+file = "kubejs/server_scripts/recipes/conversions/glyph_to_enchanting.js"
+hash = "1573f51532c6d184b543e2158da91dbcadf26e4d44c2212a5363cb5a679840ec"
 
 [[files]]
-file = "kubejs/server_scripts/special/villagers.js"
-hash = "240f2e3e49f7424c36b73f9cfcd226251eb33058e4e4e732dc8cf712988c0dd0"
+file = "kubejs/server_scripts/recipes/conversions/shaped_to_ars_nouveau.js"
+hash = "aa0c02f70ddcaf1b740c729b5f12a667af03607edbd4da55294943c370f92b8f"
 
 [[files]]
-file = "kubejs/server_scripts/special/临时内容.js"
-hash = "dfa6bef5b4f06d9091baeb7c39bbdb00f1ce3543598930a2d119092cc2cba989"
+file = "kubejs/server_scripts/recipes/conversions/shaped_to_create.js"
+hash = "3f1b18c3103e8efb9a9f39bf9e5cd8f9a85cb09af378bcaaa4d9921569b49187"
 
 [[files]]
-file = "kubejs/server_scripts/thaumon.js"
-hash = "8feb631fed82b339265a25e975ace0c6c23e360d9161505853b062a0ed8314e8"
+file = "kubejs/server_scripts/recipes/create/compacting.js"
+hash = "cb08fed00cf2f1f641d852286daacc29d9f08cd40f5d0e0327266b6de84a66a5"
 
 [[files]]
-file = "kubejs/server_scripts/twilightforest.js"
-hash = "4517130f791d5ced540161561801f4da02f961560972094dead6249afbe16d80"
+file = "kubejs/server_scripts/recipes/create/crushing.js"
+hash = "3af805e4b02f170e1e4fdd099226fe0dc5e03b387cb065619fae7b4483b5ca21"
 
 [[files]]
-file = "kubejs/startup_scripts/MMCR/MMCR-models.js"
-hash = "89b23aa71e649fe72bc9a03a223fc31490b0b829f78b5a1739b7eada36925dad"
+file = "kubejs/server_scripts/recipes/create/deploying.js"
+hash = "73272516823dfc71ddc0620f5224b3dd8185e91e9cfe930132ab0506d5a647a9"
 
 [[files]]
-file = "kubejs/startup_scripts/MMCR/MMCR-startup.js"
-hash = "351eb1e4e30a55e90012221b7f48a4d311d02f92ba71b717df5d188a740271c9"
+file = "kubejs/server_scripts/recipes/create/emptying.js"
+hash = "efb6f8548a4e6e9044cf2b27eb40f87e8d61fd142538691e9e21c4a4268d8021"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create/filling.js"
+hash = "7432caf962759345dbaaf6b2e849e4379859f8bdd54c7dcee8e4b8b4e821b1f0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create/item_application.js"
+hash = "30a0f8ae6e01f76433780614f0dba1f7250254662727a7dcb31581d037e087df"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create/mechanical_crafting.js"
+hash = "d4c21bc00efae8935e1af9a1b015c5851aabd03d1a4488106a0a1794bbdbbfcd"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create/milling.js"
+hash = "fd4c16b2dd2402de828698b0561ed50eb972e95acf4f477c6a3d15313f65e8f1"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create/mixing.js"
+hash = "3ade3c6cca8b8ffd54f24a4449e5a8dd04b8b515ae7aef70fd633b5c23e1372a"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create/pressing.js"
+hash = "cc884b64d925b02dfae9be6273847411fdeb72d9a8dd7567b8494beeeae18ea6"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create/sequenced_assembly.js"
+hash = "39454cc3063ce1f887a109d7222f136ed9303f70cb91ccade533459959f0e888"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create/splashing.js"
+hash = "26df0b6a6b5d162e03b414cc7422bed5dc32a6f8d9d5efa7747722978a023225"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/createaddition/charging.js"
+hash = "0717dcd67c5d85848e87e49ae3d9ce26c786b0d4020ef800537a2f282c4deea8"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/createaddition/rolling.js"
+hash = "25b0256b6aa030250d1fee84475ce3c81c29ac375e6be3fbbe971f4b5e751890"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/deep_aether/poison_recipe.js"
+hash = "8c0dce13d73bd3836e846f334e92d986b1f152a0a142a3f99083ebfb57b3ef39"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/enderio/alloy_smelting.js"
+hash = "0f7d7ea6cb86fc4f1d5df3af98b26800f81e6f6db833d70ad20c545b045fe987"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/enderio/sag_milling.js"
+hash = "ce63d43924146df60932f383c785d8d6e75c1d39e122c515db40de38b9a92ed8"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/eternal_starlight/alloy.js"
+hash = "35290ef2fd37962320c387c75580b05e4a206bf36739f17aacc207b7024a70cc"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/extendedcrafting/combination.js"
+hash = "3a6ca3a020cdb7c85e3de2729440ca30edcfc3b519dd175d2edf479e366f38e6"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/alloy.js"
+hash = "01a4c4b9a9baab9d469d332c83ea1d3a880d23d52f162c755381e6b624e2e628"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/arc_furnace.js"
+hash = "8f26cad7ad351b21a9c50626dd63aad941d8d0888a658d983a921a792a6877e6"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/blast_furnace.js"
+hash = "d038aeb6f1e1c44cb8fd8c3b6339f849d791ea113217626565f3b0cde0233a0e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/blast_furnace_fuel.js"
+hash = "7df756698602c6f698a28259d198e1eee992950a9bd876c4927f4e8b2ed279e1"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/blueprint.js"
+hash = "5136df38393554335fb6ec8cc0ae067c07e106f548a5df330e748c379a666070"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/bottling_machine.js"
+hash = "e54c4bd111c76ca99b026d0df60f9401e36ed8cc841f472b6e189fc0e049df6d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/crusher.js"
+hash = "70b16587516c7716479ec0ff945b60eb39ad7f9ec61fd207e7c86e4c8a72fcfe"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/metal_press.js"
+hash = "5683f7667d06ec48056b22eb8d99282631b021f7a3bc20cf0a93760ced2dfedb"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/mixer.js"
+hash = "c005fa0112877f56fa8ebf1d8b4e3b96a798b29cdc63ee8bc86eff70f496796c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/potion_warmup.js"
+hash = "8501b13fc267d5f48f2643eadced6c137fefc2d0e715cc12b3626d9635d5acb0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering/squeezer.js"
+hash = "45feddc625e939eb6dc37943cf1452d7cc9f1fbf2cc263b43cdf1fef52f70429"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/immersivepetroleum/distillation.js"
+hash = "c8ad06a4b9754c316e5285c0e45e80c3f0d2c5b9c8203a176f0e98610c8238d7"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/industrialforegoing/dissolution_chamber.js"
+hash = "e9b5f46d3fa6de4c16a3dcbd6451f13b530a31beaffa5a269594a8bb6e11f693"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/integrateddynamics/mechanical_squeezer.js"
+hash = "b9c80bdc29591962b19a542202d84bcb7e22eb551ffb6477f019b94f7c56b7a0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/integrateddynamics/squeezer.js"
+hash = "2be84503dfe242a7866ce9b3d8ed7bf28d980bb102fc92475c0ab4ed24909703"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/justdirethings/fluiddrop.js"
+hash = "98f3764e601816837c218956a3292254171bd8b4420f62ccbcd770031bcf8b83"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/justdirethings/goospread.js"
+hash = "7000f630daa7bde1503c85eb7ba7369a91c19e3c10e300ba7f6188dd3cc9a748"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/justdirethings/goospread_tag.js"
+hash = "0dfad90d589b2f91d6a602275e8bf767d2536311f6a52b5665c7de11ecf7aa0e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/lychee/block_crushing.js"
+hash = "a62bcf90cf1e97026f9a4609a99fccccb17963a828cd853aa824c7b500d3761f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/lychee/block_interacting.js"
+hash = "8de86d4f54a6a29f86e1c3cf15bf81376a203b223608bc6d3c7d06184b496fed"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/lychee/item_burning.js"
+hash = "dba0ca4bf5c240058d028b99d49355c21ab306866812df8924cffd17c6f44504"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/lychee/item_inside.js"
+hash = "4e7841fa302971794e1fd10b63601cd3644955d4dbd8518cb3c6b882a0b67172"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/chemical_infusing.js"
+hash = "3ea63c159f1b303bf88dfce210f202b0b9b549a19f5f0ba4dd089963a5f1b1c5"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/crushing.js"
+hash = "7911cfa3dc48bf582ad1163e47f48f53cacd26adc1d79cd5b21694af6aff8953"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/crystallizing.js"
+hash = "e3817aa3f8ac7f0c4585bb1b2fd310fa0f28c5be078c36f419d976204e796055"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/dissolution.js"
+hash = "538f840b792cfa29e52328d3d0bf64416c0deb49ca7184382d7439ef1ee97ee1"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/enriching.js"
+hash = "ea2b7b7fc01048519900d9ab9f2c3d9a1982b03a49a51c05c29974972b0ef018"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/injecting.js"
+hash = "d548492a126babfa4543382f0711a6dcc8756e67675c0825835a3f5cb545d4d8"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/metallurgic_infusing.js"
+hash = "7830c8b9e27b5ce6ee1d0260b556625e78a2ce7a6a929680ef068d5ac8c7786e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/oxidizing.js"
+hash = "e80acb8013c2ce74c1cf25a2a13e8d5b8651d0a08ff9d16689ca87e28af7c666"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/purifying.js"
+hash = "87eb4a308935e11c71742444cfb7d619678c8b933c2ab4db82ec11ad52335404"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/rotary.js"
+hash = "b7b845cc47fe9705fb9ea92538fee664e207778115c77bed6111f58d151d44a1"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/separating.js"
+hash = "1d481be934fee5830e9d237c169bb7ab432241ae00d9f96dbc8674216e51e5c3"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/washing.js"
+hash = "9d3278a2d775488fa33a62cb6b506005a5443717eca5648ead672087ed091859"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekmm/lathe.js"
+hash = "77c03f9e3cef5b3453a5332f27234a801db9bb98faddb3edd7e827906cecd56d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekmm/planting.js"
+hash = "abe5da19764295c3c3c0b16d2b5ea2448a2c84b096e58b2df1a175e65f88ca9e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekmm/rolling_mill.js"
+hash = "517d52150f7ab6daad48eb93d2996450cc1f614329ff2ec8d7bf2a6e74be6083"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekmm/stamper.js"
+hash = "001cba2f90e0595c256112e50a6a251f73c6fd06a75fd533e2c93f3a8df77ff3"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/naturesaura/altar.js"
+hash = "b896895394969decb9d79502dc3319252ad2e2fefcd948c6b004b0303ff0440f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/naturesaura/offering.js"
+hash = "29b3091d93cb20a9f837bc43df3a7f824158335a9a5f0397086dfefd66946a91"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/naturesaura/packaged.js"
+hash = "6dfbd58b1542bebc65bf0c410082cede8d9584593d387d4b5f8f8a5933e0d66c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/naturesaura/tree_ritual.js"
+hash = "9b870b709c071328403cb60d743bc2a16621c65da12a09f6eb59a95d49f6410e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/neovitae/alchemytable.js"
+hash = "857ed85e18af2640fc08c5851a076691dedf03cf509bb3cb0abaef7fbedebbeb"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/neovitae/ara_vitae.js"
+hash = "8dd05f771879f68d10f5ec21846bd794b18464cabafd2a83f01c114bab9d8378"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/neovitae/hellfire_forge.js"
+hash = "8a769624e6fd6e7ad5e95716010fe9e27ad8fd9c31fe311057381bb9bc827a95"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/neovitae/meteor.js"
+hash = "0e46cd28c694d63fd8ffa33310045134db8013941a31d1f7c7b51b020ac9955f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/occultism/crushing.js"
+hash = "5fa039f9b54bf11a53c80f9412d5aff9b9d1546ab03b1983ef0b672dc3d17cb5"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/occultism/crystallize.js"
+hash = "9880e7c40d5f565e55390ce2606fd2b790482a10daf1ac4e33feba806d20132f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/occultism/pentacles.js"
+hash = "49189f00b8ef5e26f898c68e33828591ea46b55fc1c590808cf3ad99be3c7dff"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/occultism/ritual.js"
+hash = "cb24a494911e15e6517a0703bbf9c3e05696cfa1a7ed4bf06f56c773b2510a42"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/pneumaticcraft/assembly.js"
+hash = "21d50081037825106a412e866a8e79a48b89bc85fbd47eaf32a58c15e0d3ac84"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/pneumaticcraft/explosion_crafting.js"
+hash = "f4cd414d5296bda844e1522cc3324213c4a0b9b3044fb8cc89806c9a05bb8803"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/pneumaticcraft/fluid_mixer.js"
+hash = "e9ed6385b829b002ccd9345031f191e5fdb714be28c48e80124f78c1bbdad9a9"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/pneumaticcraft/pressure_chamber.js"
+hash = "1cce77248b50e7ae4969960e2bc92172bf224be6eeab47c7e0efe302f6d2e064"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/pneumaticcraft/thermo_plant.js"
+hash = "000dc7a120ae0caec44c32ae535157581dcf8af5bdff47f994b27720c113791e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/portaltransform/item_transform.js"
+hash = "eba42b77b9e98527c36429a51dc684828a1d441e906838f4aef74119e95e8842"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/powah/coolants.js"
+hash = "792c402c888b82352e97c9e6412ef645b49041fd7438ade0d8455988a4edb618"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/powah/energizing.js"
+hash = "33f0697f3e6df6dec7cbca7c755caf5453f3f909a603d260845f851438fd616a"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/powah/heat_sources.js"
+hash = "6b5fce73bf20c4cb9a6e75f8ed23a007ab538598cbd4981f0d639077535c4ea1"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/powah/magmatic_fluids.js"
+hash = "b2b4dbd3f23a7dd161c3be9dc3eb2f228de338fc13b0d470d6ce32358ab2edab"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/remove.js"
+hash = "7eae98c64b42722bf03ef4bafb4a14bc2b528e528d60f1f59910d0be1844e18c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/replace_input.js"
+hash = "9e25a3289e8f323e89c33ce8848021e594b46215a95bbf511cde13b947cfb6d0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sanguine_networks/catalyst.js"
+hash = "35cf71580ee8ed09b5e7711fec023baf59c026498d7618f19f1cd86607999b68"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/shaped.js"
+hash = "3b0358a7b07193b28e65045453312785ebba5beb530124794bf0686362616316"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/shapeless.js"
+hash = "a8a7f2ad69932ce67edb7561a82e0fb39fbfe137d8c3770621cfdfe4392dcb24"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/smelting.js"
+hash = "67f76510975834e4040fefb99a9d9311ab9c7068e3da87b16ddca24b34e59820"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks.js"
+hash = "c3b354b7047b0a2a446817f6604c06361ecce5b1e437a90b06127837fb167d71"
+
+[[files]]
+file = "kubejs/server_scripts/tags/items.js"
+hash = "b77ac678428f4eb4ed8d8b924bb8e15e0a455f66418911d0989fa2f119d3e75e"
+
+[[files]]
+file = "kubejs/server_scripts/villagers.js"
+hash = "e19c94cc19f6a586a1778697f98e66ab24276a2a107c48430eed9e04c13c3ad3"
+
+[[files]]
+file = "kubejs/startup_scripts/MMCR/MMCR_models.js"
+hash = "6c9d61806626a5e733dabec734bb539e4d106e265121fdcea5450f27d39970ab"
+
+[[files]]
+file = "kubejs/startup_scripts/MMCR/MMCR_startup.js"
+hash = "ec42ebc25682d5f67484439a691d858c365339ec85f8e18a63d49dccf1604f34"
 
 [[files]]
 file = "kubejs/startup_scripts/block_modify.js"
 hash = "33789ab57d88a0a2681c93e57c0fb726e5b69855ace9c5f41c671b40570f34f0"
+
+[[files]]
+file = "kubejs/startup_scripts/data.js"
+hash = "14cd79d9b6a5c312a127f2ab466553209474653941d995b0012f6482300c26f4"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -6245,32 +6549,24 @@ file = "kubejs/startup_scripts/pack_info.js"
 hash = "ec34404feddbfd0da70e409fea06ddf6b65496677d74d8121c8d19a0e24d9d1c"
 
 [[files]]
-file = "kubejs/startup_scripts/registry/aspects.js"
-hash = "8a9319c82ebc15e812f14073ce6ad7f5d3b034a2dde6eeee611ab6f01a172d9f"
-
-[[files]]
 file = "kubejs/startup_scripts/registry/aura.js"
-hash = "7d01ff3f992f4d2ee26a23f62b6abb353da42d3de450b3217d939ab6820b5175"
+hash = "705db1a0e7a2ae21fb9141b9480e954c7b49bcee3a108b76497d520b8f13611c"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/blocks.js"
-hash = "036879e37789294149f58dab59a5c8bdbb21d9b6aeb9d814d9945843f7135ed8"
+hash = "591550ed777f571dac0d564540bd4546c1f8b10cc3219a5bcce512ebe405babb"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/chemicals.js"
-hash = "79c44b8f06bbee766d2987ecf9026d01780b6fc4f5bb8109ee523500923fc24c"
+hash = "857661b308caad8ea282d572224a3c2ceb0a96940fcac93fa7195211602a82e1"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/fluids.js"
-hash = "84d63e34b57c8c7a96f4c8da7811a67c6683eba318cf1a699809b0d6db99ce13"
+hash = "a87f9066ef1faa63b4da1bdafb1372707e8a2669be870f3b8484629e97071443"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/items.js"
-hash = "8359bd9b30759aefe00a0866a96fa6327ecd9caa78668694565f921e7e0aa964"
-
-[[files]]
-file = "mods.disabled/ae2utility-1.8.0.jar"
-hash = "1aacf66123827e18f3591c01eacb53b615de25ddafe3a22684a567722e2c9f07"
+hash = "e57bd6576f7785aac701ba3a7e056a3aa7fcf71716729e9d859b9f9960da6434"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
@@ -6319,7 +6615,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2-utility.pw.toml"
-hash = "fd989d666b53a3b719c7517ec09393ddd806eae28323519e0b8ab9a641e79bff"
+hash = "710804be55040ddbd9ffe383e1fb2a4da4d05dfce70f60540f5cd24b63b07ae1"
 metafile = true
 
 [[files]]
@@ -6758,12 +7054,17 @@ metafile = true
 
 [[files]]
 file = "mods/ender-io-conduit-optimizer.pw.toml"
-hash = "e643da2919468346bd42cef9c5196d252eddb1ada9e5898eead0c132e52d7306"
+hash = "d6a23a4c5f6d760a5b530cce528821103de516aa324a671541aa804504948bb4"
+metafile = true
+
+[[files]]
+file = "mods/ender-io-more-conduits.pw.toml"
+hash = "98a8e7f562524c3c0499134953b2d4a6fc76e7cf676256095590825ce58417fe"
 metafile = true
 
 [[files]]
 file = "mods/ender-io.pw.toml"
-hash = "5f63fab4db6ca36f3b9f489dd1bb52fb1d1a69a3f0ff580758d083d606ff2600"
+hash = "152e16faf8daec3c60e472863a59c52ee2f0c2d8b563a8349d4bd72823de41cc"
 metafile = true
 
 [[files]]
@@ -6773,7 +7074,7 @@ metafile = true
 
 [[files]]
 file = "mods/enderio-evolution.pw.toml"
-hash = "a50b217b9d1177125366a9914bb1434203a0a92fb4ed9a515f395f8d2495b511"
+hash = "624f179117622fad6af67241aeeb9aa6749aef4e69b6b11bcae9a3986743e2d8"
 metafile = true
 
 [[files]]
@@ -6798,7 +7099,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "02d6c9aceef547b018bf3786367ca40f5aec682b8f577e15fb0656811b424d66"
+hash = "f3f9cff034b0b598ca9d1fc8940e31767db300908f33bb79ef1b720131bbec6c"
 metafile = true
 
 [[files]]
@@ -6848,7 +7149,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "5217d19d5e1dae955325bae63afbd9c66ba930e18fbddb66e217c6b807480f22"
+hash = "2676222e3caa92ab7ca19908c7ac36b04f2f71a0e873db2e4f95756222b9d9b4"
 metafile = true
 
 [[files]]
@@ -7138,7 +7439,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
-hash = "c49c639b208b6dad16ab46233dc6649772256778b6639228b6aa9bf1b15f4666"
+hash = "7e75a49edd17c732f7fb8853a60792f2ee1c88e9ec7da3019d7f704873b20727"
 metafile = true
 
 [[files]]
@@ -7448,7 +7749,7 @@ metafile = true
 
 [[files]]
 file = "mods/neovitae.pw.toml"
-hash = "1a805da896ce0b8866d2602d35fba0783d7436cd7e5f54f93ddecc260c009fcb"
+hash = "c7fec1d0b32b8fc151c65a6cef4aa1e2bb34e13db7823eda86cb44c67c3bbb46"
 metafile = true
 
 [[files]]
@@ -7483,7 +7784,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "e4b51bc201b9e21b34c194ffafd8040ca622fb5ce5ab1ae5770871204e6fb614"
+hash = "ec2300f69a0256c53c988b56d2ccaa97fe44d450c92c40b27f58b6858c3ca331"
 metafile = true
 
 [[files]]
@@ -7673,7 +7974,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "bdda40311c245eaed6160010558b57916608f391f265221811be957258eb0219"
+hash = "5595180841498e564236e26c66a5d7d790a2fcd52da68707f0c8ac15fd03e3a2"
 metafile = true
 
 [[files]]
@@ -7683,7 +7984,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "f80ded04805b3c43a47b1915dcec768cfd37fc94cf189749e07a7a42d94ff9d6"
+hash = "daf137e8a49ade4dd31c65befa0fe1136cd834e43714a989db482c133f7d45d4"
 metafile = true
 
 [[files]]

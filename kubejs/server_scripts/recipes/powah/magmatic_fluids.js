@@ -1,0 +1,18 @@
+//岩浆流体
+PowahEvents.registerMagmaticFluid(event=>{
+    event.add("pneumaticcraft:gasoline",20000)//汽油
+    event.add("immersivepetroleum:gasoline",20000)//汽油
+    event.add("pneumaticcraft:diesel",25000)//柴油
+    event.add("immersivepetroleum:diesel",25000)//柴油
+    event.add("immersivepetroleum:diesel_sulfur",25000)//含硫柴油
+    event.add("pneumaticcraft:kerosene",18000)//煤油
+    event.add("immersivepetroleum:kerosene",18000)//煤油
+    event.add("pneumaticcraft:lpg",15000)//液化石油气
+    event.add("pneumaticcraft:biodiesel",15000)//生物柴油
+    event.add("actuallyadditions:canola_oil",4000)//菜籽油
+    event.add("actuallyadditions:refined_canola_oil",6000)//精制菜籽油
+    event.add("actuallyadditions:crystallized_oil",8000)//晶化油
+    event.add("actuallyadditions:empowered_oil",15000)//充能油
+    event.add("kubejs:ignis_fluid",15000)//焚空之烈火
+    event.add("kubejs:fervor_fluid",50000)//烈焰之炽焱
+})

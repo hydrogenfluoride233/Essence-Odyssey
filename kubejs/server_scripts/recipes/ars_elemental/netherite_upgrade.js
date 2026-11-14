@@ -1,0 +1,18 @@
+ServerEvents.recipes(event=>{
+    event.custom({
+        "type":"ars_elemental:netherite_upgrade",
+        "keepNbtOfReagent":true,
+        "pedestalItems":[
+            {"item":"minecraft:netherite_ingot"},
+            {"item":"ars_nouveau:water_essence"},
+            {"item":"ars_nouveau:fire_essence"},
+            {"item":"ars_nouveau:earth_essence"},
+            {"item":"ars_nouveau:air_essence"},
+            {"item":"kubejs:perditio_essence"},
+            {"item":"kubejs:ordo_essence"}
+        ],
+        "reagent":{"tag":"ars_nouveau:spellbook"},
+        "sourceCost":2000
+    })
+    .id("essenceodyssey:ars_elemental/netherite_upgrade/spellbook")
+})

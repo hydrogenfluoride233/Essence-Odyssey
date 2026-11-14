@@ -1,10 +1,13 @@
 StartupEvents.registry("item",event=>{
+    //要素水晶
+    Aspects.forEach(aspect=>
+        event.create(`kubejs:crystal_${aspect.id}`))
+
     //倍矿中间物
-    const metals = ["zinc","iesnium","nickel","aluminum"]
     const forms = ["crystal","clump","shard","dirty_dust"]
-    metals.forEach(m=>{
+    Ores.forEach(({ore})=>{
         forms.forEach(f=>
-            event.create(`kubejs:${f}_${m}`))
+            event.create(`kubejs:${f}_${ore}`))
     })
 
      event.create("kubejs:crushed_raw_iesnium")
@@ -30,7 +33,7 @@ StartupEvents.registry("item",event=>{
 
     //仪式假人
     const rune_rituals = [
-        "rune"
+        "rune",
     ]
     rune_rituals.forEach(num=>
         event.create(`kubejs:ritual_${num}`,"occultism_kubejs:ritual_dummy")

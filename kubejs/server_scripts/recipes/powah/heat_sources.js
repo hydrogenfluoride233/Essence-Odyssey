@@ -1,0 +1,9 @@
+//热源
+PowahEvents.registerHeatSource(event=>{
+    event.addBlock("eternal_starlight:abyssal_magma_block",1200)//深渊岩浆块
+    event.addBlock("eternal_starlight:thermabyssal_magma_block",1200)
+    event.addBlock("eternal_starlight:cryobyssal_magma_block",1200)
+    event.addFluid("enderio:fluid_fire_water_still",2000)//火焰水
+    event.addFluid("kubejs:ignis_fluid",1500)//焚空之烈火
+    event.addFluid("kubejs:fervor_fluid",3500)//烈焰之炽焱
+})
