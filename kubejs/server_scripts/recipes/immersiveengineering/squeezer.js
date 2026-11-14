@@ -21,6 +21,7 @@ ServerEvents.recipes(event=>{
             "input":{"item":recipe.input}
         }
 
+        //这里是 event.custom 的 JSON，给的是 JSON 形态；现有用例 item_output 全是 null，真给产物时得换成 IE 的 JSON 写法
         json.result = recipe.item_output ? toTagOutput(recipe.item_output) : []
 
         if(recipe.fluid_output) json.fluid = toFluidJson(recipe.fluid_output)

@@ -31,7 +31,7 @@ ServerEvents.recipes(event=>{
     recipes.forEach(recipe=>
         event.recipes.immersiveengineering.metal_press(
             toTagOutput(recipe.output),
-            toIngredient(recipe.input),
+            toIngredientWithSize(recipe.input),
             recipe.mold,
             recipe.time
         )

@@ -11,8 +11,8 @@ ServerEvents.recipes(event=>{
     recipes.forEach(recipe=>
         event.recipes.immersiveengineering.alloy(
             toTagOutput(recipe.output),
-            toIngredient(recipe.input1),
-            toIngredient(recipe.input2)
+            toIngredientWithSize(recipe.input1),
+            toIngredientWithSize(recipe.input2)
         )
         .id(recipe.id))
 })

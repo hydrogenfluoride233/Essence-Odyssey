@@ -25,7 +25,7 @@ ServerEvents.recipes(event=>{
         event.recipes.immersiveengineering.mixer(
             toFluidStack(recipe.fluid_output),
             toFluidStack(recipe.fluid_input),
-            [toIngredient(recipe.item_input)],
+            [toIngredientWithSize(recipe.item_input)],
             recipe.time
         )
         .id(recipe.id))
@@ -37,7 +37,7 @@ ServerEvents.recipes(event=>{
         event.recipes.immersiveengineering.mixer(
             toFluidStack(`250x kubejs:${ess}_fluid`),
             toFluidStack("250x sauce:source_fluid"),
-            [toIngredient(`kubejs:crystal_${ess}`)],
+            [toIngredientWithSize(`kubejs:crystal_${ess}`)],
             3200
         )
         .id(`essenceodyssey:immersiveengineering/mixer/${ess}_crystal`)
@@ -45,7 +45,7 @@ ServerEvents.recipes(event=>{
         event.recipes.immersiveengineering.mixer(
             toFluidStack(`1000x kubejs:${ess}_fluid`),
             toFluidStack("1000x sauce:source_fluid"),
-            [toIngredient(`kubejs:block_${ess}`)],
+            [toIngredientWithSize(`kubejs:block_${ess}`)],
             12800
         )
         .id(`essenceodyssey:immersiveengineering/mixer/${ess}_block`)

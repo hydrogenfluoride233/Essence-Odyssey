@@ -108,6 +108,15 @@ const toTagOutput = text=>{
     return TagOutputJS.ofItemStack(Item.of(id,count))
 }
 
+//沉浸工程的原料：同样要实例，{count,item} 转不过去；标签原料暂时没有用例
+const toIngredientWithSize = (text,defaultCount = 1)=>{
+    if(typeof text !== "string") return text
+
+    const {count,id} = toCounted(text,defaultCount)
+
+    return IngredientWithSizeJS.ofItemStack(Item.of(id,count))
+}
+
 //========== 气动工艺：热气动加工机 ==========
 
 //热气动加工机输出：物品走 item_output，流体走 fluid_output；recipes/pneumaticcraft/thermo_plant.js 用

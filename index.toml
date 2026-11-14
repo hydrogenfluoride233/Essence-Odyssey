@@ -6086,7 +6086,7 @@ hash = "4c8255439fd7fda1a4da37f2fe9cf581ff39a30bcdc61cdb94dbb9536c94e2bb"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
-hash = "846f66a75f1f4826c184134b0710f735b57277b9df320bffcd450b64be1ee4a9"
+hash = "17b1d353f8578961868b2496bb36e82a69cb7c5c985184f070e4e9860a3ae1d4"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -6250,15 +6250,15 @@ hash = "b0bc0647e1f388ef9712a518c38cf65f5132e702f47503f4a776ab2518a5e81b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/alloy.js"
-hash = "01a4c4b9a9baab9d469d332c83ea1d3a880d23d52f162c755381e6b624e2e628"
+hash = "2708d87d74fbb84beaf6f24b2cdd28e967e167e5e57f306e87878ee8580d2644"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/arc_furnace.js"
-hash = "8f26cad7ad351b21a9c50626dd63aad941d8d0888a658d983a921a792a6877e6"
+hash = "ede62c7c77c173c58f3b5a18d9d7d20cdb07368e326004bde9031fb65006fa29"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/blast_furnace.js"
-hash = "d038aeb6f1e1c44cb8fd8c3b6339f849d791ea113217626565f3b0cde0233a0e"
+hash = "fea638db7ba49c8e3f808bc5636ec14abd75709256a011b86ab755610813ddb6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/blast_furnace_fuel.js"
@@ -6270,7 +6270,7 @@ hash = "8cb9285102ed1ad13aafdfd6ca2ccd31b8ba482a8ea5c64baf41ecfc3db69f9a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/bottling_machine.js"
-hash = "e54c4bd111c76ca99b026d0df60f9401e36ed8cc841f472b6e189fc0e049df6d"
+hash = "0852255b2c01eb57f934caaab550cdb2adc00223ffd0b1ccd7f0f0ea96dd967f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/crusher.js"
@@ -6278,11 +6278,11 @@ hash = "70b16587516c7716479ec0ff945b60eb39ad7f9ec61fd207e7c86e4c8a72fcfe"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/metal_press.js"
-hash = "5683f7667d06ec48056b22eb8d99282631b021f7a3bc20cf0a93760ced2dfedb"
+hash = "fea95a8e5f9f813c62b2edce3706e7119de62d83655d6e927a834e792c135315"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/mixer.js"
-hash = "b417eb5c612c7c6000d27a18695fb0c0985f1eda95e86508379acc2902ecde7a"
+hash = "364c2d9475a78f2eb5b41c52f41b500df738ce040746cffbf4c0af943345fc8a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/potion_warmup.js"
@@ -6290,7 +6290,7 @@ hash = "8501b13fc267d5f48f2643eadced6c137fefc2d0e715cc12b3626d9635d5acb0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/squeezer.js"
-hash = "45feddc625e939eb6dc37943cf1452d7cc9f1fbf2cc263b43cdf1fef52f70429"
+hash = "d4799d8ce10a182d373bf5aacb812e65f5f2157e89010ffea27ceef67ae92d13"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersivepetroleum/distillation.js"

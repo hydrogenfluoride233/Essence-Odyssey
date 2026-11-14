@@ -16,7 +16,7 @@ ServerEvents.recipes(event=>{
 
     recipes.forEach(recipe=>{
         const result = toTagOutput(recipe.output)
-        const ingredient = toIngredient(recipe.input)
+        const ingredient = toIngredientWithSize(recipe.input)
 
         if(recipe.slag) {
             event.recipes.immersiveengineering.blast_furnace(

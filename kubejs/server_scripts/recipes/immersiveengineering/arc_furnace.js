@@ -26,10 +26,10 @@ ServerEvents.recipes(event=>{
     recipes.forEach(recipe=>
         event.recipes.immersiveengineering.arc_furnace(
             [toTagOutput(recipe.output)],
-            toIngredient(recipe.input),
+            toIngredientWithSize(recipe.input),
             recipe.time,
             recipe.energy,
-            recipe.additives ? recipe.additives.map(value=>toIngredient(value)) : [],
+            recipe.additives ? recipe.additives.map(value=>toIngredientWithSize(value)) : [],
             recipe.secondaries || [],
             recipe.slag ? toTagOutput("immersiveengineering:slag") : undefined
         )
