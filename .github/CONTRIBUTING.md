@@ -18,7 +18,7 @@
 | `mods/*.jar` | 不入库，按清单从 CurseForge 下载 |
 | `config/ftbquests/quests/lang/en_us.snbt` | 由英文草稿脚本生成，手改会被覆盖 |
 | `.packwizignore` | 由 `.gitignore` 派生，手改会被覆盖；要排除文件就改 `.gitignore` |
-| `kubejs/server_scripts/essenceodyssey/tooltips.js`、`kubejs/client_scripts/essenceodyssey/info.js` | 由物品提示表整份生成（文件头写着） |
+| `kubejs/server_scripts/tooltips.js`、`kubejs/client_scripts/recipe_viewer/info_generated.js` | 由物品提示表整份生成（文件头写着） |
 | `README.md`、`README_EN.md`、`同步说明.md` | 由作者在文档库维护，README 由脚本从简介母版生成；要改就开 issue |
 | `.gitattributes` | 它关掉了行尾转换；改了，`index.toml` 里的哈希会对不上 |
 

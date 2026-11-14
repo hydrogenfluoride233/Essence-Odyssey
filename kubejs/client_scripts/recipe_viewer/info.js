@@ -1,4 +1,4 @@
-//此处为手动添加的物品提示，由脚本统一生成的放置在essenceodyssey\info.js下
+//此处为手动添加的物品提示，由脚本统一生成的放置在recipe_viewer\info_generated.js下
 RecipeViewerEvents.registerSubtypes("item",event=>{
     event.useComponents("naturesaura:aura_bottle",["naturesaura:aura_bottle_data"])
     event.useComponents("immersiveengineering:blueprint",["immersiveengineering:blueprint"])

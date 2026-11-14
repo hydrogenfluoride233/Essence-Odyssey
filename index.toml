@@ -5581,10 +5581,6 @@ file = "kubejs/assets/zeta/lang/zh_cn.json"
 hash = "9b9493228bd73fd586170000652c8325cc3adcf58d3fca4dc41e1cf7625c8b04"
 
 [[files]]
-file = "kubejs/client_scripts/essenceodyssey/info.js"
-hash = "40436f884e2bbb7caa1d09bfb3c4363b2f248c6298a9acfd92f16c36cf679b3a"
-
-[[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "d2a13306c453d92e9fe31b499b657a16a5083b1471850216a5a22d9876520e17"
 
@@ -5606,7 +5602,11 @@ hash = "8e88486907d9301cb29e84ab4e84692fe085276cc587cfb2c27e536acfb5f3da"
 
 [[files]]
 file = "kubejs/client_scripts/recipe_viewer/info.js"
-hash = "4ac0575496caa387a803436e1dec9f5fb5ceea112d5fc4563263954d846a1893"
+hash = "13d050d6fef6eb08a0aad8c7cf6480b7cc3d415af67083bf28122c0ca6510752"
+
+[[files]]
+file = "kubejs/client_scripts/recipe_viewer/info_generated.js"
+hash = "40436f884e2bbb7caa1d09bfb3c4363b2f248c6298a9acfd92f16c36cf679b3a"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -6077,14 +6077,6 @@ file = "kubejs/server_scripts/data.js"
 hash = "eaaeb774971d0c9e8018f35f228343ff549b108047ee5cd8075fefe86e364506"
 
 [[files]]
-file = "kubejs/server_scripts/essenceodyssey/temporary.js"
-hash = "dfa6bef5b4f06d9091baeb7c39bbdb00f1ce3543598930a2d119092cc2cba989"
-
-[[files]]
-file = "kubejs/server_scripts/essenceodyssey/tooltips.js"
-hash = "4c8255439fd7fda1a4da37f2fe9cf581ff39a30bcdc61cdb94dbb9536c94e2bb"
-
-[[files]]
 file = "kubejs/server_scripts/functions.js"
 hash = "17b1d353f8578961868b2496bb36e82a69cb7c5c985184f070e4e9860a3ae1d4"
 
@@ -6519,6 +6511,14 @@ hash = "db9cf6abe41561453becf13328f273422c8406d87087e541ea9f7e40c4f9b45f"
 [[files]]
 file = "kubejs/server_scripts/tags/items.js"
 hash = "4146659e32469d968195070662c0c64cd623988ec202689e9188fe1fc4df5613"
+
+[[files]]
+file = "kubejs/server_scripts/temporary.js"
+hash = "dfa6bef5b4f06d9091baeb7c39bbdb00f1ce3543598930a2d119092cc2cba989"
+
+[[files]]
+file = "kubejs/server_scripts/tooltips.js"
+hash = "4c8255439fd7fda1a4da37f2fe9cf581ff39a30bcdc61cdb94dbb9536c94e2bb"
 
 [[files]]
 file = "kubejs/server_scripts/villagers.js"
