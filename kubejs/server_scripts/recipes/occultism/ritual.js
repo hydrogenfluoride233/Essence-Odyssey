@@ -32,7 +32,7 @@ ServerEvents.recipes(event=>{
     basicRunes.forEach(rune=>
         event.recipes.occultism.ritual(
             `3x kubejs:rune_${rune.ess}`,
-            [...rune.input,"naturesaura:sky_ingot","occultism:amethyst_dust",`kubejs:crystal_${rune.ess}`],
+            rune.input.concat(["naturesaura:sky_ingot","occultism:amethyst_dust",`kubejs:crystal_${rune.ess}`]),
             "ars_nouveau:smooth_sourcestone",
             "occultism:ritual_rune",
             10
@@ -67,7 +67,7 @@ ServerEvents.recipes(event=>{
     seasonRunes.forEach(rune=>
         event.recipes.occultism.ritual(
             `2x kubejs:rune_${rune.season}`,
-            [...rune.input,`kubejs:rune_${rune.ess[0]}`,`kubejs:rune_${rune.ess[1]}`,`kubejs:rune_${rune.ess[2]}`],
+            rune.input.concat([`kubejs:rune_${rune.ess[0]}`,`kubejs:rune_${rune.ess[1]}`,`kubejs:rune_${rune.ess[2]}`]),
             "ars_nouveau:smooth_sourcestone",
             "occultism:ritual_rune",
             10
