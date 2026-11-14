@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:enderio/alloy_smelting/"
+    const id_prefix = "kubejs:enderio/alloy_smelting/"
     const Required = ["output","input","energy","id"]
 
     const recipes = [

@@ -6,5 +6,5 @@ ServerEvents.recipes(event=>{
             `1x kubejs:${right}_chemical`,
             `2x kubejs:${result}_fluid`
         )
-        .id(`essenceodyssey:mekanism/separating/${result}`))
+        .id(`kubejs:mekanism/separating/${result}`))
 })

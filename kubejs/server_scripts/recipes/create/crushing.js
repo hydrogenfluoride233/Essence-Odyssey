@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:create/crushing/"
+    const id_prefix = "kubejs:create/crushing/"
     const Required = ["id","output","input"]
 
     const recipes = [
@@ -34,17 +34,17 @@ ServerEvents.recipes(event=>{
         ["kubejs:crushed_raw_iesnium",CreateItem.of("create:experience_nugget",0.75)],
         "occultism:raw_iesnium"
     )
-    .id("essenceodyssey:create/crushing/raw_iesnium")
+    .id("kubejs:create/crushing/raw_iesnium")
 
     event.recipes.create.crushing(
         ["9x kubejs:crushed_raw_iesnium",CreateItem.of("9x create:experience_nugget",0.75)],
         "occultism:raw_iesnium_block"
     )
-    .id("essenceodyssey:create/crushing/raw_iesnium_block")
+    .id("kubejs:create/crushing/raw_iesnium_block")
 
     event.recipes.create.crushing(
         ["kubejs:crushed_raw_iesnium",CreateItem.of("kubejs:crushed_raw_iesnium",0.75),CreateItem.of("create:experience_nugget",0.75)],
         "occultism:iesnium_ore"
     )
-    .id("essenceodyssey:create/crushing/iesnium_ore")
+    .id("kubejs:create/crushing/iesnium_ore")
 })

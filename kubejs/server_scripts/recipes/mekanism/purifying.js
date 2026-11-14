@@ -13,7 +13,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:oxygen"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/purifying/${metal.name}_shard`)
+        .id(`kubejs:mekanism/purifying/${metal.name}_shard`)
 
         event.recipes.mekanism.purifying(
             `3x ${clump}`,
@@ -21,7 +21,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:oxygen"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/purifying/${metal.name}_ore`)
+        .id(`kubejs:mekanism/purifying/${metal.name}_ore`)
 
         event.recipes.mekanism.purifying(
             `2x ${clump}`,
@@ -29,7 +29,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:oxygen"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/purifying/${metal.name}_raw`)
+        .id(`kubejs:mekanism/purifying/${metal.name}_raw`)
 
         event.recipes.mekanism.purifying(
             `18x ${clump}`,
@@ -37,6 +37,6 @@ ServerEvents.recipes(event=>{
             "2x mekanism:oxygen"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/purifying/${metal.name}_raw_block`)
+        .id(`kubejs:mekanism/purifying/${metal.name}_raw_block`)
     })
 })

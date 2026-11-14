@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:occultism/crystallize/"
+    const id_prefix = "kubejs:occultism/crystallize/"
     const Required = ["id","input","output","min_tier"]
 
     const recipes = [

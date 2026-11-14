@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:astralsorcery/altar_crafting/"
+    const id_prefix = "kubejs:astralsorcery/altar_crafting/"
     const Required = ["id","output","pattern","key"]
 
     const recipes = [

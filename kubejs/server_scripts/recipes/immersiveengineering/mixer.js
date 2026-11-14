@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:immersiveengineering/mixer/"
+    const id_prefix = "kubejs:immersiveengineering/mixer/"
     const Required = ["id","fluid_output","fluid_input","item_input","time"]
 
     const recipes = [
@@ -40,7 +40,7 @@ ServerEvents.recipes(event=>{
             [toIngredientWithSize(`kubejs:crystal_${ess}`)],
             3200
         )
-        .id(`essenceodyssey:immersiveengineering/mixer/${ess}_crystal`)
+        .id(`kubejs:immersiveengineering/mixer/${ess}_crystal`)
 
         event.recipes.immersiveengineering.mixer(
             toFluidStack(`1000x kubejs:${ess}_fluid`),
@@ -48,6 +48,6 @@ ServerEvents.recipes(event=>{
             [toIngredientWithSize(`kubejs:block_${ess}`)],
             12800
         )
-        .id(`essenceodyssey:immersiveengineering/mixer/${ess}_block`)
+        .id(`kubejs:immersiveengineering/mixer/${ess}_block`)
     })
 })

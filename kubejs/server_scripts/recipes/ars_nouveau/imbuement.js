@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:ars_nouveau/imbuement/"
+    const id_prefix = "kubejs:ars_nouveau/imbuement/"
     const Required = ["id","main_input","output","source"]
 
     const recipes = [

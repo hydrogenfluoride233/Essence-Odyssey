@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:occultism/ritual/"
+    const id_prefix = "kubejs:occultism/ritual/"
 
     //符文祭坛：元始符文
     const basicRunes = [

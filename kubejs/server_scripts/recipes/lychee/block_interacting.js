@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:lychee/block_interacting/"
+    const id_prefix = "kubejs:lychee/block_interacting/"
     const Required = ["id","item","block","action"]
 
     const recipes = [

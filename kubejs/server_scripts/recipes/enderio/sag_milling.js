@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:enderio/sag_milling/"
+    const id_prefix = "kubejs:enderio/sag_milling/"
     const Required = ["output","input","id"]
     const SAGBonus = [SagMillBonus.CHANCE_ONLY,SagMillBonus.MULTIPLY_OUTPUT]
 
@@ -70,7 +70,7 @@ ServerEvents.recipes(event=>{
         )
         .energy(2400)
         .bonus(SagMillBonus.CHANCE_ONLY)
-        .id(`essenceodyssey:enderio/sag_milling/${metal.name}_raw`)
+        .id(`kubejs:enderio/sag_milling/${metal.name}_raw`)
 
         event.recipes.enderio.sag_milling(
             metal.dust,
@@ -78,7 +78,7 @@ ServerEvents.recipes(event=>{
         )
         .energy(2400)
         .bonus(SagMillBonus.NONE)
-        .id(`essenceodyssey:enderio/sag_milling/${metal.name}_ingot`)
+        .id(`kubejs:enderio/sag_milling/${metal.name}_ingot`)
     })
 
     event.recipes.enderio.sag_milling(
@@ -91,5 +91,5 @@ ServerEvents.recipes(event=>{
     )
     .energy(2400)
     .bonus(SagMillBonus.CHANCE_ONLY)
-    .id("essenceodyssey:enderio/sag_milling/silver_raw")
+    .id("kubejs:enderio/sag_milling/silver_raw")
 })

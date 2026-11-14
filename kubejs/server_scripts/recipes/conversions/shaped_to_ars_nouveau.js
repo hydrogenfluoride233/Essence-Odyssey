@@ -72,7 +72,7 @@ ServerEvents.recipes(event=>{
                 "result":shapedRecipe.result,
                 "sourceCost":entry.source
             })
-            .id(`essenceodyssey:conversions/ars_nouveau/${entry.id.split(":")[1]}`)
+            .id(`kubejs:conversions/ars_nouveau/${entry.id.split(":")[1]}`)
 
             event.remove({id:entry.id})
         })

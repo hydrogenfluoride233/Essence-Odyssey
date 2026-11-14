@@ -14,5 +14,5 @@ ServerEvents.recipes(event=>{
         "reagent":{"tag":"ars_nouveau:spellbook"},
         "sourceCost":2000
     })
-    .id("essenceodyssey:ars_elemental/netherite_upgrade/spellbook")
+    .id("kubejs:ars_elemental/netherite_upgrade/spellbook")
 })

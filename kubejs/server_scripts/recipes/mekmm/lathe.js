@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:mekmm/lathe/"
+    const id_prefix = "kubejs:mekmm/lathe/"
     const Required = ["id","output","input"]
 
     const recipes = [

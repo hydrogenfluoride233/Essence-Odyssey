@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:ars_nouveau/budding_conversion/"
+    const id_prefix = "kubejs:ars_nouveau/budding_conversion/"
     const Required = ["id","input","output"]
 
     const recipes = [

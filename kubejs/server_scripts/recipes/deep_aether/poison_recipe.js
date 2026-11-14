@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:deep_aether/poison_recipe/"
+    const id_prefix = "kubejs:deep_aether/poison_recipe/"
     const Required = ["id","input","output"]
 
     const recipes = [

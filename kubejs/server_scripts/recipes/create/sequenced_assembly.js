@@ -25,7 +25,7 @@ ServerEvents.recipes(event=>{
             )
         ],
         "ae2:smooth_sky_stone_block",2
-    ).id("essenceodyssey:create/sequenced_assembly/sky_stone_mainboard")
+    ).id("kubejs:create/sequenced_assembly/sky_stone_mainboard")
 
     event.recipes.create.sequenced_assembly(
         "ae2:not_so_mysterious_cube",
@@ -57,7 +57,7 @@ ServerEvents.recipes(event=>{
             )
         ],
         "kubejs:sky_stone_mainboard",4
-    ).id("essenceodyssey:create/sequenced_assembly/not_so_mysterious_cube")
+    ).id("kubejs:create/sequenced_assembly/not_so_mysterious_cube")
 
     event.recipes.create.sequenced_assembly(
         "pneumaticcraft:printed_circuit_board",
@@ -77,7 +77,7 @@ ServerEvents.recipes(event=>{
             )
         ],
         "pneumaticcraft:unassembled_pcb",2
-    ).id("essenceodyssey:create/sequenced_assembly/printed_circuit_board")
+    ).id("kubejs:create/sequenced_assembly/printed_circuit_board")
 
     event.recipes.create.sequenced_assembly(
         "immersiveengineering:plate_steel",
@@ -93,7 +93,7 @@ ServerEvents.recipes(event=>{
             )
         ],
         "mekanism:ingot_steel",10
-    ).id("essenceodyssey:create/sequenced_assembly/plate_steel")
+    ).id("kubejs:create/sequenced_assembly/plate_steel")
 
     event.recipes.create.sequenced_assembly(
         "immersiveengineering:stick_steel",
@@ -113,7 +113,7 @@ ServerEvents.recipes(event=>{
             )
         ],
         "immersiveengineering:plate_steel",1
-    ).id("essenceodyssey:create/sequenced_assembly/stick_steel")
+    ).id("kubejs:create/sequenced_assembly/stick_steel")
 
     //处理器序列组装
     const ProcessorAssemblyList = [
@@ -148,6 +148,6 @@ ServerEvents.recipes(event=>{
             ],
             "ae2:printed_silicon",1
         )
-        .id(`essenceodyssey:create/sequenced_assembly/${output.split(":")[1]}`)
+        .id(`kubejs:create/sequenced_assembly/${output.split(":")[1]}`)
     )
 })

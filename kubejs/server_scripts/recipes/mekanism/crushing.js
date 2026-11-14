@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:mekanism/crushing/"
+    const id_prefix = "kubejs:mekanism/crushing/"
     const Required = ["id","output","input"]
 
     const recipes = [
@@ -55,12 +55,12 @@ ServerEvents.recipes(event=>{
             `kubejs:dirty_dust_${metal.name}`,
             `kubejs:clump_${metal.name}`
         )
-        .id(`essenceodyssey:mekanism/crushing/${metal.name}_dirty_dust`)
+        .id(`kubejs:mekanism/crushing/${metal.name}_dirty_dust`)
 
         event.recipes.mekanism.crushing(
             metal.dust,
             metal.ingot
         )
-        .id(`essenceodyssey:mekanism/crushing/${metal.name}_dust`)
+        .id(`kubejs:mekanism/crushing/${metal.name}_dust`)
     })
 })

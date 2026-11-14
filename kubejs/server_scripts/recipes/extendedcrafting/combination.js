@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:extendedcrafting/combination/"
+    const id_prefix = "kubejs:extendedcrafting/combination/"
     const Required = ["id","output","main_input","extra_input","energy"]
 
     const recipes = [

@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:mekanism/enriching/"
+    const id_prefix = "kubejs:mekanism/enriching/"
     const Required = ["id","output","input"]
 
     const recipes = [
@@ -29,24 +29,24 @@ ServerEvents.recipes(event=>{
             metal.dust,
             `kubejs:dirty_dust_${metal.name}`
         )
-        .id(`essenceodyssey:mekanism/enriching/${metal.name}_dirty_dust`)
+        .id(`kubejs:mekanism/enriching/${metal.name}_dirty_dust`)
 
         event.recipes.mekanism.enriching(
             `2x ${metal.dust}`,
             oreTag
         )
-        .id(`essenceodyssey:mekanism/enriching/${metal.name}_ore`)
+        .id(`kubejs:mekanism/enriching/${metal.name}_ore`)
 
         event.recipes.mekanism.enriching(
             `4x ${metal.dust}`,
             `3x ${rawItemId}`
         )
-        .id(`essenceodyssey:mekanism/enriching/${metal.name}_raw`)
+        .id(`kubejs:mekanism/enriching/${metal.name}_raw`)
 
         event.recipes.mekanism.enriching(
             `12x ${metal.dust}`,
             rawBlockId
         )
-        .id(`essenceodyssey:mekanism/enriching/${metal.name}_raw_block`)
+        .id(`kubejs:mekanism/enriching/${metal.name}_raw_block`)
     })
 })

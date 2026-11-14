@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:aether/placement_conversion/"
+    const id_prefix = "kubejs:aether/placement_conversion/"
     const Required = ["id","biome","input","output"]
 
     const recipes = [

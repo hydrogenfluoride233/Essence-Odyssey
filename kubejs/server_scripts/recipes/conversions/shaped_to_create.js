@@ -80,7 +80,7 @@ ServerEvents.recipes(event=>{
                 shapedRecipe.pattern,
                 normalizedKey
             )
-            .id(`essenceodyssey:conversions/create/${recipeId.split(":")[1]}`)
+            .id(`kubejs:conversions/create/${recipeId.split(":")[1]}`)
 
             event.remove({id:recipeId})
         })

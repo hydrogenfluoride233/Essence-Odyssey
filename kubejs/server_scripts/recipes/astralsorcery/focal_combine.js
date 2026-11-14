@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:astralsorcery/focal_combine/"
+    const id_prefix = "kubejs:astralsorcery/focal_combine/"
     const Required = ["id","output","input"]
 
     const recipes = [

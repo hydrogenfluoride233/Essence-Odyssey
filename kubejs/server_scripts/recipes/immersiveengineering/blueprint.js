@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:immersiveengineering/blueprint/"
+    const id_prefix = "kubejs:immersiveengineering/blueprint/"
     const Required = ["id","category","output","input"]
 
     const recipes = [

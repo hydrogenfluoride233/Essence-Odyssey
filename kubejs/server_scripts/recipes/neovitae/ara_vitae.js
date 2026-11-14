@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:neovitae/ara_vitae/"
+    const id_prefix = "kubejs:neovitae/ara_vitae/"
     const Required = ["id","output","input","tier","blood","cost","back"]
 
     //cost 消耗速率、back 回退速率
@@ -49,6 +49,6 @@ ServerEvents.recipes(event=>{
             25,
             50
         )
-        .id(`essenceodyssey:neovitae/ara_vitae/${ess}_scribe_tool`)
+        .id(`kubejs:neovitae/ara_vitae/${ess}_scribe_tool`)
     })
 })

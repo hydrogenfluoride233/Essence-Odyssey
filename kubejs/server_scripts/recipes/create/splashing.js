@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:create/splashing/"
+    const id_prefix = "kubejs:create/splashing/"
     const Required = ["id","output","input"]
 
     const recipes = [
@@ -45,5 +45,5 @@ ServerEvents.recipes(event=>{
         "9x occultism:iesnium_nugget",
         "kubejs:crushed_raw_iesnium"
     )
-    .id("essenceodyssey:create/splashing/iesnium_nugget")
+    .id("kubejs:create/splashing/iesnium_nugget")
 })

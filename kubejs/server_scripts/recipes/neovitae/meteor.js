@@ -42,6 +42,6 @@ ServerEvents.recipes(event=>{
                 }
             ]
         })
-        .id(`essenceodyssey:neovitae/meteor/essence_${ess}`)
+        .id(`kubejs:neovitae/meteor/essence_${ess}`)
     })
 })

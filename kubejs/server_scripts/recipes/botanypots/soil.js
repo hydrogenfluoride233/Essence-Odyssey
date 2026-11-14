@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:botanypots/soil/"
+    const id_prefix = "kubejs:botanypots/soil/"
     const Required = ["id","block"]
 
     const recipes = [

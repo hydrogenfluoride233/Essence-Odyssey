@@ -5,5 +5,5 @@ ServerEvents.recipes(event=>{
         "1x mekmm:nutrient_solution"
     )
     .perTickUsage(true)
-    .id("essenceodyssey:mekmm/planting/iesnium_essence")
+    .id("kubejs:mekmm/planting/iesnium_essence")
 })

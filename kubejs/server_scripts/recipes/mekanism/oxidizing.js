@@ -5,12 +5,12 @@ ServerEvents.recipes(event=>{
             `250x kubejs:${ess}_chemical`,
             `kubejs:crystal_${ess}`
         )
-        .id(`essenceodyssey:mekanism/oxidizing/${ess}_crystal`)
+        .id(`kubejs:mekanism/oxidizing/${ess}_crystal`)
 
         event.recipes.mekanism.oxidizing(
             `1000x kubejs:${ess}_chemical`,
             `kubejs:block_${ess}`
         )
-        .id(`essenceodyssey:mekanism/oxidizing/${ess}_block`)
+        .id(`kubejs:mekanism/oxidizing/${ess}_block`)
     })
 })

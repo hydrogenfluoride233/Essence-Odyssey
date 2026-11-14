@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:justdirethings/goospread/"
+    const id_prefix = "kubejs:justdirethings/goospread/"
     const Required = ["id","input","output","tier"]
 
     //第一项是模组自己的配方 id；末尾 .id() 是 KubeJS 的 id

@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:neovitae/alchemytable/"
+    const id_prefix = "kubejs:neovitae/alchemytable/"
     const Required = ["id","output","input","tier","blood"]
 
     const recipes = [

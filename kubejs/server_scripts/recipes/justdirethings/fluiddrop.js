@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:justdirethings/fluiddrop/"
+    const id_prefix = "kubejs:justdirethings/fluiddrop/"
     const Required = ["id","item_input","fluid_input","output"]
 
     //第一项是模组自己的配方 id；末尾 .id() 是 KubeJS 的 id

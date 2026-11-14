@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:ars_nouveau/enchantment/"
+    const id_prefix = "kubejs:ars_nouveau/enchantment/"
     const Required = ["id","pedestal","enchantment","level","source"]
 
     const recipes = [

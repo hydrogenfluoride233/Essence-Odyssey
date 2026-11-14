@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:ars_nouveau/enchanting_apparatus/"
+    const id_prefix = "kubejs:ars_nouveau/enchanting_apparatus/"
     const Required = ["id","extra_input","main_input","source"]
 
     //收容生物：生成带实体数据的收容罐

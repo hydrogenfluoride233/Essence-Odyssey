@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:immersiveengineering/bottling_machine/"
+    const id_prefix = "kubejs:immersiveengineering/bottling_machine/"
     const Required = ["id","item_output","item_input","fluid_input"]
 
     const recipes = [
@@ -34,13 +34,13 @@ ServerEvents.recipes(event=>{
             toIngredientWithSize("minecraft:amethyst_shard"),
             toFluidStack(`250x kubejs:${ess}_fluid`)
         )
-        .id(`essenceodyssey:immersiveengineering/bottling_machine/${ess}_crystal`)
+        .id(`kubejs:immersiveengineering/bottling_machine/${ess}_crystal`)
 
         event.recipes.immersiveengineering.bottling_machine(
             toTagOutput(`kubejs:block_${ess}`),
             toIngredientWithSize("minecraft:amethyst_block"),
             toFluidStack(`1000x kubejs:${ess}_fluid`)
         )
-        .id(`essenceodyssey:immersiveengineering/bottling_machine/${ess}_block`)
+        .id(`kubejs:immersiveengineering/bottling_machine/${ess}_block`)
     })
 })

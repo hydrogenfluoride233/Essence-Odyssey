@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:immersiveengineering/blast_furnace_fuel/"
+    const id_prefix = "kubejs:immersiveengineering/blast_furnace_fuel/"
     const Required = ["id","fuel","burn_time"]
 
     const recipes = [

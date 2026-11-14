@@ -1,8 +1,8 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:"
+    const id_prefix = "kubejs:"
     const Required = ["output","input"]
 
-    //按输出物命名空间 A-Z 排列；id = essenceodyssey:<命名空间>/shapeless/<路径>
+    //按输出物命名空间 A-Z 排列；id = kubejs:<命名空间>/shapeless/<路径>
     const recipes = [
         //aether
         {
@@ -175,7 +175,7 @@ ServerEvents.recipes(event=>{
                 )
                 .keepIngredient("minecraft:bowl")
                 .keepIngredient("minecraft:flint")
-                .id(`essenceodyssey:thaumon/shapeless/mutagen_${essences[0]}_${essences[1]}_${essences[2]}`)
+                .id(`kubejs:thaumon/shapeless/mutagen_${essences[0]}_${essences[1]}_${essences[2]}`)
             }
         }
     }

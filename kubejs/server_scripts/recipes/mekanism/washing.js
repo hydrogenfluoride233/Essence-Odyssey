@@ -6,5 +6,5 @@ ServerEvents.recipes(event=>{
             "5x minecraft:water",
             `1x kubejs:dirty_${metal.name}`
         )
-        .id(`essenceodyssey:mekanism/washing/${metal.name}`))
+        .id(`kubejs:mekanism/washing/${metal.name}`))
 })

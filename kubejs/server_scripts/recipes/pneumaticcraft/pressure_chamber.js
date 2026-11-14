@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:pneumaticcraft/pressure_chamber/"
+    const id_prefix = "kubejs:pneumaticcraft/pressure_chamber/"
     const Required = ["id","output","input","pressure"]
 
     const recipes = [

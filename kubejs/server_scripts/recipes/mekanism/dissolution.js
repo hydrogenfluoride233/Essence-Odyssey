@@ -12,7 +12,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:sulfuric_acid"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/dissolution/${metal.name}_ore`)
+        .id(`kubejs:mekanism/dissolution/${metal.name}_ore`)
 
         event.recipes.mekanism.dissolution(
             `2000x ${dirtyChemical}`,
@@ -20,7 +20,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:sulfuric_acid"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/dissolution/${metal.name}_raw`)
+        .id(`kubejs:mekanism/dissolution/${metal.name}_raw`)
 
         event.recipes.mekanism.dissolution(
             `6000x ${dirtyChemical}`,
@@ -28,7 +28,7 @@ ServerEvents.recipes(event=>{
             "2x mekanism:sulfuric_acid"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/dissolution/${metal.name}_raw_block`)
+        .id(`kubejs:mekanism/dissolution/${metal.name}_raw_block`)
     })
 
     //Create 粉碎矿：脏浆液
@@ -54,5 +54,5 @@ ServerEvents.recipes(event=>{
             "1x mekanism:sulfuric_acid"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/dissolution/${output.split(":")[1]}`))
+        .id(`kubejs:mekanism/dissolution/${output.split(":")[1]}`))
 })

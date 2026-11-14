@@ -1,8 +1,8 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:"
+    const id_prefix = "kubejs:"
     const Required = ["output","pattern","key"]
 
-    //按输出物命名空间 A-Z 排列；id = essenceodyssey:<命名空间>/shaped/<路径>
+    //按输出物命名空间 A-Z 排列；id = kubejs:<命名空间>/shaped/<路径>
     const recipes = [
         //actuallyadditions
         {
@@ -226,5 +226,5 @@ ServerEvents.recipes(event=>{
             ["EE","EE"],
             {E:`kubejs:crystal_${ess}`}
         )
-        .id(`essenceodyssey:kubejs/shaped/block_${ess}`))
+        .id(`kubejs:kubejs/shaped/block_${ess}`))
 })

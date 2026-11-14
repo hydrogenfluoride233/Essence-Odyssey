@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:mekanism/metallurgic_infusing/"
+    const id_prefix = "kubejs:mekanism/metallurgic_infusing/"
     const Required = ["id","output","item_input","chemical_input"]
 
     const recipes = [

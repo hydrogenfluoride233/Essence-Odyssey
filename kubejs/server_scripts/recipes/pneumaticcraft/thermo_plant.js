@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:pneumaticcraft/thermo_plant/"
+    const id_prefix = "kubejs:pneumaticcraft/thermo_plant/"
     const Required = ["id","item_input","temperature"]
 
     //热气动加工机的流体输入：{amount,fluid} 或 {amount,tag}
@@ -73,7 +73,7 @@ ServerEvents.recipes(event=>{
             "temperature":{"min":473},
             "pressure":2.0
         })
-        .id(`essenceodyssey:pneumaticcraft/thermo_plant/${ess}_crystal_to_fluid`)
+        .id(`kubejs:pneumaticcraft/thermo_plant/${ess}_crystal_to_fluid`)
 
         event.custom({
             "type":"pneumaticcraft:thermo_plant",
@@ -85,7 +85,7 @@ ServerEvents.recipes(event=>{
             "temperature":{"min":573},
             "pressure":3.0
         })
-        .id(`essenceodyssey:pneumaticcraft/thermo_plant/${ess}_block_to_fluid`)
+        .id(`kubejs:pneumaticcraft/thermo_plant/${ess}_block_to_fluid`)
 
         event.custom({
             "type":"pneumaticcraft:thermo_plant",
@@ -96,7 +96,7 @@ ServerEvents.recipes(event=>{
             "outputs":toThermoPlantOutput(`kubejs:crystal_${ess}`),
             "temperature":{"max":263}
         })
-        .id(`essenceodyssey:pneumaticcraft/thermo_plant/${ess}_fluid_to_crystal`)
+        .id(`kubejs:pneumaticcraft/thermo_plant/${ess}_fluid_to_crystal`)
 
         event.custom({
             "type":"pneumaticcraft:thermo_plant",
@@ -107,6 +107,6 @@ ServerEvents.recipes(event=>{
             "outputs":toThermoPlantOutput(`kubejs:block_${ess}`),
             "temperature":{"max":253}
         })
-        .id(`essenceodyssey:pneumaticcraft/thermo_plant/${ess}_fluid_to_block`)
+        .id(`kubejs:pneumaticcraft/thermo_plant/${ess}_fluid_to_block`)
     })
 })

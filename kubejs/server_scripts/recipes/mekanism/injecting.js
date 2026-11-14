@@ -13,7 +13,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:hydrogen_chloride"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/injecting/${metal.name}_crystal`)
+        .id(`kubejs:mekanism/injecting/${metal.name}_crystal`)
 
         event.recipes.mekanism.injecting(
             `4x ${shard}`,
@@ -21,7 +21,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:hydrogen_chloride"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/injecting/${metal.name}_ore`)
+        .id(`kubejs:mekanism/injecting/${metal.name}_ore`)
 
         event.recipes.mekanism.injecting(
             `8x ${shard}`,
@@ -29,7 +29,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:hydrogen_chloride"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/injecting/${metal.name}_raw`)
+        .id(`kubejs:mekanism/injecting/${metal.name}_raw`)
 
         event.recipes.mekanism.injecting(
             `24x ${shard}`,
@@ -37,6 +37,6 @@ ServerEvents.recipes(event=>{
             "2x mekanism:hydrogen_chloride"
         )
         .perTickUsage(true)
-        .id(`essenceodyssey:mekanism/injecting/${metal.name}_raw_block`)
+        .id(`kubejs:mekanism/injecting/${metal.name}_raw_block`)
     })
 })

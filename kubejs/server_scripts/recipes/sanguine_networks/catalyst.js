@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:sanguine_networks/catalyst/"
+    const id_prefix = "kubejs:sanguine_networks/catalyst/"
     const Required = ["id","catalyst","multiplier","uses"]
 
     const recipes = [

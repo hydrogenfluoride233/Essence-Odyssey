@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:create/item_application/"
+    const id_prefix = "kubejs:create/item_application/"
     const Required = ["id","output","input"]
 
     const recipes = [

@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:occultism/crushing/"
+    const id_prefix = "kubejs:occultism/crushing/"
     const Required = ["id","output","input","ignore_multiplier"]
 
     const parseResult = result=>{

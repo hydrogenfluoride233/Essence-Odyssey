@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:portaltransform/item_transform/"
+    const id_prefix = "kubejs:portaltransform/item_transform/"
     const Required = ["id","input","output","dimensions"]
 
     const recipes = [

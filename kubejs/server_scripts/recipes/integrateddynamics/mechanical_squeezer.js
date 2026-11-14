@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:integrateddynamics/mechanical_squeezer/"
+    const id_prefix = "kubejs:integrateddynamics/mechanical_squeezer/"
     const Required = ["id","item_input","time"]
 
     const recipes = [

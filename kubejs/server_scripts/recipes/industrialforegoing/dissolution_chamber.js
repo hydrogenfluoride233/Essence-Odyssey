@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:industrialforegoing/dissolution_chamber/"
+    const id_prefix = "kubejs:industrialforegoing/dissolution_chamber/"
     const Required = ["id","item_input","fluid_input","item_output","time"]
 
     const recipes = [

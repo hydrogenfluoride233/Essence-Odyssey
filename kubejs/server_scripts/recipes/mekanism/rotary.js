@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:mekanism/rotary/"
+    const id_prefix = "kubejs:mekanism/rotary/"
     const Required = ["id","chemical","fluid"]
 
     const recipes = [
@@ -29,5 +29,5 @@ ServerEvents.recipes(event=>{
             `1x kubejs:${ess}_chemical`,
             `1x kubejs:${ess}_fluid`
         )
-        .id(`essenceodyssey:mekanism/rotary/${ess}`))
+        .id(`kubejs:mekanism/rotary/${ess}`))
 })

@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:neovitae/hellfire_forge/"
+    const id_prefix = "kubejs:neovitae/hellfire_forge/"
     const Required = ["id","output","input","min","cost"]
 
     //min 最低灵质量、cost 消耗的灵质量

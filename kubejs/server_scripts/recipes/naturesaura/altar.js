@@ -1,5 +1,5 @@
 ServerEvents.recipes(event=>{
-    const id_prefix = "essenceodyssey:naturesaura/altar/"
+    const id_prefix = "kubejs:naturesaura/altar/"
     const Required = ["id","output","input","aura","time"]
 
     const recipes = [
