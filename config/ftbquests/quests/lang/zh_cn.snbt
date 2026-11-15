@@ -62,6 +62,7 @@
 		"这个结构可以使用&a诅咒之眼&r寻找。"
 	]
 	quest.011DB0FFB4E95919.title: "苦寒监牢"
+	quest.0141A6C0297BE42C.title: "辉光星花"
 	quest.01673A6CBCB91BDE.quest_desc: [
 		"&o符文祭坛把要素“写”了下来——不是装进瓶子，而是变成一条可以携带、可以调用的规则。&r"
 		""
@@ -206,6 +207,7 @@
 		"&o&7你看不出这一块巨大的陨石和它里面的东西对你有什么用。&r"
 	]
 	quest.0C963B7BCA20460B.title: "发现陨石"
+	quest.0CB5A4C161D44F95.title: "施展仪式（四）"
 	quest.0CE9557BA608CA22.quest_desc: [
 		"这些高级的压缩机能够承受&a更大的压力&r，同时产生压缩空气的&a效率&r也更高。"
 		""
@@ -214,6 +216,7 @@
 	quest.0CE9557BA608CA22.title: "高级压缩机"
 	quest.0D56A0E086A7FA9D.quest_desc: ["在未组装的印刷电路板上安装&a电容&r、&a晶体管&r和&a真空管&r，便可以获得&a组装好的印刷电路板&r。"]
 	quest.0DB2CD482BA01F58.quest_desc: ["在主世界中，将紫水晶碎片丢进装有水的炼药锅中。"]
+	quest.0DDE275E4A31C38F.title: "胶乳提取与加工"
 	quest.0DE6FE73C42F8CA2.quest_desc: [
 		"&o森林仪式记下了生命面对这个维度时留下的情绪。&r"
 		""
@@ -241,6 +244,7 @@
 		"其能制作的东西，包括了……&a巧克力&r？"
 	]
 	quest.0EAD190E24BC4DAD.title: "搅拌机"
+	quest.0F0C983509723C0E.quest_subtitle: "0级命血祭坛"
 	quest.0F52CE10BD2F157D.quest_desc: [
 		"岩浆发电机通过燃烧&a液体燃料&r产出电力。"
 		""
@@ -601,6 +605,7 @@
 		""
 		"&o重型机械与小型机械，电、压力和热，在此刻第一次交汇。&r"
 	]
+	quest.2B92DE0A12DFB79D.quest_subtitle: "2级命血祭坛"
 	quest.2C4674EF49DCE846.quest_desc: [
 		"这个包里已经配置好了一些默认选项：&a小地图&r摆在右上角，&aHUD&r摆在该在的位置，&a按键绑定&r也尽量避开了互相冲突。"
 		""
@@ -645,6 +650,7 @@
 		"&o&m其实我也不知道为啥能想出这么神秘的配方&r"
 	]
 	quest.2E5D92132F9FA3DC.title: "钢锭"
+	quest.2E6E2AAF4E5A9D0C.title: "施展仪式（三）"
 	quest.2EC65ED47EDA8740.quest_desc: ["由它发射的鸣雷槊可穿透焰魔的盾牌造成伤害。"]
 	quest.2F074ADCF3BB9078.quest_desc: [
 		"&a娜迦庭院&r是森林深处一片被绿篱与石柱围起来的空地，整齐得不像自然生成。"
@@ -886,6 +892,7 @@
 		""
 		"&#56C000地&r之印记里是恐惧——让生命面对幽暗与未知。"
 	]
+	quest.41468E1CE593184C.quest_subtitle: "5级命血祭坛"
 	quest.424A36FF905942D5.quest_desc: ["接下来，试试用&a瓶与塞&r收集来自主世界的灵气，看看又会发生什么。"]
 	quest.424A36FF905942D5.title: "瓶装阳光"
 	quest.4253B342CB49E078.quest_desc: [
@@ -906,6 +913,7 @@
 		""
 		"当然，若是你厌倦了和烈阳巨灵打半个小时的保龄球的话，不妨试试&a冰霜弹&r与&a冰霜权杖&r，它们可以直接发射冰结球并冷冻烈阳巨灵。前者可以&a直接合成&r，后者发现于&a青铜地牢&r的藏宝箱中。"
 	]
+	quest.42C05B59F43A831F.title: "施展仪式（一）"
 	quest.431A6B56EE43ADEE.quest_desc: [
 		"你收集到了来自主世界的灵气，连同其中承载的&l&n环境信息&r与&l&n要素信息&r。"
 		""
@@ -1200,6 +1208,7 @@
 		""
 		"于是你得到水之精华：它不再记得自己来自哪一口炼药锅，只记得&#3EDCFF流动&r、&#3EDCFF容纳&r、&#3EDCFF延续&r。"
 	]
+	quest.5E7955E2AC7BDFC1.title: "造访恶魔领域"
 	quest.5E8DFF947CFCC692.quest_desc: [
 		"&k多线程是另一回事：不是同一件事做很多遍，而是很多件不同的事一起做。这两者的区别我花了很久才想明白，因为第一眼看上去它们一模一样。&r"
 		""
@@ -1228,12 +1237,14 @@
 		""
 		"除此之外，它还是一种&a优良的溶剂&r，可以将各种材料溶解在一起。"
 	]
+	quest.5EE096F611F3232E.quest_desc: ["这玩意儿要在三级命血祭坛之前"]
 	quest.5F7B7E99A3288BD8.quest_desc: ["由圣石制作的石质工具，使用时有概率掉落&a神能晶片&r。"]
 	quest.5FC00933683D6F6B.quest_desc: [
 		"&o森林仪式记下了生命面对这个维度时留下的情绪。&r"
 		""
 		"&#FFFF7E风&r之印记里是愉悦——让生命体验轻盈与自由。"
 	]
+	quest.5FCE8C2DD6805D2B.title: "施展仪式（二）"
 	quest.60362BA2A41B4033.quest_desc: [
 		"&o在开始之前，先来认识一下你所生活的世界吧。&r"
 		""
@@ -1550,6 +1561,7 @@
 		"石墨电极在&a灌装机&r中加工而成。"
 	]
 	quest.796BB04761A96F35.title: "电弧炉"
+	quest.7A707D1951254CEE.quest_subtitle: "3级命血祭坛"
 	quest.7B395641661FEA69.quest_desc: [
 		"热力发电机被放置于&a热源&r上方时会产出电力，但同时需要消耗&a冷却剂&r。"
 		""
@@ -1563,6 +1575,7 @@
 		""
 		"&#3EDCFF水&r让生命懂得失去——而悲痛让它懂得，失去之后还要继续&#3EDCFF流动&r。"
 	]
+	quest.7BF74499BABC05AC.quest_subtitle: "1级命血祭坛"
 	quest.7BF7847A3ED73423.quest_desc: [
 		"&o&7你照笔记中的记叙，把几样东西倒进盆里。等它冷却下来，你手里多了一件说不上名字的东西。&r"
 		""
@@ -1597,6 +1610,7 @@
 		""
 		"&o既然它不属于这里，也许有什么能替你指出它落在哪。&r"
 	]
+	quest.7CB29194A784FD17.quest_subtitle: "4级命血祭坛"
 	quest.7D30D0CD5F0F151E.quest_desc: [
 		"&o你不知道为什么发生了变化，但你想知道为什么。&r"
 		""
@@ -1653,6 +1667,7 @@
 	task.13DB2DD657514650.title: "末地"
 	task.13EF709CBBE409AD.title: "造访暮色森林"
 	task.1489886E39B2841A.title: "建筑棒升级模板"
+	task.15531FDB142C0F8C.title: "造访恶魔领域"
 	task.163F9DDC61A2D8AC.title: "卫城"
 	task.17650FBCBA1450E9.title: "远征"
 	task.189307CC8D6EEF7E.title: "风铃"

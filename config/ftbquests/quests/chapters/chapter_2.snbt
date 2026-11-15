@@ -79,6 +79,15 @@
 			dependencies: ["4F8FD0BAF765BFF8"]
 			hide_until_deps_complete: true
 			id: "3453F3AF03FF04C4"
+			rewards: [{
+				count: 32
+				id: "653342F95FAA33CE"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BD3FFF014064772"
 				item: { count: 1, id: "ae2:not_so_mysterious_cube" }
