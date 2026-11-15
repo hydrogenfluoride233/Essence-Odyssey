@@ -79,7 +79,7 @@ ServerEvents.recipes(event=>{
 
     recipes.forEach(recipe=>{
         const builder = event.recipes.create.mixing(
-            toCreateOutputs(recipe.output),
+            toCreateOutput(recipe.output),
             toCreateInput(recipe.input)
         )
 

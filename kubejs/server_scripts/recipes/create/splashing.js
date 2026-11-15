@@ -40,7 +40,7 @@ ServerEvents.recipes(event=>{
 
     recipes.forEach(recipe=>
         event.recipes.create.splashing(
-            toCreateOutputs(recipe.output),
+            toCreateOutput(recipe.output),
             toCreateInput(recipe.input)
         )
         .id(recipe.id))

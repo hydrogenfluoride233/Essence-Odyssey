@@ -6082,7 +6082,7 @@ hash = "eaaeb774971d0c9e8018f35f228343ff549b108047ee5cd8075fefe86e364506"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
-hash = "0181ac58643a6e6890a2251fc1127b26a28fa330be006d8d67cc0f05e0288b93"
+hash = "31699d58e492bf98302ac20b0b902d08d303bde7ed8b4b26327ad90fc064bcfa"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -6174,7 +6174,7 @@ hash = "ab3f9e73312a7f2c5aaa861d2a634a71b193ff496585826c41ce4182db1d77a9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/crushing.js"
-hash = "d9bfccd0f9b355fa5dbe7f69420a27d6543eed440dd18a12fd10d247d5662bbb"
+hash = "cb18a6ac5e7b477cfac94d2482cd5beb0d6dd5c8b063ab3cb27d7fa76bc91b3b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/deploying.js"
@@ -6202,7 +6202,7 @@ hash = "b3994156a6156af15dc852af55445e8ae8f0f2a677171ebda45b38b2b54ff511"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/mixing.js"
-hash = "3b6388a0ab6fe71ef3e4df3534f8432596a42b9171d71aa4fd4fc252cd3edb95"
+hash = "dead2e61d4515294dfca24f802bf4e7b3dfdf677ba18bbf2fa939c4e838fa437"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/pressing.js"
@@ -6214,7 +6214,7 @@ hash = "1effc9f85db893a4add09a3b6c4c62e2b73a261822a358d04f7bc5f57504d2ca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/splashing.js"
-hash = "0a9366aa1283625216cb3e89d59fdd2aae1dacc640315c61aaa78e642ad2ae5f"
+hash = "c346ee34b01817292844a4dcceb1eb99e2b4c5a3f3b372eccf0d0827993295c8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/createaddition/charging.js"

@@ -110,7 +110,7 @@ const toCreateInput = value=>{
 //机械动力的产物：单值 "Nx id" 原样透传；概率产物写 [概率,"Nx id"]；多产物用数组；内部转 CreateItem.of
 const isChanceEntry = value=>Array.isArray(value) && value.length === 2 && typeof value[0] === "number"
 
-const toCreateOutputs = value=>{
+const toCreateOutput = value=>{
     if(isChanceEntry(value)) return CreateItem.of(value[1],value[0])
     if(!Array.isArray(value)) return value
 
