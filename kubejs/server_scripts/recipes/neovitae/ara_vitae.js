@@ -24,7 +24,7 @@ ServerEvents.recipes(event=>{
         },
     ]
 
-    checkRecipes(recipes,Required)
+    checkRecipe(recipes,Required)
 
     recipes.forEach(recipe=>
         event.recipes.neovitae.ara_vitae_recipe(

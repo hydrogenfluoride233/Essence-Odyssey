@@ -4,7 +4,7 @@
 
 //========== 通用 ==========
 //配方列表的必填字段校验：缺字段当场报错，日志里直接给出配方 id
-const checkRecipes = (recipes,fields)=>{
+const checkRecipe = (recipes,fields)=>{
     recipes.forEach(recipe=>{
         fields.forEach(key=>{
             if(recipe[key] === undefined) throw new Error(`${recipe.id} 缺字段 ${key}`)

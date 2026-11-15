@@ -20,7 +20,7 @@ ServerEvents.recipes(event=>{
         },
     ]
 
-    checkRecipes(recipes,Required)
+    checkRecipe(recipes,Required)
 
     recipes.forEach(recipe=>
         event.recipes.mekmm.rolling_mill(

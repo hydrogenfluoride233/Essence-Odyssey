@@ -140,7 +140,7 @@ ServerEvents.recipes(event=>{
         },
     ]
 
-    checkRecipes(recipes,Required)
+    checkRecipe(recipes,Required)
 
     recipes.forEach(recipe=>{
         const [namespace,rawPath] = toCounted(recipe.output).id.split(":")

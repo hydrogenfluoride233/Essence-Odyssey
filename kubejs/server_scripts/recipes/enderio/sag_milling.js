@@ -42,7 +42,7 @@ ServerEvents.recipes(event=>{
         },
     ]
 
-    checkRecipes(recipes,Required)
+    checkRecipe(recipes,Required)
 
     recipes.forEach(recipe=>{
         const bonus = recipe.bonus === undefined ? SagMillBonus.NONE : SAGBonus[recipe.bonus]

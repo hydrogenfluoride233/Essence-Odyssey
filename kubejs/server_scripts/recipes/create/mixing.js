@@ -75,7 +75,7 @@ ServerEvents.recipes(event=>{
         },
     ]
 
-    checkRecipes(recipes,Required)
+    checkRecipe(recipes,Required)
 
     recipes.forEach(recipe=>{
         const builder = event.recipes.create.mixing(

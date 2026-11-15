@@ -10,7 +10,7 @@ ServerEvents.recipes(event=>{
         },
     ]
 
-    checkRecipes(recipes,Required)
+    checkRecipe(recipes,Required)
 
     recipes.forEach(recipe=>
         event.recipes.immersiveengineering.blast_furnace_fuel(

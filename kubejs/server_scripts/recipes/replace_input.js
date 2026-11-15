@@ -164,7 +164,7 @@ ServerEvents.recipes(event=>{
         },
     ]
 
-    checkRecipes(Replacements,Required)
+    checkRecipe(Replacements,Required)
 
     Replacements.forEach(recipe=>
         event.replaceInput({id:recipe.id},recipe.from,recipe.to))
@@ -195,7 +195,7 @@ ServerEvents.recipes(event=>{
         },//石墨粉
     ]
 
-    checkRecipes(ModReplacements,ModRequired)
+    checkRecipe(ModReplacements,ModRequired)
 
     ModReplacements.forEach(recipe=>
         event.replaceInput({mod:recipe.mod},recipe.from,recipe.to))

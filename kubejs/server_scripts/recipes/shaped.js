@@ -205,7 +205,7 @@ ServerEvents.recipes(event=>{
         },//压力室墙壁
     ]
 
-    checkRecipes(recipes,Required)
+    checkRecipe(recipes,Required)
 
     recipes.forEach(recipe=>{
         const [namespace,rawPath] = toCounted(recipe.output).id.split(":")

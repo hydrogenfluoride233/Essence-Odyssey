@@ -11,7 +11,7 @@ ServerEvents.recipes(event=>{
         },
     ]
 
-    checkRecipes(recipes,Required)
+    checkRecipe(recipes,Required)
 
     //这个配方类型的 schema 没带 id 键，拿不到 .id()（.id 会解析成 KubeRecipe 的 id 字段），只能用它自动生成的 id
     recipes.forEach(recipe=>
