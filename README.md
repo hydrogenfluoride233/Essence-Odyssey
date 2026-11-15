@@ -51,7 +51,7 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 **2. 要素形态贯穿全程**
 
-从固态结晶到液态流体，再到气态精粹，中间穿插<em>自然灵气（Nature's Aura）</em>印记、<em>新生魔艺（Ars Nouveau）</em>魔法精华、<em>命血术（Neo Vitae）</em>铭文工具等衍生物。各种形态各有获取方式与用途，层层递进，而非一次性开放。
+从固态结晶到液态流体，再到气态精粹，中间穿插<em>自然灵气（Nature's Aura）</em>印记、<em>新生魔艺（Ars Nouveau）</em>魔法精华、<em>命血术（Neo Vitae）</em>铭文工具、<em>植物魔法（Botania）</em>符文等衍生物。各种形态各有获取方式与用途，层层递进，而非一次性开放。
 
 **3. 二级要素合成体系**
 
@@ -95,6 +95,7 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 |---|---|
 | 整合包本体，以及 `config/`、`defaultconfigs/`、`data/`、`kubejs/` 下的配置、数据、资源与汉化 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（署名—非商业性使用—相同方式共享） |
 | `kubejs/` 目录下作者原创的 `.js` 脚本 | [MIT](kubejs/LICENSE) |
+| 自研核心模组 `Essence Odyssey Core`（`essenceodyssey`） | All Rights Reserved（随包分发，不单独发布、不用于其它整合包、不提供公共 API） |
 | 第三方内容（各模组、社区汉化、他人素材） | 各自原始许可，见 [THIRD-PARTY.md](THIRD-PARTY.md) |
 
 转载或改编请注明「Essence Odyssey / 本源远征 by hydrogenfluoride233」、附协议链接并标明是否改动；禁止商业使用；改编作品需以相同协议发布。协议全文见 [LICENSE](LICENSE)。

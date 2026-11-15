@@ -51,7 +51,7 @@ Each dimension has its own way of obtaining aspects. Interact with a dimension u
 
 **2. Aspect forms run through the entire progression**
 
-From solid crystals to liquid fluids, and on to gaseous quintessence — with <em>Nature's Aura</em> tokens, <em>Ars Nouveau</em> essences, and <em>Neo Vitae</em> inscription tools appearing in between. Each form has its own way of being obtained and its own uses, opening up layer by layer rather than all at once.
+From solid crystals to liquid fluids, and on to gaseous quintessence — with <em>Nature's Aura</em> tokens, <em>Ars Nouveau</em> essences, <em>Neo Vitae</em> inscription tools, and <em>Botania</em> runes appearing in between. Each form has its own way of being obtained and its own uses, opening up layer by layer rather than all at once.
 
 **3. Secondary aspect crafting**
 
@@ -95,6 +95,7 @@ Only hand-written / hand-edited content is tracked here — KubeJS scripts and s
 |---|---|
 | The modpack and everything under `config/`, `defaultconfigs/`, `data/`, `kubejs/` | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | Original `.js` scripts under `kubejs/` | [MIT](kubejs/LICENSE) |
+| The in-house core mod `Essence Odyssey Core` (`essenceodyssey`) | All Rights Reserved (ships with the pack only, not published separately, no public API) |
 | Third-party content (mods, community translations, adapted textures) | Their own licenses — see [THIRD-PARTY.md](THIRD-PARTY.md) |
 
 If you repost or adapt this pack, credit "Essence Odyssey by hydrogenfluoride233", link the license, and state whether you made changes; commercial use is not allowed, and adaptations must be released under the same license. Full text: [LICENSE](LICENSE).
