@@ -209,6 +209,10 @@ file = "config/aethersdelight-common.toml"
 hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
 
 [[files]]
+file = "config/akashictome-common.toml"
+hash = "b196f1a6510c850c0c6e39422d544a5fda0b3a119f179d4c8159a315787b1124"
+
+[[files]]
 file = "config/alltheleaks.json"
 hash = "2437057bda7e53d91e7a8c400da308a8d848fbdcc80ed845a9c8dbdabd071482"
 
@@ -2414,7 +2418,7 @@ hash = "3ee86b7d3db0c11d9e4288110804777e598f49a8445fa63d7fbec00f74a0f92f"
 
 [[files]]
 file = "config/lithium.properties"
-hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
+hash = "c88b77d1a41f7b9306201d1dea0aa24f04f20bbd13638b7057e6cf345c5dcf59"
 
 [[files]]
 file = "config/lootr-common.toml"
@@ -6078,7 +6082,7 @@ hash = "eaaeb774971d0c9e8018f35f228343ff549b108047ee5cd8075fefe86e364506"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
-hash = "17b1d353f8578961868b2496bb36e82a69cb7c5c985184f070e4e9860a3ae1d4"
+hash = "3d439573f6f5c52dc5e6e083fd3f3fa49d92a6efbabf45e0e886ed77f79a8058"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -6170,7 +6174,7 @@ hash = "ab3f9e73312a7f2c5aaa861d2a634a71b193ff496585826c41ce4182db1d77a9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/crushing.js"
-hash = "721feb878ae81c92a0d8ef0e41f0f66664fd987f1cfbff0e742796265cb5d56c"
+hash = "ce3622ac88a0c7b77b4c78e6f0b10c592af24df24703cfb7e2237f27658b25bf"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/deploying.js"
@@ -6210,7 +6214,7 @@ hash = "48802b9261398d5be508735b09ab887b155a9a1d35ae9f45a1dc2451486a9c25"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/splashing.js"
-hash = "84d3ab823c37b2de77a601b13fb2146cf190649c71f3b7d1fa418f0a0e921eac"
+hash = "92722831bda2811c6a51013f6fdb672b6f4fe7820283eb2acc20b7d5adf51286"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/createaddition/charging.js"
@@ -6643,6 +6647,11 @@ file = "mods/aethersdelight-0.1.4.2-1.21.1.jar"
 hash = "11b07fce5c69682290106fc1c79fc447606791239a18965f71114f360e8a947e"
 
 [[files]]
+file = "mods/akashic-tome.pw.toml"
+hash = "039ecee245a68300feddca1ea7c7c98de9420cde01fbf32d9e01a1ff79e6c80f"
+metafile = true
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "086cb09b402389a49e01f984e1898dd688b490fba4c42fef9ca274b5dc5f648a"
 metafile = true
@@ -6754,7 +6763,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
 metafile = true
 
 [[files]]
@@ -7004,7 +7013,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-more-machines.pw.toml"
-hash = "bcb58a06c7da717347bf96a2258262ea8675aee757a166090ddfb23ca42ee846"
+hash = "45d0b8418919a9f514d51510cc4eada476953b018312486907ef29d1e2974639"
 metafile = true
 
 [[files]]
@@ -7099,7 +7108,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "f3f9cff034b0b598ca9d1fc8940e31767db300908f33bb79ef1b720131bbec6c"
+hash = "fad24a48bab8f5beed982d2bf2c130ac78abac741f8fa25e7eed618bab5f9398"
 metafile = true
 
 [[files]]
@@ -7219,7 +7228,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "90d8290ba2c103b55eacba92ed0f08c77a3832795b99fb03e77f9dc3885c7fd9"
+hash = "fe87173e15a7e2a7543c553708cc3f49a346bcb686cec4977fce6c3efafe4521"
 metafile = true
 
 [[files]]
@@ -8069,7 +8078,7 @@ metafile = true
 
 [[files]]
 file = "mods/valhelsia-core.pw.toml"
-hash = "c00a6ef6f5e855b3144ad48f5df41d05150c5d11cecd558704f9b827b756300d"
+hash = "ef54e2437a4d09a4149c3beb15971d172b1c6660e5c2e7137f52fbab5e9a04f0"
 metafile = true
 
 [[files]]

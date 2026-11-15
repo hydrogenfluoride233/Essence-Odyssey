@@ -97,6 +97,18 @@ const inWeather = weather=>({
     "weather":weather
 })
 
+//========== 机械动力：概率产物 ==========
+
+//机械动力的产物：单值 "Nx id" 原样透传；概率产物写 [概率,"Nx id"]；多产物用数组；内部转 CreateItem.of
+const isChanceEntry = value=>Array.isArray(value) && value.length === 2 && typeof value[0] === "number"
+
+const toCreateOutputs = value=>{
+    if(isChanceEntry(value)) return CreateItem.of(value[1],value[0])
+    if(!Array.isArray(value)) return value
+
+    return value.map(entry=>isChanceEntry(entry) ? CreateItem.of(entry[1],entry[0]) : entry)
+}
+
 //========== 沉浸工程：TagOutput ==========
 
 //沉浸工程的 TagOutput：要的是真 TagOutput 实例，JS 的 {item,count} 对象转不过去（TagOutputJS 是 server 端全局）；recipes/immersiveengineering/ 各配方文件用

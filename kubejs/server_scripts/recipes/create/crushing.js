@@ -9,7 +9,7 @@ ServerEvents.recipes(event=>{
             id:`${id_prefix}gold_powder`,
         },
         {
-            output:CreateItem.of("mekanism:sawdust",0.25),
+            output:[0.25,"mekanism:sawdust"],
             input:Ingredient.of("#farmersdelight:barks"),
             id:`${id_prefix}sawdust`,
         },
@@ -24,26 +24,36 @@ ServerEvents.recipes(event=>{
 
     recipes.forEach(recipe=>
         event.recipes.create.crushing(
-            recipe.output,
+            toCreateOutputs(recipe.output),
             recipe.input
         )
         .id(recipe.id))
 
     //矿石处理：炼狱金属
     event.recipes.create.crushing(
-        ["kubejs:crushed_raw_iesnium",CreateItem.of("create:experience_nugget",0.75)],
+        toCreateOutputs([
+            "kubejs:crushed_raw_iesnium",
+            [0.75,"create:experience_nugget"],
+        ]),
         "occultism:raw_iesnium"
     )
     .id("kubejs:create/crushing/raw_iesnium")
 
     event.recipes.create.crushing(
-        ["9x kubejs:crushed_raw_iesnium",CreateItem.of("9x create:experience_nugget",0.75)],
+        toCreateOutputs([
+            "9x kubejs:crushed_raw_iesnium",
+            [0.75,"9x create:experience_nugget"],
+        ]),
         "occultism:raw_iesnium_block"
     )
     .id("kubejs:create/crushing/raw_iesnium_block")
 
     event.recipes.create.crushing(
-        ["kubejs:crushed_raw_iesnium",CreateItem.of("kubejs:crushed_raw_iesnium",0.75),CreateItem.of("create:experience_nugget",0.75)],
+        toCreateOutputs([
+            "kubejs:crushed_raw_iesnium",
+            [0.75,"kubejs:crushed_raw_iesnium"],
+            [0.75,"create:experience_nugget"],
+        ]),
         "occultism:iesnium_ore"
     )
     .id("kubejs:create/crushing/iesnium_ore")
