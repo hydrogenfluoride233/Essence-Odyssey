@@ -3213,6 +3213,10 @@ file = "kubejs/assets/aquaculturedelight/lang/zh_cn.json"
 hash = "2d868d3eb9e4962de4647f7bf923861f18c37867cc71f1436ddc9ba369f3f485"
 
 [[files]]
+file = "kubejs/assets/ars_additions/lang/zh_cn.json"
+hash = "0a175de1b6c230156badf4f833d1e24614aad2696243c71999150f6046f9df66"
+
+[[files]]
 file = "kubejs/assets/ars_technica/lang/zh_cn.json"
 hash = "6208ec43cffdc968b0305542d45c7f0b2cc015806d011a9a3f40f359c863057e"
 
@@ -6058,7 +6062,7 @@ hash = "35e4d18c733b0c9943e4c0640c2557cdb1eeddd52cbae0af4acc2eb6ed1f6977"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR_models.js"
-hash = "ed5eb19ae74bc16d35fd438d1f5a3a22e31c5da0eb0c353e21baac2d8b80d5bf"
+hash = "572f3ee08bfe28b246a0fd99df6c5954207cad803734638df7a2eb51fedba398"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR_recipes.js"
@@ -6194,7 +6198,7 @@ hash = "8be6a7dcd7d474b60ac59d2cf9b4996a3157218c211de3672dc449e8bc58a9cc"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/mechanical_crafting.js"
-hash = "5db3a698e47a28906a0f9a1f4442f039bfaefa3a77f7961cd1093967e2dba342"
+hash = "cb8a319d57aefcbfbb0c4aa9339ad070e70e05769fb34c37bacff03efd6308e4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/milling.js"
@@ -6410,7 +6414,7 @@ hash = "6dfbd58b1542bebc65bf0c410082cede8d9584593d387d4b5f8f8a5933e0d66c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/naturesaura/tree_ritual.js"
-hash = "fbe44d7cc89a4fc0882327dfafc9bee5150cf58e2a1534d70cfd2ebc2b78eb33"
+hash = "0e1be2b12357513857a613dbcf9628515bbba2f380e5f6370d6d092ba7668beb"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/neovitae/alchemytable.js"
@@ -6645,11 +6649,6 @@ metafile = true
 [[files]]
 file = "mods/aethersdelight-0.1.4.2-1.21.1.jar"
 hash = "11b07fce5c69682290106fc1c79fc447606791239a18965f71114f360e8a947e"
-
-[[files]]
-file = "mods/akashic-tome.pw.toml"
-hash = "039ecee245a68300feddca1ea7c7c98de9420cde01fbf32d9e01a1ff79e6c80f"
-metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
