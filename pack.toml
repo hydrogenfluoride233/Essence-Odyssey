@@ -1,6 +1,6 @@
 name = "Essence Odyssey"
 author = "hydrogenfluoride233"
-version = "0.2.6"
+version = "0.3.0-dev261115"
 pack-format = "packwiz:1.1.0"
 
 [index]
