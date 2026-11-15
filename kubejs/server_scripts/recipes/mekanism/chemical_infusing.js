@@ -22,11 +22,11 @@ ServerEvents.recipes(event=>{
         .id(recipe.id))
 
     //二级要素：化学灌注
-    SecondaryAspects.forEach(({id:result,from:[left,right]})=>
+    SecondaryAspects.forEach(({id:result,from:[input_1,input_2]})=>
         event.recipes.mekanism.chemical_infusing(
             `2x kubejs:${result}_chemical`,
-            `1x kubejs:${left}_chemical`,
-            `1x kubejs:${right}_chemical`
+            `1x kubejs:${input_1}_chemical`,
+            `1x kubejs:${input_2}_chemical`
         )
         .id(`${id_prefix}${result}`))
 })

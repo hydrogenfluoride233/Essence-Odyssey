@@ -21,13 +21,13 @@ ServerEvents.recipes(event=>{
         .id(recipe.id))
 
     //二级要素：流体混合
-    SecondaryAspects.forEach(({id:result,from:[left,right]})=>
+    SecondaryAspects.forEach(({id:result,from:[input_1,input_2]})=>
         event.custom({
             "type":"pneumaticcraft:fluid_mixer",
             "fluid_output":{"amount":500,"id":`kubejs:${result}_fluid`},
             "item_output":{},
-            "input1":{"amount":250,"fluid":`kubejs:${left}_fluid`},
-            "input2":{"amount":250,"fluid":`kubejs:${right}_fluid`},
+            "input1":{"amount":250,"fluid":`kubejs:${input_1}_fluid`},
+            "input2":{"amount":250,"fluid":`kubejs:${input_2}_fluid`},
             "pressure":3,
             "time":100
         })

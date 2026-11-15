@@ -6334,7 +6334,7 @@ hash = "f095918dc33489e932ddd4327723abaf9ffbba804f1b2a80fa9c65d47ddfb992"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/chemical_infusing.js"
-hash = "ed8e63fddbf3f787f1815100227d84abcec86be1f9e3b43a72b50f59b9402266"
+hash = "bdfd9ee591d0623a20e96d92f8cf1cd958cf95b1b81c14e07817c3fb7eb6ee27"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/crushing.js"
@@ -6374,7 +6374,7 @@ hash = "6c50da9301129f3e3984d6b8e5c204f77ea73c6775fc792932acae6d1aea43f7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/separating.js"
-hash = "54308be6a93ddce24845faac744c90ad4072039797dacefdd4df9d74ac5753af"
+hash = "3157690eb069169aa61dc93e82f8b3c09c900e5c995026b3163db6698a5d57f9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/washing.js"
@@ -6454,7 +6454,7 @@ hash = "a0e17958bd0cc92d56ee7cff68693e68d73cbc5ed74ea1a7222ef3ac7abf2a3c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/pneumaticcraft/fluid_mixer.js"
-hash = "8154703035387820c9ba4f1cee5d2ff6cc2253181a365612f5d98320f4e218a4"
+hash = "d2c1cd1897b4d01739bda313fe195834ee525f1bec1a24455dea6c1d3a8c05fe"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/pneumaticcraft/pressure_chamber.js"
