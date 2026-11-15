@@ -63,54 +63,21 @@ ServerEvents.recipes(event=>{
             id:`${id_prefix}packaged_tree_beacon`,
         },
         {
-            output:"actuallyadditions:void_crystal_block",
-            input:"minecraft:coal_block",
-            aura:120000,
-            time:150,
-            catalyst:"naturesaura:conversion_catalyst",
-            id:`${id_prefix}void_crystal_block`,
+            output:"mekanism:dust_steel",
+            input:"mekanism:ingot_steel",
+            aura:10000,
+            time:100,
+            catalyst:"naturesaura:crushing_catalyst",
+            id:`${id_prefix}steel_dust`,
         },
-        {
-            output:"actuallyadditions:enori_crystal_block",
-            input:"minecraft:iron_block",
-            aura:120000,
-            time:150,
-            catalyst:"naturesaura:conversion_catalyst",
-            id:`${id_prefix}enori_crystal_block`,
-        },
-        {
-            output:"actuallyadditions:palis_crystal_block",
-            input:"minecraft:lapis_block",
-            aura:120000,
-            time:150,
-            catalyst:"naturesaura:conversion_catalyst",
-            id:`${id_prefix}palis_crystal_block`,
-        },
-        {
-            output:"actuallyadditions:emeradic_crystal_block",
-            input:"minecraft:emerald_block",
-            aura:120000,
-            time:150,
-            catalyst:"naturesaura:conversion_catalyst",
-            id:`${id_prefix}emeradic_crystal_block`,
-        },
-        {
-            output:"actuallyadditions:restonia_crystal_block",
-            input:"minecraft:redstone_block",
-            aura:120000,
-            time:150,
-            catalyst:"naturesaura:conversion_catalyst",
-            id:`${id_prefix}restonia_crystal_block`,
-        },
-        {
-            output:"actuallyadditions:diamatine_crystal_block",
-            input:"minecraft:diamond_block",
-            aura:120000,
-            time:150,
-            catalyst:"naturesaura:conversion_catalyst",
-            id:`${id_prefix}diamatine_crystal_block`,
-        },
-    ]
+    ].concat(Crystals.map(crystal=>({
+        output:`actuallyadditions:${crystal.id}_crystal_block`,
+        input:crystal.block,
+        aura:120000,
+        time:150,
+        catalyst:"naturesaura:conversion_catalyst",
+        id:`${id_prefix}${crystal.id}_crystal_block`,
+    })))
 
     checkRecipe(recipes,Required)
 

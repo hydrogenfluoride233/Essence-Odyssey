@@ -1,5 +1,4 @@
-//配方生成用数据（server 脚本）：要素总表、元始要素、二级要素合成；注册与颜色在 startup_scripts/data.js
-//全部要素：id、颜色、中英文名
+//全部要素
 const Aspects = [
     {id:"aqua",       color:"#3edcff", name_zh:"水",   name_en:"water"   },
     {id:"ignis",      color:"#ff5a01", name_zh:"火",   name_en:"fire"    },
@@ -24,7 +23,7 @@ const Aspects = [
     {id:"permutatio", color:"#588558", name_zh:"交换", name_en:"exchange"},
 ]
 
-//元始要素：name 是模组内名（拼 kubejs:<name>_essence、kubejs:<name>_scribe_tool 用）
+//元始要素
 //essence＝魔法精华来源模组｜scribe＝铭文工具来源模组｜token＝印记来源模组和名称
 const PrimaryAspects = [
     {id:"aqua",     name:"water",    essence:"ars_nouveau", scribe:"neovitae", token:{mod:"naturesaura", basic:"sorrow",    advance:"grief"     }},
@@ -35,7 +34,7 @@ const PrimaryAspects = [
     {id:"ordo",     name:"ordo",     essence:"kubejs",      scribe:"kubejs",   token:{mod:"kubejs",      basic:"serenity",  advance:"equanimity"}},
 ]
 
-//二级要素：由哪两个元始要素合成
+//二级要素
 const SecondaryAspects = [
     {id:"vapor",      from:["aqua",    "ignis"   ]},
     {id:"victus",     from:["aqua",    "terra"   ]},
@@ -54,7 +53,7 @@ const SecondaryAspects = [
     {id:"permutatio", from:["perditio","ordo"    ]},
 ]
 
-//矿石处理：金属配置（ore_processing 拆分用）
+//矿石处理
 const MetalConfig = [
     {
         name:"zinc",
@@ -92,4 +91,14 @@ const MetalConfig = [
         ingot:"immersiveengineering:ingot_aluminum",
         secondary_dust:"mekanism:dust_iron",
     },
+]
+
+//实用拓展六种水晶：id＝AA 的水晶短名｜block＝灵气祭坛炼水晶块用的原版方块
+const Crystals = [
+    {id:"restonia",  block:"minecraft:redstone_block"},
+    {id:"palis",     block:"minecraft:lapis_block"},
+    {id:"diamatine", block:"minecraft:diamond_block"},
+    {id:"void",      block:"minecraft:coal_block"},
+    {id:"enori",     block:"minecraft:iron_block"},
+    {id:"emeradic",  block:"minecraft:emerald_block"},
 ]
