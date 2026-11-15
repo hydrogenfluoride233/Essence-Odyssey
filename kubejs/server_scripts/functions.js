@@ -99,12 +99,14 @@ const inWeather = weather=>({
 
 //========== 机械动力：概率产物 ==========
 
-//机械动力的输入：数据表写 "Nx id" / "Nx #tag"（多个写数组），Create 的组件不认裸 "#标签"，这里统一转 Ingredient
+//机械动力的输入：数据表写 "Nx id" / "Nx #tag"（多个写数组）。Create 自己认 "Nx id"，只有标签要转成 Ingredient
 const toCreateInput = value=>{
     if(Array.isArray(value)) return value.map(entry=>toCreateInput(entry))
-    if(typeof value === "string") return Ingredient.of(value)
+    if(typeof value !== "string") return value
 
-    return value
+    const {id} = toCounted(value)
+
+    return id.startsWith("#") ? Ingredient.of(id) : value
 }
 
 //机械动力的产物：单值 "Nx id" 原样透传；概率产物写 [概率,"Nx id"]；多产物用数组；内部转 CreateItem.of

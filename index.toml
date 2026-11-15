@@ -6082,7 +6082,7 @@ hash = "31b0da4ca7c715dc742fd3fd6aa619028b60aabb5d1dde63dd4a07e69d104e93"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
-hash = "1f7feb1747fbb52636c272f2a3f5c9eb010724b0f74c13ff48e5135517b1eea5"
+hash = "32df29062345c9dbb7a4121deee4c270835bdd9ed45887a4c3f4572ec000668a"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -6398,7 +6398,7 @@ hash = "0baaccb8b8e8b831c35ba12e48f65fc3b2a9d6ea6f08fe046f7f09eb410340da"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/naturesaura/altar.js"
-hash = "aa815bf5e02b9bf5e84efda95e9960d694024a6a2199fcf5e2a08aea45f8a778"
+hash = "c571504aca7f18b866147156d9be40f4c5b41b158f71ab8a513f933dd8f1b547"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/naturesaura/offering.js"
