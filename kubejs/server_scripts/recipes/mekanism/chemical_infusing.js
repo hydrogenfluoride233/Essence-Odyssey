@@ -28,5 +28,5 @@ ServerEvents.recipes(event=>{
             `1x kubejs:${left}_chemical`,
             `1x kubejs:${right}_chemical`
         )
-        .id(`kubejs:mekanism/chemical_infusing/${result}`))
+        .id(`${id_prefix}${result}`))
 })

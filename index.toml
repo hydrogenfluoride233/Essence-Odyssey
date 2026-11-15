@@ -6334,27 +6334,27 @@ hash = "f095918dc33489e932ddd4327723abaf9ffbba804f1b2a80fa9c65d47ddfb992"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/chemical_infusing.js"
-hash = "50aa68ad487fe62036a9a39f3e973b96316f1d9d2e578f98c55969b80e4836e8"
+hash = "ed8e63fddbf3f787f1815100227d84abcec86be1f9e3b43a72b50f59b9402266"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/crushing.js"
-hash = "1c1eb61cf6b38327e226cd91c7b0f9a5fd26919ecdaef5866522a5ed64b4ad30"
+hash = "8cc6f3d40b116456d23a28ac22b46e59fe28759bc96b7cf332e7a11e0b590882"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/crystallizing.js"
-hash = "05197b9dd33be042e2b59efabb27a2216c355bd8dadf378019948cb7135d5402"
+hash = "6a8df9b1cb6b94724242fb74995496fae261d2ca22024cd98afa6ab33d1eae96"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/dissolution.js"
-hash = "f83b838011bcae454c82665b0ce4fe8d439003322ec7d88d0e8bfa549560537c"
+hash = "51451beaa45f347d06a8dcc23ff9a4255ab4bf82cd38c987b31bdf5aca701544"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/enriching.js"
-hash = "d9ff72c3ea1854e00be5307266787080dcd9effcd052245262c6933d7579e4b9"
+hash = "f8d3d6390b780c48b5956c4a999ca0add7326b4c7e667a9daa27e7764d6cc538"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/injecting.js"
-hash = "24fd29e3ce3c0d03e656396dea0f44b0e9c7ef54a1a69a54c529aa913a4508a1"
+hash = "a3edd74e412b4e2e27b06e7665430babec2499df0333369c3fd14ceab4520ff8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/metallurgic_infusing.js"
@@ -6362,23 +6362,23 @@ hash = "cd217d948c527884dd89f84c2ea9c6a9aab2d3d0a39cc33317ee80a0546fae92"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/oxidizing.js"
-hash = "2a03e70c8691a94d6420db348bdb0b0c4d2c7be83c134c00a1aa767adfc39c7d"
+hash = "57da74e922d7f818823bc0d2e92ee9237b8e3cf6ab7525f939afa91b64597caf"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/purifying.js"
-hash = "56f5d831c6538a24196e1db40d3d5d8d4ced9b831e3ef0f20350add4627c1c99"
+hash = "f83cc7d25c73ccd7841173b0c583a9595b138494936704d53d17fb9b81fdb708"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/rotary.js"
-hash = "36766aba87be4a81e350cbcc4b3f559ee1b494d1baf780e9c2debc673ed0aa0f"
+hash = "6c50da9301129f3e3984d6b8e5c204f77ea73c6775fc792932acae6d1aea43f7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/separating.js"
-hash = "da4911328cba98bb84118858480456be85d590de031af86d5313d06e34a1844d"
+hash = "54308be6a93ddce24845faac744c90ad4072039797dacefdd4df9d74ac5753af"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/washing.js"
-hash = "58708f2709c492a28fde8c0c43d8a430c1473c04cd3f562678ec3a728997f29e"
+hash = "baf4c8a5d536400ec05e9f3e5839df495299cd98ca2563947f439f4561ebd042"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekmm/lathe.js"

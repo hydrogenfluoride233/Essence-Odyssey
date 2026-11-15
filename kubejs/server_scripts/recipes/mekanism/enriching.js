@@ -29,24 +29,24 @@ ServerEvents.recipes(event=>{
             metal.dust,
             `kubejs:dirty_dust_${metal.name}`
         )
-        .id(`kubejs:mekanism/enriching/${metal.name}_dirty_dust`)
+        .id(`${id_prefix}${metal.name}_dirty_dust`)
 
         event.recipes.mekanism.enriching(
             `2x ${metal.dust}`,
             oreTag
         )
-        .id(`kubejs:mekanism/enriching/${metal.name}_ore`)
+        .id(`${id_prefix}${metal.name}_ore`)
 
         event.recipes.mekanism.enriching(
             `4x ${metal.dust}`,
             `3x ${rawItemId}`
         )
-        .id(`kubejs:mekanism/enriching/${metal.name}_raw`)
+        .id(`${id_prefix}${metal.name}_raw`)
 
         event.recipes.mekanism.enriching(
             `12x ${metal.dust}`,
             rawBlockId
         )
-        .id(`kubejs:mekanism/enriching/${metal.name}_raw_block`)
+        .id(`${id_prefix}${metal.name}_raw_block`)
     })
 })

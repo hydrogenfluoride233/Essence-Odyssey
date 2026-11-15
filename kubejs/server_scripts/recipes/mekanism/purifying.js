@@ -1,4 +1,6 @@
 ServerEvents.recipes(event=>{
+    const id_prefix = "kubejs:mekanism/purifying/"
+
     //矿石处理：提纯
     MetalConfig.forEach(metal=>{
         const oreTag = `#c:ores/${metal.name}`
@@ -13,7 +15,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:oxygen"
         )
         .perTickUsage(true)
-        .id(`kubejs:mekanism/purifying/${metal.name}_shard`)
+        .id(`${id_prefix}${metal.name}_shard`)
 
         event.recipes.mekanism.purifying(
             `3x ${clump}`,
@@ -21,7 +23,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:oxygen"
         )
         .perTickUsage(true)
-        .id(`kubejs:mekanism/purifying/${metal.name}_ore`)
+        .id(`${id_prefix}${metal.name}_ore`)
 
         event.recipes.mekanism.purifying(
             `2x ${clump}`,
@@ -29,7 +31,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:oxygen"
         )
         .perTickUsage(true)
-        .id(`kubejs:mekanism/purifying/${metal.name}_raw`)
+        .id(`${id_prefix}${metal.name}_raw`)
 
         event.recipes.mekanism.purifying(
             `18x ${clump}`,
@@ -37,6 +39,6 @@ ServerEvents.recipes(event=>{
             "2x mekanism:oxygen"
         )
         .perTickUsage(true)
-        .id(`kubejs:mekanism/purifying/${metal.name}_raw_block`)
+        .id(`${id_prefix}${metal.name}_raw_block`)
     })
 })

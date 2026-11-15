@@ -29,5 +29,5 @@ ServerEvents.recipes(event=>{
             `1x kubejs:${ess}_chemical`,
             `1x kubejs:${ess}_fluid`
         )
-        .id(`kubejs:mekanism/rotary/${ess}`))
+        .id(`${id_prefix}${ess}`))
 })

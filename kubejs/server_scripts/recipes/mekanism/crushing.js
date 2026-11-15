@@ -25,13 +25,13 @@ ServerEvents.recipes(event=>{
             `kubejs:dirty_dust_${metal.name}`,
             `kubejs:clump_${metal.name}`
         )
-        .id(`kubejs:mekanism/crushing/${metal.name}_dirty_dust`)
+        .id(`${id_prefix}${metal.name}_dirty_dust`)
 
         event.recipes.mekanism.crushing(
             metal.dust,
             metal.ingot
         )
-        .id(`kubejs:mekanism/crushing/${metal.name}_dust`)
+        .id(`${id_prefix}${metal.name}_dust`)
     })
 
     //充能水晶：粉碎成粉

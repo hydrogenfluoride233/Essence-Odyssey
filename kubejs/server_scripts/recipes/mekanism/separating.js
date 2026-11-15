@@ -1,4 +1,6 @@
 ServerEvents.recipes(event=>{
+    const id_prefix = "kubejs:mekanism/separating/"
+
     //二级要素：电解分离
     SecondaryAspects.forEach(({id:result,from:[left,right]})=>
         event.recipes.mekanism.separating(
@@ -6,5 +8,5 @@ ServerEvents.recipes(event=>{
             `1x kubejs:${right}_chemical`,
             `2x kubejs:${result}_fluid`
         )
-        .id(`kubejs:mekanism/separating/${result}`))
+        .id(`${id_prefix}${result}`))
 })

@@ -1,4 +1,6 @@
 ServerEvents.recipes(event=>{
+    const id_prefix = "kubejs:mekanism/injecting/"
+
     //矿石处理：氯化
     MetalConfig.forEach(metal=>{
         const oreTag = `#c:ores/${metal.name}`
@@ -13,7 +15,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:hydrogen_chloride"
         )
         .perTickUsage(true)
-        .id(`kubejs:mekanism/injecting/${metal.name}_crystal`)
+        .id(`${id_prefix}${metal.name}_crystal`)
 
         event.recipes.mekanism.injecting(
             `4x ${shard}`,
@@ -21,7 +23,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:hydrogen_chloride"
         )
         .perTickUsage(true)
-        .id(`kubejs:mekanism/injecting/${metal.name}_ore`)
+        .id(`${id_prefix}${metal.name}_ore`)
 
         event.recipes.mekanism.injecting(
             `8x ${shard}`,
@@ -29,7 +31,7 @@ ServerEvents.recipes(event=>{
             "1x mekanism:hydrogen_chloride"
         )
         .perTickUsage(true)
-        .id(`kubejs:mekanism/injecting/${metal.name}_raw`)
+        .id(`${id_prefix}${metal.name}_raw`)
 
         event.recipes.mekanism.injecting(
             `24x ${shard}`,
@@ -37,6 +39,6 @@ ServerEvents.recipes(event=>{
             "2x mekanism:hydrogen_chloride"
         )
         .perTickUsage(true)
-        .id(`kubejs:mekanism/injecting/${metal.name}_raw_block`)
+        .id(`${id_prefix}${metal.name}_raw_block`)
     })
 })
