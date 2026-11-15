@@ -53,6 +53,7 @@ mods/*.jar
 mods.disabled/
 resourcepacks/*.zip
 !resourcepacks/BDcraft Sound Pack MC121.zip
+!resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
 config/patchouli_books/
 schematics/
 
