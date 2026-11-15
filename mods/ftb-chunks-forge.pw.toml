@@ -1,13 +1,13 @@
 name = "FTB Chunks (NeoForge)"
-filename = "ftb-chunks-neoforge-2101.1.23.jar"
+filename = "ftb-chunks-neoforge-2101.1.24.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a99a51ef8e413af26ee32c4d33a11526fccdd1d1"
+hash = "f0d48143cc80918cf632a4c14c3ca3e974ed0457"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9374151
+file-id = 9594476
 project-id = 314906

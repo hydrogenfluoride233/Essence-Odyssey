@@ -1,13 +1,13 @@
 name = "Create More Machines"
-filename = "createmoremachines-1.21.1-3.2.jar"
+filename = "createmoremachines-1.21.1-3.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "369a1430cab09f3dfa79614c45136ec27fca15da"
+hash = "c3308acf11233d12b43f4859c4d17b072cf35e87"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9523253
+file-id = 9623049
 project-id = 1478956
