@@ -99,6 +99,9 @@ const inWeather = weather=>({
 
 //========== 机械动力：概率产物 ==========
 
+//机械动力的输入：数据表写 "Nx id" / "Nx #tag"，Create 的组件不认裸 "#标签"，这里统一转 Ingredient
+const toCreateInput = text=>typeof text === "string" ? Ingredient.of(text) : text
+
 //机械动力的产物：单值 "Nx id" 原样透传；概率产物写 [概率,"Nx id"]；多产物用数组；内部转 CreateItem.of
 const isChanceEntry = value=>Array.isArray(value) && value.length === 2 && typeof value[0] === "number"
 

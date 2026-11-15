@@ -29,6 +29,11 @@ ServerEvents.recipes(event=>{
             input:"immersiveengineering:slag_gravel",
             id:`${id_prefix}slag_gravel`,
         },
+        {
+            output:"9x occultism:iesnium_nugget",
+            input:"kubejs:crushed_raw_iesnium",
+            id:`${id_prefix}iesnium_nugget`,
+        },
     ]
 
     checkRecipes(recipes,Required)
@@ -36,14 +41,7 @@ ServerEvents.recipes(event=>{
     recipes.forEach(recipe=>
         event.recipes.create.splashing(
             toCreateOutputs(recipe.output),
-            recipe.input
+            toCreateInput(recipe.input)
         )
         .id(recipe.id))
-
-    //矿石处理：炼狱金属
-    event.recipes.create.splashing(
-        "9x occultism:iesnium_nugget",
-        "kubejs:crushed_raw_iesnium"
-    )
-    .id("kubejs:create/splashing/iesnium_nugget")
 })
