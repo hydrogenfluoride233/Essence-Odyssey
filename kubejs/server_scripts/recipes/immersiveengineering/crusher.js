@@ -3,12 +3,7 @@ ServerEvents.recipes(event=>{
     const Required = ["id","output","input"]
 
     const recipes = [
-    ].concat(Crystals.map(crystal=>({
-        output:`kubejs:empowered_${crystal.id}_crystal_dust`,
-        input:`actuallyadditions:empowered_${crystal.id}_crystal`,
-        time:3200,
-        id:`${id_prefix}${crystal.id}`,
-    })))
+    ]
 
     checkRecipe(recipes,Required)
 
@@ -19,4 +14,13 @@ ServerEvents.recipes(event=>{
             recipe.time
         )
         .id(recipe.id))
+
+    //充能水晶：粉碎成粉
+    Crystals.forEach(crystal=>
+        event.recipes.immersiveengineering.crusher(
+            toTagOutput(`kubejs:empowered_${crystal.id}_crystal_dust`),
+            `actuallyadditions:empowered_${crystal.id}_crystal`,
+            3200
+        )
+        .id(`${id_prefix}${crystal.id}`))
 })

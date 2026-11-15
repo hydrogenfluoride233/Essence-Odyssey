@@ -23,12 +23,7 @@ ServerEvents.recipes(event=>{
             ignore_multiplier:true,
             id:`${id_prefix}gold_powder`,
         },
-    ].concat(Crystals.map(crystal=>({
-        output:`kubejs:empowered_${crystal.id}_crystal_dust`,
-        input:`actuallyadditions:empowered_${crystal.id}_crystal`,
-        ignore_multiplier:true,
-        id:`${id_prefix}${crystal.id}`,
-    })))
+    ]
 
     checkRecipe(recipes,Required)
 
@@ -43,4 +38,13 @@ ServerEvents.recipes(event=>{
 
         builder.id(recipe.id)
     })
+
+    //充能水晶：粉碎成粉
+    Crystals.forEach(crystal=>
+        event.recipes.occultism.crushing(
+            parseResult(`kubejs:empowered_${crystal.id}_crystal_dust`),
+            parseInput(`actuallyadditions:empowered_${crystal.id}_crystal`)
+        )
+        .ignoreCrushingMultiplier(true)
+        .id(`${id_prefix}${crystal.id}`))
 })

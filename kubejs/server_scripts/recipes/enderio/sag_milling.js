@@ -10,11 +10,7 @@ ServerEvents.recipes(event=>{
             input:"naturesaura:gold_leaf",
             id:`${id_prefix}gold_powder`,
         },
-    ].concat(Crystals.map(crystal=>({
-        output:`kubejs:empowered_${crystal.id}_crystal_dust`,
-        input:`actuallyadditions:empowered_${crystal.id}_crystal`,
-        id:`${id_prefix}${crystal.id}`,
-    })))
+    ]
 
     checkRecipe(recipes,Required)
 
@@ -66,4 +62,14 @@ ServerEvents.recipes(event=>{
     .energy(2400)
     .bonus(SagMillBonus.CHANCE_ONLY)
     .id("kubejs:enderio/sag_milling/silver_raw")
+
+    //充能水晶：粉碎成粉
+    Crystals.forEach(crystal=>
+        event.recipes.enderio.sag_milling(
+            `kubejs:empowered_${crystal.id}_crystal_dust`,
+            `actuallyadditions:empowered_${crystal.id}_crystal`,
+            2400,
+            SagMillBonus.NONE
+        )
+        .id(`${id_prefix}${crystal.id}`))
 })

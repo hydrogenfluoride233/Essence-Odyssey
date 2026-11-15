@@ -6090,7 +6090,7 @@ hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/actuallyadditions/crushing.js"
-hash = "f4f27e4b5bd131f23a341e2a3ad31ee5f8cf19203e100ca0b6701563ccbe8d3e"
+hash = "3829dc0a0df25bff6b2cf3bdbf9d2e7c854a533ca6734e435308688ef72fe41f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/actuallyadditions/empowering.js"
@@ -6234,7 +6234,7 @@ hash = "fa3a6ce5898da71c6432d8adc9824cd00d85b8dd9aff64fcfe7d488b3c7419ff"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/enderio/sag_milling.js"
-hash = "bb13d1cb5f6a380eabd60ed27244893f81fd5008d3c3a14fccc0555e5be04a77"
+hash = "0ccdb01f64d1908b22e6332b9989cfc9ae6b99e30804ce935e62e35bf052cfa2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/eternal_starlight/alloy.js"
@@ -6270,7 +6270,7 @@ hash = "95dd29b8b73b748d70d700341bc5b172f66ee045a468d7b2bc758a141e0f4f57"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/crusher.js"
-hash = "886dbecdb1f1bdac51003f4c41e3cae2f73da6c0417b31df8cbacd1afe25b4bc"
+hash = "fc9c61d74da4c27943d1663c2576ef286daeade5d9569f143865743c5a4f2c4d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering/metal_press.js"
@@ -6314,7 +6314,7 @@ hash = "92f4401b126477ff4712fe9478f1fe427a80b31e8a8fa4ef90f05e393bc3d0f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/justdirethings/goospread_tag.js"
-hash = "e18ff392e4368a26e77ce6422f47570e1b5b8c478f624d8aebb17359c3aad54f"
+hash = "3ca4614fa1b1a6700e0aeb2bb8f05f712b4b52f3b865e1de6510210293d9f2e8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/lychee/block_crushing.js"
@@ -6338,7 +6338,7 @@ hash = "50aa68ad487fe62036a9a39f3e973b96316f1d9d2e578f98c55969b80e4836e8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/crushing.js"
-hash = "a9d92186e881fec839126c456807242875473b67716834538be158dd11403eb9"
+hash = "1c1eb61cf6b38327e226cd91c7b0f9a5fd26919ecdaef5866522a5ed64b4ad30"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/crystallizing.js"
@@ -6398,7 +6398,7 @@ hash = "0baaccb8b8e8b831c35ba12e48f65fc3b2a9d6ea6f08fe046f7f09eb410340da"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/naturesaura/altar.js"
-hash = "8f01ae376d5534648f1c5ab9f97e7d723677891106b7fc4b10cb7d691e7fb420"
+hash = "aa815bf5e02b9bf5e84efda95e9960d694024a6a2199fcf5e2a08aea45f8a778"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/naturesaura/offering.js"
@@ -6430,7 +6430,7 @@ hash = "6f4b3eb0d39e6a02effc56ec0f2ac8fa6f392dc0c8f325c153e2e55ba172bac4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/occultism/crushing.js"
-hash = "6d7b02eff74807dc778ca4da12e3fb55aa648664a4450e100ce6a2ab5b2d46e1"
+hash = "3f5bdd0f7c531711702fd51b234b2ebdcab8be2f4195a48344f1e0caa2bce1a6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/occultism/crystallize.js"
@@ -6486,7 +6486,7 @@ hash = "b2b4dbd3f23a7dd161c3be9dc3eb2f228de338fc13b0d470d6ce32358ab2edab"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "7eae98c64b42722bf03ef4bafb4a14bc2b528e528d60f1f59910d0be1844e18c"
+hash = "3e1274786b6937d1abc6155348f7e81023b9d42e26294aeee8ee3471d8cdc4b4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace_input.js"

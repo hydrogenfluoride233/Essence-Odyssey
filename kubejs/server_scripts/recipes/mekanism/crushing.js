@@ -8,11 +8,7 @@ ServerEvents.recipes(event=>{
             input:"naturesaura:gold_leaf",
             id:`${id_prefix}gold_powder`,
         },
-    ].concat(Crystals.map(crystal=>({
-        output:`kubejs:empowered_${crystal.id}_crystal_dust`,
-        input:`actuallyadditions:empowered_${crystal.id}_crystal`,
-        id:`${id_prefix}${crystal.id}`,
-    })))
+    ]
 
     checkRecipe(recipes,Required)
 
@@ -37,4 +33,12 @@ ServerEvents.recipes(event=>{
         )
         .id(`kubejs:mekanism/crushing/${metal.name}_dust`)
     })
+
+    //充能水晶：粉碎成粉
+    Crystals.forEach(crystal=>
+        event.recipes.mekanism.crushing(
+            `kubejs:empowered_${crystal.id}_crystal_dust`,
+            `actuallyadditions:empowered_${crystal.id}_crystal`
+        )
+        .id(`${id_prefix}${crystal.id}`))
 })

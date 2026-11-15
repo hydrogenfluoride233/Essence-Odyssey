@@ -4,12 +4,7 @@ ServerEvents.recipes(event=>{
 
     //第一项是模组自己的配方 id；末尾 .id() 是 KubeJS 的 id
     const recipes = [
-    ].concat(Crystals.map(crystal=>({
-        input:`c:ores/${crystal.ore}`,
-        output:`actuallyadditions:${crystal.id}_crystal_cluster`,
-        tier:1,
-        id:`${id_prefix}${crystal.id}_crystal_cluster`,
-    })))
+    ]
 
     checkRecipe(recipes,Required)
 
@@ -22,4 +17,15 @@ ServerEvents.recipes(event=>{
             600
         )
         .id(recipe.id))
+
+    //水晶簇：凝胶蔓延
+    Crystals.forEach(crystal=>
+        event.recipes.justdirethings.goospread_tag(
+            `${id_prefix}${crystal.id}_crystal_cluster`,
+            BlockTagIngredient(`c:ores/${crystal.ore}`),
+            `actuallyadditions:${crystal.id}_crystal_cluster`,
+            1,
+            600
+        )
+        .id(`${id_prefix}${crystal.id}_crystal_cluster`))
 })

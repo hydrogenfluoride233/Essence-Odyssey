@@ -70,14 +70,7 @@ ServerEvents.recipes(event=>{
             catalyst:"naturesaura:crushing_catalyst",
             id:`${id_prefix}steel_dust`,
         },
-    ].concat(Crystals.map(crystal=>({
-        output:`actuallyadditions:${crystal.id}_crystal_block`,
-        input:crystal.block,
-        aura:120000,
-        time:150,
-        catalyst:"naturesaura:conversion_catalyst",
-        id:`${id_prefix}${crystal.id}_crystal_block`,
-    })))
+    ]
 
     checkRecipe(recipes,Required)
 
@@ -89,5 +82,39 @@ ServerEvents.recipes(event=>{
         builder.id(recipe.id)
 
         packagedNatureAltar(event,recipe.output,recipe.input,recipe.aura)
+    })
+
+    //水晶块：原方块 => 水晶块
+    Crystals.forEach(crystal=>{
+        const output = `actuallyadditions:${crystal.id}_crystal_block`
+        const input = crystal.block
+
+        event.recipes.naturesaura.altar(
+            output,
+            input,
+            120000,
+            150,
+            "naturesaura:conversion_catalyst"
+        )
+        .id(`${id_prefix}${crystal.id}_crystal_block`)
+
+        packagedNatureAltar(event,output,input,120000)
+    })
+
+    //充能水晶：崩坏催化粉碎成粉
+    Crystals.forEach(crystal=>{
+        const output = `kubejs:empowered_${crystal.id}_crystal_dust`
+        const input = `actuallyadditions:empowered_${crystal.id}_crystal`
+
+        event.recipes.naturesaura.altar(
+            output,
+            input,
+            10000,
+            100,
+            "naturesaura:crushing_catalyst"
+        )
+        .id(`${id_prefix}${crystal.id}_crystal_dust`)
+
+        packagedNatureAltar(event,output,input,10000)
     })
 })
