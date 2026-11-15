@@ -15,7 +15,7 @@ const ModelStale = 40                                   //控制器 40 tick 没�
 //部件：model = 载体物品的模型编号（models/item/machine_model.json 里的顺序）；item = 直接摆一个现成物品，display 是它的摆法（默认 none）
 //      offset 偏移、tilt 固定倾斜 [绕x,绕z]（度）、spin 自转、turn 绕竖轴公转（度/tick，写 [待机,工作]，别超过 30）
 //      bob 上下浮动 [幅度,周期tick]、scale 大小 [待机,工作]（0 = 藏起来）、glow 工作时全亮
-//光点 sparkle：成型后在一片方块的顶面上随机冒粒子，不发实体。粒子是 Core 模组的 essenceodyssey:altar_light，照星辉祭坛结构成立后炭黑大理石上的白光点做的
+//光点 sparkle：成型后在一片方块的顶面上随机冒粒子，不发实体。粒子是 Core 模组的 essenceodyssey:altar_light，它转发给星辉自己的 VFXFacingParticle（和星辉祭坛结构成立后的白光点同一套特效）
 //      （星辉 TileAltar.playActiveSparkle：每 tick 按「炭黑大理石格数 / 200」的期望值，随机挑一格，在顶面上随机一点放一个白色光点）
 //      from / to 方块范围的两个角（含两端，坐标同上）、skip 范围里不冒的格子、particle 粒子
 //      rate 频率倍率 [待机,工作]（1 = 星辉原版）、rise 冒出来时离顶面的高度 [最低,最高]（格）
@@ -31,9 +31,9 @@ const MachineModels = {
         parts:[],
         sparkle:{
             from:[-3,0,1],to:[3,0,7],skip:[[0,0,4]],    //7×7 炭黑大理石地面（与控制器同层）；正中那格压在祭坛下面，不冒
-            particle:"essenceodyssey:altar_light",      //Core 画的光点：淡白偏蓝、淡入淡出，原地微微上飘
+            particle:"essenceodyssey:altar_light",      //Core 借这个 id 调星辉自己的 VFXFacingParticle，画出来和星辉祭坛上的一模一样
             rate:[1,1],                                 //星辉原版只在待机时冒（合成时换成配方特效）；这台合成时没有别的效果，就照样冒。48 格 ≈ 每 10 tick 2.4 个
-            rise:[0.05,0.30]                            //离大理石顶面的高度：光点从贴面处冒出来
+            rise:[0.01,0.06]                            //贴合大理石顶面：星辉原版就是方块顶面上方 0.01 格
         }
     }
     // "mmcr:xxx":{
