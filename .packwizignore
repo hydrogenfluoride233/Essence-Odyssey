@@ -19,7 +19,9 @@ logs/
 crash-reports/
 saves/
 screenshots/
-shaderpacks/
+# 光影包：只跟踪 CF 元数据，zip 由启动器下载
+shaderpacks/*
+!shaderpacks/*.pw.toml
 moddata/
 netherlink/
 defaultconfigs_backup/
@@ -35,7 +37,8 @@ PCL.ini
 usercache.json
 usernamecache.json
 command_history.txt
-# options.txt 属于整合包内容（决定默认启用哪些材质包）→ 跟踪
+# options.txt 不进库也不进包：默认值由 Default Options 模组给（config\defaultoptions\）
+/options.txt
 optionsof.txt
 # FancyMenu 的窗口标题、modpack_mode 等设置存在这里，属于整合包内容 → 破例跟踪
 !config/fancymenu/options.txt
@@ -51,6 +54,8 @@ backups/
 downloads/
 mods/*.jar
 !mods/aethersdelight-0.1.4.2-1.21.1.jar
+# 本地停用的模组（只在本机，不进仓库也不进包）
+mods.disabled/
 resourcepacks/*.zip
 !resourcepacks/BDcraft Sound Pack MC121.zip
 config/patchouli_books/
@@ -98,8 +103,9 @@ packwiz.json
 #  4. 机器专属的本地数据（换电脑就不该带过去）
 # ---------------------------------------------------------------------
 # 小地图路点、探索记录
-# Xaero：只发两个"观感预设"文件（profiles/default.cfg 与 info_display_config/default.cfg.txt）
-# packwiz 不认 ! 否定规则，所以按具体文件排除，不写 config/xaero/*
+# Xaero：只发两个"观感预设"文件（profiles/default.cfg 与 info_display_config/default.cfg.txt），
+# 其余留本地。不要写 config/xaero/* 再配 ! 例外：packwiz 不认否定规则，
+# 整个目录排掉后 index.toml 里就没有那条，导出包里也就没有（2026-10-30 踩到）。
 config/xaero/lib/
 config/xaero/minimap/client.cfg
 config/xaero/minimap/common.cfg
@@ -217,10 +223,3 @@ sync-and-play.command
 同步说明.md
 packwiz-installer-bootstrap.jar
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
-
-# 默认值改由 Default Options 模组给，options.txt 不进包
-/options.txt
-
-# 光影包：只跟踪 CF 元数据
-shaderpacks/*
-!shaderpacks/*.pw.toml
