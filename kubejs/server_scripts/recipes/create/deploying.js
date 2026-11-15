@@ -5,7 +5,7 @@ ServerEvents.recipes(event=>{
     const recipes = [
         {
             output:"ae2:printed_logic_processor",
-            input:[Ingredient.of("#c:ingots/gold"),"ae2:logic_processor_press"],
+            input:["#c:ingots/gold","ae2:logic_processor_press"],
             consume_template:false,
             id:`${id_prefix}printed_logic_processor`,
         },
@@ -23,7 +23,7 @@ ServerEvents.recipes(event=>{
         },
         {
             output:"ae2:printed_silicon",
-            input:[Ingredient.of("#c:silicon"),"ae2:silicon_press"],
+            input:["#c:silicon","ae2:silicon_press"],
             consume_template:false,
             id:`${id_prefix}printed_silicon`,
         },
@@ -70,7 +70,7 @@ ServerEvents.recipes(event=>{
     recipes.forEach(recipe=>{
         const builder = event.recipes.create.deploying(
             recipe.output,
-            recipe.input
+            toCreateInput(recipe.input)
         )
 
         if(!recipe.consume_template) builder.keepHeldItem()

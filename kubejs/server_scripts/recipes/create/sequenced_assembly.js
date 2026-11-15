@@ -101,7 +101,7 @@ ServerEvents.recipes(event=>{
         [
             event.recipes.create.filling(
                 "immersiveengineering:plate_steel",
-                ["immersiveengineering:plate_steel", Fluid.of("minecraft:lava", 500)]
+                ["immersiveengineering:plate_steel", toFluidStack("500x minecraft:lava")]
             ),
             event.recipes.create.deploying(
                 "immersiveengineering:plate_steel",

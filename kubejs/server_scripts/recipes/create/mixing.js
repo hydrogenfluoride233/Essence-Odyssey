@@ -22,7 +22,7 @@ ServerEvents.recipes(event=>{
             output:"immersiveengineering:alloybrick",
             input:[
                 "minecraft:brick",
-                Ingredient.of("#c:sandstone/blocks"),
+                "#c:sandstone/blocks",
             ],
             heat:"heated",
             id:`${id_prefix}alloybrick`,
@@ -79,8 +79,8 @@ ServerEvents.recipes(event=>{
 
     recipes.forEach(recipe=>{
         const builder = event.recipes.create.mixing(
-            recipe.output,
-            recipe.input
+            toCreateOutputs(recipe.output),
+            toCreateInput(recipe.input)
         )
 
         if(recipe.heat === "heated") builder.heated()
