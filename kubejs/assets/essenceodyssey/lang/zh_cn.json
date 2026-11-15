@@ -54,7 +54,7 @@
   "essenceodyssey.info.raw_amaramber.detail":"为榧木去皮时有概率获得粗绯夜脂。",
   "essenceodyssey.info.alloy_furnace.detail":"合金炉生成于傀儡锻造厂的特定房间，它是一种专门用于冶炼合金或增产矿物的大型设备。",
   "essenceodyssey.info.starfire.detail":"来自于星火鸟的礼物。",
-  "essenceodyssey.info.orbflora_light.detail":"当海球花生长到水面高度时，它会开花，并在此后结出一颗海球花光球。骨粉可以加速它的生长。",
+  "essenceodyssey.info.orbflora_light.detail":"海球花是生长于星照之海的水生植物。当它长到水面高度时，它会开花，并在此后结出一颗海球花光球。骨粉可以加速它的生长。",
   "essenceodyssey.info.starlit_lily_pad.detail":"可以使用骨粉催生星照睡莲，让它再度盛开。",
   "essenceodyssey.info.crystal_perditio.detail":"将紫水晶碎片由主世界侧丢入末地传送门，以凝结混沌结晶。",
   "essenceodyssey.info.blood_clot.detail":"将巧克力放置在暮色森林形成。",
@@ -65,5 +65,6 @@
   "essenceodyssey.info.diamatine_crystal.detail":"凝胶向钻石矿石蔓延可以获得淡蓝色晶簇，使用非精准采集工具破坏可以获得2~8 个淡蓝色水晶碎片。",
   "essenceodyssey.info.void_crystal.detail":"凝胶向煤矿石蔓延可以获得黑色晶簇，使用非精准采集工具破坏可以获得2~8 个黑色水晶碎片。",
   "essenceodyssey.info.emeradic_crystal.detail":"凝胶向绿宝石矿石蔓延可以获得绿色晶簇，使用非精准采集工具破坏可以获得2~8 个绿色水晶碎片。",
-  "essenceodyssey.info.infused_wood.detail":"将原木丢入一池星能液中，浮回来的便是注星木。"
+  "essenceodyssey.info.infused_wood.detail":"将原木丢入一池星能液中，浮回来的便是注星木。",
+  "essenceodyssey.info.goldenleaf_berries.detail":"金叶浆果自然生成于辐金高地和辐金光地的速沙上。"
 }

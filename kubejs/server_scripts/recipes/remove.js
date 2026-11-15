@@ -126,7 +126,6 @@ ServerEvents.recipes(event=>{
     {id:"createmoremachines:mixing/end_alloy"},
     {id:"createmoremachines:mechanical_crafting/beyond_alloy"},
 
-
     //deep_aether
     {id:"deep_aether:stratus_ingot"},
 
@@ -226,7 +225,6 @@ ServerEvents.recipes(event=>{
     {id:"integrateddynamics:drying_basin/base/crystalized_chorus_block"},
     {id:"integrateddynamics:crafting/mechanical_squeezer"},
     {id:"integrateddynamics:crafting/mechanical_drying_basin"},
-
     {output:"integrateddynamics:coal_generator"},
 
     //ironfurnaces
@@ -255,7 +253,6 @@ ServerEvents.recipes(event=>{
     //mysticalagriculture
     {id:"mysticalagriculture:infusion_crystal"},
 
-
     //naturesaura
     {id:"naturesaura:gold_powder"},
     {id:"naturesaura:gold_fiber"},
@@ -265,7 +262,6 @@ ServerEvents.recipes(event=>{
     {id:"naturesaura:generator_limit_remover"},
     {id:"naturesaura:spring"},
     {id:"naturesaura:rf_converter"},
-
 
     //neovitae
     {id:"neovitae:ara_vitae"},
@@ -322,6 +318,7 @@ ServerEvents.recipes(event=>{
 
     //productivebees
     {output:"productivebees:honey_generator"},
+
     //sanguine_networks
     {id:"sanguine_networks:catalyst/barrier"},
 
@@ -329,7 +326,6 @@ ServerEvents.recipes(event=>{
     {id:"starbunclemania:fluid_jar"},
     {id:"starbunclemania:source_condenser"},
     {id:"starbunclemania:fluid_sourcelink"},
-
 
     {id:"starbunclemania:mixing/liquid_source_1000"},
 

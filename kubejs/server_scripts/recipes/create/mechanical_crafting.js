@@ -7,7 +7,7 @@ ServerEvents.recipes(event=>{
             output:"actuallyadditions:crusher",
             pattern:["ABC","DED","CBA"],
             key:{
-                A:"actuallyadditions:restonia_crystal",
+                A:"kubejs:token_confusion",
                 B:"ars_nouveau:glyph_crush",
                 C:"#c:cobblestones",
                 D:"actuallyadditions:basic_coil",
@@ -17,12 +17,12 @@ ServerEvents.recipes(event=>{
         },
         {
             output:"actuallyadditions:atomic_reconstructor",
-            pattern:["DBA","ECE","ABD"],
+            pattern:["ABA","ECE","ADA"],
             key:{
                 A:"#c:cobblestones",
-                B:"actuallyadditions:enori_crystal",
+                B:"kubejs:token_confusion",
                 C:"actuallyadditions:iron_casing",
-                D:"actuallyadditions:restonia_crystal",
+                D:"kubejs:token_serenity",
                 E:"actuallyadditions:basic_coil",
             },
             id:`${id_prefix}atomic_reconstructor`,
@@ -32,7 +32,7 @@ ServerEvents.recipes(event=>{
             pattern:["BCA","DED","ACB"],
             key:{
                 A:"#c:cobblestones",
-                B:"actuallyadditions:enori_crystal",
+                B:"naturesaura:token_sorrow",
                 C:"actuallyadditions:canola_seeds",
                 D:"actuallyadditions:basic_coil",
                 E:"actuallyadditions:iron_casing",
@@ -43,8 +43,8 @@ ServerEvents.recipes(event=>{
             output:"cobblegengalore:block_gen_iron",
             pattern:["ABA","BCB","ABA"],
             key:{
-                A:"quark:white_corundum",
-                B:"minecraft:iron_ingot",
+                A:"minecraft:iron_ingot",
+                B:"kubejs:token_serenity",
                 C:"cobblegengalore:block_gen_copper",
             },
             id:`${id_prefix}block_gen_iron`,
@@ -73,8 +73,8 @@ ServerEvents.recipes(event=>{
             output:"3x immersiveengineering:cokebrick",
             pattern:["ABA","BCB","ABA"],
             key:{
-                A:"minecraft:clay_ball",
-                B:"mekanism:ingot_steel",
+                A:"kubejs:perditio_essence",
+                B:"mekanism:dust_steel",
                 C:"cataclysm:stone_tiles",
             },
             id:`${id_prefix}cokebrick`,
@@ -91,45 +91,49 @@ ServerEvents.recipes(event=>{
         },
         {
             output:"pneumaticcraft:air_compressor",
-            pattern:["AAA","A B","ACA"],
+            pattern:["AAA","ADB","ACA"],
             key:{
                 A:"pneumaticcraft:reinforced_bricks",
                 B:"pneumaticcraft:pressure_tube",
                 C:"ironfurnaces:obsidian_furnace",
+                D:"ars_nouveau:air_essence"
             },
             id:`${id_prefix}air_compressor`,
         },
         {
             output:"pneumaticcraft:manual_compressor",
-            pattern:["BAB"," C ","DED"],
+            pattern:["BAB","FCF","DED"],
             key:{
                 A:"pneumaticcraft:ingot_iron_compressed",
                 B:"minecraft:red_dye",
                 C:"pneumaticcraft:pressure_tube",
                 D:"create:cogwheel",
                 E:"pneumaticcraft:stone_base",
+                F:"ars_nouveau:air_essence"
             },
             id:`${id_prefix}manual_compressor`,
         },
         {
             output:"pneumaticcraft:thermal_compressor",
-            pattern:["ABA","BCB","ADA"],
+            pattern:["AEA","BCB","ADA"],
             key:{
                 A:"pneumaticcraft:ingot_iron_compressed",
                 B:"pneumaticcraft:pressure_tube",
                 C:"pneumaticcraft:air_compressor",
                 D:"create:blaze_burner",
+                E:"naturesaura:token_anger"
             },
             id:`${id_prefix}thermal_compressor`,
         },
         {
             output:"pneumaticcraft:liquid_compressor",
-            pattern:["ABA","BCB","ADA"],
+            pattern:["AEA","BCB","ADA"],
             key:{
                 A:"pneumaticcraft:ingot_iron_compressed",
                 B:"pneumaticcraft:pressure_tube",
                 C:"pneumaticcraft:air_compressor",
                 D:"pneumaticcraft:small_tank",
+                E:"naturesaura:token_sorrow"
             },
             id:`${id_prefix}liquid_compressor`,
         },

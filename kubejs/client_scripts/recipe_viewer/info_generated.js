@@ -100,4 +100,8 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("astralsorcery:infused_wood", [
         Text.translate("essenceodyssey.info.infused_wood.detail")
     ])//infused_wood
+
+    event.add("deep_aether:goldenleaf_berries", [
+        Text.translate("essenceodyssey.info.goldenleaf_berries.detail")
+    ])//goldenleaf_berries
 })

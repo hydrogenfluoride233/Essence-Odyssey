@@ -84,7 +84,7 @@ ServerEvents.recipes(event=>{
         packagedNatureAltar(event,recipe.output,recipe.input,recipe.aura)
     })
 
-    //水晶块：原方块 => 水晶块
+    //嬗变催化器：水晶块
     Crystals.forEach(crystal=>{
         const output = `actuallyadditions:${crystal.id}_crystal_block`
         const input = crystal.block
@@ -101,7 +101,7 @@ ServerEvents.recipes(event=>{
         packagedNatureAltar(event,output,input,120000)
     })
 
-    //充能水晶：崩坏催化粉碎成粉
+    //崩坏催化器：充能水晶粉
     Crystals.forEach(crystal=>{
         const output = `kubejs:empowered_${crystal.id}_crystal_dust`
         const input = `actuallyadditions:empowered_${crystal.id}_crystal`
