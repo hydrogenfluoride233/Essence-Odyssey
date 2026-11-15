@@ -7111,6 +7111,10 @@ hash = "fad24a48bab8f5beed982d2bf2c130ac78abac741f8fa25e7eed618bab5f9398"
 metafile = true
 
 [[files]]
+file = "mods/essenceodyssey-0.1.0.jar"
+hash = "45050830b5d2be612ce2cff19b3554e6c6b90344eba160155310c3c669b4859e"
+
+[[files]]
 file = "mods/eternal-starlight-delight.pw.toml"
 hash = "78922992e8f19d5759473ef109f3c93751767fb283528d17e4633befbc46611f"
 metafile = true
