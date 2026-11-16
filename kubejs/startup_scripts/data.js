@@ -21,7 +21,7 @@ const Aspects = [
     {id:"metallum",   color:"#b5b5cd", name:"金属"},
     {id:"vacuos",     color:"#2d1e33", name:"虚空"},
     {id:"motus",      color:"#94e0e8", name:"移动"},
-    {id:"permutatio", color:"#588558", name:"变化"},
+    {id:"permutatio", color:"#588558", name:"交换"},
 ]
 
 //矿石清单
