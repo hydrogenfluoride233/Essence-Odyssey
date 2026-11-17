@@ -85,13 +85,16 @@ During development, the pack ships complete Chinese content and basic English co
 
 If you run into problems while playing, feedback is welcome via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues), the CurseForge page, or the official QQ group (1077071243).
 
-## Credits
+## Credits (in no particular order)
 
-| Role | Contribution |
-|---|---|
-| **hydrogenfluoride233** | Author: design decisions, balancing, KubeJS scripts, lore and copy |
-| **sweetcornna** | Contributor: code and design feedback |
-| **萧云 (Xiao Yun)** | Art: title screen illustration |
+| Role | Contribution | Contact |
+|---|---|---|
+| **hydrogenfluoride / 钴蓝** | Author: design decisions, balancing, KubeJS scripts, lore and copy | [GitHub](https://github.com/hydrogenfluoride233) |
+| **sweetcornna** | Contributor: code and design feedback, some art assets | [GitHub](https://github.com/sweetcornna) |
+| **丘山 (Qiushan)** | Contributor: first issue on the core mod | [GitHub](https://github.com/PWJCSqiushan) |
+| **萧云 (Xiao Yun)** | Art: title screen illustration | [Bilibili](https://space.bilibili.com/332020920) |
+| **外婆家地头的卷心菜** | Testing: in-game testing and playtest feedback | [Bilibili](https://space.bilibili.com/1916920800) |
+| **陌屿君** | Mascot: definitely not slacking off! | [Bilibili](https://space.bilibili.com/499977642) |
 
 ## Repository Contents
 
