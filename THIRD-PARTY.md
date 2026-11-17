@@ -13,9 +13,7 @@
 | 许可 | **CC BY-NC-SA 4.0**（署名—非商业性使用—相同方式共享） |
 | 使用方式 | 部分直接使用，部分按本整合包的口径改写了用词 |
 
-- 与上游逐字重合的程度、上游 commit 与抽样范围见内部记录 `docs\脚本\汉化来源比对.md`（2026-10-15 复核）。
 - 整合包中另有大量键在汉化补丁里没有对应项（自定义内容，以及各模组自带 `zh_cn` 未覆盖的部分），这部分为本整合包自写。
-- 上游不含 `en_us`，本仓库各 `en_us.json` 均无对应来源。
 - 按 CC BY-NC-SA 4.0 的要求，使用这些文件时需署名原作者与 CFPA、附协议链接、标明是否修改，并以相同协议发布改编版。
 
 **游戏内汉化资源包**
@@ -47,7 +45,6 @@
 | `kubejs/assets/kubejs/textures/item/{aether,eternal_starlight}_prediction.png` | **敌对神经网络 Hostile Neural Networks** | MIT | 接其预测产物套系新增 |
 | `kubejs/assets/kubejs/textures/item/infinity_lava_cell.png` | **ExtendedAE** | LGPL-3.0 | 照其无限元件（`infinity_cell_water.png`）换色 |
 | `kubejs/assets/kubejs/textures/item/steel_gear.png` | **工业先锋 Industrial Foregoing** | MIT | 由其铁齿轮（`iron_gear.png`）换色改编 |
-| `kubejs/assets/kubejs/textures/block/sky_stone_starmetal_ore.png` | **应用能源2（AE2）** | 见其项目页（jar 内声明为「See GitHub repository for details」） | 以 AE2 的陨石（`sky_stone_block`）为底图，矿石点自绘 |
 | `kubejs/assets/kubejs/textures/**` 其余贴图与模型 | 本整合包作者与贡献者绘制与改编 | CC BY-NC-SA 4.0 | — |
 
 许可一列取自各模组 jar 内的声明（`META-INF/mods.toml`、`META-INF/LICENSE.txt`），最终以各项目页为准。
