@@ -87,7 +87,7 @@ If you run into problems while playing, feedback is welcome via [Issues](https:/
 
 ## Repository Contents
 
-Only hand-written / hand-edited content is tracked here — KubeJS scripts and supplementary localization, mod configs, multiblock structure definitions and rendering assets, original textures and models. **No mod jars are distributed in this repository** (`mods/` is excluded via `.gitignore`); please install the pack through CurseForge.
+Only hand-written / hand-edited content is tracked here — KubeJS scripts and supplementary localization, mod configs, multiblock structure definitions and rendering assets, original textures and models. **No third-party mod jars are distributed in this repository** (`mods/` is excluded via `.gitignore`; the only exceptions are the bare jars of `Aether's Delight` and the in-house core mod, see the license table). Please install the pack through CurseForge.
 
 ## License
 
@@ -95,7 +95,7 @@ Only hand-written / hand-edited content is tracked here — KubeJS scripts and s
 |---|---|
 | The modpack and everything under `config/`, `defaultconfigs/`, `data/`, `kubejs/` | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | Original `.js` scripts under `kubejs/` | [MIT](kubejs/LICENSE) |
-| The in-house core mod `Essence Odyssey Core` (`essenceodyssey`) | All Rights Reserved (ships with the pack only, not published separately, no public API) |
+| The in-house core mod `Essence Odyssey Core` (`essenceodyssey`) | All Rights Reserved; unmodified binaries may be redistributed with this pack, and release builds are also published on CurseForge; not for use in other modpacks; no public API |
 | Third-party content (mods, community translations, adapted textures) | Their own licenses — see [THIRD-PARTY.md](THIRD-PARTY.md) |
 
 If you repost or adapt this pack, credit "Essence Odyssey by hydrogenfluoride233", link the license, and state whether you made changes; commercial use is not allowed, and adaptations must be released under the same license. Full text: [LICENSE](LICENSE).

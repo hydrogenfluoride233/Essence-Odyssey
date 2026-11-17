@@ -87,7 +87,7 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 
 ## 仓库内容
 
-只收录作者**手写 / 手改**的内容：KubeJS 脚本与补充汉化、模组配置、多方块结构定义与渲染资源、自制贴图与模型。**不含模组本体**（`mods/` 已在 `.gitignore` 中排除），游玩请走 CurseForge。
+只收录作者**手写 / 手改**的内容：KubeJS 脚本与补充汉化、模组配置、多方块结构定义与渲染资源、自制贴图与模型。**不含第三方模组本体**（`mods/` 在 `.gitignore` 中排除；例外是 `Aether's Delight` 与自研核心模组这两个裸 jar，见下方授权表），游玩请走 CurseForge。
 
 ## 授权｜License
 
@@ -95,7 +95,9 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 |---|---|
 | 整合包本体，以及 `config/`、`defaultconfigs/`、`data/`、`kubejs/` 下的配置、数据、资源与汉化 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（署名—非商业性使用—相同方式共享） |
 | `kubejs/` 目录下作者原创的 `.js` 脚本 | [MIT](kubejs/LICENSE) |
-| 自研核心模组 `Essence Odyssey Core`（`essenceodyssey`） | All Rights Reserved（随包分发，不单独发布、不用于其它整合包、不提供公共 API） |
+| 自研核心模组 `Essence Odyssey Core`（`essenceodyssey`） | All Rights Reserved；允许未修改的二进制随本整合包分发，正式版亦发布在 CurseForge；不用于其它整合包、不提供公共 API |
 | 第三方内容（各模组、社区汉化、他人素材） | 各自原始许可，见 [THIRD-PARTY.md](THIRD-PARTY.md) |
+
+上表的 CC BY-NC-SA 4.0 不覆盖 `mods/` 下的两个裸 jar（`Aether's Delight` 与自研核心模组），它们按各自项目与上表的条款分发。
 
 转载或改编请注明「Essence Odyssey / 本源远征 by hydrogenfluoride233」、附协议链接并标明是否改动；禁止商业使用；改编作品需以相同协议发布。协议全文见 [LICENSE](LICENSE)。

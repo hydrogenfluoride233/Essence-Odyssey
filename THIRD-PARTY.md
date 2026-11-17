@@ -69,8 +69,10 @@
 
 ## 三、模组本体与非 CurseForge 模组
 
-- 本仓库不分发任何模组 jar，游玩请通过 CurseForge 获取整合包；各模组版权归其作者，
+- 本仓库不分发第三方模组 jar，游玩请通过 CurseForge 获取整合包；各模组版权归其作者，
   许可见各自项目页。
+- 例外：自研核心模组 `Essence Odyssey Core` 的 jar 随包入库（它没有 CurseForge 条目可挂），
+  授权见 §四。
 - 非 CurseForge 托管的模组：Aether's Delight by zjjohn121110
   （<https://modrinth.com/mod/the-aethers-delight>），以包内手动文件形式随包分发。
   packwiz 索引中只有文件与哈希、无 `.pw.toml` 元数据，故不走 CurseForge 自动更新。
@@ -84,6 +86,7 @@
 |---|---|
 | 整合包本体与仓库其余内容 | [CC BY-NC-SA 4.0](LICENSE) |
 | `kubejs/` 下作者原创脚本 | [MIT](kubejs/LICENSE) |
+| 自研核心模组 `Essence Odyssey Core`（`essenceodyssey`） | All Rights Reserved；允许未修改的二进制随本整合包分发 |
 
 ---
 
