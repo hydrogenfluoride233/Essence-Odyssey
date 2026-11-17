@@ -1,10 +1,6 @@
 # 第三方内容与致谢 · Third-Party Content & Credits
 
-本仓库不包含任何模组本体（`mods/` 已在 `.gitignore` 中排除）。下面列出仓库中涉及
-第三方作品的部分、来源与许可。
-
-这些内容不在本仓库 [LICENSE](LICENSE) 的 CC BY-NC-SA 4.0 覆盖范围内，版权归各自作者，
-使用前请遵守其原始许可。
+下面列出仓库中涉及第三方作品的部分、来源与许可。这些内容不在本仓库 [LICENSE](LICENSE) 的 CC BY-NC-SA 4.0 覆盖范围内，版权归各自作者，使用前请遵守其原始许可；**仓库自身的授权见 [README](README.md)**。
 
 ---
 
@@ -69,10 +65,9 @@
 
 ## 三、模组本体与非 CurseForge 模组
 
-- 本仓库不分发第三方模组 jar，游玩请通过 CurseForge 获取整合包；各模组版权归其作者，
-  许可见各自项目页。
-- 例外：自研核心模组 `Essence Odyssey Core` 的 jar 随包入库（它没有 CurseForge 条目可挂），
-  授权见 §四。
+- 各模组版权归其作者，许可见各自项目页。
+- 例外入库的只有两个：非 CurseForge 的 `Aether's Delight`（见下）与自研核心模组
+  `Essence Odyssey Core`（授权见 [README](README.md)）。
 - 非 CurseForge 托管的模组：Aether's Delight by zjjohn121110
   （<https://modrinth.com/mod/the-aethers-delight>），以包内手动文件形式随包分发。
   packwiz 索引中只有文件与哈希、无 `.pw.toml` 元数据，故不走 CurseForge 自动更新。
@@ -80,17 +75,7 @@
 
 ---
 
-## 四、本仓库自身的授权
-
-| 范围 | 许可 |
-|---|---|
-| 整合包本体与仓库其余内容 | [CC BY-NC-SA 4.0](LICENSE) |
-| `kubejs/` 下作者原创脚本 | [MIT](kubejs/LICENSE) |
-| 自研核心模组 `Essence Odyssey Core`（`essenceodyssey`） | All Rights Reserved；允许未修改的二进制随本整合包分发 |
-
----
-
-## 五、其他致谢
+## 四、其他致谢
 
 本清单由作者依据自己的记录整理，可能仍有遗漏。若你是本整合包中某个素材、译文或代码的作者而未被列入，或希望以别的方式处理你的作品，请通过项目页或仓库 Issue 联系，我会补充署名，或按你的意愿替换或移除。
 
