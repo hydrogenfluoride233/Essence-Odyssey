@@ -33,3 +33,11 @@
 	# Default: 8
 	# Range: > 0
 	extend_time = 8
+	#How much damage is shared with the linked entity.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	dmg_link = 0.5
+	#How much healing is shared with the linked entity.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	heal_link = 0.5

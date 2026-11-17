@@ -1,6 +1,6 @@
 [preview]
 	#Maximum distance at which multiblock preview blocks are rendered
-	# Default: 64.0
+	# Default: 196.0
 	# Range: 1.0 ~ 512.0
 	render_radius = 64.0
 	#Off-screen preview resolution scale while rotating or zooming
