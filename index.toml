@@ -2009,10 +2009,6 @@ file = "config/extrahnn.cfg"
 hash = "144e454b699ad356e9ebea5755e04a131058fc847053415b2677282bf62a605b"
 
 [[files]]
-file = "config/fancymenu/assets/title_picture_1.png"
-hash = "faa8f2338243ff5c1f1e645db1a5ccef38d3a989693c23fdafc808ac269a66ed"
-
-[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
@@ -2466,7 +2462,7 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5"
+hash = "06e512e9bced293d55545f04f17d14aaf42aa9307303e7e918bdae2a2e6b1eaf"
 
 [[files]]
 file = "config/modular-machinery-community-refoxed/client.toml"
@@ -2895,10 +2891,6 @@ hash = "2eac404656d9bff651954c0e36d78ead3b38115f44c86bf8f4bbceed1849c8e4"
 [[files]]
 file = "defaultconfigs/xaerohud.txt"
 hash = "6de57f88c55043cfafb952219205e2080da514284c822a277cd9f1ef804f0def"
-
-[[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/accessories/lang/zh_cn.json"
@@ -7115,8 +7107,8 @@ hash = "fad24a48bab8f5beed982d2bf2c130ac78abac741f8fa25e7eed618bab5f9398"
 metafile = true
 
 [[files]]
-file = "mods/essenceodyssey-build.16.jar"
-hash = "c19e1efd0a85fc232694e0edca4756ad39301c01854c4849ce361b719b30493e"
+file = "mods/essenceodyssey-build.17.jar"
+hash = "62a31b6010bc7e149e00422b72af02048481a0aa79bca4465439653f4bbd6d7f"
 
 [[files]]
 file = "mods/eternal-starlight-delight.pw.toml"
