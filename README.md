@@ -77,21 +77,22 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 
 ## 开发状态
 
-<!-- INTRO:STATUS:BEGIN -->
 本整合包目前处于早期开发阶段，目前开发进度在第二章，主线任务和终局内容尚未完成。你可能会遇到占位内容或“刻意的游戏设计”。
 
 由于作者目前的开发与本地化限制，本整合包在开发期间仅提供完整的中文游戏内容与基本的英文内容（英文内容自 0.2.2 版本起提供，并在后续版本中持续补充）。当主要内容与系统基本完成后，会逐步完善英文翻译与本地化。
-<!-- INTRO:STATUS:END -->
 
 遇到问题：[Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues)、CurseForge 项目页或官方 QQ 群（1077071243）。
 
-## 贡献者
+## 贡献者（排名不分先后）
 
-| 角色 | 贡献 |
-|---|---|
-| **hydrogenfluoride233** | 作者：内容取舍、数值平衡、KubeJS 脚本、设定与文案 |
-| **sweetcornna** | 贡献者：代码与设计建议 |
-| **萧云** | 美术：标题画面插画 |
+| 角色 | 贡献 | 联系方式 |
+|---|---|---|
+| **hydrogenfluoride/钴蓝** | 作者：内容取舍、数值平衡、KubeJS 脚本、设定与文案 |[GitHub](https://github.com/hydrogenfluoride233)|
+| **sweetcornna** | 贡献者：代码与设计建议、部分美术资产 |[GitHub](https://github.com/sweetcornna)|
+| **丘山** | 贡献者（？）：核心模组的第一个 issue |[GitHub](https://github.com/PWJCSqiushan)|
+| **萧云** | 美术：标题画面插画 |[Bilibili](https://space.bilibili.com/332020920)|
+| **外婆家地头的卷心菜** | 测试：测试游戏中实际表现，提供游玩反馈 |[Bilibili](https://space.bilibili.com/1916920800)|
+| **陌屿君** | 吉祥物：真的不在摸鱼！ |[Bilibili](https://space.bilibili.com/499977642)|
 
 ## 仓库内容
 
