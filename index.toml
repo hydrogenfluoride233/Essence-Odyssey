@@ -333,6 +333,10 @@ file = "config/ars_elemental/glyph_bubble_shield.toml"
 hash = "2529bf6e12f9af5bb5f59b438e56fbf6d46c72fbab11261a93daf2d44b5f1ff9"
 
 [[files]]
+file = "config/ars_elemental/glyph_carian_phalanx.toml"
+hash = "d50189322d3044171fb4255da6ffb32ea9a07bd096e11cac3dd3b2c22355628f"
+
+[[files]]
 file = "config/ars_elemental/glyph_cauterize.toml"
 hash = "3461f868667ed9ea5829607eb5c0e6109fbc4b6c352ae6071702b1e8643f4ad8"
 
@@ -378,7 +382,7 @@ hash = "dce9b819f6078583fe575c1f465b0c1bcda44e64edb02d367728512adf65fafe"
 
 [[files]]
 file = "config/ars_elemental/glyph_life_link.toml"
-hash = "81e68d7000cb0e499fbe40344b0e0dcc072776e1b94017a6b5924f7f628e750d"
+hash = "a6aae53639b8d9f717a34144acee80ab3499598c37aa8f1b8140cb00f5c91832"
 
 [[files]]
 file = "config/ars_elemental/glyph_mist.toml"
@@ -2006,6 +2010,10 @@ hash = "144e454b699ad356e9ebea5755e04a131058fc847053415b2677282bf62a605b"
 
 [[files]]
 file = "config/fancymenu/assets/title_picture.png"
+hash = "90249be23138ab841d4e47bd8c249a0999d4a1e0bd998b98b697b34de6158064"
+
+[[files]]
+file = "config/fancymenu/assets/title_picture_1.png"
 hash = "faa8f2338243ff5c1f1e645db1a5ccef38d3a989693c23fdafc808ac269a66ed"
 
 [[files]]
@@ -2022,7 +2030,7 @@ hash = "e3b5c68502292b8b14a361138d0a9cf631191fd305a8aab4f15859846c0da8f6"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
-hash = "4fc8fd339613f7640a600cf19be2509f5196cb109c1bf9505ce3383e1ad75b48"
+hash = "96246f50eeb3964bfa04743636ddeaa77cbbf377dfeed9797439ed44dca1bac2"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -2034,7 +2042,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "17a267b804a8e831e70c69db99e24498cca25ef29f247055cb63b5694ce57f60"
+hash = "295b97131535e62449b461c3c4b9cb5efaf97029e492777c7c28a8d364aa2250"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2466,7 +2474,7 @@ hash = "cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5"
 
 [[files]]
 file = "config/modular-machinery-community-refoxed/client.toml"
-hash = "d48d7db37c4cdaa737b462787119b0decaed72584c5275d46c82d9e4dd56ff00"
+hash = "98647440206892f7383a930ffeca1593d563c5194f2b1eea4bbbb2872eda42ae"
 
 [[files]]
 file = "config/modular-machinery-community-refoxed/common.toml"
@@ -2698,7 +2706,7 @@ hash = "cb0e96810d7931cb4b1cdfa7fc2c868801a6a3ef6fcc5e458fbc510390906df1"
 
 [[files]]
 file = "config/sophisticatedstorage-common.toml"
-hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
+hash = "eb331790fc7ad942fc9b60e0039b6fe7f612e07c61a3ef810e99f15c769c9f1b"
 
 [[files]]
 file = "config/sophisticatedstorage-server.toml"
@@ -2794,7 +2802,7 @@ hash = "b8dfa4b94428c0a3d33594242ddee2115e8d27e72c74e7c20963b6f978f673b9"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "a56b1c9a2ba4f1bf630c0152428a85c51b0a356eeaef2d7f2867c0908afb647e"
+hash = "630d5e4a8786faf91c6a1bb34e476a998a2b519468eaa07ab3be7a3e83cb1f7b"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -6546,7 +6554,7 @@ hash = "33789ab57d88a0a2681c93e57c0fb726e5b69855ace9c5f41c671b40570f34f0"
 
 [[files]]
 file = "kubejs/startup_scripts/data.js"
-hash = "14cd79d9b6a5c312a127f2ab466553209474653941d995b0012f6482300c26f4"
+hash = "44f1b9a756fbddaf4e154f6becb6e2776c8b360c279f569fc5faa517412c0e14"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -6777,7 +6785,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-elemental.pw.toml"
-hash = "8e9f867e9c0ff53e08e779ae54fd1bbead92f1d7323b75369e64ade719d5d7c1"
+hash = "d1bc4c16b2605cbee5e97f267260b1d64d638fade0da830c1cdc692f60853da3"
 metafile = true
 
 [[files]]
@@ -6962,7 +6970,7 @@ metafile = true
 
 [[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
-hash = "6dc9e6eb0dd13df1244bf6e7272f5648221142b65be00713f5e9dc76ea223730"
+hash = "886dc7540d9428f0d3dbc19857966b24c51eb75864a630a5bab0d62dfefb5fa3"
 metafile = true
 
 [[files]]
@@ -7047,7 +7055,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "101e8c9eeaf11cd5f046feab607584f714fa4dcceee02ac88027ee453008c439"
+hash = "ce4528e66e4fd6bc0825645e195739b15e14f7295ee81b91b6e7c23d83bf00f9"
 metafile = true
 
 [[files]]
@@ -7072,7 +7080,7 @@ metafile = true
 
 [[files]]
 file = "mods/ender-io.pw.toml"
-hash = "152e16faf8daec3c60e472863a59c52ee2f0c2d8b563a8349d4bd72823de41cc"
+hash = "28d5c0cc35be79b14441223256cc4bceb6befe3cfd5e9c9c50824f4532a14789"
 metafile = true
 
 [[files]]
@@ -7111,8 +7119,8 @@ hash = "fad24a48bab8f5beed982d2bf2c130ac78abac741f8fa25e7eed618bab5f9398"
 metafile = true
 
 [[files]]
-file = "mods/essenceodyssey-0.1.0.jar"
-hash = "45050830b5d2be612ce2cff19b3554e6c6b90344eba160155310c3c669b4859e"
+file = "mods/essenceodyssey-build.13.jar"
+hash = "a31c694ab79898861b9e8b5b715880771b2a98da7d949c22ea57394eb1e98a87"
 
 [[files]]
 file = "mods/eternal-starlight-delight.pw.toml"
@@ -7246,12 +7254,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "df64ca595f6f0f79e3a4a844fd0a887b44f5e007f5deb9ac011b5cf67b3a2127"
+hash = "1c653566b0cea97e9282c23458a28b7de879e5fd226f5bb3455502adabfc839d"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "ce69874826195a0aed63a54128c8656b80e564cd32db59c1f9cfe3367150fd5e"
+hash = "4c973a826e4e866c3fb4d1813ebdf649526af21a332a83856ae4a2fd57362283"
 metafile = true
 
 [[files]]
@@ -7361,7 +7369,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "6bc37d2fb6e42f14ed625e60f42fb21edc556c549cdce116dae21be5e76dc396"
+hash = "ab4675d22befb61ab70da6fd0204dc995c5e2e8e47ea202f0bb51320ebafca44"
 metafile = true
 
 [[files]]
@@ -7496,7 +7504,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
+hash = "562bc572ab8ffd96ed9b7b354aed4284cd99f8e2ca96d4cf905e9d7349a0f72e"
 metafile = true
 
 [[files]]
@@ -7701,7 +7709,7 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "1f4795c499834ae0728af24e31a645ff281555255eaf0945571502e35493ef32"
+hash = "90f4fc80c300ba5add6ba3fc34a7e5dd8137b8c8150158859e11778f8e65281c"
 metafile = true
 
 [[files]]
@@ -7711,7 +7719,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "70f8cff0e36daca76c274ea312ba796da0becf39ab8a270841a80016f2143eea"
+hash = "fed91aaaeebd83eb87630a40f882fdc78d54037a4a5c721790bfa0f130b9e3fe"
 metafile = true
 
 [[files]]
@@ -7986,7 +7994,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5595180841498e564236e26c66a5d7d790a2fcd52da68707f0c8ac15fd03e3a2"
+hash = "f82badea9e041ccb63e7feed55ea29f0f5c446b42a1e6bbbdda37a56ec47fb09"
 metafile = true
 
 [[files]]
@@ -7996,7 +8004,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "daf137e8a49ade4dd31c65befa0fe1136cd834e43714a989db482c133f7d45d4"
+hash = "054053aaf1ae0e6ea3621f33533f4d78f17f22835813bbcf9b3b9ccb7b4eb971"
 metafile = true
 
 [[files]]
@@ -8051,7 +8059,7 @@ metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "1b2e04e6d7ecdc77dd2a0396a1b592309013aa72eb4811ec0f52959cac995c99"
+hash = "01fa889082fbcae62d6dd07d4220032a1d4018edbcd82a28c54e44a8556157b2"
 metafile = true
 
 [[files]]
@@ -8091,7 +8099,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "cfc3d0abc9c387a708d246bef5f90481cd62adee3b6ed7e0932042de2bdbcc3e"
+hash = "b2af637f4198d9bfee97e9b3b3ee298ac9b5d25d656188c698489d0d56f716f5"
 metafile = true
 
 [[files]]
