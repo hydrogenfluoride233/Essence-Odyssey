@@ -2009,10 +2009,6 @@ file = "config/extrahnn.cfg"
 hash = "144e454b699ad356e9ebea5755e04a131058fc847053415b2677282bf62a605b"
 
 [[files]]
-file = "config/fancymenu/assets/title_picture.png"
-hash = "90249be23138ab841d4e47bd8c249a0999d4a1e0bd998b98b697b34de6158064"
-
-[[files]]
 file = "config/fancymenu/assets/title_picture_1.png"
 hash = "faa8f2338243ff5c1f1e645db1a5ccef38d3a989693c23fdafc808ac269a66ed"
 
@@ -2030,7 +2026,7 @@ hash = "e3b5c68502292b8b14a361138d0a9cf631191fd305a8aab4f15859846c0da8f6"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
-hash = "96246f50eeb3964bfa04743636ddeaa77cbbf377dfeed9797439ed44dca1bac2"
+hash = "d593a1d7a45843430ceb231f7acc7c001a3ceb60991681f86f236fd737f72ff8"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -7119,8 +7115,8 @@ hash = "fad24a48bab8f5beed982d2bf2c130ac78abac741f8fa25e7eed618bab5f9398"
 metafile = true
 
 [[files]]
-file = "mods/essenceodyssey-build.13.jar"
-hash = "a31c694ab79898861b9e8b5b715880771b2a98da7d949c22ea57394eb1e98a87"
+file = "mods/essenceodyssey-build.16.jar"
+hash = "c19e1efd0a85fc232694e0edca4756ad39301c01854c4849ce361b719b30493e"
 
 [[files]]
 file = "mods/eternal-starlight-delight.pw.toml"
