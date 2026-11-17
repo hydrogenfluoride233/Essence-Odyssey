@@ -30,7 +30,7 @@ menu_background {
   instance_identifier = e32ce618-4096-46b9-82c5-7afd1e6c491e-1791793649562
   background_type = image
   show_background = true
-  image_path = [source:local]/config/fancymenu/assets/title_picture.png
+  image_path = [source:location]essenceodyssey:textures/gui/title_picture.png
   slide = false
   repeat_texture = false
   parallax = false
