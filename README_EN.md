@@ -85,6 +85,14 @@ During development, the pack ships complete Chinese content and basic English co
 
 If you run into problems while playing, feedback is welcome via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues), the CurseForge page, or the official QQ group (1077071243).
 
+## Credits
+
+| Role | Contribution |
+|---|---|
+| **hydrogenfluoride233** | Author: design decisions, balancing, KubeJS scripts, lore and copy |
+| **sweetcornna** | Contributor: code and design feedback |
+| **萧云 (Xiao Yun)** | Art: title screen illustration |
+
 ## Repository Contents
 
 Only hand-written / hand-edited content is tracked here — KubeJS scripts and supplementary localization, mod configs, multiblock structure definitions and rendering assets, original textures and models. **No third-party mod jars are distributed in this repository** (`mods/` is excluded via `.gitignore`; the only exceptions are the bare jars of `Aether's Delight` and the in-house core mod, see the license table). Please install the pack through CurseForge.

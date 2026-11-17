@@ -85,6 +85,14 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 
 遇到问题：[Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues)、CurseForge 项目页或官方 QQ 群（1077071243）。
 
+## 贡献者
+
+| 角色 | 贡献 |
+|---|---|
+| **hydrogenfluoride233** | 作者：内容取舍、数值平衡、KubeJS 脚本、设定与文案 |
+| **sweetcornna** | 贡献者：代码与设计建议 |
+| **萧云** | 美术：标题画面插画 |
+
 ## 仓库内容
 
 只收录作者**手写 / 手改**的内容：KubeJS 脚本与补充汉化、模组配置、多方块结构定义与渲染资源、自制贴图与模型。**不含第三方模组本体**（`mods/` 在 `.gitignore` 中排除；例外是 `Aether's Delight` 与自研核心模组这两个裸 jar，见下方授权表），游玩请走 CurseForge。
