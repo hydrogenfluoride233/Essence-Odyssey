@@ -77,19 +77,21 @@ If you run into problems while playing, feedback is welcome via [Issues](https:/
 
 ## Credits (in no particular order)
 
-| Role | Contribution | Contact |
+> The contributor list is kept in Chinese on purpose: several entries are community in-jokes whose wording does not survive translation.
+
+| 角色 | 贡献 | 联系方式 |
 |---|---|---|
-| **hydrogenfluoride / Cobalt Blue** | Author: design decisions, balancing, KubeJS scripts, lore and copy | [GitHub](https://github.com/hydrogenfluoride233) |
-| **sweetcornna** | Contributor: code and design feedback, some art assets | [GitHub](https://github.com/sweetcornna) |
-| **剑歇 (Jianxie)** | Contributor: ideas and design suggestions, text integration | [Bilibili](https://space.bilibili.com/433356862) |
-| **丘山 (Qiushan)** | Contributor (?): first issue on the core mod | [GitHub](https://github.com/PWJCSqiushan) |
-| **萧云 (Xiao Yun)** | Art: title screen illustration | [Bilibili](https://space.bilibili.com/332020920) |
-| **外婆家地头的卷心菜** | Testing: play testing in game and gameplay feedback | [Bilibili](https://space.bilibili.com/1916920800) |
-| **XiaoY** | Testing: reported 100 stacked logs | [Bilibili](https://space.bilibili.com/631876173) |
-| **小岛 (Xiaodao)** | Testing: "the pack was so good that testing turned into stacked logs" | [Bilibili](https://space.bilibili.com/1411422673) |
-| **铁陵-irontomb** | Testing: gameplay feedback | [Bilibili](https://space.bilibili.com/1679358153) |
-| **陌屿君 (Moyujun)** | Mascot: definitely not slacking off! | [Bilibili](https://space.bilibili.com/499977642) |
-| **其琛琛琛** | Mascot: verbal support and encouragement for the blue wolf | [Bilibili](https://space.bilibili.com/541846318) |
+| **hydrogenfluoride/钴蓝** | 作者：内容取舍、数值平衡、KubeJS 脚本、设定与文案 | [GitHub](https://github.com/hydrogenfluoride233) |
+| **sweetcornna** | 贡献者：代码与设计建议、部分美术资产 | [GitHub](https://github.com/sweetcornna) |
+| **剑歇** | 贡献者：提供创意与设计建议，文本整合 | [Bilibili](https://space.bilibili.com/433356862) |
+| **丘山** | 贡献者（？）：核心模组的第一个 issue | [GitHub](https://github.com/PWJCSqiushan) |
+| **萧云** | 美术：标题画面插画 | [Bilibili](https://space.bilibili.com/332020920) |
+| **外婆家地头的卷心菜** | 测试：测试游戏中实际表现，提供游玩反馈 | [Bilibili](https://space.bilibili.com/1916920800) |
+| **XiaoY** | 测试：反馈了100个滚木 | [Bilibili](https://space.bilibili.com/631876173) |
+| **小岛** | 测试：hf老师做的太好导致测试了滚木 | [Bilibili](https://space.bilibili.com/1411422673) |
+| **铁陵-irontomb** | 测试：提供游玩反馈 | [Bilibili](https://space.bilibili.com/1679358153) |
+| **陌屿君** | 吉祥物：真的不在摸鱼！ | [Bilibili](https://space.bilibili.com/499977642) |
+| **其琛琛琛** | 吉祥物：给予蓝狼言语上的支持与鼓励 | [Bilibili](https://space.bilibili.com/541846318) |
 
 ## Repository Contents
 
