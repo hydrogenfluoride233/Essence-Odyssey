@@ -16,7 +16,7 @@
 
 CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
-![main](.github\pictures\main.png)
+![main](.github/pictures/main.png)
 
 ## 开发版本 / 参与开发
 

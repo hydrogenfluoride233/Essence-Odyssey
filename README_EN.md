@@ -16,7 +16,7 @@ This is a modpack built around technology, magic, and adventure. Explore six dim
 
 CurseForge page: <https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
-![main](.github\pictures\main.png)
+![main](.github/pictures/main.png)
 
 ## Development builds / Contributing
 
