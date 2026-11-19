@@ -16,6 +16,8 @@
 
 CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
+![main](.github\pictures\main.png)
+
 ## 开发版本 / 参与开发
 
 这个仓库是整合包的**开发实例**：开发中的内容直接出现在这里；**稳定版去 CurseForge**（上面的勋章）。

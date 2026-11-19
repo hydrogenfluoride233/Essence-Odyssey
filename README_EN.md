@@ -16,6 +16,8 @@ This is a modpack built around technology, magic, and adventure. Explore six dim
 
 CurseForge page: <https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
+![main](.github\pictures\main.png)
+
 ## Development builds / Contributing
 
 This repository is the pack's **development instance** — work in progress lands here directly; **for the stable release, use CurseForge** (badge above).
@@ -81,17 +83,18 @@ If you run into problems while playing, feedback is welcome via [Issues](https:/
 
 | 角色 | 贡献 | 联系方式 |
 |---|---|---|
-| **hydrogenfluoride/钴蓝** | 作者：内容取舍、数值平衡、KubeJS 脚本、设定与文案 | [GitHub](https://github.com/hydrogenfluoride233) |
-| **sweetcornna** | 贡献者：代码与设计建议、部分美术资产 | [GitHub](https://github.com/sweetcornna) |
-| **剑歇** | 贡献者：提供创意与设计建议，文本整合 | [Bilibili](https://space.bilibili.com/433356862) |
-| **丘山** | 贡献者（？）：核心模组的第一个 issue | [GitHub](https://github.com/PWJCSqiushan) |
-| **萧云** | 美术：标题画面插画 | [Bilibili](https://space.bilibili.com/332020920) |
-| **外婆家地头的卷心菜** | 测试：测试游戏中实际表现，提供游玩反馈 | [Bilibili](https://space.bilibili.com/1916920800) |
-| **XiaoY** | 测试：反馈了100个滚木 | [Bilibili](https://space.bilibili.com/631876173) |
-| **小岛** | 测试：hf老师做的太好导致测试了滚木 | [Bilibili](https://space.bilibili.com/1411422673) |
-| **铁陵-irontomb** | 测试：提供游玩反馈 | [Bilibili](https://space.bilibili.com/1679358153) |
-| **陌屿君** | 吉祥物：真的不在摸鱼！ | [Bilibili](https://space.bilibili.com/499977642) |
-| **其琛琛琛** | 吉祥物：给予蓝狼言语上的支持与鼓励 | [Bilibili](https://space.bilibili.com/541846318) |
+| **hydrogenfluoride/钴蓝** | 作者：内容取舍、数值平衡、KubeJS 脚本、设定与文案 |[GitHub](https://github.com/hydrogenfluoride233)|
+| **sweetcornna** | 贡献者：代码与设计建议、部分美术资产 |[GitHub](https://github.com/sweetcornna)|
+| **剑歇** | 贡献者：提供创意与设计建议，文本整合 |[Bilibili](https://space.bilibili.com/433356862)|
+| **丘山** | 贡献者（？）：核心模组的第一个 issue |[GitHub](https://github.com/PWJCSqiushan)|
+| **萧云** | 美术：标题画面插画 |[Bilibili](https://space.bilibili.com/332020920)|
+| **外婆家地头的卷心菜** | 测试：测试游戏中实际表现，提供游玩反馈 |[Bilibili](https://space.bilibili.com/1916920800)|
+| **XiaoY** | 测试：反馈了100个滚木 |[Bilibili](https://space.bilibili.com/631876173)|
+| **小岛** | 测试：hf老师做的太好导致测试了滚木 |[Bilibili](https://space.bilibili.com/1411422673)|
+| **铁陵-irontomb** | 测试：提供游玩反馈 |[Bilibili](https://space.bilibili.com/1679358153)|
+| **氯化钠** | 吉祥物：（说了一些关于本源远征的话） |[Bilibili](https://space.bilibili.com/508963951)|
+| **陌屿君** | 吉祥物：真的不在摸鱼！ |[Bilibili](https://space.bilibili.com/499977642)|
+| **其琛琛琛** | 吉祥物：给予蓝狼言语上的支持与鼓励 |[Bilibili](https://space.bilibili.com/541846318)|
 
 ## Repository Contents
 
