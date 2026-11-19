@@ -2,15 +2,15 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = %fancymenu:universal_layout%
-  render_custom_elements_behind_vanilla = false
-  last_edited_time = 1794888214094
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1795089873090
   is_enabled = true
   widget_identifier_revision = 2
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:528b0bec-8873-42e7-8664-5881852f294a-1794887989307] = [groups:][instances:]
+  [loading_requirement_container_meta:637caa57-a82a-44fc-ab5d-cc82ee161415-1795089868345] = [groups:][instances:]
 }
 
 menu_background {
@@ -30,7 +30,7 @@ menu_background {
   instance_identifier = e32ce618-4096-46b9-82c5-7afd1e6c491e-1791793649562
   background_type = image
   show_background = true
-  image_path = [source:location]essenceodyssey:textures/gui/title_picture.png
+  image_path = [source:location]essenceodyssey:textures/gui/title_bg.png
   slide = false
   repeat_texture = false
   parallax = false
@@ -352,7 +352,7 @@ decoration_overlay {
   confetti_burst_amount = 1.0
   confetti_particle_cap = 500
   confetti_color_mix_mode = true
-  confetti_mouse_click_mode = false
+  confetti_mouse_click_mode = true
   confetti_color_hex = #FFFFFF
 }
 
