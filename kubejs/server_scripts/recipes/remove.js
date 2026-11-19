@@ -243,6 +243,7 @@ ServerEvents.recipes(event=>{
 
     //mekanism
     {id:"mekanism:steel_casing"},
+    {id:"mekanism:metallurgic_infuser"},
     {id:"mekanism:rotary/steam"},
     {id:"mekanism:rotary/water_vapor"},
     {id:"mekanism:chemical_infusing/sulfuric_acid"},
