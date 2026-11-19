@@ -109,4 +109,4 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 
 上表的 CC BY-NC-SA 4.0 不覆盖 `mods/` 下的两个裸 jar（`Aether's Delight` 与自研核心模组），它们按各自项目与上表的条款分发。
 
-转载或改编请注明「Essence Odyssey / 本源远征 by hydrogenfluoride233」、附协议链接并标明是否改动；禁止商业使用；改编作品需以相同协议发布。协议全文见 [LICENSE](LICENSE)。
+转载或改编请注明「Essence Odyssey / 本源远征 by hydrogenfluoride」、附协议链接并标明是否改动；禁止商业使用；改编作品需以相同协议发布。协议全文见 [LICENSE](LICENSE)。
