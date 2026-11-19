@@ -4,13 +4,14 @@ layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1795107713843
-  is_enabled = true
+  is_enabled = false
   widget_identifier_revision = 2
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:b18e60e1-6090-45b7-96fd-919e582fbb18-1795107788138] = [groups:][instances:]
+  [loading_requirement_container_meta:dd91b73a-c26c-4a2e-b9d1-02268981f408-1795108591144] = [groups:][instances:3f0c1a2b-0000-4000-8000-0000000e0e01-1795112400001;]
+  [loading_requirement:fancymenu_loading_requirement_file_exists][requirement_mode:if][req_id:3f0c1a2b-0000-4000-8000-0000000e0e01-1795112400001] = config/fancymenu/egg/unlocked
 }
 
 menu_background {

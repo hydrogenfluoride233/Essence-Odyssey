@@ -199,3 +199,5 @@ tlm_custom_pack/
 # 同步脚本记住的成员本地路径
 java-path.txt
 game-path.txt
+
+/config/fancymenu/egg/
