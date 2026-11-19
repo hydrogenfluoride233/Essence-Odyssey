@@ -2009,76 +2009,36 @@ file = "config/extrahnn.cfg"
 hash = "144e454b699ad356e9ebea5755e04a131058fc847053415b2677282bf62a605b"
 
 [[files]]
-file = "config/fancymenu/assets/11111.png"
-hash = "e35283afe36b77374025c43cb04a06559c886a6ff51f7c360c1c04b37b35a342"
-
-[[files]]
-file = "config/fancymenu/assets/2.jpg"
-hash = "a429283394894ac75b04312b2afa47e69d13abea7829244a89d65a077f51ce1c"
-
-[[files]]
-file = "config/fancymenu/assets/cobalt/cobalt_1.png"
-hash = "760598ef7f5fb228afd5f9a87e98e25b01ecc58e5ae897f3f35fcd482c6789e5"
-
-[[files]]
-file = "config/fancymenu/assets/cobalt/cobalt_2.png"
-hash = "93203f813af4b1216ab1ab5ee42594b4f8fbd91ef551bcb20cef5fe3639e1271"
-
-[[files]]
-file = "config/fancymenu/assets/cobalt/cobalt_3.png"
-hash = "e5291915e91201f0f95b5f0e444ff3171ac09fc1fbd390a3ea35ab4700369425"
-
-[[files]]
-file = "config/fancymenu/assets/orbs/orb_1.png"
-hash = "33bf52b1d248627d33e8c6778555388364c29fee21da72da165c816d377de678"
-
-[[files]]
-file = "config/fancymenu/assets/orbs/orb_2.png"
-hash = "3561cdcea3234a6767f0cd906ba28c3f6b5f051855cfa7e87562b963dbeacd1a"
-
-[[files]]
-file = "config/fancymenu/assets/orbs/orb_3.png"
-hash = "026805b5db3e54cff36252a5670e6c56f1c0ad9e9ca911c5935ec552219e6ef5"
-
-[[files]]
-file = "config/fancymenu/assets/orbs/orb_4.png"
-hash = "f7c0d72d98f8e88e5c9f68d6e60ddb8dec1179052d73d80fa72009a86684a0e2"
-
-[[files]]
-file = "config/fancymenu/assets/orbs/orb_5.png"
-hash = "e1a9a529e23c696a86fbe0f72507dc65622156ec567e9661563b66610efedd86"
-
-[[files]]
-file = "config/fancymenu/assets/orbs/orb_6.png"
-hash = "063637c7ff986a204185b74bcafb6f78e62887f83c010cf3c745429845df93a3"
-
-[[files]]
-file = "config/fancymenu/assets/test1.png"
-hash = "8c922d79b39d1e7832e20edb4f1a402e95b59033be8d639bfc7a776a5f8c6e74"
-
-[[files]]
-file = "config/fancymenu/assets/test2.png"
-hash = "7478e35641914614c71b9624d09cbbee47704172a0adc85554db34581c873a59"
-
-[[files]]
-file = "config/fancymenu/assets/title_picture_cobalt.png"
-hash = "73dafef8ab66c1b2f9a7ac5f69d75464cb93621de007ebe770faa4bb9e5533c6"
-
-[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+hash = "1bf98b419d1dd74337d68f87ea1a35e05bf9e1bccb8bf605aeee14521da08f91"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "148772ea40eb544e331b0d17d7e11e1c6e0ad87cd35d52c0105ac2e5292a73e8"
 
 [[files]]
+file = "config/fancymenu/customization/egg_warn_layout.txt"
+hash = "077abecbe26c80a53f4232d0d058d64ee8fd7a1a95faf637bb98cb878f9de096"
+
+[[files]]
+file = "config/fancymenu/customization/realms_client_outdated_screen_layout.txt"
+hash = "9fc06c6af8246c4bbef595e3feae0947c5dbb5d25cbc2adcf29fbb4291842b7f"
+
+[[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "09942149f5257d384893bad5e40fc9966e9342525096fe9c1b4f061acb6bcded"
+hash = "667a11b926ee23150d367da7b74d10dbe0318b050079f37477d0f786307d649f"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
-hash = "ff765dad84cb415e4247f56d08be020f727dc32830c32d8925988da9b83953e6"
+hash = "ff921d6f5780efb43d0f92f728a8696fd1113d60a77fa18301eb43880b7f6a7d"
+
+[[files]]
+file = "config/fancymenu/customization/universal_layout_cobalt.txt"
+hash = "9371cd99a0689773aaef69f5f4783d3d79b6b21bfe6be5c96aec9d02c60c664f"
+
+[[files]]
+file = "config/fancymenu/egg/unlocked"
+hash = "9d65d11a438c8304d1a2743cc70972877f51e384c985cc05a23ce6ae2463556d"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -2090,7 +2050,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "ffebc83dd3d0debd4aeebef177efbf82f8791f2580fed612b08a542ae13262b6"
+hash = "295b97131535e62449b461c3c4b9cb5efaf97029e492777c7c28a8d364aa2250"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -6546,7 +6506,7 @@ hash = "b2b4dbd3f23a7dd161c3be9dc3eb2f228de338fc13b0d470d6ce32358ab2edab"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "3e1274786b6937d1abc6155348f7e81023b9d42e26294aeee8ee3471d8cdc4b4"
+hash = "93a0537ad6cc57c012fa117da40b96b35180816cf21f862e39e0283bd538ba0f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace_input.js"
@@ -7098,7 +7058,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
+hash = "48bdcf0ab456ddb4aee721dce46717e6011f0576631c608bb1c6a13f215dca98"
 metafile = true
 
 [[files]]
@@ -7167,8 +7127,8 @@ hash = "fad24a48bab8f5beed982d2bf2c130ac78abac741f8fa25e7eed618bab5f9398"
 metafile = true
 
 [[files]]
-file = "mods/essenceodyssey-build.17.jar"
-hash = "62a31b6010bc7e149e00422b72af02048481a0aa79bca4465439653f4bbd6d7f"
+file = "mods/essenceodyssey-build.27.jar"
+hash = "e3abfb085d7cfaf5967dde5d7b6cd07ba29f4bbf503a9cf6391fc8ade75f28ab"
 
 [[files]]
 file = "mods/eternal-starlight-delight.pw.toml"
