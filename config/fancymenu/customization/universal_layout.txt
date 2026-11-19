@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1795089873090
+  last_edited_time = 1795107564312
   is_enabled = true
   widget_identifier_revision = 2
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:637caa57-a82a-44fc-ab5d-cc82ee161415-1795089868345] = [groups:][instances:]
+  [loading_requirement_container_meta:720d7aed-4c41-468f-a3fa-f8c2941686b8-1795107540357] = [groups:][instances:]
 }
 
 menu_background {
@@ -30,7 +30,7 @@ menu_background {
   instance_identifier = e32ce618-4096-46b9-82c5-7afd1e6c491e-1791793649562
   background_type = image
   show_background = true
-  image_path = [source:location]essenceodyssey:textures/gui/title_base.png
+  image_path = [source:location]essenceodyssey:textures/gui/main_base.png
   slide = false
   repeat_texture = false
   parallax = false
