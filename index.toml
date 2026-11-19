@@ -262,7 +262,7 @@ hash = "eda93df8c30acf8d7e14f4f2baf583f77ec37fcc05d8acc85988ffd465d5038c"
 
 [[files]]
 file = "config/appex-common.toml"
-hash = "1a62f013951c9faf9db2f3adbc79e94bea2932a3fe23a7366a2cdd5aa16d646f"
+hash = "de832e6d8ace34a44aa3e01a9bdcae6c7f4bae3ee8f11309bfaebeb92e67ef50"
 
 [[files]]
 file = "config/appflux-common.toml"
@@ -2009,20 +2009,76 @@ file = "config/extrahnn.cfg"
 hash = "144e454b699ad356e9ebea5755e04a131058fc847053415b2677282bf62a605b"
 
 [[files]]
+file = "config/fancymenu/assets/11111.png"
+hash = "e35283afe36b77374025c43cb04a06559c886a6ff51f7c360c1c04b37b35a342"
+
+[[files]]
+file = "config/fancymenu/assets/2.jpg"
+hash = "a429283394894ac75b04312b2afa47e69d13abea7829244a89d65a077f51ce1c"
+
+[[files]]
+file = "config/fancymenu/assets/cobalt/cobalt_1.png"
+hash = "760598ef7f5fb228afd5f9a87e98e25b01ecc58e5ae897f3f35fcd482c6789e5"
+
+[[files]]
+file = "config/fancymenu/assets/cobalt/cobalt_2.png"
+hash = "93203f813af4b1216ab1ab5ee42594b4f8fbd91ef551bcb20cef5fe3639e1271"
+
+[[files]]
+file = "config/fancymenu/assets/cobalt/cobalt_3.png"
+hash = "e5291915e91201f0f95b5f0e444ff3171ac09fc1fbd390a3ea35ab4700369425"
+
+[[files]]
+file = "config/fancymenu/assets/orbs/orb_1.png"
+hash = "33bf52b1d248627d33e8c6778555388364c29fee21da72da165c816d377de678"
+
+[[files]]
+file = "config/fancymenu/assets/orbs/orb_2.png"
+hash = "3561cdcea3234a6767f0cd906ba28c3f6b5f051855cfa7e87562b963dbeacd1a"
+
+[[files]]
+file = "config/fancymenu/assets/orbs/orb_3.png"
+hash = "026805b5db3e54cff36252a5670e6c56f1c0ad9e9ca911c5935ec552219e6ef5"
+
+[[files]]
+file = "config/fancymenu/assets/orbs/orb_4.png"
+hash = "f7c0d72d98f8e88e5c9f68d6e60ddb8dec1179052d73d80fa72009a86684a0e2"
+
+[[files]]
+file = "config/fancymenu/assets/orbs/orb_5.png"
+hash = "e1a9a529e23c696a86fbe0f72507dc65622156ec567e9661563b66610efedd86"
+
+[[files]]
+file = "config/fancymenu/assets/orbs/orb_6.png"
+hash = "063637c7ff986a204185b74bcafb6f78e62887f83c010cf3c745429845df93a3"
+
+[[files]]
+file = "config/fancymenu/assets/test1.png"
+hash = "8c922d79b39d1e7832e20edb4f1a402e95b59033be8d639bfc7a776a5f8c6e74"
+
+[[files]]
+file = "config/fancymenu/assets/test2.png"
+hash = "7478e35641914614c71b9624d09cbbee47704172a0adc85554db34581c873a59"
+
+[[files]]
+file = "config/fancymenu/assets/title_picture_cobalt.png"
+hash = "73dafef8ab66c1b2f9a7ac5f69d75464cb93621de007ebe770faa4bb9e5533c6"
+
+[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "8b320a1054b46bd9ea288bff5691c06369ba5a46c2001b9050472f2cd98c56e4"
+hash = "148772ea40eb544e331b0d17d7e11e1c6e0ad87cd35d52c0105ac2e5292a73e8"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "e3b5c68502292b8b14a361138d0a9cf631191fd305a8aab4f15859846c0da8f6"
+hash = "09942149f5257d384893bad5e40fc9966e9342525096fe9c1b4f061acb6bcded"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
-hash = "d593a1d7a45843430ceb231f7acc7c001a3ceb60991681f86f236fd737f72ff8"
+hash = "ff765dad84cb415e4247f56d08be020f727dc32830c32d8925988da9b83953e6"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -2034,7 +2090,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "295b97131535e62449b461c3c4b9cb5efaf97029e492777c7c28a8d364aa2250"
+hash = "ffebc83dd3d0debd4aeebef177efbf82f8791f2580fed612b08a542ae13262b6"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2462,7 +2518,7 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "06e512e9bced293d55545f04f17d14aaf42aa9307303e7e918bdae2a2e6b1eaf"
+hash = "cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5"
 
 [[files]]
 file = "config/modular-machinery-community-refoxed/client.toml"
@@ -2891,6 +2947,10 @@ hash = "2eac404656d9bff651954c0e36d78ead3b38115f44c86bf8f4bbceed1849c8e4"
 [[files]]
 file = "defaultconfigs/xaerohud.txt"
 hash = "6de57f88c55043cfafb952219205e2080da514284c822a277cd9f1ef804f0def"
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/accessories/lang/zh_cn.json"
@@ -6703,12 +6763,12 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "6207706727f83484fb4af7d22f0d97d055a0f5d8248036618e84a9a7b5e174ae"
+hash = "7ef227b056ff62f602db935025c9bf106b22bf1d4b77568d956b71c810c24c23"
 metafile = true
 
 [[files]]
 file = "mods/applied-experienced.pw.toml"
-hash = "4da7531d0f7f7e310de63c1749939aba6cbba619b23b0cd429485bf957e1d334"
+hash = "5cb1c26aa646b4deebbb942468b116f8996ae6178aa3571a3b69533ccd3c4a01"
 metafile = true
 
 [[files]]
@@ -7112,7 +7172,7 @@ hash = "62a31b6010bc7e149e00422b72af02048481a0aa79bca4465439653f4bbd6d7f"
 
 [[files]]
 file = "mods/eternal-starlight-delight.pw.toml"
-hash = "78922992e8f19d5759473ef109f3c93751767fb283528d17e4633befbc46611f"
+hash = "61b6438733b9a86a22828baf9fa56fa9283cac8d98f10e12c656a52d580e87ea"
 metafile = true
 
 [[files]]
@@ -7757,7 +7817,7 @@ metafile = true
 
 [[files]]
 file = "mods/neovitae.pw.toml"
-hash = "c7fec1d0b32b8fc151c65a6cef4aa1e2bb34e13db7823eda86cb44c67c3bbb46"
+hash = "fc25f621b32e907a4836cd80409d7080253488dfe3fae32e01c8aaff63dbd8dc"
 metafile = true
 
 [[files]]
@@ -7977,12 +8037,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "9bc110bc3856f564d2da98ae94a2ac91514cf9a206089b3607657468e98bf198"
+hash = "a92eb8ece81a5134b9fd1d19d1735a58af1d189ad1fb0135e0cf713d35d36b81"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f82badea9e041ccb63e7feed55ea29f0f5c446b42a1e6bbbdda37a56ec47fb09"
+hash = "8dfb0b7c7546a01911daff294b76a15e1db958579dce15d71e0ef68e8594bd65"
 metafile = true
 
 [[files]]
@@ -7992,7 +8052,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "054053aaf1ae0e6ea3621f33533f4d78f17f22835813bbcf9b3b9ccb7b4eb971"
+hash = "91987e941f5545bc14854e8f44d8cff78486a272ca5822275a5424b23d14f679"
 metafile = true
 
 [[files]]
@@ -8022,7 +8082,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "4492dbd8f34f8008e58819973d83947a734b61f08023b5c7e2de67486bad8eec"
+hash = "df752d88048bb5b75993938c0465fe881b830d924bf6427d8a03ced27be81b34"
 metafile = true
 
 [[files]]
@@ -8140,5 +8200,5 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "fe2fb19ba4d0fec45626237b701d857ac3c7c961efd5b4b7ccfff6cd512872f8"
+hash = "4af2df66a6bb412bad077a247edf8fd0e17c0b70bd9568751cccb1e7c4350732"
 metafile = true
