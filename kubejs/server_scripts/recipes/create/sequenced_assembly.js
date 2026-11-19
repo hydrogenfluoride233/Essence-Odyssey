@@ -56,7 +56,7 @@ ServerEvents.recipes(event=>{
                 "kubejs:sky_stone_mainboard"
             )
         ],
-        "kubejs:sky_stone_mainboard",4
+        "kubejs:sky_stone_mainboard",1
     ).id("kubejs:create/sequenced_assembly/not_so_mysterious_cube")
 
     event.recipes.create.sequenced_assembly(
