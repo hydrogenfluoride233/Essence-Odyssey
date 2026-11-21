@@ -1,12 +1,12 @@
 name = "Essence Odyssey"
 author = "hydrogenfluoride233"
-version = "0.3.0-dev261115"
+version = "0.3.0-dev261121"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "aa990daa2013d54f3e08587db74e36fc5a52654a54218e8f0c2082ca5ad5d77b"
+hash = "d1635fdf09822c28b9e1d71bcfd87c38a5146af41cdb5101e65ea2e228d26ca8"
 
 [versions]
 minecraft = "1.21.1"
