@@ -135,11 +135,11 @@ ServerEvents.recipes(event=>{
             [
                 event.recipes.create.deploying(
                     "ae2:printed_silicon",
-                    ["ae2:printed_silicon","minecraft:redstone"]
+                    ["ae2:printed_silicon",board]
                 ),
                 event.recipes.create.deploying(
                     "ae2:printed_silicon",
-                    ["ae2:printed_silicon",board]
+                    ["ae2:printed_silicon","minecraft:redstone"]
                 ),
                 event.recipes.create.cutting(
                     "ae2:printed_silicon",
