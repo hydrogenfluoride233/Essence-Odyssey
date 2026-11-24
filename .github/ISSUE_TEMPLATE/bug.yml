@@ -8,7 +8,7 @@ body:
     id: version
     attributes:
       label: 影响版本
-      description: 开发版写 dev tag（例如 dev-261121，也就是 pack.toml 里 version 的日期部分）；CurseForge 稳定版写版本号（例如 0.2.6）
+      description: 开发版写 dev tag：`dev-` 加上 pack.toml 里 version 末尾的日期，例如 dev-261121；CurseForge 稳定版写版本号（例如 0.2.6）
       placeholder: dev-261121
     validations:
       required: true

@@ -36,7 +36,7 @@ PR 只收整合包内容：
 | `kubejs/server_scripts/tooltips.js`、`kubejs/client_scripts/recipe_viewer/info_generated.js` | 由物品提示表整份生成，文件头写着 |
 | `.gitattributes` | 它关掉了行尾转换。改了，文件的字节会变，`index.toml` 里的哈希就对不上 |
 
-`mods/*.jar` 不入库，按清单从 CurseForge 下载，不用提交。
+`mods/` 里的 jar 除 Aether's Delight 与核心模组两个外都不入库，按清单从 CurseForge 下载，不用提交。
 
 ## 改完自己先测
 

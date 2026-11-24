@@ -1,6 +1,6 @@
 # 第三方内容与致谢 · Third-Party Content & Credits
 
-本仓库里有一部分内容来自他人的作品：汉化译文、改编的贴图，以及两个直接入库的模组 jar。下面逐项写明来源、许可和使用方式。这些内容不受本仓库 [LICENSE](LICENSE)（CC BY-NC-SA 4.0）覆盖，版权归各自作者，使用前请遵守其原始许可。仓库自身的授权见 [README](README.md)。
+本仓库里有一部分内容来自他人的作品：汉化译文、改编的贴图，以及直接入库的第三方模组 jar（Aether's Delight）。下面逐项写明来源、许可和使用方式。这些内容不受本仓库 [LICENSE](LICENSE)（CC BY-NC-SA 4.0）覆盖，版权归各自作者，使用前请遵守其原始许可。仓库自身的授权见 [README](README.md)。
 
 ## 汉化
 

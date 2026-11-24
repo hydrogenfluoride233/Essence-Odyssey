@@ -40,7 +40,7 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 ### 要素的形态
 
-要素从固态的结晶开始，往后是液态的流体、气态的精粹，中间穿插自然灵气（Nature's Aura）的印记、新生魔艺（Ars Nouveau）的精华、命血术（Neo Vitae）的铭文工具和符文等衍生物。每种形态有自己的获取方式和用途，随进度一层层开放。
+要素从固态的结晶开始，往后是液态的流体、气态的精粹，中间穿插自然灵气（Nature's Aura）的印记、新生魔艺（Ars Nouveau）的精华、命血术（Neo Vitae）的铭文工具，以及符文等衍生物。每种形态有自己的获取方式和用途，随进度一层层开放。
 
 ### 二级要素
 
