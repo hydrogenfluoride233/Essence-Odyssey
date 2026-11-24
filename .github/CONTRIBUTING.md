@@ -42,7 +42,7 @@ PR 只收整合包内容：
 
 - 服务端脚本（`kubejs/server_scripts/`）和数据包改完在游戏里 `/reload`；启动脚本要重启游戏；客户端脚本和资源按 `F3+T`。
 - 看 `logs/latest.log` 和 `logs/kubejs/` 里有没有 KubeJS 报错。配方列表缺字段时会直接报出配方 id。
-- 新加或删掉了会进包的文件，在 PR 说明里写上，合并后由作者跑 `packwiz refresh` 重算哈希。
+- 新加、删掉或改了会进包的文件，在 PR 说明里写上，合并后由作者跑 `packwiz refresh` 重算哈希。
 
 ## 名字
 
