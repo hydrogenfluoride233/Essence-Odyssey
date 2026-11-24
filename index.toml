@@ -209,6 +209,10 @@ file = "config/aethersdelight-common.toml"
 hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
 
 [[files]]
+file = "config/akashictome-common.toml"
+hash = "b196f1a6510c850c0c6e39422d544a5fda0b3a119f179d4c8159a315787b1124"
+
+[[files]]
 file = "config/alltheleaks.json"
 hash = "2437057bda7e53d91e7a8c400da308a8d848fbdcc80ed845a9c8dbdabd071482"
 
@@ -893,6 +897,10 @@ file = "config/arseng-common.toml"
 hash = "ad4af9232ccbc8f250ef6935484d18ba885974347d2457b03e74985f8008057a"
 
 [[files]]
+file = "config/ascended_quark-common.toml"
+hash = "68d7fa8702e53236ede48bbbfa5f1cb4c8456855df20f0d885b2ad82a505f12d"
+
+[[files]]
 file = "config/astralsorcery-startup.toml"
 hash = "02595745a06b9761e39383e8e4d3e224ba7803aaf3b40c6d134585b080197e9c"
 
@@ -1559,6 +1567,10 @@ hash = "134e5d1beb5e8cc7f22e20178c2a995ab4e1e83ddeca8048739ed000fc3a964e"
 [[files]]
 file = "config/create_dragons_plus-server.toml"
 hash = "5cb394da4ab837f0efa4378a70c7a4fcd639992ac4a705f9c7976b73638309a2"
+
+[[files]]
+file = "config/create_dragons_plus-simulated-extension-server.toml"
+hash = "60bad6819e405b276d23b238592add8c7ec92062951d83a812d25a63ab5b6b83"
 
 [[files]]
 file = "config/create_enchantment_industry-apotheosis-server.toml"
@@ -2509,6 +2521,10 @@ file = "config/moreoverlays.toml"
 hash = "00152edba69a7849fb5fa5fa1a40694dc44b6e2424b9da494cc63341517200ed"
 
 [[files]]
+file = "config/muhc-common.toml"
+hash = "0181f09bd00353c577c34787f012fdedf434bf46386e76405997e4b69c5a3589"
+
+[[files]]
 file = "config/mysticalagradditions-common.toml"
 hash = "f2e58b537a0fc500633555d19641cbd3746dcc62eb6e3b4461e4af8b451607bb"
 
@@ -2621,6 +2637,10 @@ file = "config/productivebees-server.toml"
 hash = "65aeebcd9786b62a2a8be3ad43ebe7f7c254276d512293ce29711ed8e087374b"
 
 [[files]]
+file = "config/productivelib-server.toml"
+hash = "a7198e48aea06a8cfa320c25deb24bc32651763dee34418dbf82ff507a18f347"
+
+[[files]]
 file = "config/pylons-server.toml"
 hash = "fb2c34b189e36da996e241abc7e73078fe2ed31ad81c7170c2f0ad1c13628981"
 
@@ -2635,6 +2655,14 @@ hash = "7108d5e1936fc5e528bd3eff3b7f2176ad1180e41dfeafb6a17da0954d09d8a4"
 [[files]]
 file = "config/sanguine_networks-common.toml"
 hash = "5d20ad33ec7ded5ea0840543e572c42ed0e7817b9687752259c13b529134b21b"
+
+[[files]]
+file = "config/sauce-server.toml"
+hash = "230fb11ff516749c8b60ebc9e8db79810e501d3cd48e8a2656c2f87ac5bfd79c"
+
+[[files]]
+file = "config/sauce-startup.toml"
+hash = "8d3b81bd9c12cefce965196bc430d22e9b90733f1bca7acec3734f3d52eb49c1"
 
 [[files]]
 file = "config/sfm-client-program-editor.toml"
@@ -2713,6 +2741,10 @@ file = "config/starbunclemania/glyph_place_fluid.toml"
 hash = "1c44b1b48e1389604c2d88d1f8f4aab80a106629cc5c7026df47a33017f1bf4b"
 
 [[files]]
+file = "config/terrablender.toml"
+hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
+
+[[files]]
 file = "config/tiab-server.toml"
 hash = "030d096c196f30a2d1a52f33bf957ebfcefaf07c77b3f065096fd4b1f1632fe9"
 
@@ -2741,8 +2773,16 @@ file = "config/towns_and_towers/structure_rarity_new.json5"
 hash = "fe4ca0974aca38b27c94e3f1dc092f1688b54f27d9eaa728d61c6ccae4ca1313"
 
 [[files]]
+file = "config/transition.json"
+hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
+
+[[files]]
 file = "config/trashcans-common.toml"
 hash = "fb6c4d845cbd973d89a35b4291eb7135b69c2ab9640605828b2bdd3bcea8c2d4"
+
+[[files]]
+file = "config/trender.json"
+hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
 
 [[files]]
 file = "config/twilightdelight-server.toml"
@@ -3674,7 +3714,7 @@ hash = "de976f9a8db582f0c331ba87c99bbf79e2936e73f26ec506279a89c70a0761a5"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/machine_model.json"
-hash = "e6d53abaec48aabcdd8876f64eac93f90d6d9b0cd6bfab35233363205f5a4b18"
+hash = "a643740c56a0459efcac07584530345737bf04591ce4839207999736a892c6e6"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/machine_model/star_ring_1.json"
