@@ -70,6 +70,7 @@ packwiz.json
 !.github/CONTRIBUTING.md
 !.github/ISSUE_TEMPLATE/
 !.github/pictures/
+!.github/项目结构.md
 
 # ---------------------------------------------------------------------
 #  2. ProbeJS 转储（约 2800 个 .d.ts / 37 MB）
