@@ -28,7 +28,7 @@ Later you begin using technology and magic to turn aspects into other forms, mas
 
 No one tells you where to go. You have only a note, and a path you walked for yourself.
 
-## Core Gameplay
+## Gameplay
 
 ### Six dimensions, six primary aspects
 
@@ -36,66 +36,45 @@ No one tells you where to go. You have only a note, and a path you walked for yo
 |---|---|---|---|---|---|---|
 | Aspect | Water | Fire | Earth | Air | Chaos | Order |
 
-Each dimension has its own way of obtaining aspects. Interact with a dimension using amethyst shards to obtain the matching aspect crystals.
+Each dimension has its own way of yielding its aspect: interact with the dimension using amethyst shards to get the matching aspect crystal.
 
-### Aspect forms run through the entire progression
+### Forms of an aspect
 
-From solid crystals to liquid fluids, and on to gaseous quintessence, with Nature's Aura tokens, Ars Nouveau essences, Neo Vitae inscription tools, and Botania runes appearing in between. Each form has its own way of being obtained and its own uses, opening up layer by layer rather than all at once.
+Aspects start as solid crystals, then become liquid fluids and gaseous quintessence, with derived forms along the way: Nature's Aura tokens, Ars Nouveau essences, Neo Vitae inscription tools, and runes. Each form has its own way of being obtained and its own uses, and they open up layer by layer as you progress.
 
-### Secondary aspect crafting
+### Secondary aspects
 
-Pairing the six primary aspects gives 15 secondary aspects. There is more than one production route, so you can choose one that fits your tech line (not yet complete).
+Pairing the six primary aspects gives 15 secondary aspects. There is more than one production route, so you can pick the one that fits your tech line (this part is not finished yet).
 
-### AE2
+### Technology, magic and adventure
 
-AE2 is part of the progression from early on, rather than something unlocked later.
+The three threads run in parallel and interweave. AE2 is part of the progression from early on, not something unlocked late.
 
-### Three threads, interwoven
-
-Technology, magic, and adventure run in parallel and interweave.
-
-## Installing and Playing
+## Installing
 
 1. Install the stable release from the [CurseForge page](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) (Minecraft 1.21.1 + NeoForge 21.1).
-2. Allocate 6–8 GB of memory.
+2. Give the game 6–8 GB of memory.
 
-## Development Status
+## Status and Feedback
 
-This modpack is in early development. Progress currently stands at Chapter 2; the main questline and the endgame are not finished yet. You may run into placeholder content, or the occasional "Intentional Game Design".
+The pack is in early development. Progress currently stands at Chapter 2; the main questline and the endgame are not finished, and you may run into placeholder content or the occasional "intentional game design".
 
-During development, the pack ships complete Chinese content and basic English content (English support began with version 0.2.2 and is being expanded over time). English translation and localization will be filled in more thoroughly once the main content and systems are largely complete.
+During development the pack ships complete Chinese content and basic English content (English began with 0.2.2 and grows with each release). The English translation and localization will be completed once the main content and systems are largely done.
 
-Feedback is welcome via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues), the CurseForge page, or the official QQ group (1077071243).
+Report problems via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues), the CurseForge page, or the official QQ group (1077071243).
 
 ## Development Builds and Contributing
 
-This repository is the pack's development instance: work in progress is committed here directly. For the stable release, use CurseForge.
+This repository is the pack's development instance: work in progress is committed here directly. Development builds are unreleased content; they may break, and save compatibility is not guaranteed.
 
-| To do this | Read |
+The developer documents are in Chinese:
+
+| Document | Contents |
 |---|---|
-| Run the latest development build | [`同步说明.md`](同步说明.md) (Chinese): clone the repo, then run `sync-and-play.bat` (`sync-and-play.command` on macOS / Linux) to fetch every mod and config file |
-| Open a pull request or an issue | [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md) (Chinese): commit format, what a PR description covers, and which files do not take changes |
-
-Development builds are unreleased content: they may break, and save compatibility is not guaranteed.
-
-## Repository Layout
-
-Only hand-written or hand-edited content is tracked here, plus the packwiz manifest. Third-party mod jars are not stored in the repository; they are downloaded from CurseForge according to the manifest.
-
-| Path | Contents |
-|---|---|
-| `kubejs/startup_scripts/` | Startup scripts: registers items, blocks, fluids, chemicals, and multiblock machines |
-| `kubejs/server_scripts/` | Server scripts: recipes (`recipes/`, one folder per mod), tags, multiblock structures and recipes (`MMCR/`), item tooltips, villager trades |
-| `kubejs/client_scripts/` | Client scripts: items, recipes, and info pages hidden or added in the recipe viewer |
-| `kubejs/assets/`, `kubejs/data/` | Supplementary localization, original textures and models; datapack overrides |
-| `config/` | Mod configs; the quest book is in `config/ftbquests/`, default player settings are in `config/defaultoptions/` |
-| `defaultconfigs/` | Default configs applied to new worlds and new clients |
-| `mods/` | packwiz records for each mod (`*.pw.toml`). The only jars stored in the repository are `Aether's Delight` (not on CurseForge) and the in-house core mod `Essence Odyssey Core` |
-| `resourcepacks/` | The CFPA Chinese localization pack shipped with the modpack, plus packwiz records for two resource packs |
-| `shaderpacks/` | packwiz records for shader packs |
-| `pack.toml`, `index.toml` | The packwiz manifest: pack version, Minecraft and NeoForge versions, and a hash for every file |
-| `sync-and-play.bat`, `sync-and-play.command`, `packwiz-installer-bootstrap.jar` | Development sync scripts; see [`同步说明.md`](同步说明.md) |
-| `.github/` | Contribution guide, issue templates, and README images |
+| [同步说明](同步说明.md) (sync guide) | Run the latest development build: clone the repo, then run `sync-and-play.bat` (`sync-and-play.command` on macOS and Linux) to install every mod and config file into an instance |
+| [CONTRIBUTING](.github/CONTRIBUTING.md) | Which changes are accepted, how to write commit messages and PR descriptions, which files are not edited by hand |
+| [项目结构](.github/项目结构.md) (project layout) | What each folder holds, how the KubeJS scripts are organized and loaded, the packwiz manifest, which files are generated |
+| [THIRD-PARTY](THIRD-PARTY.md) | Sources and licenses of third-party translations and textures |
 
 ## Credits (in no particular order)
 

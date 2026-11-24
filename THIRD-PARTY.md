@@ -1,81 +1,72 @@
 # 第三方内容与致谢 · Third-Party Content & Credits
 
-下面列出仓库中涉及第三方作品的部分、来源与许可。这些内容不在本仓库 [LICENSE](LICENSE) 的 CC BY-NC-SA 4.0 覆盖范围内，版权归各自作者，使用前请遵守其原始许可；**仓库自身的授权见 [README](README.md)**。
+本仓库里有一部分内容来自他人的作品：汉化译文、改编的贴图，以及两个直接入库的模组 jar。下面逐项写明来源、许可和使用方式。这些内容不受本仓库 [LICENSE](LICENSE)（CC BY-NC-SA 4.0）覆盖，版权归各自作者，使用前请遵守其原始许可。仓库自身的授权见 [README](README.md)。
 
----
+## 汉化
 
-## 一、汉化译文
-
-| 项目 | 内容 |
-|---|---|
-| 位置 | `kubejs/assets/<modid>/lang/zh_cn.json`（一个模组一份，补译键也按命名空间分放） |
-| 来源 | 星野夢華 (Hoshino Yumeka)《All the Mods 10 汉化补丁 —— 绿油油版》<https://github.com/chiba233/atm10-zh-cn>；该作品译文部分亦含 **CFPA 社区翻译**（Minecraft-Mod-Language-Package，<https://cfpa.site/>）的成分 |
-| 许可 | **CC BY-NC-SA 4.0**（署名—非商业性使用—相同方式共享） |
-| 使用方式 | 部分直接使用，部分按本整合包的口径改写了用词 |
-
-- 整合包中另有大量键在汉化补丁里没有对应项（自定义内容，以及各模组自带 `zh_cn` 未覆盖的部分），这部分为本整合包自写。
-- 按 CC BY-NC-SA 4.0 的要求，使用这些文件时需署名原作者与 CFPA、附协议链接、标明是否修改，并以相同协议发布改编版。
-
-**游戏内汉化资源包**
-
-`resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip`：CFPA 社区汉化包，约 5.2 MB。
+### 补充汉化
 
 | 项目 | 内容 |
 |---|---|
-| 分发方式 | 随整合包分发（自 0.2.5 起），新玩家默认启用（`config/defaultoptions/options.txt` 的 `resourcePacks` 与 `config/defaultoptions-common.toml` 的 `defaultResourcePacks`） |
-| 许可 | 包内自带 `LICENSE` / `README.txt`；CC BY-NC-SA 4.0，需署名原作者与 CFPA、附协议链接、标明是否修改、以相同协议发布改编版（<https://cfpa.site/>） |
-| 变更记录 | 原先由 `I18nUpdateMod` 在玩家端下载；该模组已于 2026-10-28 移除（其启动阶段的同步下载在镜像失效时会阻塞游戏启动），资源包改由整合包分发 |
+| 位置 | `kubejs/assets/<模组 id>/lang/zh_cn.json`，一个模组一份 |
+| 来源 | 星野夢華 (Hoshino Yumeka)《All the Mods 10 汉化补丁 —— 绿油油版》<https://github.com/chiba233/atm10-zh-cn>。该作品的译文含有 CFPA 社区翻译（Minecraft-Mod-Language-Package，<https://cfpa.site/>）的成分 |
+| 许可 | CC BY-NC-SA 4.0（署名、非商业性使用、相同方式共享） |
+| 使用方式 | 部分直接使用，部分按本整合包的用词改写 |
 
-**建议署名文字**
+汉化补丁里没有对应项的键（本包的自定义内容，以及各模组自带 `zh_cn` 没覆盖的部分）由本整合包自己翻译。
+
+按 CC BY-NC-SA 4.0，使用这些文件时要署名原作者与 CFPA、附上协议链接、标明是否修改，并以相同协议发布改编版。建议的署名文字：
 
 > 本整合包部分模组的汉化来自 / 改编自 星野夢華 (Hoshino Yumeka) 制作的《All the Mods 10 汉化补丁 —— 绿油油版》（https://github.com/chiba233/atm10-zh-cn ），该作品译文部分含 CFPA 社区翻译（Minecraft-Mod-Language-Package）成分，以 CC BY-NC-SA 4.0 授权，本整合包中相关译文亦以相同协议提供。
 
----
+### 汉化资源包
 
-## 二、贴图与模型
+`resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip` 是 CFPA 社区汉化资源包，约 5.2 MB。
+
+| 项目 | 内容 |
+|---|---|
+| 分发方式 | 自 0.2.5 起随整合包分发，新玩家默认启用（`config/defaultoptions/options.txt` 的 `resourcePacks` 与 `config/defaultoptions-common.toml` 的 `defaultResourcePacks`） |
+| 许可 | CC BY-NC-SA 4.0，包内自带 `LICENSE` 与 `README.txt`。需署名原作者与 CFPA、附协议链接、标明是否修改、以相同协议发布改编版（<https://cfpa.site/>） |
+| 变更记录 | 原先由 I18nUpdateMod 在玩家端下载。该模组在 2026-10-28 移除（镜像失效时它在启动阶段的同步下载会卡住游戏启动），资源包改由整合包分发 |
+
+## 贴图与模型
 
 | 位置 / 文件 | 来源 | 许可 | 使用方式 |
 |---|---|---|---|
-| `kubejs/assets/kubejs/textures/item/rune_{aqua,ignis,terra,spring,summer,autumn,winter}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 使用原图（`rune_aqua`／`ignis`／`terra` 分别由 Botania 的 `rune_water`／`fire`／`earth` 改名而来） |
-| `kubejs/assets/kubejs/textures/item/rune_{aer,perditio,ordo}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 由 Botania 的 `rune_air`／`gluttony`／`sloth` 换色改编 |
-| `kubejs/assets/kubejs/textures/item/{clump_*, dirty_dust_*, shard_*}.png` | **通用机械 Mekanism** | MIT | 基于其同类贴图换色改编 |
-| `kubejs/assets/kubejs/textures/item/{ordo,perditio}_scribe_tool.png` | **命血术 Neo Vitae** | MIT | 接其铭文工具套系新增 |
-| `kubejs/assets/kubejs/textures/item/token_{confusion,serenity,delirium,equanimity}.png` | **自然灵气 Nature's Aura** | MIT | 接其印记套系新增 |
-| `kubejs/assets/kubejs/textures/item/{ordo,perditio}_essence.png` | **新生魔艺 Ars Nouveau** | Apache-2.0（jar 内 `META-INF/LICENSE.txt`） | 接其精华套系新增 |
-| `kubejs/assets/kubejs/textures/item/{aether,eternal_starlight}_prediction.png` | **敌对神经网络 Hostile Neural Networks** | MIT | 接其预测产物套系新增 |
-| `kubejs/assets/kubejs/textures/item/infinity_lava_cell.png` | **ExtendedAE** | LGPL-3.0 | 照其无限元件（`infinity_cell_water.png`）换色 |
-| `kubejs/assets/kubejs/textures/item/steel_gear.png` | **工业先锋 Industrial Foregoing** | MIT | 由其铁齿轮（`iron_gear.png`）换色改编 |
+| `kubejs/assets/kubejs/textures/item/rune_{aqua,ignis,terra,spring,summer,autumn,winter}.png` | 植物魔法 Botania（作者 Vazkii） | Botania License | 使用原图（`rune_aqua`／`ignis`／`terra` 分别由 Botania 的 `rune_water`／`fire`／`earth` 改名而来） |
+| `kubejs/assets/kubejs/textures/item/rune_{aer,perditio,ordo}.png` | 植物魔法 Botania（作者 Vazkii） | Botania License | 由 Botania 的 `rune_air`／`gluttony`／`sloth` 换色改编 |
+| `kubejs/assets/kubejs/textures/item/{clump_*, dirty_dust_*, shard_*}.png` | 通用机械 Mekanism | MIT | 基于其同类贴图换色改编 |
+| `kubejs/assets/kubejs/textures/item/{ordo,perditio}_scribe_tool.png` | 命血术 Neo Vitae | MIT | 接其铭文工具套系新增 |
+| `kubejs/assets/kubejs/textures/item/token_{confusion,serenity,delirium,equanimity}.png` | 自然灵气 Nature's Aura | MIT | 接其印记套系新增 |
+| `kubejs/assets/kubejs/textures/item/{ordo,perditio}_essence.png` | 新生魔艺 Ars Nouveau | Apache-2.0（jar 内 `META-INF/LICENSE.txt`） | 接其精华套系新增 |
+| `kubejs/assets/kubejs/textures/item/{aether,eternal_starlight}_prediction.png` | 敌对神经网络 Hostile Neural Networks | MIT | 接其预测产物套系新增 |
+| `kubejs/assets/kubejs/textures/item/infinity_lava_cell.png` | ExtendedAE | LGPL-3.0 | 照其无限元件（`infinity_cell_water.png`）换色 |
+| `kubejs/assets/kubejs/textures/item/steel_gear.png` | 工业先锋 Industrial Foregoing | MIT | 由其铁齿轮（`iron_gear.png`）换色改编 |
 | `kubejs/assets/kubejs/textures/**` 其余贴图与模型 | 本整合包作者与贡献者绘制与改编 | CC BY-NC-SA 4.0 | — |
 
-许可一列取自各模组 jar 内的声明（`META-INF/mods.toml`、`META-INF/LICENSE.txt`），最终以各项目页为准。
+许可一列取自各模组 jar 内的声明（`META-INF/mods.toml`、`META-INF/LICENSE.txt`），以各项目页为准。
 
-**Botania License 的额外要求**：署名 Vazkii、注明改动；使用方项目需开源并允许再分发与修改。
+Botania License 的额外要求：署名 Vazkii、注明改动；使用方项目需开源，并允许再分发与修改。
 
-**建议署名文字**
+建议的署名文字：
 
 > 本整合包部分贴图使用或改编自以下作品，特此致谢：植物魔法 Botania（作者 Vazkii，
 > 符文贴图，部分经改名与改编）、通用机械 Mekanism、命血术 Neo Vitae、
 > 自然灵气 Nature's Aura、新生魔艺 Ars Nouveau、敌对神经网络 Hostile Neural Networks、
 > 工业先锋 Industrial Foregoing、ExtendedAE、应用能源2（AE2）。
 
----
+## 模组
 
-## 三、模组本体与非 CurseForge 模组
+- 各模组版权归其作者，许可见各自的项目页。仓库里只有它们的 packwiz 记录（`mods/*.pw.toml`），jar 由同步脚本或启动器从 CurseForge 下载。
+- 直接入库的 jar 只有两个：
+  - Aether's Delight，作者 zjjohn121110（<https://modrinth.com/mod/the-aethers-delight>）。它不在 CurseForge 上，所以以文件形式随包分发；`index.toml` 里只有它的文件与哈希，没有 `.pw.toml`，不会自动更新。
+  - 自研核心模组 Essence Odyssey Core，授权见 [README](README.md)。
+- 各模组自带的默认配置模板、字体与其他素材，版权归各自作者。
 
-- 各模组版权归其作者，许可见各自项目页。
-- 例外入库的只有两个：非 CurseForge 的 `Aether's Delight`（见下）与自研核心模组
-  `Essence Odyssey Core`（授权见 [README](README.md)）。
-- 非 CurseForge 托管的模组：Aether's Delight by zjjohn121110
-  （<https://modrinth.com/mod/the-aethers-delight>），以包内手动文件形式随包分发。
-  packwiz 索引中只有文件与哈希、无 `.pw.toml` 元数据，故不走 CurseForge 自动更新。
-- 各模组自带的默认配置模板、字体与其他第三方素材，版权归各自作者。
+## 遗漏与联系
 
----
+本清单由作者按自己的记录整理，可能有遗漏。如果你是本整合包中某个素材、译文或代码的作者而没有被列入，或者希望以别的方式处理你的作品，请通过 CurseForge 项目页或仓库的 Issue 联系，作者会补充署名，或按你的意愿替换、移除。
 
-## 四、其他致谢
-
-本清单由作者依据自己的记录整理，可能仍有遗漏。若你是本整合包中某个素材、译文或代码的作者而未被列入，或希望以别的方式处理你的作品，请通过项目页或仓库 Issue 联系，我会补充署名，或按你的意愿替换或移除。
-
-本整合包的贴图与模型由作者与贡献者共同绘制、改编与调色。功能与本地化也有贡献者参与，参与者的提交记录见仓库的 commit 历史与 PR。
+本整合包的贴图与模型由作者与贡献者共同绘制、改编与调色，功能与本地化也有贡献者参与，各自的提交见仓库的提交历史与 PR。
 
 感谢所有为 Minecraft 模组与汉化社区付出的作者与贡献者。
