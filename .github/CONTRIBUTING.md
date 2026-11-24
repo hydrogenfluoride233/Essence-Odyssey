@@ -1,6 +1,10 @@
 # 参与开发
 
-> 给想提 PR 的人和各自的 AI 助手。本仓库只放整合包内容：`kubejs`、`config`、`defaultconfigs`、`resourcepacks`、`options.txt` 和 packwiz 清单；文档与 CI 不收。起 dev 客户端见 [`同步说明.md`](../同步说明.md)。
+> 给想提 PR 的人和各自的 AI 助手。
+
+本仓库只收整合包内容：`kubejs/`、`config/`（玩家默认设置在 `config/defaultoptions/`）、`defaultconfigs/`、`resourcepacks/` 和 packwiz 清单。文档与 CI 的改动不收，要改就开 issue。
+
+起开发版客户端见 [`同步说明.md`](../同步说明.md)；仓库里各目录放什么见 [README 的「仓库结构」](../README.md#仓库结构)。
 
 ## 先开 issue 的事
 
@@ -17,9 +21,9 @@
 | `mods/*.pw.toml`、`pack.toml`、`index.toml` | packwiz 清单，由作者发版时更新 |
 | `mods/*.jar` | 不入库，按清单从 CurseForge 下载 |
 | `config/ftbquests/quests/lang/en_us.snbt` | 由英文草稿脚本生成，手改会被覆盖 |
-| `.packwizignore` | 由 `.gitignore` 派生，手改会被覆盖；要排除文件就改 `.gitignore` |
+| `.packwizignore` | 作者发版时由 `.gitignore` 重新派生，手改会被覆盖；要排除文件就改 `.gitignore` |
 | `kubejs/server_scripts/tooltips.js`、`kubejs/client_scripts/recipe_viewer/info_generated.js` | 由物品提示表整份生成（文件头写着） |
-| `README.md`、`README_EN.md`、`同步说明.md` | 由作者在文档库维护，README 由脚本从简介母版生成；要改就开 issue |
+| `README.md`、`README_EN.md`、`同步说明.md`、`THIRD-PARTY.md`、`.github/**` | 文档与模板由作者维护；要改就开 issue |
 | `.gitattributes` | 它关掉了行尾转换；改了，`index.toml` 里的哈希会对不上 |
 
 ## 名字
@@ -44,7 +48,7 @@
 
 - 范围用 `任务书`、`配方`、`汉化`、`配置`、`材质`、`模组`、`仓库`。冒号用全角「：」；可选的改动写成 `材质（可选）：…`。
 - `配方` 涵盖 `kubejs` 的脚本与魔改；`仓库` 涵盖 CONTRIBUTING、CI、issue 模板与工具脚本。
-- 这几个词与 issue 标签、`开发版日志.md` 的分类同名，三处一套：翻一笔改动时不用换说法。
+- 除 `仓库` 外，这几个词与 issue 标签同名，作者的开发版日志也按这套分类：翻一笔改动时不用换说法。
 - 标题一句话，写改了什么，不写日期。改名字要写出改了哪些、依据哪条真源。
 - 正文写标题装不下的：为什么改、依据（文件与键）、没验证的部分。没有就不写。
 - 不加署名行（`Co-Authored-By`、`Generated with …` 之类）。
@@ -67,7 +71,7 @@
 1. 改了什么：用表，列「内容 / 文件」。
 2. 依据：名字写真源的文件与键；贴图写参照了哪一件、属于上面哪种情况。
 3. 测了什么、没测什么：进没进游戏，看没看 `logs/latest.log` 里的 KubeJS 报错。没测就写没测。
-4. 合并后要做的事：新增或删除了文件，要跑 `packwiz refresh`（作者来跑）。
+4. 合并后要做的事：新增、删除或改了会进包的文件，要跑 `packwiz refresh` 重算 `index.toml`（作者来跑）。
 5. 可选的部分单独列出来。作者可能只合其中一部分。
 
 回复评审时逐条对上：改了就写在哪笔提交、怎么改的，没改就写原因。

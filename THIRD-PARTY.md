@@ -22,7 +22,7 @@
 
 | 项目 | 内容 |
 |---|---|
-| 分发方式 | 随整合包分发（自 0.2.5 起），由 `options.txt` 的 `resourcePacks` 默认启用 |
+| 分发方式 | 随整合包分发（自 0.2.5 起），新玩家默认启用（`config/defaultoptions/options.txt` 的 `resourcePacks` 与 `config/defaultoptions-common.toml` 的 `defaultResourcePacks`） |
 | 许可 | 包内自带 `LICENSE` / `README.txt`；CC BY-NC-SA 4.0，需署名原作者与 CFPA、附协议链接、标明是否修改、以相同协议发布改编版（<https://cfpa.site/>） |
 | 变更记录 | 原先由 `I18nUpdateMod` 在玩家端下载；该模组已于 2026-10-28 移除（其启动阶段的同步下载在镜像失效时会阻塞游戏启动），资源包改由整合包分发 |
 
@@ -38,7 +38,7 @@
 |---|---|---|---|
 | `kubejs/assets/kubejs/textures/item/rune_{aqua,ignis,terra,spring,summer,autumn,winter}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 使用原图（`rune_aqua`／`ignis`／`terra` 分别由 Botania 的 `rune_water`／`fire`／`earth` 改名而来） |
 | `kubejs/assets/kubejs/textures/item/rune_{aer,perditio,ordo}.png` | **植物魔法 Botania**（作者 Vazkii） | Botania License | 由 Botania 的 `rune_air`／`gluttony`／`sloth` 换色改编 |
-| `kubejs/assets/kubejs/textures/item/{clump_*, dirty_dust_*, shard_*, dust_*}.png` | **通用机械 Mekanism** | MIT | 基于其同类贴图换色改编 |
+| `kubejs/assets/kubejs/textures/item/{clump_*, dirty_dust_*, shard_*}.png` | **通用机械 Mekanism** | MIT | 基于其同类贴图换色改编 |
 | `kubejs/assets/kubejs/textures/item/{ordo,perditio}_scribe_tool.png` | **命血术 Neo Vitae** | MIT | 接其铭文工具套系新增 |
 | `kubejs/assets/kubejs/textures/item/token_{confusion,serenity,delirium,equanimity}.png` | **自然灵气 Nature's Aura** | MIT | 接其印记套系新增 |
 | `kubejs/assets/kubejs/textures/item/{ordo,perditio}_essence.png` | **新生魔艺 Ars Nouveau** | Apache-2.0（jar 内 `META-INF/LICENSE.txt`） | 接其精华套系新增 |
