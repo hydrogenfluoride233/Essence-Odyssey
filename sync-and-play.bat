@@ -32,7 +32,8 @@ if not defined JAVA (
     pause
     exit /b 1
 )
-if "%~1"=="" echo %JAVA%>"%JAVAFILE%"
+rem remember the path, including one passed in or dropped onto this file
+>"%JAVAFILE%" echo %JAVA%
 echo [java]   %JAVA%
 echo [target] %GAME%
 
