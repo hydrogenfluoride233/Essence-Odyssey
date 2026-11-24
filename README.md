@@ -86,7 +86,7 @@ AE2 从游戏早期就融入进度，不是后期才解锁。
 |---|---|
 | `kubejs/startup_scripts/` | 启动脚本：注册物品、方块、流体、化学品与多方块机器 |
 | `kubejs/server_scripts/` | 服务端脚本：配方（`recipes/` 按模组分目录）、标签、多方块结构与配方（`MMCR/`）、物品提示、村民交易 |
-| `kubejs/client_scripts/` | 客户端脚本：配方查看器里隐藏的物品、配方与信息页 |
+| `kubejs/client_scripts/` | 客户端脚本：配方查看器里隐藏的物品与配方，以及补充的信息页 |
 | `kubejs/assets/`、`kubejs/data/` | 补充汉化、自制贴图与模型；数据包覆盖 |
 | `config/` | 模组配置；任务书在 `config/ftbquests/`，玩家默认设置在 `config/defaultoptions/` |
 | `defaultconfigs/` | 新存档与新客户端拿到的默认配置 |
