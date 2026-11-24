@@ -28,74 +28,51 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 没有人告诉你该往哪走。你只有一份笔记，和一条你自己走出来的路。
 
-## 核心玩法
+## 玩法
 
-### 六大维度，六种元始要素
+### 六个维度，六种元始要素
 
 | 维度 | 主世界 | 下界 | 暮色森林 | 天境 | 末地 | 永恒星光 |
 |---|---|---|---|---|---|---|
 | 要素 | 水 | 火 | 地 | 风 | 混沌 | 秩序 |
 
-每个维度都有独特的要素获取方式。用紫水晶碎片与维度互动，即可获得对应的要素结晶。
+每个维度有自己获取要素的方式：用紫水晶碎片与维度互动，得到对应的要素结晶。
 
-### 要素形态贯穿全程
+### 要素的形态
 
-从固态结晶到液态流体，再到气态精粹，中间穿插自然灵气（Nature's Aura）印记、新生魔艺（Ars Nouveau）魔法精华、命血术（Neo Vitae）铭文工具、植物魔法（Botania）符文等衍生物。各种形态各有获取方式与用途，层层递进，不会一次全部开放。
+要素从固态的结晶开始，往后是液态的流体、气态的精粹，中间穿插自然灵气（Nature's Aura）的印记、新生魔艺（Ars Nouveau）的精华、命血术（Neo Vitae）的铭文工具，以及符文等衍生物。每种形态有自己的获取方式和用途，随进度一层层开放。
 
-### 二级要素合成体系
+### 二级要素
 
-六种元始要素两两组合，共 15 种二级要素。生产路线不止一条，可以按自己走的科技线选择（尚未完成）。
+六种元始要素两两组合，得到 15 种二级要素。生产路线不止一条，可以按自己走的科技线选（这部分还没做完）。
 
-### AE2
+### 科技、魔法与冒险
 
-AE2 从游戏早期就融入进度，不是后期才解锁。
+三条线并行，彼此交织。AE2 从游戏早期就接入进度，不是到后期才解锁。
 
-### 三条线交织
-
-科技、魔法、冒险三条线并行，彼此交织。
-
-## 安装与游玩
+## 安装
 
 1. 在 [CurseForge 项目页](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) 安装稳定版（Minecraft 1.21.1 ＋ NeoForge 21.1）。
-2. 内存建议分配 6–8 GB。
+2. 给游戏分配 6–8 GB 内存。
 
-## 开发状态
+## 开发状态与反馈
 
-整合包处于早期开发阶段，进度在第二章，主线任务和终局内容尚未完成。你可能会遇到占位内容或“刻意的游戏设计”。
+整合包处于早期开发阶段，进度在第二章，主线任务和终局内容还没做完，可能会遇到占位内容或“刻意的游戏设计”。
 
-开发期间只提供完整的中文游戏内容和基本的英文内容（英文从 0.2.2 起提供，后续版本持续补充）。主要内容与系统基本完成后，再完善英文翻译与本地化。
+开发期间提供完整的中文内容和基本的英文内容（英文从 0.2.2 起提供，之后的版本持续补充）。主要内容与系统基本完成后，再完善英文翻译与本地化。
 
 遇到问题可以在 [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues)、CurseForge 项目页或官方 QQ 群（1077071243）反馈。
 
 ## 开发版与参与开发
 
-这个仓库是整合包的开发实例，开发中的内容直接提交到这里。想玩稳定版请去 CurseForge。
+这个仓库是整合包的开发实例，开发中的内容直接提交到这里。开发版是未发布的内容，可能有 bug，也不保证存档兼容。
 
-| 想做的事 | 看哪里 |
+| 文档 | 内容 |
 |---|---|
-| 跑最新的开发版 | [`同步说明.md`](同步说明.md)：clone 仓库，再运行 `sync-and-play.bat`（macOS / Linux 用 `sync-and-play.command`）补齐模组与配置 |
-| 提 PR 或 issue | [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md)：提交格式、PR 说明的写法、哪些文件不收改动 |
-
-开发版是未发布的内容，可能有 bug，也不保证存档兼容。
-
-## 仓库结构
-
-仓库只收作者手写或手改的内容，以及 packwiz 清单。第三方模组本体不入库，按清单从 CurseForge 下载。
-
-| 路径 | 内容 |
-|---|---|
-| `kubejs/startup_scripts/` | 启动脚本：注册物品、方块、流体、化学品与多方块机器 |
-| `kubejs/server_scripts/` | 服务端脚本：配方（`recipes/` 按模组分目录）、标签、多方块结构与配方（`MMCR/`）、物品提示、村民交易 |
-| `kubejs/client_scripts/` | 客户端脚本：配方查看器里隐藏的物品与配方，以及补充的信息页 |
-| `kubejs/assets/`、`kubejs/data/` | 补充汉化、自制贴图与模型；数据包覆盖 |
-| `config/` | 模组配置；任务书在 `config/ftbquests/`，玩家默认设置在 `config/defaultoptions/` |
-| `defaultconfigs/` | 新存档与新客户端拿到的默认配置 |
-| `mods/` | 模组的 packwiz 记录（`*.pw.toml`）。入库的 jar 只有两个：`Aether's Delight`（不在 CurseForge 上）和自研核心模组 `Essence Odyssey Core` |
-| `resourcepacks/` | 随包分发的 CFPA 汉化资源包，以及两个资源包的 packwiz 记录 |
-| `shaderpacks/` | 光影的 packwiz 记录 |
-| `pack.toml`、`index.toml` | packwiz 清单：整合包版本、Minecraft 与 NeoForge 版本、每个文件的哈希 |
-| `sync-and-play.bat`、`sync-and-play.command`、`packwiz-installer-bootstrap.jar` | 开发版同步脚本，用法见 [`同步说明.md`](同步说明.md) |
-| `.github/` | 贡献说明、issue 模板与 README 用图 |
+| [同步说明](同步说明.md) | 跑最新的开发版：clone 仓库，用 `sync-and-play.bat`（macOS 与 Linux 用 `sync-and-play.command`）把模组和配置装进实例 |
+| [参与开发](.github/CONTRIBUTING.md) | 收哪些改动、提交信息与 PR 说明怎么写、哪些文件不手改 |
+| [项目结构](.github/项目结构.md) | 各目录放什么、KubeJS 脚本怎么组织与加载、packwiz 清单、哪些文件是生成的 |
+| [第三方内容与致谢](THIRD-PARTY.md) | 汉化、贴图等第三方内容的来源与许可 |
 
 ## 贡献者（排名不分先后）
 

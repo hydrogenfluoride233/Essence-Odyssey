@@ -1,6 +1,6 @@
 name = "Skin Layers 3D"
 filename = "skinlayers3d-neoforge-1.11.4-mc1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Sodium Shadowy Path Blocks (SSPB)"
 filename = "sodium-shadowy-path-blocks-neoforge-4.1.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

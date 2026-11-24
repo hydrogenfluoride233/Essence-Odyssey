@@ -1,40 +1,58 @@
 # 参与开发
 
-> 给想提 PR 的人和各自的 AI 助手。
+给想提 PR 或 issue 的人，以及帮他们写代码的 AI 助手。
 
-本仓库只收整合包内容：`kubejs/`、`config/`（玩家默认设置在 `config/defaultoptions/`）、`defaultconfigs/`、`resourcepacks/` 和 packwiz 清单。文档与 CI 的改动不收，要改就开 issue。
+先读这两份：
 
-起开发版客户端见 [`同步说明.md`](../同步说明.md)；仓库里各目录放什么见 [README 的「仓库结构」](../README.md#仓库结构)。
+- [`同步说明.md`](../同步说明.md)：起一个开发版客户端，改完能进游戏看效果。
+- [项目结构](项目结构.md)：每样东西放在哪、怎么加载、哪些文件是生成的。
+
+## 收什么
+
+PR 只收整合包内容：
+
+- `kubejs/` 下的脚本、汉化、贴图、模型与数据
+- `config/`（新玩家的默认选项与键位在 `config/defaultoptions/`）
+- `defaultconfigs/`
+- `resourcepacks/`
+
+文档、issue 模板、CI 和工具脚本由作者维护，要改就开 issue 说明。
 
 ## 先开 issue 的事
 
 | 想做的事 | 怎么做 |
 |---|---|
-| 加、换、删模组 | 开 issue，写模组名、CurseForge 链接和理由，由作者在 CF 客户端里加 |
-| 改任务书（`config/ftbquests/**`） | 任务书由作者在游戏里写，游戏会重写这些文件。把改法写成草稿（卡 id、原文、改成什么）放进 issue 或 PR 说明 |
-| 改画已有的贴图或模型 | 先在 issue 里写清改哪个、为什么、改成什么样，等作者同意再动 |
+| 加、换、删模组 | 开 issue，写模组名、CurseForge 链接和理由。作者在 CurseForge 客户端里加，再导出清单 |
+| 改任务书（`config/ftbquests/**`） | 任务书由作者在游戏里写，游戏会整份重写这些文件，手改合不进去。把改法写成草稿（任务 id、原文、改成什么）放进 issue 或 PR 说明 |
+| 重画已有的贴图或模型 | 先在 issue 里写清改哪个、为什么、改成什么样，等作者同意再动 |
 
 ## 不手改的文件
 
 | 文件 | 原因 |
 |---|---|
-| `mods/*.pw.toml`、`pack.toml`、`index.toml` | packwiz 清单，由作者发版时更新 |
-| `mods/*.jar` | 不入库，按清单从 CurseForge 下载 |
-| `config/ftbquests/quests/lang/en_us.snbt` | 由英文草稿脚本生成，手改会被覆盖 |
-| `.packwizignore` | 作者发版时由 `.gitignore` 重新派生，手改会被覆盖；要排除文件就改 `.gitignore` |
-| `kubejs/server_scripts/tooltips.js`、`kubejs/client_scripts/recipe_viewer/info_generated.js` | 由物品提示表整份生成（文件头写着） |
-| `README.md`、`README_EN.md`、`同步说明.md`、`THIRD-PARTY.md`、`.github/**` | 文档与模板由作者维护；要改就开 issue |
-| `.gitattributes` | 它关掉了行尾转换；改了，`index.toml` 里的哈希会对不上 |
+| `mods/*.pw.toml`、`pack.toml`、`index.toml` | packwiz 清单，作者发版时更新 |
+| `.packwizignore` | 发版时由 `.gitignore` 重新派生，手改会被覆盖。要排除文件就改 `.gitignore` |
+| `config/ftbquests/quests/lang/en_us.snbt` | 由英文草稿生成，手改会被覆盖 |
+| `kubejs/server_scripts/tooltips.js`、`kubejs/client_scripts/recipe_viewer/info_generated.js` | 由物品提示表整份生成，文件头写着 |
+| `.gitattributes` | 它关掉了行尾转换。改了，文件的字节会变，`index.toml` 里的哈希就对不上 |
+
+`mods/` 里的 jar 除 Aether's Delight 与核心模组两个外都不入库，按清单从 CurseForge 下载，不用提交。
+
+## 改完自己先测
+
+- 服务端脚本（`kubejs/server_scripts/`）和数据包改完在游戏里 `/reload`；启动脚本要重启游戏；客户端脚本和资源按 `F3+T`。
+- 看 `logs/latest.log` 和 `logs/kubejs/` 里有没有 KubeJS 报错。配方列表缺字段时会直接报出配方 id。
+- 新加、删掉或改了会进包的文件，在 PR 说明里写上，合并后由作者跑 `packwiz refresh` 重算哈希。
 
 ## 名字
 
-- 中文名逐字照真源查，顺序是：KubeJS 补充汉化（`kubejs/assets/**/lang/zh_cn.json`）→ 模组 jar 自带的 `assets/<modid>/lang/zh_cn.json` → 汉化资源包。
-- 写成「中文名（注册名）」，如地之结晶（`kubejs:crystal_terra`）。查不到就标 `[未汉化]`，不自己翻。
+- 中文名逐字照真源查，顺序是：KubeJS 补充汉化（`kubejs/assets/**/lang/zh_cn.json`）、模组 jar 自带的 `assets/<模组 id>/lang/zh_cn.json`、汉化资源包。
+- 写成「中文名（注册名）」，例：地之结晶（`kubejs:crystal_terra`）。查不到就标 `[未汉化]`，不自己翻。
 - 本包自己的物品（`kubejs:*`）用作者起的名字，不改成源模组的译法。
 
 ## 贴图
 
-- 改编自其他模组的贴图只换颜色，形状不动，并在 `THIRD-PARTY.md` 登记来源与许可。
+- 改编自其他模组的贴图只换颜色，形状不动，并在 [`THIRD-PARTY.md`](../THIRD-PARTY.md) 登记来源与许可。
 - 往某个模组已有的一套东西里加新件（印记、精华之类），画风跟同套其它件一致。
 - 作者自己画的贴图不重画；有意画得像某个模组的，也不改。参照的是哪一件只由作者说，不从像素反推。
 
@@ -46,13 +64,13 @@
 <正文，可选>
 ```
 
-- 范围用 `任务书`、`配方`、`汉化`、`配置`、`材质`、`模组`、`仓库`。冒号用全角「：」；可选的改动写成 `材质（可选）：…`。
-- `配方` 涵盖 `kubejs` 的脚本与魔改；`仓库` 涵盖 CONTRIBUTING、CI、issue 模板与工具脚本。
-- 除 `仓库` 外，这几个词与 issue 标签同名，作者的开发版日志也按这套分类：翻一笔改动时不用换说法。
+- 范围用 `任务书`、`配方`、`汉化`、`配置`、`材质`、`模组`、`仓库` 之一，冒号用全角「：」。可选的改动写成 `材质（可选）：…`。
+- `配方` 涵盖 `kubejs` 的脚本与魔改；`仓库` 涵盖文档、CI、issue 模板与工具脚本。
+- 除 `仓库` 外，这几个词与 issue 标签同名，作者的开发版日志也按这套分类，翻一笔改动时不用换说法。
 - 标题一句话，写改了什么，不写日期。改名字要写出改了哪些、依据哪条真源。
 - 正文写标题装不下的：为什么改、依据（文件与键）、没验证的部分。没有就不写。
 - 不加署名行（`Co-Authored-By`、`Generated with …` 之类）。
-- 一笔提交是一块活：同一件事的返工、试错并进同一笔，按互不相关的块分笔，不按编辑次数分。评审之后的修改另起一笔，回复里写清是哪一笔。
+- 一笔提交是一块活：同一件事的返工、试错并进同一笔；互不相关的块分成几笔，不按编辑次数分。评审之后的修改另起一笔，回复里写清是哪一笔。
 - 按文件组分笔：`config/ftbquests/**`、`kubejs/**`、`config/` 其余。`git add` 只写显式路径。
 
 | 写法 | 例 |
@@ -62,7 +80,7 @@
 | 可以 | `配方：气动线补塑料生产，充能台接三条旧配方` |
 | 不行 | `更新文件`、`修复一些问题`（看不出改了什么） |
 
-自己的 AI 或脚本写的 summary 也按这套改一遍再提交；确实归类不了的，就近选一个范围，别空着。
+自己的 AI 或脚本写的 summary 也按这套改一遍再提交。确实归类不了的，就近选一个范围，别空着。
 
 ## 提 PR
 
@@ -72,9 +90,16 @@
 2. 依据：名字写真源的文件与键；贴图写参照了哪一件、属于上面哪种情况。
 3. 测了什么、没测什么：进没进游戏，看没看 `logs/latest.log` 里的 KubeJS 报错。没测就写没测。
 4. 合并后要做的事：新增、删除或改了会进包的文件，要跑 `packwiz refresh` 重算 `index.toml`（作者来跑）。
-5. 可选的部分单独列出来。作者可能只合其中一部分。
+5. 可选的部分单独列出来，作者可能只合其中一部分。
 
 回复评审时逐条对上：改了就写在哪笔提交、怎么改的，没改就写原因。
+
+## 开 issue
+
+有两个模板：
+
+- 「Bug 报告」：游戏报错、崩溃或某个东西表现不对。写版本、现象、复现步骤，附上 `logs/latest.log` 或崩溃报告里相关的几段。
+- 「文本问题」：任务书的中英文、译名、错字与标点。写清位置、现在的内容和建议改成什么。
 
 ## AI 写的文字
 

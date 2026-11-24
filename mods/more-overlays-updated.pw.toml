@@ -1,6 +1,6 @@
 name = "More Overlays Updated"
 filename = "moreoverlays-1.24.2-mc1.21.1-neoforge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
