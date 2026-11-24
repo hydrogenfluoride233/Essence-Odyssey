@@ -1,13 +1,13 @@
 name = "FTB Filter System"
-filename = "ftb-filter-system-neoforge-21.1.4.jar"
+filename = "ftb-filter-system-neoforge-21.1.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a48e54edeacc59aaba29a1b627799c052112ee0b"
+hash = "77181915b5850f6e6685f4a3145b0dce84e01f73"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7429011
+file-id = 9698388
 project-id = 943925

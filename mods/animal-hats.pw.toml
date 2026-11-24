@@ -1,13 +1,13 @@
 name = "Animal Hats"
-filename = "animalhatmod-1.1.1-neoforge-1.21.1.jar"
+filename = "animalhatmod-1.2.0-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "26eef3e36bd3af25e5122dec2e9b918e26270c4e"
+hash = "3d798518d4465a71c6a885276e6192ff898e2513"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7741235
+file-id = 9746849
 project-id = 1313913

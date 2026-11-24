@@ -1,0 +1,13 @@
+name = "JEI_Commands"
+filename = "jei_commands-3.0.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "28c322d2457d420140fbca676db8ebc67c11c5b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9789313
+project-id = 1484423
