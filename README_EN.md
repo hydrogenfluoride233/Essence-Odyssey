@@ -18,14 +18,6 @@ CurseForge page: <https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
 ![main](.github/pictures/main.png)
 
-## Development builds / Contributing
-
-This repository is the pack's **development instance** — work in progress lands here directly; **for the stable release, use CurseForge** (badge above).
-
-To run the latest development build or to contribute, see **[`同步说明.md`](同步说明.md)** (Chinese walkthrough): clone the repo, then run `sync-and-play.bat` to fetch every mod and config file. Development builds are **unreleased** content: they may break, and save compatibility is not guaranteed.
-
-Before opening a pull request, read [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md) (in Chinese): commit format, what a PR description covers, and which files do not take changes.
-
 ## Story
 
 You are an ordinary person in the world of Minecraft. One day you find a note — the world it describes is not quite the one you know: amethyst shards react to something, and the world seems to be responding. You don't know why. But you want to know why. You follow that note and keep walking.
@@ -38,44 +30,72 @@ No one tells you where to go. You have only a note, and a path you walked for yo
 
 ## Core Gameplay
 
-**1. Six dimensions, six primary aspects**
+### Six dimensions, six primary aspects
 
-Overworld = Water ｜ Nether = Fire ｜ Twilight Forest = Earth ｜ The Aether = Air ｜ The End = Chaos ｜ Eternal Starlight = Order
+| Dimension | Overworld | Nether | Twilight Forest | The Aether | The End | Eternal Starlight |
+|---|---|---|---|---|---|---|
+| Aspect | Water | Fire | Earth | Air | Chaos | Order |
 
 Each dimension has its own way of obtaining aspects. Interact with a dimension using amethyst shards to obtain the matching aspect crystals.
 
-**2. Aspect forms run through the entire progression**
+### Aspect forms run through the entire progression
 
-From solid crystals to liquid fluids, and on to gaseous quintessence — with <em>Nature's Aura</em> tokens, <em>Ars Nouveau</em> essences, <em>Neo Vitae</em> inscription tools, and <em>Botania</em> runes appearing in between. Each form has its own way of being obtained and its own uses, opening up layer by layer rather than all at once.
+From solid crystals to liquid fluids, and on to gaseous quintessence, with Nature's Aura tokens, Ars Nouveau essences, Neo Vitae inscription tools, and Botania runes appearing in between. Each form has its own way of being obtained and its own uses, opening up layer by layer rather than all at once.
 
-**3. Secondary aspect crafting**
+### Secondary aspect crafting
 
-15 combinations, multiple production routes — you can choose a different production method depending on your tech line (not yet complete).
+Pairing the six primary aspects gives 15 secondary aspects. There is more than one production route, so you can choose one that fits your tech line (not yet complete).
 
-**4. AE2**
+### AE2
 
 AE2 is part of the progression from early on, rather than something unlocked later.
 
-**5. Three threads, interwoven**
+### Three threads, interwoven
 
-Technology, magic, and adventure run in parallel and interweave, rather than standing apart.
+Technology, magic, and adventure run in parallel and interweave.
 
-## Screenshots
+## Installing and Playing
 
-> TODO
-
-## Getting Started
-
-1. Install from the [CurseForge page](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) — Minecraft 1.21.1 + NeoForge
-2. Recommended memory allocation: 6–8 GB
+1. Install the stable release from the [CurseForge page](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) (Minecraft 1.21.1 + NeoForge 21.1).
+2. Allocate 6–8 GB of memory.
 
 ## Development Status
 
-This modpack is in early development. Progress currently stands at Chapter 2; the main questline and the endgame are not finished yet. You may run into placeholder content — or the occasional "Intentional Game Design".
+This modpack is in early development. Progress currently stands at Chapter 2; the main questline and the endgame are not finished yet. You may run into placeholder content, or the occasional "Intentional Game Design".
 
 During development, the pack ships complete Chinese content and basic English content (English support began with version 0.2.2 and is being expanded over time). English translation and localization will be filled in more thoroughly once the main content and systems are largely complete.
 
-If you run into problems while playing, feedback is welcome via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues), the CurseForge page, or the official QQ group (1077071243).
+Feedback is welcome via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues), the CurseForge page, or the official QQ group (1077071243).
+
+## Development Builds and Contributing
+
+This repository is the pack's development instance: work in progress is committed here directly. For the stable release, use CurseForge.
+
+| To do this | Read |
+|---|---|
+| Run the latest development build | [`同步说明.md`](同步说明.md) (Chinese): clone the repo, then run `sync-and-play.bat` (`sync-and-play.command` on macOS / Linux) to fetch every mod and config file |
+| Open a pull request or an issue | [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md) (Chinese): commit format, what a PR description covers, and which files do not take changes |
+
+Development builds are unreleased content: they may break, and save compatibility is not guaranteed.
+
+## Repository Layout
+
+Only hand-written or hand-edited content is tracked here, plus the packwiz manifest. Third-party mod jars are not stored in the repository; they are downloaded from CurseForge according to the manifest.
+
+| Path | Contents |
+|---|---|
+| `kubejs/startup_scripts/` | Startup scripts: registers items, blocks, fluids, chemicals, and multiblock machines |
+| `kubejs/server_scripts/` | Server scripts: recipes (`recipes/`, one folder per mod), tags, multiblock structures and recipes (`MMCR/`), item tooltips, villager trades |
+| `kubejs/client_scripts/` | Client scripts: items, recipes, and info pages hidden or added in the recipe viewer |
+| `kubejs/assets/`, `kubejs/data/` | Supplementary localization, original textures and models; datapack overrides |
+| `config/` | Mod configs; the quest book is in `config/ftbquests/`, default player settings are in `config/defaultoptions/` |
+| `defaultconfigs/` | Default configs applied to new worlds and new clients |
+| `mods/` | packwiz records for each mod (`*.pw.toml`). The only jars stored in the repository are `Aether's Delight` (not on CurseForge) and the in-house core mod `Essence Odyssey Core` |
+| `resourcepacks/` | The CFPA Chinese localization pack shipped with the modpack, plus packwiz records for two resource packs |
+| `shaderpacks/` | packwiz records for shader packs |
+| `pack.toml`, `index.toml` | The packwiz manifest: pack version, Minecraft and NeoForge versions, and a hash for every file |
+| `sync-and-play.bat`, `sync-and-play.command`, `packwiz-installer-bootstrap.jar` | Development sync scripts; see [`同步说明.md`](同步说明.md) |
+| `.github/` | Contribution guide, issue templates, and README images |
 
 ## Credits (in no particular order)
 
@@ -96,10 +116,6 @@ If you run into problems while playing, feedback is welcome via [Issues](https:/
 | **陌屿君** | 吉祥物：真的不在摸鱼！ |[Bilibili](https://space.bilibili.com/499977642)|
 | **其琛琛琛** | 吉祥物：给予蓝狼言语上的支持与鼓励 |[Bilibili](https://space.bilibili.com/541846318)|
 
-## Repository Contents
-
-Only hand-written / hand-edited content is tracked here — KubeJS scripts and supplementary localization, mod configs, multiblock structure definitions and rendering assets, original textures and models. **No third-party mod jars are distributed in this repository** (`mods/` is excluded via `.gitignore`; the only exceptions are the bare jars of `Aether's Delight` and the in-house core mod, see the license table). Please install the pack through CurseForge.
-
 ## License
 
 | Scope | License |
@@ -107,6 +123,8 @@ Only hand-written / hand-edited content is tracked here — KubeJS scripts and s
 | The modpack and everything under `config/`, `defaultconfigs/`, `data/`, `kubejs/` | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | Original `.js` scripts under `kubejs/` | [MIT](kubejs/LICENSE) |
 | The in-house core mod `Essence Odyssey Core` (`essenceodyssey`) | All Rights Reserved; unmodified binaries may be redistributed with this pack, and release builds are also published on CurseForge; not for use in other modpacks; no public API |
-| Third-party content (mods, community translations, adapted textures) | Their own licenses — see [THIRD-PARTY.md](THIRD-PARTY.md) |
+| Third-party content (mods, community translations, adapted textures) | Their own licenses; see [THIRD-PARTY.md](THIRD-PARTY.md) |
+
+The CC BY-NC-SA 4.0 row above does not cover the two bare jars under `mods/` (`Aether's Delight` and the core mod); they are distributed under their own projects' terms and the table above.
 
 If you repost or adapt this pack, credit "Essence Odyssey by hydrogenfluoride", link the license, and state whether you made changes; commercial use is not allowed, and adaptations must be released under the same license. Full text: [LICENSE](LICENSE).

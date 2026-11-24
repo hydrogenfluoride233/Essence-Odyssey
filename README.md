@@ -18,14 +18,6 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 ![main](.github/pictures/main.png)
 
-## 开发版本 / 参与开发
-
-这个仓库是整合包的**开发实例**：开发中的内容直接出现在这里；**稳定版去 CurseForge**（上面的勋章）。
-
-想跑最新 dev 构建或参与开发，看 [`同步说明.md`](同步说明.md)：clone 到本地 → 双击 `sync-and-play.bat` 补齐模组与配置。dev 版是**未发布**内容，可能有 bug，也不保证存档兼容。
-
-提 PR 之前先看 [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md)：提交格式、PR 说明怎么写、哪些文件不收改动。
-
 ## 故事线
 
 你是方块世界的一个普通人。某天，你发现了一本笔记，里面描述的世界和你熟悉的不太一样——紫水晶会对某些东西有反应，世界似乎在回应着什么。你不知道为什么，但你想知道为什么。你跟着这本笔记走了下去。
@@ -38,44 +30,72 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 ## 核心玩法
 
-**1. 六大维度，六种元始要素**
+### 六大维度，六种元始要素
 
-主世界 = 水 ｜ 下界 = 火 ｜ 暮色森林 = 地 ｜ 天境 = 风 ｜ 末地 = 混沌 ｜ 永恒星光 = 秩序
+| 维度 | 主世界 | 下界 | 暮色森林 | 天境 | 末地 | 永恒星光 |
+|---|---|---|---|---|---|---|
+| 要素 | 水 | 火 | 地 | 风 | 混沌 | 秩序 |
 
 每个维度都有独特的要素获取方式。用紫水晶碎片与维度互动，即可获得对应的要素结晶。
 
-**2. 要素形态贯穿全程**
+### 要素形态贯穿全程
 
-从固态结晶到液态流体，再到气态精粹，中间穿插<em>自然灵气（Nature's Aura）</em>印记、<em>新生魔艺（Ars Nouveau）</em>魔法精华、<em>命血术（Neo Vitae）</em>铭文工具、<em>植物魔法（Botania）</em>符文等衍生物。各种形态各有获取方式与用途，层层递进，而非一次性开放。
+从固态结晶到液态流体，再到气态精粹，中间穿插自然灵气（Nature's Aura）印记、新生魔艺（Ars Nouveau）魔法精华、命血术（Neo Vitae）铭文工具、植物魔法（Botania）符文等衍生物。各种形态各有获取方式与用途，层层递进，不会一次全部开放。
 
-**3. 二级要素合成体系**
+### 二级要素合成体系
 
-15 种组合，多种生产路线，你可以根据自己的科技线选择不同的生产方式（尚未完成）。
+六种元始要素两两组合，共 15 种二级要素。生产路线不止一条，可以按自己走的科技线选择（尚未完成）。
 
-**4. AE2**
+### AE2
 
-AE2 从游戏早期就融入进度，而非后期解锁。
+AE2 从游戏早期就融入进度，不是后期才解锁。
 
-**5. 三条线交织**
+### 三条线交织
 
-科技、魔法、冒险三条线并行，彼此交织，而非各自独立。
+科技、魔法、冒险三条线并行，彼此交织。
 
-## 截图
+## 安装与游玩
 
-> TODO
-
-## 上手
-
-1. 通过 [CurseForge 项目页](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) 安装（Minecraft 1.21.1 ＋ NeoForge）
-2. 建议分配内存 6–8 GB
+1. 在 [CurseForge 项目页](https://www.curseforge.com/minecraft/modpacks/essence-odyssey) 安装稳定版（Minecraft 1.21.1 ＋ NeoForge 21.1）。
+2. 内存建议分配 6–8 GB。
 
 ## 开发状态
 
-本整合包目前处于早期开发阶段，目前开发进度在第二章，主线任务和终局内容尚未完成。你可能会遇到占位内容或“刻意的游戏设计”。
+整合包处于早期开发阶段，进度在第二章，主线任务和终局内容尚未完成。你可能会遇到占位内容或“刻意的游戏设计”。
 
-由于作者目前的开发与本地化限制，本整合包在开发期间仅提供完整的中文游戏内容与基本的英文内容（英文内容自 0.2.2 版本起提供，并在后续版本中持续补充）。当主要内容与系统基本完成后，会逐步完善英文翻译与本地化。
+开发期间只提供完整的中文游戏内容和基本的英文内容（英文从 0.2.2 起提供，后续版本持续补充）。主要内容与系统基本完成后，再完善英文翻译与本地化。
 
-遇到问题：[Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues)、CurseForge 项目页或官方 QQ 群（1077071243）。
+遇到问题可以在 [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues)、CurseForge 项目页或官方 QQ 群（1077071243）反馈。
+
+## 开发版与参与开发
+
+这个仓库是整合包的开发实例，开发中的内容直接提交到这里。想玩稳定版请去 CurseForge。
+
+| 想做的事 | 看哪里 |
+|---|---|
+| 跑最新的开发版 | [`同步说明.md`](同步说明.md)：clone 仓库，再运行 `sync-and-play.bat`（macOS / Linux 用 `sync-and-play.command`）补齐模组与配置 |
+| 提 PR 或 issue | [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md)：提交格式、PR 说明的写法、哪些文件不收改动 |
+
+开发版是未发布的内容，可能有 bug，也不保证存档兼容。
+
+## 仓库结构
+
+仓库只收作者手写或手改的内容，以及 packwiz 清单。第三方模组本体不入库，按清单从 CurseForge 下载。
+
+| 路径 | 内容 |
+|---|---|
+| `kubejs/startup_scripts/` | 启动脚本：注册物品、方块、流体、化学品与多方块机器 |
+| `kubejs/server_scripts/` | 服务端脚本：配方（`recipes/` 按模组分目录）、标签、多方块结构与配方（`MMCR/`）、物品提示、村民交易 |
+| `kubejs/client_scripts/` | 客户端脚本：配方查看器里隐藏的物品、配方与信息页 |
+| `kubejs/assets/`、`kubejs/data/` | 补充汉化、自制贴图与模型；数据包覆盖 |
+| `config/` | 模组配置；任务书在 `config/ftbquests/`，玩家默认设置在 `config/defaultoptions/` |
+| `defaultconfigs/` | 新存档与新客户端拿到的默认配置 |
+| `mods/` | 模组的 packwiz 记录（`*.pw.toml`）。入库的 jar 只有两个：`Aether's Delight`（不在 CurseForge 上）和自研核心模组 `Essence Odyssey Core` |
+| `resourcepacks/` | 随包分发的 CFPA 汉化资源包，以及两个资源包的 packwiz 记录 |
+| `shaderpacks/` | 光影的 packwiz 记录 |
+| `pack.toml`、`index.toml` | packwiz 清单：整合包版本、Minecraft 与 NeoForge 版本、每个文件的哈希 |
+| `sync-and-play.bat`、`sync-and-play.command`、`packwiz-installer-bootstrap.jar` | 开发版同步脚本，用法见 [`同步说明.md`](同步说明.md) |
+| `.github/` | 贡献说明、issue 模板与 README 用图 |
 
 ## 贡献者（排名不分先后）
 
@@ -93,10 +113,6 @@ AE2 从游戏早期就融入进度，而非后期解锁。
 | **氯化钠** | 吉祥物：（说了一些关于本源远征的话） |[Bilibili](https://space.bilibili.com/508963951)|
 | **陌屿君** | 吉祥物：真的不在摸鱼！ |[Bilibili](https://space.bilibili.com/499977642)|
 | **其琛琛琛** | 吉祥物：给予蓝狼言语上的支持与鼓励 |[Bilibili](https://space.bilibili.com/541846318)|
-
-## 仓库内容
-
-只收录作者**手写 / 手改**的内容：KubeJS 脚本与补充汉化、模组配置、多方块结构定义与渲染资源、自制贴图与模型。**不含第三方模组本体**（`mods/` 在 `.gitignore` 中排除；例外是 `Aether's Delight` 与自研核心模组这两个裸 jar，见下方授权表），游玩请走 CurseForge。
 
 ## 授权｜License
 
