@@ -203,4 +203,8 @@ tlm_custom_pack/
 java-path.txt
 game-path.txt
 
+# FancyMenu 标题彩蛋的本机解锁状态（每台机器自己记，不进库也不进包）
 /config/fancymenu/egg/
+
+# KubeJS 每次启动都会重新写出的说明文件（删掉也会自己再生）
+/kubejs/README.txt

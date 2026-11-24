@@ -58,6 +58,7 @@ mods/*.jar
 # 本地停用的模组（只在本机，不进仓库也不进包）
 mods.disabled/
 resourcepacks/*.zip
+!resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
 config/patchouli_books/
 schematics/
 # 本地材质包（ZigZag 测试版、BDcraft 音效包）：只在本机用，不进仓库也不进包
@@ -73,6 +74,7 @@ packwiz.json
 .github/*
 !.github/CONTRIBUTING.md
 !.github/ISSUE_TEMPLATE/
+!.github/pictures/
 
 # ---------------------------------------------------------------------
 #  2. ProbeJS 转储（约 2800 个 .d.ts / 37 MB）
@@ -205,6 +207,12 @@ tlm_custom_pack/
 # 同步脚本记住的成员本地路径
 java-path.txt
 game-path.txt
+
+# FancyMenu 标题彩蛋的本机解锁状态（每台机器自己记，不进库也不进包）
+/config/fancymenu/egg/
+
+# KubeJS 每次启动都会重新写出的说明文件（删掉也会自己再生）
+/kubejs/README.txt
 
 # 来自 config/almostunified/.gitignore
 config/almostunified/debug.json

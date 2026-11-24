@@ -1841,10 +1841,6 @@ file = "config/elevatorid-server.toml"
 hash = "8a44f65bb1d0d1b7a7b6e012b8f329756db98dd4e2f882f3d7620cbd188c5c13"
 
 [[files]]
-file = "config/enchdesc.json"
-hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
-
-[[files]]
 file = "config/enderio/base-common.toml"
 hash = "8e43bcafd77aa21fc8b34025dded5ce24743bda16eac71de66077b46fbce932b"
 
@@ -2035,10 +2031,6 @@ hash = "ff921d6f5780efb43d0f92f728a8696fd1113d60a77fa18301eb43880b7f6a7d"
 [[files]]
 file = "config/fancymenu/customization/universal_layout_cobalt.txt"
 hash = "65da05ab619b0dc75aece977ef9fb042a59e31dfcdbe7c6d86d414f587a4822a"
-
-[[files]]
-file = "config/fancymenu/egg/unlocked"
-hash = "9d65d11a438c8304d1a2743cc70972877f51e384c985cc05a23ce6ae2463556d"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -2967,10 +2959,6 @@ hash = "2eac404656d9bff651954c0e36d78ead3b38115f44c86bf8f4bbceed1849c8e4"
 [[files]]
 file = "defaultconfigs/xaerohud.txt"
 hash = "6de57f88c55043cfafb952219205e2080da514284c822a277cd9f1ef804f0def"
-
-[[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/accessories/lang/zh_cn.json"
