@@ -254,7 +254,7 @@ hash = "9d4770e5a815b101598bea72b0f1cc8cb7a036453f89d05400a01ad2f3ff653c"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
-hash = "f308e33e8941e20bf85c096885b6247b96350930bacc0ecc7b740dc796e69b6f"
+hash = "7227bf60d75af807718619c53666411879f850e7fba9d4b38d550fa553d9bbfd"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
@@ -2014,7 +2014,7 @@ hash = "1bf98b419d1dd74337d68f87ea1a35e05bf9e1bccb8bf605aeee14521da08f91"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "148772ea40eb544e331b0d17d7e11e1c6e0ad87cd35d52c0105ac2e5292a73e8"
+hash = "2ad129fbe769c9f2b4dd52c737881bca90f7c55fb3f21653ac82aa872f8282d1"
 
 [[files]]
 file = "config/fancymenu/customization/egg_warn_layout.txt"
@@ -2034,7 +2034,7 @@ hash = "ff921d6f5780efb43d0f92f728a8696fd1113d60a77fa18301eb43880b7f6a7d"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout_cobalt.txt"
-hash = "9371cd99a0689773aaef69f5f4783d3d79b6b21bfe6be5c96aec9d02c60c664f"
+hash = "65da05ab619b0dc75aece977ef9fb042a59e31dfcdbe7c6d86d414f587a4822a"
 
 [[files]]
 file = "config/fancymenu/egg/unlocked"
@@ -2050,7 +2050,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "17a267b804a8e831e70c69db99e24498cca25ef29f247055cb63b5694ce57f60"
+hash = "a0bb65ee5a8be602cda862eb720fb829aa9b9ae848d84f688d907351124090ed"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2062,7 +2062,7 @@ hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
-hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+hash = "ca080a805352af88f9cb67dd3e1714a0492d225bc3d69bab09be2285c8d84fe3"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark_high_contrast.json"
@@ -2381,6 +2381,66 @@ file = "config/jei-server.toml"
 hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
 
 [[files]]
+file = "config/jei_command/jei_burn_times.toml"
+hash = "82f2380f529122fd1b4d9e08d8b529a830e748869c4788f86766284b79f5e111"
+
+[[files]]
+file = "config/jei_command/jei_copy_id.toml"
+hash = "81beee24ee6f85d5b1e0f9595de9b0d25c39ed526e0d0423802a10d17d65d5d3"
+
+[[files]]
+file = "config/jei_command/jei_fuel_hide.toml"
+hash = "c25a59d1989d62797a8a6794446f349cf8dc1a6ba34a42e6ce7ceec23072f72e"
+
+[[files]]
+file = "config/jei_command/jei_info/example.json"
+hash = "e4d2ffd10894d7c6e8750a8579ee5552aa2a938a4e75884b27a7bc05d1306447"
+
+[[files]]
+file = "config/jei_command/jei_info_hide.toml"
+hash = "008599dd07ca1ecaac3db8fe707086cdc9fbcd3fc61eb8b3e5e343ec3c7f3a93"
+
+[[files]]
+file = "config/jei_command/jei_test_log.toml"
+hash = "b9f418167d6442175738f24d6212c84d34e57cd0ab87cf9fbae99dc9f83b274e"
+
+[[files]]
+file = "config/jei_command/jei_visibility/test_hide_categories.toml"
+hash = "44ad221f0d59242eefe8be94e555da1a8790de7d1cb097056ba453f38e5f666d"
+
+[[files]]
+file = "config/jei_command/jei_visibility/test_info.toml"
+hash = "5a68f90e265706b2419b9a53025c964225a5ff6826718467478d22357c12828b"
+
+[[files]]
+file = "config/jei_command/jei_visibility/test_no_force_delete.toml"
+hash = "5733b4de6a4d64a2509d4e6c57894563903167e01e9c93b52970791852526847"
+
+[[files]]
+file = "config/jei_command/jei_visibility/test_recipe.toml"
+hash = "10684ab8580c070258e14f981418e448d366d9dfdb0fc7623dbada1b778276db"
+
+[[files]]
+file = "config/jei_command/jei_visibility/test_score_eq.toml"
+hash = "2558bd11bb9c52dbef7e4052b77e08fd241909349943f6ec082eb001cdbfbef5"
+
+[[files]]
+file = "config/jei_command/jei_visibility/test_score_ge.toml"
+hash = "d3c8c32a28666ab241c5e7218261751c09714c2451c67ef7d60c9a7b9a19c230"
+
+[[files]]
+file = "config/jei_command/jei_visibility/test_score_lt.toml"
+hash = "2ecfaf5fdb882e814d07eb77efc056b790cd57d25e2389a7a4f52a62178af3e7"
+
+[[files]]
+file = "config/jei_command/jei_visibility/test_tag.toml"
+hash = "5733b4de6a4d64a2509d4e6c57894563903167e01e9c93b52970791852526847"
+
+[[files]]
+file = "config/jei_command/tooltip_blacklist.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
 file = "config/jeresources-common.toml"
 hash = "b8e340097e9b479a5d66593f01c1c84a8a8fdc1ed960eccb11676ee7612537e2"
 
@@ -2462,7 +2522,7 @@ hash = "8c5a8245f6f4b8e1ddcd80bb2b57bc5c21d1beffa25a83d63e8ca868fad838bc"
 
 [[files]]
 file = "config/merequester-common.toml"
-hash = "e1bc97c0e0727f94d750f6391420860aa09b88e73e82584d4d235764bc2d1acf"
+hash = "eac33dfb8bd3d9d62a6932bb08e7b266d9eee56c4d4734fdcdb09a2e236b5203"
 
 [[files]]
 file = "config/mezz_config/client/default/settings.ini"
@@ -2490,7 +2550,7 @@ hash = "dd8c7741f1c6f7ddaed6164c33fa0ca24b3f1b7a4e803751ae9736397cf6eb18"
 
 [[files]]
 file = "config/modular-machinery-community-refoxed/server.toml"
-hash = "ed71e07bb51c7a366a9a9f4f97a8313e3e1a3889b96bfb418c25e517aad6dd44"
+hash = "5594183cb01f825c7c61aef8021670aae26ebaf5a963375de8acb3674a1bcc50"
 
 [[files]]
 file = "config/modularbees-common.toml"
@@ -6683,7 +6743,7 @@ metafile = true
 
 [[files]]
 file = "mods/animal-hats.pw.toml"
-hash = "53b39d6e760ba627dcb9447111d2cf9f1761e503e2a357e60294933df7c1ce60"
+hash = "5dba761b32b011b880ab149b3d91ef86d2db770db8ba54d616a4d42fc6761b40"
 metafile = true
 
 [[files]]
@@ -6793,7 +6853,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-elemental.pw.toml"
-hash = "d1bc4c16b2605cbee5e97f267260b1d64d638fade0da830c1cdc692f60853da3"
+hash = "729ebaec520981cb02bbf75011d7ad8ff4112b0252eb60bfb206e65e4ee10552"
 metafile = true
 
 [[files]]
@@ -7123,7 +7183,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "fad24a48bab8f5beed982d2bf2c130ac78abac741f8fa25e7eed618bab5f9398"
+hash = "3287034ce859e94fb7ad5b70eddca49b626add332b6722d3cf66904cf36e87cf"
 metafile = true
 
 [[files]]
@@ -7177,7 +7237,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "2676222e3caa92ab7ca19908c7ac36b04f2f71a0e873db2e4f95756222b9d9b4"
+hash = "d5b1739c0964120fe4164db7806150e49ff44ff09b779b33ad61529e1b14eb76"
 metafile = true
 
 [[files]]
@@ -7257,7 +7317,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-filter-system.pw.toml"
-hash = "9cb8d355c77067b00a96d96db398f60db62a6ee238dabff45ade33dd8d9f9e3b"
+hash = "8a133f808bce32c9a28edde809ec726800d5afa5c52458ed4befbd862dc9a013"
 metafile = true
 
 [[files]]
@@ -7302,7 +7362,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "4cf7eb494f48576e28895ee5f362878f95c6bad65372666106140fdae82d0c4c"
+hash = "04fea0f3f55873a7488c64d617762f430744354908e7f385f385d4fa75b535bb"
 metafile = true
 
 [[files]]
@@ -7322,7 +7382,7 @@ metafile = true
 
 [[files]]
 file = "mods/hostile-neural-networks.pw.toml"
-hash = "d8d964dfe772806533fde01d62bcc029e2232fe325d9097865a7397e5f598cf4"
+hash = "692dd645cc3fde405fb9d930a92e88f1de02f4249c4c52ad72a954176ad167a7"
 metafile = true
 
 [[files]]
@@ -7441,8 +7501,13 @@ hash = "f17d026b0ae178ab836e90cf4b73d1f156bd3454b01e637f91fd5f2f44350869"
 metafile = true
 
 [[files]]
+file = "mods/jei-commands.pw.toml"
+hash = "b0c9ad6b839a7edf8f14f1d525c3d45161b60f9fd5a6fd72abb45ceddb0e32bc"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
-hash = "4a5ea596148af390e53eaa5225a5569f15cda6ace0c51edf9c6b175cf6030322"
+hash = "75c8544ee70cd8b0549e429a0c08bd5c1c20f97fc6bb15d30fdd98677a657cef"
 metafile = true
 
 [[files]]
@@ -7517,7 +7582,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-actually-additions.pw.toml"
-hash = "c0177efdd490a97901b7de35bdc2d2e00b7d4d36758d38f01a1c6ac6f8a9e37b"
+hash = "90c8252bbb4531c5c6bde34199a083ca77628156fbadd86eee51e6897a8a91a7"
 metafile = true
 
 [[files]]
@@ -7542,7 +7607,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-enderio.pw.toml"
-hash = "8264a1fd318f5a54c1a866c6a133e9333abf1fb13634df569dab5346ecd31cd9"
+hash = "2fea9584cbfedcd1673a07defcdac53f1f37c080b6064288710d3f4165b827cd"
 metafile = true
 
 [[files]]
@@ -7692,7 +7757,7 @@ metafile = true
 
 [[files]]
 file = "mods/merequester.pw.toml"
-hash = "490c62f126037c9258c345e3f2a1c523f004179c7026072d9301391f9c5ecf75"
+hash = "a08d5ae03bad77fbbf6de663eeffbd04b4dc2fa08748466fe2aea6eeae1252c5"
 metafile = true
 
 [[files]]
@@ -7727,7 +7792,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "fed91aaaeebd83eb87630a40f882fdc78d54037a4a5c721790bfa0f130b9e3fe"
+hash = "6401f87b87d6ce52a252653aef2c2021c827f3e48311637cb2d31f44e8e68867"
 metafile = true
 
 [[files]]
@@ -7932,7 +7997,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "f45da2d9525cb355c246a0ed35de86f6b78e553dcf69119d05494803a2e43983"
+hash = "628a943bfe99083e671d864aa0daefafcf1ce0beb6e95bb37d023ea372491cc5"
 metafile = true
 
 [[files]]
@@ -7997,12 +8062,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "a92eb8ece81a5134b9fd1d19d1735a58af1d189ad1fb0135e0cf713d35d36b81"
+hash = "7abbd821576ea4f53d1eb07ecb3c75d8b28391b972981ba6e9c7967cb6d80f00"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "8dfb0b7c7546a01911daff294b76a15e1db958579dce15d71e0ef68e8594bd65"
+hash = "6e4c5fb1ca897711ace004954446cabae0a1b84d228202d46092e5b6f59a3315"
 metafile = true
 
 [[files]]
@@ -8087,7 +8152,7 @@ metafile = true
 
 [[files]]
 file = "mods/twilights-flavors-delight.pw.toml"
-hash = "bdd326371471d9335cb0a193dc33d0c263e210535eb19f2ce50bc903d984fa62"
+hash = "4e21e42ac21e4c533f1f8ea2e61d7d56e9ef0389d731f6b383a7999d560157ac"
 metafile = true
 
 [[files]]
@@ -8134,10 +8199,6 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
 metafile = true
-
-[[files]]
-file = "resourcepacks/BDcraft Sound Pack MC121.zip"
-hash = "c151e61ff8cd64c0b03e0fefce0d94af85fbb1b4185846479c2101f145e010a8"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"
