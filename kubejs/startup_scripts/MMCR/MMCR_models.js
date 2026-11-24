@@ -1,4 +1,4 @@
-// 动态模型的入口：机器定义里接这两行，模型怎么摆写在 server_scripts/MMCR_models.js
+// 动态模型的入口：机器定义里接这两行，模型怎么摆写在 server_scripts/MMCR/MMCR_models.js
 //     .recipeBehavior(b=>b.recipeTick(ctx=>global.machineModelWork(ctx)))
 //     .postServerTick(ctx=>global.machineModelTick(ctx))
 // 服务端脚本不能给 global 赋值，只能往这里预留的对象里填；出错就停用并记一次日志，机器本身照常运行
