@@ -1,6 +1,6 @@
 name = "Better Advanced Tooltips"
 filename = "better-advanced-tooltips-2101.1.0-build.5.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
