@@ -1,0 +1,4 @@
+# Hold Alt while hovering a JEI ingredient (list/bookmark overlay) or an
+# inventory/container slot to copy its registry ID to the clipboard.
+# Off by default. Toggle in-game with /jeicopyid on|off|toggle.
+enabled = false

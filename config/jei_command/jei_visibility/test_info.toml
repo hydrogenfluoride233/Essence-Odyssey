@@ -1,0 +1,20 @@
+# recipe_ids use vanilla ResourceLocation format
+recipe_ids = []
+# When true, this rule's items are deleted from a player's inventory on sight
+# while the condition is false (server-side, checked once per second).
+# Creative-mode players are exempt.
+force_delete = false
+# JEI synthetic categories to also hide this rule's items from — only these are
+# supported: "minecraft:fuel", "minecraft:anvil", "minecraft:brewing", "minecraft:compostable",
+# "jei:information". Not needed for crafting/smelting/smoking/blasting/stonecutting/smithing —
+# use recipe_ids for those.
+hide_categories = []
+items = ["examplemod:example_item"]
+# Free-form extra tooltip lines, written by you, shown in the creative-mode tooltip
+# for this rule's items (above the force_delete warning, if any). One entry per line.
+info = ["这是我自己写的说明文字", "第二行说明"]
+
+# condition types: "tag" | "scoreboard"
+[condition]
+	type = "tag"
+	value = "tester"

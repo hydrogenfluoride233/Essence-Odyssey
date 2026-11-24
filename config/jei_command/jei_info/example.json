@@ -1,0 +1,12 @@
+{
+  "_comment": "示例：items 填物品 ID 列表，text 填说明文字（可多行）；items 里的多个物品共享同一段 text。examplemod:example_item 是不存在的占位物品（照抄请换掉，或把这条删掉）。想让自定义 info 覆盖原版的，用 /jeic 的「信息页」页把该行切成「覆盖」。",
+  "entries": [
+    {
+      "items": ["examplemod:example_item"],
+      "text": [
+        "这是 JEI Commands 自定义 info 示例（占位物品，可删）",
+        "可以写多行文字"
+      ]
+    }
+  ]
+}

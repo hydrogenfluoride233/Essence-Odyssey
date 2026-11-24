@@ -1,0 +1,5 @@
+# Item IDs whose JEI "Information" page (jei:information) is always hidden,
+# regardless of any config/jei_visibility/ rule condition. Items that also have
+# a custom entry in config/jei_info/ are exempt — see that folder to add your
+# own Information page for an item instead of just hiding the original one.
+items = []

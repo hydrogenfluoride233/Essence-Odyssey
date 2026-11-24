@@ -1,0 +1,11 @@
+# JEI Commands — Fuel Page Curation / 燃料页整理
+# 纯客户端显示过滤，各端各自生效；不影响服务端玩法。
+#
+# Items whose burn time (in ticks) is > 0 and <= this value are hidden from JEI's fuel page.
+# 0 disables this filter. Run /jeiexport fuel to export all burn times.
+# 燃烧值（tick）大于 0 且小于等于此值的物品会从 JEI 燃料页隐藏，0 禁用。
+max_burn_time = 0
+
+# Explicit item IDs to always hide from JEI's fuel page, regardless of burn time.
+# 无论燃烧值多少，始终从 JEI 燃料页隐藏的物品 ID。
+item_ids = []

@@ -114,3 +114,6 @@ dev.latvian.mods.kubejs.client.KubeJSErrorScreen {
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+net.minecraft.client.gui.screens.worldselection.EditWorldScreen {
+}
+

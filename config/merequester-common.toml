@@ -1,5 +1,6 @@
 [requester]
 	#The amount of requests a single ME Requester can hold.
+	#On servers, only the server value is used.
 	# Default: 5
 	# Range: 1 ~ 64
 	requests = 5

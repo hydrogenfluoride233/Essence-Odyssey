@@ -138,3 +138,10 @@
 	# Default: 524288
 	# Range: > 1
 	sync_max_blocks = 524288
+
+[export]
+	#Maximum number of block positions in a detector export selection, including air.
+	#Large selections can stall the server and consume substantial memory.
+	# Default: 3276800
+	# Range: > 1
+	max_volume = 3276800

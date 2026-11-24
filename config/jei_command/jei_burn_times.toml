@@ -1,0 +1,14 @@
+# JEI Commands — Custom Burn Times / 自定义燃烧时间
+# 服务端权威（T5）：服务端以本文件为准；客户端显示服务端广播的快照。
+#
+# Format / 格式:  "modid:item_id" = burn_time_in_ticks
+# 20 ticks = 1 second. Set to 0 to prevent an item from being used as fuel.
+# 20 tick = 1 秒。设为 0 可禁止该物品作为燃料。
+# Vanilla items can omit the namespace (defaults to minecraft:).
+# 原版物品可省略命名空间。
+
+[burn_times]
+# "minecraft:lava_bucket" = 20000
+# "minecraft:coal_block"  = 16000
+# "minecraft:coal"        = 1600
+# "minecraft:stick"       = 100

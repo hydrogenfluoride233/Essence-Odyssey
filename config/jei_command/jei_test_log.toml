@@ -1,0 +1,4 @@
+# Emit diagnostic JEIC test logs for network packets, config saves and reloads.
+# Off by default; no test log is written while off. Keep it off in normal play.
+# Toggle in-game from the /jeic "tools" page.
+enabled = false
