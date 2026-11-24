@@ -58,9 +58,11 @@ mods/*.jar
 # 本地停用的模组（只在本机，不进仓库也不进包）
 mods.disabled/
 resourcepacks/*.zip
-!resourcepacks/BDcraft Sound Pack MC121.zip
 config/patchouli_books/
 schematics/
+# 本地材质包（ZigZag 测试版、BDcraft 音效包）：只在本机用，不进仓库也不进包
+resourcepacks/ZigZag*
+resourcepacks/BDcraft*
 
 # 整合包本体 jar 与元数据（由构建流程生成，不入库）
 Essence Odyssey.jar
