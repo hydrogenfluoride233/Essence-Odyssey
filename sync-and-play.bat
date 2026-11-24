@@ -4,7 +4,8 @@ rem ============================================================
 rem  Essence Odyssey - sync this client from the pack manifest.
 rem  Double-click it, or call it from a launcher and pass java.exe.
 rem  Guide (Chinese): see the sync guide file in the repo root.
-rem ============================================================set "PACK=%~dp0"
+rem ============================================================
+set "PACK=%~dp0"
 set "PACKDIR=%PACK:~0,-1%"
 set "UPSTREAM=https://github.com/hydrogenfluoride233/Essence-Odyssey.git"
 set "JAVAFILE=%PACKDIR%\java-path.txt"
