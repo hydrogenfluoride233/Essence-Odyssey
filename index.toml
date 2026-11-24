@@ -6094,7 +6094,7 @@ hash = "31b0da4ca7c715dc742fd3fd6aa619028b60aabb5d1dde63dd4a07e69d104e93"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
-hash = "32df29062345c9dbb7a4121deee4c270835bdd9ed45887a4c3f4572ec000668a"
+hash = "6936b39664699f5ddaf3ce0bbe8897dfa8008d602dc3017ed4e0f38c7db95afc"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
