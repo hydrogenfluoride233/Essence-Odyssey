@@ -102,4 +102,6 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 上表的 CC BY-NC-SA 4.0 不覆盖 `mods/` 下的两个裸 jar（`Aether's Delight` 与自研核心模组），它们按各自项目与上表的条款分发。
 
+标题画面插画由萧云绘制，版权归作者；它随核心模组分发，绘者保留作品用于个人宣传的权利。
+
 转载或改编请注明「Essence Odyssey / 本源远征 by hydrogenfluoride」、附协议链接并标明是否改动；禁止商业使用；改编作品需以相同协议发布。协议全文见 [LICENSE](LICENSE)。

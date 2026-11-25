@@ -106,4 +106,6 @@ The developer documents are in Chinese:
 
 The CC BY-NC-SA 4.0 row above does not cover the two bare jars under `mods/` (`Aether's Delight` and the core mod); they are distributed under their own projects' terms and the table above.
 
+The title screen art is drawn by 萧云 and is owned by the pack author; it ships with the core mod, and the artist keeps the right to show the artwork for personal promotion.
+
 If you repost or adapt this pack, credit "Essence Odyssey by hydrogenfluoride", link the license, and state whether you made changes; commercial use is not allowed, and adaptations must be released under the same license. Full text: [LICENSE](LICENSE).
