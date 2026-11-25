@@ -95,8 +95,6 @@ The developer documents are in Chinese:
 | **陌屿君** | 吉祥物：真的不在摸鱼！ |[Bilibili](https://space.bilibili.com/499977642)|
 | **其琛琛琛** | 吉祥物：给予蓝狼言语上的支持与鼓励 |[Bilibili](https://space.bilibili.com/541846318)|
 
-Parts of the worldbuilding and gameplay are inspired by **Thaumcraft** — thanks to its developers and community. The title screen art is drawn by **萧云**; the altar in it follows the form of the **Astral Sorcery** iridescent altar from 1.16.5 and earlier, with no mod textures used. Sources and licences for third-party mods, translations and textures are in [THIRD-PARTY.md](THIRD-PARTY.md).
-
 ## License
 
 | Scope | License |
