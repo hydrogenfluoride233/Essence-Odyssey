@@ -57,7 +57,7 @@ The three threads run in parallel and interweave. AE2 is part of the progression
 
 ## Status and Feedback
 
-The pack is in early development. Progress currently stands at Chapter 2; the main questline and the endgame are not finished, and you may run into placeholder content or the occasional "intentional game design".
+The pack is in early development. The main questline and the endgame are not finished yet, and chapters are still being filled in one by one. You may run into placeholder content — or the occasional "Intentional Game Design".
 
 During development the pack ships complete Chinese content and basic English content (English began with 0.2.2 and grows with each release). The English translation and localization will be completed once the main content and systems are largely done.
 
