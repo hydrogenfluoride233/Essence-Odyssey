@@ -8,7 +8,7 @@
 
 | 项目 | 内容 |
 |---|---|
-| 位置 | `kubejs/assets/<模组 id>/lang/zh_cn.json`，一个模组一份 |
+| 位置 | `kubejs/assets/<模组 id>/lang/zh_cn.json`，一个模组一份；结构名单独放在 `kubejs/assets/structure_names/lang/zh_cn.json` |
 | 来源 | 星野夢華 (Hoshino Yumeka)《All the Mods 10 汉化补丁 —— 绿油油版》<https://github.com/chiba233/atm10-zh-cn>。该作品的译文含有 CFPA 社区翻译（Minecraft-Mod-Language-Package，<https://cfpa.site/>）的成分 |
 | 许可 | CC BY-NC-SA 4.0（署名、非商业性使用、相同方式共享） |
 | 使用方式 | 部分直接使用，部分按本整合包的用词改写 |
