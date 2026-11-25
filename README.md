@@ -91,6 +91,8 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 | **陌屿君** | 吉祥物：真的不在摸鱼！ |[Bilibili](https://space.bilibili.com/499977642)|
 | **其琛琛琛** | 吉祥物：给予蓝狼言语上的支持与鼓励 |[Bilibili](https://space.bilibili.com/541846318)|
 
+世界观与玩法的部分灵感来自**神秘时代（Thaumcraft）**，感谢它的开发者与社区。标题画面插画由**萧云**绘制，画中祭坛的形制参照**星辉魔法（Astral Sorcery）** 1.16.5 及更早版本中的五彩祭坛，未直接使用其贴图素材。第三方模组、汉化与贴图的完整来源与许可见 [THIRD-PARTY.md](THIRD-PARTY.md)。
+
 ## 授权｜License
 
 | 范围 | 许可 |

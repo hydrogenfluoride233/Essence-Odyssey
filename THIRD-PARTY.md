@@ -55,6 +55,12 @@ Botania License 的额外要求：署名 Vazkii、注明改动；使用方项目
 > 自然灵气 Nature's Aura、新生魔艺 Ars Nouveau、敌对神经网络 Hostile Neural Networks、
 > 工业先锋 Industrial Foregoing、ExtendedAE、应用能源2（AE2）。
 
+## 插画与美术
+
+| 位置 / 文件 | 来源 | 许可 | 使用方式 |
+|---|---|---|---|
+| 标题画面与 README 顶部的插画（`assets/essenceodyssey/textures/gui/main_base.png`、`main_cobalt.png`） | 萧云绘制 | 私稿交付作者，随核心模组 `essenceodyssey` 分发；绘者保留作品用于个人宣传的权利 | 画中祭坛的形制参照星辉魔法 Astral Sorcery 1.16.5 及更早版本的五彩祭坛，未直接使用其贴图素材 |
+
 ## 模组
 
 - 各模组版权归其作者，许可见各自的项目页。仓库里只有它们的 packwiz 记录（`mods/*.pw.toml`），jar 由同步脚本或启动器从 CurseForge 下载。
