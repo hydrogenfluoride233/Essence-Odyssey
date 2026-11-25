@@ -71,7 +71,7 @@ The developer documents are in Chinese:
 
 | Document | Contents |
 |---|---|
-| [同步说明](同步说明.md) (sync guide) | Run the latest development build: clone the repo, then run `sync-and-play.bat` (`sync-and-play.command` on macOS and Linux) to install every mod and config file into an instance |
+| [同步说明](.github/同步说明.md) (sync guide) | Run the latest development build: clone the repo, then run `sync-and-play.bat` (`sync-and-play.command` on macOS and Linux) to install every mod and config file into an instance |
 | [CONTRIBUTING](.github/CONTRIBUTING.md) | Which changes are accepted, how to write commit messages and PR descriptions, which files are not edited by hand |
 | [项目结构](.github/项目结构.md) (project layout) | What each folder holds, how the KubeJS scripts are organized and loaded, the packwiz manifest, which files are generated |
 | [THIRD-PARTY](THIRD-PARTY.md) | Sources and licenses of third-party translations and textures |

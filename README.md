@@ -69,7 +69,7 @@ CurseForge 项目页：<https://www.curseforge.com/minecraft/modpacks/essence-od
 
 | 文档 | 内容 |
 |---|---|
-| [同步说明](同步说明.md) | 跑最新的开发版：clone 仓库，用 `sync-and-play.bat`（macOS 与 Linux 用 `sync-and-play.command`）把模组和配置装进实例 |
+| [同步说明](.github/同步说明.md) | 跑最新的开发版：clone 仓库，用 `sync-and-play.bat`（macOS 与 Linux 用 `sync-and-play.command`）把模组和配置装进实例 |
 | [参与开发](.github/CONTRIBUTING.md) | 收哪些改动、提交信息与 PR 说明怎么写、哪些文件不手改 |
 | [项目结构](.github/项目结构.md) | 各目录放什么、KubeJS 脚本怎么组织与加载、packwiz 清单、哪些文件是生成的 |
 | [第三方内容与致谢](THIRD-PARTY.md) | 汉化、贴图等第三方内容的来源与许可 |
