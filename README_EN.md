@@ -40,7 +40,7 @@ Each dimension has its own way of yielding its aspect: interact with the dimensi
 
 ### Forms of an aspect
 
-Aspects start as solid crystals, then become liquid fluids and gaseous quintessence, with derived forms along the way: Nature's Aura tokens, Ars Nouveau essences, Neo Vitae inscription tools, and runes. Each form has its own way of being obtained and its own uses, and they open up layer by layer as you progress.
+Aspects start as solid crystals, then become liquid fluids and gaseous quintessence, with derived forms along the way: Nature's Aura tokens, Ars Nouveau essences, Neo Vitae inscription tools, and Botania runes. Each form has its own way of being obtained and its own uses, and they open up layer by layer as you progress.
 
 ### Secondary aspects
 
