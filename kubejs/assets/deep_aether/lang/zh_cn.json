@@ -133,5 +133,6 @@
   "config.deep_aether.common.gameplay.disable_golden_heights_biomes":"禁用辐金高地",
   "config.deep_aether.common.gameplay.disable_aerlavenender_field_biomes":"禁用薰衣草原野",
   "config.deep_aether.common.gameplay.disable_storm_cloud_and_skyroot_rainforest_biomes":"禁用云洋与雨林",
-  "config.deep_aether.common.gameplay.storm_cloud_biome_weight":"云洋群系权重"
+  "config.deep_aether.common.gameplay.storm_cloud_biome_weight":"云洋群系权重",
+  "structure.deep_aether.brass_dungeon":"黄铜地牢"
 }
