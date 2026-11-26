@@ -273,6 +273,22 @@ file = "config/appliedas-server.toml"
 hash = "06afb4178dee1e9f4a998ea36d845bdbc0b5f7a09d63dc2283c6b39ef2cf4b1b"
 
 [[files]]
+file = "config/appliedbotanicalmachinery/extramachinery/client.json5"
+hash = "80c2d61261edb5bccd7e8e07896f9a5016a34223a3f9b34c315a568cd45ca9d9"
+
+[[files]]
+file = "config/appliedbotanicalmachinery/extramachinery/server.json5"
+hash = "db0f93d498439fdff491bf8b3dccd6177586f3a88455f753b464377509b7c3ec"
+
+[[files]]
+file = "config/appliedbotanicalmachinery/machinery/client.json5"
+hash = "87700c0b066ef0ccbafb5cffa0fb5d9610eef68428a80774a822e372286635a0"
+
+[[files]]
+file = "config/appliedbotanicalmachinery/machinery/server.json5"
+hash = "ca8d006698d05818c044eb33e356b1d5597484cf089f1f3ed43efea0ea394b49"
+
+[[files]]
 file = "config/appliedcreate-server.toml"
 hash = "f16d955c552712daf5dbd0d16b8ba5db31c88005f3f70dbe773af4bb92573244"
 
@@ -1657,6 +1673,14 @@ file = "config/cristellib/auto_config_settings.json5"
 hash = "799173b66094a241753f41af672ddf22921ca206cb88f1966d31960c89c3f99a"
 
 [[files]]
+file = "config/cristellib/botania/structure_placement_config.json5"
+hash = "33303b6ab90c78105de6ca0e3541db49c016bb48e80481bcc3de68c635d14b34"
+
+[[files]]
+file = "config/cristellib/botania/structure_toggle_config.json5"
+hash = "aa83fb586be2d876d6363707ae786ab49ed2c1378b1c385fcace43a6caae31ef"
+
+[[files]]
 file = "config/cristellib/built_in_packs.json5"
 hash = "76120cb769b1303ffdbd30a197e01e69692a9c111eb818a3b5a5272925343364"
 
@@ -1715,6 +1739,14 @@ hash = "72c0cb2833e43e7b8b4bb7c7743d10375e83c54e3666c821d9164ba1b938e05d"
 [[files]]
 file = "config/cristellib/imst/structure_toggle_config.json5"
 hash = "1e136a73bca5bd84d79852bfbd2817f2c22d7db65342dcc38b509f2cb5cc0bdd"
+
+[[files]]
+file = "config/cristellib/masterfulbotany/structure_placement_config.json5"
+hash = "dc74917f3c0e6f0281729865240293451daa41b8831b867dd0151419bb1c1ff0"
+
+[[files]]
+file = "config/cristellib/masterfulbotany/structure_toggle_config.json5"
+hash = "7c70c6b0dd2d8f60eeaa478afed2f8d07de9724eb415de348327eb6a86321396"
 
 [[files]]
 file = "config/cristellib/repurposed_structures/structure_placement_config.json5"
@@ -2425,22 +2457,6 @@ file = "config/kjsae2bridge-server.toml"
 hash = "9a16a527238996575f1f3aeac23c8cc2869d7e9bf0e66ac4f154caa0ee69c92e"
 
 [[files]]
-file = "config/konkrete/locals/de_de.local"
-hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
-
-[[files]]
-file = "config/konkrete/locals/en_us.local"
-hash = "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
-
-[[files]]
-file = "config/konkrete/locals/pl_pl.local"
-hash = "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
-
-[[files]]
-file = "config/konkrete/locals/pt_br.local"
-hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
-
-[[files]]
 file = "config/lambdynlights.toml"
 hash = "20b1dc19f24ac6855ddb0c7bc74b66cf12695aed43d5abaf22d8908a600e4402"
 
@@ -2463,6 +2479,10 @@ hash = "93ab4ccc839e2041145e6aa46a88d7aa1dce3433c75cd8981b0b1122a5b239ca"
 [[files]]
 file = "config/lychee-common.yaml"
 hash = "eb6d83b30e2639c98d327e5c7a0f35699f56b42c4f3ec79e9fc7026e08c4189f"
+
+[[files]]
+file = "config/masterfulbotany.json5"
+hash = "a60fe155819ee2e9fbeeda25a7550d5a5fa39fab83e09116b098c7cfd5dfb9d3"
 
 [[files]]
 file = "config/megacells-common.toml"
@@ -3249,6 +3269,10 @@ file = "kubejs/assets/betteradvancements/lang/zh_cn.json"
 hash = "03b78d79a863f8a3f1bc3a0dcc9ff29f34492eb54da3a48513060586b072ff5d"
 
 [[files]]
+file = "kubejs/assets/biome_names/lang/zh_cn.json"
+hash = "9b06e56ec6d3a666f4e794ebefa53938dc6124220509a09a3dcea8d4858916c3"
+
+[[files]]
 file = "kubejs/assets/bookshelf/lang/zh_cn.json"
 hash = "6e87f8667af710ec731ce464cb47c6f4dc2d20fbad021e3b4535723a1469aac8"
 
@@ -3318,7 +3342,7 @@ hash = "38062de3181a3c59a2b7db70e3d037101f95ebf7a6c880dc9cc4900906423ad5"
 
 [[files]]
 file = "kubejs/assets/deep_aether/lang/zh_cn.json"
-hash = "119771845051726ef106f2b14d5fa1db8320cf5147af3df838abd92bde91e8a0"
+hash = "762dba121098481c81db8a10821de1dae07d453e81d3ec1176b5065f19a39df9"
 
 [[files]]
 file = "kubejs/assets/dungeons_arise/lang/zh_cn.json"
@@ -5537,6 +5561,10 @@ file = "kubejs/assets/sophisticatedbackpacks/lang/zh_cn.json"
 hash = "0f8c100e8e649bc4772c9fe38ba20fcc4f1a9b991bb6ae99332d6acf673fb806"
 
 [[files]]
+file = "kubejs/assets/structure_names/lang/zh_cn.json"
+hash = "35f19ec3f1735e0911a78cb8a6bef45de39df75fb19b92f8955674a7f2a5455d"
+
+[[files]]
 file = "kubejs/assets/supermartijn642corelib/lang/zh_cn.json"
 hash = "67110f09eb8ac2eef11a7c685b0a1fd4d0d13a75e825cfd808598ac8da733919"
 
@@ -7119,8 +7147,8 @@ hash = "5b4cf86b180698a378f64acb7a95cdb1c119b8486a8b9f280232b48cb4e5f294"
 metafile = true
 
 [[files]]
-file = "mods/essenceodyssey-build.27.jar"
-hash = "e3abfb085d7cfaf5967dde5d7b6cd07ba29f4bbf503a9cf6391fc8ade75f28ab"
+file = "mods/essenceodyssey-build.41.jar"
+hash = "695914213cdd50656834c4a423dbcbc3b5625c03b20f734d36c74e4b94ce1b56"
 
 [[files]]
 file = "mods/eternal-starlight-delight.pw.toml"
@@ -7434,12 +7462,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei-commands.pw.toml"
-hash = "b0c9ad6b839a7edf8f14f1d525c3d45161b60f9fd5a6fd72abb45ceddb0e32bc"
+hash = "5a97be0d3860a57505372a58d7d78fa447ffdc6e471b99f21f9a300800b409c7"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "75c8544ee70cd8b0549e429a0c08bd5c1c20f97fc6bb15d30fdd98677a657cef"
+hash = "efa9eedb3cf2d0d531f6fe4bd711075f42eed6ad188cf5f2d8fccb417127a52c"
 metafile = true
 
 [[files]]
@@ -7904,7 +7932,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "e9ae31ca87412a2a03b00a13e0c73ac122cad510c8cb9b93511345cc15d91ee1"
+hash = "0660d69fb12a906793231ea44c259eb79deda2ae59c717edf9f4d219dea35d18"
 metafile = true
 
 [[files]]
@@ -7929,7 +7957,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "0447d55854524a0dc6d2fc53a7c30a1effb7879d60387c63da886246a1cc2953"
+hash = "a990835db9226db635ac9a48643ccc434358d4e7194df38abdae1680fda73ac6"
 metafile = true
 
 [[files]]
@@ -7979,7 +8007,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "b9d2d9c361ac465b572b7f010fc4ef1f91ef168fbc8d2591317e951aa569ee29"
+hash = "7dc8a391c1349fdc61e8e585ece70ebcb8ad85b6adfc584780d4ceca2ed758f0"
 metafile = true
 
 [[files]]
@@ -7989,7 +8017,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "3fc6fd4a464740bd6cfe89571517cfda837dbad69f0218ef1159b527b1be45d6"
+hash = "7def5310fc0e0a05419a690301a07c5348619295968f674fc0943a3b3f715da2"
 metafile = true
 
 [[files]]
@@ -7999,7 +8027,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "6e4c5fb1ca897711ace004954446cabae0a1b84d228202d46092e5b6f59a3315"
+hash = "1828dc11ca2009d47d05737794fbf84029216691679182c90e4f36c828dd6380"
 metafile = true
 
 [[files]]
@@ -8009,7 +8037,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "91987e941f5545bc14854e8f44d8cff78486a272ca5822275a5424b23d14f679"
+hash = "bfd7c76112282a9fff343cbd91c7c95f814b88705309b95aebea60e89a95fb25"
 metafile = true
 
 [[files]]
@@ -8129,7 +8157,7 @@ metafile = true
 
 [[files]]
 file = "mods/zeta.pw.toml"
-hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
+hash = "b0a76eb179a5e3d6beb8704f07e587d0c29ce1b1bf256d53a05be41adfdf87d5"
 metafile = true
 
 [[files]]
