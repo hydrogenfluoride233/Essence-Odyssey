@@ -1181,10 +1181,6 @@ file = "config/attributefix/ars_nouveau/sauce.perk.water_resistance.json"
 hash = "87c6aac345f0cd047dc39032c31cc02aea54e04bf8420fcbeff50c0d7e53dd20"
 
 [[files]]
-file = "config/attributefix/botania/pixie_spawn_chance.json"
-hash = "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535"
-
-[[files]]
 file = "config/attributefix/botanypots/growth.json"
 hash = "1d756e18fecb9d13b75a7022c006b3c995d5acfcf08180effc604d672a23de29"
 
