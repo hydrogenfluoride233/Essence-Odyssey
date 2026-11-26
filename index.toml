@@ -273,22 +273,6 @@ file = "config/appliedas-server.toml"
 hash = "06afb4178dee1e9f4a998ea36d845bdbc0b5f7a09d63dc2283c6b39ef2cf4b1b"
 
 [[files]]
-file = "config/appliedbotanicalmachinery/extramachinery/client.json5"
-hash = "80c2d61261edb5bccd7e8e07896f9a5016a34223a3f9b34c315a568cd45ca9d9"
-
-[[files]]
-file = "config/appliedbotanicalmachinery/extramachinery/server.json5"
-hash = "db0f93d498439fdff491bf8b3dccd6177586f3a88455f753b464377509b7c3ec"
-
-[[files]]
-file = "config/appliedbotanicalmachinery/machinery/client.json5"
-hash = "87700c0b066ef0ccbafb5cffa0fb5d9610eef68428a80774a822e372286635a0"
-
-[[files]]
-file = "config/appliedbotanicalmachinery/machinery/server.json5"
-hash = "ca8d006698d05818c044eb33e356b1d5597484cf089f1f3ed43efea0ea394b49"
-
-[[files]]
 file = "config/appliedcreate-server.toml"
 hash = "f16d955c552712daf5dbd0d16b8ba5db31c88005f3f70dbe773af4bb92573244"
 
@@ -1673,14 +1657,6 @@ file = "config/cristellib/auto_config_settings.json5"
 hash = "799173b66094a241753f41af672ddf22921ca206cb88f1966d31960c89c3f99a"
 
 [[files]]
-file = "config/cristellib/botania/structure_placement_config.json5"
-hash = "33303b6ab90c78105de6ca0e3541db49c016bb48e80481bcc3de68c635d14b34"
-
-[[files]]
-file = "config/cristellib/botania/structure_toggle_config.json5"
-hash = "aa83fb586be2d876d6363707ae786ab49ed2c1378b1c385fcace43a6caae31ef"
-
-[[files]]
 file = "config/cristellib/built_in_packs.json5"
 hash = "76120cb769b1303ffdbd30a197e01e69692a9c111eb818a3b5a5272925343364"
 
@@ -1739,14 +1715,6 @@ hash = "72c0cb2833e43e7b8b4bb7c7743d10375e83c54e3666c821d9164ba1b938e05d"
 [[files]]
 file = "config/cristellib/imst/structure_toggle_config.json5"
 hash = "1e136a73bca5bd84d79852bfbd2817f2c22d7db65342dcc38b509f2cb5cc0bdd"
-
-[[files]]
-file = "config/cristellib/masterfulbotany/structure_placement_config.json5"
-hash = "dc74917f3c0e6f0281729865240293451daa41b8831b867dd0151419bb1c1ff0"
-
-[[files]]
-file = "config/cristellib/masterfulbotany/structure_toggle_config.json5"
-hash = "7c70c6b0dd2d8f60eeaa478afed2f8d07de9724eb415de348327eb6a86321396"
 
 [[files]]
 file = "config/cristellib/repurposed_structures/structure_placement_config.json5"
@@ -2479,10 +2447,6 @@ hash = "93ab4ccc839e2041145e6aa46a88d7aa1dce3433c75cd8981b0b1122a5b239ca"
 [[files]]
 file = "config/lychee-common.yaml"
 hash = "eb6d83b30e2639c98d327e5c7a0f35699f56b42c4f3ec79e9fc7026e08c4189f"
-
-[[files]]
-file = "config/masterfulbotany.json5"
-hash = "a60fe155819ee2e9fbeeda25a7550d5a5fa39fab83e09116b098c7cfd5dfb9d3"
 
 [[files]]
 file = "config/megacells-common.toml"
