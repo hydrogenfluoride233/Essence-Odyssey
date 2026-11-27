@@ -10,7 +10,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:8af6e9bb-e006-4d67-b3ed-a83f113f5a2c-1795410399554] = [groups:][instances:3f0c1a2b-0000-4000-8000-0000000e0e01-1795112400001;]
+  [loading_requirement_container_meta:a92969f3-d784-4476-b80e-6913244a9764-1795771513997] = [groups:][instances:3f0c1a2b-0000-4000-8000-0000000e0e01-1795112400001;]
   [loading_requirement:fancymenu_loading_requirement_file_exists][requirement_mode:if][req_id:3f0c1a2b-0000-4000-8000-0000000e0e01-1795112400001] = config/fancymenu/egg/unlocked
 }
 
@@ -135,6 +135,7 @@ decoration_overlay {
   overlay_type = browser
   instance_identifier = e01c1ad0-a6a0-46a3-a7fb-3c94fea18c74-1795107582619
   show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
   url = https://www.curseforge.com/minecraft
   consume_mouse_clicks = true
   consume_mouse_scrolls = true
@@ -152,6 +153,7 @@ decoration_overlay {
   overlay_type = glsl
   instance_identifier = c828672c-d964-4dc2-aef9-30cc250eb910-1795107582619
   show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
   inline_shader_source = 
   buffer_a_inline_source = 
   buffer_b_inline_source = 
@@ -189,9 +191,33 @@ decoration_overlay {
 }
 
 decoration_overlay {
+  overlay_type = shooting_stars
+  instance_identifier = 5fc22b6b-bcf3-47ac-8829-4e258f19dfc7-1795771514000
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+}
+
+decoration_overlay {
+  overlay_type = aurora
+  instance_identifier = 7429ce6c-a31c-4844-84cd-0e6a8044b97a-1795771514000
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  edge_color = #58F2A2
+  tip_color = #AA52BC
+}
+
+decoration_overlay {
+  overlay_type = clouds
+  instance_identifier = 02ce4a71-ffc8-4425-87ae-f05df2c80095-1795771514000
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+}
+
+decoration_overlay {
   overlay_type = buddy
   instance_identifier = da835974-7935-402a-b445-2c2c0bc6aaa3-1795107582619
   show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
   buddy_hunger_decay_per_tick = 0.005
   buddy_happiness_decay_per_tick = 0.003
   buddy_fun_decay_per_tick = 0.002
@@ -222,6 +248,10 @@ decoration_overlay {
   overlay_type = string_lights
   instance_identifier = dcab6155-545b-4c41-b3d5-83664d69cfb0-1795107582620
   show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  look = simple
+  string_lights_pine_garland = false
+  string_lights_program = on
   string_lights_scale = 1.0
   string_lights_wind_strength = 1.0
   string_lights_flicker_speed = 1.0
@@ -287,9 +317,10 @@ decoration_overlay {
   overlay_type = fireworks
   instance_identifier = 2d2ce2a4-cef0-426c-8398-3967efc07eb7-1795107582620
   show_decoration_overlay = false
-  fireworks_scale = 1.0
+  decoration_overlay_layers = background_and_foreground
+  amount = 100
+  size = 1
   fireworks_explosion_size = 1.0
-  fireworks_amount = 1.0
   fireworks_show_rockets = true
 }
 
@@ -297,8 +328,9 @@ decoration_overlay {
   overlay_type = snowfall
   instance_identifier = 92535e71-417d-49fc-b464-3b399f6c937b-1795107582620
   show_decoration_overlay = false
-  snow_intensity = 1.0
-  snow_scale = 1.0
+  decoration_overlay_layers = background_and_foreground
+  amount = 100
+  size = 1
   snow_speed = 1.0
   snow_accumulation = true
   snow_color_hex = #FFFFFF
@@ -308,8 +340,9 @@ decoration_overlay {
   overlay_type = rainfall
   instance_identifier = 8d9715fb-08ed-48b3-a513-03039dd4652f-1795107582620
   show_decoration_overlay = false
-  rain_intensity = 1.0
-  rain_scale = 1.0
+  decoration_overlay_layers = background_and_foreground
+  amount = 100
+  size = 1
   rain_thunder_brightness = 1.0
   rain_puddles = true
   rain_drips = true
@@ -321,6 +354,9 @@ decoration_overlay {
   overlay_type = fireflies
   instance_identifier = 83260704-2862-4617-98d8-8c3d840e725d-1795107582620
   show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  look = simple
+  firefly_unlit_bodies = false
   firefly_group_density = 1.0
   firefly_group_amount = 1.0
   firefly_group_size = 1.0
@@ -331,9 +367,55 @@ decoration_overlay {
 }
 
 decoration_overlay {
+  overlay_type = sky_lanterns
+  instance_identifier = 48d319cb-a9af-4ba0-ae86-edae413190fe-1795771514001
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  amount = 100
+  size = 1
+}
+
+decoration_overlay {
+  overlay_type = butterflies
+  instance_identifier = e3083604-a9b3-48e9-9710-afe51633afb5-1795771514001
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  amount = 100
+  size = 1
+}
+
+decoration_overlay {
+  overlay_type = birds
+  instance_identifier = 629f627f-6adc-4202-b553-56b3c6b35248-1795771514001
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  amount = 100
+  size = 1
+}
+
+decoration_overlay {
+  overlay_type = bats
+  instance_identifier = 67f5107e-20f6-4674-aa1c-4d05b1cb1a99-1795771514001
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  amount = 100
+  size = 1
+}
+
+decoration_overlay {
+  overlay_type = bubbles
+  instance_identifier = 247e074e-2270-465c-8225-24a7a60a63ee-1795771514001
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+}
+
+decoration_overlay {
   overlay_type = leaves
   instance_identifier = e15f0430-3f74-4f9d-9f0a-3da140d7a878-1795107582620
   show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  look = detailed
+  leaves_colors = autumn_mix
   leaves_density = 1.0
   leaves_wind_intensity = 1.0
   leaves_wind_blows = true
@@ -344,17 +426,96 @@ decoration_overlay {
 }
 
 decoration_overlay {
+  overlay_type = cherry_blossoms
+  instance_identifier = 44f80b6b-fe2f-440a-abcb-df8ac3bbf5e9-1795771514001
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  look = detailed
+  cherry_blossoms_left_branch = true
+  cherry_blossoms_right_branch = true
+  amount = 100
+}
+
+decoration_overlay {
   overlay_type = confetti
   instance_identifier = 0e4053dc-b1ef-4d30-9f3b-521a511ee56b-1795107582620
   show_decoration_overlay = false
-  confetti_scale = 1.0
+  decoration_overlay_layers = background_and_foreground
+  amount = 100
+  size = 1
+  confetti_poppers = true
+  confetti_click_bursts = true
   confetti_fall_speed = 1.0
-  confetti_burst_density = 1.0
-  confetti_burst_amount = 1.0
   confetti_particle_cap = 500
   confetti_color_mix_mode = true
-  confetti_mouse_click_mode = false
   confetti_color_hex = #FFFFFF
+}
+
+decoration_overlay {
+  overlay_type = embers
+  instance_identifier = f2e2039f-ebc6-4bfc-a61f-648c533d1363-1795771514002
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  ash_on_floor = true
+  ash_on_elements = true
+}
+
+decoration_overlay {
+  overlay_type = fog
+  instance_identifier = dd47ae68-b5be-48c0-94a4-7054767e7b79-1795771514002
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  clear_around_pointer = true
+}
+
+decoration_overlay {
+  overlay_type = sunbeams
+  instance_identifier = 044ea5d4-2954-4105-96e6-af224a5a6ea2-1795771514002
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  sun_side = top
+  sun_angle = -50
+  sun_color = #FFE9A6
+  sun_intensity = 100
+  sun_glow = true
+  dust = true
+  hit_elements = true
+}
+
+decoration_overlay {
+  overlay_type = overgrowth
+  instance_identifier = 2029a53e-e90b-4dec-8375-393386976968-1795771514002
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  grass = true
+  left_vines = true
+  right_vines = true
+  on_elements = true
+  flowers_on_vines = true
+  flowers_on_elements = true
+  flowers_in_grass = true
+  flower_amount = 25
+}
+
+decoration_overlay {
+  overlay_type = cobwebs
+  instance_identifier = 62e17677-8f75-47cf-923e-17f93b63bc8f-1795771514002
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  left_web = true
+  right_web = true
+  spiders = true
+  closed_front = false
+}
+
+decoration_overlay {
+  overlay_type = frost
+  instance_identifier = 1b8e034d-f93d-4642-85b2-725d83d268e1-1795771514002
+  show_decoration_overlay = false
+  decoration_overlay_layers = background_and_foreground
+  screen_edges = true
+  corners = true
+  on_elements = true
 }
 
 screen_audio_settings {
