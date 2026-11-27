@@ -89,6 +89,7 @@
 		"Here, a Bottle and Cork collects Bottled Dawn."
 	]
 	quest.0258FA1C2F0406EA.title: "Visit the Aether"
+	quest.0285D9D3BFC5CBEA.title: "Electricity and Heat"
 	quest.02CA2F9CD0E2AE8A.quest_desc: [
 		"&oYour fingers tingle strangely as you handle the amethyst shard. What does that mean?&r"
 		""
@@ -103,6 +104,7 @@
 		"Here, a Bottle and Cork collects Bottled Ghosts."
 	]
 	quest.031C571BBFFCE0B6.title: "Visit the Nether"
+	quest.03D6F2CF2AF87190.title: "Reactor"
 	quest.0447158FB18F70D5.quest_desc: [
 		"The Inscriber Press can no longer come from the Mysterious Cube — &myou cannot even break the Mysterious Cube.&r"
 		"The channel count in this modpack is twice the default."
@@ -138,6 +140,7 @@
 		"What remains is the Fire Essence: it no longer remembers what it burned, only &#FF5A01releasing&r, &#FF5A01transforming&r, &#FF5A01burning&r."
 	]
 	quest.08C5BA5D71D244AF.title: "Fire Essence"
+	quest.094F8DB5315BE376.title: "Electricity and Essentia Vitae"
 	quest.096875F870AB8F0B.quest_desc: [
 		"The Industrial Squeezer uses a large piston to &asqueeze&r juice or oil out of organic materials."
 		""
@@ -154,6 +157,7 @@
 		""
 		"&a&lGo and find one&r — it will show you a &adimension lit by starlight&r."
 	]
+	quest.0A77FB1F1C2DB56B.title: "Elevator"
 	quest.0AD91A5126496988.quest_desc: [
 		"&o&7You still cannot say what these things in your hands are. You only followed the notebook and did it once.&r"
 		""
@@ -215,12 +219,14 @@
 		""
 		"But Aether tools of different materials each carry quirks of their own."
 	]
+	quest.0E1DB2F236A70179.title: "Electricity and Pressure"
 	quest.0EAD190E24BC4DAD.quest_desc: [
 		"The &aMixer&r dissolves solids into fluids, mixing them together."
 		""
 		"The things it can make include... &achocolate&r?"
 	]
 	quest.0EAD190E24BC4DAD.title: "Mixer"
+	quest.0F52CE10BD2F157D.title: "Magmator"
 	quest.0F98658FB39A828A.quest_desc: ["Once awake, the Eye of the Storm flies in a wavy path above the central courtyard. When any part of its body is destroyed it &asplits&r into independent parts that attack on their own; when the head is destroyed, the rest of the body stiffens for a moment, then becomes the new head."]
 	quest.0FF0A4AD565E2758.quest_desc: [
 		"&aEnder Golems&r sleep on the first and second floors of the Ruined Citadel, standing guard. The moment intruders appear, they wake and fight."
@@ -378,6 +384,7 @@
 		""
 		"Above the courtyard coils the storm imprisoned here, keeper of the Brass Key: &athe Eye of the Storm&r."
 	]
+	quest.1B4A781639CD6512.title: "Construction Sticks"
 	quest.1B4EBBF517C2C707.quest_desc: [
 		"Fear takes root in the dark and grows into terror."
 		""
@@ -454,7 +461,7 @@
 		""
 		"&oSo now you have electricity: a universal conversion node that unifies every kind of “energy”, and something you can feed into a grid and carry far away. It will get a chapter of its own later.&r"
 	]
-	quest.236B9D3A654D936D.title: "Power Generation and Use"
+	quest.236B9D3A654D936D.title: "The Electric Age"
 	quest.23801395A0C28C71.quest_desc: [
 		"&oThe rune altar writes the aspect down — not into a bottle, but into a rule you can carry and call upon.&r"
 		""
@@ -484,8 +491,11 @@
 		"Immerse an aspect crystal in liquid source, and you will obtain &l&n&aaspect fluid&r."
 		""
 		"Once it has soaked a crystal, the source loses its colour and rises as a wisp of pale smoke, gone into the air."
+		""
+		"&oYou have made the second material form of the aspects; more of their secrets, and of this world's, are unfolding before you a little at a time.&r"
 	]
 	quest.2740A375D6EBCB05.title: "Aspect Fluid Buckets"
+	quest.27AE0FD323DF2FD0.title: "Furnator"
 	quest.27F647FAFC46B251.quest_desc: [
 		"The &aAbyssal Sacrifice&r is used to summon the Leviathan."
 		""
@@ -501,13 +511,13 @@
 		""
 		"&o&7When I woke up I tried to reproduce the recipe, and so I got a pinch of faintly glowing powder.&r"
 		""
-		"Salis Mundus — Thaumaturge's Salt, as it is more commonly known — is not any one aspect; it is their reconciler: like salt in the mundane world, it has no taste of its own, yet it lets the most distant aspects share the same thing."
+		"Salis Mundus is not any one aspect; it is their reconciler: like salt in the mundane world, it has no taste of its own, yet it lets the most distant aspects share the same thing."
 	]
 	quest.2A0D63839EC06CB6.title: "Salis Mundus"
 	quest.2A90934B95C717BC.quest_desc: [
 		"A forest ritual uses the properties of gold to imbue a living, growing sapling with the strength of its ingredients. The materials you offer \"describe\" to the sapling the rule you wish to reproduce or transform, and Gold Powder uses that still-growing life to write the description back into reality."
 		""
-		"To perform a forest ritual you need Gold Powder. Your first batch comes from a &afalling Anvil&r striking Gold Leaf. You will also need Wooden Stands, obtained by right-clicking a stripped Oak Log with Brilliant Fiber on a &aCutting Board&r."
+		"To perform a forest ritual you need Gold Powder. Your first batch comes from a &afalling Anvil&r striking Gold Leaf. You will also need Wooden Stands, obtained by right-clicking a stripped Oak Log with Brilliant Fiber."
 	]
 	quest.2A90934B95C717BC.title: "Ritual of the Forest"
 	quest.2B008EB17CABF755.quest_desc: [
@@ -595,6 +605,8 @@
 		"Welcome to the &aTwilight Forest&r, a forest world wrapped in eternal night."
 		""
 		"&oA very prosperous civilisation once grew here, though you never got to see it. Now eternal night lies over the land, and all that is left are ruins, lush trees and strange creatures.&r"
+		"{@pagebreak}"
+		"&oNote: ore generation in the Twilight Forest's mines has been changed. Ores are now far more varied, and their generation weights have been raised noticeably.&r"
 	]
 	quest.31208139567F93AE.quest_desc: [
 		"&o&6\"Through others, find yourself.\"&r"
@@ -756,7 +768,7 @@
 		"&oPretty cool, right?&r"
 	]
 	quest.3F64EB93903B0250.quest_desc: [
-		"Corundum can be found underground in large patches, and usually generates as two colors together. It can be &aconverted&r into other colors in an Imbuement Chamber."
+		"Corundum can be found in large patches in the shallow underground of the &aOverworld&r (Y 0 to 64, non-ocean biomes), and usually generates as two colours together. It can be &aconverted&r into other colours in an Imbuement Chamber."
 		""
 		"When placed low underground, corundum slowly grows upward (not all that slowly, actually?) and comes with a few corundum clusters."
 	]
@@ -812,7 +824,7 @@
 	quest.4363AE8363EC43A6.quest_desc: [
 		"Some recipes can only be made on a &aMechanical Crafter&r; a crafting table cannot handle them."
 		""
-		"&oEspecially the small gadgets: some of them need a Mechanical Crafter. Check this card's follow-up quests to see which.&r"
+		"&oSome of the small gadgets need a Mechanical Crafter in particular, as told in the \"Nifty Gadgets\" chapter.&r"
 	]
 	quest.4363AE8363EC43A6.title: "Mechanical Crafter"
 	quest.44B6CBFAD6C215C0.quest_desc: ["The Twilight Forest portal can be any shape you like: as long as there are &aat least four&r connected water source blocks, every grass block next to them has a &aplant&r on it, and you throw in a &adiamond&r, the portal opens."]
@@ -837,7 +849,7 @@
 		"&#FFFF7EAir&r lets life feel light — euphoria is light enough to forget that it still has to land."
 	]
 	quest.477C7D68B338367C.quest_desc: ["Andesite Alloy is made from &aAndesite&r and an &aIron Ingot&r or a &aZinc Ingot&r. It is lighter than iron, yet it carries rotation steadily."]
-	quest.477C7D68B338367C.title: "Andesite Alloy"
+	quest.477C7D68B338367C.title: "The Andesite Age"
 	quest.47B79E15AB741060.quest_desc: ["Give the Automated Engineer's Workbench &amaterials&r and &apower&r, and it will assemble the selected item automatically, following the instructions set in the &ablueprint&r."]
 	quest.47B79E15AB741060.title: "Automated Engineer's Workbench"
 	quest.47FCF20CC8A5E09D.quest_desc: ["Place a &aCarved Lunaris Cactus Fruit&r on a &aBlock of Aethersent&r to summon an &aAethersent Golem&r; it intercepts meteors falling to the ground and keeps them from destroying buildings on the surface."]
@@ -862,6 +874,7 @@
 		"Right-click the &aAltar of Fire&r at the centre of the Burning Arena's top floor with a &aBurning Ashes&r to summon Ignis."
 	]
 	quest.4882FCF67676C010.title: "Trial of Ignis"
+	quest.4920E66F0E157926.title: "Beneath the Stars"
 	quest.499464A11D38D71F.quest_desc: [
 		"Drop &aSteel Ingots&r on the ground and set off an &aexplosion&r next to them, and you get &m&oCompressed Steel Ingots&r&aCompressed Iron Ingots&r."
 		""
@@ -901,6 +914,7 @@
 		"Once the Starlight Golem is &aat or below 20% health&r it loses the invulnerability and never switches states again; from then on you can hurt it with normal attacks."
 	]
 	quest.4CF8C2A8077F34B8.title: "Kill the Starlight Golem"
+	quest.4D55DD74B097B6DE.title: "Diesel Generator"
 	quest.4D69672AA9A6CB0D.quest_desc: [
 		"Sunken in the Sea rises from the deep &aOverworld&r ocean — an ancient ruin of masterful craft."
 		""
@@ -994,6 +1008,7 @@
 	]
 	quest.56952889BA57C65D.title: "Trial of the Ancient Remnant"
 	quest.571009D6DC3766FA.quest_desc: ["Sterling Aercloud generates &lvery rarely&r high in the Aether's &asky&r &o(roughly y≥200)&r; enchanting it gives &aChromatic Aercloud&r, an important crafting material."]
+	quest.572DA574E340A229.title: "Building Gadget"
 	quest.5781F26291987E67.quest_desc: [
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
 		""
@@ -1011,6 +1026,7 @@
 		""
 		"Three materials and the Water Essence carve this one stroke: from now on, &#3EDCFFflowing&r itself can be called up by ritual."
 	]
+	quest.5873288A13B6DEDC.title: "Solar Panel"
 	quest.5971AA7E8234AA79.quest_desc: [
 		"The Pressure Chamber is a multiblock structure that compresses all sorts of materials into other materials."
 		""
@@ -1031,6 +1047,8 @@
 		"Give the Atomic Reconstructor power and it fires a laser straight ahead, &aconverting&r blocks and dropped items. Fit a lens to it and it can do some special things as well."
 		""
 		"&oIt can be used to make &aBotany Pots&r&o; see the \"Resource Production\" chapter.&r"
+		""
+		"&oHint: let gel spread to &aredstone ore&r&o to get &ared crystal clusters&r&o. Break them for &ared crystal shards&r&o, which craft into &ared crystals&r&o. Other crystals can be obtained in much the same way.&r"
 	]
 	quest.5CB6EA2A68A9037C.quest_desc: ["The Improved Blast Furnace supports &aautomated input and output&r, and adding &aBlast Furnace Preheaters&r speeds up refining."]
 	quest.5CB6EA2A68A9037C.title: "Improved Blast Furnace"
@@ -1118,6 +1136,7 @@
 		"Note that it cannot handle &aSteel Ingots&r; you will need another way."
 	]
 	quest.6256F04D11B48E39.title: "Mechanical Press"
+	quest.62FFB5BB68CF11F3.title: "Electricity and Stress"
 	quest.636F2AFB3BF2AC31.quest_desc: [
 		"&aThe Enchanting Apparatus&r is crafted from six kinds of essence in a forest ritual."
 		""
@@ -1126,6 +1145,7 @@
 		"&o&mIt is basically a forest ritual with more particle effects (?)&r&r"
 	]
 	quest.636F2AFB3BF2AC31.title: "Enchanting Apparatus"
+	quest.6382FF32C9CD4C98.title: "Construction Stick Templates"
 	quest.64DDBFEA863697E9.quest_desc: [
 		"The Metal Press uses &aMetal Press Molds&r to shape metal automatically, and that includes all kinds of &agears&r."
 		""
@@ -1372,6 +1392,7 @@
 		"Graphite Electrodes are made in the &aBottling Machine&r."
 	]
 	quest.796BB04761A96F35.title: "Arc Furnace"
+	quest.7B395641661FEA69.title: "Heat Generator"
 	quest.7BF679E3CD97A80C.quest_desc: [
 		"Sorrow settling down becomes grief."
 		""
@@ -1422,6 +1443,7 @@
 		""
 		"Defeat the &aSnow Queen&r at its summit, and the night sky over the Twilight Forest will clear again."
 	]
+	quest.7DD5555C7BFD4CB4.title: "Advanced Beehive"
 	quest.7F2312EB5A2653DB.quest_desc: ["In the Twilight Forest, right-click the Liveroot or a similar block with an Amethyst Shard."]
 	quest.7F56175670CB6E0A.quest_desc: ["Drop an Amethyst Shard into the End portal."]
 	quest.7F6334C85D5A5471.quest_desc: ["Obtained by smelting the &aPhoenix set&r from the Gold Dungeon."]
@@ -1442,50 +1464,94 @@
 	reward_table.23FDF0DD49F0C68C.title: "Animal Hats"
 	task.017094576C18CECC.title: "Ancient Factory"
 	task.0390B733337F5E49.title: "Sorry, I never fought it — I skipped that lesson."
+	task.05DB781177E618DA.title: "Visit the Aether"
+	task.0774830FD378BC5B.title: "Meteorite Legacy"
 	task.079409CB98664CBD.title: "A New Beginning"
 	task.08F0431A709F7E4D.title: "The Six Primary Aspects"
 	task.0C3BC7C3DCD4C737.title: "The Aether"
+	task.0CE38A58F6210D0C.title: "Building Tip"
+	task.0DB4F6E60318D8B1.title: "Building Tip"
+	task.0F338206D30B91F4.title: "Energizing Rod"
+	task.0FE69EFC07C3F37B.title: "Visit the Silver Dungeon"
+	task.10592E63525168AF.title: "Power Generation"
 	task.120E8C85FA885441.title: "The Soul Forge"
 	task.13DB2DD657514650.title: "The End"
+	task.13EF709CBBE409AD.title: "Visit the Twilight Forest"
 	task.163F9DDC61A2D8AC.title: "The Acropolis"
 	task.17650FBCBA1450E9.title: "Expedition"
+	task.1B57E58F7EDECB52.title: "Building Tip"
 	task.203A163FC71A00FC.title: "Desert Pyramid Revamped"
+	task.21A3F76B869C1860.title: "Observe: Automated Engineer's Workbench"
 	task.2305198079015D3A.title: "Find a Meteor"
+	task.24999E6DE4A1459F.title: "Visit the Bronze Dungeon"
 	task.24FE31B570989116.title: "The Change"
 	task.26F5A19DA793B3CA.title: "About Max Health"
+	task.2811D6BF31B7B7D5.title: "Reactor"
+	task.28F99E7393821F8D.title: "Building Tip"
+	task.28FCFA1AAE2720F6.title: "Visit the Brass Dungeon"
+	task.2A26FA2C6E957BAD.title: "Observe: Diesel Generator"
+	task.2AEC8E8240A9E4C3.title: "Building Tip"
 	task.2C0E687C81089841.title: "Aura Production"
+	task.2F25F6E4CB25B4AC.title: "Aether Tools"
 	task.30303ED505A60181.title: "Introduction"
+	task.34B7BAC412F11B4E.title: "Building Tip"
 	task.36D154543D52C43C.title: "Before You Set Out"
 	task.37D4E500A111FB20.title: "The Overworld"
 	task.38AE5723BB37D6C0.title: "Technology, Magic and Adventure"
+	task.39A2325FAF2E2751.title: "Aether Wood"
 	task.3CB8637FDDD6572D.title: "Answering the World"
 	task.3E0363DC50992287.title: "Something from Beyond"
 	task.3E4FC7B25118CFC6.title: "Observe: Industrial Squeezer"
+	task.3E5813B97646AAA7.title: "Building Tip"
+	task.3ECC9EE3E94A8433.title: "Aether Portal"
+	task.4169278B721935AA.title: "Twilight Forest Portal"
+	task.42EBA5EE46BD6229.title: "Parallel Controller"
+	task.42FC38BAB37B938E.title: "Building Tip"
 	task.4949CEE6599F4ECE.title: "The Twilight Forest"
+	task.4957F257EAD47780.title: "Building Tip"
+	task.4B29AE92649276BC.title: "Advanced Compressors"
 	task.4C19EFA8BF153159.title: "Getting to Know This World"
 	task.4C3D832DFA013D0A.title: "Jail of Cold"
 	task.4E664F0AFCBB4293.title: "The Beginning"
+	task.4EC3AB0EF207BB8D.title: "Solar Panel"
 	task.4F2A964E7E3DFD96.title: "Sunken in the Sea"
 	task.4F45886C24B2B9F2.title: "Building Tip"
+	task.4FE49AA5D75A0251.title: "Observe: Improved Blast Furnace"
 	task.4FF759267D5261E9.title: "Sourcelink"
+	task.5140F85B109430DF.title: "Building Tip"
 	task.522CD557B868AC9D.title: "Unknown Mixture"
+	task.524B216B8280FA17.title: "A New Page"
 	task.52F7FD6FA9E4B929.title: "Claim a Music Disc"
 	task.53413AAB9034897F.title: "Sorry, I never used this one — I fear nothing."
+	task.538FBEF22D552E2A.title: "Magmator"
+	task.58FBFED05322F7D4.title: "Immersive Engineering"
+	task.58FC5CA8599FE323.title: "Visit the Gold Dungeon"
+	task.5B866B1F475CB069.title: "About the Default Configuration"
 	task.5BFC72D203F93BB1.title: "Sorry, I never fought it — I skipped that lesson."
 	task.5E4A7D672CE7EB31.title: "Observe: Bottling Machine"
 	task.5FFB3987D788C033.title: "Eternal Starlight"
 	task.602D6817A35C870F.title: "Observe: Refinery"
+	task.60717A642114EFAD.title: "Building Tip"
 	task.61D450BF8318F2E6.title: "An Unsolved Mystery"
 	task.61DE08540FEA7353.title: "Observe: Arc Furnace"
+	task.636B4278F491A81C.title: "About the Quest Book"
+	task.63AF354B2500B7C6.title: "Basic Compressors"
 	task.63B2FB528FF866BD.title: "Sorry, I never fought it — I skipped that lesson."
 	task.652218963A103A1D.title: "The Nether"
+	task.65587729DFF5CEC4.title: "Observe: Mixer"
 	task.6634D131AE9072E3.title: "Observe: Industrial Fermenter"
+	task.6A61A658028B8319.title: "Electricity and Magic"
 	task.6E927BFCDAC25C8F.title: "Observe: Metal Press"
 	task.7008DF5E949ABB24.title: "Observe: Crusher"
+	task.7012B85CD37949F4.title: "Powah"
+	task.711CD8793E8BFC7B.title: "Furnator"
 	task.71C8B83C37C6DF3B.title: "Strange \"Dreams\""
+	task.7364963D50029ACA.title: "Building Tip"
 	task.73B7DE094D9C8EE8.title: "AE2"
 	task.74A6BFF77446A183.title: "Burning Arena"
 	task.75BFDE05DC02A082.title: "Starting Kit"
+	task.79A3CE6CA5DB4E9A.title: "Building Tip"
+	task.7C561763837B0B38.title: "Heat Generator"
 	task.7D2F04B3382958EC.title: "Sorry, I never fought it — I skipped that lesson."
 	task.7E6F682B99D230E1.title: "Any Log"
 	task.7F97A016ABC3B040.title: "Ruined Citadel"
