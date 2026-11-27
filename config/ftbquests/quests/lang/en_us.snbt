@@ -89,6 +89,7 @@
 		"Here, a Bottle and Cork collects Bottled Dawn."
 	]
 	quest.0258FA1C2F0406EA.title: "Visit the Aether"
+	quest.0285D9D3BFC5CBEA.quest_desc: ["&o(Unlocks in a later chapter; still in development)&r"]
 	quest.0285D9D3BFC5CBEA.title: "Electricity and Heat"
 	quest.02CA2F9CD0E2AE8A.quest_desc: [
 		"&oYour fingers tingle strangely as you handle the amethyst shard. What does that mean?&r"
@@ -104,6 +105,7 @@
 		"Here, a Bottle and Cork collects Bottled Ghosts."
 	]
 	quest.031C571BBFFCE0B6.title: "Visit the Nether"
+	quest.03D6F2CF2AF87190.quest_desc: ["&o(Unlocks in a later chapter; still in development)&r"]
 	quest.03D6F2CF2AF87190.title: "Reactor"
 	quest.0447158FB18F70D5.quest_desc: [
 		"The Inscriber Press can no longer come from the Mysterious Cube — &myou cannot even break the Mysterious Cube.&r"
@@ -140,6 +142,7 @@
 		"What remains is the Fire Essence: it no longer remembers what it burned, only &#FF5A01releasing&r, &#FF5A01transforming&r, &#FF5A01burning&r."
 	]
 	quest.08C5BA5D71D244AF.title: "Fire Essence"
+	quest.094F8DB5315BE376.quest_desc: ["&o(Unlocks in a later chapter; still in development)&r"]
 	quest.094F8DB5315BE376.title: "Electricity and Essentia Vitae"
 	quest.096875F870AB8F0B.quest_desc: [
 		"The Industrial Squeezer uses a large piston to &asqueeze&r juice or oil out of organic materials."
@@ -150,12 +153,22 @@
 	quest.09A2129D419DDC49.quest_desc: ["&o&mRiver power, easy as that!&r"]
 	quest.09A2129D419DDC49.quest_subtitle: ["River Power"]
 	quest.09A2129D419DDC49.title: "Stress Production (2)"
+	quest.0A2D3B4F6D9CCB87.quest_desc: ["&oThis chapter focuses on the main ways of producing power in this modpack, and on how electricity converts to and from other \"energies\"."]
 	quest.0A739937D1D185C7.quest_desc: [
 		"Portal Ruins generate in &athe Overworld&r."
 		""
 		"Each biome gets its own variant, but whatever the variant, one holds a Gatekeeper and a frame of Chiseled Voidstone."
 		""
 		"&a&lGo and find one&r — it will show you a &adimension lit by starlight&r."
+	]
+	quest.0A77FB1F1C2DB56B.quest_desc: [
+		"Using an &aElevator&r needs at least two Elevator Blocks, and all of them must be placed vertically. There is no limit to the range, and the gaps between floors do not have to be equal. Blocks in between the elevator blocks do not stop the teleport."
+		""
+		"Stand on an Elevator Block and press &ajump&r to go up one floor, or &asneak&r to go down one floor."
+		""
+		"Right-click an Elevator Block with an empty hand to open its settings."
+		"{@pagebreak}"
+		"&o&mSure, PneumaticCraft and Create each have their own way of building an elevator, but is any of them this handy? ()&r"
 	]
 	quest.0A77FB1F1C2DB56B.title: "Elevator"
 	quest.0AD91A5126496988.quest_desc: [
@@ -206,6 +219,7 @@
 		""
 		"In the &#3EDCFFwater&r token is sorrow — it teaches life about flow and loss."
 	]
+	quest.0DF52CD073E9984C.quest_desc: ["&lYou found me.&r"]
 	quest.0DF94450C70D2259.quest_desc: [
 		"The Overworld's aspect is &#3EDCFFwater&r. It &#3EDCFFflows&r and &#3EDCFFholds&r, and &#3EDCFFcarries on&r all life."
 		""
@@ -219,6 +233,7 @@
 		""
 		"But Aether tools of different materials each carry quirks of their own."
 	]
+	quest.0E1DB2F236A70179.quest_desc: ["The Flux Compressor and the Pneumatic Dynamo convert &aelectricity&r and &apressure&r into each other."]
 	quest.0E1DB2F236A70179.title: "Electricity and Pressure"
 	quest.0EAD190E24BC4DAD.quest_desc: [
 		"The &aMixer&r dissolves solids into fluids, mixing them together."
@@ -226,6 +241,11 @@
 		"The things it can make include... &achocolate&r?"
 	]
 	quest.0EAD190E24BC4DAD.title: "Mixer"
+	quest.0F52CE10BD2F157D.quest_desc: [
+		"The Magmator produces power by burning &aliquid fuel&r."
+		""
+		"Each tier gives more &astorage capacity&r, better &aproduction rate&r and better &aoutput rate&r, but the total power a given fuel yields is fixed."
+	]
 	quest.0F52CE10BD2F157D.title: "Magmator"
 	quest.0F98658FB39A828A.quest_desc: ["Once awake, the Eye of the Storm flies in a wavy path above the central courtyard. When any part of its body is destroyed it &asplits&r into independent parts that attack on their own; when the head is destroyed, the rest of the body stiffens for a moment, then becomes the new head."]
 	quest.0FF0A4AD565E2758.quest_desc: [
@@ -254,6 +274,7 @@
 		"&o&7There seems to be more, but for now you do not know what it means.&r"
 	]
 	quest.11F05068792402E5.quest_subtitle: ["The Change"]
+	quest.1217093AA675C1E8.quest_desc: ["An &aEntangled Block&r \"borrows\" the abilities of the block it is entangled with: any interaction with it, such as a hopper inserting items, counts as an interaction with that block."]
 	quest.1217950B47119C27.quest_desc: [
 		"&6&oCataclysm (L_Ender's Cataclysm)&r&o is a mod that adds many difficult dungeons, challenging bosses and powerful equipment.&r"
 		""
@@ -279,6 +300,26 @@
 		""
 		"They can also be &aeaten&r. &o&m(But why?)&r"
 	]
+	quest.13CF62C60D16A9DB.quest_desc: [
+		"Decorate your base with &aWind Chimes&r: bring the sound of bells into your world!"
+		""
+		"While a chime is placed, &aPhantoms&r will not come near you."
+		""
+		"Sneak and right-click a chime with an empty hand to tie it up, muting it and turning off its particles. (It will no longer keep Phantoms away, of course.)"
+		"{@pagebreak}"
+		"The &a&lBamboo Wind Chime&r sheds bamboo-leaf particles;"
+		""
+		"The &a&lCarved Bamboo Wind Chime&r is made by right-clicking a Bamboo Wind Chime with an axe. Its note is lower, and it sheds no bamboo-leaf particles;"
+		"{@pagebreak}"
+		"The &a&lIron Wind Chime&r rings with a clear metallic note;"
+		""
+		"The &a&lCopper Wind Chime&r has a lower metallic note than the iron one;"
+		"{@pagebreak}"
+		"The &a&lAmethyst Wind Chime&r rings with the sound of amethyst, and cannot be tied up;"
+		""
+		"The &a&lGlass Wind Bell&r can be dyed any colour in a crafting table. A strip of paper hangs beneath it, and it cannot be tied up either."
+	]
+	quest.13CF62C60D16A9DB.title: "Wind Chime"
 	quest.13DA290A6AFCB1C4.quest_desc: [
 		"&o&7Nine trophies are set into an enchanting device, and the Twilight Grail rises out of the light — the Twilight Forest's gift to its conqueror.&r"
 		""
@@ -367,6 +408,8 @@
 	quest.18DEB55F4DEDB7A3.title: "The Beginning"
 	quest.18FC77AF14B862AE.quest_desc: ["Arkenium is the Aether's iron; mining it takes a &aZanite-tier&r pickaxe."]
 	quest.19047323B0DB5C28.quest_desc: ["Obtained by smelting the &aNeptune set&r from the Bronze Dungeon."]
+	quest.19B7F9090EBCABF9.quest_desc: ["Made with a &aMechanical Crafter&r."]
+	quest.1A2BE9B2D68901FA.quest_desc: ["Made with an &aEnchanting Apparatus&r."]
 	quest.1A31F4BEA09D1AF9.quest_desc: ["Molten Plastic only needs to be &apoured into the world&r to set into &aa Plastic Sheet&r. Put a bucket or tank of Molten Plastic into a container fitted with a &aHeat Frame&r and cool it, and you have a chance of getting &abonus&r Plastic Sheets."]
 	quest.1A64E09306C5EC80.quest_desc: [
 		"&aThe Minotaur Labyrinth&r hides beneath the wetlands of the Twilight Swamp, where minotaurs keep watch in the dark over a road to the Fire Swamp."
@@ -383,6 +426,11 @@
 		"The Brass Dungeon is a cloud castle of Nimbus Stone and Light Nimbus Stone; two galleries wrap around a central courtyard, and the wind runs between the pillars."
 		""
 		"Above the courtyard coils the storm imprisoned here, keeper of the Brass Key: &athe Eye of the Storm&r."
+	]
+	quest.1B4A781639CD6512.quest_desc: [
+		"A &aConstruction Stick&r places several blocks at once. There are five tiers: Wood, Copper, Iron, Diamond and Netherite. Each tier gives more durability and stronger placement."
+		""
+		"You can bind a key to &a&l\"Open Construction Stick Settings\"&r in the controls menu to adjust more of its functions."
 	]
 	quest.1B4A781639CD6512.title: "Construction Sticks"
 	quest.1B4EBBF517C2C707.quest_desc: [
@@ -416,6 +464,13 @@
 		""
 		"Place the item to be empowered on the Empowerer and the other items on the Display Stands, then power the Display Stands to start the crafting."
 	]
+	quest.1F294AEF1621DA65.quest_desc: [
+		"A &aTravel Anchor&r lets you teleport to other Travel Anchors. It can be painted by a &aPainting Machine&r &o&m(though the rendering seems a little odd)&r; right-click it to open a config screen where you can set the icon and name it shows."
+		""
+		"While you stand on a Travel Anchor, nearby anchors are &ahighlighted&r; right-click, sneak or jump to teleport. Holding a &aStaff of Travelling&r highlights nearby anchors even when you are not standing on one."
+		""
+		"Travel Anchors can also be stacked vertically and used like an elevator."
+	]
 	quest.1F37C07E86AB1EAC.quest_desc: ["Obtained by defeating the Sun Spirit &awithout taking damage&r."]
 	quest.203DC11C3D09AFA2.quest_desc: [
 		"&o&6A machine left behind by an ancient civilisation, armed with missile launchers and a circular saw — a powerful guard at the heart of the Ancient Factory.&r"
@@ -447,12 +502,19 @@
 		""
 		"The clouds and ores of this clear sky all went into this pink ingot."
 	]
+	quest.22998D294F7048E2.quest_desc: ["These &aPylons&r each do something different. Read the description of the one you are using, and pair it with the matching item or &afilter&r."]
+	quest.22998D294F7048E2.title: "Pylons"
 	quest.22BBDE618BB134FE.quest_desc: [
 		"The Industrial Fermenter extracts &aethanol&r from certain fruits, grains and vegetables by fermenting them."
 		""
 		"&lThis is not for drinking!&r"
 	]
 	quest.22BBDE618BB134FE.title: "Industrial Fermenter"
+	quest.23110CF42C7F4E33.quest_desc: [
+		"A &aTeleporter&r works together with &aTeleporter Frames&r to form a teleporter: the Teleporter goes at the bottom, and the frames enclose a doorway two blocks tall."
+		""
+		"Once built, a teleporter links to others on the same frequency, and a &aPortable Teleporter&r can send you to a teleporter on the same frequency."
+	]
 	quest.235FDE6DBE018EDE.quest_desc: ["Obtained by defeating the Slider &awithout taking damage&r."]
 	quest.236B9D3A654D936D.quest_desc: [
 		"&aAn Alternator&r turns stress into electricity; an &aIridescent Pulsating Crystal&r turns &asource&r and &aaura&r into electricity."
@@ -469,6 +531,13 @@
 	]
 	quest.23F9C2FC3B036985.quest_desc: ["HOP Graphite (highly oriented pyrolytic graphite) is a complex allotrope of graphite, used in &aspecialized engineering construction&r."]
 	quest.24015ACDFF37D790.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Overworld."]
+	quest.242542377899CEDB.quest_desc: [
+		"A &aSoul Laser Base&r works like an Ore Laser Base: put a &aBlue Laser Lens&r in it, and if a Warden is below, damaging the Warden yields &aSouls&r."
+		""
+		"Souls can be spent by a &aSoul Surge&r to speed up the block it points at."
+	]
+	quest.242542377899CEDB.title: "Soul Surge"
+	quest.261B8F2A6269ABE9.quest_desc: ["Made in a &aPressure Chamber&r."]
 	quest.26C4569F0CA4E7D7.quest_desc: [
 		"?! A Crushing Wheel crushing a Crushing Wheel?!"
 		"Crush a Crushing Wheel with a Crushing Wheel — will the Crushing Wheel be crushed by the Crushing Wheel?"
@@ -495,6 +564,12 @@
 		"&oYou have made the second material form of the aspects; more of their secrets, and of this world's, are unfolding before you a little at a time.&r"
 	]
 	quest.2740A375D6EBCB05.title: "Aspect Fluid Buckets"
+	quest.276452D7404A158A.quest_desc: ["Made with &aRonaza's Contact&r."]
+	quest.27AE0FD323DF2FD0.quest_desc: [
+		"The Furnator produces power by burning &asolid fuel&r."
+		""
+		"Each tier gives more &astorage capacity&r, better &aproduction rate&r and better &aoutput rate&r, but the total power a given fuel yields is fixed."
+	]
 	quest.27AE0FD323DF2FD0.title: "Furnator"
 	quest.27F647FAFC46B251.quest_desc: [
 		"The &aAbyssal Sacrifice&r is used to summon the Leviathan."
@@ -677,6 +752,7 @@
 		"&o&mBoth the weakest and the strongest mini-boss are in the acropolis, as it happens.&r"
 	]
 	quest.348FD640D0B99AE2.title: "Kill the Clawdian"
+	quest.351E49E49FA9FCEC.quest_desc: ["Placeholder"]
 	quest.3582A8AFBE363D4B.quest_desc: [
 		"The Cauldron is the first container this world gave you. Sprinkle in a handful of &asalis mundus&r, and it becomes a container that can hold anything."
 		""
@@ -691,6 +767,11 @@
 		"Hold a &aNether Star&r and right-click the sleeping Harbinger in the Ancient Factory to wake it."
 	]
 	quest.35CE21DCABAAF10A.title: "Trial of The Harbinger"
+	quest.366A7FDB98BD9216.quest_desc: [
+		"A &aMega Torch&r stops hostile mobs from spawning in a wide area around it; right-click it to show that area."
+		""
+		"Its opposite is the &aDread Lamp&r, which stops non-hostile mobs from spawning in a wide area."
+	]
 	quest.3676A11CC0AC3510.quest_desc: [
 		"The inside of Desert Pyramid Revamped is a maze holding countless treasures. But as you explore, beware the skeletal jackal-headed guards and the traps that are everywhere."
 		""
@@ -725,6 +806,7 @@
 	quest.38F89B3C95DB51AC.quest_desc: ["In the Aether, drop an Amethyst Shard into the Golden Aercloud."]
 	quest.397C219C667CE90A.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Aether."]
 	quest.3992BDF384165566.quest_desc: ["Obtained by smelting the &aStormforged set&r from the Brass Dungeon."]
+	quest.3ACB112A6253261F.quest_desc: ["Made with a &aFluid Crafting Table&r."]
 	quest.3ADEEEDFEED6AFAA.quest_desc: [
 		"&o&7You try to pry the Mysterious Cube out of the sky stone, and find that nothing you have can break it. You decide to look at the notebook again.&r"
 		""
@@ -743,6 +825,11 @@
 		"Three materials and the Earth Essence carve this one stroke: from now on, &#56C000settling&r and &#56C000growing&r can be called up by ritual."
 	]
 	quest.3BBB6BA364026473.quest_desc: ["There seems to be a &a&lhidden room&r in the Soul Forge. Go and look?"]
+	quest.3BDF422CB23EB76B.quest_desc: [
+		"A &aTime in a Bottle&r in your inventory records and stores the time you spend in the game, and you can release that stored time when you need it."
+		""
+		"Right-click a block to &aspeed up&r its ticks for a while. Repeated right-clicks stack, but each one doubles the time spent."
+	]
 	quest.3C78F8B945C3EF39.quest_desc: [
 		"&kLet this card have some words too — one lonely sentence would look &aso lonely&r&k, would it not? A few more lines, then. Two or three at the very least.&r"
 		""
@@ -766,6 +853,13 @@
 		"The &aAmadron Tablet&r lets you order items and fluids, delivered by drone."
 		""
 		"&oPretty cool, right?&r"
+	]
+	quest.3F1CCBCFEECF80F1.quest_desc: [
+		"A &aBlock Generator&r reads fluid from its sides, reads the target product from below, and outputs the product into a container above it."
+		""
+		"It comes in many tiers, and higher tiers produce faster. Higher tiers unlock as you progress."
+		""
+		"Some recipes consume fluid. If you place a fluid source directly, only one item pops out per operation no matter what the generator is made of. Use some other &acontainer&r that supplies fluid instead of a source block to produce more efficiently."
 	]
 	quest.3F64EB93903B0250.quest_desc: [
 		"Corundum can be found in large patches in the shallow underground of the &aOverworld&r (Y 0 to 64, non-ocean biomes), and usually generates as two colours together. It can be &aconverted&r into other colours in an Imbuement Chamber."
@@ -830,12 +924,20 @@
 	quest.44B6CBFAD6C215C0.quest_desc: ["The Twilight Forest portal can be any shape you like: as long as there are &aat least four&r connected water source blocks, every grass block next to them has a &aplant&r on it, and you throw in a &adiamond&r, the portal opens."]
 	quest.44B6CBFAD6C215C0.title: "Twilight Forest Portal"
 	quest.460FC1911724CF88.quest_desc: ["&oTo be honest, it really is just a fancy pickaxe — but it &ais really cool&r&o, is it not?&r"]
+	quest.462FE3205DB1B0B6.title: "Ender Storage"
+	quest.468B402CE37113E6.quest_desc: ["What happens if you pour a bucket of &aChocolate&r over the &aTwilight Forest&r?"]
 	quest.46B818618F767629.quest_desc: [
 		"The Ashen Sapling is an excellent carrier of aura, and an important tree for performing forest rituals of every kind."
 		""
 		"Ashen Saplings can be &adug up by a Sniffer&r, or &amade with a forest ritual&r."
 	]
 	quest.46B818618F767629.title: "Ashen Sapling"
+	quest.46FAF2499DF8D446.quest_desc: [
+		"&aWaystones&r generate naturally in &aVillages&r, and can also be crafted."
+		""
+		"Right-click one to activate it; right-click again to open its GUI, where you can pick an activated Waystone and teleport to it."
+	]
+	quest.46FAF2499DF8D446.title: "Waystone"
 	quest.4732C23C21EA0CCE.quest_desc: [
 		"&oDrop the Air Crystal into the Imbuement Chamber — the source will soak through it first.&r"
 		""
@@ -914,6 +1016,7 @@
 		"Once the Starlight Golem is &aat or below 20% health&r it loses the invulnerability and never switches states again; from then on you can hurt it with normal attacks."
 	]
 	quest.4CF8C2A8077F34B8.title: "Kill the Starlight Golem"
+	quest.4D239511F8B752BD.quest_desc: ["## (Placeholder)"]
 	quest.4D55DD74B097B6DE.title: "Diesel Generator"
 	quest.4D69672AA9A6CB0D.quest_desc: [
 		"The Sunken City rises from the deep &aOverworld&r ocean — an ancient ruin of masterful craft."
@@ -971,6 +1074,7 @@
 		"&oPowah's machine recipes are mostly unchanged; the changes are in materials, fuels and tiers, plus &aprogression gating&r&o.&r"
 	]
 	quest.51A60EA75894B027.quest_subtitle: "Safety First"
+	quest.526331691A38FD42.quest_desc: ["&o(Unlocks in a later chapter; still in development)&r"]
 	quest.526FED59584C6513.quest_desc: [
 		"&aThe Lich Tower&r is a gothic spire; the bricks of its walls are held together by a spell, and even the air around it feels heavy."
 		""
@@ -1001,6 +1105,7 @@
 	]
 	quest.54CC0D96675F33E8.title: "Amethyst Shard"
 	quest.5538B917632BBC54.quest_desc: ["Collected with a Bottle and Cork from the aura field of the Twilight Forest."]
+	quest.5545CCB773B47F77.quest_desc: ["&oThis branch adds a way of generating power for the Powah mod.&r"]
 	quest.56952889BA57C65D.quest_desc: [
 		"&o&6The Ancient Remnant — a giant spinosaurus skeleton, sleeping in the deepest part of the cursed pyramid, waiting for a challenger.&r"
 		""
@@ -1008,12 +1113,20 @@
 	]
 	quest.56952889BA57C65D.title: "Trial of the Ancient Remnant"
 	quest.571009D6DC3766FA.quest_desc: ["Sterling Aercloud generates &lvery rarely&r high in the Aether's &asky&r &o(roughly y≥200)&r; enchanting it gives &aChromatic Aercloud&r, an important crafting material."]
+	quest.572DA574E340A229.quest_desc: [
+		"The Building Gadget is meant to make building a little easier."
+		""
+		"Read &a\"Gadgets for Derps\"&r for more."
+		""
+		"&o&mThis book seems a bit buggy? The tool icons are all gone, but it still reads fine.&r"
+	]
 	quest.572DA574E340A229.title: "Building Gadget"
 	quest.5781F26291987E67.quest_desc: [
 		"&oThe forest ritual recorded what life felt facing this dimension.&r"
 		""
 		"In the &#D8D7F0order&r token is serenity — it settles life into structure and constancy."
 	]
+	quest.57E3CCC839CDA402.quest_desc: ["The Time Wand spends &aenergy&r and &aTime Fluid&r to speed up blocks."]
 	quest.57E4DA3C7780AAAD.quest_desc: ["The Alloy Kiln melts two materials together to make certain &aalloys&r."]
 	quest.57E4DA3C7780AAAD.title: "Alloy Kiln"
 	quest.57F8ADC74552877F.quest_desc: [
@@ -1026,7 +1139,21 @@
 		""
 		"Three materials and the Water Essence carve this one stroke: from now on, &#3EDCFFflowing&r itself can be called up by ritual."
 	]
+	quest.5873288A13B6DEDC.quest_desc: [
+		"A Solar Panel produces power while &asunlight&r is present."
+		""
+		"Each tier gives more &astorage capacity&r, better &aproduction rate&r and better &aoutput rate&r."
+	]
 	quest.5873288A13B6DEDC.title: "Solar Panel"
+	quest.589AA6E963E29909.quest_desc: [
+		"A &aCelestial Gateway&r lets you travel quickly between two places, across dimensions if need be."
+		""
+		"It has to be built as a proper &amultiblock&r before it works, and in a dimension without a ceiling it must be used &ain the open&r."
+		""
+		"Step into a valid gateway and the other gateways appear as large stars against the sky. Right-click or sneak at one, and after a moment you arrive."
+		""
+		"&aDye&r changes its colour, and an &aAnvil&r renames it."
+	]
 	quest.5971AA7E8234AA79.quest_desc: [
 		"The Pressure Chamber is a multiblock structure that compresses all sorts of materials into other materials."
 		""
@@ -1053,6 +1180,11 @@
 	quest.5CB6EA2A68A9037C.quest_desc: ["The Improved Blast Furnace supports &aautomated input and output&r, and adding &aBlast Furnace Preheaters&r speeds up refining."]
 	quest.5CB6EA2A68A9037C.title: "Improved Blast Furnace"
 	quest.5D16935DC546D2E1.quest_desc: ["## Whole chapter hidden; to be written together with Chapter 3"]
+	quest.5D6FDC17D4284E3A.quest_desc: [
+		"Feed &asource&r to an Iridescent Pulsating Crystal and it also drains &aaura&r from the surrounding aura field, producing power."
+		""
+		"Power an Iridescent Resonating Crystal and, while there is an unfilled Source Jar nearby, it spends power to make &asource&r; with no unfilled Source Jar nearby, it spends power to make &aaura&r and spreads it into the aura field until it &areaches its cap&r."
+	]
 	quest.5D6FDC17D4284E3A.title: "Electricity, Source and Aura"
 	quest.5E4647B964AD82A1.quest_desc: [
 		"&aThe Natural Altar&r is crafted in the Enchanting Apparatus from six kinds of tokens — life's six responses to the world."
@@ -1137,6 +1269,7 @@
 		"Note that it cannot handle &aSteel Ingots&r; you will need another way."
 	]
 	quest.6256F04D11B48E39.title: "Mechanical Press"
+	quest.62FFB5BB68CF11F3.quest_desc: ["The Alternator and the Electric Motor convert &aelectricity&r and &astress&r into each other."]
 	quest.62FFB5BB68CF11F3.title: "Electricity and Stress"
 	quest.636F2AFB3BF2AC31.quest_desc: [
 		"&aThe Enchanting Apparatus&r is crafted from six kinds of essence in a forest ritual."
@@ -1146,6 +1279,17 @@
 		"&o&mIt is basically a forest ritual with more particle effects (?)&r&r"
 	]
 	quest.636F2AFB3BF2AC31.title: "Enchanting Apparatus"
+	quest.6382FF32C9CD4C98.quest_desc: [
+		"&aStick Templates&r add special upgrades to a Construction Stick. Combine a template, a Construction Stick and one extra item in a smithing table."
+		""
+		"The next page shows what each template does."
+		"{@pagebreak}"
+		"&a&lAngel Stick Template&r: place blocks behind other blocks or in mid-air;"
+		"&a&lDestruction Stick Template&r: break the block facing you;"
+		"&a&lReplacement Stick Template&r: replace the target block with the one in your off hand;"
+		"&a&lUnbreakable Template&r: no durability is spent;"
+		"&a&lBattery Template&r: spend energy instead of durability."
+	]
 	quest.6382FF32C9CD4C98.title: "Construction Stick Templates"
 	quest.64DDBFEA863697E9.quest_desc: [
 		"The Metal Press uses &aMetal Press Molds&r to shape metal automatically, and that includes all kinds of &agears&r."
@@ -1294,6 +1438,7 @@
 		"They can also be used to make some accessories."
 	]
 	quest.708C965D7191F1FF.title: "Zanite and Skyjade"
+	quest.71355FBA43088A3F.quest_desc: ["## (Placeholder)"]
 	quest.71F2C2CF724481F9.quest_desc: [
 		"The Alloy Furnace generates in certain rooms of the &aGolem Forge&r; it is a large machine built to smelt alloys or multiply ores."
 		""
@@ -1305,6 +1450,7 @@
 		"It is made of two parts, the &aRefinery Controller&r and the &aRefinery Outputs&r, and the number of outputs changes what it produces."
 	]
 	quest.72207EFC62718B7D.title: "Refinery"
+	quest.722B83DF6BDAAE12.quest_desc: ["&oThis branch adds a way of generating power for the Immersive Engineering mod.&r"]
 	quest.724CFEFED2FB7209.quest_desc: [
 		"&oDrop the Order Crystal into the Imbuement Chamber — the source will soak through it first.&r"
 		""
@@ -1315,6 +1461,8 @@
 	quest.724CFEFED2FB7209.title: "Order Essence"
 	quest.72B021AA3E3944F3.quest_desc: ["Ancient Leaves hold a rich store of aura, &areleasing it slowly&r to top up the aura field around them whenever its concentration drops."]
 	quest.72B021AA3E3944F3.title: "Ancient Sapling"
+	quest.72D47293DC94CAC0.quest_desc: ["A &aQuantum Entangloporter&r moves items, power, fluids, gases and the like &awirelessly&r across any distance at no cost, and with the Anchor Upgrade it can &across dimensions&r."]
+	quest.73D2184B6493313C.quest_desc: ["Made at an &aIlluminated Crafting Table&r."]
 	quest.73E1CE96E3F14EF5.quest_desc: ["Pressing canola into Canola Oil can be done by the bulky &aIndustrial Squeezer&r, but you can also build this handy &aCanola Press&r for the job."]
 	quest.741E600F39DCCE9F.quest_desc: [
 		"Welcome to the mysterious &aStarlight Dimension&r! Everything here is waiting for you."
@@ -1400,6 +1548,13 @@
 		"Graphite Electrodes are made in the &aBottling Machine&r."
 	]
 	quest.796BB04761A96F35.title: "Arc Furnace"
+	quest.7B395641661FEA69.quest_desc: [
+		"A Heat Generator produces power when placed above a &aheat source&r, but it also consumes &acoolant&r."
+		""
+		"Each tier gives more &astorage capacity&r, better &aproduction rate&r and better &aoutput rate&r."
+		""
+		"The heat of the source and of the coolant together decide the &aproduction multiplier&r."
+	]
 	quest.7B395641661FEA69.title: "Heat Generator"
 	quest.7BF679E3CD97A80C.quest_desc: [
 		"Sorrow settling down becomes grief."
@@ -1414,6 +1569,11 @@
 		"Throw it in with a diamond chest, and set off an &l&aexplosion&r. Then come the blocks of raw iron and raw copper."
 	]
 	quest.7BF7847A3ED73423.title: "Unknown Mixture"
+	quest.7C22A3F6B39F3695.quest_desc: [
+		"A &aFeral Flare Lantern&r places &ainvisible lights&r over a wide area around it, and those lights can be cleared with a &aFrozen Pearl&r."
+		""
+		"Right-click it to open a config screen where you choose whether it may place lights &athrough walls&r."
+	]
 	quest.7C42E5E0147F4013.quest_desc: [
 		"When anger burns out, rage is what remains."
 		""
@@ -1451,7 +1611,10 @@
 		""
 		"Defeat the &aSnow Queen&r at its summit, and the night sky over the Twilight Forest will clear again."
 	]
+	quest.7DB027710EA5DD66.quest_desc: ["Placeholder"]
+	quest.7DD5555C7BFD4CB4.quest_desc: ["Placeholder"]
 	quest.7DD5555C7BFD4CB4.title: "Advanced Beehive"
+	quest.7F19D8E7C6B231AF.quest_desc: ["Placeholder"]
 	quest.7F2312EB5A2653DB.quest_desc: ["In the Twilight Forest, right-click the Liveroot or a similar block with an Amethyst Shard."]
 	quest.7F56175670CB6E0A.quest_desc: ["Drop an Amethyst Shard into the End portal."]
 	quest.7F6334C85D5A5471.quest_desc: ["Obtained by smelting the &aPhoenix set&r from the Gold Dungeon."]
@@ -1470,6 +1633,7 @@
 	quest.EA63CC9F0513EEF5.title: "Air Essence"
 	reward.6676EAE9C3E8A7D9.title: "&dCreative ME Storage Cell"
 	reward_table.23FDF0DD49F0C68C.title: "Animal Hats"
+	task.00FA207B0810DE07.title: "Kill the Lunar Monstrosity"
 	task.017094576C18CECC.title: "Ancient Factory"
 	task.0390B733337F5E49.title: "Sorry, I never fought it — I skipped that lesson."
 	task.05DB781177E618DA.title: "Visit the Aether"
@@ -1481,12 +1645,16 @@
 	task.0DB4F6E60318D8B1.title: "Building Tip"
 	task.0F338206D30B91F4.title: "Energizing Rod"
 	task.0FE69EFC07C3F37B.title: "Visit the Silver Dungeon"
+	task.1020B179D4A103E8.title: "Building Gadget"
 	task.10592E63525168AF.title: "Power Generation"
 	task.120E8C85FA885441.title: "The Soul Forge"
 	task.13DB2DD657514650.title: "The End"
 	task.13EF709CBBE409AD.title: "Visit the Twilight Forest"
+	task.1489886E39B2841A.title: "Construction Stick Templates"
 	task.163F9DDC61A2D8AC.title: "The Acropolis"
 	task.17650FBCBA1450E9.title: "Expedition"
+	task.189307CC8D6EEF7E.title: "Wind Chime"
+	task.1A8BEDAAA27F7163.title: "Portal Ruins"
 	task.1B57E58F7EDECB52.title: "Building Tip"
 	task.203A163FC71A00FC.title: "Desert Pyramid Revamped"
 	task.21A3F76B869C1860.title: "Observe: Automated Engineer's Workbench"
@@ -1504,6 +1672,7 @@
 	task.30303ED505A60181.title: "Introduction"
 	task.34B7BAC412F11B4E.title: "Building Tip"
 	task.36D154543D52C43C.title: "Before You Set Out"
+	task.37323CAD55A73AC6.title: "Elevator"
 	task.37D4E500A111FB20.title: "The Overworld"
 	task.38AE5723BB37D6C0.title: "Technology, Magic and Adventure"
 	task.39A2325FAF2E2751.title: "Aether Wood"
@@ -1513,8 +1682,11 @@
 	task.3E5813B97646AAA7.title: "Building Tip"
 	task.3ECC9EE3E94A8433.title: "Aether Portal"
 	task.4169278B721935AA.title: "Twilight Forest Portal"
+	task.4187313DDDBF9184.title: "Visit the Starlight Dimension"
 	task.42EBA5EE46BD6229.title: "Parallel Controller"
 	task.42FC38BAB37B938E.title: "Building Tip"
+	task.46EFD3F234E4B55C.title: "Advanced Beehive"
+	task.4798C07EB708E686.title: "Kill Permafrost"
 	task.4949CEE6599F4ECE.title: "The Twilight Forest"
 	task.4957F257EAD47780.title: "Building Tip"
 	task.49EABEC695D70A23.title: "Expeditioners' Camp"
@@ -1527,17 +1699,22 @@
 	task.4F45886C24B2B9F2.title: "Building Tip"
 	task.4FE49AA5D75A0251.title: "Observe: Improved Blast Furnace"
 	task.4FF759267D5261E9.title: "Sourcelink"
+	task.503E6D37F25A71E3.title: "Kill the Starlight Golem"
 	task.5140F85B109430DF.title: "Building Tip"
 	task.522CD557B868AC9D.title: "Unknown Mixture"
 	task.524B216B8280FA17.title: "A New Page"
 	task.52F7FD6FA9E4B929.title: "Claim a Music Disc"
 	task.53413AAB9034897F.title: "Sorry, I never used this one — I fear nothing."
 	task.538FBEF22D552E2A.title: "Magmator"
+	task.5625D5350E3BC657.title: "Visit the Cursed Garden"
 	task.58FBFED05322F7D4.title: "Immersive Engineering"
 	task.58FC5CA8599FE323.title: "Visit the Gold Dungeon"
 	task.5B866B1F475CB069.title: "About the Default Configuration"
 	task.5BFC72D203F93BB1.title: "Sorry, I never fought it — I skipped that lesson."
+	task.5C917BAB86F7493D.title: "Construction Sticks"
+	task.5E47BCB8C40E702A.title: "Pylons"
 	task.5E4A7D672CE7EB31.title: "Observe: Bottling Machine"
+	task.5E53E9F84C08B55C.title: "Visit the Golem Forge"
 	task.5FFB3987D788C033.title: "Eternal Starlight"
 	task.602D6817A35C870F.title: "Observe: Refinery"
 	task.60717A642114EFAD.title: "Building Tip"
@@ -1562,6 +1739,7 @@
 	task.79A3CE6CA5DB4E9A.title: "Building Tip"
 	task.7C561763837B0B38.title: "Heat Generator"
 	task.7D2F04B3382958EC.title: "Sorry, I never fought it — I skipped that lesson."
+	task.7D64FAEDE0146D56.title: "Waystone"
 	task.7E6F682B99D230E1.title: "Any Log"
 	task.7F97A016ABC3B040.title: "Ruined Citadel"
 }
