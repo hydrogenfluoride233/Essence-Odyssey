@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "id": "perditio_portal",
+      "env": [
+        "minecraft:end_portal_frame"
+      ],
+      "inputs": [
+        "minecraft:amethyst_shard"
+      ],
+      "outputs": [
+        "kubejs:crystal_perditio"
+      ],
+      "notes": [
+        "essenceodyssey.world_interaction.perditio_portal"
+      ]
+    },
+    {
+      "id": "crystallized_oil",
+      "env": [
+        "actuallyadditions:crystallized_canola_seed"
+      ],
+      "inputs": [
+        "actuallyadditions:refined_canola_oil"
+      ],
+      "outputs": [
+        "actuallyadditions:crystallized_oil"
+      ],
+      "notes": [
+        "essenceodyssey.world_interaction.crystallized_oil"
+      ]
+    },
+    {
+      "id": "empowered_oil",
+      "env": [
+        "actuallyadditions:empowered_canola_seed"
+      ],
+      "inputs": [
+        "actuallyadditions:crystallized_oil"
+      ],
+      "outputs": [
+        "actuallyadditions:empowered_oil"
+      ],
+      "notes": [
+        "essenceodyssey.world_interaction.empowered_oil"
+      ]
+    },
+    {
+      "id": "aerogel",
+      "env": [
+        "aether:aether_portal_frame"
+      ],
+      "inputs": [
+        "minecraft:lava"
+      ],
+      "outputs": [
+        "aether:aerogel"
+      ],
+      "notes": [
+        "essenceodyssey.world_interaction.aerogel"
+      ]
+    },
+    {
+      "id": "infused_wood",
+      "env": [
+        "astralsorcery:liquid_starlight"
+      ],
+      "inputs": [
+        "#minecraft:logs"
+      ],
+      "outputs": [
+        "astralsorcery:infused_wood"
+      ],
+      "notes": [
+        "essenceodyssey.world_interaction.infused_wood"
+      ]
+    }
+  ]
+}
