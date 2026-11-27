@@ -1,0 +1,108 @@
+[General]
+	#是否允许玩家自定义【物品管道】的抽取频率。下限为当前升级档位的管道原生速度（如基础 15 tick），上限 200 tick。
+	enableItemCustomFrequency = true
+	#是否允许玩家自定义【流体管道】的抽取频率（1~200 tick）。
+	enableFluidCustomFrequency = true
+	#是否允许玩家自定义【能量管道】的抽取频率（1~200 tick）。
+	enableEnergyCustomFrequency = true
+	#是否允许玩家自定义【气体管道】的抽取频率（1~200 tick）。
+	enableGasCustomFrequency = true
+	#限制自定义抽取频率，使其不能低于当前升级档位的管道原生速度（如基础物品管道 15 tick）。开启后，低于下限的值会自动提升到原生速度，旧存档中的此类数值也会在载入时自动纠正；关闭后不做任何频率限制，最低可设为 1 tick。
+	restrictFrequencyToNative = true
+	#记住每个管道连接面最后选择的传输类型标签页，下次打开该管道 GUI 时自动恢复。[true / false]
+	#数据只保存在客户端 config 文件夹中，绝不写入世界存档。
+	enableRememberLastTab = true
+
+[Optimization]
+	#是否在管道 GUI 中显示【智能休眠】开关。 [true / false]
+	#关闭后，GUI 中的智能休眠开关完全消失，所有连接面默认开启智能休眠。
+	#注意：若某管道类型的最大休眠时间配置为 0，则该类型永远不进入休眠，与此项无关。
+	enableSmartSleepToggle = true
+	#物品管道在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
+	# Default: 40
+	# Range: 0 ~ 1200
+	itemMaxSleep = 40
+	#流体管道在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
+	# Default: 40
+	# Range: 0 ~ 1200
+	fluidMaxSleep = 40
+	#能量管道在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。（建议保持较低以防断电）
+	# Default: 5
+	# Range: 0 ~ 1200
+	energyMaxSleep = 5
+	#气体管道在空/满时的最大休眠时间（tick）。0 = 关闭该类型休眠。
+	# Default: 40
+	# Range: 0 ~ 1200
+	gasMaxSleep = 40
+
+	[Upgrades.Item]
+		#ATM升级的传输速率
+		# Default: 4096
+		# Range: > 1
+		itemRateAtm = 4096
+		#振金升级的传输速率
+		# Default: 65536
+		# Range: > 1
+		itemRateVibranium = 65536
+		#难得素升级的传输速率
+		# Default: 1048576
+		# Range: > 1
+		itemRateUnobtainium = 1048576
+		#恒星合金升级的传输速率
+		# Default: 16777216
+		# Range: > 1
+		itemRateStellar = 16777216
+
+	[Upgrades.Fluid]
+		#ATM升级的传输速率
+		# Default: 1000000
+		# Range: > 1
+		fluidRateAtm = 1000000
+		#振金升级的传输速率
+		# Default: 16000000
+		# Range: > 1
+		fluidRateVibranium = 16000000
+		#难得素升级的传输速率
+		# Default: 256000000
+		# Range: > 1
+		fluidRateUnobtainium = 256000000
+		#恒星合金升级的传输速率
+		# Default: 1000000000
+		# Range: > 1
+		fluidRateStellar = 1000000000
+
+	[Upgrades.Energy]
+		#ATM升级的传输速率
+		# Default: 10000000
+		# Range: > 1
+		energyRateAtm = 10000000
+		#振金升级的传输速率
+		# Default: 100000000
+		# Range: > 1
+		energyRateVibranium = 100000000
+		#难得素升级的传输速率
+		# Default: 500000000
+		# Range: > 1
+		energyRateUnobtainium = 500000000
+		#恒星合金升级的传输速率
+		# Default: 1500000000
+		# Range: > 1
+		energyRateStellar = 1500000000
+
+	[Upgrades.Gas]
+		#ATM升级的传输速率
+		# Default: 4000000
+		# Range: > 1
+		gasRateAtm = 4000000
+		#振金升级的传输速率
+		# Default: 64000000
+		# Range: > 1
+		gasRateVibranium = 64000000
+		#难得素升级的传输速率
+		# Default: 512000000
+		# Range: > 1
+		gasRateUnobtainium = 512000000
+		#恒星合金升级的传输速率
+		# Default: 1500000000
+		# Range: > 1
+		gasRateStellar = 1500000000

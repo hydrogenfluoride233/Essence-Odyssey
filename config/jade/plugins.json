@@ -140,6 +140,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "pipez": {
+    "pipe": true
+  },
   "quark": {
     "oretoise_eating_cooldown": true
   },
