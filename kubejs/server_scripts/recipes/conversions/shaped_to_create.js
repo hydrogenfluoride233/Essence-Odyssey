@@ -41,7 +41,6 @@ ServerEvents.recipes(event=>{
         "pneumaticcraft:charging_station",
         "pneumaticcraft:heat_frame",
 
-        "laserio:logic_chip_raw",
     ]
 
     const toCreateIngredient = ingredient=>{
