@@ -1,0 +1,13 @@
+name = "Pipez More Pipes"
+filename = "pipez_more_pipes-1.0.3-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "255cbd33450c7bb039dd1379b0c1a6cf36f059f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9523480
+project-id = 1700579

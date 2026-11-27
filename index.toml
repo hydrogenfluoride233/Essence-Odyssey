@@ -6,7 +6,7 @@ hash = "ee18dee1a8206cc3853e156102d70038554a4d0e30937e1e8145ef49086d0670"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
-hash = "ccf955dd3e334394f9188ab9d21425ebf0375ffd6546916fb355d357bef9d04a"
+hash = "02a6a8e8d5aba80466a3233280b067eafc06b633da43c4cd2dde6705731ffa55"
 
 [[files]]
 file = "config/Mekanism-Extras/general.toml"
@@ -1861,6 +1861,10 @@ file = "config/entityculling.json"
 hash = "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe"
 
 [[files]]
+file = "config/essenceodyssey/world_interactions.json"
+hash = "b89ae76253fcf77e821b6fc1188342f541fe7a1428828c887edf43acdf7f5bc8"
+
+[[files]]
 file = "config/eternal_starlight.json"
 hash = "999dc03ed73f72c9bebef72a1514d4285e44ec2394c1ba3d2cd46903758172b6"
 
@@ -1986,7 +1990,7 @@ hash = "ff921d6f5780efb43d0f92f728a8696fd1113d60a77fa18301eb43880b7f6a7d"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout_cobalt.txt"
-hash = "65da05ab619b0dc75aece977ef9fb042a59e31dfcdbe7c6d86d414f587a4822a"
+hash = "765dae65bcc20b1e880ad99ee250e7cebde12ac31c144f1b1a7874c2c26e9b62"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -2310,7 +2314,7 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "943456f9507f87b6a42ab18988fa3ee0eb8d21854b8516b2a64ab27f12462429"
+hash = "eac6f25f7b3f77d174362c8db01f35f28bf740865b7fb642ab7d59763f2c8e53"
 
 [[files]]
 file = "config/jea.json5"
@@ -2330,7 +2334,7 @@ hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
 
 [[files]]
 file = "config/jei/client/ingredient-list-mod-sort-order.ini"
-hash = "462777874e59ce90a49a70e624caa21f3bfc4c917954f2603ad6cf46321db05d"
+hash = "5a7fa98e95b368d2ac750b5a818e1c9f191a66def8d045bbdd4451d871b5232d"
 
 [[files]]
 file = "config/jei/client/ingredient-list-type-sort-order.ini"
@@ -2338,7 +2342,7 @@ hash = "438d67201d31d99334ab1b7ca77ea69ed7a631a8e36933ca4f230c914c306c3e"
 
 [[files]]
 file = "config/jei/client/recipe-category-sort-order.ini"
-hash = "01ac0ff57d2172a4fb3eca51b01a417c7c0c9ba29a19ad4f18a3795ebfc7564c"
+hash = "d47e92840b3e00e707d6772b022363fd01c24a1714e7707fdb338cb983732abc"
 
 [[files]]
 file = "config/jei_command/jei_burn_times.toml"
@@ -2591,6 +2595,18 @@ hash = "d2c03bd09d1e4afa6900b243608e45ad07930867485505eb0793c168e21a4292"
 [[files]]
 file = "config/occultism-startup.toml"
 hash = "698caa85370cc13d2a6d636ec9ce9b5ed2dc8d813c8b89162ceda4136f66931e"
+
+[[files]]
+file = "config/pipez-server.toml"
+hash = "fe61ea4556fc99cf1848c3b7668a8584e6802c7034b9f16c5ead553c9ae14757"
+
+[[files]]
+file = "config/pipez_more_pipes-server.toml"
+hash = "fd143e2a1ffecd6324e2a0818eab14e2fed5d9d82c2a173a7490fbdc3d27eb22"
+
+[[files]]
+file = "config/pipez_optimizer-server_v2.toml"
+hash = "eb22c138cfcef05afb8daa8c4cb27417a3b98eb45d2b9c19ed8183437eb8001c"
 
 [[files]]
 file = "config/placebo.cfg"
@@ -3354,11 +3370,11 @@ hash = "7e17bae1903f17ca0c094b13ab4038a3e9a7955715f9f5222e795f9f7aff2587"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/en_us.json"
-hash = "c1d66f29ad91926f7ee5466b8d87c6262ef991a868e87e7180be7f6c302e47eb"
+hash = "4fd0314201f04b9b4632262c54383f4c40cfda98b814fbfa3b37286b37dd001b"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/zh_cn.json"
-hash = "3518e197621ff5b2da2e79226d25e683a8cf1fb19efc69ca48d422c893b56936"
+hash = "8c67a47e71b198ccae68bb90bfc5d10b134d5894e4dbc4286d015bf68be5cd86"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/1.json"
@@ -6106,7 +6122,7 @@ hash = "a782a6801179d1fafbbaa2fa9caff393763783195ba3e6da74ab136d9d0a1492"
 
 [[files]]
 file = "kubejs/server_scripts/data.js"
-hash = "31b0da4ca7c715dc742fd3fd6aa619028b60aabb5d1dde63dd4a07e69d104e93"
+hash = "f068981d4c095dbb0e920165a05dfe4abd650791ab07eeae7d49f7d7f12d6dc2"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
@@ -7135,8 +7151,8 @@ hash = "5b4cf86b180698a378f64acb7a95cdb1c119b8486a8b9f280232b48cb4e5f294"
 metafile = true
 
 [[files]]
-file = "mods/essenceodyssey-build.41.jar"
-hash = "695914213cdd50656834c4a423dbcbc3b5625c03b20f734d36c74e4b94ce1b56"
+file = "mods/essenceodyssey-build.59.jar"
+hash = "7d6d476a33f3ee3be05f72968c3327dae6bd1fc4f4b0090fce63081f2bca4917"
 
 [[files]]
 file = "mods/eternal-starlight-delight.pw.toml"
@@ -7499,18 +7515,8 @@ hash = "f68d6d20d2f1ae3edb429736a46e63fb0a7c3828d876b927431697dd289ab138"
 metafile = true
 
 [[files]]
-file = "mods/just-enough-repair-materials.pw.toml"
-hash = "506cdc31464ff9244c78fb01c53ef00a736a8036b4abf9abdddb750cd2286918"
-metafile = true
-
-[[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "397f35d7eccfd938827dc2e16fad9619213604b5e9f81d0d54f0674b1d3df6b6"
-metafile = true
-
-[[files]]
-file = "mods/justenoughbreeding.pw.toml"
-hash = "e6432c819a2577e9bd4d89ce4020a2ec85c14426cacd516ecd3da03236479982"
 metafile = true
 
 [[files]]
@@ -7841,6 +7847,21 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
+metafile = true
+
+[[files]]
+file = "mods/pipez-more-pipes.pw.toml"
+hash = "506500c080b9e15cabf264f9b5d092f3f34fcfdad2a6e377c5e95bf3de470233"
+metafile = true
+
+[[files]]
+file = "mods/pipez-optimizer.pw.toml"
+hash = "e3fcf4724d836516953fc8adfce81cd141617c9cbcb3f0aadc573bc151b5dedc"
+metafile = true
+
+[[files]]
+file = "mods/pipez.pw.toml"
+hash = "3c4fbbd6d5cfcb5ac1faaf56fc85ae79194f3c0155013afc39e4fed20a3812c1"
 metafile = true
 
 [[files]]
