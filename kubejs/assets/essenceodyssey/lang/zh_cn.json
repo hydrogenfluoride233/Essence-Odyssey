@@ -66,5 +66,9 @@
   "essenceodyssey.info.void_crystal.detail":"凝胶向煤矿石蔓延可以获得黑色晶簇，使用非精准采集工具破坏可以获得2~8 个黑色水晶碎片。",
   "essenceodyssey.info.emeradic_crystal.detail":"凝胶向绿宝石矿石蔓延可以获得绿色晶簇，使用非精准采集工具破坏可以获得2~8 个绿色水晶碎片。",
   "essenceodyssey.info.infused_wood.detail":"将原木丢入一池星能液中，浮回来的便是注星木。",
-  "essenceodyssey.info.goldenleaf_berries.detail":"金叶浆果自然生成于辐金高地和辐金光地的速沙上。"
+  "essenceodyssey.info.goldenleaf_berries.detail":"金叶浆果自然生成于辐金高地和辐金光地的速沙上。",
+  "essenceodyssey.world_interaction.perditio_portal":"将紫水晶碎片由主世界侧丢入末地传送门，以凝结混沌结晶。",
+  "essenceodyssey.world_interaction.crystallized_oil":"将晶化油菜种子丢入精制菜籽油，可得到晶化油。",
+  "essenceodyssey.world_interaction.empowered_oil":"将充能油菜种子丢入晶化油，可得到充能油。",
+  "essenceodyssey.world_interaction.aerogel":"将熔岩丢入天境传送门框架，凝结成气凝胶。"
 }

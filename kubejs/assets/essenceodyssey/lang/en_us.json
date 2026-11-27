@@ -66,5 +66,9 @@
   "essenceodyssey.info.void_crystal.detail":"Spreading Goo onto coal ore grows a Black Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Black Crystal Shards.",
   "essenceodyssey.info.emeradic_crystal.detail":"Spreading Goo onto emerald ore grows a Green Crystal Cluster; breaking it with a tool without Silk Touch yields 2-8 Green Crystal Shards.",
   "essenceodyssey.info.infused_wood.detail":"Drop a log into a pool of Liquid Starlight, and what floats back up is Infused Wood.",
-  "essenceodyssey.info.goldenleaf_berries.detail":"Goldenleaf Berries generate naturally on Quicksoil in the Golden Heights and the Golden Grove."
+  "essenceodyssey.info.goldenleaf_berries.detail":"Goldenleaf Berries generate naturally on Quicksoil in the Golden Heights and the Golden Grove.",
+  "essenceodyssey.world_interaction.perditio_portal":"Throw an amethyst shard into an End portal from the Overworld side to condense it into a chaos crystal.",
+  "essenceodyssey.world_interaction.crystallized_oil":"Drop a crystallized canola seed into refined canola oil to get crystallized oil.",
+  "essenceodyssey.world_interaction.empowered_oil":"Drop an empowered canola seed into crystallized oil to get empowered oil.",
+  "essenceodyssey.world_interaction.aerogel":"Drop lava into an Aether portal frame to condense it into aerogel."
 }
