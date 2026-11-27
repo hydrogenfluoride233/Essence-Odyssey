@@ -122,7 +122,12 @@ XaeroWaypoints_BACKUP*/
 
 # 模组生成的缓存、索引、运行期状态
 config/ars_nouveau/search_index/
-config/jei/
+config/jei/*
+!config/jei/client/
+config/jei/client/*
+!config/jei/client/ingredient-list-mod-sort-order.ini
+!config/jei/client/ingredient-list-type-sort-order.ini
+!config/jei/client/recipe-category-sort-order.ini
 config/emi/
 config/entityculling/
 config/iris-excluded.json
