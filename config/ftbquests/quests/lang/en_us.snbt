@@ -499,7 +499,7 @@
 	quest.27F647FAFC46B251.quest_desc: [
 		"The &aAbyssal Sacrifice&r is used to summon the Leviathan."
 		""
-		"Every material for it except the Heart of the Sea can be found in Sunken in the Sea; a &aBuried Treasure Map&r in its treasure room can help you obtain a Heart of the Sea."
+		"Every material for it except the Heart of the Sea can be found in the Sunken City; a &aBuried Treasure Map&r in its treasure room can help you obtain a Heart of the Sea."
 	]
 	quest.28A287F38BC6D9D6.quest_desc: [
 		"When nothing is above it, Gravitite Ore keeps &arising&r upward, against gravity."
@@ -861,7 +861,7 @@
 		""
 		"Place corundum on a pedestal and use source as the driving force. The environmental information in the items around it is caught by the corundum, and the environmental information inside aspect crystals is absorbed as well; only the &l&npure aspect information&r is left. The crystal is soaked through, taken apart, and rearranged — what condenses out is &amagical essence&r."
 	]
-	quest.48407C982D11D8DC.title: "Essence"
+	quest.48407C982D11D8DC.title: "Magical Essence"
 	quest.485146C723E79D3B.quest_desc: [
 		"The Deployer is a perfect copy of your own block-hands: it can &aimitate the interactions you perform&r."
 		""
@@ -916,13 +916,13 @@
 	quest.4CF8C2A8077F34B8.title: "Kill the Starlight Golem"
 	quest.4D55DD74B097B6DE.title: "Diesel Generator"
 	quest.4D69672AA9A6CB0D.quest_desc: [
-		"Sunken in the Sea rises from the deep &aOverworld&r ocean — an ancient ruin of masterful craft."
+		"The Sunken City rises from the deep &aOverworld&r ocean — an ancient ruin of masterful craft."
 		""
 		"Here, an old ritual can summon the &aLeviathan&r."
 		""
 		"This structure can be found with the &aEye of Abyss&r."
 	]
-	quest.4D69672AA9A6CB0D.title: "Sunken in the Sea"
+	quest.4D69672AA9A6CB0D.title: "The Sunken City"
 	quest.4E8041B1FBD6669F.quest_desc: [
 		"The End's aspect is &#626262chaos&r. It &#626262breaks down&r what exists, pushes everything into the &#626262unknown&r, and leaves behind only &#626262possibilities not yet fixed&r."
 		""
@@ -1053,6 +1053,7 @@
 	quest.5CB6EA2A68A9037C.quest_desc: ["The Improved Blast Furnace supports &aautomated input and output&r, and adding &aBlast Furnace Preheaters&r speeds up refining."]
 	quest.5CB6EA2A68A9037C.title: "Improved Blast Furnace"
 	quest.5D16935DC546D2E1.quest_desc: ["## Whole chapter hidden; to be written together with Chapter 3"]
+	quest.5D6FDC17D4284E3A.title: "Electricity, Source and Aura"
 	quest.5E4647B964AD82A1.quest_desc: [
 		"&aThe Natural Altar&r is crafted in the Enchanting Apparatus from six kinds of tokens — life's six responses to the world."
 		""
@@ -1187,6 +1188,13 @@
 		"The one thing to keep in mind is this: by default, there is a &alimit&r to how much aura a single area can hold."
 	]
 	quest.6951B60D890910D1.title: "Aura Generation"
+	quest.6AAB9264D0E01D37.quest_desc: [
+		"If you grow tired along the expedition, why not come and rest your feet at &a远征者营地&r (Expeditioners' Camp)?"
+		""
+		"It is our official QQ group: the group number is &a1077071243&r, and the passphrase is the six characters &a&l「何为本源远征」&r (\"What is Essence Odyssey?\"). It is not only the answer that lets you in, but also a question I want to ask you. I hope that after you finish the story of Essence Odyssey, you will have an answer of your own."
+		""
+		"Set out, then: the expedition \"Seeking the Origin of This World\" is about to begin."
+	]
 	quest.6B0C4D6CC6F590A4.quest_desc: ["&oCardboard boxes are OP.&r"]
 	quest.6BA679217AD6DBB8.quest_desc: [
 		"With steel ingots in hand, you can now start building heavy machinery."
@@ -1327,7 +1335,7 @@
 	quest.747DC66590F1BF6C.quest_desc: [
 		"&o&6The Leviathan — master of the abyssal power, a dreadful predator that can tear even time and space apart.&r"
 		""
-		"At the bottom of the water in the centre of Sunken in the Sea, right-click the &aAltar of Abyss&r with an &aAbyssal Sacrifice&r to summon the Leviathan."
+		"At the bottom of the water in the centre of the Sunken City, right-click the &aAltar of Abyss&r with an &aAbyssal Sacrifice&r to summon the Leviathan."
 	]
 	quest.747DC66590F1BF6C.title: "Trial of the Leviathan"
 	quest.750732F9BA65F823.quest_desc: [
@@ -1509,12 +1517,13 @@
 	task.42FC38BAB37B938E.title: "Building Tip"
 	task.4949CEE6599F4ECE.title: "The Twilight Forest"
 	task.4957F257EAD47780.title: "Building Tip"
+	task.49EABEC695D70A23.title: "Expeditioners' Camp"
 	task.4B29AE92649276BC.title: "Advanced Compressors"
 	task.4C19EFA8BF153159.title: "Getting to Know This World"
 	task.4C3D832DFA013D0A.title: "Jail of Cold"
 	task.4E664F0AFCBB4293.title: "The Beginning"
 	task.4EC3AB0EF207BB8D.title: "Solar Panel"
-	task.4F2A964E7E3DFD96.title: "Sunken in the Sea"
+	task.4F2A964E7E3DFD96.title: "The Sunken City"
 	task.4F45886C24B2B9F2.title: "Building Tip"
 	task.4FE49AA5D75A0251.title: "Observe: Improved Blast Furnace"
 	task.4FF759267D5261E9.title: "Sourcelink"
