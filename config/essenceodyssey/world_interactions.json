@@ -2,7 +2,6 @@
   "entries": [
     {
       "id": "perditio_portal",
-      "dims": [],
       "env": [
         "minecraft:end_portal_frame"
       ],
@@ -18,7 +17,6 @@
     },
     {
       "id": "crystallized_oil",
-      "dims": [],
       "env": [
         "actuallyadditions:crystallized_canola_seed"
       ],
@@ -34,7 +32,6 @@
     },
     {
       "id": "empowered_oil",
-      "dims": [],
       "env": [
         "actuallyadditions:empowered_canola_seed"
       ],
@@ -50,10 +47,9 @@
     },
     {
       "id": "aerogel",
-      "dims": [
-        "aether:the_aether"
+      "env": [
+        "aether:aether_portal_frame"
       ],
-      "env": [],
       "inputs": [
         "minecraft:lava"
       ],
@@ -66,7 +62,6 @@
     },
     {
       "id": "infused_wood",
-      "dims": [],
       "env": [
         "astralsorcery:liquid_starlight"
       ],
@@ -82,10 +77,9 @@
     },
     {
       "id": "blood_clot",
-      "dims": [
-        "twilightforest:twilight_forest"
+      "env": [
+        "twilightforest:twilight_portal_miniature_structure"
       ],
-      "env": [],
       "inputs": [
         "create:chocolate"
       ],
