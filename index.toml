@@ -2413,14 +2413,6 @@ file = "config/justdirethings-server.toml"
 hash = "efe750c288494b070b69ffd175a745d9859921bae82683802c78060031594d34"
 
 [[files]]
-file = "config/justenoughbreeding-offsets.json"
-hash = "eac041b52f6f62f54b64495bd5ae3e3fd6f50830594ca614e9606407cd58c126"
-
-[[files]]
-file = "config/justenoughbreeding.json"
-hash = "3b3519f38d850e4eb869d00d75b5e4dc664950959564aaf90c7ab7ccc6448a3c"
-
-[[files]]
 file = "config/kiwi-common.yaml"
 hash = "202b5a7ab19c1cfff344bd6546be24f8c10a3e92632551ca83ab636016e9d72f"
 
