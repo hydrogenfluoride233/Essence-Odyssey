@@ -70,6 +70,7 @@
   "essenceodyssey.world_interaction.perditio_portal": "Throw an amethyst shard into an End portal from the Overworld side to condense it into a chaos crystal.",
   "essenceodyssey.world_interaction.crystallized_oil": "Drop a crystallized canola seed into refined canola oil to get crystallized oil.",
   "essenceodyssey.world_interaction.empowered_oil": "Drop an empowered canola seed into crystallized oil to get empowered oil.",
-  "essenceodyssey.world_interaction.aerogel": "Drop lava into an Aether portal frame to condense it into aerogel.",
-  "essenceodyssey.world_interaction.infused_wood": "Drop a log into a pool of Liquid Starlight, and what floats back up is Infused Wood."
+  "essenceodyssey.world_interaction.aerogel": "Formed by placing lava in the Aether.",
+  "essenceodyssey.world_interaction.infused_wood": "Drop a log into a pool of Liquid Starlight, and what floats back up is Infused Wood.",
+  "essenceodyssey.world_interaction.blood_clot": "Formed by placing chocolate in the Twilight Forest."
 }

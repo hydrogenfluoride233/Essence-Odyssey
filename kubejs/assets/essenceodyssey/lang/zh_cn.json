@@ -70,6 +70,7 @@
   "essenceodyssey.world_interaction.perditio_portal": "将紫水晶碎片由主世界侧丢入末地传送门，以凝结混沌结晶。",
   "essenceodyssey.world_interaction.crystallized_oil": "将晶化油菜种子丢入精制菜籽油，可得到晶化油。",
   "essenceodyssey.world_interaction.empowered_oil": "将充能油菜种子丢入晶化油，可得到充能油。",
-  "essenceodyssey.world_interaction.aerogel": "将熔岩丢入天境传送门框架，凝结成气凝胶。",
-  "essenceodyssey.world_interaction.infused_wood": "将原木丢入一池星能液中，浮回来的便是注星木。"
+  "essenceodyssey.world_interaction.aerogel": "将熔岩放置在天境形成。",
+  "essenceodyssey.world_interaction.infused_wood": "将原木丢入一池星能液中，浮回来的便是注星木。",
+  "essenceodyssey.world_interaction.blood_clot": "将巧克力放置在暮色森林形成。"
 }
