@@ -2314,7 +2314,7 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "eac6f25f7b3f77d174362c8db01f35f28bf740865b7fb642ab7d59763f2c8e53"
+hash = "943456f9507f87b6a42ab18988fa3ee0eb8d21854b8516b2a64ab27f12462429"
 
 [[files]]
 file = "config/jea.json5"
@@ -2587,18 +2587,6 @@ hash = "d2c03bd09d1e4afa6900b243608e45ad07930867485505eb0793c168e21a4292"
 [[files]]
 file = "config/occultism-startup.toml"
 hash = "698caa85370cc13d2a6d636ec9ce9b5ed2dc8d813c8b89162ceda4136f66931e"
-
-[[files]]
-file = "config/pipez-server.toml"
-hash = "fe61ea4556fc99cf1848c3b7668a8584e6802c7034b9f16c5ead553c9ae14757"
-
-[[files]]
-file = "config/pipez_more_pipes-server.toml"
-hash = "fd143e2a1ffecd6324e2a0818eab14e2fed5d9d82c2a173a7490fbdc3d27eb22"
-
-[[files]]
-file = "config/pipez_optimizer-server_v2.toml"
-hash = "eb22c138cfcef05afb8daa8c4cb27417a3b98eb45d2b9c19ed8183437eb8001c"
 
 [[files]]
 file = "config/placebo.cfg"
@@ -2894,7 +2882,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "defaultconfigs/jei/client/ingredient-list-mod-sort-order.ini"
-hash = "33668afa94e58b2e337197c9d341c3ba3b9c3bfbc501641b611c54d1d4fdb2d1"
+hash = "bd247a3a30e5c73785c959c3236db3dd113cb3c30544d8e5b8b277842d01c271"
 
 [[files]]
 file = "defaultconfigs/jei/client/ingredient-list-type-sort-order.ini"
@@ -2906,7 +2894,7 @@ hash = "1108509ea459dd831a687ba325ec0c9f0f807fac5891367dd3d884f3e1a4fc61"
 
 [[files]]
 file = "defaultconfigs/jei/client/recipe-category-sort-order.ini"
-hash = "c9027b58ab0f04c585d47e4a84c6675e7d51fe8bd59aa3cbf64b0d01a1197f90"
+hash = "78034cc2fac29e021f9d493a86207276e43e536483f51d9be3ee4a9e63a46f8c"
 
 [[files]]
 file = "defaultconfigs/sodium-extra-options.json"
@@ -6202,7 +6190,7 @@ hash = "77e94075d9abd292d49f405c6f848b50347938a4b528b4da76019368a9fe807a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/conversions/shaped_to_create.js"
-hash = "2cd7e6366b7c6207b76c5d6aae930a4abf4ca6c0d228167ccaf1afe197d0b746"
+hash = "48bd00a5d5c6f72cc76e1306f8cff6751296142cd750b0ab20e41f5da580da6f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/compacting.js"
@@ -7597,11 +7585,6 @@ hash = "7211de0ddeab153fc2bf9588f5922de705006be507002ec03cb9f8e6b67ab4cf"
 metafile = true
 
 [[files]]
-file = "mods/laserio.pw.toml"
-hash = "0d7ce37fd00f170025118f0e3fbeef7f4e7147c332b1a5a4e924950eb5e36bc0"
-metafile = true
-
-[[files]]
 file = "mods/legendary-tooltips.pw.toml"
 hash = "0004f14a9f41e930775229f57d22b2df5e09f43b138f8dcedd4429161e00c377"
 metafile = true
@@ -7839,21 +7822,6 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
-metafile = true
-
-[[files]]
-file = "mods/pipez-more-pipes.pw.toml"
-hash = "506500c080b9e15cabf264f9b5d092f3f34fcfdad2a6e377c5e95bf3de470233"
-metafile = true
-
-[[files]]
-file = "mods/pipez-optimizer.pw.toml"
-hash = "e3fcf4724d836516953fc8adfce81cd141617c9cbcb3f0aadc573bc151b5dedc"
-metafile = true
-
-[[files]]
-file = "mods/pipez.pw.toml"
-hash = "3c4fbbd6d5cfcb5ac1faaf56fc85ae79194f3c0155013afc39e4fed20a3812c1"
 metafile = true
 
 [[files]]
