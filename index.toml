@@ -2174,7 +2174,7 @@ hash = "949b9834ffc264fecf4169823427b51c306ab97444fc8782ec57c51dd12c65bb"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "115502741ea43bcdb7bfbe8fa504a3ae316590274de20a84a95f6e207a9e1677"
+hash = "bb283354dc7bb22c2ffb360b94c0380e6799dfea09208a7306f5af4bc64fba19"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
@@ -3354,7 +3354,7 @@ hash = "4fd0314201f04b9b4632262c54383f4c40cfda98b814fbfa3b37286b37dd001b"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/zh_cn.json"
-hash = "8c67a47e71b198ccae68bb90bfc5d10b134d5894e4dbc4286d015bf68be5cd86"
+hash = "b178ab4d8fbefd0ab018fc0978b2d0e37004458776a3fcea0bfa3730aeb25eae"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/1.json"
@@ -7131,8 +7131,8 @@ hash = "5b4cf86b180698a378f64acb7a95cdb1c119b8486a8b9f280232b48cb4e5f294"
 metafile = true
 
 [[files]]
-file = "mods/essenceodyssey-build.59.jar"
-hash = "7d6d476a33f3ee3be05f72968c3327dae6bd1fc4f4b0090fce63081f2bca4917"
+file = "mods/essenceodyssey-build.61.jar"
+hash = "f82d0486c9051780ff7c1ec00ddf2da4bb9526321a2adc4d82c8872d1fff134a"
 
 [[files]]
 file = "mods/eternal-starlight-delight.pw.toml"
