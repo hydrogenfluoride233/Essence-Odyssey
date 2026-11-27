@@ -93,12 +93,12 @@ const MetalConfig = [
     },
 ]
 
-//实用拓展六种水晶：id＝AA 的水晶短名｜block＝灵气祭坛炼水晶块用的原版方块
+//实用拓展六种水晶：id＝AA 的水晶短名｜ore＝对应的矿石（拼 c:ores/<ore>）｜block＝灵气祭坛炼水晶块用的原版方块
 const Crystals = [
-    {id:"restonia",  block:"minecraft:redstone_block"},
-    {id:"palis",     block:"minecraft:lapis_block"},
-    {id:"diamatine", block:"minecraft:diamond_block"},
-    {id:"void",      block:"minecraft:coal_block"},
-    {id:"enori",     block:"minecraft:iron_block"},
-    {id:"emeradic",  block:"minecraft:emerald_block"},
+    {id:"restonia",  ore:"redstone", block:"minecraft:redstone_block"},
+    {id:"palis",     ore:"lapis",    block:"minecraft:lapis_block"},
+    {id:"diamatine", ore:"diamond",  block:"minecraft:diamond_block"},
+    {id:"void",      ore:"coal",     block:"minecraft:coal_block"},
+    {id:"enori",     ore:"iron",     block:"minecraft:iron_block"},
+    {id:"emeradic",  ore:"emerald",  block:"minecraft:emerald_block"},
 ]
