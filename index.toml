@@ -6,7 +6,7 @@ hash = "ee18dee1a8206cc3853e156102d70038554a4d0e30937e1e8145ef49086d0670"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
-hash = "5238daf22c6a9e34a27011bf66e93b93d298df99c5a3ffb61113c25c4c4890e8"
+hash = "ccf955dd3e334394f9188ab9d21425ebf0375ffd6546916fb355d357bef9d04a"
 
 [[files]]
 file = "config/Mekanism-Extras/general.toml"
@@ -250,11 +250,11 @@ hash = "a3bee57a52654b40ba20f3dd1128377ce044df863f03deb507dd5ff6eb39311f"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "9d4770e5a815b101598bea72b0f1cc8cb7a036453f89d05400a01ad2f3ff653c"
+hash = "b329c180abf160cc0c7f270051845107aa5bbeeaa5ccba750eb7dfac5f7a3d89"
 
 [[files]]
 file = "config/apotheosis/name_generation.cfg"
-hash = "7227bf60d75af807718619c53666411879f850e7fba9d4b38d550fa553d9bbfd"
+hash = "c5fce69eda94e1f722f3c1b769de3738fcc7dce8db67fccfe8790029da3e23b5"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
@@ -1737,14 +1737,6 @@ file = "config/cristellib/twilightforest/structure_toggle_config.json5"
 hash = "27d44d52925eeee68dc6af594f45b75e748516073954281eab7a7df4c348be92"
 
 [[files]]
-file = "config/cristellib/undergarden/structure_placement_config.json5"
-hash = "454ffa75bab1f9806e61895bedc3aa5f6f0d122ea013ea7e30e13f6213357fcb"
-
-[[files]]
-file = "config/cristellib/undergarden/structure_toggle_config.json5"
-hash = "f8d8304e690a1a851a58af20f42fbdf23ec87af613630be91a429630128cf567"
-
-[[files]]
 file = "config/cristellib/vanillabackport/structure_placement_config.json5"
 hash = "1e5ef559a20d1d02387214c10bdbe1ba1915f12958d1aeee4adef667bf7d70a8"
 
@@ -2337,6 +2329,18 @@ file = "config/jei-server.toml"
 hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
 
 [[files]]
+file = "config/jei/client/ingredient-list-mod-sort-order.ini"
+hash = "462777874e59ce90a49a70e624caa21f3bfc4c917954f2603ad6cf46321db05d"
+
+[[files]]
+file = "config/jei/client/ingredient-list-type-sort-order.ini"
+hash = "438d67201d31d99334ab1b7ca77ea69ed7a631a8e36933ca4f230c914c306c3e"
+
+[[files]]
+file = "config/jei/client/recipe-category-sort-order.ini"
+hash = "01ac0ff57d2172a4fb3eca51b01a417c7c0c9ba29a19ad4f18a3795ebfc7564c"
+
+[[files]]
 file = "config/jei_command/jei_burn_times.toml"
 hash = "82f2380f529122fd1b4d9e08d8b529a830e748869c4788f86766284b79f5e111"
 
@@ -2419,6 +2423,22 @@ hash = "202b5a7ab19c1cfff344bd6546be24f8c10a3e92632551ca83ab636016e9d72f"
 [[files]]
 file = "config/kjsae2bridge-server.toml"
 hash = "9a16a527238996575f1f3aeac23c8cc2869d7e9bf0e66ac4f154caa0ee69c92e"
+
+[[files]]
+file = "config/konkrete/locals/de_de.local"
+hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
+
+[[files]]
+file = "config/konkrete/locals/en_us.local"
+hash = "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
+
+[[files]]
+file = "config/konkrete/locals/pl_pl.local"
+hash = "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
+
+[[files]]
+file = "config/konkrete/locals/pt_br.local"
+hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -2651,6 +2671,14 @@ hash = "833e77df6264c4536117e22e212252470f11234e5f681452fb758de0c123635c"
 [[files]]
 file = "config/sfm-server.toml"
 hash = "799bb1944ee44357c88012b803298896fb359569c77cda9d06fb4445dd8a1406"
+
+[[files]]
+file = "config/simplehats.json"
+hash = "ef023c7f0d6c273b463f595c62145afab8f3b65b43b0b3304e3da5e9355cb5dc"
+
+[[files]]
+file = "config/simplehats.json5"
+hash = "7a40d316646f95ce8f14a53584eb0bfa603833d45fd63695d15e2c4d3045ecd1"
 
 [[files]]
 file = "config/skinlayers.json"
@@ -7712,7 +7740,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "6401f87b87d6ce52a252653aef2c2021c827f3e48311637cb2d31f44e8e68867"
+hash = "4d9eab7768101b79a12d7d250043e35300b14b356fcd3a379f1d50e95d0c61e1"
 metafile = true
 
 [[files]]
@@ -7917,7 +7945,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "a990835db9226db635ac9a48643ccc434358d4e7194df38abdae1680fda73ac6"
+hash = "9ebec867181f3c991d6c42357d959d322915d533a10269ac48869d3a7b515fb8"
 metafile = true
 
 [[files]]
@@ -7946,6 +7974,11 @@ hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
 
 [[files]]
+file = "mods/simplehats.pw.toml"
+hash = "fd1b9f881bee267f3aacb4af63080f19f5272503deae35a7d3d9c57ad2e896a4"
+metafile = true
+
+[[files]]
 file = "mods/skin-layers-3d.pw.toml"
 hash = "76a0c2e43960a24ed7d6022db40f85872f86066e56b8ff99407a6f1aaa516ada"
 metafile = true
@@ -7967,7 +8000,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "7dc8a391c1349fdc61e8e585ece70ebcb8ad85b6adfc584780d4ceca2ed758f0"
+hash = "5536b5eee3a85dc0767ced3ff29fd208647c0e4a98b825d152481cb062271fa7"
 metafile = true
 
 [[files]]
@@ -7977,7 +8010,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "7def5310fc0e0a05419a690301a07c5348619295968f674fc0943a3b3f715da2"
+hash = "691cb7584e21951c5c7594cf23d4fb1e1f3d07c1ca149e80a1aaa76c3c89dc75"
 metafile = true
 
 [[files]]

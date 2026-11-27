@@ -1,0 +1,13 @@
+name = "Simple Hats"
+filename = "simplehats-neoforge-1.21.1-0.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db9a2a5e72b0eae36b90962a7f19035f38bb5669"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9234081
+project-id = 631990
