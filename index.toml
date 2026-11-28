@@ -5626,7 +5626,7 @@ hash = "ae7008b5843240241619531881a87136a94f23db5209d7614917429ef3aa8335"
 
 [[files]]
 file = "kubejs/client_scripts/recipe_viewer/hidden_items.js"
-hash = "696185ccfdc547c090c00c57483281033d2dab52a74504b2fa9380e54fda4fed"
+hash = "07fde9cfe116dca7e775f973c02f3150dbe25938fbd67a00b9ed98e0790ccd38"
 
 [[files]]
 file = "kubejs/client_scripts/recipe_viewer/hidden_recipes.js"
@@ -6078,7 +6078,7 @@ hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR_machines.js"
-hash = "35e4d18c733b0c9943e4c0640c2557cdb1eeddd52cbae0af4acc2eb6ed1f6977"
+hash = "758f3d724ce8e2742cd43b230ea5076994bb61f9f1824434696fec057ee2a593"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR_models.js"
@@ -6090,7 +6090,7 @@ hash = "ad8c1d8da557ce92ad871232aeeffd5d9e220f38630823555f9b5cb8783e2ae9"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR_recipes_common.js"
-hash = "5cfad0eb87be1ca5fb480cc8e3a5e339e62b25a90dcd37fc887044851e396b37"
+hash = "e875f641aee84ec0814801f167cc4a69bdefa65806a854dc1a1104a7e1b076ae"
 
 [[files]]
 file = "kubejs/server_scripts/MMCR/MMCR_structures.js"
@@ -6106,7 +6106,7 @@ hash = "f068981d4c095dbb0e920165a05dfe4abd650791ab07eeae7d49f7d7f12d6dc2"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
-hash = "6936b39664699f5ddaf3ce0bbe8897dfa8008d602dc3017ed4e0f38c7db95afc"
+hash = "04fc7f0abef91822e2b2492447fc36666114ec62d664ccdb657c840cafddfc5d"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -6190,7 +6190,7 @@ hash = "77e94075d9abd292d49f405c6f848b50347938a4b528b4da76019368a9fe807a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/conversions/shaped_to_create.js"
-hash = "48bd00a5d5c6f72cc76e1306f8cff6751296142cd750b0ab20e41f5da580da6f"
+hash = "9968d4b2debc1a15261f3dc3477e9dcf851bbc617c619f19ce25edc9b77b5a5a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/compacting.js"
@@ -6486,7 +6486,7 @@ hash = "af25944043619be3dbba3a79800fe6c51b40558e0d23e86c2bbdb1ac72b908bb"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/pneumaticcraft/thermo_plant.js"
-hash = "a38aa24d752b12b8cd7bf315bd8d18f631a1d4fccf99512b5514bc21bea04792"
+hash = "fb753138b141360ca9b8751fc0630059e871c90350a2006fc76249c964c7993a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/portaltransform/item_transform.js"
@@ -6510,11 +6510,11 @@ hash = "b2b4dbd3f23a7dd161c3be9dc3eb2f228de338fc13b0d470d6ce32358ab2edab"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "93a0537ad6cc57c012fa117da40b96b35180816cf21f862e39e0283bd538ba0f"
+hash = "da191d433b0d70d3d1f776b36f31d63261a187780c042f6368385b6dd56ed6da"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace_input.js"
-hash = "308257610cd8e8fef2085248d6b12b2d244ed8cacb218b3ee0204e34990b3f80"
+hash = "840e16a2617f12d18ab02226671d30c58df900dfbb6151af5f838f1845537e83"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/sanguine_networks/catalyst.js"
@@ -6522,11 +6522,11 @@ hash = "9f6754ae5879a2255a8fb50dd1fe185c0ecd46d8a2720b4442342ddf72d2b03a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
-hash = "f60726ead1941d20d8d265290fb11c6526a6d6ce7748877690f62df84c4fd446"
+hash = "f9a6ce2f6518269a8e77017b9f45bbea63b4a2fedb84ee188e997cf69246699e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
-hash = "2c2ef80f8abd7a16b804702bc4475a302aeeb776446171f915c294c1eedf7388"
+hash = "0817af49845abf663e9b105147c84f95887f437f9a02e2bafbda6291f2d8fdf0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/smelting.js"
