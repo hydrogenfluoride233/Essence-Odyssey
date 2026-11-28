@@ -69,11 +69,6 @@ ServerEvents.recipes(event=>{
             key:{B:"minecraft:dirt",P:"kubejs:aether_prediction"},
         },
         {
-            output:"8x deep_aether:aether_mud",
-            pattern:["BBB","BPB","BBB"],
-            key:{B:"minecraft:mud",P:"kubejs:aether_prediction"},
-        },
-        {
             output:"8x aether:aether_grass_block",
             pattern:["BBB","BPB","BBB"],
             key:{B:"minecraft:grass_block",P:"kubejs:aether_prediction"},
@@ -93,6 +88,13 @@ ServerEvents.recipes(event=>{
                 B:"ars_nouveau:fire_essence",
                 C:"minecraft:netherrack",
             },
+        },
+
+        //deep_aether
+        {
+            output:"8x deep_aether:aether_mud",
+            pattern:["BBB","BPB","BBB"],
+            key:{B:"minecraft:mud",P:"kubejs:aether_prediction"},
         },
 
         //eternal_starlight

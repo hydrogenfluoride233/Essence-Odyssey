@@ -51,7 +51,7 @@ ServerEvents.recipes(event=>{
             ],
         },
 
-        //justdirethings
+        //kubejs
         {
             output:"9x kubejs:ferricore_nugget",
             input:"justdirethings:ferricore_ingot",
@@ -60,8 +60,6 @@ ServerEvents.recipes(event=>{
             output:"9x kubejs:blazegold_nugget",
             input:"justdirethings:blazegold_ingot",
         },
-
-        //kubejs
         {
             output:"kubejs:twilight_ingot",
             input:[
