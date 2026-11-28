@@ -49,9 +49,7 @@ ServerEvents.recipes(event=>{
         if(ingredient.tag) return {tag:ingredient.tag}
 
         if(ingredient.type === "neoforge:components"&&ingredient.items){
-            const ids = Array.isArray(ingredient.items) ? ingredient.items : [ingredient.items]
-
-            return {item:ids[0]}
+            return {item:Array.isArray(ingredient.items) ? ingredient.items[0] : ingredient.items}
         }
 
         if(Array.isArray(ingredient)) return toCreateIngredient(ingredient[0])
@@ -70,9 +68,9 @@ ServerEvents.recipes(event=>{
 
             const normalizedKey = {}
 
-            for(const [k,v] of Object.entries(shapedRecipe.key)){
-                normalizedKey[k] = toCreateIngredient(v)
-            }
+            Object.keys(shapedRecipe.key).forEach(k=>{
+                normalizedKey[k] = toCreateIngredient(shapedRecipe.key[k])
+            })
 
             event.recipes.create.mechanical_crafting(
                 shapedRecipe.result,

@@ -49,19 +49,20 @@ const packagedPredicates = components=>{
 //原料 → {item: Ingredient JSON, components?: ..., count: 数量}
 const packagedIngredient = value=>{
     const raw = Array.isArray(value) ? value[0] : value
+    let counted, parsed
 
     if(!raw) return null
 
     if(typeof raw === "string"){
-        const {count,id} = toCounted(raw)
+        counted = toCounted(raw)
 
-        if(id.startsWith("#")) return {"item":{"tag":id.substring(1)},"count":count}
+        if(counted.id.startsWith("#")) return {"item":{"tag":counted.id.substring(1)},"count":counted.count}
 
-        const parsed = packagedComponents(id)
+        parsed = packagedComponents(counted.id)
 
         return parsed ?
-            {"item":{"item":parsed.id},"components":packagedPredicates(parsed.components),"count":count} :
-            {"item":{"item":id},"count":count}
+            {"item":{"item":parsed.id},"components":packagedPredicates(parsed.components),"count":counted.count} :
+            {"item":{"item":counted.id},"count":counted.count}
     }
 
     const count = raw.count || 1
@@ -85,13 +86,15 @@ const packagedIngredient = value=>{
 
 //产物 → ItemStack JSON
 const packagedStack = value=>{
+    let counted, parsed
+
     if(typeof value === "string"){
-        const {count,id} = toCounted(value)
-        const parsed = packagedComponents(id)
+        counted = toCounted(value)
+        parsed = packagedComponents(counted.id)
 
         return parsed ?
-            {"count":count,"id":parsed.id,"components":parsed.components} :
-            {"count":count,"id":id}
+            {"count":counted.count,"id":parsed.id,"components":parsed.components} :
+            {"count":counted.count,"id":counted.id}
     }
 
     if(value && value.id) return Object.assign({"count":value.count || 1}, value)
