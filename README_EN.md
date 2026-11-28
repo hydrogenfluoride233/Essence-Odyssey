@@ -12,7 +12,7 @@
 [![Download](https://img.shields.io/badge/CurseForge-download-F16436.svg?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/modpacks/essence-odyssey)
 [![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-lightgrey.svg)](LICENSE)
 
-This is a modpack built around technology, magic, and adventure. Explore six dimensions, unravel the six primary aspects, establish cross-mod production lines, and progress toward the endgame through rituals and automation. Embark on an odyssey across worlds, and seek the origin of the world.
+A modpack built on technology, magic and adventure. You travel through six dimensions, work out the six primary aspects, set up production lines that cross mod boundaries, and use rituals and automation to work your way toward the endgame and the origin of the world.
 
 CurseForge page: <https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
@@ -20,13 +20,13 @@ CurseForge page: <https://www.curseforge.com/minecraft/modpacks/essence-odyssey>
 
 ## Story
 
-You are an ordinary person in the world of Minecraft. One day you find a note — the world it describes is not quite the one you know: amethyst shards react to something, and the world seems to be responding. You don't know why. But you want to know why. You follow that note and keep walking.
+You are an ordinary person in a world of blocks. One day you find a notebook, and the world it describes is not quite the one you know. Amethyst reacts to certain things, and the world seems to be answering something. You don't know why, but you want to, so you follow the notebook.
 
-You walk through six dimensions and gather six primary aspects. You find a meteorite. Hidden inside it is a record that belongs to no civilization you know of. You decipher it, and for the first time see how this world works.
+You cross six dimensions and gather six primary aspects. Then you find a meteorite holding a record that belongs to no known civilization. You decipher it, and for the first time you see how this world works.
 
-Later you begin using technology and magic to turn aspects into other forms, mass-producing them, and combining primary aspects into secondary ones — step by step closing in on the question you could not answer at first: why is the world responding to you?
+After that you use technology and magic to turn aspects into other forms, produce them in bulk, and combine primary aspects into secondary ones, getting closer each step to the question you couldn't answer at the start: why is the world answering you?
 
-No one tells you where to go. You have only a note, and a path you walked for yourself.
+No one tells you where to go. All you have is a notebook and a path you made yourself.
 
 ## Gameplay
 
@@ -36,19 +36,19 @@ No one tells you where to go. You have only a note, and a path you walked for yo
 |---|---|---|---|---|---|---|
 | Aspect | Water | Fire | Earth | Air | Chaos | Order |
 
-Each dimension has its own way of yielding its aspect: interact with the dimension using amethyst shards to get the matching aspect crystal.
+Each dimension has its own way of yielding its aspect. The basic method is to use amethyst shards on the dimension to get the matching aspect crystal.
 
 ### Forms of an aspect
 
-Aspects start as solid crystals, then become liquid fluids and gaseous quintessence, with derived forms along the way: Nature's Aura tokens, Ars Nouveau essences, Neo Vitae inscription tools, and Botania runes. Each form has its own way of being obtained and its own uses, and they open up layer by layer as you progress.
+Aspects start as solid crystals, then become liquid fluids and gaseous quintessence. Along the way you also make Nature's Aura tokens, Ars Nouveau essences, Neo Vitae inscription tools and Botania runes. Each form has its own source and uses, and they open up one layer at a time as you progress.
 
 ### Secondary aspects
 
-Pairing the six primary aspects gives 15 secondary aspects. There is more than one production route, so you can pick the one that fits your tech line (this part is not finished yet).
+The six primary aspects combine in pairs into 15 secondary aspects. There is more than one way to produce them, so you can pick the route that fits your tech line (this part is still in progress).
 
 ### Technology, magic and adventure
 
-The three threads run in parallel and interweave. AE2 is part of the progression from early on, not something unlocked late.
+The three lines advance together and depend on each other. AE2 is part of the progression from the early game, so you don't have to wait until late game to unlock it.
 
 ## Installing
 
@@ -57,15 +57,15 @@ The three threads run in parallel and interweave. AE2 is part of the progression
 
 ## Status and Feedback
 
-The pack is in early development. The main questline and the endgame are not finished yet, and chapters are still being filled in one by one. You may run into placeholder content — or the occasional "Intentional Game Design".
+The pack is in early development. The main questline and the endgame are not finished, and chapters are still being added one at a time. You may run into placeholder content, or the occasional bit of "intentional game design".
 
-During development the pack ships complete Chinese content and basic English content (English began with 0.2.2 and grows with each release). The English translation and localization will be completed once the main content and systems are largely done.
+During development the pack ships complete Chinese content and basic English content. English support started in 0.2.2 and keeps growing with each release. Full English translation and localization will come once the main content and systems are mostly done.
 
 Report problems via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues), the CurseForge page, or the official QQ group (1077071243).
 
 ## Development Builds and Contributing
 
-This repository is the pack's development instance: work in progress is committed here directly. Development builds are unreleased content; they may break, and save compatibility is not guaranteed.
+This repository is the pack's development instance, and work in progress is committed here directly. Development builds are unreleased. They may have bugs, and save compatibility is not guaranteed.
 
 The developer documents are in Chinese:
 
@@ -99,13 +99,13 @@ The developer documents are in Chinese:
 
 | Scope | License |
 |---|---|
-| The modpack and everything under `config/`, `defaultconfigs/`, `data/`, `kubejs/` | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| The modpack and everything under `config/`, `defaultconfigs/` and `kubejs/` | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | Original `.js` scripts under `kubejs/` | [MIT](kubejs/LICENSE) |
 | The in-house core mod `Essence Odyssey Core` (`essenceodyssey`) | All Rights Reserved; unmodified binaries may be redistributed with this pack, and release builds are also published on CurseForge; not for use in other modpacks; no public API |
 | Third-party content (mods, community translations, adapted textures) | Their own licenses; see [THIRD-PARTY.md](THIRD-PARTY.md) |
 
-The CC BY-NC-SA 4.0 row above does not cover the two bare jars under `mods/` (`Aether's Delight` and the core mod); they are distributed under their own projects' terms and the table above.
+The CC BY-NC-SA 4.0 row does not cover the two jars committed directly under `mods/` (`Aether's Delight` and the core mod). Each is distributed under its own project's terms and the table above.
 
-The title screen art is drawn by 萧云 and is owned by the pack author; it ships with the core mod, and the artist keeps the right to show the artwork for personal promotion.
+The title screen art is by 萧云 and is owned by the pack author. It ships with the core mod, and the artist keeps the right to show it for personal promotion.
 
-If you repost or adapt this pack, credit "Essence Odyssey by hydrogenfluoride", link the license, and state whether you made changes; commercial use is not allowed, and adaptations must be released under the same license. Full text: [LICENSE](LICENSE).
+If you repost or adapt this pack, credit "Essence Odyssey by hydrogenfluoride", link the license and say whether you made changes. Commercial use is not allowed, and adaptations must be released under the same license. Full text: [LICENSE](LICENSE).
