@@ -12,7 +12,7 @@ UPSTREAM="https://github.com/hydrogenfluoride233/Essence-Odyssey.git"
 
 GAME=""
 # first line only; drop a Windows line ending and a UTF-8 BOM (some editors add one)
-if [ -f "$PACK/game-path.txt" ]; then GAME="$(head -n 1 "$PACK/game-path.txt" | tr -d '\r')"; GAME="${GAME#$'\xEF\xBB\xBF'}"; fi
+if [ -f "$PACK/game-path.txt" ]; then GAME="$(head -n 1 "$PACK/game-path.txt" | tr -d '\r')"; GAME=${GAME#$'\xEF\xBB\xBF'}; fi
 if [ -n "${1:-}" ]; then GAME="$1"; fi
 if [ -z "$GAME" ]; then GAME="$PACK"; fi
 

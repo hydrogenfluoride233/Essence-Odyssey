@@ -9,12 +9,9 @@ rem read java-path.txt / game-path.txt as UTF-8 (what Notepad saves); the old co
 for /f "tokens=*" %%a in ('chcp') do for %%b in (%%a) do set "OLDCP=%%b"
 if defined OLDCP set "OLDCP=%OLDCP:.=%"
 chcp 65001 >nul
-rem stop at the end for double-click and drag-and-drop; stay quiet when a launcher runs it,
-rem i.e. it passes the game folder as the second argument or sets INST_MC_DIR / INST_JAVA (Prism and other MultiMC-style launchers)
-set "HOLD=1"
-if not "%~2"=="" set "HOLD="
-if defined INST_MC_DIR set "HOLD="
-if defined INST_JAVA set "HOLD="
+rem stop at the end only when run with no arguments (double-click); a launcher passes java.exe and must not wait on a key
+set "HOLD="
+if "%~1"=="" set "HOLD=1"
 set "PACK=%~dp0"
 set "PACKDIR=%PACK:~0,-1%"
 set "UPSTREAM=https://github.com/hydrogenfluoride233/Essence-Odyssey.git"
@@ -31,6 +28,13 @@ set "P=%GAME%"
 call :tidy
 set "GAME=%P%"
 if not defined GAME set "GAME=%PACKDIR%"
+rem (no ( ) block here: a ")" in the path, e.g. Program Files (x86), would close it early)
+if exist "%GAME%\" goto gameok
+echo [x] Game folder not found: "%GAME%"
+echo     Check game-path.txt (save it as UTF-8) or the folder your launcher passes.
+set "RC=1"
+goto end
+:gameok
 
 rem ---- find java.exe ----
 rem a remembered path goes stale when Java is updated or removed: look again
@@ -107,5 +111,6 @@ if "%P:~1,2%"=="\\" set "P=%P:~1%"
 if not defined P goto :eof
 if not "%P:~-1%"=="\" goto :eof
 set "P=%P:~0,-1%"
+if not defined P goto :eof
 if "%P:~-1%"==":" set "P=%P%\."
 goto tidy_tail
