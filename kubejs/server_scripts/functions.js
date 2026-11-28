@@ -61,7 +61,7 @@ const toFluidJson = text=>{
     return {"amount":count,"id":id}
 }
 
-//流体原料 JSON（可带标签）："Nx #tag" → {amount,tag}，"Nx id" → {amount,id}；不写数量默认 1000
+//流体原料 JSON（可带标签）："Nx #tag" → {amount,tag}，"Nx id" → {amount,fluid}；不写数量默认 1000
 const toFluidIngredient = text=>{
     if(typeof text !== "string") return text
 
@@ -69,7 +69,7 @@ const toFluidIngredient = text=>{
 
     return id.startsWith("#") ?
         {"amount":count,"tag":id.substring(1)} :
-        {"amount":count,"id":id}
+        {"amount":count,"fluid":id}
 }
 
 //概率产物：条目统一写 [概率,"Nx 物品id"]，转 {chance,output:{id[,count]}}（NeoForge ChanceResult 风格）

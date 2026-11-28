@@ -11,7 +11,7 @@ ServerEvents.recipes(event=>{
         "mmcr:parallel_controller_reinforced",
     ]
 
-    RemoveList.forEach(id=>event.remove({id}))
+    event.remove(RemoveList.map(id=>({id})))
 
     //工作台配方
     event.shaped(
@@ -190,29 +190,33 @@ ServerEvents.recipes(event=>{
     })
 
     //旧端口配方移除
-    event.remove({id:/^mmcr:item_(input|output)_bus(_reinforced|_big|_huge|_ludicrous)?$/})
-    event.remove({id:/^mmcr:fluid_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/})
-    event.remove({id:/^mmcr:energy_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/})
-    event.remove({id:/^mmcr:chemical_(input|output)_hatch_(basic|advanced|elite|ultimate)$/})
-    event.remove({id:/^mmcr:(ars_source|create_stress|pneumaticcraft_air)_(input|output)_interface$/})
-    event.remove({id:/^mmcr:(heat|radioactive_chemical)_(input|output)_hatch$/})
-    event.remove({id:/^mmcr:(ae2_me|appflux_me_flux)_(input|output)_interface$/})
-    event.remove({id:/^mmcr:fluxnetworks_energy_(input|output)_interface$/})
-    event.remove({id:/^mmcr:(ae2_me_pattern_interface|eae_me_extended_pattern_interface)$/})
-    event.remove({id:/^mmcr:(ae2_me_stocking_input_interface|ae2_me_async_output_interface)$/})
-    event.remove({id:/^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)$/})
+    const OldPortRemovals = [
+        {id:/^mmcr:item_(input|output)_bus(_reinforced|_big|_huge|_ludicrous)?$/},
+        {id:/^mmcr:fluid_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/},
+        {id:/^mmcr:energy_(input|output)_hatch(_reinforced|_big|_huge|_ludicrous)?$/},
+        {id:/^mmcr:chemical_(input|output)_hatch_(basic|advanced|elite|ultimate)$/},
+        {id:/^mmcr:(ars_source|create_stress|pneumaticcraft_air)_(input|output)_interface$/},
+        {id:/^mmcr:(heat|radioactive_chemical)_(input|output)_hatch$/},
+        {id:/^mmcr:(ae2_me|appflux_me_flux)_(input|output)_interface$/},
+        {id:/^mmcr:fluxnetworks_energy_(input|output)_interface$/},
+        {id:/^mmcr:(ae2_me_pattern_interface|eae_me_extended_pattern_interface)$/},
+        {id:/^mmcr:(ae2_me_stocking_input_interface|ae2_me_async_output_interface)$/},
+        {id:/^mmcr:eae_me_(extended_(input|output|stocking_input)_interface|oversize_(input|output|stocking_input)_interface)$/},
+    ]
 
     //禁用内容
-    event.remove({id:/^mmcr:extended_item_(input|output)_bus_/})
-    event.remove({id:/^mmcr:(extended_)?combined_(input|output)_/})
-    event.remove({id:/^mmcr:extended_(fluid|energy)_(input|output)_hatch_/})
-    event.remove({id:/^mmcr:(item_(input|output)_bus|fluid_(input|output)_hatch|energy_(input|output)_hatch)_(tiny|small)$/})
-    event.remove({id:/^mmcr:fluid_(input|output)_hatch_vacuum$/})
-    event.remove({id:/^mmcr:energy_(input|output)_hatch_ultimate$/})
-    event.remove({id:/^mmcr:parallel_controller_(pro|elite|fantasy|max|ultimate)$/})
-    event.remove({id:/^mmcr:upgrade_bus_/})
-
     const DisabledParts = ["smart_interface","data_storage","network_interface","module_bridge","key_card"]
 
-    DisabledParts.forEach(id=>event.remove({output:`mmcr:${id}`}))
+    const DisabledRemovals = [
+        {id:/^mmcr:extended_item_(input|output)_bus_/},
+        {id:/^mmcr:(extended_)?combined_(input|output)_/},
+        {id:/^mmcr:extended_(fluid|energy)_(input|output)_hatch_/},
+        {id:/^mmcr:(item_(input|output)_bus|fluid_(input|output)_hatch|energy_(input|output)_hatch)_(tiny|small)$/},
+        {id:/^mmcr:fluid_(input|output)_hatch_vacuum$/},
+        {id:/^mmcr:energy_(input|output)_hatch_ultimate$/},
+        {id:/^mmcr:parallel_controller_(pro|elite|fantasy|max|ultimate)$/},
+        {id:/^mmcr:upgrade_bus_/},
+    ].concat(DisabledParts.map(id=>({output:`mmcr:${id}`})))
+
+    event.remove(OldPortRemovals.concat(DisabledRemovals))
 })
