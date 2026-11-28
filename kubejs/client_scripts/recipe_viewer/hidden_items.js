@@ -70,12 +70,32 @@ RecipeViewerEvents.removeEntries("item",event=>{
         "productivebees:honey_generator",//蜂蜜发电机
     ]
 
-    event.remove(stack=>
-        HideList.some(entry=>entry instanceof RegExp ? entry.test(stack.id) : entry === stack.id))
+    //HideList 拆成精确 id 表和正则，脚本加载时拆一次；下面每个物品只查一遍
+    const HideIds = {}
+    const HidePatterns = []
+    HideList.forEach(entry=>{
+        if (entry instanceof RegExp) HidePatterns.push(entry)
+        else HideIds[entry] = true
+    })
 
-    //合并动态过滤
+    //盆栽：只留这几种
+    const KeptPots = {
+        "botanypots:terracotta_botany_pot":true,
+        "botanypots:terracotta_hopper_botany_pot":true,
+        "botanypotstiers:elite_terracotta_botany_pot":true,
+        "botanypotstiers:elite_terracotta_hopper_botany_pot":true,
+        "botanypotstiers:ultra_terracotta_botany_pot":true,
+        "botanypotstiers:ultra_terracotta_hopper_botany_pot":true,
+        "botanypotstiers:mega_terracotta_botany_pot":true,
+        "botanypotstiers:mega_terracotta_hopper_botany_pot":true
+    }
+
+    //固定列表与动态过滤合在一个判断里
     event.remove(stack=>{
-        const id = stack.id
+        const id = String(stack.id)
+
+        if (HideIds[id] === true) return true
+        if (HidePatterns.some(pattern=>pattern.test(id))) return true
 
         //灵魂瓶
         if (id == "enderio:soul_vial") return stack.get("enderio:soul") != null
@@ -84,19 +104,8 @@ RecipeViewerEvents.removeEntries("item",event=>{
         if (id == "quark:seed_pouch") return stack.get("quark:stored_item") != null
 
         //盆栽
-        const KeptPots = [
-            "botanypots:terracotta_botany_pot",
-            "botanypots:terracotta_hopper_botany_pot",
-            "botanypotstiers:elite_terracotta_botany_pot",
-            "botanypotstiers:elite_terracotta_hopper_botany_pot",
-            "botanypotstiers:ultra_terracotta_botany_pot",
-            "botanypotstiers:ultra_terracotta_hopper_botany_pot",
-            "botanypotstiers:mega_terracotta_botany_pot",
-            "botanypotstiers:mega_terracotta_hopper_botany_pot",
-        ]
-        
         if ((id.startsWith("botanypots:") || id.startsWith("botanypotstiers:")) &&
-            id.endsWith("_botany_pot")) return !KeptPots.includes(id)
+            id.endsWith("_botany_pot")) return KeptPots[id] !== true
 
         //生长锄
         return id.endsWith("_hoe") &&
