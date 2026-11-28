@@ -5,10 +5,6 @@ RecipeViewerEvents.addInformation("item",event=>{
         Text.translate("essenceodyssey.info.steel_block.detail")
     ])//steel_block
 
-    event.add("aether:aerogel", [
-        Text.translate("essenceodyssey.info.aerogel.detail")
-    ])//aerogel
-
     event.add("deep_aether:aersmog", [
         Text.translate("essenceodyssey.info.aersmog.detail")
     ])//aersmog
@@ -61,10 +57,6 @@ RecipeViewerEvents.addInformation("item",event=>{
         Text.translate("essenceodyssey.info.starlit_lily_pad.detail")
     ])//starlit_lily_pad
 
-    event.add("kubejs:crystal_perditio", [
-        Text.translate("essenceodyssey.info.crystal_perditio.detail")
-    ])//crystal_perditio
-
     event.add("kubejs:blood_clot", [
         Text.translate("essenceodyssey.info.blood_clot.detail")
     ])//blood_clot
@@ -96,10 +88,6 @@ RecipeViewerEvents.addInformation("item",event=>{
     event.add("actuallyadditions:emeradic_crystal", [
         Text.translate("essenceodyssey.info.emeradic_crystal.detail")
     ])//emeradic_crystal
-
-    event.add("astralsorcery:infused_wood", [
-        Text.translate("essenceodyssey.info.infused_wood.detail")
-    ])//infused_wood
 
     event.add("deep_aether:goldenleaf_berries", [
         Text.translate("essenceodyssey.info.goldenleaf_berries.detail")
