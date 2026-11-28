@@ -335,6 +335,5 @@ ServerEvents.recipes(event=>{
 
     ]
 
-    recipes.forEach(recipe =>
-        event.remove(recipe))
+    event.remove(recipes)
 })

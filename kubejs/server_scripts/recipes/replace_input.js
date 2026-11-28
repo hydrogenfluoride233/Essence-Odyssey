@@ -268,10 +268,10 @@ ServerEvents.recipes(event=>{
         {mod:"industrialforegoingsouls"}
     ]
 
-    Mods.forEach(filter=>Swaps.forEach(([from,to])=>
+    Swaps.forEach(([from,to])=>
         event.replaceInput(
-            filter,
+            Mods,
             {match:from,exact:true},
             to
-        )))
+        ))
 })

@@ -2,15 +2,6 @@ ServerEvents.recipes(event=>{
     const id_prefix = "kubejs:pneumaticcraft/thermo_plant/"
     const Required = ["id","item_input","temperature"]
 
-    //热气动加工机的流体输入：{amount,fluid} 或 {amount,tag}
-    const parseFluidInput = text=>{
-        const {count,id}=toCounted(text)
-
-        return id.startsWith("#") ?
-            {"amount":count,"tag":id.substring(1)} :
-            {"amount":count,"fluid":id}
-    }
-
     const recipes = [
         {
             item_output:"actuallyadditions:advanced_coil",
@@ -42,7 +33,7 @@ ServerEvents.recipes(event=>{
         const outputs = {}
 
         if(recipe.item_input) inputs.item = toIngredient(recipe.item_input)
-        if(recipe.fluid_input) inputs.fluid = parseFluidInput(recipe.fluid_input)
+        if(recipe.fluid_input) inputs.fluid = toFluidIngredient(recipe.fluid_input)
         if(recipe.item_output) outputs.item_output = toItemStack(recipe.item_output)
         if(recipe.fluid_output) outputs.fluid_output = toFluidJson(recipe.fluid_output)
 
