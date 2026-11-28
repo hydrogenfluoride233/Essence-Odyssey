@@ -59,7 +59,7 @@ The three lines advance together and depend on each other. AE2 is part of the pr
 
 The pack is in early development. The main questline and the endgame are not finished, and chapters are still being added one at a time. You may run into placeholder content, or the occasional bit of "intentional game design".
 
-During development the pack ships complete Chinese content and basic English content. English support started in 0.2.2 and keeps growing with each release. Full English translation and localization will come once the main content and systems are mostly done.
+During development the pack ships complete Chinese content and basic English content. English support started in 0.2.2 and is being expanded over time. Full English translation and localization will come once the main content and systems are mostly done.
 
 Report problems via [Issues](https://github.com/hydrogenfluoride233/Essence-Odyssey/issues), the CurseForge page, or the official QQ group (1077071243).
 
