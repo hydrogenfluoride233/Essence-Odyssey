@@ -3350,11 +3350,11 @@ hash = "7e17bae1903f17ca0c094b13ab4038a3e9a7955715f9f5222e795f9f7aff2587"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/en_us.json"
-hash = "4fd0314201f04b9b4632262c54383f4c40cfda98b814fbfa3b37286b37dd001b"
+hash = "2ba6d86ce02cf9907e45a6259a1e5b8ec3bc9443739514e91d4f3b26f79592f8"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/lang/zh_cn.json"
-hash = "b178ab4d8fbefd0ab018fc0978b2d0e37004458776a3fcea0bfa3730aeb25eae"
+hash = "6ba6692365ef30eede6a5a35d846c03f5b028557d361a31c4c6b8c310407a5b4"
 
 [[files]]
 file = "kubejs/assets/essenceodyssey/tips/1.json"
@@ -5638,7 +5638,7 @@ hash = "13d050d6fef6eb08a0aad8c7cf6480b7cc3d415af67083bf28122c0ca6510752"
 
 [[files]]
 file = "kubejs/client_scripts/recipe_viewer/info_generated.js"
-hash = "488bfdde641fa19b069bc62420b087eda06adc642701c4f972898f9df2f242f0"
+hash = "f259b2c3bb20e75dbcc4e2bf2681d0f51ca80643e04dac510160e06a9519838f"
 
 [[files]]
 file = "kubejs/config/client.json"
