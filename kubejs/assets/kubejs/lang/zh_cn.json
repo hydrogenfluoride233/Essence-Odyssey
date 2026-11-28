@@ -219,6 +219,7 @@
 
   "kubejs.tips.aether_is_yellow":"§e来自天境的提示是黄色的！",
   "kubejs.tips.twilight_is_green":"§a来自暮色森林的提示是绿色的！",
+  "kubejs.tips.zz_test_a":"【测试A】这条来自 kubejs 命名空间 —— 谁能读到我？",
   "kubejs.info.aura_bottle_overworld":"用瓶与塞在主世界右键以收集瓶装阳光。",
   "kubejs.info.aura_bottle_nether":"用瓶与塞在下界右键以收集瓶装鬼魂。",
   "kubejs.info.aura_bottle_end":"用瓶与塞在末地右键以收集瓶装黑暗。",
